@@ -543,19 +543,280 @@
             opacity: 1;
         }
         
-        /* 响应式 */
+        /* ==================== 响应式设计 ==================== */
+        
+        /* 平板竖屏 (600px - 768px) */
+        @media (max-width: 768px) {
+            .game-modules {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+            
+            .game-header {
+                padding: 12px 15px;
+            }
+            
+            .game-title {
+                font-size: 1.2em;
+            }
+            
+            .module-card {
+                padding: 15px;
+            }
+            
+            .module-icon {
+                font-size: 2em;
+            }
+            
+            .module-title {
+                font-size: 1em;
+            }
+            
+            .question-box {
+                padding: 15px;
+            }
+            
+            .option {
+                padding: 12px 15px;
+                font-size: 0.95em;
+            }
+            
+            /* 九宫格调整 */
+            .jiugong-char {
+                font-size: 1.5em;
+            }
+            
+            /* 点字成诗调整 */
+            .dianzi-char {
+                width: 40px;
+                height: 40px;
+                font-size: 1.3em;
+            }
+            
+            .selected-char {
+                width: 35px;
+                height: 35px;
+                font-size: 1.1em;
+            }
+        }
+        
+        /* 手机竖屏 (≤600px) */
         @media (max-width: 600px) {
             .game-modules {
                 grid-template-columns: 1fr;
+                gap: 10px;
             }
-
+            
             .logo {
-                font-size: 1.4em;
+                font-size: 1.3em;
             }
-
+            
+            .game-header {
+                padding: 10px 12px;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+            
+            .game-title {
+                font-size: 1.1em;
+            }
+            
+            .game-progress {
+                gap: 10px;
+            }
+            
+            .progress-item {
+                font-size: 0.85em;
+                padding: 4px 8px;
+            }
+            
+            .module-card {
+                padding: 12px;
+                border-radius: 12px;
+            }
+            
+            .module-icon {
+                font-size: 1.8em;
+            }
+            
+            .module-title {
+                font-size: 0.95em;
+            }
+            
+            .module-desc {
+                font-size: 0.8em;
+            }
+            
+            .question-box {
+                padding: 12px;
+                margin: 10px;
+            }
+            
+            .question-text {
+                font-size: 1em;
+            }
+            
+            .option {
+                padding: 10px 12px;
+                font-size: 0.9em;
+                margin-bottom: 8px;
+            }
+            
+            .option-letter {
+                width: 24px;
+                height: 24px;
+                font-size: 0.85em;
+            }
+            
             .result-stats {
                 flex-direction: column;
-                gap: 15px;
+                gap: 10px;
+            }
+            
+            /* 九宫格调整 */
+            #jiugonggeGrid {
+                gap: 6px;
+            }
+            
+            .jiugong-char {
+                font-size: 1.3em;
+                border-radius: 8px;
+            }
+            
+            /* 点字成诗调整 */
+            #dianziGrid {
+                gap: 5px;
+            }
+            
+            .dianzi-char {
+                width: 36px;
+                height: 36px;
+                font-size: 1.2em;
+                border-radius: 8px;
+            }
+            
+            .selected-char {
+                width: 32px;
+                height: 32px;
+                font-size: 1em;
+            }
+            
+            .selected-poem {
+                min-height: 40px;
+                padding: 8px;
+            }
+            
+            /* 飞花令调整 */
+            #feihuaKeyword {
+                font-size: 2.5em;
+            }
+            
+            .feihua-poem {
+                font-size: 0.85em;
+                padding: 6px 12px;
+            }
+            
+            /* 用户菜单调整 */
+            .user-menu {
+                right: 5px;
+                top: 50px;
+                min-width: 160px;
+            }
+            
+            /* 成就弹窗调整 */
+            .achievement-badge {
+                width: 90%;
+                max-width: 300px;
+            }
+            
+            /* Toast调整 */
+            .toast {
+                left: 10px;
+                right: 10px;
+                bottom: 20px;
+            }
+            
+            .btn {
+                padding: 10px 20px;
+                font-size: 0.95em;
+            }
+        }
+        
+        /* 手机横屏 (≤850px landscape) */
+        @media (max-height: 500px) and (orientation: landscape) {
+            .game-modules {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .question-box {
+                margin: 5px;
+                padding: 10px;
+            }
+            
+            .question-text {
+                font-size: 0.95em;
+            }
+            
+            .options-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+            }
+            
+            .option {
+                margin-bottom: 0;
+            }
+        }
+        
+        /* iPad 横屏 (768px - 1024px) */
+        @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+            .game-modules {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .question-box {
+                max-width: 700px;
+                margin: 0 auto;
+            }
+        }
+        
+        /* 安全区域适配 (iPhone X 及以上) */
+        @supports (padding: max(0px)) {
+            .game-container {
+                padding-left: max(0px, env(safe-area-inset-left));
+                padding-right: max(0px, env(safe-area-inset-right));
+            }
+            
+            .toast {
+                bottom: max(20px, env(safe-area-inset-bottom));
+            }
+        }
+        
+        /* 触摸设备优化 */
+        @media (hover: none) and (pointer: coarse) {
+            .option:hover {
+                transform: none;
+                box-shadow: 0 2px 8px var(--shadow);
+            }
+            
+            .option:active {
+                transform: scale(0.98);
+            }
+            
+            .module-card:hover {
+                transform: none;
+            }
+            
+            .module-card:active {
+                transform: scale(0.98);
+            }
+            
+            .jiugong-char:hover {
+                transform: none;
+            }
+            
+            .jiugong-char:active {
+                transform: scale(0.95);
             }
         }
 
