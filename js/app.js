@@ -690,6 +690,9 @@ function generateMatchQuestions(count) {
     // 使用QUESTIONS_DATA生成题目
     const questions = [];
     
+    // 干扰字库
+    const 干扰字 = '春夏秋冬日月山水风云花鸟虫鱼天地人'.split('');
+    
     // 随机选取题目
     const shuffled = [...QUESTIONS_DATA].sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, Math.min(count, shuffled.length));
@@ -710,19 +713,22 @@ function generateMatchQuestions(count) {
             gameType: q.type === 'fill' ? 'dianzichengshi' : 'choice'
         };
         
-        // 如果是填空题，生成字符数组用于九宫格/点字成诗
-        if (q.type === 'fill' && q.answer) {
-            // 分割答案为字符，并添加一些干扰字
-            const chars = q.answer.replace(/[，、。！？""''【】（）]/g, '').split('');
-            const干扰字 = '春夏秋冬日月山水风云花鸟虫鱼天地人'.split('');
-            while (chars.length < 9) {
-                const 随机字 = 干扰字[Math.floor(Math.random() * 干扰字.length)];
-                if (!chars.includes(随机字)) chars.push(随机字);
-            }
-            // 打乱字符
-            chars.sort(() => Math.random() - 0.5);
-            gameQ.chars = chars;
+        // 生成字符数组（用于九宫格/点字成诗）
+        let chars = [];
+        if (q.answer) {
+            // 从答案中提取字符
+            chars = q.answer.replace(/[，、。！？""''【】（）可件条和与及等]/g, '').split('');
         }
+        
+        // 添加干扰字直到有9个
+        while (chars.length < 9) {
+            const 随机字 = 干扰字[Math.floor(Math.random() * 干扰字.length)];
+            if (!chars.includes(随机字)) chars.push(随机字);
+        }
+        
+        // 打乱字符
+        chars.sort(() => Math.random() - 0.5);
+        gameQ.chars = chars;
         
         questions.push(gameQ);
     });
