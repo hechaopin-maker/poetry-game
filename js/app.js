@@ -687,24 +687,46 @@ function startMatch() {
 }
 
 function generateMatchQuestions(count) {
+    // 使用QUESTIONS_DATA生成题目
     const questions = [];
     
-    // 添加点字成诗
-    const dianzi = POETRY_QUESTIONS.dianzichengshi || [];
-    const shuffledDianzi = [...dianz].sort(() => Math.random() - 0.5);
-    shuffledDianzi.slice(0, Math.ceil(count / 2)).forEach(q => {
-        questions.push({ ...q, gameType: 'dianzichengshi' });
+    // 随机选取题目
+    const shuffled = [...QUESTIONS_DATA].sort(() => Math.random() - 0.5);
+    const selected = shuffled.slice(0, Math.min(count, shuffled.length));
+    
+    selected.forEach(q => {
+        // 获取诗词信息
+        const poem = q.poemId ? POEMS_DATA.find(p => p.id === q.poemId) : null;
+        
+        // 将题目转换为消消乐格式
+        const gameQ = {
+            id: q.id,
+            question: q.question,
+            answer: q.answer,
+            options: q.options,
+            poem: poem?.title || null,
+            author: poem?.author || null,
+            explanation: q.explanation,
+            gameType: q.type === 'fill' ? 'dianzichengshi' : 'choice'
+        };
+        
+        // 如果是填空题，生成字符数组用于九宫格/点字成诗
+        if (q.type === 'fill' && q.answer) {
+            // 分割答案为字符，并添加一些干扰字
+            const chars = q.answer.replace(/[，、。！？""''【】（）]/g, '').split('');
+            const干扰字 = '春夏秋冬日月山水风云花鸟虫鱼天地人'.split('');
+            while (chars.length < 9) {
+                const 随机字 = 干扰字[Math.floor(Math.random() * 干扰字.length)];
+                if (!chars.includes(随机字)) chars.push(随机字);
+            }
+            // 打乱字符
+            chars.sort(() => Math.random() - 0.5);
+            gameQ.chars = chars;
+        }
+        
+        questions.push(gameQ);
     });
     
-    // 添加九宫格
-    const jiugong = POETRY_QUESTIONS.jiugongge || [];
-    const shuffledJiu = [...jiugong].sort(() => Math.random() - 0.5);
-    shuffledJiu.slice(0, Math.floor(count / 2)).forEach(q => {
-        questions.push({ ...q, gameType: 'jiugongge' });
-    });
-    
-    // 打乱顺序
-    questions.sort(() => Math.random() - 0.5);
     return questions;
 }
 
