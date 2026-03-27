@@ -1075,7 +1075,7 @@ function showAchievements() {
                 <div class="module-icon">${a.icon}</div>
                 <div class="module-title">${a.name}</div>
                 <div class="module-desc">${a.desc}</div>
-                <div style="margin-top:5px;color:${unlocked ? '#4CAF50' : '#999};">
+                <div style="margin-top:5px;color:${unlocked ? '#4CAF50' : '#999'};">
                     ${unlocked ? '✅ 已解锁' : '🔒 未解锁'}
                 </div>
             </div>
