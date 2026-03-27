@@ -41,7 +41,7 @@ function saveUser() {
 }
 
 // 显示登录弹窗
-function showLoginModal() {
+function showLoginModal(pendingMode) {
     const username = prompt('请输入你的昵称：', '诗词达人');
     if (username && username.trim()) {
         gameState.currentUser = {
@@ -59,6 +59,24 @@ function showLoginModal() {
         saveUser();
         updateUserDisplay();
         showToast(`欢迎，${username}！开始诗词之旅吧！`);
+        
+        // 登录后继续启动游戏
+        if (pendingMode) {
+            continueStartGame(pendingMode);
+        }
+    }
+}
+
+// 登录后继续启动游戏
+function continueStartGame(mode) {
+    if (mode === 'challenge') {
+        showLevelSelect();
+    } else if (mode === 'daily') {
+        startDailyChallenge();
+    } else if (mode === 'feihua') {
+        startFeihua();
+    } else if (mode === 'match') {
+        startMatch();
     }
 }
 
@@ -107,7 +125,7 @@ function goHome() {
 // 开始游戏
 function startGame(mode) {
     if (!gameState.currentUser) {
-        showLoginModal();
+        showLoginModal(mode);
         return;
     }
     
