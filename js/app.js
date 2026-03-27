@@ -12,13 +12,19 @@ let gameState = {
     wrongCount: 0,
     questions: [],
     timer: null,
-    timeElapsed: 0
+    timeElapsed: 0,
+    dataLoaded: false
 };
 
 // ==================== 用户系统 ====================
 
-// 初始化用户
-function initUser() {
+// 初始化
+async function initUser() {
+    // 先加载诗词数据
+    await loadPoemsData();
+    gameState.dataLoaded = true;
+    
+    // 再加载用户
     loadUser();
     if (!gameState.currentUser) {
         showLoginModal();
