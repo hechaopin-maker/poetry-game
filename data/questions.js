@@ -482,9 +482,8 @@ const QUESTIONS_DATA = [
         explanation: "这是一句谚语，告诫人们不要以为自己是最努力的，还有更努力的人。",
         poemId: null,
         knowledgePoints: ["谚语", "格言", "勤奋"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_036",
         type: "fill",
@@ -759,9 +758,8 @@ const QUESTIONS_DATA = [
         explanation: "这句诗出自文天祥《过零丁洋》，表达的是诗人以身殉国的决心和爱国精神，而非追求流芳百世。",
         poemId: null,
         knowledgePoints: ["古诗鉴赏", "文天祥", "过零丁洋", "爱国"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu1_006",
         type: "fill",
@@ -1086,9 +1084,8 @@ const QUESTIONS_DATA = [
         explanation: "出自李贺《马诗》，描写边塞夜晚的寒冷景象。",
         poemId: null,
         knowledgePoints: ["古诗默写", "李贺", "马诗", "边塞"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_046",
         type: "fill",
@@ -1413,9 +1410,8 @@ const QUESTIONS_DATA = [
         explanation: "出自赵师秀《约客》，描写江南梅雨季节的景象。",
         poemId: null,
         knowledgePoints: ["古诗默写", "赵师秀", "约客", "梅雨"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_fbc_009",
         type: "fill",
@@ -2039,9 +2035,8 @@ const QUESTIONS_DATA = [
         explanation: "出自龚自珍《己亥杂诗》，表达对国家命运的担忧和变革的渴望。",
         poemId: null,
         knowledgePoints: ["古诗默写", "龚自珍", "己亥杂诗", "爱国"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu2_003",
         type: "fill",
@@ -2288,9 +2283,8 @@ const QUESTIONS_DATA = [
         explanation: "出自龚自珍《己亥杂诗》，以落红化作春泥护花比喻奉献精神。",
         poemId: null,
         knowledgePoints: ["古诗默写", "龚自珍", "己亥杂诗", "奉献"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu2_008",
         type: "fill",
@@ -2511,9 +2505,8 @@ const QUESTIONS_DATA = [
         explanation: "出自辛弃疾《破阵子·为陈同甫赋壮词以寄之》，表达建功立业的理想。",
         poemId: null,
         knowledgePoints: ["古诗默写", "辛弃疾", "破阵子", "志向"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu2_011",
         type: "fill",
@@ -2773,9 +2766,8 @@ const QUESTIONS_DATA = [
         explanation: "出自《左传·曹刿论战》，说明战争要得到人民支持。",
         poemId: null,
         knowledgePoints: ["古文默写", "左传", "曹刿论战", "战争"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_066",
         type: "fill",
@@ -2905,9 +2897,8 @@ const QUESTIONS_DATA = [
         explanation: "出自李白《静夜思》，表达诗人对故乡的深切思念。",
         poemId: null,
         knowledgePoints: ["古诗默写", "李白", "静夜思", "思乡"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_fbc_057",
         type: "fill",
@@ -3102,9 +3093,8 @@ const QUESTIONS_DATA = [
         explanation: "出自王勃《送杜少府之任蜀州》，描写送别地点和友人要去的地方。",
         poemId: null,
         knowledgePoints: ["古诗默写", "王勃", "送别", "送杜少府之任蜀州"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_076",
         type: "fill",
@@ -3364,9 +3354,8 @@ const QUESTIONS_DATA = [
         explanation: "出自王昌龄《从军行》，描写边塞黄昏的孤寂景象。",
         poemId: null,
         knowledgePoints: ["古诗默写", "王昌龄", "从军行", "边塞"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_091",
         type: "fill",
@@ -3626,9 +3615,8 @@ const QUESTIONS_DATA = [
         explanation: "出自刘禹锡《乌衣巷》，借燕子迁徙感叹世事变迁。",
         poemId: null,
         knowledgePoints: ["古诗默写", "刘禹锡", "乌衣巷", "怀古"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_101",
         type: "fill",
@@ -3888,9 +3876,8 @@ const QUESTIONS_DATA = [
         explanation: "出自王之涣《登鹳雀楼》，描写夕阳西下、黄河奔流入海的壮阔景象。",
         poemId: null,
         knowledgePoints: ["古诗默写", "王之涣", "登鹳雀楼", "写景"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu1_036",
         type: "fill",
@@ -4150,9 +4137,8 @@ const QUESTIONS_DATA = [
         explanation: "出自李贺《雁门太守行》，描写敌军压境、将士严阵以待的情景。",
         poemId: null,
         knowledgePoints: ["古诗默写", "李贺", "雁门太守行", "边塞"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_121",
         type: "fill",
@@ -4412,9 +4398,8 @@ const QUESTIONS_DATA = [
         explanation: "出自李白《早发白帝城》，描写诗人从白帝城返回江陵的轻快心情。",
         poemId: null,
         knowledgePoints: ["古诗默写", "李白", "早发白帝城", "抒情"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_zk_035",
         type: "fill",
@@ -4674,9 +4659,8 @@ const QUESTIONS_DATA = [
         explanation: "出自宋濂《送东阳马生序》，表现作者求教时的恭敬态度。",
         poemId: null,
         knowledgePoints: ["古文默写", "宋濂", "送东阳马生序", "求学"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu2_021",
         type: "fill",
@@ -4936,9 +4920,8 @@ const QUESTIONS_DATA = [
         explanation: "出自王维《山中送别》，表达诗人对友人的思念。",
         poemId: null,
         knowledgePoints: ["古诗默写", "王维", "送别", "思念"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_141",
         type: "fill",
@@ -5198,9 +5181,8 @@ const QUESTIONS_DATA = [
         explanation: "出自袁枚《所见》，描写牧童捕蝉时屏息凝神的可爱模样。",
         poemId: null,
         knowledgePoints: ["古诗默写", "袁枚", "所见", "田园"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_161",
         type: "fill",
@@ -5460,9 +5442,8 @@ const QUESTIONS_DATA = [
         explanation: "出自毛泽东《七律·长征》，描写红军渡过急流的英勇。",
         poemId: null,
         knowledgePoints: ["古诗默写", "毛泽东", "长征", "革命"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_fbc_097",
         type: "fill",
@@ -5722,9 +5703,8 @@ const QUESTIONS_DATA = [
         explanation: "出自陆游《游山西村》，表达对农村生活的热爱。",
         poemId: null,
         knowledgePoints: ["古诗默写", "陆游", "游山西村", "田园"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu1_056",
         type: "fill",
@@ -5984,9 +5964,8 @@ const QUESTIONS_DATA = [
         explanation: "出自陶弘景《答谢中书书》，描写山川美景。",
         poemId: null,
         knowledgePoints: ["古文默写", "陶弘景", "答谢中书书", "山水"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu2_031",
         type: "fill",
@@ -6246,9 +6225,8 @@ const QUESTIONS_DATA = [
         explanation: "出自孟浩然《夜归鹿门歌》，描写诗人归隐的心路历程。",
         poemId: null,
         knowledgePoints: ["古诗默写", "孟浩然", "夜归鹿门歌", "隐居"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_181",
         type: "fill",
@@ -6508,9 +6486,8 @@ const QUESTIONS_DATA = [
         explanation: "出自陆游《示儿》，表达诗人至死不忘收复失地的爱国情怀。",
         poemId: null,
         knowledgePoints: ["古诗默写", "陆游", "示儿", "爱国"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_201",
         type: "fill",
@@ -6770,9 +6747,8 @@ const QUESTIONS_DATA = [
         explanation: "出自李白《早发白帝城》，描写舟行迅速、两岸山景飞逝的景象。",
         poemId: null,
         knowledgePoints: ["古诗默写", "李白", "早发白帝城", "船行"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_fbc_127",
         type: "fill",
@@ -7032,9 +7008,8 @@ const QUESTIONS_DATA = [
         explanation: "出自王维《九月九日忆山东兄弟》，表达诗人想象兄弟们重阳登高的情景。",
         poemId: null,
         knowledgePoints: ["古诗默写", "王维", "重阳节", "思乡"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu1_066",
         type: "fill",
@@ -7294,9 +7269,8 @@ const QUESTIONS_DATA = [
         explanation: "出自《孟子》，阐述'舍生取义'的道理。",
         poemId: null,
         knowledgePoints: ["古文默写", "孟子", "鱼我所欲也", "正义"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu2_041",
         type: "fill",
@@ -7556,9 +7530,8 @@ const QUESTIONS_DATA = [
         explanation: "出自王之涣《凉州词》，表达戍边士兵的思乡之情。",
         poemId: null,
         knowledgePoints: ["古诗默写", "王之涣", "凉州词", "边塞"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_fbc_147",
         type: "fill",
@@ -7818,9 +7791,8 @@ const QUESTIONS_DATA = [
         explanation: "出自李白《渡荆门送别》，描写船过荆门的壮阔景象。",
         poemId: null,
         knowledgePoints: ["古诗默写", "李白", "渡荆门送别", "送别"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_chu1_076",
         type: "fill",
@@ -8080,9 +8052,8 @@ const QUESTIONS_DATA = [
         explanation: "出自陶弘景《答谢中书书》，描写山川美景。",
         poemId: null,
         knowledgePoints: ["古文默写", "陶弘景", "答谢中书书", "山水"]
-    }
-];
-    ,
+    },
+    
     {
         id: "q_mk_231",
         type: "fill",
