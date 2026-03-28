@@ -507,13 +507,14 @@ async function startFeihua() {
     }
     
     // 检查飞花令数据
-    if (typeof FEIHUA_FULL_DATA === 'undefined' || !FEIHUA_FULL_DATA.keywords) {
+    if (typeof FEIHUA_FULL_DATA === 'undefined' || !FEIHUA_FULL_DATA.categories) {
         showToast('飞花令数据未加载');
         return;
     }
     
     // 重置状态
     feihuaState = {
+        category: null,
         keyword: null,
         poems: [],
         currentIndex: 0,
@@ -524,22 +525,26 @@ async function startFeihua() {
         isPlaying: false
     };
     
-    // 获取所有可用关键字
-    const keywords = Object.keys(FEHUA_FULL_DATA.keywords);
-    if (keywords.length === 0) {
+    // 获取所有分类
+    const categories = Object.keys(FEHUA_FULL_DATA.categories);
+    if (categories.length === 0) {
         showToast('飞花令数据为空');
         return;
     }
     
-    // 随机选择一个关键字
-    feihuaState.keyword = keywords[Math.floor(Math.random() * keywords.length)];
+    // 随机选择一个分类
+    feihuaState.category = categories[Math.floor(Math.random() * categories.length)];
+    const catData = FEIHUA_FULL_DATA.categories[feihuaState.category];
     
-    // 获取该关键字的所有诗句
-    const keywordData = FEIHUA_FULL_DATA.keywords[feihuaState.keyword];
-    feihuaState.poems = keywordData.l.map(l => ({
+    // 从该分类中随机选择一个关键字
+    feihuaState.keyword = catData.chars[Math.floor(Math.random() * catData.chars.length)];
+    
+    // 获取该分类的所有诗句
+    feihuaState.poems = catData.lines.map(l => ({
         poem: l.t,
         author: l.a || '佚名',
-        title: l.ti || '无题'
+        title: l.ti || '无题',
+        matchedChars: l.m || ''
     }));
     
     // 打乱顺序
@@ -547,38 +552,37 @@ async function startFeihua() {
     
     // 显示页面
     showPage('feihuaPage');
-    document.getElementById('feihuaKeyword').textContent = feihuaState.keyword;
+    document.getElementById('feihuaKeyword').textContent = feihuaState.category;
     document.getElementById('feihuaTimer').textContent = '30';
     document.getElementById('feihuaScore').textContent = '0';
     document.getElementById('feihuaCount').textContent = '0/10';
     document.getElementById('feihuaHistory').innerHTML = '';
     
-    // 查找该关键字所属分类
-    let keywordCategory = '';
-    for (const [catName, catData] of Object.entries(FEHUA_FULL_DATA.categories || {})) {
-        const found = catData.keywords.find(k => k.k === feihuaState.keyword);
-        if (found) {
-            keywordCategory = catName;
-            break;
-        }
-    }
-    
-    // 显示分类关键字
-    const categoryKeywords = keywordCategory && FEIHUA_FULL_DATA.categories[keywordCategory] 
-        ? FEIHUA_FULL_DATA.categories[keywordCategory].keywords.map(k => k.k)
-        : keywords.sort(() => Math.random() - 0.5).slice(0, 20);
+    // 显示分类说明和关键字
+    const categoryNames = {
+        '数字': '包含一二三四五六七八九十百千万亿等数字',
+        '颜色': '包含青白红黄绿紫黑碧翠金银等颜色字',
+        '方位': '包含东西南北上下前后左右中外里等方位字',
+        '动物': '包含鸟鱼蝶蜂雁鹤鹭马牛羊等动物名',
+        '季节': '包含春夏秋冬等季节字',
+        '自然': '包含风雨雪云雷电日月星天地等自然景物',
+        '植物': '包含花草木柳梅兰竹菊松荷莲桃李桂等植物名',
+        '情感': '包含思念忆愁恨爱别归离悲欢喜怒乐忧等情感字',
+        '地理': '包含山河湖海溪泉涛浪潮波岸沙石等地理名',
+        '建筑': '包含门窗楼台亭殿宫城墙屋房宅院桥路等建筑名'
+    };
     
     document.getElementById('feihuaPrompt').innerHTML = `
-        <div style="color:var(--primary);font-weight:600;">请说出含"<strong>${feihuaState.keyword}</strong>"字的完整诗句</div>
-        ${keywordCategory ? `<div style="color:var(--secondary);font-size:0.8em;margin-top:5px;">分类：${keywordCategory}</div>` : ''}
+        <div style="color:var(--primary);font-weight:600;">请说出包含<span style="background:var(--primary);color:white;padding:2px 8px;border-radius:4px;">${feihuaState.category}</span>的诗句</div>
         <div style="margin-top:10px;font-size:0.85em;color:#888;">
-            诗词库 <strong>${FEIHUA_FULL_DATA.totalPoems || '26,073'}</strong> 首 | 
-            含此字 <strong>${keywordData.c}</strong> 句 | 
-            本类关键字：${categoryKeywords.slice(0, 15).join('、')}
+            ${categoryNames[feihuaState.category] || ''}
+        </div>
+        <div style="margin-top:8px;font-size:0.85em;color:#666;">
+            关键字：<strong>${catData.chars.join('、')}</strong>
         </div>
     `;
     document.getElementById('feihuaStartBtn').style.display = 'inline-block';
-    document.getElementById('feihuaStartBtn').textContent = '开始飞花令';
+    document.getElementById('feihuaStartBtn').textContent = '开始挑战';
 }
 
 function startFeihuaGame() {
@@ -628,16 +632,26 @@ function showFeihuaOptions() {
     const options = [correct, ...distractors];
     const shuffledOptions = options.sort(() => Math.random() - 0.5);
     
+    // 高亮匹配的字
+    function highlightChars(text, chars) {
+        if (!chars) return text;
+        let result = text;
+        chars.split('').forEach(c => {
+            result = result.replace(new RegExp(c, 'g'), `<span style="color:var(--primary);font-weight:700;">${c}</span>`);
+        });
+        return result;
+    }
+    
     // 显示选项
     document.getElementById('feihuaPrompt').innerHTML = `
         <div style="color:var(--primary);font-weight:600;font-size:1.1em;">
-            请选择含"<strong style="font-size:1.5em;">${feihuaState.keyword}</strong>"的诗句
+            请选择包含<span style="background:var(--primary);color:white;padding:2px 8px;border-radius:4px;">${feihuaState.category}</span>的诗句
         </div>
         <div style="margin-top:15px;display:grid;grid-template-columns:1fr;gap:10px;">
             ${shuffledOptions.map((opt, idx) => `
                 <button class="btn" style="text-align:left;padding:15px 20px;font-size:1em;background:var(--bg-secondary);border:2px solid transparent;" 
                     onclick="submitFeihuaAnswer('${opt.poem.replace(/'/g, "\\'")}')">
-                    <div style="font-weight:600;">${opt.poem}</div>
+                    <div style="font-weight:600;">${highlightChars(opt.poem, opt.matchedChars)}</div>
                     <div style="font-size:0.8em;color:var(--text-light);margin-top:5px;">—— ${opt.author || '佚名'}《${opt.title || '无题'}》</div>
                 </button>
             `).join('')}
