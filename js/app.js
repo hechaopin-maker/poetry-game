@@ -209,6 +209,14 @@ function showLevelSelect() {
     showPage('levelSelectPage');
 }
 
+// 获取指定年级的题目
+function getQuestionsByGrade(grade, count = 10) {
+    const filtered = QUESTIONS_DATA.filter(q => q.grade === grade);
+    // 打乱顺序并返回指定数量
+    const shuffled = filtered.sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, count);
+}
+
 // 开始闯关
 function startChallenge(grade) {
     const level = GRADE_LEVELS[grade];
