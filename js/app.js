@@ -1116,42 +1116,47 @@ function startMatch() {
 }
 
 function generateMatchQuestions(count) {
-    // 使用QUESTIONS_DATA生成题目（过滤掉2个月内已掌握的题目）
+    // 使用全诗词库POEMS_DATA生成题目（无限题目）
     const questions = [];
     
     // 干扰字库
-    const 干扰字 = '春夏秋冬日月山水风云花鸟虫鱼天地人'.split('');
+    const 干扰字 = '春夏秋冬日月山水风云花鸟虫鱼天地人东南西北中上下左右前后高低大小多少有无来去生死黑白赤橙黄绿青蓝紫金银铜铁玉石木竹松柏梅兰菊荷莲桂梧桐杨柳桃杏梨枣核桃樱桃草莓葡萄西瓜黄瓜萝卜白菜茄子番茄土豆牛肉羊肉猪肉鸡肉鸭肉鹅肉鱼肉虾蟹贝壳虫蚂蚁蜜蜂蝴蝶蜻蜓蜘蛛乌鸦喜鹊鹦鹉鸽子燕子大雁麻雀老鹰熊猫老虎狮子大象猴子兔子狐狸狼熊猫头鹰乌龟蛇青蛙蟾蜍螃蟹虾米'.split('');
     
-    // 随机选取题目（过滤已掌握）
-    const available = [...QUESTIONS_DATA].filter(q => !isQuestionMastered(q.id));
-    const shuffled = available.sort(() => Math.random() - 0.5);
-    const selected = shuffled.slice(0, Math.min(count, shuffled.length));
+    // 从全诗词库随机选取诗句
+    const shuffledPoems = [...POEMS_DATA].sort(() => Math.random() - 0.5);
     
-    selected.forEach(q => {
-        // 获取诗词信息
-        const poem = q.poemId ? POEMS_DATA.find(p => p.id === q.poemId) : null;
+    for (let i = 0; i < Math.min(count, shuffledPoems.length); i++) {
+        const poem = shuffledPoems[i];
         
-        // 将题目转换为消消乐格式
+        // 随机选取一句诗
+        let answerLine = '';
+        if (poem.content && Array.isArray(poem.content)) {
+            const lines = poem.content.filter(l => l && l.length >= 5 && l.length <= 12);
+            if (lines.length > 0) {
+                answerLine = lines[Math.floor(Math.random() * lines.length)];
+            }
+        }
+        
+        if (!answerLine) continue;
+        
+        // 清理答案字符
+        const answer = answerLine.replace(/[，。！？""''【】（）可件条和与及等、：；,\.!?]/g, '');
+        if (answer.length < 4 || answer.length > 15) continue;
+        
+        // 转换为消消乐格式
         const gameQ = {
-            id: q.id,
-            question: q.question,
-            answer: q.answer,
-            options: q.options,
-            poem: poem?.title || null,
-            author: poem?.author || null,
-            explanation: q.explanation,
-            gameType: q.type === 'fill' ? 'dianzichengshi' : 'choice'
+            id: `poem_${poem.id}_${i}`,
+            answer: answer,
+            poem: poem.title || '无题',
+            author: poem.author || '佚名',
+            explanation: `${poem.dynasty || ''}·${poem.author || '佚名'}《${poem.title || '无题'}》`,
+            gameType: 'dianzichengshi'
         };
         
         // 生成字符数组（用于九宫格/点字成诗）
-        let chars = [];
-        if (q.answer) {
-            // 从答案中提取字符
-            chars = q.answer.replace(/[，。！？""''【】（）可件条和与及等、：；]/g, '').split('');
-        }
+        let chars = answer.split('');
         
-        // 随机选择游戏模式：点字成诗 或 九宫格
-        // 九宫格需要9个字，十二宫格需要12个字（诗词大会标准）
+        // 随机选择游戏模式：点字成诗 或 九宫格 或 十二宫格
         const 游戏模式 = ['dianzichengshi', 'jiugongge', 'shiergongge'][Math.floor(Math.random() * 3)];
         
         // 根据模式调整字符数量
