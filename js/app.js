@@ -500,10 +500,16 @@ let feihuaState = {
     isPlaying: false
 };
 
-function startFeihua() {
+async function startFeihua() {
     if (!gameState.currentUser) {
         showLoginModal();
         return;
+    }
+    
+    // 确保诗词数据已加载
+    if (typeof loadPoemsData === 'function' && window.POEMS_DATA.length < 1000) {
+        showToast('正在加载诗词库...');
+        await loadPoemsData();
     }
     
     // 重置状态
@@ -518,15 +524,50 @@ function startFeihua() {
         isPlaying: false
     };
     
-    // 选择关键字
-    const chars = ['春', '花', '月', '风', '山', '水', '云', '酒'];
-    feihuaState.keyword = chars[Math.floor(Math.random() * chars.length)];
+    // 从全部诗词库中提取关键字
+    const allChars = {};
+    const chineseCharRegex = /[\u4e00-\u9fa5]/;
     
-    // 获取该关键字的诗句
-    const key = Object.keys(FEIHUA_DATA).find(k => FEIHUA_DATA[k].character === feihuaState.keyword);
-    if (key) {
-        feihuaState.poems = FEIHUA_DATA[key].poems;
-    }
+    // 扫描所有诗词，统计每个字出现的次数
+    window.POEMS_DATA.forEach(poem => {
+        if (poem.fullText) {
+            [...poem.fullText].forEach(char => {
+                if (chineseCharRegex.test(char)) {
+                    allChars[char] = (allChars[char] || 0) + 1;
+                }
+            });
+        }
+    });
+    
+    // 过滤掉标点符号和无意义字符，获取常用字
+    const commonChars = Object.entries(allChars)
+        .filter(([char, count]) => count >= 5) // 至少出现5次
+        .map(([char]) => char);
+    
+    // 选择一个随机关键字
+    feihuaState.keyword = commonChars[Math.floor(Math.random() * commonChars.length)];
+    
+    // 找出包含该关键字的所有诗句（从fullText中提取）
+    feihuaState.poems = [];
+    const addedPoems = new Set();
+    
+    window.POEMS_DATA.forEach(poem => {
+        if (poem.fullText && poem.fullText.includes(feihuaState.keyword)) {
+            // 提取包含该字的每一句
+            const lines = poem.fullText.split(/[，。！？；、""''（）]/).filter(line => line.includes(feihuaState.keyword));
+            lines.forEach(line => {
+                const trimmed = line.trim();
+                if (trimmed.length >= 4 && trimmed.length <= 30 && !addedPoems.has(trimmed)) {
+                    addedPoems.add(trimmed);
+                    feihuaState.poems.push({
+                        poem: trimmed,
+                        author: poem.author || '未知',
+                        title: poem.title || '无题'
+                    });
+                }
+            });
+        }
+    });
     
     // 打乱顺序
     feihuaState.poems.sort(() => Math.random() - 0.5);
@@ -538,7 +579,22 @@ function startFeihua() {
     document.getElementById('feihuaScore').textContent = '0';
     document.getElementById('feihuaCount').textContent = '0/10';
     document.getElementById('feihuaHistory').innerHTML = '';
-    document.getElementById('feihuaPrompt').textContent = '点击下方按钮，说出第一句诗';
+    
+    // 显示可选关键字提示
+    const randomChars = [];
+    const shuffled = [...commonChars].sort(() => Math.random() - 0.5);
+    for (let i = 0; i < Math.min(20, shuffled.length); i++) {
+        randomChars.push(shuffled[i]);
+    }
+    
+    document.getElementById('feihuaPrompt').innerHTML = `
+        <div style="color:var(--primary);font-weight:600;">请说出含"<strong>${feihuaState.keyword}</strong>"字的完整诗句</div>
+        <div style="margin-top:10px;font-size:0.85em;color:#888;">
+            诗词库共有 <strong>${window.POEMS_DATA.length}</strong> 首 | 
+            含此字诗句 <strong>${feihuaState.poems.length}</strong> 句 | 
+            可选关键字：${randomChars.join('、')}
+        </div>
+    `;
     document.getElementById('feihuaStartBtn').style.display = 'inline-block';
     document.getElementById('feihuaStartBtn').textContent = '开始飞花令';
 }
@@ -547,10 +603,9 @@ function startFeihuaGame() {
     feihuaState.isPlaying = true;
     feihuaState.timeLeft = 30;
     document.getElementById('feihuaStartBtn').style.display = 'none';
-    document.getElementById('feihuaPrompt').innerHTML = `
-        <div style="color:var(--primary);font-weight:600;">请说出含"<strong>${feihuaState.keyword}</strong>"字的完整诗句</div>
-        <div style="margin-top:10px;font-size:0.9em;color:#888;">例如：${feihuaState.poems[0]?.poem || '春眠不觉晓...'}</div>
-    `;
+    
+    // 显示当前题目的选项
+    showFeihuaOptions();
     
     // 开始计时
     feihuaState.timer = setInterval(() => {
@@ -561,6 +616,51 @@ function startFeihuaGame() {
             endFeihuaRound();
         }
     }, 1000);
+}
+
+function showFeihuaOptions() {
+    // 获取当前可用的诗句（排除已答过的）
+    const available = feihuaState.poems.filter(p => !feihuaState.answered.includes(p.poem));
+    
+    if (available.length < 4) {
+        // 诗句不够，结束游戏
+        clearInterval(feihuaState.timer);
+        endFeihua();
+        return;
+    }
+    
+    // 随机选择1个正确答案和3个干扰项
+    const correctIndex = Math.floor(Math.random() * Math.min(available.length, 10));
+    const correct = available[correctIndex];
+    
+    // 获取干扰项（其他随机诗句）
+    const distractors = [];
+    const otherPoems = available.filter((_, i) => i !== correctIndex);
+    const shuffled = otherPoems.sort(() => Math.random() - 0.5);
+    
+    for (let i = 0; i < Math.min(3, shuffled.length); i++) {
+        distractors.push(shuffled[i]);
+    }
+    
+    // 合并并打乱
+    const options = [correct, ...distractors];
+    const shuffledOptions = options.sort(() => Math.random() - 0.5);
+    
+    // 显示选项
+    document.getElementById('feihuaPrompt').innerHTML = `
+        <div style="color:var(--primary);font-weight:600;font-size:1.1em;">
+            请选择含"<strong style="font-size:1.5em;">${feihuaState.keyword}</strong>"的诗句
+        </div>
+        <div style="margin-top:15px;display:grid;grid-template-columns:1fr;gap:10px;">
+            ${shuffledOptions.map((opt, idx) => `
+                <button class="btn" style="text-align:left;padding:15px 20px;font-size:1em;background:var(--bg-secondary);border:2px solid transparent;" 
+                    onclick="submitFeihuaAnswer('${opt.poem.replace(/'/g, "\\'")}')">
+                    <div style="font-weight:600;">${opt.poem}</div>
+                    <div style="font-size:0.8em;color:var(--text-light);margin-top:5px;">—— ${opt.author || '佚名'}《${opt.title || '无题'}》</div>
+                </button>
+            `).join('')}
+        </div>
+    `;
 }
 
 function submitFeihuaAnswer(poem) {
@@ -594,10 +694,11 @@ function submitFeihuaAnswer(poem) {
         clearInterval(feihuaState.timer);
         endFeihua();
     } else {
-        // 继续下一轮
+        // 显示下一题选项
         feihuaState.timeLeft = 30;
         document.getElementById('feihuaTimer').textContent = '30';
-        showToast('正确！继续下一句！');
+        showToast('正确！+10分');
+        showFeihuaOptions();
     }
 }
 
@@ -614,8 +715,11 @@ function endFeihuaRound() {
     history.appendChild(span);
     
     document.getElementById('feihuaPrompt').innerHTML = `
-        <div style="color:var(--error);">时间到！</div>
+        <div style="color:var(--error);font-size:1.2em;">⏰ 时间到！</div>
         <div style="margin-top:10px;">本轮答对 <strong>${feihuaState.currentIndex}</strong> 句，得 <strong>${feihuaState.score}</strong> 分</div>
+        <div style="margin-top:15px;">
+            <button class="btn" onclick="startFeihua()">再玩一次</button>
+        </div>
     `;
     
     // 保存成绩
@@ -626,9 +730,6 @@ function endFeihuaRound() {
         saveUser();
         updateUserDisplay();
     }
-    
-    document.getElementById('feihuaStartBtn').style.display = 'inline-block';
-    document.getElementById('feihuaStartBtn').textContent = '再玩一次';
 }
 
 function endFeihua() {
