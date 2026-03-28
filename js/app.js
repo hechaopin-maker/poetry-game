@@ -553,15 +553,28 @@ async function startFeihua() {
     document.getElementById('feihuaCount').textContent = '0/10';
     document.getElementById('feihuaHistory').innerHTML = '';
     
-    // 显示可选关键字提示
-    const randomChars = keywords.sort(() => Math.random() - 0.5).slice(0, 20);
+    // 查找该关键字所属分类
+    let keywordCategory = '';
+    for (const [catName, catData] of Object.entries(FEHUA_FULL_DATA.categories || {})) {
+        const found = catData.keywords.find(k => k.k === feihuaState.keyword);
+        if (found) {
+            keywordCategory = catName;
+            break;
+        }
+    }
+    
+    // 显示分类关键字
+    const categoryKeywords = keywordCategory && FEIHUA_FULL_DATA.categories[keywordCategory] 
+        ? FEIHUA_FULL_DATA.categories[keywordCategory].keywords.map(k => k.k)
+        : keywords.sort(() => Math.random() - 0.5).slice(0, 20);
     
     document.getElementById('feihuaPrompt').innerHTML = `
         <div style="color:var(--primary);font-weight:600;">请说出含"<strong>${feihuaState.keyword}</strong>"字的完整诗句</div>
+        ${keywordCategory ? `<div style="color:var(--secondary);font-size:0.8em;margin-top:5px;">分类：${keywordCategory}</div>` : ''}
         <div style="margin-top:10px;font-size:0.85em;color:#888;">
-            诗词库共有 <strong>${FEIHUA_FULL_DATA.totalPoems || '26,073'}</strong> 首 | 
-            含此字诗句 <strong>${keywordData.c}</strong> 句 | 
-            可选关键字：${randomChars.join('、')}
+            诗词库 <strong>${FEIHUA_FULL_DATA.totalPoems || '26,073'}</strong> 首 | 
+            含此字 <strong>${keywordData.c}</strong> 句 | 
+            本类关键字：${categoryKeywords.slice(0, 15).join('、')}
         </div>
     `;
     document.getElementById('feihuaStartBtn').style.display = 'inline-block';
