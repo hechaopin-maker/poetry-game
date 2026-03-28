@@ -301,42 +301,19 @@ function showQuestion() {
             });
         } else {
             // 无选项时显示输入框（填空题模式）
-            // 检查题目中有多少个空
-            const blankCount = (q.question.match(/__________/g) || []).length;
-            
             const inputBox = document.createElement('div');
             inputBox.className = 'fill-input-container';
-            
-            if (blankCount > 1) {
-                // 多个空：创建多个输入框
-                let inputsHTML = '';
-                for (let i = 0; i < blankCount; i++) {
-                    const placeholder = `请输入第${i + 1}个答案`;
-                    inputsHTML += `<input type="text" class="fill-input" id="fillAnswerInput${i}" 
-                                   placeholder="${placeholder}" 
-                                   autocomplete="off"
-                                   style="margin-bottom:10px"
-                                   onkeypress="if(event.key==='Enter')submitFillAnswer()">`;
-                }
-                inputBox.innerHTML = inputsHTML + `<button class="btn" onclick="submitFillAnswer()">提交答案</button>`;
-                // 保存空白数量到gameState
-                gameState.currentBlankCount = blankCount;
-            } else {
-                // 单个空：创建单个输入框
-                inputBox.innerHTML = `
-                    <input type="text" class="fill-input" id="fillAnswerInput0" 
-                           placeholder="请输入答案..." 
-                           autocomplete="off"
-                           onkeypress="if(event.key==='Enter')submitFillAnswer()">
-                    <button class="btn" onclick="submitFillAnswer()">提交答案</button>
-                `;
-                gameState.currentBlankCount = 1;
-            }
-            
+            inputBox.innerHTML = `
+                <input type="text" class="fill-input" id="fillAnswerInput" 
+                       placeholder="请输入答案..." 
+                       autocomplete="off"
+                       onkeypress="if(event.key==='Enter')submitFillAnswer()">
+                <button class="btn" onclick="submitFillAnswer()">提交答案</button>
+            `;
             container.appendChild(inputBox);
-            // 自动聚焦第一个输入框
+            // 自动聚焦输入框
             setTimeout(() => {
-                const input = document.getElementById('fillAnswerInput0');
+                const input = document.getElementById('fillAnswerInput');
                 if (input) input.focus();
             }, 100);
         }
@@ -358,57 +335,30 @@ function showQuestion() {
 
 // 提交填空答案
 function submitFillAnswer() {
-    const q = gameState.questions[gameState.currentQuestion];
-    const blankCount = gameState.currentBlankCount || 1;
+    const input = document.getElementById('fillAnswerInput');
+    if (!input) return;
     
-    // 获取所有输入框的值
-    const userAnswers = [];
-    for (let i = 0; i < blankCount; i++) {
-        const input = document.getElementById('fillAnswerInput' + i);
-        if (input) {
-            userAnswers.push(input.value.trim());
-        }
-    }
-    
-    // 检查是否有空输入
-    if (userAnswers.some(ans => !ans)) {
-        showToast('请填写所有空');
+    const userAnswer = input.value.trim();
+    if (!userAnswer) {
+        showToast('请输入答案');
         return;
     }
     
-    // 分割正确答案
-    const answerParts = q.answer.split('；');
+    const q = gameState.questions[gameState.currentQuestion];
+    // 检查答案是否正确（忽略标点和空格差异）
+    const correctAnswer = q.answer.replace(/[，。！？、；：""''（）]/g, '').trim();
+    const normalizedUserAnswer = userAnswer.replace(/[，。！？、；：""''（）]/g, '').trim();
+    const isCorrect = normalizedUserAnswer === correctAnswer || 
+                     correctAnswer.includes(normalizedUserAnswer) || 
+                     normalizedUserAnswer.includes(correctAnswer);
     
-    // 检查答案是否正确
-    let allCorrect = true;
-    let correctParts = 0;
-    
-    for (let i = 0; i < blankCount; i++) {
-        const userAns = userAnswers[i].replace(/[，。！？、；：""''（）]/g, '').trim();
-        const correctAns = (answerParts[i] || '').replace(/[，。！？、；：""''（）]/g, '').trim();
-        
-        if (userAns === correctAns || correctAns.includes(userAns) || userAns.includes(correctAns)) {
-            correctParts++;
-        }
-    }
-    
-    allCorrect = (correctParts === blankCount);
-    
-    // 禁用所有输入框
-    for (let i = 0; i < blankCount; i++) {
-        const input = document.getElementById('fillAnswerInput' + i);
-        if (input) input.disabled = true;
-    }
+    // 禁用输入框
+    input.disabled = true;
     
     // 显示答题结果
-    if (allCorrect) {
-        for (let i = 0; i < blankCount; i++) {
-            const input = document.getElementById('fillAnswerInput' + i);
-            if (input) {
-                input.style.borderColor = 'var(--success)';
-                input.style.background = '#E8F5E9';
-            }
-        }
+    if (isCorrect) {
+        input.style.borderColor = 'var(--success)';
+        input.style.background = '#E8F5E9';
         gameState.combo++;
         gameState.maxCombo = Math.max(gameState.maxCombo, gameState.combo);
         let points = 10;
@@ -422,22 +372,10 @@ function submitFillAnswer() {
         document.getElementById('combo').textContent = gameState.combo + '连击';
         if (gameState.combo >= 5) showComboEffect();
     } else {
-        for (let i = 0; i < blankCount; i++) {
-            const input = document.getElementById('fillAnswerInput' + i);
-            if (input) {
-                const userAns = userAnswers[i].replace(/[，。！？、；：""''（）]/g, '').trim();
-                const correctAns = (answerParts[i] || '').replace(/[，。！？、；：""''（）]/g, '').trim();
-                if (userAns === correctAns || correctAns.includes(userAns) || userAns.includes(correctAns)) {
-                    input.style.borderColor = 'var(--success)';
-                    input.style.background = '#E8F5E9';
-                } else {
-                    input.style.borderColor = 'var(--error)';
-                    input.style.background = '#FFEBEE';
-                    input.value = '正确答案：' + answerParts[i];
-                    input.style.color = 'var(--error)';
-                }
-            }
-        }
+        input.style.borderColor = 'var(--error)';
+        input.style.background = '#FFEBEE';
+        input.value = '正确答案：' + q.answer;
+        input.style.color = 'var(--error)';
         gameState.combo = 0;
         gameState.wrongCount++;
         document.getElementById('combo').textContent = gameState.combo + '连击';
@@ -451,7 +389,7 @@ function submitFillAnswer() {
     `;
     document.getElementById('explanation').classList.add('show');
     
-    if (allCorrect) {
+    if (isCorrect) {
         // 答对了：1.5秒后自动进入下一题
         setTimeout(() => {
             nextQuestion();
