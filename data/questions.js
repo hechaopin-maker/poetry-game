@@ -25031,4 +25031,689 @@ const QUESTIONS_DATA = [
     {"id":"q_chu1_420","type":"fill","grade":"chu1","source":"古诗词真题精选","difficulty":2,"question":"众里寻他千百度，蓦然回首，__________。（辛弃疾《青玉案》）","options":[],"answer":"那人却在，灯火阑珊处","explanation":"出自青玉案。","poemId":null,"knowledgePoints":["初一","青玉案"]},
     {"id":"q_chu1_421","type":"fill","grade":"chu1","source":"古诗词真题精选","difficulty":2,"question":"少年不识愁滋味，__________。（辛弃疾《丑奴儿》）","options":[],"answer":"爱上层楼","explanation":"出自丑奴儿。","poemId":null,"knowledgePoints":["初一","丑奴儿"]},
     {"id":"q_chu1_422","type":"fill","grade":"chu1","source":"古诗词真题精选","difficulty":2,"question":"而今识尽愁滋味，欲说还休，__________。（辛弃疾《丑奴儿》）","options":[],"answer":"却道天凉好个秋","explanation":"出自丑奴儿。","poemId":null,"knowledgePoints":["初一","丑奴儿"]}
+,
+    {
+        "id": "q_mk_642",
+        "type": "choice",
+        "grade": "mk",
+        "source": "诗词大会真题",
+        "difficulty": 2,
+        "question": "以下哪位诗人被称为'诗仙'？",
+        "options": [
+            {
+                "text": "李白",
+                "correct": true
+            },
+            {
+                "text": "杜甫",
+                "correct": false
+            },
+            {
+                "text": "白居易",
+                "correct": false
+            },
+            {
+                "text": "王维",
+                "correct": false
+            }
+        ],
+        "answer": "李白",
+        "explanation": "李白被称为'诗仙'，杜甫被称为'诗圣'。",
+        "poemId": null,
+        "knowledgePoints": [
+            "诗人称号",
+            "李白",
+            "诗仙"
+        ]
+    },
+    {
+        "id": "q_mk_643",
+        "type": "choice",
+        "grade": "mk",
+        "source": "诗词大会真题",
+        "difficulty": 2,
+        "question": "'锄禾日当午'的下一句是什么？",
+        "options": [
+            {
+                "text": "汗滴禾下土",
+                "correct": true
+            },
+            {
+                "text": "粒粒皆辛苦",
+                "correct": false
+            },
+            {
+                "text": "谁知盘中餐",
+                "correct": false
+            },
+            {
+                "text": "禾熟哪家收",
+                "correct": false
+            }
+        ],
+        "answer": "汗滴禾下土",
+        "explanation": "出自李绅《悯农》，描述农民劳作的艰辛。",
+        "poemId": null,
+        "knowledgePoints": [
+            "古诗默写",
+            "李绅",
+            "悯农"
+        ]
+    },
+    {
+        "id": "q_mk_644",
+        "type": "choice",
+        "grade": "mk",
+        "source": "诗词大会真题",
+        "difficulty": 3,
+        "question": "以下哪句诗描写的是春天景色？",
+        "options": [
+            {
+                "text": "春眠不觉晓，处处闻啼鸟",
+                "correct": true
+            },
+            {
+                "text": "停车坐爱枫林晚，霜叶红于二月花",
+                "correct": false
+            },
+            {
+                "text": "墙角数枝梅，凌寒独自开",
+                "correct": false
+            },
+            {
+                "text": "千山鸟飞绝，万径人踪灭",
+                "correct": false
+            }
+        ],
+        "answer": "春眠不觉晓，处处闻啼鸟",
+        "explanation": "出自孟浩然《春晓》，描写春天的景象。",
+        "poemId": null,
+        "knowledgePoints": [
+            "写景",
+            "春天",
+            "孟浩然",
+            "春晓"
+        ]
+    },
+    {
+        "id": "q_mk_645",
+        "type": "choice",
+        "grade": "mk",
+        "source": "诗词大会真题",
+        "difficulty": 2,
+        "question": "《静夜思》的作者是？",
+        "options": [
+            {
+                "text": "李白",
+                "correct": true
+            },
+            {
+                "text": "杜甫",
+                "correct": false
+            },
+            {
+                "text": "王维",
+                "correct": false
+            },
+            {
+                "text": "白居易",
+                "correct": false
+            }
+        ],
+        "answer": "李白",
+        "explanation": "《静夜思》是唐代诗人李白的代表作之一。",
+        "poemId": null,
+        "knowledgePoints": [
+            "李白",
+            "静夜思"
+        ]
+    },
+    {
+        "id": "q_mk_646",
+        "type": "choice",
+        "grade": "mk",
+        "source": "诗词大会真题",
+        "difficulty": 2,
+        "question": "'举头望明月'的下一句是什么？",
+        "options": [
+            {
+                "text": "低头思故乡",
+                "correct": true
+            },
+            {
+                "text": "明月松间照",
+                "correct": false
+            },
+            {
+                "text": "海上生明月",
+                "correct": false
+            },
+            {
+                "text": "明月几时有",
+                "correct": false
+            }
+        ],
+        "answer": "低头思故乡",
+        "explanation": "出自李白《静夜思》，表达了诗人的思乡之情。",
+        "poemId": null,
+        "knowledgePoints": [
+            "古诗默写",
+            "李白",
+            "静夜思",
+            "思乡"
+        ]
+    },
+    {
+        "id": "q_fbc_623",
+        "type": "choice",
+        "grade": "fbc",
+        "source": "诗词大会真题",
+        "difficulty": 3,
+        "question": "以下哪位诗人不是'唐宋八大家'之一？",
+        "options": [
+            {
+                "text": "白居易",
+                "correct": true
+            },
+            {
+                "text": "韩愈",
+                "correct": false
+            },
+            {
+                "text": "柳宗元",
+                "correct": false
+            },
+            {
+                "text": "欧阳修",
+                "correct": false
+            }
+        ],
+        "answer": "白居易",
+        "explanation": "唐宋八大家包括韩愈、柳宗元、欧阳修、苏洵、苏轼、苏辙、王安石、曾巩。",
+        "poemId": null,
+        "knowledgePoints": [
+            "文学常识",
+            "唐宋八大家"
+        ]
+    },
+    {
+        "id": "q_fbc_624",
+        "type": "choice",
+        "grade": "fbc",
+        "source": "诗词大会真题",
+        "difficulty": 3,
+        "question": "'大漠孤烟直'的下一句是什么？",
+        "options": [
+            {
+                "text": "长河落日圆",
+                "correct": true
+            },
+            {
+                "text": "黄河入海流",
+                "correct": false
+            },
+            {
+                "text": "明月出天山",
+                "correct": false
+            },
+            {
+                "text": "江入大荒流",
+                "correct": false
+            }
+        ],
+        "answer": "长河落日圆",
+        "explanation": "出自王维《使至塞上》，描写边塞壮阔景象。",
+        "poemId": null,
+        "knowledgePoints": [
+            "古诗默写",
+            "王维",
+            "使至塞上",
+            "边塞"
+        ]
+    },
+    {
+        "id": "q_fbc_625",
+        "type": "choice",
+        "grade": "fbc",
+        "source": "诗词大会真题",
+        "difficulty": 3,
+        "question": "以下哪首诗的作者是王维？",
+        "options": [
+            {
+                "text": "《山居秋暝》",
+                "correct": true
+            },
+            {
+                "text": "《望庐山瀑布》",
+                "correct": false
+            },
+            {
+                "text": "《黄鹤楼送孟浩然之广陵》",
+                "correct": false
+            },
+            {
+                "text": "《将进酒》",
+                "correct": false
+            }
+        ],
+        "answer": "《山居秋暝》",
+        "explanation": "《山居秋暝》是王维的代表作，描写秋日山居景色。",
+        "poemId": null,
+        "knowledgePoints": [
+            "王维",
+            "山居秋暝"
+        ]
+    },
+    {
+        "id": "q_fbc_626",
+        "type": "choice",
+        "grade": "fbc",
+        "source": "诗词大会真题",
+        "difficulty": 3,
+        "question": "'明月松间照'的上句是什么？",
+        "options": [
+            {
+                "text": "空山新雨后",
+                "correct": true
+            },
+            {
+                "text": "天气晚来秋",
+                "correct": false
+            },
+            {
+                "text": "随意春芳歇",
+                "correct": false
+            },
+            {
+                "text": "王孙自可留",
+                "correct": false
+            }
+        ],
+        "answer": "空山新雨后",
+        "explanation": "出自王维《山居秋暝》，上句是'空山新雨后'。",
+        "poemId": null,
+        "knowledgePoints": [
+            "古诗默写",
+            "王维",
+            "山居秋暝"
+        ]
+    },
+    {
+        "id": "q_fbc_627",
+        "type": "choice",
+        "grade": "fbc",
+        "source": "诗词大会真题",
+        "difficulty": 4,
+        "question": "以下哪句诗表达了送别之情？",
+        "options": [
+            {
+                "text": "海内存知己，天涯若比邻",
+                "correct": true
+            },
+            {
+                "text": "欲穷千里目，更上一层楼",
+                "correct": false
+            },
+            {
+                "text": "野火烧不尽，春风吹又生",
+                "correct": false
+            },
+            {
+                "text": "明月松间照，清泉石上流",
+                "correct": false
+            }
+        ],
+        "answer": "海内存知己，天涯若比邻",
+        "explanation": "出自王勃《送杜少府之任蜀州》，是著名的送别诗。",
+        "poemId": null,
+        "knowledgePoints": [
+            "送别",
+            "王勃",
+            "友情"
+        ]
+    },
+    {
+        "id": "q_chu1_500",
+        "type": "choice",
+        "grade": "chu1",
+        "source": "诗词大会真题",
+        "difficulty": 3,
+        "question": "《天净沙·秋思》的作者是？",
+        "options": [
+            {
+                "text": "马致远",
+                "correct": true
+            },
+            {
+                "text": "白朴",
+                "correct": false
+            },
+            {
+                "text": "郑光祖",
+                "correct": false
+            },
+            {
+                "text": "关汉卿",
+                "correct": false
+            }
+        ],
+        "answer": "马致远",
+        "explanation": "《天净沙·秋思》是元代戏曲家马致远的代表作。",
+        "poemId": null,
+        "knowledgePoints": [
+            "元曲",
+            "马致远",
+            "天净沙"
+        ]
+    },
+    {
+        "id": "q_chu1_501",
+        "type": "choice",
+        "grade": "chu1",
+        "source": "诗词大会真题",
+        "difficulty": 3,
+        "question": "'夕阳西下'的下一句是什么？",
+        "options": [
+            {
+                "text": "断肠人在天涯",
+                "correct": true
+            },
+            {
+                "text": "古道西风瘦马",
+                "correct": false
+            },
+            {
+                "text": "千里共婵娟",
+                "correct": false
+            },
+            {
+                "text": "月落乌啼霜满天",
+                "correct": false
+            }
+        ],
+        "answer": "断肠人在天涯",
+        "explanation": "出自马致远《天净沙·秋思》，表达了游子思乡之情。",
+        "poemId": null,
+        "knowledgePoints": [
+            "古诗默写",
+            "马致远",
+            "天净沙",
+            "思乡"
+        ]
+    },
+    {
+        "id": "q_chu1_502",
+        "type": "choice",
+        "grade": "chu1",
+        "source": "诗词大会真题",
+        "difficulty": 3,
+        "question": "以下哪句诗不是李白写的？",
+        "options": [
+            {
+                "text": "烽火连三月，家书抵万金",
+                "correct": true
+            },
+            {
+                "text": "飞流直下三千尺，疑是银河落九天",
+                "correct": false
+            },
+            {
+                "text": "长风破浪会有时，直挂云帆济沧海",
+                "correct": false
+            },
+            {
+                "text": "两岸猿声啼不住，轻舟已过万重山",
+                "correct": false
+            }
+        ],
+        "answer": "烽火连三月，家书抵万金",
+        "explanation": "这句诗出自杜甫《春望》，李白写的是'两岸猿声啼不住'。",
+        "poemId": null,
+        "knowledgePoints": [
+            "诗人鉴别",
+            "李白",
+            "杜甫"
+        ]
+    },
+    {
+        "id": "q_chu1_503",
+        "type": "choice",
+        "grade": "chu1",
+        "source": "诗词大会真题",
+        "difficulty": 3,
+        "question": "'黄鹤一去不复返'的下一句是什么？",
+        "options": [
+            {
+                "text": "白云千载空悠悠",
+                "correct": true
+            },
+            {
+                "text": "此地空余黄鹤楼",
+                "correct": false
+            },
+            {
+                "text": "晴川历历汉阳树",
+                "correct": false
+            },
+            {
+                "text": "芳草萋萋鹦鹉洲",
+                "correct": false
+            }
+        ],
+        "answer": "白云千载空悠悠",
+        "explanation": "出自崔颢《黄鹤楼》，与上句'黄鹤一去不复返'相对。",
+        "poemId": null,
+        "knowledgePoints": [
+            "古诗默写",
+            "崔颢",
+            "黄鹤楼"
+        ]
+    },
+    {
+        "id": "q_chu1_504",
+        "type": "choice",
+        "grade": "chu1",
+        "source": "诗词大会真题",
+        "difficulty": 4,
+        "question": "《观沧海》的作者是？",
+        "options": [
+            {
+                "text": "曹操",
+                "correct": true
+            },
+            {
+                "text": "曹丕",
+                "correct": false
+            },
+            {
+                "text": "曹植",
+                "correct": false
+            },
+            {
+                "text": "陶渊明",
+                "correct": false
+            }
+        ],
+        "answer": "曹操",
+        "explanation": "《观沧海》是东汉末年曹操的代表作。",
+        "poemId": null,
+        "knowledgePoints": [
+            "曹操",
+            "观沧海",
+            "东汉"
+        ]
+    },
+    {
+        "id": "q_zk_330",
+        "type": "choice",
+        "grade": "zk",
+        "source": "诗词大会真题",
+        "difficulty": 4,
+        "question": "以下哪首诗是杜甫在安史之乱期间写的？",
+        "options": [
+            {
+                "text": "《春望》",
+                "correct": true
+            },
+            {
+                "text": "《望岳》",
+                "correct": false
+            },
+            {
+                "text": "《绝句》",
+                "correct": false
+            },
+            {
+                "text": "《春夜喜雨》",
+                "correct": false
+            }
+        ],
+        "answer": "《春望》",
+        "explanation": "《春望》写于安史之乱期间，表达诗人对国家命运的忧虑。",
+        "poemId": null,
+        "knowledgePoints": [
+            "杜甫",
+            "春望",
+            "安史之乱",
+            "忧国忧民"
+        ]
+    },
+    {
+        "id": "q_zk_331",
+        "type": "choice",
+        "grade": "zk",
+        "source": "诗词大会真题",
+        "difficulty": 4,
+        "question": "'出师未捷身先死'的下一句是什么？",
+        "options": [
+            {
+                "text": "长使英雄泪满襟",
+                "correct": true
+            },
+            {
+                "text": "托孤寄命继前言",
+                "correct": false
+            },
+            {
+                "text": "不破楼兰终不还",
+                "correct": false
+            },
+            {
+                "text": "壮志未酬三尺剑",
+                "correct": false
+            }
+        ],
+        "answer": "长使英雄泪满襟",
+        "explanation": "出自杜甫《蜀相》，表达对诸葛亮壮志未酬的惋惜。",
+        "poemId": null,
+        "knowledgePoints": [
+            "古诗默写",
+            "杜甫",
+            "蜀相",
+            "诸葛亮"
+        ]
+    },
+    {
+        "id": "q_zk_332",
+        "type": "choice",
+        "grade": "zk",
+        "source": "诗词大会真题",
+        "difficulty": 4,
+        "question": "《茅屋为秋风所破歌》的作者是？",
+        "options": [
+            {
+                "text": "杜甫",
+                "correct": true
+            },
+            {
+                "text": "李白",
+                "correct": false
+            },
+            {
+                "text": "白居易",
+                "correct": false
+            },
+            {
+                "text": "王维",
+                "correct": false
+            }
+        ],
+        "answer": "杜甫",
+        "explanation": "《茅屋为秋风所破歌》是杜甫的代表作，体现了诗人的济世情怀。",
+        "poemId": null,
+        "knowledgePoints": [
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "济世"
+        ]
+    },
+    {
+        "id": "q_zk_333",
+        "type": "choice",
+        "grade": "zk",
+        "source": "诗词大会真题",
+        "difficulty": 4,
+        "question": "以下哪句诗表达了诗人忧国忧民的情怀？",
+        "options": [
+            {
+                "text": "安得广厦千万间，大庇天下寒士俱欢颜",
+                "correct": true
+            },
+            {
+                "text": "飞流直下三千尺，疑是银河落九天",
+                "correct": false
+            },
+            {
+                "text": "两岸猿声啼不住，轻舟已过万重山",
+                "correct": false
+            },
+            {
+                "text": "床前明月光，疑是地上霜",
+                "correct": false
+            }
+        ],
+        "answer": "安得广厦千万间，大庇天下寒士俱欢颜",
+        "explanation": "出自杜甫《茅屋为秋风所破歌》，表达了诗人博大的济世情怀。",
+        "poemId": null,
+        "knowledgePoints": [
+            "忧国忧民",
+            "杜甫",
+            "茅屋为秋风所破歌"
+        ]
+    },
+    {
+        "id": "q_zk_334",
+        "type": "choice",
+        "grade": "zk",
+        "source": "诗词大会真题",
+        "difficulty": 5,
+        "question": "'先天下之忧而忧'的下一句是什么？",
+        "options": [
+            {
+                "text": "后天下之乐而乐",
+                "correct": true
+            },
+            {
+                "text": "处庙堂之高则忧其民",
+                "correct": false
+            },
+            {
+                "text": "微斯人吾谁与归",
+                "correct": false
+            },
+            {
+                "text": "岳阳楼记",
+                "correct": false
+            }
+        ],
+        "answer": "后天下之乐而乐",
+        "explanation": "出自范仲淹《岳阳楼记》，表达了作者以天下为己任的情怀。",
+        "poemId": null,
+        "knowledgePoints": [
+            "古文名句",
+            "范仲淹",
+            "岳阳楼记",
+            "济世"
+        ]
+    }
 ];
