@@ -24753,4 +24753,17 @@ const QUESTIONS_DATA = [
         poemId: null,
         knowledgePoints: ["一览众", "杜甫", "望岳", "众山"]
     }
+,{
+        id: "q_mk_641",
+        type: "fill",
+        grade: "mk",
+        source: "古诗词真题精选",
+        difficulty: 2,
+        question: "京口瓜洲一水间，__________。（王安石《泊船瓜洲》）",
+        options: [],
+        answer: "钟山只隔数重山",
+        explanation: "出自王安石《泊船瓜洲》，描写京口瓜。",
+        poemId: null,
+        knowledgePoints: ["京口瓜", "王安石", "泊船瓜洲", "钟山"]
+    }
 ];
