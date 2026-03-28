@@ -1147,18 +1147,31 @@ function generateMatchQuestions(count) {
         let chars = [];
         if (q.answer) {
             // 从答案中提取字符
-            chars = q.answer.replace(/[，、。！？""''【】（）可件条和与及等]/g, '').split('');
+            chars = q.answer.replace(/[，。！？""''【】（）可件条和与及等、：；]/g, '').split('');
         }
         
-        // 添加干扰字直到有9个
-        while (chars.length < 9) {
+        // 随机选择游戏模式：点字成诗 或 九宫格
+        // 九宫格需要9个字，十二宫格需要12个字（诗词大会标准）
+        const 游戏模式 = ['dianzichengshi', 'jiugongge', 'shiergongge'][Math.floor(Math.random() * 3)];
+        
+        // 根据模式调整字符数量
+        const 目标字数 = 游戏模式 === 'shiergongge' ? 12 : 9;
+        
+        // 添加干扰字直到达到目标字数
+        while (chars.length < 目标字数) {
             const 随机字 = 干扰字[Math.floor(Math.random() * 干扰字.length)];
             if (!chars.includes(随机字)) chars.push(随机字);
+        }
+        
+        // 如果超过目标字数，随机截断
+        if (chars.length > 目标字数) {
+            chars = chars.sort(() => Math.random() - 0.5).slice(0, 目标字数);
         }
         
         // 打乱字符
         chars.sort(() => Math.random() - 0.5);
         gameQ.chars = chars;
+        gameQ.gameType = 游戏模式;
         
         questions.push(gameQ);
     });
@@ -1183,6 +1196,8 @@ function showMatchQuestion() {
     
     if (q.gameType === 'jiugongge') {
         showJiugongGe(q);
+    } else if (q.gameType === 'shiergongge') {
+        showShiergongGe(q);
     } else {
         showDianZiChengShi(q);
     }
@@ -1196,6 +1211,26 @@ function showJiugongGe(q) {
     const dianzi = document.getElementById('dianziGrid');
     
     grid.style.display = 'grid';
+    grid.style.gridTemplateColumns = 'repeat(3, 1fr)'; // 重置为3列九宫格
+    dianzi.style.display = 'none';
+    
+    // 打乱汉字
+    const chars = [...q.chars].sort(() => Math.random() - 0.5);
+    
+    grid.innerHTML = chars.map((char, idx) => `
+        <div class="jiugong-char" data-char="${char}" onclick="selectJiugongChar(this, '${char}')">${char}</div>
+    `).join('');
+}
+
+function showShiergongGe(q) {
+    document.getElementById('matchType').textContent = '十二宫格';
+    document.getElementById('matchQuestion').textContent = '从下方12个字中选出正确的一句诗';
+    
+    const grid = document.getElementById('jiugonggeGrid');
+    const dianzi = document.getElementById('dianziGrid');
+    
+    grid.style.display = 'grid';
+    grid.style.gridTemplateColumns = 'repeat(4, 1fr)'; // 4列十二宫格
     dianzi.style.display = 'none';
     
     // 打乱汉字
