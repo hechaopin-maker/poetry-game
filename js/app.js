@@ -318,7 +318,10 @@ function showQuestion() {
                                    style="margin-bottom:10px"
                                    onkeypress="if(event.key==='Enter')submitFillAnswer()">`;
                 }
-                inputBox.innerHTML = inputsHTML + `<button class="btn" onclick="submitFillAnswer()">提交答案</button>`;
+                inputBox.innerHTML = inputsHTML + `<button class="btn" onclick="submitFillAnswer()">提交答案</button>` + 
+                    `<div style="text-align:center;margin-top:15px;">
+                        <a href="javascript:void(0)" onclick="skipAndShowAnswer()" style="color:#666;font-size:14px;text-decoration:underline;">不会做？点此查看答案（记为错题）</a>
+                    </div>`;
                 // 保存空白数量到gameState
                 gameState.currentBlankCount = blankCount;
             } else {
@@ -329,6 +332,9 @@ function showQuestion() {
                            autocomplete="off"
                            onkeypress="if(event.key==='Enter')submitFillAnswer()">
                     <button class="btn" onclick="submitFillAnswer()">提交答案</button>
+                    <div style="text-align:center;margin-top:15px;">
+                        <a href="javascript:void(0)" onclick="skipAndShowAnswer()" style="color:#666;font-size:14px;text-decoration:underline;">不会做？点此查看答案（记为错题）</a>
+                    </div>
                 `;
                 gameState.currentBlankCount = 1;
             }
@@ -459,6 +465,52 @@ function submitFillAnswer() {
     } else {
         // 答错了：显示"下一题"按钮，让学生点击后进入下一题
         document.getElementById('nextQuestionBtn').style.display = 'inline-block';
+    }
+}
+
+// 跳过并显示答案（记为错题）
+function skipAndShowAnswer() {
+    const q = gameState.questions[gameState.currentQuestion];
+    const blankCount = gameState.currentBlankCount || 1;
+    
+    // 获取正确答案并填入输入框
+    const answerParts = q.answer.split('；');
+    
+    for (let i = 0; i < blankCount; i++) {
+        const input = document.getElementById('fillAnswerInput' + i);
+        if (input) {
+            input.value = answerParts[i] || '';
+            input.style.borderColor = 'var(--error)';
+            input.style.background = '#FFEBEE';
+            input.style.color = 'var(--error)';
+            input.disabled = true;
+        }
+    }
+    
+    // 重置连击
+    gameState.combo = 0;
+    document.getElementById('combo').textContent = '0连击';
+    
+    // 记录为错题
+    gameState.wrongCount++;
+    recordWrongQuestion(q);
+    
+    // 显示解析
+    document.getElementById('explanationText').innerHTML = `
+        <strong>正确答案：</strong>${q.answer}<br><br>
+        <strong>解析：</strong>${q.explanation}
+    `;
+    document.getElementById('explanation').classList.add('show');
+    
+    // 显示"下一题"按钮
+    document.getElementById('nextQuestionBtn').style.display = 'inline-block';
+    
+    // 如果当前用户在诗词闯关或每日挑战，更新用户数据
+    if (gameState.currentUser) {
+        gameState.currentUser.totalCount++;
+        gameState.currentUser.wrongCount = (gameState.currentUser.wrongCount || 0) + 1;
+        saveUser();
+        updateUserDisplay();
     }
 }
 
