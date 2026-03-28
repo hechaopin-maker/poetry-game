@@ -649,7 +649,7 @@ async function startFeihua() {
     };
     
     // 获取所有关键字
-    const keywords = Object.keys(FEHUA_FULL_DATA.keywords);
+    const keywords = Object.keys(FEIHUA_FULL_DATA.keywords);
     if (keywords.length === 0) {
         showToast('飞花令数据为空');
         return;
