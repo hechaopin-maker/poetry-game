@@ -506,10 +506,10 @@ async function startFeihua() {
         return;
     }
     
-    // 确保诗词数据已加载
-    if (typeof loadPoemsData === 'function' && window.POEMS_DATA.length < 1000) {
-        showToast('正在加载诗词库...');
-        await loadPoemsData();
+    // 检查飞花令数据
+    if (typeof FEIHUA_FULL_DATA === 'undefined' || !FEIHUA_FULL_DATA.keywords) {
+        showToast('飞花令数据未加载');
+        return;
     }
     
     // 重置状态
@@ -524,73 +524,23 @@ async function startFeihua() {
         isPlaying: false
     };
     
-    // 从全部诗词库中提取关键字
-    const allChars = {};
-    const chineseCharRegex = /[\u4e00-\u9fa5]/;
-    
-    // 扫描所有诗词，统计每个字出现的次数
-    window.POEMS_DATA.forEach(poem => {
-        if (poem.fullText) {
-            [...poem.fullText].forEach(char => {
-                if (chineseCharRegex.test(char)) {
-                    allChars[char] = (allChars[char] || 0) + 1;
-                }
-            });
-        }
-    });
-    
-    // 过滤掉标点符号和无意义字符，获取常用字
-    const commonChars = Object.entries(allChars)
-        .filter(([char, count]) => count >= 5) // 至少出现5次
-        .map(([char]) => char);
-    
-    // 精选关键字列表（更有诗意和游戏性）
-    const curatedKeywords = [
-        '春', '夏', '秋', '冬', '花', '月', '风', '雨', '雪', '云',
-        '山', '水', '江', '河', '湖', '海', '日', '星', '夜', '梦',
-        '酒', '茶', '酒', '烟', '柳', '梅', '兰', '竹', '菊', '松',
-        '思', '念', '忆', '愁', '恨', '爱', '恨', '别', '归', '离',
-        '雁', '鸟', '鱼', '蝶', '蜂', '蝉', '蛙', '鸿', '鹤', '鹭',
-        '天', '地', '人', '心', '情', '意', '志', '气', '神', '魂',
-        '书', '剑', '酒', '棋', '琴', '画', '诗', '词', '曲', '赋',
-        '东', '西', '南', '北', '前', '后', '左', '右', '上', '下',
-        '青', '白', '红', '黄', '绿', '紫', '黑', '苍', '碧', '翠',
-        '大', '小', '高', '低', '长', '短', '远', '近', '深', '浅',
-        '清', '浊', '明', '暗', '刚', '柔', '刚', '柔', '刚', '健',
-        '马', '牛', '羊', '猪', '狗', '猫', '鸡', '鸭', '鹅', '鹿',
-        '帆', '舟', '船', '桥', '路', '门', '窗', '楼', '台', '亭',
-        '宫', '殿', '阙', '城', '乡', '村', '家', '国', '天下', '乾坤'
-    ];
-    
-    // 优先从精选列表选择，如果没有合适的再从数据库提取
-    const availableFromCurated = curatedKeywords.filter(k => commonChars.includes(k));
-    if (availableFromCurated.length > 0) {
-        feihuaState.keyword = availableFromCurated[Math.floor(Math.random() * availableFromCurated.length)];
-    } else {
-        feihuaState.keyword = commonChars[Math.floor(Math.random() * commonChars.length)];
+    // 获取所有可用关键字
+    const keywords = Object.keys(FEHUA_FULL_DATA.keywords);
+    if (keywords.length === 0) {
+        showToast('飞花令数据为空');
+        return;
     }
     
-    // 找出包含该关键字的所有诗句（从fullText中提取）
-    feihuaState.poems = [];
-    const addedPoems = new Set();
+    // 随机选择一个关键字
+    feihuaState.keyword = keywords[Math.floor(Math.random() * keywords.length)];
     
-    window.POEMS_DATA.forEach(poem => {
-        if (poem.fullText && poem.fullText.includes(feihuaState.keyword)) {
-            // 提取包含该字的每一句
-            const lines = poem.fullText.split(/[，。！？；、""''（）]/).filter(line => line.includes(feihuaState.keyword));
-            lines.forEach(line => {
-                const trimmed = line.trim();
-                if (trimmed.length >= 4 && trimmed.length <= 30 && !addedPoems.has(trimmed)) {
-                    addedPoems.add(trimmed);
-                    feihuaState.poems.push({
-                        poem: trimmed,
-                        author: poem.author || '未知',
-                        title: poem.title || '无题'
-                    });
-                }
-            });
-        }
-    });
+    // 获取该关键字的所有诗句
+    const keywordData = FEIHUA_FULL_DATA.keywords[feihuaState.keyword];
+    feihuaState.poems = keywordData.l.map(l => ({
+        poem: l.t,
+        author: l.a || '佚名',
+        title: l.ti || '无题'
+    }));
     
     // 打乱顺序
     feihuaState.poems.sort(() => Math.random() - 0.5);
@@ -604,17 +554,13 @@ async function startFeihua() {
     document.getElementById('feihuaHistory').innerHTML = '';
     
     // 显示可选关键字提示
-    const randomChars = [];
-    const shuffled = [...commonChars].sort(() => Math.random() - 0.5);
-    for (let i = 0; i < Math.min(20, shuffled.length); i++) {
-        randomChars.push(shuffled[i]);
-    }
+    const randomChars = keywords.sort(() => Math.random() - 0.5).slice(0, 20);
     
     document.getElementById('feihuaPrompt').innerHTML = `
         <div style="color:var(--primary);font-weight:600;">请说出含"<strong>${feihuaState.keyword}</strong>"字的完整诗句</div>
         <div style="margin-top:10px;font-size:0.85em;color:#888;">
-            诗词库共有 <strong>${window.POEMS_DATA.length}</strong> 首 | 
-            含此字诗句 <strong>${feihuaState.poems.length}</strong> 句 | 
+            诗词库共有 <strong>${FEIHUA_FULL_DATA.totalPoems || '26,073'}</strong> 首 | 
+            含此字诗句 <strong>${keywordData.c}</strong> 句 | 
             可选关键字：${randomChars.join('、')}
         </div>
     `;
