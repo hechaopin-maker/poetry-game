@@ -363,6 +363,23 @@
             margin-bottom: 8px;
         }
         
+        #nextQuestionBtn {
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+            font-size: 1.1em;
+            padding: 12px 40px;
+            animation: pulse 1.5s infinite;
+        }
+        
+        #nextQuestionBtn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+        }
+        
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4); }
+            50% { box-shadow: 0 4px 25px rgba(76, 175, 80, 0.7); }
+        }
+        
         /* 按钮 */
         .btn {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
@@ -1107,6 +1124,9 @@
                 <div class="explanation" id="explanation">
                     <div class="explanation-title">📖 答案解析</div>
                     <div id="explanationText"></div>
+                    <div style="text-align:center;margin-top:15px;">
+                        <button class="btn btn-primary" id="nextQuestionBtn" onclick="nextQuestion()" style="display:none;">下一题 →</button>
+                    </div>
                 </div>
             </div>
             

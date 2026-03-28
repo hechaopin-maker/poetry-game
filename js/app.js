@@ -256,12 +256,23 @@ function startDailyChallenge() {
     showQuestion();
 }
 
+// 下一题（点击按钮跳转）
+function nextQuestion() {
+    document.getElementById('nextQuestionBtn').style.display = 'none';
+    gameState.currentQuestion++;
+    showQuestion();
+}
+
 // 显示题目
 function showQuestion() {
     if (gameState.currentQuestion >= gameState.questions.length) {
         endGame();
         return;
     }
+    
+    // 隐藏"下一题"按钮
+    const nextBtn = document.getElementById('nextQuestionBtn');
+    if (nextBtn) nextBtn.style.display = 'none';
     
     const q = gameState.questions[gameState.currentQuestion];
     
@@ -372,11 +383,15 @@ function submitFillAnswer() {
     `;
     document.getElementById('explanation').classList.add('show');
     
-    // 2秒后进入下一题
-    setTimeout(() => {
-        gameState.currentQuestion++;
-        showQuestion();
-    }, 2500);
+    if (isCorrect) {
+        // 答对了：1.5秒后自动进入下一题
+        setTimeout(() => {
+            nextQuestion();
+        }, 1500);
+    } else {
+        // 答错了：显示"下一题"按钮，让学生点击后进入下一题
+        document.getElementById('nextQuestionBtn').style.display = 'inline-block';
+    }
 }
 
 // 创建选项元素
@@ -453,11 +468,15 @@ function selectOption(element, isCorrect) {
     `;
     document.getElementById('explanation').classList.add('show');
     
-    // 下一题
-    setTimeout(() => {
-        gameState.currentQuestion++;
-        showQuestion();
-    }, 2000);
+    if (isCorrect) {
+        // 答对了：1.5秒后自动进入下一题
+        setTimeout(() => {
+            nextQuestion();
+        }, 1500);
+    } else {
+        // 答错了：显示"下一题"按钮，让学生点击后进入下一题
+        document.getElementById('nextQuestionBtn').style.display = 'inline-block';
+    }
 }
 
 // 获取题目类型名称
