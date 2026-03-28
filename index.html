@@ -293,6 +293,38 @@
             opacity: 0.7;
         }
         
+        /* 填空题输入框 */
+        .fill-input-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 20px;
+        }
+        
+        .fill-input {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            border: 2px solid var(--secondary);
+            border-radius: 12px;
+            background: var(--bg);
+            color: var(--text);
+            font-family: inherit;
+            transition: all 0.2s;
+        }
+        
+        .fill-input:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: #fff;
+            box-shadow: 0 0 0 3px rgba(205, 133, 63, 0.2);
+        }
+        
+        .fill-input:disabled {
+            background: #eee;
+            cursor: not-allowed;
+        }
+        
         .option-letter {
             width: 30px;
             height: 30px;

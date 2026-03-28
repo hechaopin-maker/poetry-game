@@ -270,11 +270,31 @@ function showQuestion() {
     container.innerHTML = '';
     
     if (q.type === 'fill' || q.type === 'interpret') {
-        // 填空题或鉴赏题只显示选项
-        q.options.forEach((opt, idx) => {
-            const option = createOptionElement(opt, idx);
-            container.appendChild(option);
-        });
+        // 填空题或鉴赏题：检查是否有选项
+        if (q.options && q.options.length > 0) {
+            // 有选项时显示选项（选择题模式）
+            q.options.forEach((opt, idx) => {
+                const option = createOptionElement(opt, idx);
+                container.appendChild(option);
+            });
+        } else {
+            // 无选项时显示输入框（填空题模式）
+            const inputBox = document.createElement('div');
+            inputBox.className = 'fill-input-container';
+            inputBox.innerHTML = `
+                <input type="text" class="fill-input" id="fillAnswerInput" 
+                       placeholder="请输入答案..." 
+                       autocomplete="off"
+                       onkeypress="if(event.key==='Enter')submitFillAnswer()">
+                <button class="btn" onclick="submitFillAnswer()">提交答案</button>
+            `;
+            container.appendChild(inputBox);
+            // 自动聚焦输入框
+            setTimeout(() => {
+                const input = document.getElementById('fillAnswerInput');
+                if (input) input.focus();
+            }, 100);
+        }
     } else {
         // 选择题
         const letters = ['A', 'B', 'C', 'D'];
@@ -289,6 +309,68 @@ function showQuestion() {
     
     // 开始计时
     startTimer();
+}
+
+// 提交填空答案
+function submitFillAnswer() {
+    const input = document.getElementById('fillAnswerInput');
+    if (!input) return;
+    
+    const userAnswer = input.value.trim();
+    if (!userAnswer) {
+        showToast('请输入答案');
+        return;
+    }
+    
+    const q = gameState.questions[gameState.currentQuestion];
+    // 检查答案是否正确（忽略标点和空格差异）
+    const correctAnswer = q.answer.replace(/[，。！？、；：""''（）]/g, '').trim();
+    const normalizedUserAnswer = userAnswer.replace(/[，。！？、；：""''（）]/g, '').trim();
+    const isCorrect = normalizedUserAnswer === correctAnswer || 
+                     correctAnswer.includes(normalizedUserAnswer) || 
+                     normalizedUserAnswer.includes(correctAnswer);
+    
+    // 禁用输入框
+    input.disabled = true;
+    
+    // 显示答题结果
+    if (isCorrect) {
+        input.style.borderColor = 'var(--success)';
+        input.style.background = '#E8F5E9';
+        gameState.combo++;
+        gameState.maxCombo = Math.max(gameState.maxCombo, gameState.combo);
+        let points = 10;
+        if (gameState.combo > 1) {
+            points += Math.min(gameState.combo - 1, 10) * 2;
+        }
+        gameState.score += points;
+        gameState.correctCount++;
+        document.getElementById('score').textContent = gameState.score;
+        document.getElementById('combo').textContent = gameState.combo + '连击';
+        if (gameState.combo >= 5) showComboEffect();
+    } else {
+        input.style.borderColor = 'var(--error)';
+        input.style.background = '#FFEBEE';
+        input.value = '正确答案：' + q.answer;
+        input.style.color = 'var(--error)';
+        gameState.combo = 0;
+        gameState.wrongCount++;
+        document.getElementById('combo').textContent = gameState.combo + '连击';
+        recordWrongQuestion(q);
+    }
+    
+    // 显示解析
+    document.getElementById('explanationText').innerHTML = `
+        <strong>正确答案：</strong>${q.answer}<br><br>
+        <strong>解析：</strong>${q.explanation}
+    `;
+    document.getElementById('explanation').classList.add('show');
+    
+    // 2秒后进入下一题
+    setTimeout(() => {
+        gameState.currentQuestion++;
+        showQuestion();
+    }, 2500);
 }
 
 // 创建选项元素
