@@ -544,8 +544,31 @@ async function startFeihua() {
         .filter(([char, count]) => count >= 5) // 至少出现5次
         .map(([char]) => char);
     
-    // 选择一个随机关键字
-    feihuaState.keyword = commonChars[Math.floor(Math.random() * commonChars.length)];
+    // 精选关键字列表（更有诗意和游戏性）
+    const curatedKeywords = [
+        '春', '夏', '秋', '冬', '花', '月', '风', '雨', '雪', '云',
+        '山', '水', '江', '河', '湖', '海', '日', '星', '夜', '梦',
+        '酒', '茶', '酒', '烟', '柳', '梅', '兰', '竹', '菊', '松',
+        '思', '念', '忆', '愁', '恨', '爱', '恨', '别', '归', '离',
+        '雁', '鸟', '鱼', '蝶', '蜂', '蝉', '蛙', '鸿', '鹤', '鹭',
+        '天', '地', '人', '心', '情', '意', '志', '气', '神', '魂',
+        '书', '剑', '酒', '棋', '琴', '画', '诗', '词', '曲', '赋',
+        '东', '西', '南', '北', '前', '后', '左', '右', '上', '下',
+        '青', '白', '红', '黄', '绿', '紫', '黑', '苍', '碧', '翠',
+        '大', '小', '高', '低', '长', '短', '远', '近', '深', '浅',
+        '清', '浊', '明', '暗', '刚', '柔', '刚', '柔', '刚', '健',
+        '马', '牛', '羊', '猪', '狗', '猫', '鸡', '鸭', '鹅', '鹿',
+        '帆', '舟', '船', '桥', '路', '门', '窗', '楼', '台', '亭',
+        '宫', '殿', '阙', '城', '乡', '村', '家', '国', '天下', '乾坤'
+    ];
+    
+    // 优先从精选列表选择，如果没有合适的再从数据库提取
+    const availableFromCurated = curatedKeywords.filter(k => commonChars.includes(k));
+    if (availableFromCurated.length > 0) {
+        feihuaState.keyword = availableFromCurated[Math.floor(Math.random() * availableFromCurated.length)];
+    } else {
+        feihuaState.keyword = commonChars[Math.floor(Math.random() * commonChars.length)];
+    }
     
     // 找出包含该关键字的所有诗句（从fullText中提取）
     feihuaState.poems = [];
