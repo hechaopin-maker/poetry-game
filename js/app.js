@@ -16,6 +16,40 @@ let gameState = {
     dataLoaded: false
 };
 
+// ==================== 年级关卡配置 ====================
+const GRADE_LEVELS = {
+    mk: {
+        icon: '📚',
+        name: '小升初密考',
+        description: '小升初密考真题精选',
+        questions: 10
+    },
+    fbc: {
+        icon: '📖',
+        name: '分班测',
+        description: '初一新生分班测真题',
+        questions: 10
+    },
+    chu1: {
+        icon: '📕',
+        name: '初一',
+        description: '七年级古诗词',
+        questions: 10
+    },
+    chu2: {
+        icon: '📗',
+        name: '初二',
+        description: '八年级古诗词',
+        questions: 10
+    },
+    zk: {
+        icon: '📘',
+        name: '中考',
+        description: '中考古诗词真题',
+        questions: 10
+    }
+};
+
 // ==================== 用户系统 ====================
 
 // 初始化
