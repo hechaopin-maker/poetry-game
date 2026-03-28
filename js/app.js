@@ -217,6 +217,12 @@ function getQuestionsByGrade(grade, count = 10) {
     return shuffled.slice(0, count);
 }
 
+// 获取随机题目（用于每日挑战）
+function getRandomQuestions(count = 10) {
+    const shuffled = [...QUESTIONS_DATA].sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, count);
+}
+
 // 开始闯关
 function startChallenge(grade) {
     const level = GRADE_LEVELS[grade];
