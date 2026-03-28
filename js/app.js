@@ -94,7 +94,9 @@ function showLoginModal(pendingMode) {
             wrongQuestions: [],
             achievements: [],
             dailyBest: null,
-            lastDailyDate: null
+            lastDailyDate: null,
+            // 题目掌握追踪：{questionId: {consecutiveCorrect:次数, masteredAt:时间戳}}
+            questionMastery: {}
         };
         saveUser();
         updateUserDisplay();
@@ -211,15 +213,18 @@ function showLevelSelect() {
 
 // 获取指定年级的题目
 function getQuestionsByGrade(grade, count = 10) {
-    const filtered = QUESTIONS_DATA.filter(q => q.grade === grade);
+    // 过滤掉2个月内已掌握的题目
+    const available = QUESTIONS_DATA.filter(q => q.grade === grade && !isQuestionMastered(q.id));
     // 打乱顺序并返回指定数量
-    const shuffled = filtered.sort(() => Math.random() - 0.5);
+    const shuffled = available.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);
 }
 
 // 获取随机题目（用于每日挑战）
 function getRandomQuestions(count = 10) {
-    const shuffled = [...QUESTIONS_DATA].sort(() => Math.random() - 0.5);
+    // 过滤掉2个月内已掌握的题目
+    const available = [...QUESTIONS_DATA].filter(q => !isQuestionMastered(q.id));
+    const shuffled = available.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);
 }
 
@@ -362,6 +367,7 @@ function submitFillAnswer() {
         }
         gameState.score += points;
         gameState.correctCount++;
+        recordQuestionCorrect(q);
         document.getElementById('score').textContent = gameState.score;
         document.getElementById('combo').textContent = gameState.combo + '连击';
         if (gameState.combo >= 5) showComboEffect();
@@ -434,6 +440,7 @@ function selectOption(element, isCorrect) {
         }
         gameState.score += points;
         gameState.correctCount++;
+        recordQuestionCorrect(q);
         
         document.getElementById('score').textContent = gameState.score;
         document.getElementById('combo').textContent = gameState.combo + '连击';
@@ -508,6 +515,51 @@ function recordWrongQuestion(q) {
         });
         saveUser();
     }
+    
+    // 答错了，重置该题目的连续正确次数
+    if (user.questionMastery[q.id]) {
+        user.questionMastery[q.id].consecutiveCorrect = 0;
+        saveUser();
+    }
+}
+
+// 记录答对题目（用于追踪是否连续答对两次）
+function recordQuestionCorrect(q) {
+    const user = gameState.currentUser;
+    if (!user.questionMastery[q.id]) {
+        user.questionMastery[q.id] = { consecutiveCorrect: 0, masteredAt: null };
+    }
+    
+    user.questionMastery[q.id].consecutiveCorrect++;
+    
+    // 连续答对2次，标记为已掌握
+    if (user.questionMastery[q.id].consecutiveCorrect >= 2) {
+        user.questionMastery[q.id].masteredAt = Date.now();
+        // 从错题本中移除（如果之前有错）
+        user.wrongQuestions = user.wrongQuestions.filter(w => w.id !== q.id);
+        showToast('🎉 已掌握此知识点，2个月后再复习！');
+    }
+    
+    saveUser();
+}
+
+// 检查题目是否在2个月内的已掌握列表中
+function isQuestionMastered(questionId) {
+    const user = gameState.currentUser;
+    const mastery = user.questionMastery[questionId];
+    
+    if (!mastery || !mastery.masteredAt) return false;
+    
+    // 检查是否已过2个月（60天）
+    const TWO_MONTHS = 60 * 24 * 60 * 60 * 1000;
+    if (Date.now() - mastery.masteredAt > TWO_MONTHS) {
+        // 已过2个月，清除掌握状态，可重新出现
+        delete user.questionMastery[questionId];
+        saveUser();
+        return false;
+    }
+    
+    return true;
 }
 
 // 结束游戏
@@ -920,14 +972,15 @@ function startMatch() {
 }
 
 function generateMatchQuestions(count) {
-    // 使用QUESTIONS_DATA生成题目
+    // 使用QUESTIONS_DATA生成题目（过滤掉2个月内已掌握的题目）
     const questions = [];
     
     // 干扰字库
     const 干扰字 = '春夏秋冬日月山水风云花鸟虫鱼天地人'.split('');
     
-    // 随机选取题目
-    const shuffled = [...QUESTIONS_DATA].sort(() => Math.random() - 0.5);
+    // 随机选取题目（过滤已掌握）
+    const available = [...QUESTIONS_DATA].filter(q => !isQuestionMastered(q.id));
+    const shuffled = available.sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, Math.min(count, shuffled.length));
     
     selected.forEach(q => {
@@ -1102,6 +1155,12 @@ function handleMatchCorrect() {
     matchState.combo++;
     let points = 10 + Math.min(matchState.combo - 1, 5) * 2;
     matchState.score += points;
+    
+    // 追踪题目掌握（如果题目有id）
+    if (matchState.currentQuestion && matchState.currentQuestion.id) {
+        const q = QUESTIONS_DATA.find(q => q.id === matchState.currentQuestion.id);
+        if (q) recordQuestionCorrect(q);
+    }
     
     // 显示正确
     matchState.selectedChars.forEach(c => {
