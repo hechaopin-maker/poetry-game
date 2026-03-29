@@ -1306,7 +1306,6 @@ function endFeihua() {
     document.getElementById('feihuaPrompt').innerHTML = `
         <div style="color:var(--success);font-size:1.3em;">🎉 完成！</div>
         <div style="margin-top:10px;">答对 <strong>${feihuaState.currentIndex}</strong> 句，得 <strong>${feihuaState.score}</strong> 分</div>
-        <div style="margin-top:8px;color:#888;font-size:0.9em;">当前难度：${feihuaState.difficulty === 'easy' ? '🟢 简单' : feihuaState.difficulty === 'medium' ? '🟡 中等' : '🔴 困难'}</div>
     `;
     
     document.getElementById('feihuaStartBtn').style.display = 'inline-block';
