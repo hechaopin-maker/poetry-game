@@ -1221,7 +1221,7 @@ function submitFeihuaAnswerByInput() {
     // 检查是否在诗词库中（模糊匹配：用户输入只要包含正确诗句的一部分且含有关键字即算正确）
     const keyword = feihuaState.keyword;
     const isCorrect = feihuaState.poems.some(p => {
-        const poemText = p.poem;
+        const poemText = p.poem;  // p.poem 是加载时设置的 (l.t)
         // 如果用户输入完全匹配某句诗
         if (userAnswer === poemText) return true;
         // 如果用户输入包含诗句的核心部分（去掉标点后匹配）
@@ -1236,9 +1236,10 @@ function submitFeihuaAnswerByInput() {
     
     // 记录已答过的诗句（使用原句）
     const matchedPoem = feihuaState.poems.find(p => {
+        const poemText = p.poem;  // p.poem 是加载时设置的 (l.t)
         const cleanAnswer = userAnswer.replace(/[，。！？、；：""''（）]/g, '');
-        const cleanPoem = p.poem.replace(/[，。！？、；：""''（）]/g, '');
-        return userAnswer === p.poem || cleanPoem.includes(cleanAnswer) || cleanAnswer.includes(cleanPoem);
+        const cleanPoem = poemText.replace(/[，。！？、；：""''（）]/g, '');
+        return userAnswer === poemText || cleanPoem.includes(cleanAnswer) || cleanAnswer.includes(cleanPoem);
     });
     
     if (isCorrect && matchedPoem) {
