@@ -477,11 +477,8 @@ function submitFillAnswer() {
         recordWrongQuestion(q);
     }
     
-    // 显示解析
-    document.getElementById('explanationText').innerHTML = `
-        <strong>正确答案：</strong>${q.answer}<br><br>
-        <strong>解析：</strong>${q.explanation}
-    `;
+    // 显示解析（增强版：包含诗词全文、作者、朝代、释义）
+    document.getElementById('explanationText').innerHTML = getEnhancedExplanation(q);
     document.getElementById('explanation').classList.add('show');
     
     if (allCorrect) {
@@ -522,11 +519,8 @@ function skipAndShowAnswer() {
     gameState.wrongCount++;
     recordWrongQuestion(q);
     
-    // 显示解析
-    document.getElementById('explanationText').innerHTML = `
-        <strong>正确答案：</strong>${q.answer}<br><br>
-        <strong>解析：</strong>${q.explanation}
-    `;
+    // 显示解析（增强版）
+    document.getElementById('explanationText').innerHTML = getEnhancedExplanation(q);
     document.getElementById('explanation').classList.add('show');
     
     // 显示"下一题"按钮
@@ -609,11 +603,8 @@ function selectOption(element, isCorrect) {
         document.getElementById('combo').textContent = gameState.combo + '连击';
     }
     
-    // 显示解析
-    document.getElementById('explanationText').innerHTML = `
-        <strong>正确答案：</strong>${q.answer}<br><br>
-        <strong>解析：</strong>${q.explanation}
-    `;
+    // 显示解析（增强版）
+    document.getElementById('explanationText').innerHTML = getEnhancedExplanation(q);
     document.getElementById('explanation').classList.add('show');
     
     if (isCorrect) {
@@ -1519,6 +1510,65 @@ function showDict() {
     // 绑定搜索事件
     const searchInput = document.getElementById('dictSearch');
     searchInput.oninput = debounce(searchPoems, 300);
+}
+
+// 增强解析内容：包含诗词全文、作者、朝代、释义
+function getEnhancedExplanation(q) {
+    // 尝试从题目中提取诗词名和作者
+    // 题目格式如："海日生残夜，__________。（王湾《次北固山下》）"
+    const matchResult = q.question.match(/（([^《》]+)《([^《》]+)》）/);
+    
+    let enhancedHTML = `<strong>正确答案：</strong>${q.answer}`;
+    
+    if (matchResult) {
+        const author = matchResult[1].trim();
+        const title = matchResult[2].trim();
+        
+        // 在诗词库中查找对应诗词
+        const poem = POEMS_DATA.find(p => 
+            p.title === title && p.author.includes(author)
+        );
+        
+        if (poem) {
+            // 找到诗词，增强解析
+            const fullText = poem.fullText || (Array.isArray(poem.content) ? poem.content.join('，') : '');
+            const interpretation = poem.interpretation || '';
+            const dynasty = poem.dynasty || '';
+            
+            enhancedHTML = `
+                <div style="margin-bottom:15px;">
+                    <strong>【诗词原文】</strong><br>
+                    <div style="color:#333;font-size:1.1em;line-height:1.8;padding:10px;background:#f8f8f8;border-radius:8px;">
+                        ${fullText}
+                    </div>
+                </div>
+                <div style="margin-bottom:10px;">
+                    <strong>【诗词信息】</strong><br>
+                    <span style="color:#666;">${dynasty}·${poem.author}《${poem.title}》</span>
+                </div>
+                ${interpretation ? `
+                <div style="margin-bottom:10px;">
+                    <strong>【诗词释义】</strong><br>
+                    <span style="color:#555;">${interpretation}</span>
+                </div>
+                ` : ''}
+            `;
+        } else {
+            // 没找到，使用原有解析
+            enhancedHTML = `
+                <strong>正确答案：</strong>${q.answer}<br><br>
+                <strong>解析：</strong>${q.explanation || '无'}
+            `;
+        }
+    } else {
+        // 无法提取诗词信息，使用原有解析
+        enhancedHTML = `
+            <strong>正确答案：</strong>${q.answer}<br><br>
+            <strong>解析：</strong>${q.explanation || '无'}
+        `;
+    }
+    
+    return enhancedHTML;
 }
 
 function searchPoems() {
