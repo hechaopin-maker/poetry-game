@@ -830,7 +830,8 @@ let feihuaState = {
     timeLeft: 30,
     score: 0,
     answered: [],
-    isPlaying: false
+    isPlaying: false,
+    usedKeywords: []  // 追踪已使用过的关键字，同一字需隔10次才能再用
 };
 
 async function startFeihua() {
@@ -854,7 +855,8 @@ async function startFeihua() {
         timeLeft: 30,
         score: 0,
         answered: [],
-        isPlaying: false
+        isPlaying: false,
+        usedKeywords: []
     };
     
     // 获取所有关键字
@@ -864,8 +866,11 @@ async function startFeihua() {
         return;
     }
     
-    // 随机选择一个关键字
-    feihuaState.keyword = keywords[Math.floor(Math.random() * keywords.length)];
+    // 随机选择一个关键字（不能是刚用过的）
+    const availableKeywords = keywords.filter(k => !feihuaState.usedKeywords.includes(k));
+    const keywordPool = availableKeywords.length > 0 ? availableKeywords : keywords;
+    feihuaState.keyword = keywordPool[Math.floor(Math.random() * keywordPool.length)];
+    feihuaState.usedKeywords.push(feihuaState.keyword);
     const keywordData = FEIHUA_FULL_DATA.keywords[feihuaState.keyword];
     
     // 获取该关键字的所有诗句
@@ -942,6 +947,69 @@ function showFeihuaOptions() {
 }
 
 // 提交飞花令答案（传统输入模式）
+// 从诗句中提取字符作为下一个关键字
+function pickNextKeywordFromPoem(poem) {
+    // 提取诗句中的所有汉字
+    const chars = poem.replace(/[，。！？、；：""''（）\s\dA-Za-z0-9]/g, '').split('');
+    
+    // 去重
+    const uniqueChars = [...new Set(chars)];
+    
+    // 过滤掉已使用过的关键字（保留最近10个之外的关键字）
+    const recentKeywords = feihuaState.usedKeywords.slice(-10);
+    const availableChars = uniqueChars.filter(c => !recentKeywords.includes(c));
+    
+    // 优先选择有诗句库支持的字
+    const keywords = Object.keys(FEIHUA_FULL_DATA.keywords);
+    const supportedChars = availableChars.filter(c => keywords.includes(c));
+    
+    if (supportedChars.length > 0) {
+        return supportedChars[Math.floor(Math.random() * supportedChars.length)];
+    }
+    
+    // 如果没有支持的字，从所有可用字符中选
+    if (availableChars.length > 0) {
+        return availableChars[Math.floor(Math.random() * availableChars.length)];
+    }
+    
+    // 如果所有字都用过了，清空历史重新选
+    feihuaState.usedKeywords = [];
+    const newAvailable = uniqueChars.filter(c => keywords.includes(c));
+    if (newAvailable.length > 0) {
+        return newAvailable[Math.floor(Math.random() * newAvailable.length)];
+    }
+    
+    // 兜底：从关键字库随机选一个
+    return keywords[Math.floor(Math.random() * keywords.length)];
+}
+
+// 切换到新的关键字
+function switchToNewKeyword(poem) {
+    const newKeyword = pickNextKeywordFromPoem(poem);
+    feihuaState.keyword = newKeyword;
+    feihuaState.usedKeywords.push(newKeyword);
+    
+    // 如果用得够多了，清除旧记录（保留最近10个）
+    if (feihuaState.usedKeywords.length > 20) {
+        feihuaState.usedKeywords = feihuaState.usedKeywords.slice(-10);
+    }
+    
+    // 获取新关键字的诗句列表
+    const keywordData = FEIHUA_FULL_DATA.keywords[feihuaState.keyword];
+    if (!keywordData) return;
+    
+    feihuaState.poems = keywordData.l.map(l => ({
+        poem: l.t,
+        author: l.a || '佚名',
+        title: l.ti || '无题'
+    }));
+    feihuaState.poems.sort(() => Math.random() - 0.5);
+    
+    // 更新显示
+    document.getElementById('feihuaKeyword').textContent = feihuaState.keyword;
+    document.getElementById('feihuaHistory').innerHTML = '';
+}
+
 function submitFeihuaAnswerByInput() {
     if (!feihuaState.isPlaying) return;
     
@@ -1024,6 +1092,10 @@ function submitFeihuaAnswerByInput() {
         
         showToast('正确！+10分');
         
+        // 切换到新关键字（从答对的诗句中提取）
+        const poemForKeyword = matchedPoem ? matchedPoem.poem : userAnswer;
+        switchToNewKeyword(poemForKeyword);
+        
         // 重置计时器并显示下一题
         feihuaState.timeLeft = 30;
         document.getElementById('feihuaTimer').textContent = '30';
@@ -1066,6 +1138,9 @@ function submitFeihuaAnswer(poem) {
         clearInterval(feihuaState.timer);
         endFeihua();
     } else {
+        // 切换到新关键字（从答对的诗句中提取）
+        switchToNewKeyword(poem);
+        
         // 显示下一题选项
         feihuaState.timeLeft = 30;
         document.getElementById('feihuaTimer').textContent = '30';
