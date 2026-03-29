@@ -976,29 +976,35 @@ async function startFeihua() {
         return countB - countA;
     });
     
-    // 根据难度选择关键字范围
-    // easy: 前20%（诗句最多的简单字）
-    // medium: 前20-60%
-    // hard: 后40%
+    // 根据难度选择关键字
+    // easy: 只用诗句最多的前10个关键字（最简单常用字）
+    // medium: 用前10-30个
+    // hard: 用所有关键字
     const total = sortedKeywords.length;
-    const easyEnd = Math.floor(total * 0.2);
-    const mediumEnd = Math.floor(total * 0.6);
     
     let pool;
     if (feihuaState.difficulty === 'easy') {
-        pool = sortedKeywords.slice(0, easyEnd);
+        // Easy模式：只用前10个最简单关键字，按顺序出现，不重复
+        const easyCount = Math.min(10, total);
+        pool = sortedKeywords.slice(0, easyCount);
+        // 按顺序选下一个，避免随机选到难的
+        const lastKeyword = feihuaState.usedKeywords[feihuaState.usedKeywords.length - 1];
+        const lastIndex = pool.indexOf(lastKeyword);
+        const nextIndex = (lastIndex + 1) % pool.length;
+        feihuaState.keyword = pool[nextIndex];
     } else if (feihuaState.difficulty === 'medium') {
-        pool = sortedKeywords.slice(easyEnd, mediumEnd);
+        // Medium模式：用前30个
+        const mediumCount = Math.min(30, total);
+        pool = sortedKeywords.slice(0, mediumCount);
+        // 随机选择
+        feihuaState.keyword = pool[Math.floor(Math.random() * pool.length)];
     } else {
-        pool = sortedKeywords.slice(mediumEnd);
+        // Hard模式：用所有关键字
+        pool = sortedKeywords;
+        feihuaState.keyword = pool[Math.floor(Math.random() * pool.length)];
     }
     
-    // 过滤掉刚用过的
-    const availableKeywords = pool.filter(k => !feihuaState.usedKeywords.includes(k));
-    const keywordPool = availableKeywords.length > 0 ? availableKeywords : pool;
-    
-    // 随机选择一个关键字
-    feihuaState.keyword = keywordPool[Math.floor(Math.random() * keywordPool.length)];
+    // 记录已用关键字
     feihuaState.usedKeywords.push(feihuaState.keyword);
     const keywordData = FEIHUA_FULL_DATA.keywords[feihuaState.keyword];
     
@@ -1148,7 +1154,48 @@ function pickNextKeywordFromPoem(poem) {
 
 // 切换到新的关键字
 function switchToNewKeyword(poem) {
-    const newKeyword = pickNextKeywordFromPoem(poem);
+    // 根据难度选择下一个关键字
+    // 难度越低，越只用简单的关键字
+    const keywords = Object.keys(FEIHUA_FULL_DATA.keywords);
+    const sortedKeywords = keywords.sort((a, b) => {
+        const countA = FEIHUA_FULL_DATA.keywords[a].l.length;
+        const countB = FEIHUA_FULL_DATA.keywords[b].l.length;
+        return countB - countA;
+    });
+    
+    // 根据难度决定关键字池大小
+    let poolSize;
+    if (feihuaState.difficulty === 'easy') {
+        poolSize = 10;
+    } else if (feihuaState.difficulty === 'medium') {
+        poolSize = 30;
+    } else {
+        poolSize = sortedKeywords.length;
+    }
+    
+    // 获取可用的简单关键字（排除最近用过的）
+    const recentKeywords = feihuaState.usedKeywords.slice(-10);
+    const easyPool = sortedKeywords.slice(0, poolSize).filter(k => !recentKeywords.includes(k));
+    
+    let newKeyword;
+    if (easyPool.length > 0) {
+        // 从简单池中按顺序选下一个
+        const lastKeyword = recentKeywords[recentKeywords.length - 1];
+        const lastIndex = easyPool.indexOf(lastKeyword);
+        if (lastIndex >= 0) {
+            const nextIndex = (lastIndex + 1) % easyPool.length;
+            newKeyword = easyPool[nextIndex];
+        } else {
+            newKeyword = easyPool[0];
+        }
+    } else {
+        // 池空了，从所有关键字中选（兜底）
+        const availableKeywords = keywords.filter(k => !recentKeywords.includes(k));
+        newKeyword = availableKeywords.length > 0 
+            ? availableKeywords[Math.floor(Math.random() * availableKeywords.length)]
+            : keywords[Math.floor(Math.random() * keywords.length)];
+    }
+    
     feihuaState.keyword = newKeyword;
     feihuaState.usedKeywords.push(newKeyword);
     
