@@ -886,18 +886,10 @@ async function startFeihua() {
     document.getElementById('feihuaCount').textContent = '0/10';
     document.getElementById('feihuaHistory').innerHTML = '';
     
-    // 随机显示一些其他关键字作为提示
-    const otherKeywords = keywords.filter(k => k !== feihuaState.keyword).sort(() => Math.random() - 0.5).slice(0, 12);
-    
+    // 只显示关键字提示，不显示统计信息（点击开始后才显示输入框）
     document.getElementById('feihuaPrompt').innerHTML = `
         <div style="color:var(--primary);font-weight:600;font-size:1.2em;">
             请说出含"<strong style="font-size:2em;color:var(--primary);">${feihuaState.keyword}</strong>"字的诗句
-        </div>
-        <div style="margin-top:10px;font-size:0.85em;color:#888;">
-            诗词库共 <strong>${FEIHUA_FULL_DATA.totalPoems || '26,073'}</strong> 首 | 含此字 <strong>${keywordData.c}</strong> 句
-        </div>
-        <div style="margin-top:8px;font-size:0.85em;color:#666;">
-            其他关键字：${otherKeywords.join('、')}
         </div>
     `;
     document.getElementById('feihuaStartBtn').style.display = 'inline-block';
