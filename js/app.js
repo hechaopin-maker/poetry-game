@@ -139,14 +139,6 @@ function continueStartGame(mode) {
     } else if (mode === 'daily') {
         startDailyChallenge();
     } else if (mode === 'feihua') {
-
-// 登录后继续启动游戏
-function continueStartGame(mode) {
-    if (mode === 'challenge') {
-        showLevelSelect();
-    } else if (mode === 'daily') {
-        startDailyChallenge();
-    } else if (mode === 'feihua') {
         startFeihua();
     } else if (mode === 'match') {
         startMatch();
@@ -1262,7 +1254,7 @@ function generateMatchQuestions(count) {
         gameQ.gameType = 游戏模式;
         
         questions.push(gameQ);
-    });
+    }
     
     return questions;
 }
