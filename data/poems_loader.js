@@ -11,7 +11,8 @@ const POEM_DATA_FILES = [
     'song_002.json',
     'song_003.json',
     'song_004.json',
-    'other_001.json'
+    'other_001.json',
+    'supplement.json'  // 补充数据包：学校常考诗词
 ];
 
 // 全局诗词数据
