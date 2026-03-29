@@ -1022,8 +1022,39 @@ async function startFeihua() {
     
     // 清空提示区（静态HTML已有"请说出含此字的诗句"）
     document.getElementById('feihuaPrompt').innerHTML = '';
-    document.getElementById('feihuaStartBtn').style.display = 'inline-block';
-    document.getElementById('feihuaStartBtn').textContent = '开始飞花令';
+    // 重置难度选择界面
+    const btn = document.getElementById('feihuaStartBtn');
+    btn.style.display = 'inline-block';
+    btn.disabled = true;
+    btn.style.opacity = '0.5';
+    btn.textContent = '先选择难度';
+}
+
+function selectFeihuaDifficulty(difficulty) {
+    // 设置难度
+    feihuaState.difficulty = difficulty;
+    
+    // 更新按钮状态
+    const btn = document.getElementById('feihuaStartBtn');
+    btn.disabled = false;
+    btn.style.opacity = '1';
+    
+    // 根据难度设置按钮文字
+    const difficultyText = {
+        'easy': '🌱 初级 - 开始游戏',
+        'medium': '🌿 中级 - 开始游戏', 
+        'hard': '🌳 高级 - 开始游戏'
+    };
+    btn.textContent = difficultyText[difficulty];
+    
+    // 高亮选中的难度按钮
+    const buttons = document.querySelectorAll('#feihuaPage .btn[onclick^="selectFeihuaDifficulty"]');
+    buttons.forEach(b => {
+        b.style.transform = 'scale(1)';
+        b.style.boxShadow = 'none';
+    });
+    event.target.closest('button').style.transform = 'scale(1.05)';
+    event.target.closest('button').style.boxShadow = '0 4px 12px rgba(0,0,0,0.3)';
 }
 
 function startFeihuaGame() {

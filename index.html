@@ -1369,8 +1369,17 @@
                     <!-- 答题历史 -->
                 </div>
                 
+                <div style="text-align:center;margin-bottom:15px;">
+                    <div style="color:var(--text-light);margin-bottom:10px;font-size:14px;">选择难度</div>
+                    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+                        <button class="btn btn-small" style="background:var(--success);" onclick="selectFeihuaDifficulty('easy')">🌱 初级<br><small>常见字</small></button>
+                        <button class="btn btn-small" style="background:var(--warning);" onclick="selectFeihuaDifficulty('medium')">🌿 中级<br><small>中等难度</small></button>
+                        <button class="btn btn-small" style="background:var(--error);" onclick="selectFeihuaDifficulty('hard')">🌳 高级<br><small>挑战模式</small></button>
+                    </div>
+                </div>
+                
                 <div style="text-align:center;">
-                    <button class="btn" id="feihuaStartBtn" onclick="startFeihuaGame()">开始飞花令</button>
+                    <button class="btn" id="feihuaStartBtn" onclick="startFeihuaGame()" disabled style="opacity:0.5;">先选择难度</button>
                 </div>
             </div>
             
