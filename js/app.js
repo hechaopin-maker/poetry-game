@@ -886,12 +886,8 @@ async function startFeihua() {
     document.getElementById('feihuaCount').textContent = '0/10';
     document.getElementById('feihuaHistory').innerHTML = '';
     
-    // 只显示关键字提示，不显示统计信息（点击开始后才显示输入框）
-    document.getElementById('feihuaPrompt').innerHTML = `
-        <div style="color:var(--primary);font-weight:600;font-size:1.2em;">
-            请说出含"<strong style="font-size:2em;color:var(--primary);">${feihuaState.keyword}</strong>"字的诗句
-        </div>
-    `;
+    // 清空提示区（静态HTML已有"请说出含此字的诗句"）
+    document.getElementById('feihuaPrompt').innerHTML = '';
     document.getElementById('feihuaStartBtn').style.display = 'inline-block';
     document.getElementById('feihuaStartBtn').textContent = '开始飞花令';
 }
@@ -926,24 +922,16 @@ function showFeihuaOptions() {
         return;
     }
     
-    // 显示输入框（传统飞花令模式）
+    // 显示输入框（静态HTML已有提示文字"请说出含此字的诗句"，不重复显示）
     document.getElementById('feihuaPrompt').innerHTML = `
-        <div style="color:var(--primary);font-weight:600;font-size:1.1em;margin-bottom:15px;">
-            请说出含"<strong style="font-size:1.5em;color:var(--primary);">${feihuaState.keyword}</strong>"字的诗句
-        </div>
-        <div style="margin-top:15px;">
-            <input type="text" id="feihuaInput" 
-                   style="width:100%;padding:15px 20px;font-size:1.2em;border:2px solid var(--primary);border-radius:10px;background:var(--bg-secondary);color:var(--text);"
-                   placeholder="请输入诗句，如：春眠不觉晓..." 
-                   onkeypress="if(event.key==='Enter')submitFeihuaAnswerByInput()"
-                   autocomplete="off">
-            <button class="btn" style="margin-top:15px;padding:12px 30px;font-size:1.1em;" onclick="submitFeihuaAnswerByInput()">
-                提交答案
-            </button>
-            <div style="margin-top:15px;font-size:0.9em;color:var(--text-light);">
-                提示：可以是任意含"<strong>${feihuaState.keyword}</strong>"字的诗句
-            </div>
-        </div>
+        <input type="text" id="feihuaInput" 
+               style="width:100%;padding:15px 20px;font-size:1.2em;border:2px solid var(--primary);border-radius:10px;background:var(--bg-secondary);color:var(--text);"
+               placeholder="请输入诗句，如：春眠不觉晓..." 
+               onkeypress="if(event.key==='Enter')submitFeihuaAnswerByInput()"
+               autocomplete="off">
+        <button class="btn" style="margin-top:15px;padding:12px 30px;font-size:1.1em;" onclick="submitFeihuaAnswerByInput()">
+            提交答案
+        </button>
     `;
     
     // 自动聚焦输入框
