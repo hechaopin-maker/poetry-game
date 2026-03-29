@@ -81,33 +81,64 @@ function saveUser() {
 }
 
 // 显示登录弹窗
+// 待登录模式（登录后继续启动的游戏模式）
+let pendingLoginMode = null;
+
+// 显示登录模态框
 function showLoginModal(pendingMode) {
-    const username = prompt('请输入你的昵称：', '诗词达人');
-    if (username && username.trim()) {
-        gameState.currentUser = {
-            name: username.trim(),
-            xp: 0,
-            level: 1,
-            correctCount: 0,
-            totalCount: 0,
-            masteredPoems: [],
-            wrongQuestions: [],
-            achievements: [],
-            dailyBest: null,
-            lastDailyDate: null,
-            // 题目掌握追踪：{questionId: {consecutiveCorrect:次数, masteredAt:时间戳}}
-            questionMastery: {}
-        };
-        saveUser();
-        updateUserDisplay();
-        showToast(`欢迎，${username}！开始诗词之旅吧！`);
-        
-        // 登录后继续启动游戏
-        if (pendingMode) {
-            continueStartGame(pendingMode);
-        }
+    pendingLoginMode = pendingMode;
+    const modal = document.getElementById('loginModal');
+    const input = document.getElementById('loginUsername');
+    input.value = '诗词达人';
+    modal.classList.add('show');
+    input.focus();
+}
+
+// 提交登录
+function submitLogin() {
+    const input = document.getElementById('loginUsername');
+    const username = input.value.trim();
+    
+    if (!username) {
+        showToast('请输入昵称');
+        return;
+    }
+    
+    gameState.currentUser = {
+        name: username,
+        xp: 0,
+        level: 1,
+        correctCount: 0,
+        totalCount: 0,
+        masteredPoems: [],
+        wrongQuestions: [],
+        achievements: [],
+        dailyBest: null,
+        lastDailyDate: null,
+        questionMastery: {}
+    };
+    saveUser();
+    updateUserDisplay();
+    showToast(`欢迎，${username}！开始诗词之旅吧！`);
+    
+    // 关闭登录框
+    const modal = document.getElementById('loginModal');
+    modal.classList.remove('show');
+    
+    // 登录后继续启动游戏
+    if (pendingLoginMode) {
+        continueStartGame(pendingLoginMode);
+        pendingLoginMode = null;
     }
 }
+
+// 登录后继续启动游戏
+function continueStartGame(mode) {
+    if (mode === 'challenge') {
+        showLevelSelect();
+    } else if (mode === 'daily') {
+        startDailyChallenge();
+    } else if (mode === 'feihua') {
 
 // 登录后继续启动游戏
 function continueStartGame(mode) {
@@ -1710,4 +1741,14 @@ function debounce(func, wait) {
 
 document.addEventListener('DOMContentLoaded', () => {
     initUser();
+    
+    // 登录框回车提交
+    const loginInput = document.getElementById('loginUsername');
+    if (loginInput) {
+        loginInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                submitLogin();
+            }
+        });
+    }
 });
