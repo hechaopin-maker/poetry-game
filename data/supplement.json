@@ -1158,5 +1158,614 @@
     ],
     "keySentence": "丞相祠堂何处寻，锦官城外柏森森",
     "isClassic": true
+  },
+  {
+    "id": "sup_043",
+    "title": "江南",
+    "author": "汉乐府",
+    "dynasty": "汉",
+    "content": [
+      "江南可采莲莲叶何田田鱼戏莲叶间"
+    ],
+    "fullText": "江南可采莲，莲叶何田田。鱼戏莲叶间。",
+    "interpretation": "江南到了采莲的时节，莲叶浮出水面多么茂盛。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "mk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "江南可采莲，莲叶何田田。鱼戏莲叶间。",
+    "isClassic": true
+  },
+  {
+    "id": "sup_044",
+    "title": "咏鹅",
+    "author": "骆宾王",
+    "dynasty": "唐",
+    "content": [
+      "鹅鹅鹅曲项向天歌白毛浮绿水红掌拨清波"
+    ],
+    "fullText": "鹅鹅鹅，曲项向天歌。白毛浮绿水，红掌拨清波。",
+    "interpretation": "鹅啊鹅，弯着脖子朝天叫。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "mk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "鹅鹅鹅，曲项向天歌。白毛浮绿水，红掌拨清",
+    "isClassic": true
+  },
+  {
+    "id": "sup_045",
+    "title": "春晓",
+    "author": "孟浩然",
+    "dynasty": "唐",
+    "content": [
+      "春眠不觉晓处处闻啼鸟夜来风雨声花落知多少"
+    ],
+    "fullText": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。",
+    "interpretation": "春天睡得很香不知不觉天就亮了。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "mk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落",
+    "isClassic": true
+  },
+  {
+    "id": "sup_046",
+    "title": "登鹳雀楼",
+    "author": "王之涣",
+    "dynasty": "唐",
+    "content": [
+      "白日依山尽黄河入海流欲穷千里目更上一层楼"
+    ],
+    "fullText": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。",
+    "interpretation": "太阳沿着山脉落下，黄河的水流向大海。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "mk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "白日依山尽，黄河入海流。欲穷千里目，更上",
+    "isClassic": true
+  },
+  {
+    "id": "sup_047",
+    "title": "鸟鸣涧",
+    "author": "王维",
+    "dynasty": "唐",
+    "content": [
+      "人闲桂花落夜静春山空月出惊山鸟时鸣春涧中"
+    ],
+    "fullText": "人闲桂花落，夜静春山空。月出惊山鸟，时鸣春涧中。",
+    "interpretation": "人悠闲的时候看到桂花飘落，夜晚寂静春山空无一人。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "fbc"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "人闲桂花落，夜静春山空。月出惊山鸟，时鸣",
+    "isClassic": true
+  },
+  {
+    "id": "sup_048",
+    "title": "杂诗",
+    "author": "王维",
+    "dynasty": "唐",
+    "content": [
+      "君自故乡来应知故乡事来日绮窗前寒梅著花未？"
+    ],
+    "fullText": "君自故乡来，应知故乡事。来日绮窗前，寒梅著花未？",
+    "interpretation": "你从故乡来，应该知道故乡的事。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "fbc"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "君自故乡来，应知故乡事。来日绮窗前，寒梅",
+    "isClassic": true
+  },
+  {
+    "id": "sup_049",
+    "title": "送别",
+    "author": "王维",
+    "dynasty": "唐",
+    "content": [
+      "山中相送罢日暮掩柴扉春草年年绿王孙归不归？"
+    ],
+    "fullText": "山中相送罢，日暮掩柴扉。春草年年绿，王孙归不归？",
+    "interpretation": "在山中送走了你，太阳落山时关上了柴门。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "fbc"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "山中相送罢，日暮掩柴扉。春草年年绿，王孙",
+    "isClassic": true
+  },
+  {
+    "id": "sup_050",
+    "title": "画",
+    "author": "王维",
+    "dynasty": "唐",
+    "content": [
+      "远看山有色近听水无声春去花还在人来鸟不惊"
+    ],
+    "fullText": "远看山有色，近听水无声。春去花还在，人来鸟不惊。",
+    "interpretation": "远看山有颜色，近听水却没有声音。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "mk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "远看山有色，近听水无声。春去花还在，人来",
+    "isClassic": true
+  },
+  {
+    "id": "sup_051",
+    "title": "古朗月行",
+    "author": "李白",
+    "dynasty": "唐",
+    "content": [
+      "小时不识月呼作白玉盘又疑瑶台镜飞在青云端"
+    ],
+    "fullText": "小时不识月，呼作白玉盘。又疑瑶台镜，飞在青云端。",
+    "interpretation": "小时候不认识月亮，把它叫做白玉盘。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "mk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "小时不识月，呼作白玉盘。又疑瑶台镜，飞在",
+    "isClassic": true
+  },
+  {
+    "id": "sup_052",
+    "title": "黄鹤楼",
+    "author": "崔颢",
+    "dynasty": "唐",
+    "content": [
+      "昔人已乘黄鹤去此地空余黄鹤楼黄鹤一去不复返白云千载空悠悠"
+    ],
+    "fullText": "昔人已乘黄鹤去，此地空余黄鹤楼。黄鹤一去不复返，白云千载空悠悠。",
+    "interpretation": "以前的仙人已经乘着黄鹤离去。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "昔人已乘黄鹤去，此地空余黄鹤楼。黄鹤一去",
+    "isClassic": true
+  },
+  {
+    "id": "sup_053",
+    "title": "使至塞上",
+    "author": "王维",
+    "dynasty": "唐",
+    "content": [
+      "单车欲问边属国过居延征蓬出汗塞归雁入胡天大漠孤烟直长河落日圆"
+    ],
+    "fullText": "单车欲问边，属国过居延。征蓬出汗塞，归雁入胡天。大漠孤烟直，长河落日圆。",
+    "interpretation": "轻车去慰问边关，经过居延属国。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "单车欲问边，属国过居延。征蓬出汗塞，归雁",
+    "isClassic": true
+  },
+  {
+    "id": "sup_054",
+    "title": "次北固山下",
+    "author": "王湾",
+    "dynasty": "唐",
+    "content": [
+      "客路青山外行舟绿水前潮平两岸阔风正一帆悬海日生残夜江春入旧年"
+    ],
+    "fullText": "客路青山外，行舟绿水前。潮平两岸阔，风正一帆悬。海日生残夜，江春入旧年。",
+    "interpretation": "道路在青山之外，行船在绿水之前。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "fbc"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "客路青山外，行舟绿水前。潮平两岸阔，风正",
+    "isClassic": true
+  },
+  {
+    "id": "sup_055",
+    "title": "闻王昌龄左迁龙标遥有此寄",
+    "author": "李白",
+    "dynasty": "唐",
+    "content": [
+      "杨花落尽子规啼闻道龙标过五溪我寄愁心与明月随风直到夜郎西"
+    ],
+    "fullText": "杨花落尽子规啼，闻道龙标过五溪。我寄愁心与明月，随风直到夜郎西。",
+    "interpretation": "杨花落尽子规鸟在哀啼。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "fbc"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "杨花落尽子规啼，闻道龙标过五溪。我寄愁心",
+    "isClassic": true
+  },
+  {
+    "id": "sup_056",
+    "title": "行路难",
+    "author": "李白",
+    "dynasty": "唐",
+    "content": [
+      "金樽清酒斗十千玉盘珍羞直万钱停杯投箸不能食拔剑四顾心茫然"
+    ],
+    "fullText": "金樽清酒斗十千，玉盘珍羞直万钱。停杯投箸不能食，拔剑四顾心茫然。",
+    "interpretation": "金杯中的清酒一斗价值十千文。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "金樽清酒斗十千，玉盘珍羞直万钱。停杯投箸",
+    "isClassic": true
+  },
+  {
+    "id": "sup_057",
+    "title": "白雪歌送武判官归京",
+    "author": "岑参",
+    "dynasty": "唐",
+    "content": [
+      "北风卷地白草折胡天八月即飞雪忽如一夜春风来千树万树梨花开"
+    ],
+    "fullText": "北风卷地白草折，胡天八月即飞雪。忽如一夜春风来，千树万树梨花开。",
+    "interpretation": "北风卷地而来把白草吹断。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "北风卷地白草折，胡天八月即飞雪。忽如一夜",
+    "isClassic": true
+  },
+  {
+    "id": "sup_058",
+    "title": "卖炭翁",
+    "author": "白居易",
+    "dynasty": "唐",
+    "content": [
+      "卖炭翁伐薪烧炭南山中满面尘灰烟火色两鬓苍苍十指黑"
+    ],
+    "fullText": "卖炭翁，伐薪烧炭南山中。满面尘灰烟火色，两鬓苍苍十指黑。",
+    "interpretation": "卖炭的老翁，在南山上砍柴烧炭。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "卖炭翁，伐薪烧炭南山中。满面尘灰烟火色，",
+    "isClassic": true
+  },
+  {
+    "id": "sup_059",
+    "title": "雁门太守行",
+    "author": "李贺",
+    "dynasty": "唐",
+    "content": [
+      "黑云压城城欲摧甲光向日金鳞开角声满天秋色里塞上燕脂凝夜紫"
+    ],
+    "fullText": "黑云压城城欲摧，甲光向日金鳞开。角声满天秋色里，塞上燕脂凝夜紫。",
+    "interpretation": "乌云压向城池城池像要崩塌。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "黑云压城城欲摧，甲光向日金鳞开。角声满天",
+    "isClassic": true
+  },
+  {
+    "id": "sup_060",
+    "title": "无题",
+    "author": "李商隐",
+    "dynasty": "唐",
+    "content": [
+      "相见时难别亦难东风无力百花残春蚕到死丝方尽蜡炬成灰泪始干"
+    ],
+    "fullText": "相见时难别亦难，东风无力百花残。春蚕到死丝方尽，蜡炬成灰泪始干。",
+    "interpretation": "见面的时候不容易分别也困难。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "相见时难别亦难，东风无力百花残。春蚕到死",
+    "isClassic": true
+  },
+  {
+    "id": "sup_061",
+    "title": "夜雨寄北",
+    "author": "李商隐",
+    "dynasty": "唐",
+    "content": [
+      "君问归期未有期巴山夜雨涨秋池何当共剪西窗烛却话巴山夜雨时"
+    ],
+    "fullText": "君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。",
+    "interpretation": "你问我什么时候回去还没有确定的日期。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "fbc"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "君问归期未有期，巴山夜雨涨秋池。何当共剪",
+    "isClassic": true
+  },
+  {
+    "id": "sup_062",
+    "title": "渔家傲",
+    "author": "范仲淹",
+    "dynasty": "宋",
+    "content": [
+      "塞下秋来风景异衡阳雁去无留意四面边声连角起千嶂里长烟落日孤城闭"
+    ],
+    "fullText": "塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。",
+    "interpretation": "边塞秋天来临风景与内地不同。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "塞下秋来风景异，衡阳雁去无留意。四面边声",
+    "isClassic": true
+  },
+  {
+    "id": "sup_063",
+    "title": "浣溪沙",
+    "author": "晏殊",
+    "dynasty": "宋",
+    "content": [
+      "一曲新词酒一杯去年天气旧亭台夕阳西下几时回？"
+    ],
+    "fullText": "一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回？",
+    "interpretation": "唱一曲新词喝一杯酒。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "fbc"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "一曲新词酒一杯，去年天气旧亭台。夕阳西下",
+    "isClassic": true
+  },
+  {
+    "id": "sup_064",
+    "title": "江城子·密州出猎",
+    "author": "苏轼",
+    "dynasty": "宋",
+    "content": [
+      "老夫聊发少年狂左牵黄右擎苍锦帽貂裘千骑卷平冈"
+    ],
+    "fullText": "老夫聊发少年狂，左牵黄，右擎苍，锦帽貂裘，千骑卷平冈。",
+    "interpretation": "老夫我暂且抒发一下少年的狂放。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "老夫聊发少年狂，左牵黄，右擎苍，锦帽貂裘",
+    "isClassic": true
+  },
+  {
+    "id": "sup_065",
+    "title": "水调歌头",
+    "author": "苏轼",
+    "dynasty": "宋",
+    "content": [
+      "明月几时有？把酒问青天不知天上宫阙今夕是何年？"
+    ],
+    "fullText": "明月几时有？把酒问青天。不知天上宫阙，今夕是何年？",
+    "interpretation": "明月什么时候才有？端着酒问青天。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "明月几时有？把酒问青天。不知天上宫阙，今",
+    "isClassic": true
+  },
+  {
+    "id": "sup_066",
+    "title": "破阵子",
+    "author": "辛弃疾",
+    "dynasty": "宋",
+    "content": [
+      "醉里挑灯看剑梦回吹角连营八百里分麾下炙五十弦翻塞外声沙场秋点兵"
+    ],
+    "fullText": "醉里挑灯看剑，梦回吹角连营。八百里分麾下炙，五十弦翻塞外声，沙场秋点兵。",
+    "interpretation": "酒醉中挑亮灯观看宝剑。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "醉里挑灯看剑，梦回吹角连营。八百里分麾下",
+    "isClassic": true
+  },
+  {
+    "id": "sup_067",
+    "title": "丑奴儿·书博山道中壁",
+    "author": "辛弃疾",
+    "dynasty": "宋",
+    "content": [
+      "少年不识愁滋味爱上层楼爱上层楼为赋新词强说愁"
+    ],
+    "fullText": "少年不识愁滋味，爱上层楼。爱上层楼，为赋新词强说愁。",
+    "interpretation": "年轻时不懂得忧愁的滋味。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "少年不识愁滋味，爱上层楼。爱上层楼，为赋",
+    "isClassic": true
+  },
+  {
+    "id": "sup_068",
+    "title": "天净沙·秋思",
+    "author": "马致远",
+    "dynasty": "元",
+    "content": [
+      "枯藤老树昏鸦小桥流水人家古道西风瘦马夕阳西下断肠人在天涯"
+    ],
+    "fullText": "枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，断肠人在天涯。",
+    "interpretation": "枯藤缠绕着老树，夕阳西下，断肠人在天涯。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "chu2"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "枯藤老树昏鸦，小桥流水人家，古道西风瘦马",
+    "isClassic": true
+  },
+  {
+    "id": "sup_069",
+    "title": "山坡羊·潼关怀古",
+    "author": "张养浩",
+    "dynasty": "元",
+    "content": [
+      "峰峦如聚波涛如怒山河表里潼关路望西都意踌躇"
+    ],
+    "fullText": "峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌躇。",
+    "interpretation": "山峰高高聚拢，波涛汹涌澎湃。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "峰峦如聚，波涛如怒，山河表里潼关路。望西",
+    "isClassic": true
+  },
+  {
+    "id": "sup_070",
+    "title": "过零丁洋",
+    "author": "文天祥",
+    "dynasty": "宋",
+    "content": [
+      "辛苦遭逢起一经干戈寥落四周星山河破碎风飘絮身世浮沉雨打萍"
+    ],
+    "fullText": "辛苦遭逢起一经，干戈寥落四周星。山河破碎风飘絮，身世浮沉雨打萍。",
+    "interpretation": "通过辛勤遭遇以一部经书起家。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "辛苦遭逢起一经，干戈寥落四周星。山河破碎",
+    "isClassic": true
+  },
+  {
+    "id": "sup_071",
+    "title": "已亥杂诗",
+    "author": "龚自珍",
+    "dynasty": "清",
+    "content": [
+      "浩荡离愁白日斜吟鞭东指即天涯落红不是无情物化作春泥更护花"
+    ],
+    "fullText": "浩荡离愁白日斜，吟鞭东指即天涯。落红不是无情物，化作春泥更护花。",
+    "interpretation": "浩浩荡荡的离愁涌上心头。",
+    "source": "学校必背诗词",
+    "difficulty": 2,
+    "grades": [
+      "zk"
+    ],
+    "knowledgePoints": [
+      "学校必背"
+    ],
+    "keySentence": "浩荡离愁白日斜，吟鞭东指即天涯。落红不是",
+    "isClassic": true
   }
 ]
