@@ -1751,4 +1751,25 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    
+    // 模块卡片点击事件（移动端更可靠）
+    document.querySelectorAll('.module-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+            // 直接调用对应函数，不依赖onclick属性
+            const text = card.textContent;
+            if (text.includes('诗词闯关')) {
+                startGame('challenge');
+            } else if (text.includes('每日挑战')) {
+                startGame('daily');
+            } else if (text.includes('飞花令')) {
+                startGame('feihua');
+            } else if (text.includes('诗词消消乐')) {
+                startGame('match');
+            } else if (text.includes('诗词词典')) {
+                showDict();
+            } else if (text.includes('错题本')) {
+                showWrongNotes();
+            }
+        });
+    });
 });
