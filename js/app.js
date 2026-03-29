@@ -925,7 +925,8 @@ function showToast(message) {
 let feihuaState = {
     keyword: null,
     poems: [],
-    currentIndex: 0,
+    currentIndex: 0,    // 总进度（答对+不会做都计入）
+    correctCount: 0,     // 仅答对的次数
     timer: null,
     timeLeft: 30,
     score: 0,
@@ -951,6 +952,7 @@ async function startFeihua() {
         keyword: null,
         poems: [],
         currentIndex: 0,
+        correctCount: 0,
         timer: null,
         timeLeft: 30,
         score: 0,
@@ -1260,6 +1262,7 @@ function submitFeihuaAnswerByInput() {
     // 更新计数
     if (isCorrect) {
         feihuaState.currentIndex++;
+        feihuaState.correctCount++;
         document.getElementById('feihuaCount').textContent = feihuaState.currentIndex + '/10';
         
         // 加分
@@ -1358,7 +1361,7 @@ function endFeihuaRound() {
     
     document.getElementById('feihuaPrompt').innerHTML = `
         <div style="color:var(--error);font-size:1.2em;">⏰ 时间到！</div>
-        <div style="margin-top:10px;">本轮答对 <strong>${feihuaState.currentIndex}</strong> 句，得 <strong>${feihuaState.score}</strong> 分</div>
+        <div style="margin-top:10px;">本轮答对 <strong>${feihuaState.correctCount}</strong> 句（跳过<strong>${feihuaState.currentIndex - feihuaState.correctCount}</strong>句），得 <strong>${feihuaState.score}</strong> 分</div>
         <div style="margin-top:15px;">
             <button class="btn" onclick="startFeihua()">再玩一次</button>
         </div>
@@ -1367,8 +1370,8 @@ function endFeihuaRound() {
     // 保存成绩
     if (feihuaState.score > 0) {
         gameState.currentUser.xp += feihuaState.score;
-        gameState.currentUser.totalCount += feihuaState.currentIndex;
-        gameState.currentUser.correctCount += feihuaState.currentIndex;
+        gameState.currentUser.totalCount += feihuaState.currentIndex;  // 总尝试次数
+        gameState.currentUser.correctCount += feihuaState.correctCount;  // 答对次数
         saveUser();
         updateUserDisplay();
     }
@@ -1380,13 +1383,13 @@ function endFeihua() {
     
     // 保存成绩
     gameState.currentUser.xp += feihuaState.score;
-    gameState.currentUser.totalCount += feihuaState.currentIndex;
-    gameState.currentUser.correctCount += feihuaState.currentIndex;
+    gameState.currentUser.totalCount += feihuaState.currentIndex;  // 总尝试次数
+    gameState.currentUser.correctCount += feihuaState.correctCount;  // 答对次数
     saveUser();
     updateUserDisplay();
     
     // 根据表现调整难度
-    if (feihuaState.currentIndex >= 10) {
+    if (feihuaState.correctCount >= 10) {
         // 满分！难度提升
         if (feihuaState.difficulty === 'easy') {
             feihuaState.difficulty = 'medium';
@@ -1395,18 +1398,18 @@ function endFeihua() {
             feihuaState.difficulty = 'hard';
             showToast('大神！难度提升到：困难');
         }
-    } else if (feihuaState.currentIndex <= 3 && feihuaState.difficulty === 'hard') {
+    } else if (feihuaState.correctCount <= 3 && feihuaState.difficulty === 'hard') {
         // 困难难度下连续失败，降低难度
         feihuaState.difficulty = 'medium';
         showToast('有点难...难度降低到：中等');
-    } else if (feihuaState.currentIndex <= 3 && feihuaState.difficulty === 'medium') {
+    } else if (feihuaState.correctCount <= 3 && feihuaState.difficulty === 'medium') {
         feihuaState.difficulty = 'easy';
         showToast('别灰心！难度降低到：简单');
     }
     
     document.getElementById('feihuaPrompt').innerHTML = `
         <div style="color:var(--success);font-size:1.3em;">🎉 完成！</div>
-        <div style="margin-top:10px;">答对 <strong>${feihuaState.currentIndex}</strong> 句，得 <strong>${feihuaState.score}</strong> 分</div>
+        <div style="margin-top:10px;">答对 <strong>${feihuaState.correctCount}</strong> 句（跳过<strong>${feihuaState.currentIndex - feihuaState.correctCount}</strong>句），得 <strong>${feihuaState.score}</strong> 分</div>
     `;
     
     document.getElementById('feihuaStartBtn').style.display = 'inline-block';
