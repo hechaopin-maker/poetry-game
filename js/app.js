@@ -856,19 +856,46 @@ async function startFeihua() {
         score: 0,
         answered: [],
         isPlaying: false,
-        usedKeywords: []
+        usedKeywords: [],
+        difficulty: 'easy'  // easy -> medium -> hard
     };
     
-    // 获取所有关键字
+    // 获取所有关键字，按诗句数量排序
     const keywords = Object.keys(FEIHUA_FULL_DATA.keywords);
     if (keywords.length === 0) {
         showToast('飞花令数据为空');
         return;
     }
     
-    // 随机选择一个关键字（不能是刚用过的）
-    const availableKeywords = keywords.filter(k => !feihuaState.usedKeywords.includes(k));
-    const keywordPool = availableKeywords.length > 0 ? availableKeywords : keywords;
+    // 按诗句数量降序排列（多的在前 = 简单）
+    const sortedKeywords = keywords.sort((a, b) => {
+        const countA = FEIHUA_FULL_DATA.keywords[a].l.length;
+        const countB = FEIHUA_FULL_DATA.keywords[b].l.length;
+        return countB - countA;
+    });
+    
+    // 根据难度选择关键字范围
+    // easy: 前20%（诗句最多的简单字）
+    // medium: 前20-60%
+    // hard: 后40%
+    const total = sortedKeywords.length;
+    const easyEnd = Math.floor(total * 0.2);
+    const mediumEnd = Math.floor(total * 0.6);
+    
+    let pool;
+    if (feihuaState.difficulty === 'easy') {
+        pool = sortedKeywords.slice(0, easyEnd);
+    } else if (feihuaState.difficulty === 'medium') {
+        pool = sortedKeywords.slice(easyEnd, mediumEnd);
+    } else {
+        pool = sortedKeywords.slice(mediumEnd);
+    }
+    
+    // 过滤掉刚用过的
+    const availableKeywords = pool.filter(k => !feihuaState.usedKeywords.includes(k));
+    const keywordPool = availableKeywords.length > 0 ? availableKeywords : pool;
+    
+    // 随机选择一个关键字
     feihuaState.keyword = keywordPool[Math.floor(Math.random() * keywordPool.length)];
     feihuaState.usedKeywords.push(feihuaState.keyword);
     const keywordData = FEIHUA_FULL_DATA.keywords[feihuaState.keyword];
@@ -1257,9 +1284,29 @@ function endFeihua() {
     saveUser();
     updateUserDisplay();
     
+    // 根据表现调整难度
+    if (feihuaState.currentIndex >= 10) {
+        // 满分！难度提升
+        if (feihuaState.difficulty === 'easy') {
+            feihuaState.difficulty = 'medium';
+            showToast('太厉害了！难度提升到：中等');
+        } else if (feihuaState.difficulty === 'medium') {
+            feihuaState.difficulty = 'hard';
+            showToast('大神！难度提升到：困难');
+        }
+    } else if (feihuaState.currentIndex <= 3 && feihuaState.difficulty === 'hard') {
+        // 困难难度下连续失败，降低难度
+        feihuaState.difficulty = 'medium';
+        showToast('有点难...难度降低到：中等');
+    } else if (feihuaState.currentIndex <= 3 && feihuaState.difficulty === 'medium') {
+        feihuaState.difficulty = 'easy';
+        showToast('别灰心！难度降低到：简单');
+    }
+    
     document.getElementById('feihuaPrompt').innerHTML = `
         <div style="color:var(--success);font-size:1.3em;">🎉 完成！</div>
         <div style="margin-top:10px;">答对 <strong>${feihuaState.currentIndex}</strong> 句，得 <strong>${feihuaState.score}</strong> 分</div>
+        <div style="margin-top:8px;color:#888;font-size:0.9em;">当前难度：${feihuaState.difficulty === 'easy' ? '🟢 简单' : feihuaState.difficulty === 'medium' ? '🟡 中等' : '🔴 困难'}</div>
     `;
     
     document.getElementById('feihuaStartBtn').style.display = 'inline-block';
