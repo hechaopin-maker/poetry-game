@@ -72,6 +72,10 @@ function loadUser() {
     const saved = localStorage.getItem('poetry_user');
     if (saved) {
         gameState.currentUser = JSON.parse(saved);
+        // 确保旧用户数据有 questionMastery 属性
+        if (!gameState.currentUser.questionMastery) {
+            gameState.currentUser.questionMastery = {};
+        }
     }
 }
 
