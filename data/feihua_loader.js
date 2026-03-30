@@ -76,6 +76,9 @@ async function loadFeihuaData() {
     
     console.log(`飞花令数据索引构建完成: ${charCount} 个字符, ${totalLines} 条诗句 (${elapsed}秒)`);
     
+    // 更新全局引用
+    window.FEIHUA_DATA = FEIHUA_DATA;
+    
     return FEIHUA_DATA;
 }
 
