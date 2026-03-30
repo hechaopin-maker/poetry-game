@@ -1407,8 +1407,12 @@ function submitFeihuaAnswerByInput() {
         isCorrect = !!matchedEntry;
     }
     
-    // 记录已答过的诗句（使用原句）
-    const matchedPoem = matchedEntry ? { poem: matchedEntry.t, author: matchedEntry.a, title: matchedEntry.ti } : null;
+    // 记录已答过的诗句（使用原句）- 兼容新旧数据格式
+    const matchedPoem = matchedEntry ? { 
+        poem: matchedEntry.text || matchedEntry.t || '', 
+        author: matchedEntry.author || matchedEntry.a || '佚名', 
+        title: matchedEntry.title || matchedEntry.ti || '无题' 
+    } : null;
     
     if (isCorrect && matchedPoem) {
         feihuaState.answered.push(matchedPoem.poem);
