@@ -1201,19 +1201,23 @@ function submitFeihuaAnswerByInput() {
         return;
     }
     
-    // 2. 检查是否已答过（精确匹配）
-    const alreadyAnswered = feihuaState.answered.some(a => cleanText(a) === cleanAnswer);
+    // 2. 检查是否已答过（精确匹配，去除所有空格和标点后比较）
+    const normalizedAnswer = userAnswer.replace(/[\s，。！？、；：""''（）]/g, '');
+    const alreadyAnswered = feihuaState.answered.some(a => 
+        a.replace(/[\s，。！？、；：""''（）]/g, '') === normalizedAnswer
+    );
     if (alreadyAnswered) {
         showToast('这句诗已经说过了！');
         input.value = '';
         return;
     }
     
-    // 3. 在诗词库中查找匹配
+    // 3. 在诗词库中查找匹配（使用相同的规范化方式）
+    const normalizedForMatch = userAnswer.replace(/[\s，。！？、；：""''（）]/g, '');
     const matchedPoem = feihuaState.poems.find(p => {
-        const cleanPoem = cleanText(p.poem);
+        const cleanPoem = p.poem.replace(/[\s，。！？、；：""''（）]/g, '');
         // 精确匹配：清理后完全相同
-        return cleanPoem === cleanAnswer;
+        return cleanPoem === normalizedForMatch;
     });
     
     // 同时检查是否在其他关键字的诗句中（跨库验证）
@@ -1223,7 +1227,8 @@ function submitFeihuaAnswerByInput() {
         for (const char in FEIHUA_FULL_DATA.keywords) {
             const entries = FEIHUA_FULL_DATA.keywords[char].l;
             for (const entry of entries) {
-                if (cleanText(entry.t) === cleanAnswer) {
+                const cleanEntry = entry.t.replace(/[\s，。！？、；：""''（）]/g, '');
+                if (cleanEntry === normalizedForMatch) {
                     crossMatchedPoem = {
                         poem: entry.t,
                         author: entry.a || '佚名',
