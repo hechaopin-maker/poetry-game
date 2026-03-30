@@ -89,7 +89,15 @@ function getFeihuaPoems(char) {
     const poems = FEIHUA_DATA[char];
     if (!poems) return [];
     
-    return [...poems].map(p => JSON.parse(p));
+    return [...poems].map(p => {
+        const obj = JSON.parse(p);
+        return {
+            poem: obj.t,      // 诗句原文
+            author: obj.a,     // 作者
+            title: obj.ti,     // 题目
+            from: obj.from     // 来源文件
+        };
+    });
 }
 
 // 获取包含指定字符的随机N句诗
