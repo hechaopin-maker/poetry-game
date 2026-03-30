@@ -6411,6 +6411,24 @@ const QUESTIONS_DATA = [
         ]
     },
     {
+        "id": "q_fbc_076",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "分班考古诗词真题",
+        "difficulty": 2,
+        "question": "烽火城西百尺楼，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "黄昏独坐海风秋",
+        "explanation": "出自王昌龄《从军行》，描写边塞黄昏的孤寂景象。",
+        "poemId": null,
+        "knowledgePoints": [
+            "古诗默写",
+            "王昌龄",
+            "从军行",
+            "边塞"
+        ]
+    },
+    {
         "id": "q_chu1_076",
         "type": "fill",
         "grade": "chu1",
@@ -15317,6 +15335,24 @@ const QUESTIONS_DATA = [
         ]
     },
     {
+        "id": "q_fbc_188",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "古诗词真题精选",
+        "difficulty": 2,
+        "question": "烽火城西百尺楼，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "黄昏独上海风秋",
+        "explanation": "出自王昌龄《从军行》，描写黄昏。",
+        "poemId": null,
+        "knowledgePoints": [
+            "黄昏",
+            "王昌龄",
+            "从军行",
+            "烽火"
+        ]
+    },
+    {
         "id": "q_zk_188",
         "type": "fill",
         "grade": "zk",
@@ -15389,6 +15425,24 @@ const QUESTIONS_DATA = [
         ]
     },
     {
+        "id": "q_fbc_189",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "古诗词真题精选",
+        "difficulty": 2,
+        "question": "琵琶起舞换新声，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "总是关山旧别情",
+        "explanation": "出自王昌龄《从军行》，描写琵琶。",
+        "poemId": null,
+        "knowledgePoints": [
+            "琵琶",
+            "王昌龄",
+            "从军行",
+            "新声"
+        ]
+    },
+    {
         "id": "q_zk_189",
         "type": "fill",
         "grade": "zk",
@@ -15458,6 +15512,24 @@ const QUESTIONS_DATA = [
             "韦应物",
             "滁州西涧",
             "春天"
+        ]
+    },
+    {
+        "id": "q_fbc_190",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "古诗词真题精选",
+        "difficulty": 2,
+        "question": "撩乱边愁听不尽，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "高高秋月照长城",
+        "explanation": "出自王昌龄《从军行》，描写秋月。",
+        "poemId": null,
+        "knowledgePoints": [
+            "秋月",
+            "王昌龄",
+            "从军行",
+            "边愁"
         ]
     },
     {
@@ -15713,6 +15785,24 @@ const QUESTIONS_DATA = [
         ]
     },
     {
+        "id": "q_fbc_193",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "古诗词真题精选",
+        "difficulty": 2,
+        "question": "大漠风尘日色昏，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "红旗半卷出关门",
+        "explanation": "出自王昌龄《从军行》，描写大漠。",
+        "poemId": null,
+        "knowledgePoints": [
+            "大漠",
+            "王昌龄",
+            "从军行",
+            "风尘"
+        ]
+    },
+    {
         "id": "q_zk_193",
         "type": "fill",
         "grade": "zk",
@@ -15782,6 +15872,24 @@ const QUESTIONS_DATA = [
             "苏轼",
             "西湖",
             "写景"
+        ]
+    },
+    {
+        "id": "q_fbc_194",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "古诗词真题精选",
+        "difficulty": 2,
+        "question": "玉门山嶂几千重，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "山北山南总是峰",
+        "explanation": "出自王昌龄《从军行》，描写玉门。",
+        "poemId": null,
+        "knowledgePoints": [
+            "玉门",
+            "王昌龄",
+            "从军行",
+            "几千重"
         ]
     },
     {
@@ -24162,6 +24270,24 @@ const QUESTIONS_DATA = [
         ]
     },
     {
+        "id": "q_fbc_303",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "古诗词真题精选",
+        "difficulty": 2,
+        "question": "琵琶起舞换新声，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "总是关山旧别情",
+        "explanation": "出自王昌龄《从军行》，描写琵琶。",
+        "poemId": null,
+        "knowledgePoints": [
+            "琵琶",
+            "王昌龄",
+            "从军行",
+            "关山"
+        ]
+    },
+    {
         "id": "q_zk_303",
         "type": "fill",
         "grade": "zk",
@@ -24211,6 +24337,24 @@ const QUESTIONS_DATA = [
             "韩愈",
             "晚春",
             "雪飞"
+        ]
+    },
+    {
+        "id": "q_fbc_304",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "古诗词真题精选",
+        "difficulty": 2,
+        "question": "大漠风尘日色昏，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "红旗半卷出关门",
+        "explanation": "出自王昌龄《从军行》，描写大漠。",
+        "poemId": null,
+        "knowledgePoints": [
+            "大漠",
+            "王昌龄",
+            "从军行",
+            "风尘"
         ]
     },
     {
@@ -34551,6 +34695,24 @@ const QUESTIONS_DATA = [
         ]
     },
     {
+        "id": "q_fbc_511",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "古诗词真题精选",
+        "difficulty": 2,
+        "question": "烽火城西百尺楼，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "黄昏独上海风秋",
+        "explanation": "出自王昌龄《从军行》，描写烽火城。",
+        "poemId": null,
+        "knowledgePoints": [
+            "烽火城",
+            "王昌龄",
+            "从军行",
+            "海风"
+        ]
+    },
+    {
         "id": "q_mk_512",
         "type": "fill",
         "grade": "mk",
@@ -34602,6 +34764,24 @@ const QUESTIONS_DATA = [
             "白居易",
             "草",
             "吹又"
+        ]
+    },
+    {
+        "id": "q_fbc_513",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "古诗词真题精选",
+        "difficulty": 2,
+        "question": "撩乱边愁听不尽，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "高高秋月照长城",
+        "explanation": "出自王昌龄《从军行》，描写撩乱边。",
+        "poemId": null,
+        "knowledgePoints": [
+            "撩乱边",
+            "王昌龄",
+            "从军行",
+            "边愁"
         ]
     },
     {
@@ -34692,6 +34872,24 @@ const QUESTIONS_DATA = [
             "柳宗元",
             "江雪",
             "蓑笠"
+        ]
+    },
+    {
+        "id": "q_fbc_516",
+        "type": "fill",
+        "grade": "fbc",
+        "source": "古诗词真题精选",
+        "difficulty": 2,
+        "question": "大漠风尘日色昏，__________。（王昌龄《从军行》）",
+        "options": [],
+        "answer": "红旗半卷出关门",
+        "explanation": "出自王昌龄《从军行》，描写大漠风。",
+        "poemId": null,
+        "knowledgePoints": [
+            "大漠风",
+            "王昌龄",
+            "从军行",
+            "风尘"
         ]
     },
     {
