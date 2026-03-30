@@ -1074,7 +1074,7 @@ async function startFeihua() {
     // 获取该关键字的所有诗句
     const poems = window.getFeihuaPoems ? window.getFeihuaPoems(feihuaState.keyword) : [];
     feihuaState.poems = poems.map(l => ({
-        poem: l.text,
+        poem: l.poem,      // l.poem 来自 getFeihuaPoems 返回的 {poem: obj.text, ...}
         author: l.author || '佚名',
         title: l.title || '无题'
     }));
