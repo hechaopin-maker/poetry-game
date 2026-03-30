@@ -964,6 +964,41 @@ function pickNextFeihuaKeyword() {
     return topPool[Math.floor(Math.random() * topPool.length)];
 }
 
+// 从诗句中提取新关键字并切换
+function switchToNewKeyword(poem) {
+    if (!poem) return;
+    
+    // 从诗句中提取所有汉字
+    const chars = poem.replace(/[，。！？、；：""''（）\s]/g, '').split('');
+    
+    // 过滤掉已完成的关键字（30轮内）
+    const avoidKeywords = feihuaState.completedKeywords.slice(-30);
+    const availableChars = chars.filter(c => !avoidKeywords.includes(c) && FEIHUA_FULL_DATA.keywords[c]);
+    
+    // 如果诗句中没有可用字符，随机选一个关键字
+    if (availableChars.length === 0) {
+        feihuaState.keyword = pickNextFeihuaKeyword();
+    } else {
+        // 随机选择一个字符作为新关键字
+        feihuaState.keyword = availableChars[Math.floor(Math.random() * availableChars.length)];
+    }
+    
+    // 添加到已完成关键字记录
+    feihuaState.completedKeywords.push(feihuaState.keyword);
+    
+    // 加载新关键字的诗句
+    const keywordData = FEIHUA_FULL_DATA.keywords[feihuaState.keyword];
+    feihuaState.poems = keywordData.l.map(l => ({
+        poem: l.t,
+        author: l.a,
+        title: l.ti
+    }));
+    feihuaState.poems.sort(() => Math.random() - 0.5);
+    
+    // 更新UI
+    document.getElementById('feihuaKeyword').textContent = feihuaState.keyword;
+}
+
 async function startFeihua() {
     if (!gameState.currentUser) {
         showLoginModal();
