@@ -942,7 +942,7 @@ let feihuaState = {
     currentIndex: 0,     // 已说出的诗句数
     correctCount: 0,      // 答对的次数
     timer: null,
-    timeLeft: 50,       // 500秒倒计时
+    timeLeft: 50,       // 50秒倒计时
     score: 0,
     answered: [],         // 已说出的诗句列表（用于去重）
     isPlaying: false,
