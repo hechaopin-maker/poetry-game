@@ -158,6 +158,11 @@ async function initUser() {
     await loadPoemsData();
     gameState.dataLoaded = true;
     
+    // 加载飞花令数据
+    if (window.loadFeihuaData) {
+        await window.loadFeihuaData();
+    }
+    
     // 再加载用户
     loadUser();
     if (!gameState.currentUser) {
