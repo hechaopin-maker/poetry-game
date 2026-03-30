@@ -1972,13 +1972,19 @@ function updateSelectedCharsDisplay() {
 
 // 将confirmSelection显式绑定到window确保全局可访问
 window.confirmSelection = function() {
+    console.log('confirmSelection called', {selectedChars: matchState.selectedChars.length, question: matchState.currentQuestion ? 'exists' : 'undefined'});
     try {
         const answerLen = matchState.currentQuestion.answer.length;
+        console.log('answerLen:', answerLen);
         if (matchState.selectedChars.length === answerLen) {
+            console.log('Calling checkMatchAnswer');
             checkMatchAnswer();
+        } else {
+            console.log('Length mismatch, not submitting');
         }
     } catch(e) {
         console.error('confirmSelection error:', e);
+        alert('确认答案出错: ' + e.message);
     }
 };
 // 同时保留一个全局函数引用
