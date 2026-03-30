@@ -1058,7 +1058,13 @@ function startFeihuaGame() {
 
 // 显示飞花令输入框
 function showFeihuaInput() {
-    document.getElementById('feihuaPrompt').innerHTML = `
+    // 清除所有子元素（包括可能存在的学习提示）
+    const promptEl = document.getElementById('feihuaPrompt');
+    while (promptEl.firstChild) {
+        promptEl.removeChild(promptEl.firstChild);
+    }
+    
+    promptEl.innerHTML = `
         <div style="text-align:center;margin-bottom:15px;color:#666;font-size:0.95em;">
             请说出含"<strong style="color:var(--primary);font-size:1.2em;">${feihuaState.keyword}</strong>"字的完整诗句
         </div>
