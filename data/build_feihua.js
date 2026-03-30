@@ -9,7 +9,7 @@ const path = require('path');
 // 配置
 const MIN_LINE_LEN = 5;  // 最小诗句长度
 const MAX_LINE_LEN = 20; // 最大诗句长度
-const MAX_PER_CHAR = 10; // 每个字符最多保存多少句
+const MAX_PER_CHAR = 30; // 每个字符最多保存多少句（扩充覆盖）
 
 // 加载POEMS_DATA
 const dataDir = __dirname;
