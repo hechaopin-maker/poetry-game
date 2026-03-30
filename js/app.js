@@ -1970,14 +1970,18 @@ function updateSelectedCharsDisplay() {
     display.textContent = matchState.selectedChars.map(c => c.char).join('');
 }
 
-// 确保confirmSelection在全局作用域可访问
+// 将confirmSelection显式绑定到window确保全局可访问
 window.confirmSelection = function() {
-    const answerLen = matchState.currentQuestion.answer.length;
-    if (matchState.selectedChars.length === answerLen) {
-        checkMatchAnswer();
+    try {
+        const answerLen = matchState.currentQuestion.answer.length;
+        if (matchState.selectedChars.length === answerLen) {
+            checkMatchAnswer();
+        }
+    } catch(e) {
+        console.error('confirmSelection error:', e);
     }
 };
-// 保持一个本地引用以防其他地方直接引用
+// 同时保留一个全局函数引用
 function confirmSelection() {
     window.confirmSelection();
 }
