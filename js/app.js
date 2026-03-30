@@ -1041,21 +1041,11 @@ async function startFeihua() {
         return;
     }
     
-    // 优先使用备用数据源（feihua_full.js），新加载器后台异步加载
-    // 如果新数据加载完成则替换旧数据
-    const hasOldData = typeof FEIHUA_FULL_DATA !== 'undefined' && FEIHUA_FULL_DATA.keywords;
-    if (!hasOldData) {
+    // 检查飞花令数据是否可用（feihua_expanded.js会覆盖feihua_full.js）
+    const hasData = typeof FEIHUA_FULL_DATA !== 'undefined' && FEIHUA_FULL_DATA.keywords;
+    if (!hasData) {
         showToast('飞花令数据加载失败');
         return;
-    }
-    
-    // 后台尝试加载新数据（不阻塞游戏开始）
-    if (!window.FEIHUA_LOADED) {
-        window.loadFeihuaData().then(() => {
-            console.log('飞花令新数据加载完成，覆盖面更广');
-        }).catch(e => {
-            console.warn('飞花令新数据加载失败，使用备用数据:', e.message);
-        });
     }
     
     // 重置状态
