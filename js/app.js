@@ -1949,6 +1949,15 @@ function selectJiugongChar(element, char) {
     
     // 更新显示
     updateSelectedCharsDisplay();
+    
+    // 九宫格模式：选满答案长度时自动检查
+    if (matchState.currentQuestion && matchState.currentQuestion.answer) {
+        const answerLen = matchState.currentQuestion.answer.length;
+        if (matchState.selectedChars.length === answerLen) {
+            // 九宫格自动提交
+            setTimeout(() => confirmSelection(), 100);
+        }
+    }
 }
 
 function updateSelectedCharsDisplay() {
