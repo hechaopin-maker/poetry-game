@@ -1801,10 +1801,13 @@ function showJiugongGe(q) {
     
     const grid = document.getElementById('jiugonggeGrid');
     const dianzi = document.getElementById('dianziGrid');
+    const selectedDisplay = document.getElementById('selectedCharsDisplay');
     
     grid.style.display = 'grid';
     grid.style.gridTemplateColumns = 'repeat(3, 1fr)'; // 重置为3列九宫格
     dianzi.style.display = 'none';
+    selectedDisplay.style.display = 'none'; // 九宫格不需要显示选中区
+    matchState.selectedChars = [];
     
     // 打乱汉字
     const chars = [...q.chars].sort(() => Math.random() - 0.5);
@@ -1820,10 +1823,16 @@ function showShiergongGe(q) {
     
     const grid = document.getElementById('jiugonggeGrid');
     const dianzi = document.getElementById('dianziGrid');
+    const selectedDisplay = document.getElementById('selectedCharsDisplay');
     
     grid.style.display = 'grid';
     grid.style.gridTemplateColumns = 'repeat(4, 1fr)'; // 4列十二宫格
     dianzi.style.display = 'none';
+    selectedDisplay.style.display = 'block'; // 显示选中区
+    
+    // 重置选中状态
+    matchState.selectedChars = [];
+    document.getElementById('selectedCharsText').textContent = '';
     
     // 打乱汉字
     const chars = [...q.chars].sort(() => Math.random() - 0.5);
@@ -1844,11 +1853,28 @@ function selectJiugongChar(element, char) {
         matchState.selectedChars = matchState.selectedChars.filter(c => c.char !== char);
     }
     
-    // 检查是否选满（根据答案长度）
+    // 更新显示
+    updateSelectedCharsDisplay();
+}
+
+function updateSelectedCharsDisplay() {
+    const display = document.getElementById('selectedCharsText');
+    display.textContent = matchState.selectedChars.map(c => c.char).join('');
+}
+
+function confirmSelection() {
     const answerLen = matchState.currentQuestion.answer.length;
     if (matchState.selectedChars.length === answerLen) {
         checkMatchAnswer();
     }
+}
+
+function clearSelection() {
+    matchState.selectedChars.forEach(c => {
+        c.element.classList.remove('selected');
+    });
+    matchState.selectedChars = [];
+    updateSelectedCharsDisplay();
 }
 
 function showDianZiChengShi(q) {
@@ -1857,9 +1883,12 @@ function showDianZiChengShi(q) {
     
     const grid = document.getElementById('jiugonggeGrid');
     const dianzi = document.getElementById('dianziGrid');
+    const selectedDisplay = document.getElementById('selectedCharsDisplay');
     
     grid.style.display = 'none';
     dianzi.style.display = 'flex';
+    selectedDisplay.style.display = 'none'; // 隐藏选中区
+    matchState.selectedChars = [];
     
     // 打乱汉字
     const chars = [...q.chars].sort(() => Math.random() - 0.5);
