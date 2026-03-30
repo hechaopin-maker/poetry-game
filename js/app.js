@@ -1041,23 +1041,21 @@ async function startFeihua() {
         return;
     }
     
-    // 加载飞花令数据（从POEMS_DATA动态构建）
-    try {
-        if (!window.FEIHUA_LOADED) {
-            showToast('正在加载飞花令数据...');
-            await window.loadFeihuaData();
-        }
-    } catch (e) {
-        console.warn('飞花令动态加载失败，使用备用数据:', e.message);
-    }
-    
-    // 检查飞花令数据 - 如果新加载器失败，使用旧的FEIHUA_FULL_DATA
-    const hasNewData = window.FEIHUA_DATA && Object.keys(window.FEIHUA_DATA).length > 0;
+    // 优先使用备用数据源（feihua_full.js），新加载器后台异步加载
+    // 如果新数据加载完成则替换旧数据
     const hasOldData = typeof FEIHUA_FULL_DATA !== 'undefined' && FEIHUA_FULL_DATA.keywords;
-    
-    if (!hasNewData && !hasOldData) {
+    if (!hasOldData) {
         showToast('飞花令数据加载失败');
         return;
+    }
+    
+    // 后台尝试加载新数据（不阻塞游戏开始）
+    if (!window.FEIHUA_LOADED) {
+        window.loadFeihuaData().then(() => {
+            console.log('飞花令新数据加载完成，覆盖面更广');
+        }).catch(e => {
+            console.warn('飞花令新数据加载失败，使用备用数据:', e.message);
+        });
     }
     
     // 重置状态
