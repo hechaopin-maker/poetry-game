@@ -20,7 +20,9 @@ let allPoems = [];
 for (const file of files) {
     try {
         const data = JSON.parse(fs.readFileSync(path.join(dataDir, file), 'utf8'));
-        allPoems = allPoems.concat(data);
+        // 为每个诗词添加来源文件标记
+        const poemsWithSource = data.map(p => ({ ...p, _source: file }));
+        allPoems = allPoems.concat(poemsWithSource);
         console.log('Loaded ' + file + ': ' + data.length + ' poems');
     } catch (e) {
         console.log('Error loading ' + file + ': ' + e.message);
@@ -69,7 +71,8 @@ for (const poem of allPoems) {
             const entry = {
                 t: cleanLine,  // 诗句
                 a: poem.author || '佚名',  // 作者
-                ti: poem.title || '无题'  // 题目
+                ti: poem.title || '无题',  // 题目
+                from: poem._source  // 来源文件（用于优先保留学校必背诗词）
             };
             
             // 检查是否已存在相同诗句
@@ -84,10 +87,15 @@ for (const poem of allPoems) {
 // 统计并限制每个字符的诗句数量
 console.log('Trimming to max ' + MAX_PER_CHAR + ' per character...');
 for (const char in feihuaIndex) {
-    // 随机打乱
-    feihuaIndex[char].sort(() => Math.random() - 0.5);
-    // 限制数量
-    feihuaIndex[char] = feihuaIndex[char].slice(0, MAX_PER_CHAR);
+    // 优先保留supplement.json的诗句（学校必背诗词），其余随机
+    const supplementPoems = feihuaIndex[char].filter(e => e.from === 'supplement.json');
+    const otherPoems = feihuaIndex[char].filter(e => e.from !== 'supplement.json');
+    
+    // 随机打乱其他诗句
+    otherPoems.sort(() => Math.random() - 0.5);
+    
+    // 优先保留supplement中的全部诗句，再补充其他诗句直到MAX_PER_CHAR
+    feihuaIndex[char] = [...supplementPoems, ...otherPoems].slice(0, MAX_PER_CHAR);
 }
 
 // 统计
