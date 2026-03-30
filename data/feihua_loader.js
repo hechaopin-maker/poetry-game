@@ -92,10 +92,9 @@ function getFeihuaPoems(char) {
     return [...poems].map(p => {
         const obj = JSON.parse(p);
         return {
-            poem: obj.t,      // 诗句原文
-            author: obj.a,     // 作者
-            title: obj.ti,     // 题目
-            from: obj.from     // 来源文件
+            poem: obj.text,      // 诗句原文 (不是 obj.t)
+            author: obj.author,  // 作者 (不是 obj.a)
+            title: obj.title     // 题目 (不是 obj.ti)
         };
     });
 }
