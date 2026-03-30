@@ -2163,13 +2163,26 @@ function showWrongNotes() {
         return;
     }
     
-    list.innerHTML = wrongs.map(w => `
-        <div class="question-box" style="margin-bottom:15px;">
-            <div class="question-text" style="font-size:1em;margin-bottom:10px;">${w.question || '（题目已丢失）'}</div>
-            <div style="color:#E53935;margin-bottom:5px;"><strong>正确答案：</strong>${w.answer || '（答案已丢失）'}</div>
-            <div style="font-size:0.9em;color:#888;"><strong>解析：</strong>${w.explanation || '（暂无解析）'}</div>
+    list.innerHTML = wrongs.map(w => {
+        // 重建题目对象用于getEnhancedExplanation
+        const q = {
+            id: w.id,
+            question: w.question,
+            answer: w.answer,
+            explanation: w.explanation,
+            knowledgePoints: w.knowledgePoints
+        };
+        const enhancedExplanation = getEnhancedExplanation(q);
+        
+        return `
+        <div class="question-box" style="margin-bottom:20px;padding:15px;background:#fff;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <div class="question-text" style="font-size:1em;margin-bottom:15px;color:#333;">${w.question || '（题目已丢失）'}</div>
+            ${enhancedExplanation}
+            <div style="margin-top:12px;padding-top:12px;border-top:1px dashed #eee;color:#888;font-size:0.85em;">
+                错误日期：${new Date(w.date).toLocaleDateString('zh-CN')}
+            </div>
         </div>
-    `).join('');
+    `}).join('');
 }
 
 // ==================== 排行榜 ====================
