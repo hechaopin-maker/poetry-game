@@ -1157,13 +1157,17 @@ function showFeihuaInput() {
                placeholder="输入诗句，如：春眠不觉晓" 
                onkeypress="if(event.key==='Enter')submitFeihuaAnswerByInput()"
                autocomplete="off">
-        <button class="btn" style="margin-top:15px;padding:12px 30px;font-size:1.1em;width:100%;" onclick="submitFeihuaAnswerByInput()">
+        <button id="feihuaSubmitBtn" class="btn" style="margin-top:15px;padding:12px 30px;font-size:1.1em;width:100%;" onclick="submitFeihuaAnswerByInput()">
             提交答案
         </button>
         <div style="text-align:center;margin-top:12px;">
             <a href="javascript:void(0)" onclick="skipFeihuaAndShowAnswer()" style="color:#888;font-size:14px;text-decoration:underline;">想不起来？查看答案学习一下</a>
         </div>
     `;
+    
+    // 确保onclick正确绑定
+    const submitBtn = document.getElementById('feihuaSubmitBtn');
+    if (submitBtn) submitBtn.onclick = submitFeihuaAnswerByInput;
     
     // 自动聚焦输入框
     setTimeout(() => {
