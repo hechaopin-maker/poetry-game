@@ -1379,14 +1379,20 @@ function submitFeihuaAnswerByInput() {
         
         showToast('正确！+10分');
         
+        // 清除之前可能存在的学习提示
+        const promptEl = document.getElementById('feihuaPrompt');
+        const existingHints = promptEl.querySelectorAll('div[style*="margin:15px"]');
+        existingHints.forEach(hint => hint.remove());
+        
         // 切换到新关键字（从答对的诗句中提取）
         const poemForKeyword = matchedPoem ? matchedPoem.poem : userAnswer;
         switchToNewKeyword(poemForKeyword);
         
         // 重置计时器并显示下一题
-        feihuaState.timeLeft = 30;
-        document.getElementById('feihuaTimer').textContent = '30';
-        showFeihuaOptions();
+        feihuaState.timeLeft = 500;
+        document.getElementById('feihuaTimer').textContent = '500';
+        document.getElementById('feihuaTimer').style.color = '';
+        showFeihuaInput();
     } else {
         // 答错了，显示参考答案供学习
         const samplePoem = feihuaState.poems[Math.floor(Math.random() * feihuaState.poems.length)];
