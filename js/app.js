@@ -1970,11 +1970,16 @@ function updateSelectedCharsDisplay() {
     display.textContent = matchState.selectedChars.map(c => c.char).join('');
 }
 
-function confirmSelection() {
+// 确保confirmSelection在全局作用域可访问
+window.confirmSelection = function() {
     const answerLen = matchState.currentQuestion.answer.length;
     if (matchState.selectedChars.length === answerLen) {
         checkMatchAnswer();
     }
+};
+// 保持一个本地引用以防其他地方直接引用
+function confirmSelection() {
+    window.confirmSelection();
 }
 
 function clearSelection() {
