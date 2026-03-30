@@ -1843,6 +1843,7 @@ function showJiugongGe(q) {
     dianzi.style.display = 'none';
     selectedDisplay.style.display = 'none'; // 九宫格不需要显示选中区
     matchState.selectedChars = [];
+    matchState.currentQuestion = q; // 设置当前题目，包含answer字段
     
     // 打乱汉字
     const chars = [...q.chars].sort(() => Math.random() - 0.5);
@@ -1867,6 +1868,7 @@ function showShiergongGe(q) {
     
     // 重置选中状态
     matchState.selectedChars = [];
+    matchState.currentQuestion = q; // 设置当前题目，包含answer字段
     document.getElementById('selectedCharsText').textContent = '';
     
     // 打乱汉字
