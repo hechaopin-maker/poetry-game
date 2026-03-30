@@ -593,7 +593,10 @@ function submitFillAnswer() {
         }, 1500);
     } else {
         // 答错了：显示"下一题"按钮，让学生点击后进入下一题
-        document.getElementById('nextQuestionBtn').style.display = 'inline-block';
+        const nextBtn = document.getElementById('nextQuestionBtn');
+        nextBtn.style.display = 'inline-block';
+        // 确保onclick正确绑定
+        nextBtn.onclick = nextQuestion;
     }
 }
 
@@ -629,7 +632,10 @@ function skipAndShowAnswer() {
     document.getElementById('explanation').classList.add('show');
     
     // 显示"下一题"按钮
-    document.getElementById('nextQuestionBtn').style.display = 'inline-block';
+    const nextBtn = document.getElementById('nextQuestionBtn');
+    nextBtn.style.display = 'inline-block';
+    // 确保onclick正确绑定
+    nextBtn.onclick = nextQuestion;
     
     // 如果当前用户在诗词闯关或每日挑战，更新用户数据
     if (gameState.currentUser) {
@@ -719,7 +725,10 @@ function selectOption(element, isCorrect) {
         }, 1500);
     } else {
         // 答错了：显示"下一题"按钮，让学生点击后进入下一题
-        document.getElementById('nextQuestionBtn').style.display = 'inline-block';
+        const nextBtn = document.getElementById('nextQuestionBtn');
+        nextBtn.style.display = 'inline-block';
+        // 确保onclick正确绑定
+        nextBtn.onclick = nextQuestion;
     }
 }
 
