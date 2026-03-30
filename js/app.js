@@ -2139,6 +2139,18 @@ function showWrongNotes() {
     showPage('wrongPage');
     
     const list = document.getElementById('wrongList');
+    
+    // 清理无效的错题数据（question为undefined或空的条目）
+    const originalCount = gameState.currentUser.wrongQuestions.length;
+    gameState.currentUser.wrongQuestions = gameState.currentUser.wrongQuestions.filter(w => 
+        w && w.question && w.question !== 'undefined' && w.question.trim() !== ''
+    );
+    const cleanedCount = originalCount - gameState.currentUser.wrongQuestions.length;
+    if (cleanedCount > 0) {
+        saveUser();
+        showToast(`已清理 ${cleanedCount} 条无效错题记录`);
+    }
+    
     const wrongs = gameState.currentUser.wrongQuestions;
     
     if (wrongs.length === 0) {
@@ -2153,9 +2165,9 @@ function showWrongNotes() {
     
     list.innerHTML = wrongs.map(w => `
         <div class="question-box" style="margin-bottom:15px;">
-            <div class="question-text" style="font-size:1em;margin-bottom:10px;">${w.question}</div>
-            <div style="color:#E53935;margin-bottom:5px;"><strong>正确答案：</strong>${w.answer}</div>
-            <div style="font-size:0.9em;color:#888;"><strong>解析：</strong>${w.explanation}</div>
+            <div class="question-text" style="font-size:1em;margin-bottom:10px;">${w.question || '（题目已丢失）'}</div>
+            <div style="color:#E53935;margin-bottom:5px;"><strong>正确答案：</strong>${w.answer || '（答案已丢失）'}</div>
+            <div style="font-size:0.9em;color:#888;"><strong>解析：</strong>${w.explanation || '（暂无解析）'}</div>
         </div>
     `).join('');
 }
