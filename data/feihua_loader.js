@@ -18,7 +18,7 @@ async function loadFeihuaData() {
     const startTime = Date.now();
     
     // 确保诗词数据已加载
-    if (!window.POEMS_LOADED || window.POEMS_DATA.length === 0) {
+    if (!window.POEMS_DATA || window.POEMS_DATA.length === 0) {
         console.log('诗词数据未加载，先加载诗词...');
         await window.loadPoemsData();
     }
