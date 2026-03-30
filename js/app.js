@@ -940,16 +940,28 @@ let feihuaState = {
 
 // 获取飞花令关键字池（按诗句数量降序排列，多的在前=简单）
 function getFeihuaKeywordPool() {
-    if (!window.FEIHUA_DATA || Object.keys(window.FEIHUA_DATA).length === 0) {
-        console.warn('飞花令数据未加载，使用空池');
-        return [];
+    // 优先使用新数据
+    if (window.FEIHUA_DATA && Object.keys(window.FEIHUA_DATA).length > 0) {
+        const keywords = Object.keys(window.FEIHUA_DATA);
+        return keywords.sort((a, b) => {
+            const countA = window.FEIHUA_DATA[a]?.size || 0;
+            const countB = window.FEIHUA_DATA[b]?.size || 0;
+            return countB - countA;
+        });
     }
-    const keywords = Object.keys(window.FEIHUA_DATA);
-    return keywords.sort((a, b) => {
-        const countA = window.FEIHUA_DATA[a]?.size || 0;
-        const countB = window.FEIHUA_DATA[b]?.size || 0;
-        return countB - countA;
-    });
+    
+    // 备用旧数据
+    if (typeof FEIHUA_FULL_DATA !== 'undefined' && FEIHUA_FULL_DATA.keywords) {
+        const keywords = Object.keys(FEIHUA_FULL_DATA.keywords);
+        return keywords.sort((a, b) => {
+            const countA = FEIHUA_FULL_DATA.keywords[a].l.length;
+            const countB = FEIHUA_FULL_DATA.keywords[b].l.length;
+            return countB - countA;
+        });
+    }
+    
+    console.warn('飞花令数据未加载，使用空池');
+    return [];
 }
 
 // 选择下一个关键字（避开已完成的关键字）
@@ -977,7 +989,15 @@ function switchToNewKeyword(poem) {
     
     // 过滤掉已完成的关键字（30轮内）和没有诗词库的字符
     const avoidKeywords = feihuaState.completedKeywords.slice(-30);
-    const availableChars = chars.filter(c => !avoidKeywords.includes(c) && window.FEIHUA_DATA[c]?.size > 0);
+    const hasNewData = window.FEIHUA_DATA && Object.keys(window.FEIHUA_DATA).length > 0;
+    const hasOldData = typeof FEIHUA_FULL_DATA !== 'undefined' && FEIHUA_FULL_DATA.keywords;
+    
+    const availableChars = chars.filter(c => {
+        if (avoidKeywords.includes(c)) return false;
+        if (hasNewData && window.FEIHUA_DATA[c]?.size > 0) return true;
+        if (hasOldData && FEIHUA_FULL_DATA.keywords[c]) return true;
+        return false;
+    });
     
     // 如果诗句中没有可用字符，随机选一个关键字
     if (availableChars.length === 0) {
@@ -990,13 +1010,25 @@ function switchToNewKeyword(poem) {
     // 添加到已完成关键字记录
     feihuaState.completedKeywords.push(feihuaState.keyword);
     
-    // 加载新关键字的诗句
-    const poems = window.getFeihuaPoems ? window.getFeihuaPoems(feihuaState.keyword) : [];
-    feihuaState.poems = poems.map(p => ({
-        poem: p.text,
-        author: p.author,
-        title: p.title
-    }));
+    // 加载新关键字的诗句 - 优先新数据，备用旧数据
+    let poems = [];
+    if (hasNewData && window.getFeihuaPoems) {
+        poems = window.getFeihuaPoems(feihuaState.keyword);
+        feihuaState.poems = poems.map(p => ({
+            poem: p.text,
+            author: p.author,
+            title: p.title
+        }));
+    } else if (hasOldData) {
+        const keywordData = FEIHUA_FULL_DATA.keywords[feihuaState.keyword];
+        if (keywordData) {
+            feihuaState.poems = keywordData.l.map(l => ({
+                poem: l.t,
+                author: l.a,
+                title: l.ti
+            }));
+        }
+    }
     feihuaState.poems.sort(() => Math.random() - 0.5);
     
     // 更新UI
@@ -1010,13 +1042,20 @@ async function startFeihua() {
     }
     
     // 加载飞花令数据（从POEMS_DATA动态构建）
-    if (!window.FEIHUA_LOADED) {
-        showToast('正在加载飞花令数据...');
-        await window.loadFeihuaData();
+    try {
+        if (!window.FEIHUA_LOADED) {
+            showToast('正在加载飞花令数据...');
+            await window.loadFeihuaData();
+        }
+    } catch (e) {
+        console.warn('飞花令动态加载失败，使用备用数据:', e.message);
     }
     
-    // 检查飞花令数据
-    if (!window.FEIHUA_DATA || Object.keys(window.FEIHUA_DATA).length === 0) {
+    // 检查飞花令数据 - 如果新加载器失败，使用旧的FEIHUA_FULL_DATA
+    const hasNewData = window.FEIHUA_DATA && Object.keys(window.FEIHUA_DATA).length > 0;
+    const hasOldData = typeof FEIHUA_FULL_DATA !== 'undefined' && FEIHUA_FULL_DATA.keywords;
+    
+    if (!hasNewData && !hasOldData) {
         showToast('飞花令数据加载失败');
         return;
     }
