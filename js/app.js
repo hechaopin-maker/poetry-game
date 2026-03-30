@@ -1379,10 +1379,10 @@ function submitFeihuaAnswerByInput() {
         
         showToast('正确！+10分');
         
-        // 清除之前可能存在的学习提示
-        const promptEl = document.getElementById('feihuaPrompt');
-        const existingHints = promptEl.querySelectorAll('div[style*="margin:15px"]');
-        existingHints.forEach(hint => hint.remove());
+        // 清除之前可能存在的学习提示（清除输入框区域的提示，不清除历史区域）
+        const inputArea = document.getElementById('feihuaPrompt');
+        const hintElements = inputArea.querySelectorAll('div[style*="margin:15px"], div[style*="margin: 15px"]');
+        hintElements.forEach(el => el.remove());
         
         // 切换到新关键字（从答对的诗句中提取）
         const poemForKeyword = matchedPoem ? matchedPoem.poem : userAnswer;
