@@ -7,30 +7,30 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "以下哪句诗表达的是思乡之情？",
         "options": [
-    {
+            {
                 "text": "举头望明月，低头思故乡",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "春眠不觉晓，处处闻啼鸟",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "白日依山尽，黄河入海流",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "两个黄鹂鸣翠柳，一行白鹭上青天",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "举头望明月，低头思故乡",
         "explanation": "此句出自李白《静夜思》，诗人借月亮表达对故乡的思念。",
         "poemId": "poem_006",
         "knowledgePoints": [
             "思乡",
-        "月亮",
-        "李白"
+            "月亮",
+            "李白"
         ]
     },
     {
@@ -41,30 +41,30 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "\"独在异乡为异客，每逢佳节倍思亲\"中的\"佳节\"指的是哪个节日？",
         "options": [
-    {
+            {
                 "text": "重阳节",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "中秋节",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "端午节",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "春节",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "重阳节",
         "explanation": "此句出自王维《九月九日忆山东兄弟》，九月九日是重阳节，古人有登高插茱萸的习俗。",
         "poemId": "poem_007",
         "knowledgePoints": [
             "节日",
-        "重阳节",
-        "王维"
+            "重阳节",
+            "王维"
         ]
     },
     {
@@ -80,9 +80,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王湾",
-        "次北固山下",
-        "春天"
+            "王湾",
+            "次北固山下",
+            "春天"
         ]
     },
     {
@@ -98,9 +98,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张若虚",
-        "春江花月夜",
-        "月亮"
+            "张若虚",
+            "春江花月夜",
+            "月亮"
         ]
     },
     {
@@ -111,31 +111,31 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "下列对诗句理解不正确的一项是：",
         "options": [
-    {
+            {
                 "text": "\"沉舟侧畔千帆过，病树前头万木春\"表达了诗人对世事变迁的哲理思考",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "\"但愿人长久，千里共婵娟\"表现了诗人对亲人的深深思念和美好祝愿",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "\"人生自古谁无死？留取丹心照汗青\"表现了诗人想要流芳百世的追求",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "\"长风破浪会有时，直挂云帆济沧海\"表达了诗人远大的志向和乐观的精神",
-        "correct": false
+                "correct": false
             }
-  ],
-        "answer": "人生自古谁无死？留取丹心照汗青\"表现了诗人想要流芳百世的追求",
+        ],
+        "answer": "人生自古谁无死？留取丹心照汗青",
         "explanation": "这句诗出自文天祥《过零丁洋》，表达的是诗人以身殉国的决心和爱国精神，而非追求流芳百世。",
         "poemId": null,
         "knowledgePoints": [
             "古诗鉴赏",
-        "文天祥",
-        "过零丁洋",
-        "爱国"
+            "文天祥",
+            "过零丁洋",
+            "爱国"
         ]
     },
     {
@@ -151,8 +151,8 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "新柳"
+            "杨万里",
+            "新柳"
         ]
     },
     {
@@ -163,30 +163,30 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "下列哪个选项正确描述了'春风又绿江南岸'的作者和出处？",
         "options": [
-    {
+            {
                 "text": "王安石《泊船瓜洲》",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "李白《早发白帝城》",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "杜甫《春望》",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "白居易《钱塘湖春行》",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "王安石《泊船瓜洲》",
         "explanation": "春风又绿江南岸出自王安石的《泊船瓜洲》，表达了诗人对家乡的思念。",
         "poemId": null,
         "knowledgePoints": [
             "古诗常识",
-        "王安石",
-        "泊船瓜洲"
+            "王安石",
+            "泊船瓜洲"
         ]
     },
     {
@@ -202,9 +202,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "马致远",
-        "天净沙",
-        "秋思"
+            "马致远",
+            "天净沙",
+            "秋思"
         ]
     },
     {
@@ -220,9 +220,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "毛泽东",
-        "沁园春雪",
-        "咏雪"
+            "毛泽东",
+            "沁园春雪",
+            "咏雪"
         ]
     },
     {
@@ -238,9 +238,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "忧国忧民"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "忧国忧民"
         ]
     },
     {
@@ -251,29 +251,29 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "\"花有重开日，__________。\"横线上应填什么？",
         "options": [
-    {
+            {
                 "text": "人无再少年",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "老大徒伤悲",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "来世不可待",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "往事不可追",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "人无再少年",
         "explanation": "这是一句古语，提醒人们要珍惜少年时光。",
         "poemId": null,
         "knowledgePoints": [
             "惜时",
-        "格言"
+            "格言"
         ]
     },
     {
@@ -289,9 +289,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春夜喜雨",
-        "春雨"
+            "杜甫",
+            "春夜喜雨",
+            "春雨"
         ]
     },
     {
@@ -307,9 +307,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "宿建德江",
-        "羁旅"
+            "孟浩然",
+            "宿建德江",
+            "羁旅"
         ]
     },
     {
@@ -325,9 +325,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗文",
-        "论语",
-        "学习",
-        "孔子"
+            "论语",
+            "学习",
+            "孔子"
         ],
         "poetryType": false
     },
@@ -344,9 +344,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "范仲淹",
-        "岳阳楼记",
-        "政治抱负"
+            "范仲淹",
+            "岳阳楼记",
+            "政治抱负"
         ],
         "poetryType": false
     },
@@ -363,9 +363,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李贺",
-        "马诗",
-        "志向"
+            "李贺",
+            "马诗",
+            "志向"
         ]
     },
     {
@@ -376,31 +376,31 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "'明月松间照，__________'是哪首诗的句子？",
         "options": [
-    {
+            {
                 "text": "清泉石上流",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "天气晚来秋",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "竹喧归浣女",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "莲动下渔舟",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "清泉石上流",
         "explanation": "出自王维《山居秋暝》，描写秋夜山居的宁静景色。",
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "秋天"
+            "王维",
+            "山居秋暝",
+            "秋天"
         ]
     },
     {
@@ -416,13 +416,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "大林寺桃花",
-        "春天"
+            "白居易",
+            "大林寺桃花",
+            "春天"
         ]
     },
     {
         "id": "q_chu2_004",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu2",
         "source": "初中语文古诗词默写",
@@ -434,9 +435,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗文",
-        "论语",
-        "仁德",
-        "孔子"
+            "论语",
+            "仁德",
+            "孔子"
         ]
     },
     {
@@ -452,9 +453,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "水调歌头",
-        "中秋"
+            "苏轼",
+            "水调歌头",
+            "中秋"
         ]
     },
     {
@@ -470,9 +471,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "江南春",
-        "写景"
+            "杜牧",
+            "江南春",
+            "写景"
         ]
     },
     {
@@ -488,10 +489,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "友情",
-        "思念"
-        ]
+            "李白",
+            "友情",
+            "思念"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_005",
@@ -506,9 +508,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "赋得古原草送别",
-        "顽强"
+            "白居易",
+            "赋得古原草送别",
+            "顽强"
         ]
     },
     {
@@ -524,9 +526,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗文",
-        "孟子",
-        "忧患意识",
-        "生存"
+            "孟子",
+            "忧患意识",
+            "生存"
         ],
         "poetryType": false
     },
@@ -543,9 +545,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "文天祥",
-        "过零丁洋",
-        "爱国"
+            "文天祥",
+            "过零丁洋",
+            "爱国"
         ]
     },
     {
@@ -561,9 +563,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "龚自珍",
-        "己亥杂诗",
-        "人才"
+            "龚自珍",
+            "己亥杂诗",
+            "人才"
         ]
     },
     {
@@ -579,9 +581,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "夜雨寄北",
-        "思念"
+            "李商隐",
+            "夜雨寄北",
+            "思念"
         ]
     },
     {
@@ -597,9 +599,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "赋得古原草送别",
-        "自然规律"
+            "白居易",
+            "赋得古原草送别",
+            "自然规律"
         ]
     },
     {
@@ -615,9 +617,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗文",
-        "左传",
-        "曹刿论战",
-        "战争"
+            "左传",
+            "曹刿论战",
+            "战争"
         ],
         "poetryType": false
     },
@@ -634,9 +636,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "诸葛亮",
-        "出师表",
-        "法治"
+            "诸葛亮",
+            "出师表",
+            "法治"
         ],
         "poetryType": false
     },
@@ -653,9 +655,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王建",
-        "十五夜望月",
-        "中秋"
+            "王建",
+            "十五夜望月",
+            "中秋"
         ]
     },
     {
@@ -671,9 +673,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "泊秦淮",
-        "咏史"
+            "杜牧",
+            "泊秦淮",
+            "咏史"
         ]
     },
     {
@@ -689,13 +691,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "赋得古原草送别",
-        "送别"
+            "白居易",
+            "赋得古原草送别",
+            "送别"
         ]
     },
     {
         "id": "q_chu2_007",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu2",
         "source": "初中语文古诗词默写",
@@ -707,13 +710,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗文",
-        "孟子",
-        "舍生取义",
-        "正义"
+            "孟子",
+            "舍生取义",
+            "正义"
         ]
     },
     {
         "id": "q_zk_007",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "2024年中考语文古诗文默写练习",
@@ -725,9 +729,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "周敦颐",
-        "爱莲说",
-        "品格"
+            "周敦颐",
+            "爱莲说",
+            "品格"
         ]
     },
     {
@@ -743,9 +747,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "郑燮",
-        "竹石",
-        "咏物"
+            "郑燮",
+            "竹石",
+            "咏物"
         ]
     },
     {
@@ -761,9 +765,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "晏殊",
-        "浣溪沙",
-        "惜时"
+            "晏殊",
+            "浣溪沙",
+            "惜时"
         ]
     },
     {
@@ -779,9 +783,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "赵师秀",
-        "约客",
-        "梅雨"
+            "赵师秀",
+            "约客",
+            "梅雨"
         ]
     },
     {
@@ -797,14 +801,15 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "欧阳修",
-        "醉翁亭记",
-        "情趣"
+            "欧阳修",
+            "醉翁亭记",
+            "情趣"
         ],
         "poetryType": false
     },
     {
         "id": "q_chu2_008",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu2",
         "source": "初中语文古诗词理解性默写",
@@ -816,9 +821,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "苏轼",
-        "记承天寺夜游",
-        "写景"
+            "苏轼",
+            "记承天寺夜游",
+            "写景"
         ]
     },
     {
@@ -834,9 +839,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韩愈",
-        "早春",
-        "写景"
+            "韩愈",
+            "早春",
+            "写景"
         ]
     },
     {
@@ -852,9 +857,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "诗经",
-        "关雎",
-        "爱情"
+            "诗经",
+            "关雎",
+            "爱情"
         ]
     },
     {
@@ -870,13 +875,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "长歌行",
-        "汉乐府",
-        "自然"
+            "长歌行",
+            "汉乐府",
+            "自然"
         ]
     },
     {
         "id": "q_zk_009",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "2024年中考语文古诗文默写练习",
@@ -888,9 +894,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "宋濂",
-        "送东阳马生序",
-        "求学"
+            "宋濂",
+            "送东阳马生序",
+            "求学"
         ]
     },
     {
@@ -906,9 +912,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "吴均",
-        "与朱元思书",
-        "山水"
+            "吴均",
+            "与朱元思书",
+            "山水"
         ],
         "poetryType": false
     },
@@ -925,9 +931,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "温庭筠",
-        "商山早行",
-        "羁旅"
+            "温庭筠",
+            "商山早行",
+            "羁旅"
         ]
     },
     {
@@ -943,9 +949,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春望",
-        "爱国"
+            "杜甫",
+            "春望",
+            "爱国"
         ]
     },
     {
@@ -961,9 +967,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "长歌行",
-        "惜时",
-        "汉乐府"
+            "长歌行",
+            "惜时",
+            "汉乐府"
         ]
     },
     {
@@ -979,10 +985,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岳飞",
-        "满江红",
-        "爱国"
-        ]
+            "岳飞",
+            "满江红",
+            "爱国"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_chu2_010",
@@ -997,9 +1004,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "陶弘景",
-        "答谢中书书",
-        "山水"
+            "陶弘景",
+            "答谢中书书",
+            "山水"
         ],
         "poetryType": false
     },
@@ -1016,9 +1023,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "庐山瀑布",
-        "写景"
+            "李白",
+            "庐山瀑布",
+            "写景"
         ]
     },
     {
@@ -1034,9 +1041,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张养浩",
-        "潼关怀古",
-        "怀古"
+            "张养浩",
+            "潼关怀古",
+            "怀古"
         ]
     },
     {
@@ -1052,9 +1059,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "敕勒歌",
-        "北朝民歌",
-        "草原"
+            "敕勒歌",
+            "北朝民歌",
+            "草原"
         ]
     },
     {
@@ -1070,9 +1077,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "送别"
+            "李白",
+            "渡荆门送别",
+            "送别"
         ]
     },
     {
@@ -1088,9 +1095,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陶渊明",
-        "饮酒",
-        "归隐"
+            "陶渊明",
+            "饮酒",
+            "归隐"
         ]
     },
     {
@@ -1106,9 +1113,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "送别",
-        "渭城曲"
+            "王维",
+            "送别",
+            "渭城曲"
         ]
     },
     {
@@ -1124,9 +1131,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李煜",
-        "相见欢",
-        "亡国"
+            "李煜",
+            "相见欢",
+            "亡国"
         ]
     },
     {
@@ -1142,9 +1149,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "骆宾王",
-        "咏鹅",
-        "动物"
+            "骆宾王",
+            "咏鹅",
+            "动物"
         ]
     },
     {
@@ -1160,9 +1167,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王安石",
-        "登飞来峰",
-        "志向"
+            "王安石",
+            "登飞来峰",
+            "志向"
         ]
     },
     {
@@ -1178,9 +1185,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陶渊明",
-        "饮酒",
-        "自然"
+            "陶渊明",
+            "饮酒",
+            "自然"
         ],
         "poetryType": false
     },
@@ -1197,9 +1204,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春夜喜雨",
-        "春雨"
+            "杜甫",
+            "春夜喜雨",
+            "春雨"
         ]
     },
     {
@@ -1215,9 +1222,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "写景"
+            "李白",
+            "渡荆门送别",
+            "写景"
         ]
     },
     {
@@ -1233,9 +1240,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "贺知章",
-        "咏柳",
-        "春天"
+            "贺知章",
+            "咏柳",
+            "春天"
         ]
     },
     {
@@ -1251,9 +1258,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范仲淹",
-        "渔家傲",
-        "边塞"
+            "范仲淹",
+            "渔家傲",
+            "边塞"
         ]
     },
     {
@@ -1269,9 +1276,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春望",
-        "爱国"
+            "杜甫",
+            "春望",
+            "爱国"
         ]
     },
     {
@@ -1287,9 +1294,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韩翃",
-        "寒食",
-        "节日"
+            "韩翃",
+            "寒食",
+            "节日"
         ]
     },
     {
@@ -1305,9 +1312,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "龚自珍",
-        "己亥杂诗",
-        "奉献"
+            "龚自珍",
+            "己亥杂诗",
+            "奉献"
         ]
     },
     {
@@ -1323,9 +1330,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "登鹳雀楼",
-        "写景"
+            "王之涣",
+            "登鹳雀楼",
+            "写景"
         ]
     },
     {
@@ -1341,9 +1348,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "江城子",
-        "爱国"
+            "苏轼",
+            "江城子",
+            "爱国"
         ]
     },
     {
@@ -1359,9 +1366,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春望",
-        "战乱"
+            "杜甫",
+            "春望",
+            "战乱"
         ]
     },
     {
@@ -1377,9 +1384,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王冕",
-        "墨梅",
-        "咏物"
+            "王冕",
+            "墨梅",
+            "咏物"
         ]
     },
     {
@@ -1395,9 +1402,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "无题",
-        "爱情"
+            "李商隐",
+            "无题",
+            "爱情"
         ]
     },
     {
@@ -1413,9 +1420,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "宿建德江",
-        "羁旅"
+            "孟浩然",
+            "宿建德江",
+            "羁旅"
         ]
     },
     {
@@ -1431,9 +1438,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "破阵子",
-        "爱国"
+            "辛弃疾",
+            "破阵子",
+            "爱国"
         ]
     },
     {
@@ -1449,9 +1456,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李贺",
-        "雁门太守行",
-        "边塞"
+            "李贺",
+            "雁门太守行",
+            "边塞"
         ]
     },
     {
@@ -1467,9 +1474,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张志和",
-        "渔歌子",
-        "渔隐"
+            "张志和",
+            "渔歌子",
+            "渔隐"
         ]
     },
     {
@@ -1485,9 +1492,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范仲淹",
-        "渔家傲",
-        "边塞"
+            "范仲淹",
+            "渔家傲",
+            "边塞"
         ]
     },
     {
@@ -1503,9 +1510,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王昌龄",
-        "出塞",
-        "边塞"
+            "王昌龄",
+            "出塞",
+            "边塞"
         ]
     },
     {
@@ -1521,9 +1528,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "南乡子",
-        "怀古"
+            "辛弃疾",
+            "南乡子",
+            "怀古"
         ]
     },
     {
@@ -1539,9 +1546,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "赤壁",
-        "怀古"
+            "杜牧",
+            "赤壁",
+            "怀古"
         ]
     },
     {
@@ -1557,9 +1564,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "西江月",
-        "乡村"
+            "辛弃疾",
+            "西江月",
+            "乡村"
         ]
     },
     {
@@ -1575,9 +1582,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李清照",
-        "武陵春",
-        "愁思"
+            "李清照",
+            "武陵春",
+            "愁思"
         ]
     },
     {
@@ -1593,9 +1600,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王昌龄",
-        "送别",
-        "芙蓉楼送辛渐"
+            "王昌龄",
+            "送别",
+            "芙蓉楼送辛渐"
         ]
     },
     {
@@ -1611,9 +1618,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王磐",
-        "咏喇叭",
-        "讽刺"
+            "王磐",
+            "咏喇叭",
+            "讽刺"
         ]
     },
     {
@@ -1629,9 +1636,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "泊秦淮",
-        "夜景"
+            "杜牧",
+            "泊秦淮",
+            "夜景"
         ]
     },
     {
@@ -1647,9 +1654,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "朱熹",
-        "春日",
-        "春天"
+            "朱熹",
+            "春日",
+            "春天"
         ]
     },
     {
@@ -1665,9 +1672,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "友情",
-        "思念"
+            "李白",
+            "友情",
+            "思念"
         ]
     },
     {
@@ -1683,9 +1690,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "竹里馆",
-        "隐居"
+            "王维",
+            "竹里馆",
+            "隐居"
         ]
     },
     {
@@ -1701,9 +1708,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "柳宗元",
-        "别舍弟宗一",
-        "离别"
+            "柳宗元",
+            "别舍弟宗一",
+            "离别"
         ]
     },
     {
@@ -1719,9 +1726,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "夜雨寄北",
-        "思念"
+            "李商隐",
+            "夜雨寄北",
+            "思念"
         ]
     },
     {
@@ -1737,9 +1744,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韩愈",
-        "早春",
-        "春天"
+            "韩愈",
+            "早春",
+            "春天"
         ]
     },
     {
@@ -1755,9 +1762,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韦应物",
-        "滁州西涧",
-        "写景"
+            "韦应物",
+            "滁州西涧",
+            "写景"
         ]
     },
     {
@@ -1773,9 +1780,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "思乡",
-        "重阳节"
+            "王维",
+            "思乡",
+            "重阳节"
         ]
     },
     {
@@ -1791,9 +1798,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韩愈",
-        "左迁至蓝关示侄孙湘",
-        "忠贞"
+            "韩愈",
+            "左迁至蓝关示侄孙湘",
+            "忠贞"
         ]
     },
     {
@@ -1809,9 +1816,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "爱国",
-        "风雨大作"
+            "陆游",
+            "爱国",
+            "风雨大作"
         ]
     },
     {
@@ -1827,9 +1834,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春夜喜雨",
-        "春雨"
+            "杜甫",
+            "春夜喜雨",
+            "春雨"
         ]
     },
     {
@@ -1845,9 +1852,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "秋天"
+            "王维",
+            "山居秋暝",
+            "秋天"
         ]
     },
     {
@@ -1863,10 +1870,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "静夜思",
-        "思乡"
-        ]
+            "李白",
+            "静夜思",
+            "思乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_020",
@@ -1881,9 +1889,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "温庭筠",
-        "商山早行",
-        "羁旅"
+            "温庭筠",
+            "商山早行",
+            "羁旅"
         ]
     },
     {
@@ -1899,9 +1907,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "文天祥",
-        "过零丁洋",
-        "爱国"
+            "文天祥",
+            "过零丁洋",
+            "爱国"
         ]
     },
     {
@@ -1917,9 +1925,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "长歌行",
-        "惜时",
-        "汉乐府"
+            "长歌行",
+            "惜时",
+            "汉乐府"
         ]
     },
     {
@@ -1935,9 +1943,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王湾",
-        "次北固山下",
-        "思乡"
+            "王湾",
+            "次北固山下",
+            "思乡"
         ]
     },
     {
@@ -1953,9 +1961,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "感遇",
-        "神话"
+            "李白",
+            "感遇",
+            "神话"
         ]
     },
     {
@@ -1971,9 +1979,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "许浑",
-        "咸阳城东楼",
-        "怀古"
+            "许浑",
+            "咸阳城东楼",
+            "怀古"
         ]
     },
     {
@@ -1989,9 +1997,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "石壕吏",
-        "战乱"
+            "杜甫",
+            "石壕吏",
+            "战乱"
         ]
     },
     {
@@ -2007,9 +2015,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "理解型默写",
-        "于谦",
-        "石灰吟",
-        "言志"
+            "于谦",
+            "石灰吟",
+            "言志"
         ]
     },
     {
@@ -2025,9 +2033,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "理解默写",
-        "王湾",
-        "次北固山下",
-        "哲理"
+            "王湾",
+            "次北固山下",
+            "哲理"
         ]
     },
     {
@@ -2043,9 +2051,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "远别离",
-        "离别"
+            "李白",
+            "远别离",
+            "离别"
         ]
     },
     {
@@ -2061,9 +2069,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "无题",
-        "爱情"
+            "李商隐",
+            "无题",
+            "爱情"
         ]
     },
     {
@@ -2079,10 +2087,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "石壕吏",
-        "社会"
-        ]
+            "杜甫",
+            "石壕吏",
+            "社会"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_mk_023",
@@ -2097,9 +2106,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "理解型默写",
-        "王维",
-        "送别",
-        "渭城曲"
+            "王维",
+            "送别",
+            "渭城曲"
         ]
     },
     {
@@ -2115,9 +2124,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "理解默写",
-        "苏轼",
-        "水调歌头",
-        "中秋"
+            "苏轼",
+            "水调歌头",
+            "中秋"
         ]
     },
     {
@@ -2133,9 +2142,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "赠汪伦",
-        "友情"
+            "李白",
+            "赠汪伦",
+            "友情"
         ]
     },
     {
@@ -2151,9 +2160,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "丑奴儿",
-        "愁思"
+            "辛弃疾",
+            "丑奴儿",
+            "愁思"
         ]
     },
     {
@@ -2169,9 +2178,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "贫困"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "贫困"
         ]
     },
     {
@@ -2187,9 +2196,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "高适",
-        "别董大",
-        "送别"
+            "高适",
+            "别董大",
+            "送别"
         ]
     },
     {
@@ -2205,9 +2214,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王安石",
-        "登飞来峰",
-        "哲理"
+            "王安石",
+            "登飞来峰",
+            "哲理"
         ]
     },
     {
@@ -2223,9 +2232,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "送别",
-        "黄鹤楼送孟浩然之广陵"
+            "李白",
+            "送别",
+            "黄鹤楼送孟浩然之广陵"
         ]
     },
     {
@@ -2241,9 +2250,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "破阵子",
-        "志向"
+            "辛弃疾",
+            "破阵子",
+            "志向"
         ]
     },
     {
@@ -2259,9 +2268,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岑参",
-        "白雪歌",
-        "边塞"
+            "岑参",
+            "白雪歌",
+            "边塞"
         ]
     },
     {
@@ -2277,9 +2286,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "郑燮",
-        "竹石",
-        "咏物"
+            "郑燮",
+            "竹石",
+            "咏物"
         ]
     },
     {
@@ -2295,9 +2304,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陶渊明",
-        "饮酒",
-        "田园"
+            "陶渊明",
+            "饮酒",
+            "田园"
         ]
     },
     {
@@ -2313,9 +2322,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "秋浦歌",
-        "夸张"
+            "李白",
+            "秋浦歌",
+            "夸张"
         ]
     },
     {
@@ -2331,9 +2340,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范仲淹",
-        "渔家傲",
-        "边塞"
+            "范仲淹",
+            "渔家傲",
+            "边塞"
         ]
     },
     {
@@ -2349,13 +2358,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岑参",
-        "白雪歌",
-        "比喻"
+            "岑参",
+            "白雪歌",
+            "比喻"
         ]
     },
     {
         "id": "q_mk_026",
+        "poetryType": false,
         "type": "fill",
         "grade": "mk",
         "source": "2023·沂南县小升初真题",
@@ -2367,9 +2377,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗文",
-        "礼记",
-        "创新",
-        "格言"
+            "礼记",
+            "创新",
+            "格言"
         ]
     },
     {
@@ -2385,9 +2395,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "理解默写",
-        "文天祥",
-        "过零丁洋",
-        "爱国"
+            "文天祥",
+            "过零丁洋",
+            "爱国"
         ]
     },
     {
@@ -2403,9 +2413,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "爱国",
-        "喜悦"
+            "杜甫",
+            "爱国",
+            "喜悦"
         ]
     },
     {
@@ -2421,9 +2431,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "江城子",
-        "豪迈"
+            "苏轼",
+            "江城子",
+            "豪迈"
         ]
     },
     {
@@ -2439,9 +2449,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岑参",
-        "白雪歌",
-        "边塞"
+            "岑参",
+            "白雪歌",
+            "边塞"
         ]
     },
     {
@@ -2457,10 +2467,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王冕",
-        "墨梅",
-        "咏物"
-        ]
+            "王冕",
+            "墨梅",
+            "咏物"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_027",
@@ -2475,11 +2486,10 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陶渊明",
-        "饮酒",
-        "田园"
-        ],
-        "poetryType": false
+            "陶渊明",
+            "饮酒",
+            "田园"
+        ]
     },
     {
         "id": "q_fbc_027",
@@ -2494,9 +2504,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "绝句",
-        "春天"
+            "杜甫",
+            "绝句",
+            "春天"
         ]
     },
     {
@@ -2512,9 +2522,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "破阵子",
-        "爱国"
+            "辛弃疾",
+            "破阵子",
+            "爱国"
         ]
     },
     {
@@ -2530,9 +2540,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "卖炭翁",
-        "社会"
+            "白居易",
+            "卖炭翁",
+            "社会"
         ]
     },
     {
@@ -2548,9 +2558,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王建",
-        "十五夜望月",
-        "思乡"
+            "王建",
+            "十五夜望月",
+            "思乡"
         ]
     },
     {
@@ -2566,9 +2576,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王湾",
-        "次北固山下",
-        "春天"
+            "王湾",
+            "次北固山下",
+            "春天"
         ]
     },
     {
@@ -2584,9 +2594,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "江南逢李龟年",
-        "怀旧"
+            "杜甫",
+            "江南逢李龟年",
+            "怀旧"
         ]
     },
     {
@@ -2602,9 +2612,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岳飞",
-        "满江红",
-        "爱国"
+            "岳飞",
+            "满江红",
+            "爱国"
         ]
     },
     {
@@ -2620,9 +2630,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "卖炭翁",
-        "矛盾"
+            "白居易",
+            "卖炭翁",
+            "矛盾"
         ]
     },
     {
@@ -2636,11 +2646,12 @@ const QUESTIONS_DATA = [
         "answer": "被微风吹散了；被初阳蒸融了",
         "explanation": "出自朱自清《匆匆》，用比喻形容时间流逝之快。",
         "poemId": null,
+        "poetryType": false,
         "knowledgePoints": [
             "现代文默写",
-        "朱自清",
-        "匆匆",
-        "惜时"
+            "朱自清",
+            "匆匆",
+            "惜时"
         ]
     },
     {
@@ -2656,10 +2667,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "望岳",
-        "志向"
-        ]
+            "杜甫",
+            "望岳",
+            "志向"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_029",
@@ -2674,9 +2686,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春夜喜雨",
-        "春雨"
+            "杜甫",
+            "春夜喜雨",
+            "春雨"
         ]
     },
     {
@@ -2692,9 +2704,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "柳宗元",
-        "小石潭记",
-        "写景"
+            "柳宗元",
+            "小石潭记",
+            "写景"
         ],
         "poetryType": false
     },
@@ -2711,9 +2723,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "卖炭翁",
-        "揭露"
+            "白居易",
+            "卖炭翁",
+            "揭露"
         ]
     },
     {
@@ -2729,9 +2741,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "长歌行",
-        "惜时",
-        "汉乐府"
+            "长歌行",
+            "惜时",
+            "汉乐府"
         ]
     },
     {
@@ -2747,9 +2759,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李贺",
-        "马诗",
-        "边塞"
+            "李贺",
+            "马诗",
+            "边塞"
         ]
     },
     {
@@ -2765,9 +2777,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "江畔独步寻花",
-        "春天"
+            "杜甫",
+            "江畔独步寻花",
+            "春天"
         ]
     },
     {
@@ -2783,9 +2795,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "范仲淹",
-        "岳阳楼记",
-        "忧国忧民"
+            "范仲淹",
+            "岳阳楼记",
+            "忧国忧民"
         ],
         "poetryType": false
     },
@@ -2802,9 +2814,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "秋瑾",
-        "满江红",
-        "秋景"
+            "秋瑾",
+            "满江红",
+            "秋景"
         ]
     },
     {
@@ -2820,9 +2832,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "理解型默写",
-        "李贺",
-        "马诗",
-        "言志"
+            "李贺",
+            "马诗",
+            "言志"
         ]
     },
     {
@@ -2838,9 +2850,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "柳宗元",
-        "江雪",
-        "冬天"
+            "柳宗元",
+            "江雪",
+            "冬天"
         ]
     },
     {
@@ -2856,9 +2868,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "曹操",
-        "观沧海",
-        "写景"
+            "曹操",
+            "观沧海",
+            "写景"
         ]
     },
     {
@@ -2874,10 +2886,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "欧阳修",
-        "醉翁亭记",
-        "山水"
-        ]
+            "欧阳修",
+            "醉翁亭记",
+            "山水"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_chu2_031",
@@ -2892,9 +2905,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春望",
-        "爱国"
+            "杜甫",
+            "春望",
+            "爱国"
         ]
     },
     {
@@ -2910,9 +2923,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "于谦",
-        "石灰吟",
-        "言志"
+            "于谦",
+            "石灰吟",
+            "言志"
         ]
     },
     {
@@ -2928,9 +2941,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张继",
-        "枫桥夜泊",
-        "羁旅"
+            "张继",
+            "枫桥夜泊",
+            "羁旅"
         ]
     },
     {
@@ -2946,9 +2959,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陶渊明",
-        "饮酒",
-        "田园"
+            "陶渊明",
+            "饮酒",
+            "田园"
         ]
     },
     {
@@ -2964,9 +2977,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "周敦颐",
-        "爱莲说",
-        "品格"
+            "周敦颐",
+            "爱莲说",
+            "品格"
         ],
         "poetryType": false
     },
@@ -2983,9 +2996,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春望",
-        "思乡"
+            "杜甫",
+            "春望",
+            "思乡"
         ]
     },
     {
@@ -3001,8 +3014,8 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "谚语",
-        "友情",
-        "格言"
+            "友情",
+            "格言"
         ]
     },
     {
@@ -3018,9 +3031,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韩翃",
-        "寒食",
-        "节日"
+            "韩翃",
+            "寒食",
+            "节日"
         ]
     },
     {
@@ -3036,9 +3049,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "秋天"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "秋天"
         ]
     },
     {
@@ -3054,9 +3067,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "宋濂",
-        "送东阳马生序",
-        "求学"
+            "宋濂",
+            "送东阳马生序",
+            "求学"
         ],
         "poetryType": false
     },
@@ -3073,9 +3086,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春望",
-        "忧虑"
+            "杜甫",
+            "春望",
+            "忧虑"
         ]
     },
     {
@@ -3091,10 +3104,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王冕",
-        "墨梅",
-        "咏物"
-        ]
+            "王冕",
+            "墨梅",
+            "咏物"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_034",
@@ -3109,9 +3123,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "卢纶",
-        "塞下曲",
-        "边塞"
+            "卢纶",
+            "塞下曲",
+            "边塞"
         ]
     },
     {
@@ -3127,9 +3141,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岑参",
-        "白雪歌",
-        "送别"
+            "岑参",
+            "白雪歌",
+            "送别"
         ]
     },
     {
@@ -3145,9 +3159,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "左传",
-        "曹刿论战",
-        "战争"
+            "左传",
+            "曹刿论战",
+            "战争"
         ],
         "poetryType": false
     },
@@ -3164,10 +3178,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "石壕吏",
-        "战乱"
-        ]
+            "杜甫",
+            "石壕吏",
+            "战乱"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_035",
@@ -3182,8 +3197,8 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "谚语",
-        "格言",
-        "勤奋"
+            "格言",
+            "勤奋"
         ]
     },
     {
@@ -3199,9 +3214,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟郊",
-        "游子吟",
-        "母爱"
+            "孟郊",
+            "游子吟",
+            "母爱"
         ]
     },
     {
@@ -3217,9 +3232,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "龚自珍",
-        "己亥杂诗",
-        "奉献"
+            "龚自珍",
+            "己亥杂诗",
+            "奉献"
         ]
     },
     {
@@ -3235,9 +3250,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "秋天"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "秋天"
         ]
     },
     {
@@ -3253,10 +3268,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "石壕吏",
-        "社会"
-        ]
+            "杜甫",
+            "石壕吏",
+            "社会"
+        ],
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_036",
@@ -3271,8 +3288,8 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "送别"
+            "王维",
+            "送别"
         ]
     },
     {
@@ -3288,9 +3305,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘禹锡",
-        "竹枝词",
-        "双关"
+            "刘禹锡",
+            "竹枝词",
+            "双关"
         ]
     },
     {
@@ -3306,9 +3323,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "曹操",
-        "观沧海",
-        "写景"
+            "曹操",
+            "观沧海",
+            "写景"
         ]
     },
     {
@@ -3324,9 +3341,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "忧国忧民"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "忧国忧民"
         ]
     },
     {
@@ -3342,10 +3359,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "贫困"
-        ]
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "贫困"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_037",
@@ -3360,9 +3378,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "游山西村",
-        "田园"
+            "陆游",
+            "游山西村",
+            "田园"
         ]
     },
     {
@@ -3378,9 +3396,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘禹锡",
-        "望洞庭",
-        "比喻"
+            "刘禹锡",
+            "望洞庭",
+            "比喻"
         ]
     },
     {
@@ -3396,9 +3414,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "友情",
-        "被贬"
+            "李白",
+            "友情",
+            "被贬"
         ]
     },
     {
@@ -3414,9 +3432,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "奉献"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "奉献"
         ]
     },
     {
@@ -3432,10 +3450,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岑参",
-        "白雪歌",
-        "边塞"
-        ]
+            "岑参",
+            "白雪歌",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_038",
@@ -3450,9 +3469,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "西湖",
-        "夏雨"
+            "苏轼",
+            "西湖",
+            "夏雨"
         ]
     },
     {
@@ -3468,9 +3487,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "顽强",
-        "送别"
+            "白居易",
+            "顽强",
+            "送别"
         ]
     },
     {
@@ -3486,9 +3505,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王湾",
-        "次北固山下",
-        "春天"
+            "王湾",
+            "次北固山下",
+            "春天"
         ]
     },
     {
@@ -3504,9 +3523,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "文天祥",
-        "过零丁洋",
-        "爱国"
+            "文天祥",
+            "过零丁洋",
+            "爱国"
         ]
     },
     {
@@ -3522,10 +3541,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岑参",
-        "白雪歌",
-        "比喻"
-        ]
+            "岑参",
+            "白雪歌",
+            "比喻"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_039",
@@ -3540,9 +3560,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
+            "王维",
+            "使至塞上",
+            "边塞"
         ]
     },
     {
@@ -3558,9 +3578,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "忆江南",
-        "春天"
+            "白居易",
+            "忆江南",
+            "春天"
         ]
     },
     {
@@ -3576,9 +3596,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王湾",
-        "次北固山下",
-        "思乡"
+            "王湾",
+            "次北固山下",
+            "思乡"
         ]
     },
     {
@@ -3594,9 +3614,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "文天祥",
-        "过零丁洋",
-        "爱国"
+            "文天祥",
+            "过零丁洋",
+            "爱国"
         ]
     },
     {
@@ -3612,10 +3632,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岑参",
-        "白雪歌",
-        "边塞"
-        ]
+            "岑参",
+            "白雪歌",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_040",
@@ -3630,11 +3651,10 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "田园"
-        ],
-        "poetryType": false
+            "王维",
+            "山居秋暝",
+            "田园"
+        ]
     },
     {
         "id": "q_fbc_040",
@@ -3649,9 +3669,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李绅",
-        "悯农",
-        "农民"
+            "李绅",
+            "悯农",
+            "农民"
         ]
     },
     {
@@ -3667,9 +3687,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "马致远",
-        "天净沙",
-        "思乡"
+            "马致远",
+            "天净沙",
+            "思乡"
         ]
     },
     {
@@ -3685,9 +3705,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "文天祥",
-        "过零丁洋",
-        "抒情"
+            "文天祥",
+            "过零丁洋",
+            "抒情"
         ]
     },
     {
@@ -3703,10 +3723,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "卖炭翁",
-        "社会"
-        ]
+            "白居易",
+            "卖炭翁",
+            "社会"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_041",
@@ -3721,9 +3742,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "游山西村",
-        "哲理"
+            "陆游",
+            "游山西村",
+            "哲理"
         ]
     },
     {
@@ -3739,9 +3760,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "山行",
-        "秋天"
+            "杜牧",
+            "山行",
+            "秋天"
         ]
     },
     {
@@ -3757,10 +3778,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "峨眉山月歌",
-        "写景"
-        ]
+            "李白",
+            "峨眉山月歌",
+            "写景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_041",
@@ -3775,9 +3797,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "文天祥",
-        "过零丁洋",
-        "爱国"
+            "文天祥",
+            "过零丁洋",
+            "爱国"
         ]
     },
     {
@@ -3793,10 +3815,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春望",
-        "爱国"
-        ]
+            "杜甫",
+            "春望",
+            "爱国"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_042",
@@ -3811,9 +3834,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范成大",
-        "田园",
-        "劳动"
+            "范成大",
+            "田园",
+            "劳动"
         ]
     },
     {
@@ -3829,9 +3852,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "江南春",
-        "春天"
+            "杜牧",
+            "江南春",
+            "春天"
         ]
     },
     {
@@ -3847,9 +3870,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "江南逢李龟年",
-        "怀旧"
+            "杜甫",
+            "江南逢李龟年",
+            "怀旧"
         ]
     },
     {
@@ -3865,9 +3888,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "马致远",
-        "天净沙",
-        "秋天"
+            "马致远",
+            "天净沙",
+            "秋天"
         ]
     },
     {
@@ -3883,10 +3906,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春望",
-        "思乡"
-        ]
+            "杜甫",
+            "春望",
+            "思乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_043",
@@ -3901,9 +3925,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "朱熹",
-        "观书有感",
-        "读书"
+            "朱熹",
+            "观书有感",
+            "读书"
         ]
     },
     {
@@ -3919,9 +3943,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "登乐游原",
-        "抒怀"
+            "李商隐",
+            "登乐游原",
+            "抒怀"
         ]
     },
     {
@@ -3937,10 +3961,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李益",
-        "边塞",
-        "思乡"
-        ]
+            "李益",
+            "边塞",
+            "思乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_043",
@@ -3955,9 +3980,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "马致远",
-        "天净沙",
-        "思乡"
+            "马致远",
+            "天净沙",
+            "思乡"
         ]
     },
     {
@@ -3973,9 +3998,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "石壕吏",
-        "战乱"
+            "杜甫",
+            "石壕吏",
+            "战乱"
         ]
     },
     {
@@ -3991,9 +4016,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "赠汪伦",
-        "友情"
+            "李白",
+            "赠汪伦",
+            "友情"
         ]
     },
     {
@@ -4009,9 +4034,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "温庭筠",
-        "商山早行",
-        "羁旅"
+            "温庭筠",
+            "商山早行",
+            "羁旅"
         ]
     },
     {
@@ -4027,9 +4052,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陈子昂",
-        "登幽州台歌",
-        "孤独"
+            "陈子昂",
+            "登幽州台歌",
+            "孤独"
         ]
     },
     {
@@ -4045,9 +4070,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张养浩",
-        "潼关怀古",
-        "怀古"
+            "张养浩",
+            "潼关怀古",
+            "怀古"
         ]
     },
     {
@@ -4063,9 +4088,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "贫困"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "贫困"
         ]
     },
     {
@@ -4081,9 +4106,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "忆江南",
-        "春天"
+            "白居易",
+            "忆江南",
+            "春天"
         ]
     },
     {
@@ -4099,9 +4124,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王安石",
-        "泊船瓜洲",
-        "思乡"
+            "王安石",
+            "泊船瓜洲",
+            "思乡"
         ]
     },
     {
@@ -4117,9 +4142,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陈子昂",
-        "登幽州台歌",
-        "悲伤"
+            "陈子昂",
+            "登幽州台歌",
+            "悲伤"
         ]
     },
     {
@@ -4135,9 +4160,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张养浩",
-        "潼关怀古",
-        "怀古"
+            "张养浩",
+            "潼关怀古",
+            "怀古"
         ]
     },
     {
@@ -4153,9 +4178,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "卖炭翁",
-        "揭露"
+            "白居易",
+            "卖炭翁",
+            "揭露"
         ]
     },
     {
@@ -4171,9 +4196,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "静夜思",
-        "思乡"
+            "李白",
+            "静夜思",
+            "思乡"
         ]
     },
     {
@@ -4189,9 +4214,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "夏雨",
-        "西湖"
+            "苏轼",
+            "夏雨",
+            "西湖"
         ]
     },
     {
@@ -4207,9 +4232,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "望岳",
-        "山"
+            "杜甫",
+            "望岳",
+            "山"
         ]
     },
     {
@@ -4225,9 +4250,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张养浩",
-        "潼关怀古",
-        "民本"
+            "张养浩",
+            "潼关怀古",
+            "民本"
         ]
     },
     {
@@ -4243,9 +4268,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李贺",
-        "雁门太守行",
-        "边塞"
+            "李贺",
+            "雁门太守行",
+            "边塞"
         ]
     },
     {
@@ -4261,9 +4286,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "春晓",
-        "春天"
+            "孟浩然",
+            "春晓",
+            "春天"
         ]
     },
     {
@@ -4279,9 +4304,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "惠崇春江晚景",
-        "春天"
+            "苏轼",
+            "惠崇春江晚景",
+            "春天"
         ]
     },
     {
@@ -4297,9 +4322,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王安石",
-        "登飞来峰",
-        "志向"
+            "王安石",
+            "登飞来峰",
+            "志向"
         ]
     },
     {
@@ -4315,9 +4340,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "范仲淹",
-        "岳阳楼记",
-        "写景"
+            "范仲淹",
+            "岳阳楼记",
+            "写景"
         ],
         "poetryType": false
     },
@@ -4334,9 +4359,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李贺",
-        "雁门太守行",
-        "边塞"
+            "李贺",
+            "雁门太守行",
+            "边塞"
         ]
     },
     {
@@ -4352,9 +4377,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "春晓",
-        "惜春"
+            "孟浩然",
+            "春晓",
+            "惜春"
         ]
     },
     {
@@ -4370,9 +4395,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李清照",
-        "夏日绝句",
-        "爱国"
+            "李清照",
+            "夏日绝句",
+            "爱国"
         ]
     },
     {
@@ -4388,9 +4413,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "游山西村",
-        "哲理"
+            "陆游",
+            "游山西村",
+            "哲理"
         ]
     },
     {
@@ -4406,9 +4431,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "范仲淹",
-        "岳阳楼记",
-        "写景"
+            "范仲淹",
+            "岳阳楼记",
+            "写景"
         ],
         "poetryType": false
     },
@@ -4425,9 +4450,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "赤壁",
-        "怀古"
+            "杜牧",
+            "赤壁",
+            "怀古"
         ]
     },
     {
@@ -4443,9 +4468,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "登鹳雀楼",
-        "写景"
+            "王之涣",
+            "登鹳雀楼",
+            "写景"
         ]
     },
     {
@@ -4461,9 +4486,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "爱国",
-        "山川"
+            "陆游",
+            "爱国",
+            "山川"
         ]
     },
     {
@@ -4479,9 +4504,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "游山西村",
-        "田园"
+            "陆游",
+            "游山西村",
+            "田园"
         ]
     },
     {
@@ -4497,9 +4522,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "欧阳修",
-        "醉翁亭记",
-        "情趣"
+            "欧阳修",
+            "醉翁亭记",
+            "情趣"
         ],
         "poetryType": false
     },
@@ -4516,9 +4541,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "赤壁",
-        "怀古"
+            "杜牧",
+            "赤壁",
+            "怀古"
         ]
     },
     {
@@ -4534,9 +4559,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "登鹳雀楼",
-        "哲理"
+            "王之涣",
+            "登鹳雀楼",
+            "哲理"
         ]
     },
     {
@@ -4552,9 +4577,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "夏天",
-        "西湖"
+            "杨万里",
+            "夏天",
+            "西湖"
         ]
     },
     {
@@ -4570,9 +4595,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "过故人庄",
-        "田园"
+            "孟浩然",
+            "过故人庄",
+            "田园"
         ]
     },
     {
@@ -4588,9 +4613,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "欧阳修",
-        "醉翁亭记",
-        "情趣"
+            "欧阳修",
+            "醉翁亭记",
+            "情趣"
         ],
         "poetryType": false
     },
@@ -4607,9 +4632,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "泊秦淮",
-        "夜景"
+            "杜牧",
+            "泊秦淮",
+            "夜景"
         ]
     },
     {
@@ -4625,9 +4650,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "高鼎",
-        "村居",
-        "春天"
+            "高鼎",
+            "村居",
+            "春天"
         ]
     },
     {
@@ -4643,9 +4668,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "朱熹",
-        "春日",
-        "春天"
+            "朱熹",
+            "春日",
+            "春天"
         ]
     },
     {
@@ -4661,9 +4686,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "过故人庄",
-        "田园"
+            "孟浩然",
+            "过故人庄",
+            "田园"
         ]
     },
     {
@@ -4679,9 +4704,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "周敦颐",
-        "爱莲说",
-        "品格"
+            "周敦颐",
+            "爱莲说",
+            "品格"
         ],
         "poetryType": false
     },
@@ -4698,9 +4723,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "贺知章",
-        "咏柳",
-        "春天"
+            "贺知章",
+            "咏柳",
+            "春天"
         ]
     },
     {
@@ -4716,9 +4741,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "爱国",
-        "抒情"
+            "辛弃疾",
+            "爱国",
+            "抒情"
         ]
     },
     {
@@ -4734,9 +4759,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "过故人庄",
-        "田园"
+            "孟浩然",
+            "过故人庄",
+            "田园"
         ]
     },
     {
@@ -4752,9 +4777,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "周敦颐",
-        "爱莲说",
-        "品格"
+            "周敦颐",
+            "爱莲说",
+            "品格"
         ],
         "poetryType": false
     },
@@ -4771,9 +4796,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "小池",
-        "夏天"
+            "杨万里",
+            "小池",
+            "夏天"
         ]
     },
     {
@@ -4789,9 +4814,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "叶绍翁",
-        "游园不值",
-        "田园"
+            "叶绍翁",
+            "游园不值",
+            "田园"
         ]
     },
     {
@@ -4807,10 +4832,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "钱塘湖春行",
-        "春天"
-        ]
+            "白居易",
+            "钱塘湖春行",
+            "春天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_053",
@@ -4825,9 +4851,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "诸葛亮",
-        "出师表",
-        "法治"
+            "诸葛亮",
+            "出师表",
+            "法治"
         ],
         "poetryType": false
     },
@@ -4844,9 +4870,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "小池",
-        "写景"
+            "杨万里",
+            "小池",
+            "写景"
         ]
     },
     {
@@ -4862,9 +4888,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "于谦",
-        "石灰吟",
-        "言志"
+            "于谦",
+            "石灰吟",
+            "言志"
         ]
     },
     {
@@ -4880,10 +4906,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "钱塘湖春行",
-        "春天"
-        ]
+            "白居易",
+            "钱塘湖春行",
+            "春天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_054",
@@ -4898,9 +4925,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "宋濂",
-        "送东阳马生序",
-        "求学"
+            "宋濂",
+            "送东阳马生序",
+            "求学"
         ],
         "poetryType": false
     },
@@ -4917,9 +4944,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望庐山瀑布",
-        "写景"
+            "李白",
+            "望庐山瀑布",
+            "写景"
         ]
     },
     {
@@ -4935,9 +4962,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王磐",
-        "咏喇叭",
-        "讽刺"
+            "王磐",
+            "咏喇叭",
+            "讽刺"
         ]
     },
     {
@@ -4953,9 +4980,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李贺",
-        "雁门太守行",
-        "边塞"
+            "李贺",
+            "雁门太守行",
+            "边塞"
         ]
     },
     {
@@ -4971,9 +4998,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范仲淹",
-        "渔家傲",
-        "边塞"
+            "范仲淹",
+            "渔家傲",
+            "边塞"
         ]
     },
     {
@@ -4989,9 +5016,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望天门山",
-        "写景"
+            "李白",
+            "望天门山",
+            "写景"
         ]
     },
     {
@@ -5007,9 +5034,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "龚自珍",
-        "己亥杂诗",
-        "爱国"
+            "龚自珍",
+            "己亥杂诗",
+            "爱国"
         ]
     },
     {
@@ -5025,9 +5052,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "送别"
+            "李白",
+            "渡荆门送别",
+            "送别"
         ]
     },
     {
@@ -5043,9 +5070,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "江城子",
-        "豪迈"
+            "苏轼",
+            "江城子",
+            "豪迈"
         ]
     },
     {
@@ -5061,9 +5088,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望天门山",
-        "写景"
+            "李白",
+            "望天门山",
+            "写景"
         ]
     },
     {
@@ -5079,9 +5106,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张志和",
-        "渔歌子",
-        "春天"
+            "张志和",
+            "渔歌子",
+            "春天"
         ]
     },
     {
@@ -5097,9 +5124,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "思乡"
+            "李白",
+            "渡荆门送别",
+            "思乡"
         ]
     },
     {
@@ -5115,9 +5142,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "破阵子",
-        "爱国"
+            "辛弃疾",
+            "破阵子",
+            "爱国"
         ]
     },
     {
@@ -5133,9 +5160,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘禹锡",
-        "望洞庭",
-        "秋天"
+            "刘禹锡",
+            "望洞庭",
+            "秋天"
         ]
     },
     {
@@ -5151,9 +5178,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张志和",
-        "渔歌子",
-        "田园"
+            "张志和",
+            "渔歌子",
+            "田园"
         ]
     },
     {
@@ -5169,9 +5196,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王绩",
-        "野望",
-        "秋天"
+            "王绩",
+            "野望",
+            "秋天"
         ]
     },
     {
@@ -5187,9 +5214,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "秋瑾",
-        "满江红",
-        "品格"
+            "秋瑾",
+            "满江红",
+            "品格"
         ]
     },
     {
@@ -5205,9 +5232,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘禹锡",
-        "望洞庭",
-        "比喻"
+            "刘禹锡",
+            "望洞庭",
+            "比喻"
         ]
     },
     {
@@ -5223,9 +5250,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望庐山瀑布",
-        "写景"
+            "李白",
+            "望庐山瀑布",
+            "写景"
         ]
     },
     {
@@ -5241,9 +5268,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王绩",
-        "野望",
-        "彷徨"
+            "王绩",
+            "野望",
+            "彷徨"
         ]
     },
     {
@@ -5259,9 +5286,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "左传",
-        "曹刿论战",
-        "战争"
+            "左传",
+            "曹刿论战",
+            "战争"
         ],
         "poetryType": false
     },
@@ -5278,9 +5305,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "独坐敬亭山",
-        "孤独"
+            "李白",
+            "独坐敬亭山",
+            "孤独"
         ]
     },
     {
@@ -5296,9 +5323,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望庐山瀑布",
-        "夸张"
+            "李白",
+            "望庐山瀑布",
+            "夸张"
         ]
     },
     {
@@ -5314,13 +5341,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼",
-        "怀古"
+            "崔颢",
+            "黄鹤楼",
+            "怀古"
         ]
     },
     {
         "id": "q_zk_060",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "中考古诗文理解性默写",
@@ -5332,9 +5360,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "孟子",
-        "生于忧患死于安乐",
-        "磨难"
+            "孟子",
+            "生于忧患死于安乐",
+            "磨难"
         ]
     },
     {
@@ -5350,9 +5378,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "独坐敬亭山",
-        "自然"
+            "李白",
+            "独坐敬亭山",
+            "自然"
         ]
     },
     {
@@ -5368,9 +5396,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望天门山",
-        "写景"
+            "李白",
+            "望天门山",
+            "写景"
         ]
     },
     {
@@ -5386,13 +5414,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼",
-        "怀古"
+            "崔颢",
+            "黄鹤楼",
+            "怀古"
         ]
     },
     {
         "id": "q_zk_061",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "中考古诗文理解性默写",
@@ -5404,9 +5433,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "孟子",
-        "鱼我所欲也",
-        "正义"
+            "孟子",
+            "鱼我所欲也",
+            "正义"
         ]
     },
     {
@@ -5422,9 +5451,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "绝句",
-        "春天"
+            "杜甫",
+            "绝句",
+            "春天"
         ]
     },
     {
@@ -5440,9 +5469,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望天门山",
-        "送别"
+            "李白",
+            "望天门山",
+            "送别"
         ]
     },
     {
@@ -5458,9 +5487,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
+            "王维",
+            "使至塞上",
+            "边塞"
         ]
     },
     {
@@ -5476,9 +5505,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "战国策",
-        "邹忌讽齐王纳谏",
-        "治国"
+            "战国策",
+            "邹忌讽齐王纳谏",
+            "治国"
         ],
         "poetryType": false
     },
@@ -5495,9 +5524,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "绝句",
-        "春天"
+            "杜甫",
+            "绝句",
+            "春天"
         ]
     },
     {
@@ -5513,9 +5542,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "早发白帝城",
-        "抒情"
+            "李白",
+            "早发白帝城",
+            "抒情"
         ]
     },
     {
@@ -5531,9 +5560,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "抒情"
+            "王维",
+            "使至塞上",
+            "抒情"
         ]
     },
     {
@@ -5549,9 +5578,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "诸葛亮",
-        "出师表",
-        "法治"
+            "诸葛亮",
+            "出师表",
+            "法治"
         ],
         "poetryType": false
     },
@@ -5568,9 +5597,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "绝句",
-        "春天"
+            "杜甫",
+            "绝句",
+            "春天"
         ]
     },
     {
@@ -5586,9 +5615,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "早发白帝城",
-        "船行"
+            "李白",
+            "早发白帝城",
+            "船行"
         ]
     },
     {
@@ -5604,9 +5633,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
+            "王维",
+            "使至塞上",
+            "边塞"
         ]
     },
     {
@@ -5622,9 +5651,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "陶弘景",
-        "答谢中书书",
-        "山水"
+            "陶弘景",
+            "答谢中书书",
+            "山水"
         ],
         "poetryType": false
     },
@@ -5641,9 +5670,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "绝句",
-        "春天"
+            "杜甫",
+            "绝句",
+            "春天"
         ]
     },
     {
@@ -5659,10 +5688,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "送别",
-        "黄鹤楼送孟浩然之广陵"
-        ]
+            "李白",
+            "送别",
+            "黄鹤楼送孟浩然之广陵"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_065",
@@ -5677,9 +5707,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "写景"
+            "李白",
+            "渡荆门送别",
+            "写景"
         ]
     },
     {
@@ -5695,9 +5725,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春望",
-        "爱国"
+            "杜甫",
+            "春望",
+            "爱国"
         ]
     },
     {
@@ -5713,9 +5743,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "胡令能",
-        "小儿垂钓",
-        "儿童"
+            "胡令能",
+            "小儿垂钓",
+            "儿童"
         ]
     },
     {
@@ -5731,9 +5761,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼",
-        "怀古"
+            "崔颢",
+            "黄鹤楼",
+            "怀古"
         ]
     },
     {
@@ -5749,10 +5779,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "写景"
-        ]
+            "李白",
+            "渡荆门送别",
+            "写景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_066",
@@ -5767,9 +5798,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春望",
-        "思乡"
+            "杜甫",
+            "春望",
+            "思乡"
         ]
     },
     {
@@ -5785,9 +5816,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "小池",
-        "夏天"
+            "杨万里",
+            "小池",
+            "夏天"
         ]
     },
     {
@@ -5803,9 +5834,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼",
-        "写景"
+            "崔颢",
+            "黄鹤楼",
+            "写景"
         ]
     },
     {
@@ -5821,10 +5852,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "送别"
-        ]
+            "李白",
+            "渡荆门送别",
+            "送别"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_067",
@@ -5839,10 +5871,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "忧国忧民"
-        ]
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "忧国忧民"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_068",
@@ -5857,9 +5890,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "小池",
-        "写景"
+            "杨万里",
+            "小池",
+            "写景"
         ]
     },
     {
@@ -5875,9 +5908,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼",
-        "思乡"
+            "崔颢",
+            "黄鹤楼",
+            "思乡"
         ]
     },
     {
@@ -5893,10 +5926,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王绩",
-        "野望",
-        "秋天"
-        ]
+            "王绩",
+            "野望",
+            "秋天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_068",
@@ -5911,10 +5945,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "文天祥",
-        "过零丁洋",
-        "爱国"
-        ]
+            "文天祥",
+            "过零丁洋",
+            "爱国"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_069",
@@ -5929,9 +5964,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "贺知章",
-        "咏柳",
-        "春天"
+            "贺知章",
+            "咏柳",
+            "春天"
         ]
     },
     {
@@ -5947,9 +5982,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王勃",
-        "送别",
-        "友情"
+            "王勃",
+            "送别",
+            "友情"
         ]
     },
     {
@@ -5965,10 +6000,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王绩",
-        "野望",
-        "彷徨"
-        ]
+            "王绩",
+            "野望",
+            "彷徨"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_069",
@@ -5983,9 +6019,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范仲淹",
-        "渔家傲",
-        "边塞"
+            "范仲淹",
+            "渔家傲",
+            "边塞"
         ]
     },
     {
@@ -6001,9 +6037,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "送别",
-        "夏天"
+            "杨万里",
+            "送别",
+            "夏天"
         ]
     },
     {
@@ -6019,9 +6055,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王勃",
-        "送别",
-        "友情"
+            "王勃",
+            "送别",
+            "友情"
         ]
     },
     {
@@ -6037,10 +6073,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼",
-        "怀古"
-        ]
+            "崔颢",
+            "黄鹤楼",
+            "怀古"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_070",
@@ -6055,9 +6092,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "江城子",
-        "爱国"
+            "苏轼",
+            "江城子",
+            "爱国"
         ]
     },
     {
@@ -6073,9 +6110,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "西湖",
-        "夏天"
+            "杨万里",
+            "西湖",
+            "夏天"
         ]
     },
     {
@@ -6091,9 +6128,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王勃",
-        "送别",
-        "送杜少府之任蜀州"
+            "王勃",
+            "送别",
+            "送杜少府之任蜀州"
         ]
     },
     {
@@ -6109,10 +6146,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼",
-        "怀古"
-        ]
+            "崔颢",
+            "黄鹤楼",
+            "怀古"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_071",
@@ -6127,9 +6165,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "破阵子",
-        "爱国"
+            "辛弃疾",
+            "破阵子",
+            "爱国"
         ]
     },
     {
@@ -6145,9 +6183,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "古朗月行",
-        "儿童"
+            "李白",
+            "古朗月行",
+            "儿童"
         ]
     },
     {
@@ -6163,9 +6201,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "高适",
-        "别董大",
-        "送别"
+            "高适",
+            "别董大",
+            "送别"
         ]
     },
     {
@@ -6181,10 +6219,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
-        ]
+            "王维",
+            "使至塞上",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_072",
@@ -6192,16 +6231,16 @@ const QUESTIONS_DATA = [
         "grade": "zk",
         "source": "中考古诗文理解性默写",
         "difficulty": 3,
-        "question": "《满江红》中'__________，百舸争流'。",
+        "question": "《沁园春·长沙》中'鹰击长空，__________，万类霜天竞自由'。",
         "options": [],
-        "answer": "鹰击长空",
+        "answer": "鱼翔浅底",
         "explanation": "出自毛泽东《沁园春·长沙》，描写秋天湘江的壮阔景象。",
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "毛泽东",
-        "沁园春",
-        "秋天"
+            "毛泽东",
+            "沁园春",
+            "秋天"
         ]
     },
     {
@@ -6217,9 +6256,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "静夜思",
-        "思乡"
+            "李白",
+            "静夜思",
+            "思乡"
         ]
     },
     {
@@ -6235,9 +6274,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "高适",
-        "别董大",
-        "友情"
+            "高适",
+            "别董大",
+            "友情"
         ]
     },
     {
@@ -6253,13 +6292,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "钱塘湖春行",
-        "春天"
+            "白居易",
+            "钱塘湖春行",
+            "春天"
         ]
     },
     {
         "id": "q_zk_073",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "中考古诗文理解性默写",
@@ -6271,10 +6311,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "孟子",
-        "生于忧患死于安乐",
-        "磨难"
-        ]
+            "孟子",
+            "生于忧患死于安乐",
+            "磨难"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_074",
@@ -6289,9 +6330,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "静夜思",
-        "夜景"
+            "李白",
+            "静夜思",
+            "夜景"
         ]
     },
     {
@@ -6307,10 +6348,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王昌龄",
-        "出塞",
-        "边塞"
-        ]
+            "王昌龄",
+            "出塞",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_074",
@@ -6325,13 +6367,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "钱塘湖春行",
-        "春天"
+            "白居易",
+            "钱塘湖春行",
+            "春天"
         ]
     },
     {
         "id": "q_zk_074",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "中考古诗文理解性默写",
@@ -6343,10 +6386,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "孟子",
-        "鱼我所欲也",
-        "正义"
-        ]
+            "孟子",
+            "鱼我所欲也",
+            "正义"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_075",
@@ -6361,10 +6405,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "静夜思",
-        "思乡"
-        ]
+            "李白",
+            "静夜思",
+            "思乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_075",
@@ -6379,9 +6424,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王昌龄",
-        "出塞",
-        "爱国"
+            "王昌龄",
+            "出塞",
+            "爱国"
         ]
     },
     {
@@ -6397,9 +6442,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "钱塘湖春行",
-        "春天"
+            "白居易",
+            "钱塘湖春行",
+            "春天"
         ]
     },
     {
@@ -6415,10 +6460,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张养浩",
-        "潼关怀古",
-        "怀古"
-        ]
+            "张养浩",
+            "潼关怀古",
+            "怀古"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_076",
@@ -6433,9 +6479,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "柳宗元",
-        "江雪",
-        "冬天"
+            "柳宗元",
+            "江雪",
+            "冬天"
         ]
     },
     {
@@ -6451,9 +6497,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "曹操",
-        "观沧海",
-        "写景"
+            "曹操",
+            "观沧海",
+            "写景"
         ]
     },
     {
@@ -6469,9 +6515,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张养浩",
-        "潼关怀古",
-        "怀古"
+            "张养浩",
+            "潼关怀古",
+            "怀古"
         ]
     },
     {
@@ -6487,9 +6533,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "柳宗元",
-        "江雪",
-        "孤独"
+            "柳宗元",
+            "江雪",
+            "孤独"
         ]
     },
     {
@@ -6505,10 +6551,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "思乡",
-        "重阳节"
-        ]
+            "王维",
+            "思乡",
+            "重阳节"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_077",
@@ -6523,9 +6570,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "友情",
-        "被贬"
+            "李白",
+            "友情",
+            "被贬"
         ]
     },
     {
@@ -6541,10 +6588,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张养浩",
-        "潼关怀古",
-        "民本"
-        ]
+            "张养浩",
+            "潼关怀古",
+            "民本"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_078",
@@ -6559,9 +6607,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "贾岛",
-        "寻隐者不遇",
-        "访友"
+            "贾岛",
+            "寻隐者不遇",
+            "访友"
         ]
     },
     {
@@ -6577,9 +6625,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "重阳节",
-        "思乡"
+            "王维",
+            "重阳节",
+            "思乡"
         ]
     },
     {
@@ -6595,9 +6643,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王湾",
-        "次北固山下",
-        "羁旅"
+            "王湾",
+            "次北固山下",
+            "羁旅"
         ]
     },
     {
@@ -6613,10 +6661,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "范仲淹",
-        "岳阳楼记",
-        "写景"
-        ]
+            "范仲淹",
+            "岳阳楼记",
+            "写景"
+        ],
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_079",
@@ -6631,9 +6681,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "贾岛",
-        "寻隐者不遇",
-        "自然"
+            "贾岛",
+            "寻隐者不遇",
+            "自然"
         ]
     },
     {
@@ -6649,9 +6699,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "秋天"
+            "王维",
+            "山居秋暝",
+            "秋天"
         ]
     },
     {
@@ -6667,9 +6717,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "马致远",
-        "天净沙",
-        "秋天"
+            "马致远",
+            "天净沙",
+            "秋天"
         ]
     },
     {
@@ -6685,11 +6735,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "欧阳修",
-        "醉翁亭记",
-        "情趣"
+            "欧阳修",
+            "醉翁亭记",
+            "情趣"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_080",
@@ -6704,10 +6755,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "春晓",
-        "惜春"
-        ]
+            "孟浩然",
+            "春晓",
+            "惜春"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_080",
@@ -6722,9 +6774,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "夜景"
+            "王维",
+            "山居秋暝",
+            "夜景"
         ]
     },
     {
@@ -6740,9 +6792,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "峨眉山月歌",
-        "写景"
+            "李白",
+            "峨眉山月歌",
+            "写景"
         ]
     },
     {
@@ -6758,11 +6810,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "周敦颐",
-        "爱莲说",
-        "品格"
+            "周敦颐",
+            "爱莲说",
+            "品格"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_081",
@@ -6777,10 +6830,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "春晓",
-        "春天"
-        ]
+            "孟浩然",
+            "春晓",
+            "春天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_081",
@@ -6795,10 +6849,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "田园"
-        ]
+            "王维",
+            "山居秋暝",
+            "田园"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_chu1_081",
@@ -6813,9 +6868,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "江南逢李龟年",
-        "怀旧"
+            "杜甫",
+            "江南逢李龟年",
+            "怀旧"
         ]
     },
     {
@@ -6831,11 +6886,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "诸葛亮",
-        "出师表",
-        "法治"
+            "诸葛亮",
+            "出师表",
+            "法治"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_082",
@@ -6850,9 +6906,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "春晓",
-        "春天"
+            "孟浩然",
+            "春晓",
+            "春天"
         ]
     },
     {
@@ -6868,9 +6924,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
+            "王维",
+            "使至塞上",
+            "边塞"
         ]
     },
     {
@@ -6886,9 +6942,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李益",
-        "边塞",
-        "思乡"
+            "李益",
+            "边塞",
+            "思乡"
         ]
     },
     {
@@ -6904,11 +6960,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "宋濂",
-        "送东阳马生序",
-        "求学"
+            "宋濂",
+            "送东阳马生序",
+            "求学"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_083",
@@ -6923,9 +6980,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "宿建德江",
-        "羁旅"
+            "孟浩然",
+            "宿建德江",
+            "羁旅"
         ]
     },
     {
@@ -6941,9 +6998,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
+            "王维",
+            "使至塞上",
+            "边塞"
         ]
     },
     {
@@ -6959,9 +7016,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陈子昂",
-        "登幽州台歌",
-        "孤独"
+            "陈子昂",
+            "登幽州台歌",
+            "孤独"
         ]
     },
     {
@@ -6977,11 +7034,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "左传",
-        "曹刿论战",
-        "战争"
+            "左传",
+            "曹刿论战",
+            "战争"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_084",
@@ -6996,9 +7054,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "宿建德江",
-        "夜景"
+            "孟浩然",
+            "宿建德江",
+            "夜景"
         ]
     },
     {
@@ -7014,9 +7072,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘禹锡",
-        "竹枝词",
-        "爱情"
+            "刘禹锡",
+            "竹枝词",
+            "爱情"
         ]
     },
     {
@@ -7032,9 +7090,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "望岳",
-        "山"
+            "杜甫",
+            "望岳",
+            "山"
         ]
     },
     {
@@ -7050,11 +7108,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文默写",
-        "陶弘景",
-        "答谢中书书",
-        "山水"
+            "陶弘景",
+            "答谢中书书",
+            "山水"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_085",
@@ -7069,10 +7128,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "登鹳雀楼",
-        "写景"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "写景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_085",
@@ -7087,9 +7147,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘禹锡",
-        "竹枝词",
-        "双关"
+            "刘禹锡",
+            "竹枝词",
+            "双关"
         ]
     },
     {
@@ -7105,9 +7165,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王安石",
-        "登飞来峰",
-        "志向"
+            "王安石",
+            "登飞来峰",
+            "志向"
         ]
     },
     {
@@ -7123,10 +7183,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "登鹳雀楼",
-        "哲理"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "哲理"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_086",
@@ -7141,9 +7202,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘禹锡",
-        "乌衣巷",
-        "怀古"
+            "刘禹锡",
+            "乌衣巷",
+            "怀古"
         ]
     },
     {
@@ -7159,9 +7220,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "贺知章",
-        "咏柳",
-        "春天"
+            "贺知章",
+            "咏柳",
+            "春天"
         ]
     },
     {
@@ -7177,10 +7238,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张继",
-        "枫桥夜泊",
-        "羁旅"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "羁旅"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_088",
@@ -7195,10 +7257,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "贺知章",
-        "咏柳",
-        "比喻"
-        ]
+            "贺知章",
+            "咏柳",
+            "比喻"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_088",
@@ -7213,9 +7276,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张继",
-        "枫桥夜泊",
-        "夜景"
+            "张继",
+            "枫桥夜泊",
+            "夜景"
         ]
     },
     {
@@ -7231,9 +7294,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "凉州词",
-        "边塞"
+            "王之涣",
+            "凉州词",
+            "边塞"
         ]
     },
     {
@@ -7249,9 +7312,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "竹里馆",
-        "隐居"
+            "王维",
+            "竹里馆",
+            "隐居"
         ]
     },
     {
@@ -7267,9 +7330,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "凉州词",
-        "边塞"
+            "王之涣",
+            "凉州词",
+            "边塞"
         ]
     },
     {
@@ -7285,9 +7348,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "竹里馆",
-        "自然"
+            "王维",
+            "竹里馆",
+            "自然"
         ]
     },
     {
@@ -7303,10 +7366,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "古朗月行",
-        "儿童"
-        ]
+            "李白",
+            "古朗月行",
+            "儿童"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_091",
@@ -7321,9 +7385,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山中",
-        "秋天"
+            "王维",
+            "山中",
+            "秋天"
         ]
     },
     {
@@ -7339,10 +7403,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张继",
-        "枫桥夜泊",
-        "羁旅"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "羁旅"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_092",
@@ -7357,9 +7422,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山中",
-        "春天"
+            "王维",
+            "山中",
+            "春天"
         ]
     },
     {
@@ -7375,9 +7440,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张继",
-        "枫桥夜泊",
-        "夜景"
+            "张继",
+            "枫桥夜泊",
+            "夜景"
         ]
     },
     {
@@ -7393,9 +7458,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "送别",
-        "友情"
+            "王维",
+            "送别",
+            "友情"
         ]
     },
     {
@@ -7411,10 +7476,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韩翃",
-        "寒食",
-        "节日"
-        ]
+            "韩翃",
+            "寒食",
+            "节日"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_094",
@@ -7429,9 +7495,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "送别",
-        "友情"
+            "王维",
+            "送别",
+            "友情"
         ]
     },
     {
@@ -7447,9 +7513,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韩翃",
-        "寒食",
-        "讽刺"
+            "韩翃",
+            "寒食",
+            "讽刺"
         ]
     },
     {
@@ -7465,9 +7531,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "送别",
-        "孤独"
+            "王维",
+            "送别",
+            "孤独"
         ]
     },
     {
@@ -7483,9 +7549,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "静夜思",
-        "思乡"
+            "李白",
+            "静夜思",
+            "思乡"
         ]
     },
     {
@@ -7501,9 +7567,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "送别",
-        "思念"
+            "王维",
+            "送别",
+            "思念"
         ]
     },
     {
@@ -7519,9 +7585,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望天门山",
-        "写景"
+            "李白",
+            "望天门山",
+            "写景"
         ]
     },
     {
@@ -7537,9 +7603,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "赤壁",
-        "怀古"
+            "杜牧",
+            "赤壁",
+            "怀古"
         ]
     },
     {
@@ -7555,9 +7621,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "清平调",
-        "写人"
+            "李白",
+            "清平调",
+            "写人"
         ]
     },
     {
@@ -7573,9 +7639,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "赤壁",
-        "怀古"
+            "杜牧",
+            "赤壁",
+            "怀古"
         ]
     },
     {
@@ -7591,9 +7657,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "清明",
-        "节日"
+            "杜牧",
+            "清明",
+            "节日"
         ]
     },
     {
@@ -7609,9 +7675,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "泊秦淮",
-        "夜景"
+            "杜牧",
+            "泊秦淮",
+            "夜景"
         ]
     },
     {
@@ -7627,9 +7693,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "清明",
-        "节日"
+            "杜牧",
+            "清明",
+            "节日"
         ]
     },
     {
@@ -7645,9 +7711,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "泊秦淮",
-        "讽刺"
+            "杜牧",
+            "泊秦淮",
+            "讽刺"
         ]
     },
     {
@@ -7663,10 +7729,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "邵雍",
-        "山村咏怀",
-        "田园"
-        ]
+            "邵雍",
+            "山村咏怀",
+            "田园"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_101",
@@ -7681,9 +7748,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "夜雨寄北",
-        "思念"
+            "李商隐",
+            "夜雨寄北",
+            "思念"
         ]
     },
     {
@@ -7699,9 +7766,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "泰山",
-        "杜甫",
-        "望岳",
-        "山的描写"
+            "杜甫",
+            "望岳",
+            "山的描写"
         ]
     },
     {
@@ -7717,9 +7784,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "战争",
-        "杜甫",
-        "春望",
-        "亡国"
+            "杜甫",
+            "春望",
+            "亡国"
         ]
     },
     {
@@ -7735,9 +7802,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文",
-        "范仲淹",
-        "岳阳楼记",
-        "政治"
+            "范仲淹",
+            "岳阳楼记",
+            "政治"
         ],
         "poetryType": false
     },
@@ -7754,9 +7821,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "静夜思",
-        "思乡"
+            "李白",
+            "静夜思",
+            "思乡"
         ]
     },
     {
@@ -7772,9 +7839,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "夜雨寄北",
-        "思念"
+            "李商隐",
+            "夜雨寄北",
+            "思念"
         ]
     },
     {
@@ -7790,9 +7857,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "哲理",
-        "杜甫",
-        "望岳",
-        "志向"
+            "杜甫",
+            "望岳",
+            "志向"
         ]
     },
     {
@@ -7808,9 +7875,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "战争",
-        "杜甫",
-        "春望",
-        "情感"
+            "杜甫",
+            "春望",
+            "情感"
         ]
     },
     {
@@ -7826,9 +7893,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文",
-        "范仲淹",
-        "岳阳楼记",
-        "情怀"
+            "范仲淹",
+            "岳阳楼记",
+            "情怀"
         ],
         "poetryType": false
     },
@@ -7845,9 +7912,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "敕勒歌",
-        "北朝民歌",
-        "草原"
+            "敕勒歌",
+            "北朝民歌",
+            "草原"
         ]
     },
     {
@@ -7863,9 +7930,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "无题",
-        "爱情"
+            "李商隐",
+            "无题",
+            "爱情"
         ]
     },
     {
@@ -7881,9 +7948,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "战争",
-        "杜甫",
-        "春望",
-        "思乡"
+            "杜甫",
+            "春望",
+            "思乡"
         ]
     },
     {
@@ -7899,9 +7966,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文",
-        "刘禹锡",
-        "陋室铭",
-        "环境"
+            "刘禹锡",
+            "陋室铭",
+            "环境"
         ],
         "poetryType": false
     },
@@ -7918,9 +7985,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "战争",
-        "杜甫",
-        "石壕吏",
-        "死亡"
+            "杜甫",
+            "石壕吏",
+            "死亡"
         ]
     },
     {
@@ -7936,9 +8003,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "江南",
-        "汉乐府",
-        "劳动"
+            "江南",
+            "汉乐府",
+            "劳动"
         ],
         "poetryType": false
     },
@@ -7955,9 +8022,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "无题",
-        "爱情"
+            "李商隐",
+            "无题",
+            "爱情"
         ]
     },
     {
@@ -7973,9 +8040,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "战争",
-        "杜甫",
-        "春望",
-        "忧国"
+            "杜甫",
+            "春望",
+            "忧国"
         ]
     },
     {
@@ -7991,10 +8058,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古文",
-        "刘禹锡",
-        "陋室铭",
-        "志向"
-        ]
+            "刘禹锡",
+            "陋室铭",
+            "志向"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_chu2_104",
@@ -8009,9 +8077,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人家",
-        "杜甫",
-        "石壕吏",
-        "贫穷"
+            "杜甫",
+            "石壕吏",
+            "贫穷"
         ]
     },
     {
@@ -8027,9 +8095,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "敕勒歌",
-        "北朝民歌",
-        "草原"
+            "敕勒歌",
+            "北朝民歌",
+            "草原"
         ]
     },
     {
@@ -8045,9 +8113,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "无题",
-        "相思"
+            "李商隐",
+            "无题",
+            "相思"
         ]
     },
     {
@@ -8063,9 +8131,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "泰山",
-        "杜甫",
-        "望岳",
-        "山"
+            "杜甫",
+            "望岳",
+            "山"
         ]
     },
     {
@@ -8081,9 +8149,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "战争",
-        "杜甫",
-        "石壕吏",
-        "死亡"
+            "杜甫",
+            "石壕吏",
+            "死亡"
         ]
     },
     {
@@ -8099,9 +8167,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "贬谪",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "感慨"
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "感慨"
         ]
     },
     {
@@ -8117,9 +8185,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "骆宾王",
-        "咏鹅",
-        "动物"
+            "骆宾王",
+            "咏鹅",
+            "动物"
         ]
     },
     {
@@ -8135,9 +8203,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "无题",
-        "神话"
+            "李商隐",
+            "无题",
+            "神话"
         ]
     },
     {
@@ -8153,9 +8221,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "云",
-        "杜甫",
-        "望岳",
-        "鸟"
+            "杜甫",
+            "望岳",
+            "鸟"
         ]
     },
     {
@@ -8171,9 +8239,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "悲伤",
-        "杜甫",
-        "石壕吏",
-        "哭泣"
+            "杜甫",
+            "石壕吏",
+            "哭泣"
         ]
     },
     {
@@ -8189,9 +8257,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "思乡",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "时间"
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "时间"
         ]
     },
     {
@@ -8207,10 +8275,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "骆宾王",
-        "咏鹅",
-        "动物"
-        ]
+            "骆宾王",
+            "咏鹅",
+            "动物"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_107",
@@ -8225,9 +8294,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "蜀相",
-        "怀古"
+            "杜甫",
+            "蜀相",
+            "怀古"
         ]
     },
     {
@@ -8243,9 +8312,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月夜",
-        "杜甫",
-        "月夜",
-        "妻子"
+            "杜甫",
+            "月夜",
+            "妻子"
         ]
     },
     {
@@ -8261,9 +8330,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "哲理",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "希望"
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "希望"
         ]
     },
     {
@@ -8279,10 +8348,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "贺知章",
-        "咏柳",
-        "春天"
-        ]
+            "贺知章",
+            "咏柳",
+            "春天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_108",
@@ -8297,9 +8367,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "蜀相",
-        "怀古"
+            "杜甫",
+            "蜀相",
+            "怀古"
         ]
     },
     {
@@ -8315,9 +8385,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "儿女",
-        "杜甫",
-        "月夜",
-        "想念"
+            "杜甫",
+            "月夜",
+            "想念"
         ]
     },
     {
@@ -8333,9 +8403,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "饮酒",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "振作"
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "振作"
         ]
     },
     {
@@ -8351,10 +8421,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "贺知章",
-        "咏柳",
-        "比喻"
-        ]
+            "贺知章",
+            "咏柳",
+            "比喻"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_109",
@@ -8369,9 +8440,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "蜀相",
-        "惋惜"
+            "杜甫",
+            "蜀相",
+            "惋惜"
         ]
     },
     {
@@ -8387,9 +8458,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "妻子",
-        "杜甫",
-        "月夜",
-        "美丽"
+            "杜甫",
+            "月夜",
+            "美丽"
         ]
     },
     {
@@ -8405,9 +8476,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春色",
-        "王驾",
-        "雨晴",
-        "春景"
+            "王驾",
+            "雨晴",
+            "春景"
         ]
     },
     {
@@ -8423,10 +8494,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "春晓",
-        "春天"
-        ]
+            "孟浩然",
+            "春晓",
+            "春天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_110",
@@ -8441,9 +8513,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "蜀相",
-        "怀古"
+            "杜甫",
+            "蜀相",
+            "怀古"
         ]
     },
     {
@@ -8459,9 +8531,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "团聚",
-        "杜甫",
-        "月夜",
-        "希望"
+            "杜甫",
+            "月夜",
+            "希望"
         ]
     },
     {
@@ -8477,9 +8549,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜景",
-        "沈佺期",
-        "夜游",
-        "鸟"
+            "沈佺期",
+            "夜游",
+            "鸟"
         ]
     },
     {
@@ -8490,31 +8562,31 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "《石壕吏》反映了什么社会现实？",
         "options": [
-    {
+            {
                 "text": "战争徭役",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "自然灾害",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "宫廷斗争",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "科举考试",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "战争徭役",
         "explanation": "描写抓壮丁的情景。",
         "poemId": null,
         "knowledgePoints": [
             "战争",
-        "杜甫",
-        "石壕吏",
-        "社会"
+            "杜甫",
+            "石壕吏",
+            "社会"
         ]
     },
     {
@@ -8530,10 +8602,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "春晓",
-        "惜春"
-        ]
+            "孟浩然",
+            "春晓",
+            "惜春"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_111",
@@ -8548,9 +8621,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范仲淹",
-        "渔家傲",
-        "边塞"
+            "范仲淹",
+            "渔家傲",
+            "边塞"
         ]
     },
     {
@@ -8566,9 +8639,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月夜",
-        "杜甫",
-        "月夜",
-        "闺中"
+            "杜甫",
+            "月夜",
+            "闺中"
         ]
     },
     {
@@ -8584,10 +8657,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "春晓",
-        "春天"
-        ]
+            "孟浩然",
+            "春晓",
+            "春天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_112",
@@ -8602,9 +8676,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范仲淹",
-        "渔家傲",
-        "边塞"
+            "范仲淹",
+            "渔家傲",
+            "边塞"
         ]
     },
     {
@@ -8620,9 +8694,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "儿女",
-        "杜甫",
-        "月夜",
-        "未解"
+            "杜甫",
+            "月夜",
+            "未解"
         ]
     },
     {
@@ -8638,10 +8712,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "长歌行",
-        "惜时",
-        "汉乐府"
-        ]
+            "长歌行",
+            "惜时",
+            "汉乐府"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_113",
@@ -8656,9 +8731,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范仲淹",
-        "渔家傲",
-        "边塞"
+            "范仲淹",
+            "渔家傲",
+            "边塞"
         ]
     },
     {
@@ -8674,9 +8749,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "捣衣",
-        "杜甫",
-        "秋笛",
-        "长夜"
+            "杜甫",
+            "秋笛",
+            "长夜"
         ]
     },
     {
@@ -8692,9 +8767,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "绝句",
-        "春天"
+            "杜甫",
+            "绝句",
+            "春天"
         ]
     },
     {
@@ -8710,9 +8785,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "游山西村",
-        "田园"
+            "陆游",
+            "游山西村",
+            "田园"
         ]
     },
     {
@@ -8728,10 +8803,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "荒凉",
-        "杜甫",
-        "春望",
-        "国破"
-        ]
+            "杜甫",
+            "春望",
+            "国破"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_115",
@@ -8746,9 +8822,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "绝句",
-        "鸟类"
+            "杜甫",
+            "绝句",
+            "鸟类"
         ]
     },
     {
@@ -8764,9 +8840,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "游山西村",
-        "哲理"
+            "陆游",
+            "游山西村",
+            "哲理"
         ]
     },
     {
@@ -8777,31 +8853,31 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "杜甫《望岳》中'岱宗夫如何'的'岱宗'指什么？",
         "options": [
-    {
+            {
                 "text": "泰山",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "华山",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "嵩山",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "衡山",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "泰山",
         "explanation": "岱宗是泰山的别称。",
         "poemId": null,
         "knowledgePoints": [
             "山",
-        "杜甫",
-        "望岳",
-        "山"
+            "杜甫",
+            "望岳",
+            "山"
         ]
     },
     {
@@ -8812,31 +8888,31 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "《岳阳楼记》表达了作者怎样的政治抱负？",
         "options": [
-    {
+            {
                 "text": "先天下之忧而忧，后天下之乐而乐",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "不为五斗米折腰",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "安能摧眉折腰事权贵",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "人生得意须尽欢",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "先天下之忧而忧，后天下之乐而乐",
         "explanation": "范仲淹的名句，表达家国情怀。",
         "poemId": null,
         "knowledgePoints": [
             "政治",
-        "范仲淹",
-        "岳阳楼记",
-        "抱负"
+            "范仲淹",
+            "岳阳楼记",
+            "抱负"
         ]
     },
     {
@@ -8852,9 +8928,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "诸葛",
-        "杜甫",
-        "蜀相",
-        "伯仲"
+            "杜甫",
+            "蜀相",
+            "伯仲"
         ]
     },
     {
@@ -8870,10 +8946,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "绝句",
-        "春天"
-        ]
+            "杜甫",
+            "绝句",
+            "春天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_116",
@@ -8888,9 +8965,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "游山西村",
-        "田园"
+            "陆游",
+            "游山西村",
+            "田园"
         ]
     },
     {
@@ -8901,31 +8978,31 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "《春望》写于唐朝哪个历史时期？",
         "options": [
-    {
+            {
                 "text": "安史之乱",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "贞观之治",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "开元盛世",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "武则天时期",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "安史之乱",
         "explanation": "杜甫在安史之乱期间被困长安时所作。",
         "poemId": null,
         "knowledgePoints": [
             "历史",
-        "杜甫",
-        "春望",
-        "历史"
+            "杜甫",
+            "春望",
+            "历史"
         ]
     },
     {
@@ -8941,9 +9018,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "心情",
-        "范仲淹",
-        "岳阳楼记",
-        "忘怀"
+            "范仲淹",
+            "岳阳楼记",
+            "忘怀"
         ],
         "poetryType": false
     },
@@ -8960,9 +9037,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "鬼哭",
-        "杜甫",
-        "兵车行",
-        "雨湿"
+            "杜甫",
+            "兵车行",
+            "雨湿"
         ]
     },
     {
@@ -8978,9 +9055,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "绝句",
-        "春天"
+            "杜甫",
+            "绝句",
+            "春天"
         ]
     },
     {
@@ -8996,9 +9073,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韩翃",
-        "寒食",
-        "节日"
+            "韩翃",
+            "寒食",
+            "节日"
         ]
     },
     {
@@ -9014,9 +9091,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "登楼",
-        "杜甫",
-        "登岳阳楼",
-        "洞庭"
+            "杜甫",
+            "登岳阳楼",
+            "洞庭"
         ]
     },
     {
@@ -9032,9 +9109,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "早晚",
-        "欧阳修",
-        "醉翁亭记",
-        "山林"
+            "欧阳修",
+            "醉翁亭记",
+            "山林"
         ],
         "poetryType": false
     },
@@ -9051,9 +9128,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江岸",
-        "杜甫",
-        "旅夜书怀",
-        "细草"
+            "杜甫",
+            "旅夜书怀",
+            "细草"
         ]
     },
     {
@@ -9069,10 +9146,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "柳宗元",
-        "江雪",
-        "冬天"
-        ]
+            "柳宗元",
+            "江雪",
+            "冬天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_118",
@@ -9087,9 +9165,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韩翃",
-        "寒食",
-        "讽刺"
+            "韩翃",
+            "寒食",
+            "讽刺"
         ]
     },
     {
@@ -9105,9 +9183,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "洞庭",
-        "杜甫",
-        "登岳阳楼",
-        "日月"
+            "杜甫",
+            "登岳阳楼",
+            "日月"
         ]
     },
     {
@@ -9123,9 +9201,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山水",
-        "欧阳修",
-        "醉翁亭记",
-        "醉翁"
+            "欧阳修",
+            "醉翁亭记",
+            "醉翁"
         ],
         "poetryType": false
     },
@@ -9142,9 +9220,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "大江",
-        "杜甫",
-        "旅夜书怀",
-        "星垂"
+            "杜甫",
+            "旅夜书怀",
+            "星垂"
         ]
     },
     {
@@ -9160,10 +9238,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "柳宗元",
-        "江雪",
-        "孤独"
-        ]
+            "柳宗元",
+            "江雪",
+            "孤独"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_119",
@@ -9178,9 +9257,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘方平",
-        "月夜",
-        "春天"
+            "刘方平",
+            "月夜",
+            "春天"
         ]
     },
     {
@@ -9196,9 +9275,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春草",
-        "韩愈",
-        "早春呈水部张十八员外",
-        "小雨"
+            "韩愈",
+            "早春呈水部张十八员外",
+            "小雨"
         ]
     },
     {
@@ -9214,11 +9293,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "忧乐",
-        "范仲淹",
-        "岳阳楼记",
-        "先后"
+            "范仲淹",
+            "岳阳楼记",
+            "先后"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu2_119",
@@ -9233,9 +9313,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沙鸥",
-        "杜甫",
-        "旅夜书怀",
-        "天地"
+            "杜甫",
+            "旅夜书怀",
+            "天地"
         ]
     },
     {
@@ -9251,10 +9331,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "登鹳雀楼",
-        "写景"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "写景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_120",
@@ -9269,9 +9350,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘方平",
-        "月夜",
-        "夜景"
+            "刘方平",
+            "月夜",
+            "夜景"
         ]
     },
     {
@@ -9287,9 +9368,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春景",
-        "韩愈",
-        "早春呈水部张十八员外",
-        "烟柳"
+            "韩愈",
+            "早春呈水部张十八员外",
+            "烟柳"
         ]
     },
     {
@@ -9305,9 +9386,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "忧民",
-        "范仲淹",
-        "岳阳楼记",
-        "庙堂"
+            "范仲淹",
+            "岳阳楼记",
+            "庙堂"
         ],
         "poetryType": false
     },
@@ -9324,10 +9405,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "国破",
-        "杜甫",
-        "春望",
-        "山河"
-        ]
+            "杜甫",
+            "春望",
+            "山河"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_121",
@@ -9342,10 +9424,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "登鹳雀楼",
-        "哲理"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "哲理"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_121",
@@ -9360,9 +9443,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "夜雨寄北",
-        "思念"
+            "李商隐",
+            "夜雨寄北",
+            "思念"
         ]
     },
     {
@@ -9378,10 +9461,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "云",
-        "杜甫",
-        "望岳",
-        "归鸟"
-        ]
+            "杜甫",
+            "望岳",
+            "归鸟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_121",
@@ -9396,10 +9480,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "景色",
-        "欧阳修",
-        "醉翁亭记",
-        "野芳"
-        ]
+            "欧阳修",
+            "醉翁亭记",
+            "野芳"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_chu2_121",
@@ -9414,10 +9499,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "感时",
-        "杜甫",
-        "春望",
-        "花溅"
-        ]
+            "杜甫",
+            "春望",
+            "花溅"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_122",
@@ -9432,9 +9518,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "骆宾王",
-        "咏鹅",
-        "动物"
+            "骆宾王",
+            "咏鹅",
+            "动物"
         ]
     },
     {
@@ -9450,9 +9536,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "温庭筠",
-        "商山早行",
-        "羁旅"
+            "温庭筠",
+            "商山早行",
+            "羁旅"
         ]
     },
     {
@@ -9468,10 +9554,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "衰老",
-        "杜甫",
-        "春望",
-        "白头"
-        ]
+            "杜甫",
+            "春望",
+            "白头"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_122",
@@ -9486,11 +9573,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "心情",
-        "范仲淹",
-        "岳阳楼记",
-        "宠辱"
+            "范仲淹",
+            "岳阳楼记",
+            "宠辱"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu2_122",
@@ -9505,9 +9593,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "烽火",
-        "杜甫",
-        "春望",
-        "万金"
+            "杜甫",
+            "春望",
+            "万金"
         ]
     },
     {
@@ -9523,10 +9611,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "胡令能",
-        "小儿垂钓",
-        "儿童"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "儿童"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_123",
@@ -9541,9 +9630,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "温庭筠",
-        "商山早行",
-        "羁旅"
+            "温庭筠",
+            "商山早行",
+            "羁旅"
         ]
     },
     {
@@ -9559,9 +9648,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "竹",
-        "韩愈",
-        "题孟庄",
-        "溪斋"
+            "韩愈",
+            "题孟庄",
+            "溪斋"
         ]
     },
     {
@@ -9577,11 +9666,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "忘怀",
-        "范仲淹",
-        "岳阳楼记",
-        "偕忘"
+            "范仲淹",
+            "岳阳楼记",
+            "偕忘"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu2_123",
@@ -9596,9 +9686,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白头",
-        "杜甫",
-        "春望",
-        "更短"
+            "杜甫",
+            "春望",
+            "更短"
         ]
     },
     {
@@ -9614,10 +9704,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "小池",
-        "夏天"
-        ]
+            "杨万里",
+            "小池",
+            "夏天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_124",
@@ -9632,10 +9723,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "温庭筠",
-        "商山早行",
-        "羁旅"
-        ]
+            "温庭筠",
+            "商山早行",
+            "羁旅"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_124",
@@ -9650,9 +9742,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "谗言",
-        "韩愈",
-        "浪淘沙",
-        "迁客"
+            "韩愈",
+            "浪淘沙",
+            "迁客"
         ]
     },
     {
@@ -9668,9 +9760,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "雨天",
-        "范仲淹",
-        "岳阳楼记",
-        "淫雨"
+            "范仲淹",
+            "岳阳楼记",
+            "淫雨"
         ],
         "poetryType": false
     },
@@ -9687,9 +9779,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黑云",
-        "李贺",
-        "雁门太守行",
-        "压城"
+            "李贺",
+            "雁门太守行",
+            "压城"
         ]
     },
     {
@@ -9705,10 +9797,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "小池",
-        "写景"
-        ]
+            "杨万里",
+            "小池",
+            "写景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_125",
@@ -9723,9 +9816,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "温庭筠",
-        "商山早行",
-        "思乡"
+            "温庭筠",
+            "商山早行",
+            "思乡"
         ]
     },
     {
@@ -9741,10 +9834,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月夜",
-        "杜甫",
-        "月夜",
-        "闺中"
-        ]
+            "杜甫",
+            "月夜",
+            "闺中"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_125",
@@ -9759,9 +9853,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春景",
-        "范仲淹",
-        "岳阳楼记",
-        "春和"
+            "范仲淹",
+            "岳阳楼记",
+            "春和"
         ],
         "poetryType": false
     },
@@ -9778,9 +9872,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "角声",
-        "李贺",
-        "雁门太守行",
-        "秋色"
+            "李贺",
+            "雁门太守行",
+            "秋色"
         ]
     },
     {
@@ -9796,10 +9890,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "西湖",
-        "夏天"
-        ]
+            "杨万里",
+            "西湖",
+            "夏天"
+        ],
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_fbc_126",
@@ -9814,9 +9910,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "夜归鹿门歌",
-        "隐居"
+            "孟浩然",
+            "夜归鹿门歌",
+            "隐居"
         ]
     },
     {
@@ -9832,10 +9928,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "云鬟",
-        "杜甫",
-        "月夜",
-        "玉臂"
-        ]
+            "杜甫",
+            "月夜",
+            "玉臂"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_126",
@@ -9850,11 +9947,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "林霏",
-        "欧阳修",
-        "醉翁亭记",
-        "日出"
+            "欧阳修",
+            "醉翁亭记",
+            "日出"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu2_126",
@@ -9869,9 +9967,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄金",
-        "李贺",
-        "雁门太守行",
-        "玉龙"
+            "李贺",
+            "雁门太守行",
+            "玉龙"
         ]
     },
     {
@@ -9887,9 +9985,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杨万里",
-        "送别",
-        "夏天"
+            "杨万里",
+            "送别",
+            "夏天"
         ]
     },
     {
@@ -9905,9 +10003,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张若虚",
-        "春江花月夜",
-        "夜景"
+            "张若虚",
+            "春江花月夜",
+            "夜景"
         ]
     },
     {
@@ -9923,9 +10021,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蓟北",
-        "杜甫",
-        "闻官军收河南河北",
-        "剑外"
+            "杜甫",
+            "闻官军收河南河北",
+            "剑外"
         ]
     },
     {
@@ -9941,9 +10039,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野芳",
-        "欧阳修",
-        "醉翁亭记",
-        "野芳"
+            "欧阳修",
+            "醉翁亭记",
+            "野芳"
         ],
         "poetryType": false
     },
@@ -9960,9 +10058,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "凄凉",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "二十"
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "二十"
         ]
     },
     {
@@ -9978,9 +10076,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "高鼎",
-        "村居",
-        "春天"
+            "高鼎",
+            "村居",
+            "春天"
         ]
     },
     {
@@ -9996,9 +10094,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张若虚",
-        "春江花月夜",
-        "夜景"
+            "张若虚",
+            "春江花月夜",
+            "夜景"
         ]
     },
     {
@@ -10014,9 +10112,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "妻子",
-        "杜甫",
-        "闻官军收河南河北",
-        "愁何在"
+            "杜甫",
+            "闻官军收河南河北",
+            "愁何在"
         ]
     },
     {
@@ -10032,9 +10130,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "树林",
-        "欧阳修",
-        "醉翁亭记",
-        "阴翳"
+            "欧阳修",
+            "醉翁亭记",
+            "阴翳"
         ],
         "poetryType": false
     },
@@ -10051,9 +10149,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闻笛",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "烂柯"
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "烂柯"
         ]
     },
     {
@@ -10069,9 +10167,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "高鼎",
-        "村居",
-        "儿童"
+            "高鼎",
+            "村居",
+            "儿童"
         ]
     },
     {
@@ -10087,9 +10185,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张若虚",
-        "春江花月夜",
-        "哲理"
+            "张若虚",
+            "春江花月夜",
+            "哲理"
         ]
     },
     {
@@ -10105,9 +10203,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "还乡",
-        "杜甫",
-        "闻官军收河南河北",
-        "放歌"
+            "杜甫",
+            "闻官军收河南河北",
+            "放歌"
         ]
     },
     {
@@ -10123,10 +10221,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山亭",
-        "欧阳修",
-        "醉翁亭记",
-        "酿泉"
-        ]
+            "欧阳修",
+            "醉翁亭记",
+            "酿泉"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_chu2_129",
@@ -10141,9 +10240,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沉舟",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "千帆"
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "千帆"
         ]
     },
     {
@@ -10159,10 +10258,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张继",
-        "枫桥夜泊",
-        "羁旅"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "羁旅"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_130",
@@ -10177,9 +10277,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张若虚",
-        "春江花月夜",
-        "思乡"
+            "张若虚",
+            "春江花月夜",
+            "思乡"
         ]
     },
     {
@@ -10195,9 +10295,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "襄阳",
-        "杜甫",
-        "闻官军收河南河北",
-        "巴峡"
+            "杜甫",
+            "闻官军收河南河北",
+            "巴峡"
         ]
     },
     {
@@ -10213,11 +10313,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山水",
-        "欧阳修",
-        "醉翁亭记",
-        "醉翁"
+            "欧阳修",
+            "醉翁亭记",
+            "醉翁"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu2_130",
@@ -10232,9 +10333,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "听君",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "精神"
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "精神"
         ]
     },
     {
@@ -10250,10 +10351,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "清明",
-        "节日"
-        ]
+            "杜牧",
+            "清明",
+            "节日"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_131",
@@ -10268,10 +10370,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "秋天"
-        ]
+            "王维",
+            "山居秋暝",
+            "秋天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_131",
@@ -10286,9 +10389,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "微风",
-        "杜甫",
-        "旅夜书怀",
-        "细草"
+            "杜甫",
+            "旅夜书怀",
+            "细草"
         ]
     },
     {
@@ -10304,9 +10407,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "兴隆",
-        "诸葛亮",
-        "出师表",
-        "兴隆"
+            "诸葛亮",
+            "出师表",
+            "兴隆"
         ],
         "poetryType": false
     },
@@ -10323,9 +10426,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "周郎",
-        "杜牧",
-        "赤壁",
-        "铜雀"
+            "杜牧",
+            "赤壁",
+            "铜雀"
         ]
     },
     {
@@ -10341,10 +10444,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "清明",
-        "节日"
-        ]
+            "杜牧",
+            "清明",
+            "节日"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_132",
@@ -10359,10 +10463,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "夜景"
-        ]
+            "王维",
+            "山居秋暝",
+            "夜景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_132",
@@ -10377,9 +10482,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "星垂",
-        "杜甫",
-        "旅夜书怀",
-        "平野"
+            "杜甫",
+            "旅夜书怀",
+            "平野"
         ]
     },
     {
@@ -10395,9 +10500,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "倾颓",
-        "诸葛亮",
-        "出师表",
-        "倾颓"
+            "诸葛亮",
+            "出师表",
+            "倾颓"
         ],
         "poetryType": false
     },
@@ -10414,9 +10519,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "折戟",
-        "杜牧",
-        "赤壁",
-        "前朝"
+            "杜牧",
+            "赤壁",
+            "前朝"
         ]
     },
     {
@@ -10432,9 +10537,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "江南春",
-        "春天"
+            "杜牧",
+            "江南春",
+            "春天"
         ]
     },
     {
@@ -10450,10 +10555,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "田园"
-        ]
+            "王维",
+            "山居秋暝",
+            "田园"
+        ],
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu1_133",
@@ -10468,13 +10575,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沙鸥",
-        "杜甫",
-        "旅夜书怀",
-        "飘飘"
+            "杜甫",
+            "旅夜书怀",
+            "飘飘"
         ]
     },
     {
         "id": "q_zk_133",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -10486,9 +10594,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "三分",
-        "诸葛亮",
-        "出师表",
-        "益州"
+            "诸葛亮",
+            "出师表",
+            "益州"
         ]
     },
     {
@@ -10504,9 +10612,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜泊",
-        "杜牧",
-        "泊秦淮",
-        "近酒"
+            "杜牧",
+            "泊秦淮",
+            "近酒"
         ]
     },
     {
@@ -10522,9 +10630,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "山行",
-        "秋天"
+            "杜牧",
+            "山行",
+            "秋天"
         ]
     },
     {
@@ -10540,9 +10648,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "隐居"
+            "王维",
+            "山居秋暝",
+            "隐居"
         ]
     },
     {
@@ -10558,13 +10666,15 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "危樯",
-        "杜甫",
-        "旅夜书怀",
-        "独夜"
-        ]
+            "杜甫",
+            "旅夜书怀",
+            "独夜"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_134",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -10576,9 +10686,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "危难",
-        "诸葛亮",
-        "出师表",
-        "败军"
+            "诸葛亮",
+            "出师表",
+            "败军"
         ]
     },
     {
@@ -10594,9 +10704,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "唧唧",
-        "无名氏",
-        "木兰诗",
-        "当户"
+            "无名氏",
+            "木兰诗",
+            "当户"
         ]
     },
     {
@@ -10612,9 +10722,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "山行",
-        "秋天"
+            "杜牧",
+            "山行",
+            "秋天"
         ]
     },
     {
@@ -10630,10 +10740,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
-        ]
+            "王维",
+            "使至塞上",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_135",
@@ -10648,13 +10759,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "单车",
-        "王维",
-        "使至塞上",
-        "问边"
+            "王维",
+            "使至塞上",
+            "问边"
         ]
     },
     {
         "id": "q_zk_135",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -10666,9 +10778,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闻达",
-        "诸葛亮",
-        "出师表",
-        "性命"
+            "诸葛亮",
+            "出师表",
+            "性命"
         ]
     },
     {
@@ -10684,9 +10796,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "机杼",
-        "无名氏",
-        "木府诗",
-        "叹息"
+            "无名氏",
+            "木府诗",
+            "叹息"
         ]
     },
     {
@@ -10702,10 +10814,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "思乡",
-        "重阳节"
-        ]
+            "王维",
+            "思乡",
+            "重阳节"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_136",
@@ -10720,10 +10833,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
-        ]
+            "王维",
+            "使至塞上",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_136",
@@ -10738,9 +10852,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "征蓬",
-        "王维",
-        "使至塞上",
-        "汉塞"
+            "王维",
+            "使至塞上",
+            "汉塞"
         ]
     },
     {
@@ -10756,9 +10870,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "塞下",
-        "范仲淹",
-        "渔家傲",
-        "风景"
+            "范仲淹",
+            "渔家傲",
+            "风景"
         ]
     },
     {
@@ -10774,9 +10888,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "阿爷",
-        "无名氏",
-        "木兰诗",
-        "长兄"
+            "无名氏",
+            "木兰诗",
+            "长兄"
         ]
     },
     {
@@ -10792,9 +10906,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "重阳节",
-        "思乡"
+            "王维",
+            "重阳节",
+            "思乡"
         ]
     },
     {
@@ -10810,9 +10924,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "抒情"
+            "王维",
+            "使至塞上",
+            "抒情"
         ]
     },
     {
@@ -10828,9 +10942,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孤烟",
-        "王维",
-        "使至塞上",
-        "大漠"
+            "王维",
+            "使至塞上",
+            "大漠"
         ]
     },
     {
@@ -10846,9 +10960,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "边声",
-        "范仲淹",
-        "渔家傲",
-        "千嶂"
+            "范仲淹",
+            "渔家傲",
+            "千嶂"
         ]
     },
     {
@@ -10864,9 +10978,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "鞍马",
-        "无名氏",
-        "木兰诗",
-        "爷征"
+            "无名氏",
+            "木兰诗",
+            "爷征"
         ]
     },
     {
@@ -10882,9 +10996,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "赠汪伦",
-        "友情"
+            "李白",
+            "赠汪伦",
+            "友情"
         ]
     },
     {
@@ -10900,9 +11014,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "写景"
+            "李白",
+            "渡荆门送别",
+            "写景"
         ]
     },
     {
@@ -10918,9 +11032,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山",
-        "李白",
-        "渡荆门送别",
-        "平野"
+            "李白",
+            "渡荆门送别",
+            "平野"
         ]
     },
     {
@@ -10936,9 +11050,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "浊酒",
-        "范仲淹",
-        "渔家傲",
-        "家万里"
+            "范仲淹",
+            "渔家傲",
+            "家万里"
         ]
     },
     {
@@ -10954,9 +11068,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "万里",
-        "无名氏",
-        "木兰诗",
-        "戎机"
+            "无名氏",
+            "木兰诗",
+            "戎机"
         ]
     },
     {
@@ -10972,9 +11086,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "送别",
-        "黄鹤楼送孟浩然之广陵"
+            "李白",
+            "送别",
+            "黄鹤楼送孟浩然之广陵"
         ]
     },
     {
@@ -10990,9 +11104,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "送别"
+            "李白",
+            "渡荆门送别",
+            "送别"
         ]
     },
     {
@@ -11008,9 +11122,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月下",
-        "李白",
-        "渡荆门送别",
-        "飞天"
+            "李白",
+            "渡荆门送别",
+            "飞天"
         ]
     },
     {
@@ -11026,9 +11140,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白发",
-        "范仲淹",
-        "渔家傲",
-        "不寐"
+            "范仲淹",
+            "渔家傲",
+            "不寐"
         ]
     },
     {
@@ -11044,9 +11158,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "东皋",
-        "王绩",
-        "野望",
-        "徙倚"
+            "王绩",
+            "野望",
+            "徙倚"
         ]
     },
     {
@@ -11062,9 +11176,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "早发白帝城",
-        "抒情"
+            "李白",
+            "早发白帝城",
+            "抒情"
         ]
     },
     {
@@ -11080,9 +11194,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "游历"
+            "李白",
+            "渡荆门送别",
+            "游历"
         ]
     },
     {
@@ -11098,9 +11212,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故乡",
-        "李白",
-        "渡荆门送别",
-        "送行"
+            "李白",
+            "渡荆门送别",
+            "送行"
         ]
     },
     {
@@ -11116,9 +11230,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "农家",
-        "陆游",
-        "游山西村",
-        "腊酒"
+            "陆游",
+            "游山西村",
+            "腊酒"
         ]
     },
     {
@@ -11134,9 +11248,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "风急",
-        "杜甫",
-        "登高",
-        "猿啸"
+            "杜甫",
+            "登高",
+            "猿啸"
         ]
     },
     {
@@ -11152,10 +11266,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "早发白帝城",
-        "船行"
-        ]
+            "李白",
+            "早发白帝城",
+            "船行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_141",
@@ -11170,9 +11285,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "思乡"
+            "李白",
+            "渡荆门送别",
+            "思乡"
         ]
     },
     {
@@ -11188,9 +11303,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月色",
-        "刘方平",
-        "月夜",
-        "更深"
+            "刘方平",
+            "月夜",
+            "更深"
         ]
     },
     {
@@ -11206,9 +11321,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山重",
-        "陆游",
-        "游山西村",
-        "疑无"
+            "陆游",
+            "游山西村",
+            "疑无"
         ]
     },
     {
@@ -11224,9 +11339,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "落木",
-        "杜甫",
-        "登高",
-        "萧萧"
+            "杜甫",
+            "登高",
+            "萧萧"
         ]
     },
     {
@@ -11242,10 +11357,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望庐山瀑布",
-        "夸张"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "夸张"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_142",
@@ -11260,9 +11376,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "宿建德江",
-        "羁旅"
+            "孟浩然",
+            "宿建德江",
+            "羁旅"
         ]
     },
     {
@@ -11278,9 +11394,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春气",
-        "刘方平",
-        "月夜",
-        "虫声"
+            "刘方平",
+            "月夜",
+            "虫声"
         ]
     },
     {
@@ -11296,9 +11412,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "箫鼓",
-        "陆游",
-        "游山西村",
-        "春社"
+            "陆游",
+            "游山西村",
+            "春社"
         ]
     },
     {
@@ -11314,9 +11430,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "悲秋",
-        "杜甫",
-        "登高",
-        "作客"
+            "杜甫",
+            "登高",
+            "作客"
         ]
     },
     {
@@ -11332,9 +11448,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望天门山",
-        "写景"
+            "李白",
+            "望天门山",
+            "写景"
         ]
     },
     {
@@ -11350,9 +11466,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "宿建德江",
-        "夜景"
+            "孟浩然",
+            "宿建德江",
+            "夜景"
         ]
     },
     {
@@ -11368,9 +11484,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "回乐",
-        "李益",
-        "夜上受降城闻笛",
-        "似雪"
+            "李益",
+            "夜上受降城闻笛",
+            "似雪"
         ]
     },
     {
@@ -11386,9 +11502,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闲乘",
-        "陆游",
-        "游山西村",
-        "拄杖"
+            "陆游",
+            "游山西村",
+            "拄杖"
         ]
     },
     {
@@ -11404,9 +11520,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "苦恨",
-        "杜甫",
-        "登高",
-        "霜鬓"
+            "杜甫",
+            "登高",
+            "霜鬓"
         ]
     },
     {
@@ -11422,9 +11538,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "赠汪伦",
-        "友情"
+            "李白",
+            "赠汪伦",
+            "友情"
         ]
     },
     {
@@ -11440,9 +11556,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "晓行巴峡",
-        "羁旅"
+            "王维",
+            "晓行巴峡",
+            "羁旅"
         ]
     },
     {
@@ -11458,9 +11574,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "芦管",
-        "李益",
-        "夜上受降城闻笛",
-        "征人"
+            "李益",
+            "夜上受降城闻笛",
+            "征人"
         ]
     },
     {
@@ -11476,9 +11592,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "明月",
-        "苏轼",
-        "水调歌头",
-        "把酒"
+            "苏轼",
+            "水调歌头",
+            "把酒"
         ]
     },
     {
@@ -11494,9 +11610,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "国破",
-        "杜甫",
-        "春望",
-        "山河"
+            "杜甫",
+            "春望",
+            "山河"
         ]
     },
     {
@@ -11512,9 +11628,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "古朗月行",
-        "儿童"
+            "李白",
+            "古朗月行",
+            "儿童"
         ]
     },
     {
@@ -11530,10 +11646,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "思乡",
-        "重阳节"
-        ]
+            "王维",
+            "思乡",
+            "重阳节"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_145",
@@ -11548,9 +11665,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "杨柳",
-        "杜甫",
-        "江畔独步寻花",
-        "江畔"
+            "杜甫",
+            "江畔独步寻花",
+            "江畔"
         ]
     },
     {
@@ -11566,9 +11683,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天上",
-        "苏轼",
-        "水调歌头",
-        "宫阙"
+            "苏轼",
+            "水调歌头",
+            "宫阙"
         ]
     },
     {
@@ -11584,10 +11701,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "感时",
-        "杜甫",
-        "春望",
-        "花溅"
-        ]
+            "杜甫",
+            "春望",
+            "花溅"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_146",
@@ -11602,9 +11720,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "夜宿山寺",
-        "夸张"
+            "李白",
+            "夜宿山寺",
+            "夸张"
         ]
     },
     {
@@ -11620,10 +11738,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "重阳节",
-        "思乡"
-        ]
+            "王维",
+            "重阳节",
+            "思乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_146",
@@ -11638,9 +11757,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日出",
-        "刘禹锡",
-        "竹枝词",
-        "有晴"
+            "刘禹锡",
+            "竹枝词",
+            "有晴"
         ]
     },
     {
@@ -11656,9 +11775,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乘风",
-        "苏轼",
-        "水调歌头",
-        "琼楼"
+            "苏轼",
+            "水调歌头",
+            "琼楼"
         ]
     },
     {
@@ -11674,10 +11793,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "烽火",
-        "杜甫",
-        "春望",
-        "万金"
-        ]
+            "杜甫",
+            "春望",
+            "万金"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_147",
@@ -11692,9 +11812,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "夜宿山寺",
-        "夸张"
+            "李白",
+            "夜宿山寺",
+            "夸张"
         ]
     },
     {
@@ -11710,9 +11830,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "钱塘湖春行",
-        "春天"
+            "白居易",
+            "钱塘湖春行",
+            "春天"
         ]
     },
     {
@@ -11728,9 +11848,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "踏歌",
-        "刘禹锡",
-        "竹枝词",
-        "江上"
+            "刘禹锡",
+            "竹枝词",
+            "江上"
         ]
     },
     {
@@ -11746,9 +11866,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "弄影",
-        "苏轼",
-        "水调歌头",
-        "清影"
+            "苏轼",
+            "水调歌头",
+            "清影"
         ]
     },
     {
@@ -11764,10 +11884,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白头",
-        "杜甫",
-        "春望",
-        "更短"
-        ]
+            "杜甫",
+            "春望",
+            "更短"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_148",
@@ -11782,10 +11903,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "望天门山",
-        "送别"
-        ]
+            "李白",
+            "望天门山",
+            "送别"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_148",
@@ -11800,9 +11922,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "钱塘湖春行",
-        "春天"
+            "白居易",
+            "钱塘湖春行",
+            "春天"
         ]
     },
     {
@@ -11818,9 +11940,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "客路",
-        "王湾",
-        "次北固山下",
-        "青山"
+            "王湾",
+            "次北固山下",
+            "青山"
         ]
     },
     {
@@ -11836,9 +11958,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "朱阁",
-        "苏轼",
-        "水调歌头",
-        "无眠"
+            "苏轼",
+            "水调歌头",
+            "无眠"
         ]
     },
     {
@@ -11854,10 +11976,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "凄凉",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "二十"
-        ]
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "二十"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_149",
@@ -11872,10 +11995,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "胡令能",
-        "小儿垂钓",
-        "儿童"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "儿童"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_149",
@@ -11890,9 +12014,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "钱塘湖春行",
-        "春天"
+            "白居易",
+            "钱塘湖春行",
+            "春天"
         ]
     },
     {
@@ -11908,10 +12032,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "海日",
-        "王湾",
-        "次北固山下",
-        "残夜"
-        ]
+            "王湾",
+            "次北固山下",
+            "残夜"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_149",
@@ -11926,9 +12051,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "悲欢",
-        "苏轼",
-        "水调歌头",
-        "圆缺"
+            "苏轼",
+            "水调歌头",
+            "圆缺"
         ]
     },
     {
@@ -11944,10 +12069,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闻笛",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "烂柯"
-        ]
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "烂柯"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_150",
@@ -11962,9 +12088,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "胡令能",
-        "小儿垂钓",
-        "儿童"
+            "胡令能",
+            "小儿垂钓",
+            "儿童"
         ]
     },
     {
@@ -11980,9 +12106,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "白居易",
-        "钱塘湖春行",
-        "春天"
+            "白居易",
+            "钱塘湖春行",
+            "春天"
         ]
     },
     {
@@ -11998,10 +12124,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江春",
-        "王湾",
-        "次北固山下",
-        "旧年"
-        ]
+            "王湾",
+            "次北固山下",
+            "旧年"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_150",
@@ -12016,9 +12143,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "长久",
-        "苏轼",
-        "水调歌头",
-        "婵娟"
+            "苏轼",
+            "水调歌头",
+            "婵娟"
         ]
     },
     {
@@ -12034,10 +12161,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沉舟",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "千帆"
-        ]
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "千帆"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_151",
@@ -12052,10 +12180,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "敕勒歌",
-        "北朝民歌",
-        "草原"
-        ]
+            "敕勒歌",
+            "北朝民歌",
+            "草原"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_151",
@@ -12070,9 +12199,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李贺",
-        "雁门太守行",
-        "边塞"
+            "李贺",
+            "雁门太守行",
+            "边塞"
         ]
     },
     {
@@ -12088,9 +12217,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乡书",
-        "王湾",
-        "次北固山下",
-        "归雁"
+            "王湾",
+            "次北固山下",
+            "归雁"
         ]
     },
     {
@@ -12106,9 +12235,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "壬戌",
-        "苏轼",
-        "赤壁赋",
-        "清风"
+            "苏轼",
+            "赤壁赋",
+            "清风"
         ],
         "poetryType": false
     },
@@ -12125,10 +12254,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "听君",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "精神"
-        ]
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "精神"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_152",
@@ -12143,9 +12273,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "敕勒歌",
-        "北朝民歌",
-        "草原"
+            "敕勒歌",
+            "北朝民歌",
+            "草原"
         ]
     },
     {
@@ -12161,9 +12291,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李贺",
-        "雁门太守行",
-        "边塞"
+            "李贺",
+            "雁门太守行",
+            "边塞"
         ]
     },
     {
@@ -12179,13 +12309,15 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "枯藤",
-        "马致远",
-        "天净沙·秋思",
-        "昏鸦"
-        ]
+            "马致远",
+            "天净沙·秋思",
+            "昏鸦"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_152",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -12197,9 +12329,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "举酒",
-        "苏轼",
-        "赤壁赋",
-        "明月"
+            "苏轼",
+            "赤壁赋",
+            "明月"
         ]
     },
     {
@@ -12215,10 +12347,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "烟笼",
-        "杜牧",
-        "泊秦淮",
-        "寒水"
-        ]
+            "杜牧",
+            "泊秦淮",
+            "寒水"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_153",
@@ -12233,10 +12366,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "江南",
-        "汉乐府",
-        "劳动"
-        ]
+            "江南",
+            "汉乐府",
+            "劳动"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_fbc_153",
@@ -12251,9 +12385,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李贺",
-        "雁门太守行",
-        "爱国"
+            "李贺",
+            "雁门太守行",
+            "爱国"
         ]
     },
     {
@@ -12269,13 +12403,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古道",
-        "马致远",
-        "天净沙·秋思",
-        "西风"
+            "马致远",
+            "天净沙·秋思",
+            "西风"
         ]
     },
     {
         "id": "q_zk_153",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -12287,9 +12422,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "少焉",
-        "苏轼",
-        "赤壁赋",
-        "东山"
+            "苏轼",
+            "赤壁赋",
+            "东山"
         ]
     },
     {
@@ -12305,9 +12440,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "商女",
-        "杜牧",
-        "泊秦淮",
-        "后庭"
+            "杜牧",
+            "泊秦淮",
+            "后庭"
         ]
     },
     {
@@ -12323,9 +12458,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "敕勒歌",
-        "草原",
-        "北朝民歌"
+            "敕勒歌",
+            "草原",
+            "北朝民歌"
         ]
     },
     {
@@ -12341,9 +12476,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王湾",
-        "次北固山下",
-        "羁旅"
+            "王湾",
+            "次北固山下",
+            "羁旅"
         ]
     },
     {
@@ -12359,13 +12494,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "断肠",
-        "马致远",
-        "天净沙·秋思",
-        "天涯"
+            "马致远",
+            "天净沙·秋思",
+            "天涯"
         ]
     },
     {
         "id": "q_zk_154",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -12377,9 +12513,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白露",
-        "苏轼",
-        "赤壁赋",
-        "水光"
+            "苏轼",
+            "赤壁赋",
+            "水光"
         ]
     },
     {
@@ -12395,10 +12531,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "折戟",
-        "杜牧",
-        "赤壁",
-        "沉沙"
-        ]
+            "杜牧",
+            "赤壁",
+            "沉沙"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_155",
@@ -12413,9 +12550,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "邵雍",
-        "山村咏怀",
-        "田园"
+            "邵雍",
+            "山村咏怀",
+            "田园"
         ]
     },
     {
@@ -12431,9 +12568,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王湾",
-        "次北固山下",
-        "春天"
+            "王湾",
+            "次北固山下",
+            "春天"
         ]
     },
     {
@@ -12449,13 +12586,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "溪亭",
-        "李清照",
-        "如梦令",
-        "日暮"
+            "李清照",
+            "如梦令",
+            "日暮"
         ]
     },
     {
         "id": "q_zk_155",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -12467,9 +12605,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "一苇",
-        "苏轼",
-        "赤壁赋",
-        "万顷"
+            "苏轼",
+            "赤壁赋",
+            "万顷"
         ]
     },
     {
@@ -12485,10 +12623,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "东风",
-        "杜牧",
-        "赤壁",
-        "周郎"
-        ]
+            "杜牧",
+            "赤壁",
+            "周郎"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_156",
@@ -12503,9 +12642,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "邵雍",
-        "山村咏怀",
-        "田园"
+            "邵雍",
+            "山村咏怀",
+            "田园"
         ]
     },
     {
@@ -12521,9 +12660,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王湾",
-        "次北固山下",
-        "春天"
+            "王湾",
+            "次北固山下",
+            "春天"
         ]
     },
     {
@@ -12539,13 +12678,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "兴尽",
-        "李清照",
-        "如梦令",
-        "藕花"
+            "李清照",
+            "如梦令",
+            "藕花"
         ]
     },
     {
         "id": "q_zk_156",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -12557,9 +12697,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "浩浩",
-        "苏轼",
-        "赤壁赋",
-        "冯虚"
+            "苏轼",
+            "赤壁赋",
+            "冯虚"
         ]
     },
     {
@@ -12575,9 +12715,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "清明",
-        "杜牧",
-        "清明",
-        "断魂"
+            "杜牧",
+            "清明",
+            "断魂"
         ]
     },
     {
@@ -12593,9 +12733,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "邵雍",
-        "山村咏怀",
-        "田园"
+            "邵雍",
+            "山村咏怀",
+            "田园"
         ]
     },
     {
@@ -12611,9 +12751,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王湾",
-        "次北固山下",
-        "思乡"
+            "王湾",
+            "次北固山下",
+            "思乡"
         ]
     },
     {
@@ -12629,13 +12769,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "争渡",
-        "李清照",
-        "如梦令",
-        "鸥鹭"
+            "李清照",
+            "如梦令",
+            "鸥鹭"
         ]
     },
     {
         "id": "q_zk_157",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -12647,9 +12788,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "幽壑",
-        "苏轼",
-        "赤壁赋",
-        "孤舟"
+            "苏轼",
+            "赤壁赋",
+            "孤舟"
         ]
     },
     {
@@ -12665,9 +12806,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "借问",
-        "杜牧",
-        "清明",
-        "杏花"
+            "杜牧",
+            "清明",
+            "杏花"
         ]
     },
     {
@@ -12683,9 +12824,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "袁枚",
-        "所见",
-        "田园"
+            "袁枚",
+            "所见",
+            "田园"
         ]
     },
     {
@@ -12701,10 +12842,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
-        ]
+            "王维",
+            "使至塞上",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_158",
@@ -12719,13 +12861,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蒹葭",
-        "无名氏",
-        "诗经·蒹葭",
-        "一方"
+            "无名氏",
+            "诗经·蒹葭",
+            "一方"
         ]
     },
     {
         "id": "q_zk_158",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -12737,9 +12880,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "渔樵",
-        "苏轼",
-        "赤壁赋",
-        "麋鹿"
+            "苏轼",
+            "赤壁赋",
+            "麋鹿"
         ]
     },
     {
@@ -12755,9 +12898,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千里",
-        "杜牧",
-        "江南春",
-        "莺啼"
+            "杜牧",
+            "江南春",
+            "莺啼"
         ]
     },
     {
@@ -12773,9 +12916,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "袁枚",
-        "所见",
-        "田园"
+            "袁枚",
+            "所见",
+            "田园"
         ]
     },
     {
@@ -12791,10 +12934,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "抒情"
-        ]
+            "王维",
+            "使至塞上",
+            "抒情"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_159",
@@ -12809,13 +12953,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "萋",
-        "无名氏",
-        "诗经·蒹葭",
-        "之湄"
+            "无名氏",
+            "诗经·蒹葭",
+            "之湄"
         ]
     },
     {
         "id": "q_zk_159",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -12827,9 +12972,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "扁舟",
-        "苏轼",
-        "赤壁赋",
-        "匏樽"
+            "苏轼",
+            "赤壁赋",
+            "匏樽"
         ]
     },
     {
@@ -12845,9 +12990,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "南朝",
-        "杜牧",
-        "江南春",
-        "楼台"
+            "杜牧",
+            "江南春",
+            "楼台"
         ]
     },
     {
@@ -12863,9 +13008,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "袁枚",
-        "所见",
-        "田园"
+            "袁枚",
+            "所见",
+            "田园"
         ]
     },
     {
@@ -12881,10 +13026,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
-        ]
+            "王维",
+            "使至塞上",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_160",
@@ -12899,9 +13045,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "雎鸠",
-        "无名氏",
-        "诗经·关雎",
-        "窈窕"
+            "无名氏",
+            "诗经·关雎",
+            "窈窕"
         ]
     },
     {
@@ -12917,9 +13063,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "先帝",
-        "诸葛亮",
-        "出师表",
-        "三分"
+            "诸葛亮",
+            "出师表",
+            "三分"
         ],
         "poetryType": false
     },
@@ -12936,9 +13082,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "银烛",
-        "杜牧",
-        "秋夕",
-        "画屏"
+            "杜牧",
+            "秋夕",
+            "画屏"
         ]
     },
     {
@@ -12954,9 +13100,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王冕",
-        "墨梅",
-        "写景"
+            "王冕",
+            "墨梅",
+            "写景"
         ]
     },
     {
@@ -12972,10 +13118,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "夜景"
-        ]
+            "王维",
+            "山居秋暝",
+            "夜景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_161",
@@ -12990,9 +13137,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "荇菜",
-        "无名氏",
-        "诗经·关雎",
-        "求之"
+            "无名氏",
+            "诗经·关雎",
+            "求之"
         ]
     },
     {
@@ -13008,9 +13155,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "危急",
-        "诸葛亮",
-        "出师表",
-        "疲弊"
+            "诸葛亮",
+            "出师表",
+            "疲弊"
         ],
         "poetryType": false
     },
@@ -13027,9 +13174,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天阶",
-        "杜牧",
-        "秋夕",
-        "牵牛"
+            "杜牧",
+            "秋夕",
+            "牵牛"
         ]
     },
     {
@@ -13045,10 +13192,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王冕",
-        "墨梅",
-        "品格"
-        ]
+            "王冕",
+            "墨梅",
+            "品格"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_162",
@@ -13063,10 +13211,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "秋天"
-        ]
+            "王维",
+            "山居秋暝",
+            "秋天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_162",
@@ -13081,9 +13230,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "思服",
-        "无名氏",
-        "诗经·关雎",
-        "思服"
+            "无名氏",
+            "诗经·关雎",
+            "思服"
         ]
     },
     {
@@ -13099,9 +13248,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "侍卫",
-        "诸葛亮",
-        "出师表",
-        "忠志"
+            "诸葛亮",
+            "出师表",
+            "忠志"
         ],
         "poetryType": false
     },
@@ -13118,9 +13267,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青山",
-        "杜牧",
-        "寄扬州韩绰判官",
-        "迢迢"
+            "杜牧",
+            "寄扬州韩绰判官",
+            "迢迢"
         ]
     },
     {
@@ -13136,9 +13285,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "于谦",
-        "石灰吟",
-        "品格"
+            "于谦",
+            "石灰吟",
+            "品格"
         ]
     },
     {
@@ -13154,10 +13303,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "田园"
-        ]
+            "王维",
+            "山居秋暝",
+            "田园"
+        ],
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu1_163",
@@ -13172,9 +13323,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "溯游",
-        "无名氏",
-        "诗经·蒹葭",
-        "道阻"
+            "无名氏",
+            "诗经·蒹葭",
+            "道阻"
         ]
     },
     {
@@ -13190,9 +13341,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "殊遇",
-        "诸葛亮",
-        "出师表",
-        "陛下"
+            "诸葛亮",
+            "出师表",
+            "陛下"
         ],
         "poetryType": false
     },
@@ -13209,9 +13360,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "二十四桥",
-        "杜牧",
-        "寄扬州韩绰判官",
-        "玉人"
+            "杜牧",
+            "寄扬州韩绰判官",
+            "玉人"
         ]
     },
     {
@@ -13227,9 +13378,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "于谦",
-        "石灰吟",
-        "品格"
+            "于谦",
+            "石灰吟",
+            "品格"
         ]
     },
     {
@@ -13245,10 +13396,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝",
-        "隐居"
-        ]
+            "王维",
+            "山居秋暝",
+            "隐居"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_164",
@@ -13263,10 +13415,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "小桥",
-        "马致远",
-        "天净沙·秋思",
-        "流水"
-        ]
+            "马致远",
+            "天净沙·秋思",
+            "流水"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_164",
@@ -13281,9 +13434,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "圣听",
-        "诸葛亮",
-        "出师表",
-        "光先"
+            "诸葛亮",
+            "出师表",
+            "光先"
         ],
         "poetryType": false
     },
@@ -13300,9 +13453,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "胜败",
-        "杜牧",
-        "题乌江亭",
-        "兵家"
+            "杜牧",
+            "题乌江亭",
+            "兵家"
         ]
     },
     {
@@ -13318,10 +13471,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "郑燮",
-        "竹石",
-        "品格"
-        ]
+            "郑燮",
+            "竹石",
+            "品格"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_165",
@@ -13336,10 +13490,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "游历"
-        ]
+            "李白",
+            "渡荆门送别",
+            "游历"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_165",
@@ -13354,10 +13509,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夕阳",
-        "马致远",
-        "天净沙·秋思",
-        "西风"
-        ]
+            "马致远",
+            "天净沙·秋思",
+            "西风"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_165",
@@ -13372,9 +13528,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "妄自",
-        "诸葛亮",
-        "出师表",
-        "菲薄"
+            "诸葛亮",
+            "出师表",
+            "菲薄"
         ],
         "poetryType": false
     },
@@ -13391,9 +13547,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江东",
-        "杜牧",
-        "题乌江亭",
-        "才俊"
+            "杜牧",
+            "题乌江亭",
+            "才俊"
         ]
     },
     {
@@ -13409,10 +13565,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "郑燮",
-        "竹石",
-        "品格"
-        ]
+            "郑燮",
+            "竹石",
+            "品格"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_166",
@@ -13427,10 +13584,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "渡荆门送别",
-        "送别"
-        ]
+            "李白",
+            "渡荆门送别",
+            "送别"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_166",
@@ -13445,10 +13603,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "流水",
-        "马致远",
-        "天净沙·秋思",
-        "人家"
-        ]
+            "马致远",
+            "天净沙·秋思",
+            "人家"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_166",
@@ -13463,9 +13622,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "施行",
-        "诸葛亮",
-        "出师表",
-        "计日"
+            "诸葛亮",
+            "出师表",
+            "计日"
         ],
         "poetryType": false
     },
@@ -13482,9 +13641,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "六王",
-        "杜牧",
-        "阿房宫赋",
-        "四海"
+            "杜牧",
+            "阿房宫赋",
+            "四海"
         ]
     },
     {
@@ -13500,9 +13659,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王安石",
-        "元日",
-        "节日"
+            "王安石",
+            "元日",
+            "节日"
         ]
     },
     {
@@ -13518,10 +13677,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "悲痛",
-        "杜甫",
-        "蜀相",
-        "出师"
-        ]
+            "杜甫",
+            "蜀相",
+            "出师"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_167",
@@ -13536,11 +13696,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "兴隆",
-        "诸葛亮",
-        "出师表",
-        "先汉"
+            "诸葛亮",
+            "出师表",
+            "先汉"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu1_167",
@@ -13555,9 +13716,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "东临",
-        "曹操",
-        "观沧海",
-        "澹澹"
+            "曹操",
+            "观沧海",
+            "澹澹"
         ]
     },
     {
@@ -13573,9 +13734,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "覆压",
-        "杜牧",
-        "阿房宫赋",
-        "三百"
+            "杜牧",
+            "阿房宫赋",
+            "三百"
         ]
     },
     {
@@ -13591,9 +13752,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王安石",
-        "元日",
-        "节日"
+            "王安石",
+            "元日",
+            "节日"
         ]
     },
     {
@@ -13609,10 +13770,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "柏树",
-        "杜甫",
-        "蜀相",
-        "丞相"
-        ]
+            "杜甫",
+            "蜀相",
+            "丞相"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_168",
@@ -13627,11 +13789,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "倾颓",
-        "诸葛亮",
-        "出师表",
-        "后汉"
+            "诸葛亮",
+            "出师表",
+            "后汉"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu1_168",
@@ -13646,9 +13809,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "树木",
-        "曹操",
-        "观沧海",
-        "丰茂"
+            "曹操",
+            "观沧海",
+            "丰茂"
         ]
     },
     {
@@ -13664,9 +13827,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "五步",
-        "杜牧",
-        "阿房宫赋",
-        "檐牙"
+            "杜牧",
+            "阿房宫赋",
+            "檐牙"
         ]
     },
     {
@@ -13682,9 +13845,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "夏夜",
-        "写景"
+            "辛弃疾",
+            "夏夜",
+            "写景"
         ]
     },
     {
@@ -13700,9 +13863,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春色",
-        "杜甫",
-        "蜀相",
-        "碧草"
+            "杜甫",
+            "蜀相",
+            "碧草"
         ]
     },
     {
@@ -13718,9 +13881,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "幼时",
-        "韩愈",
-        "祭十二郎文",
-        "贼乱"
+            "韩愈",
+            "祭十二郎文",
+            "贼乱"
         ]
     },
     {
@@ -13736,13 +13899,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋风",
-        "曹操",
-        "观沧海",
-        "洪波"
+            "曹操",
+            "观沧海",
+            "洪波"
         ]
     },
     {
         "id": "q_chu2_169",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu2",
         "source": "古诗词真题精选",
@@ -13754,9 +13918,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "各抱",
-        "杜牧",
-        "阿房宫赋",
-        "钩心"
+            "杜牧",
+            "阿房宫赋",
+            "钩心"
         ]
     },
     {
@@ -13772,9 +13936,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "夏夜",
-        "丰收"
+            "辛弃疾",
+            "夏夜",
+            "丰收"
         ]
     },
     {
@@ -13790,9 +13954,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "竹",
-        "韩愈",
-        "题竹",
-        "溪斋"
+            "韩愈",
+            "题竹",
+            "溪斋"
         ]
     },
     {
@@ -13808,9 +13972,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "汝遽",
-        "韩愈",
-        "祭十二郎文",
-        "殁乎"
+            "韩愈",
+            "祭十二郎文",
+            "殁乎"
         ],
         "poetryType": false
     },
@@ -13827,13 +13991,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日月",
-        "曹操",
-        "观沧海",
-        "其中"
+            "曹操",
+            "观沧海",
+            "其中"
         ]
     },
     {
         "id": "q_chu2_170",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu2",
         "source": "古诗词真题精选",
@@ -13845,9 +14010,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "长桥",
-        "杜牧",
-        "阿房宫赋",
-        "卧波"
+            "杜牧",
+            "阿房宫赋",
+            "卧波"
         ]
     },
     {
@@ -13863,9 +14028,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "辛弃疾",
-        "夏夜",
-        "抒情"
+            "辛弃疾",
+            "夏夜",
+            "抒情"
         ]
     },
     {
@@ -13881,9 +14046,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "迁客",
-        "韩愈",
-        "浪淘沙",
-        "谗言"
+            "韩愈",
+            "浪淘沙",
+            "谗言"
         ]
     },
     {
@@ -13899,9 +14064,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "教育",
-        "韩愈",
-        "祭十二郎文",
-        "生成"
+            "韩愈",
+            "祭十二郎文",
+            "生成"
         ]
     },
     {
@@ -13917,13 +14082,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "星汉",
-        "曹操",
-        "观沧海",
-        "灿烂"
+            "曹操",
+            "观沧海",
+            "灿烂"
         ]
     },
     {
         "id": "q_chu2_171",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu2",
         "source": "古诗词真题精选",
@@ -13935,9 +14101,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "高低",
-        "杜牧",
-        "阿房宫赋",
-        "冥迷"
+            "杜牧",
+            "阿房宫赋",
+            "冥迷"
         ]
     },
     {
@@ -13953,9 +14119,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘禹锡",
-        "乌衣巷",
-        "怀古"
+            "刘禹锡",
+            "乌衣巷",
+            "怀古"
         ]
     },
     {
@@ -13971,9 +14137,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "流水",
-        "韩愈",
-        "浪淘沙",
-        "前波"
+            "韩愈",
+            "浪淘沙",
+            "前波"
         ]
     },
     {
@@ -13989,9 +14155,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "识字",
-        "韩愈",
-        "祭十二郎文",
-        "识"
+            "韩愈",
+            "祭十二郎文",
+            "识"
         ]
     },
     {
@@ -14007,9 +14173,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "神龟",
-        "曹操",
-        "龟虽寿",
-        "竟时"
+            "曹操",
+            "龟虽寿",
+            "竟时"
         ]
     },
     {
@@ -14025,9 +14191,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "少年狂",
-        "苏轼",
-        "江城子·密州出猎",
-        "牵黄"
+            "苏轼",
+            "江城子·密州出猎",
+            "牵黄"
         ]
     },
     {
@@ -14043,9 +14209,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "刘禹锡",
-        "乌衣巷",
-        "怀古"
+            "刘禹锡",
+            "乌衣巷",
+            "怀古"
         ]
     },
     {
@@ -14061,9 +14227,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "被贬",
-        "韩愈",
-        "左迁至蓝关示侄孙湘",
-        "朝奏"
+            "韩愈",
+            "左迁至蓝关示侄孙湘",
+            "朝奏"
         ]
     },
     {
@@ -14079,9 +14245,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "上是",
-        "韩愈",
-        "祭十二郎文",
-        "尚同"
+            "韩愈",
+            "祭十二郎文",
+            "尚同"
         ]
     },
     {
@@ -14097,9 +14263,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "腾蛇",
-        "曹操",
-        "龟虽寿",
-        "土灰"
+            "曹操",
+            "龟虽寿",
+            "土灰"
         ]
     },
     {
@@ -14115,9 +14281,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "锦帽",
-        "苏轼",
-        "江城子·密州出猎",
-        "平冈"
+            "苏轼",
+            "江城子·密州出猎",
+            "平冈"
         ]
     },
     {
@@ -14133,10 +14299,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "凉州词",
-        "边塞"
-        ]
+            "王之涣",
+            "凉州词",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_174",
@@ -14151,9 +14318,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "雪",
-        "韩愈",
-        "左迁至蓝关示侄孙湘",
-        "秦岭"
+            "韩愈",
+            "左迁至蓝关示侄孙湘",
+            "秦岭"
         ]
     },
     {
@@ -14169,13 +14336,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "老骥",
-        "曹操",
-        "龟虽寿",
-        "伏枥"
+            "曹操",
+            "龟虽寿",
+            "伏枥"
         ]
     },
     {
         "id": "q_zk_174",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -14187,9 +14355,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "心旷",
-        "范仲淹",
-        "岳阳楼记",
-        "怡"
+            "范仲淹",
+            "岳阳楼记",
+            "怡"
         ]
     },
     {
@@ -14205,9 +14373,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "倾城",
-        "苏轼",
-        "江城子·密州出猎",
-        "疏狂"
+            "苏轼",
+            "江城子·密州出猎",
+            "疏狂"
         ]
     },
     {
@@ -14223,10 +14391,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "凉州词",
-        "边塞"
-        ]
+            "王之涣",
+            "凉州词",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_175",
@@ -14241,9 +14410,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "收骨",
-        "韩愈",
-        "左迁至蓝关示侄孙湘",
-        "汝"
+            "韩愈",
+            "左迁至蓝关示侄孙湘",
+            "汝"
         ]
     },
     {
@@ -14259,9 +14428,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "损兵",
-        "曹操",
-        "龟虽寿",
-        "兵"
+            "曹操",
+            "龟虽寿",
+            "兵"
         ]
     },
     {
@@ -14277,9 +14446,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "霪雨",
-        "范仲淹",
-        "岳阳楼记",
-        "霏霏"
+            "范仲淹",
+            "岳阳楼记",
+            "霏霏"
         ],
         "poetryType": false
     },
@@ -14296,9 +14465,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "酒酣",
-        "苏轼",
-        "江城子·密州出猎",
-        "雕弓"
+            "苏轼",
+            "江城子·密州出猎",
+            "雕弓"
         ]
     },
     {
@@ -14314,9 +14483,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岑参",
-        "送别",
-        "边塞"
+            "岑参",
+            "送别",
+            "边塞"
         ]
     },
     {
@@ -14332,9 +14501,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春天",
-        "韩愈",
-        "晚春",
-        "芳菲"
+            "韩愈",
+            "晚春",
+            "芳菲"
         ]
     },
     {
@@ -14350,9 +14519,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "冥冥",
-        "范仲淹",
-        "岳阳楼记",
-        "冥"
+            "范仲淹",
+            "岳阳楼记",
+            "冥"
         ],
         "poetryType": false
     },
@@ -14369,9 +14538,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "城阙",
-        "王勃",
-        "送杜少府之任蜀州",
-        "三秦"
+            "王勃",
+            "送杜少府之任蜀州",
+            "三秦"
         ]
     },
     {
@@ -14387,9 +14556,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "持节",
-        "苏轼",
-        "江城子·密州出猎",
-        "冯唐"
+            "苏轼",
+            "江城子·密州出猎",
+            "冯唐"
         ]
     },
     {
@@ -14405,9 +14574,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "毛泽东",
-        "蝶恋花",
-        "革命"
+            "毛泽东",
+            "蝶恋花",
+            "革命"
         ]
     },
     {
@@ -14423,13 +14592,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "柳絮",
-        "韩愈",
-        "晚春",
-        "雪飞"
+            "韩愈",
+            "晚春",
+            "雪飞"
         ]
     },
     {
         "id": "q_zk_177",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -14441,9 +14611,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "去国",
-        "范仲淹",
-        "岳阳楼记",
-        "怀乡"
+            "范仲淹",
+            "岳阳楼记",
+            "怀乡"
         ]
     },
     {
@@ -14459,9 +14629,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "离别",
-        "王勃",
-        "送杜少府之任蜀州",
-        "宦游"
+            "王勃",
+            "送杜少府之任蜀州",
+            "宦游"
         ]
     },
     {
@@ -14477,9 +14647,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天狼",
-        "苏轼",
-        "江城子·密州出猎",
-        "雕弓"
+            "苏轼",
+            "江城子·密州出猎",
+            "雕弓"
         ]
     },
     {
@@ -14495,9 +14665,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "毛泽东",
-        "蝶恋花",
-        "革命"
+            "毛泽东",
+            "蝶恋花",
+            "革命"
         ]
     },
     {
@@ -14513,9 +14683,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "酒",
-        "白居易",
-        "问刘十九",
-        "绿蚁"
+            "白居易",
+            "问刘十九",
+            "绿蚁"
         ]
     },
     {
@@ -14531,9 +14701,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古仁人",
-        "范仲淹",
-        "岳阳楼记",
-        "仁人"
+            "范仲淹",
+            "岳阳楼记",
+            "仁人"
         ],
         "poetryType": false
     },
@@ -14550,9 +14720,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "海内",
-        "王勃",
-        "送杜少府之任蜀州",
-        "知己"
+            "王勃",
+            "送杜少府之任蜀州",
+            "知己"
         ]
     },
     {
@@ -14568,9 +14738,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青天",
-        "苏轼",
-        "水调歌头",
-        "明月"
+            "苏轼",
+            "水调歌头",
+            "明月"
         ]
     },
     {
@@ -14586,9 +14756,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "毛泽东",
-        "长征",
-        "革命"
+            "毛泽东",
+            "长征",
+            "革命"
         ]
     },
     {
@@ -14604,9 +14774,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "饮酒",
-        "白居易",
-        "问刘十九",
-        "天雪"
+            "白居易",
+            "问刘十九",
+            "天雪"
         ]
     },
     {
@@ -14622,9 +14792,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "物喜",
-        "范仲淹",
-        "岳阳楼记",
-        "己悲"
+            "范仲淹",
+            "岳阳楼记",
+            "己悲"
         ],
         "poetryType": false
     },
@@ -14641,9 +14811,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "歧路",
-        "王勃",
-        "送杜少府之任蜀州",
-        "沾巾"
+            "王勃",
+            "送杜少府之任蜀州",
+            "沾巾"
         ]
     },
     {
@@ -14659,9 +14829,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "毛泽东",
-        "长征",
-        "革命"
+            "毛泽东",
+            "长征",
+            "革命"
         ]
     },
     {
@@ -14677,9 +14847,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋夜",
-        "白居易",
-        "暮江吟",
-        "露珠"
+            "白居易",
+            "暮江吟",
+            "露珠"
         ]
     },
     {
@@ -14695,9 +14865,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山中",
-        "王维",
-        "送别",
-        "掩扉"
+            "王维",
+            "送别",
+            "掩扉"
         ]
     },
     {
@@ -14713,11 +14883,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "醉翁",
-        "欧阳修",
-        "醉翁亭记",
-        "山水"
+            "欧阳修",
+            "醉翁亭记",
+            "山水"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu2_180",
@@ -14732,9 +14903,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春城",
-        "韩翃",
-        "寒食",
-        "飞花"
+            "韩翃",
+            "寒食",
+            "飞花"
         ]
     },
     {
@@ -14750,9 +14921,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "毛泽东",
-        "长征",
-        "革命"
+            "毛泽东",
+            "长征",
+            "革命"
         ]
     },
     {
@@ -14768,9 +14939,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江水",
-        "白居易",
-        "暮江吟",
-        "残阳"
+            "白居易",
+            "暮江吟",
+            "残阳"
         ]
     },
     {
@@ -14786,9 +14957,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春草",
-        "王维",
-        "送别",
-        "王孙"
+            "王维",
+            "送别",
+            "王孙"
         ]
     },
     {
@@ -14804,9 +14975,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山水",
-        "欧阳修",
-        "醉翁亭记",
-        "寓酒"
+            "欧阳修",
+            "醉翁亭记",
+            "寓酒"
         ],
         "poetryType": false
     },
@@ -14823,9 +14994,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日暮",
-        "韩翃",
-        "寒食",
-        "蜡烛"
+            "韩翃",
+            "寒食",
+            "蜡烛"
         ]
     },
     {
@@ -14841,9 +15012,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "毛泽东",
-        "长征",
-        "革命"
+            "毛泽东",
+            "长征",
+            "革命"
         ]
     },
     {
@@ -14859,9 +15030,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "方塘",
-        "朱熹",
-        "观书有感",
-        "天光"
+            "朱熹",
+            "观书有感",
+            "天光"
         ]
     },
     {
@@ -14877,9 +15048,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "下马",
-        "王维",
-        "送别",
-        "饮君"
+            "王维",
+            "送别",
+            "饮君"
         ]
     },
     {
@@ -14895,11 +15066,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "树林",
-        "欧阳修",
-        "醉翁亭记",
-        "阴翳"
+            "欧阳修",
+            "醉翁亭记",
+            "阴翳"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu2_182",
@@ -14914,9 +15086,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "移舟",
-        "孟浩然",
-        "宿建德江",
-        "烟渚"
+            "孟浩然",
+            "宿建德江",
+            "烟渚"
         ]
     },
     {
@@ -14932,9 +15104,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春夜喜雨",
-        "春天"
+            "杜甫",
+            "春夜喜雨",
+            "春天"
         ]
     },
     {
@@ -14950,9 +15122,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "源头",
-        "朱熹",
-        "观书有感",
-        "源头"
+            "朱熹",
+            "观书有感",
+            "源头"
         ]
     },
     {
@@ -14968,9 +15140,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "不得意",
-        "王维",
-        "送别",
-        "南山"
+            "王维",
+            "送别",
+            "南山"
         ]
     },
     {
@@ -14986,9 +15158,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人之乐",
-        "欧阳修",
-        "醉翁亭记",
-        "太守法"
+            "欧阳修",
+            "醉翁亭记",
+            "太守法"
         ],
         "poetryType": false
     },
@@ -15005,9 +15177,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野旷",
-        "孟浩然",
-        "宿建德江",
-        "月近"
+            "孟浩然",
+            "宿建德江",
+            "月近"
         ]
     },
     {
@@ -15023,9 +15195,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春夜喜雨",
-        "夜景"
+            "杜甫",
+            "春夜喜雨",
+            "夜景"
         ]
     },
     {
@@ -15041,9 +15213,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春天",
-        "朱熹",
-        "春日",
-        "光景"
+            "朱熹",
+            "春日",
+            "光景"
         ]
     },
     {
@@ -15059,9 +15231,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "但去",
-        "王维",
-        "送别",
-        "白云"
+            "王维",
+            "送别",
+            "白云"
         ]
     },
     {
@@ -15077,9 +15249,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "醉能",
-        "欧阳修",
-        "醉翁亭记",
-        "述文"
+            "欧阳修",
+            "醉翁亭记",
+            "述文"
         ],
         "poetryType": false
     },
@@ -15096,9 +15268,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "床前",
-        "李白",
-        "静夜思",
-        "明月光"
+            "李白",
+            "静夜思",
+            "明月光"
         ]
     },
     {
@@ -15114,9 +15286,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春夜喜雨",
-        "春天"
+            "杜甫",
+            "春夜喜雨",
+            "春天"
         ]
     },
     {
@@ -15132,9 +15304,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春色",
-        "朱熹",
-        "春日",
-        "万紫千红"
+            "朱熹",
+            "春日",
+            "万紫千红"
         ]
     },
     {
@@ -15150,11 +15322,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野芳",
-        "欧阳修",
-        "醉翁亭记",
-        "佳木"
+            "欧阳修",
+            "醉翁亭记",
+            "佳木"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu1_185",
@@ -15169,9 +15342,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "客路",
-        "王湾",
-        "次北固山下",
-        "青山"
+            "王湾",
+            "次北固山下",
+            "青山"
         ]
     },
     {
@@ -15187,9 +15360,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "举头",
-        "李白",
-        "静夜思",
-        "思故乡"
+            "李白",
+            "静夜思",
+            "思故乡"
         ]
     },
     {
@@ -15205,9 +15378,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜甫",
-        "春夜喜雨",
-        "春天"
+            "杜甫",
+            "春夜喜雨",
+            "春天"
         ]
     },
     {
@@ -15223,9 +15396,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蝉",
-        "骆宾王",
-        "在狱咏蝉",
-        "南冠"
+            "骆宾王",
+            "在狱咏蝉",
+            "南冠"
         ]
     },
     {
@@ -15241,10 +15414,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "海日",
-        "王湾",
-        "次北固山下",
-        "残夜"
-        ]
+            "王湾",
+            "次北固山下",
+            "残夜"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_186",
@@ -15259,11 +15433,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日出",
-        "欧阳修",
-        "醉翁亭记",
-        "林霏"
+            "欧阳修",
+            "醉翁亭记",
+            "林霏"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu2_186",
@@ -15278,9 +15453,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千山",
-        "柳宗元",
-        "江雪",
-        "鸟飞"
+            "柳宗元",
+            "江雪",
+            "鸟飞"
         ]
     },
     {
@@ -15296,9 +15471,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼",
-        "怀古"
+            "崔颢",
+            "黄鹤楼",
+            "怀古"
         ]
     },
     {
@@ -15314,9 +15489,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "露",
-        "骆宾王",
-        "在狱咏蝉",
-        "风多"
+            "骆宾王",
+            "在狱咏蝉",
+            "风多"
         ]
     },
     {
@@ -15332,10 +15507,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乡书",
-        "王湾",
-        "次北固山下",
-        "归雁"
-        ]
+            "王湾",
+            "次北固山下",
+            "归雁"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_187",
@@ -15350,11 +15526,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野芳",
-        "欧阳修",
-        "醉翁亭记",
-        "佳木"
+            "欧阳修",
+            "醉翁亭记",
+            "佳木"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu2_187",
@@ -15369,9 +15546,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孤舟",
-        "柳宗元",
-        "江雪",
-        "蓑笠"
+            "柳宗元",
+            "江雪",
+            "蓑笠"
         ]
     },
     {
@@ -15387,9 +15564,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼",
-        "写景"
+            "崔颢",
+            "黄鹤楼",
+            "写景"
         ]
     },
     {
@@ -15405,9 +15582,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "朝而",
-        "欧阳修",
-        "醉翁亭记",
-        "无穷"
+            "欧阳修",
+            "醉翁亭记",
+            "无穷"
         ],
         "poetryType": false
     },
@@ -15424,10 +15601,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "回乐",
-        "李益",
-        "夜上受降城闻笛",
-        "似雪"
-        ]
+            "李益",
+            "夜上受降城闻笛",
+            "似雪"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_188",
@@ -15442,9 +15620,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "空山",
-        "王维",
-        "鹿柴",
-        "人语"
+            "王维",
+            "鹿柴",
+            "人语"
         ]
     },
     {
@@ -15460,9 +15638,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼",
-        "思乡"
+            "崔颢",
+            "黄鹤楼",
+            "思乡"
         ]
     },
     {
@@ -15478,9 +15656,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "潭中",
-        "柳宗元",
-        "小石潭记",
-        "空游"
+            "柳宗元",
+            "小石潭记",
+            "空游"
         ],
         "poetryType": false
     },
@@ -15497,10 +15675,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "芦管",
-        "李益",
-        "夜上受降城闻笛",
-        "望乡"
-        ]
+            "李益",
+            "夜上受降城闻笛",
+            "望乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_189",
@@ -15515,9 +15694,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "返景",
-        "王维",
-        "鹿柴",
-        "青苔"
+            "王维",
+            "鹿柴",
+            "青苔"
         ]
     },
     {
@@ -15533,9 +15712,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韦应物",
-        "滁州西涧",
-        "春天"
+            "韦应物",
+            "滁州西涧",
+            "春天"
         ]
     },
     {
@@ -15551,9 +15730,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日光",
-        "柳宗元",
-        "小石潭记",
-        "影布"
+            "柳宗元",
+            "小石潭记",
+            "影布"
         ],
         "poetryType": false
     },
@@ -15570,9 +15749,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "半亩",
-        "朱熹",
-        "观书有感",
-        "方塘"
+            "朱熹",
+            "观书有感",
+            "方塘"
         ]
     },
     {
@@ -15588,9 +15767,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "独坐",
-        "王维",
-        "竹里馆",
-        "幽篁"
+            "王维",
+            "竹里馆",
+            "幽篁"
         ]
     },
     {
@@ -15606,9 +15785,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韦应物",
-        "滁州西涧",
-        "写景"
+            "韦应物",
+            "滁州西涧",
+            "写景"
         ]
     },
     {
@@ -15624,9 +15803,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青海",
-        "王昌龄",
-        "从军行",
-        "长云"
+            "王昌龄",
+            "从军行",
+            "长云"
         ]
     },
     {
@@ -15642,9 +15821,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "佁然",
-        "柳宗元",
-        "小石潭记",
-        "翕忽"
+            "柳宗元",
+            "小石潭记",
+            "翕忽"
         ],
         "poetryType": false
     },
@@ -15661,9 +15840,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "渠",
-        "朱熹",
-        "观书有感",
-        "源头"
+            "朱熹",
+            "观书有感",
+            "源头"
         ]
     },
     {
@@ -15679,9 +15858,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "深林",
-        "王维",
-        "竹里馆",
-        "明月"
+            "王维",
+            "竹里馆",
+            "明月"
         ]
     },
     {
@@ -15697,10 +15876,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "夏天",
-        "写景"
-        ]
+            "苏轼",
+            "夏天",
+            "写景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_192",
@@ -15715,9 +15895,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "楼兰",
-        "王昌龄",
-        "从军行",
-        "黄沙"
+            "王昌龄",
+            "从军行",
+            "黄沙"
         ]
     },
     {
@@ -15733,9 +15913,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "西南",
-        "柳宗元",
-        "小石潭记",
-        "明灭"
+            "柳宗元",
+            "小石潭记",
+            "明灭"
         ]
     },
     {
@@ -15751,10 +15931,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "溪亭",
-        "李清照",
-        "如梦令",
-        "日暮"
-        ]
+            "李清照",
+            "如梦令",
+            "日暮"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_192",
@@ -15769,9 +15950,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人闲",
-        "王维",
-        "鸟鸣涧",
-        "桂花"
+            "王维",
+            "鸟鸣涧",
+            "桂花"
         ]
     },
     {
@@ -15787,9 +15968,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "夏天",
-        "写景"
+            "苏轼",
+            "夏天",
+            "写景"
         ]
     },
     {
@@ -15805,9 +15986,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "犬牙",
-        "柳宗元",
-        "小石潭记",
-        "差互"
+            "柳宗元",
+            "小石潭记",
+            "差互"
         ]
     },
     {
@@ -15823,10 +16004,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "兴尽",
-        "李清照",
-        "如梦令",
-        "藕花"
-        ]
+            "李清照",
+            "如梦令",
+            "藕花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_193",
@@ -15841,9 +16023,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月出",
-        "王维",
-        "鸟鸣涧",
-        "惊山"
+            "王维",
+            "鸟鸣涧",
+            "惊山"
         ]
     },
     {
@@ -15859,9 +16041,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "西湖",
-        "写景"
+            "苏轼",
+            "西湖",
+            "写景"
         ]
     },
     {
@@ -15877,9 +16059,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "坐潭",
-        "柳宗元",
-        "小石潭记",
-        "悄怆"
+            "柳宗元",
+            "小石潭记",
+            "悄怆"
         ],
         "poetryType": false
     },
@@ -15896,10 +16078,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "争渡",
-        "李清照",
-        "如梦令",
-        "鸥鹭"
-        ]
+            "李清照",
+            "如梦令",
+            "鸥鹭"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_194",
@@ -15914,9 +16097,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "单车",
-        "王维",
-        "使至塞上",
-        "问边"
+            "王维",
+            "使至塞上",
+            "问边"
         ]
     },
     {
@@ -15932,9 +16115,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "西湖",
-        "比喻"
+            "苏轼",
+            "西湖",
+            "比喻"
         ]
     },
     {
@@ -15950,9 +16133,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闺怨",
-        "王昌龄",
-        "闺怨",
-        "少妇"
+            "王昌龄",
+            "闺怨",
+            "少妇"
         ]
     },
     {
@@ -15968,9 +16151,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山",
-        "刘禹锡",
-        "陋室铭",
-        "仙"
+            "刘禹锡",
+            "陋室铭",
+            "仙"
         ],
         "poetryType": false
     },
@@ -15987,10 +16170,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沉醉",
-        "李清照",
-        "如梦令",
-        "沉醉"
-        ]
+            "李清照",
+            "如梦令",
+            "沉醉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_195",
@@ -16005,9 +16189,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "大漠",
-        "王维",
-        "使至塞上",
-        "孤烟"
+            "王维",
+            "使至塞上",
+            "孤烟"
         ]
     },
     {
@@ -16023,9 +16207,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "春天",
-        "写景"
+            "苏轼",
+            "春天",
+            "写景"
         ]
     },
     {
@@ -16041,9 +16225,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "悔恨",
-        "王昌龄",
-        "闺怨",
-        "杨柳"
+            "王昌龄",
+            "闺怨",
+            "杨柳"
         ]
     },
     {
@@ -16059,9 +16243,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "水",
-        "刘禹锡",
-        "陋室铭",
-        "龙"
+            "刘禹锡",
+            "陋室铭",
+            "龙"
         ],
         "poetryType": false
     },
@@ -16078,9 +16262,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "农家",
-        "陆游",
-        "游山西村",
-        "腊酒"
+            "陆游",
+            "游山西村",
+            "腊酒"
         ]
     },
     {
@@ -16096,9 +16280,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "渡远",
-        "李白",
-        "渡荆门送别",
-        "荆门"
+            "李白",
+            "渡荆门送别",
+            "荆门"
         ]
     },
     {
@@ -16114,9 +16298,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "苏轼",
-        "春天",
-        "写景"
+            "苏轼",
+            "春天",
+            "写景"
         ]
     },
     {
@@ -16132,9 +16316,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "团扇",
-        "王昌龄",
-        "长信秋词",
-        "奉帚"
+            "王昌龄",
+            "长信秋词",
+            "奉帚"
         ]
     },
     {
@@ -16150,9 +16334,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "陋室",
-        "刘禹锡",
-        "陋室铭",
-        "德馨"
+            "刘禹锡",
+            "陋室铭",
+            "德馨"
         ],
         "poetryType": false
     },
@@ -16169,9 +16353,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山重",
-        "陆游",
-        "游山西村",
-        "柳暗"
+            "陆游",
+            "游山西村",
+            "柳暗"
         ]
     },
     {
@@ -16187,9 +16371,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山随",
-        "李白",
-        "渡荆门送别",
-        "平野"
+            "李白",
+            "渡荆门送别",
+            "平野"
         ]
     },
     {
@@ -16205,9 +16389,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "爱国",
-        "河山"
+            "陆游",
+            "爱国",
+            "河山"
         ]
     },
     {
@@ -16223,9 +16407,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋叶",
-        "王昌龄",
-        "长信秋词",
-        "金井"
+            "王昌龄",
+            "长信秋词",
+            "金井"
         ]
     },
     {
@@ -16241,11 +16425,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "苔痕",
-        "刘禹锡",
-        "陋室铭",
-        "阶绿"
+            "刘禹锡",
+            "陋室铭",
+            "阶绿"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu1_198",
@@ -16260,9 +16445,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "箫鼓",
-        "陆游",
-        "游山西村",
-        "春社"
+            "陆游",
+            "游山西村",
+            "春社"
         ]
     },
     {
@@ -16278,9 +16463,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故乡水",
-        "李白",
-        "渡荆门送别",
-        "送行"
+            "李白",
+            "渡荆门送别",
+            "送行"
         ]
     },
     {
@@ -16296,9 +16481,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "爱国",
-        "思乡"
+            "陆游",
+            "爱国",
+            "思乡"
         ]
     },
     {
@@ -16314,9 +16499,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "清漏",
-        "王昌龄",
-        "长信秋词",
-        "熏笼"
+            "王昌龄",
+            "长信秋词",
+            "熏笼"
         ]
     },
     {
@@ -16332,9 +16517,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "谈笑",
-        "刘禹锡",
-        "陋室铭",
-        "鸿儒"
+            "刘禹锡",
+            "陋室铭",
+            "鸿儒"
         ],
         "poetryType": false
     },
@@ -16351,9 +16536,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闲乘月",
-        "陆游",
-        "游山西村",
-        "叩门"
+            "陆游",
+            "游山西村",
+            "叩门"
         ]
     },
     {
@@ -16369,9 +16554,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "烽火",
-        "陈子昂",
-        "感遇",
-        "西京"
+            "陈子昂",
+            "感遇",
+            "西京"
         ]
     },
     {
@@ -16387,9 +16572,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "示儿",
-        "爱国"
+            "陆游",
+            "示儿",
+            "爱国"
         ]
     },
     {
@@ -16405,9 +16590,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "薄命",
-        "杜牧",
-        "宫怨",
-        "寻思"
+            "杜牧",
+            "宫怨",
+            "寻思"
         ]
     },
     {
@@ -16423,9 +16608,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "丝竹",
-        "刘禹锡",
-        "陋室铭",
-        "劳形"
+            "刘禹锡",
+            "陋室铭",
+            "劳形"
         ],
         "poetryType": false
     },
@@ -16442,9 +16627,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "死去",
-        "陆游",
-        "示儿",
-        "万事"
+            "陆游",
+            "示儿",
+            "万事"
         ]
     },
     {
@@ -16460,9 +16645,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "海内",
-        "王勃",
-        "送杜少府之任蜀州",
-        "知己"
+            "王勃",
+            "送杜少府之任蜀州",
+            "知己"
         ]
     },
     {
@@ -16478,9 +16663,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "示儿",
-        "爱国"
+            "陆游",
+            "示儿",
+            "爱国"
         ]
     },
     {
@@ -16496,9 +16681,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蜡烛",
-        "杜牧",
-        "赠别",
-        "惜别"
+            "杜牧",
+            "赠别",
+            "惜别"
         ]
     },
     {
@@ -16514,9 +16699,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "诸葛",
-        "刘禹锡",
-        "陋室铭",
-        "子云"
+            "刘禹锡",
+            "陋室铭",
+            "子云"
         ],
         "poetryType": false
     },
@@ -16533,9 +16718,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "王师",
-        "陆游",
-        "示儿",
-        "祭"
+            "陆游",
+            "示儿",
+            "祭"
         ]
     },
     {
@@ -16551,9 +16736,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "歧路",
-        "王勃",
-        "送杜少府之任蜀州",
-        "沾巾"
+            "王勃",
+            "送杜少府之任蜀州",
+            "沾巾"
         ]
     },
     {
@@ -16569,9 +16754,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "读书",
-        "励志"
+            "陆游",
+            "读书",
+            "励志"
         ]
     },
     {
@@ -16587,9 +16772,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "豆蔻",
-        "杜牧",
-        "赠别",
-        "十三"
+            "杜牧",
+            "赠别",
+            "十三"
         ]
     },
     {
@@ -16605,9 +16790,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孔子",
-        "刘禹锡",
-        "陋室铭",
-        "何陋"
+            "刘禹锡",
+            "陋室铭",
+            "何陋"
         ],
         "poetryType": false
     },
@@ -16624,9 +16809,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "三万里",
-        "陆游",
-        "秋夜将晓出篱门迎凉有感",
-        "摩天"
+            "陆游",
+            "秋夜将晓出篱门迎凉有感",
+            "摩天"
         ]
     },
     {
@@ -16642,9 +16827,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "城阙",
-        "王勃",
-        "送杜少府之任蜀州",
-        "三秦"
+            "王勃",
+            "送杜少府之任蜀州",
+            "三秦"
         ]
     },
     {
@@ -16660,9 +16845,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "读书",
-        "实践"
+            "陆游",
+            "读书",
+            "实践"
         ]
     },
     {
@@ -16678,9 +16863,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "珠帘",
-        "杜牧",
-        "赠别",
-        "扬州"
+            "杜牧",
+            "赠别",
+            "扬州"
         ]
     },
     {
@@ -16696,9 +16881,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "浮光",
-        "范仲淹",
-        "岳阳楼记",
-        "跃金"
+            "范仲淹",
+            "岳阳楼记",
+            "跃金"
         ],
         "poetryType": false
     },
@@ -16715,9 +16900,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "遗民",
-        "陆游",
-        "秋夜将晓出篱门迎凉有感",
-        "胡尘"
+            "陆游",
+            "秋夜将晓出篱门迎凉有感",
+            "胡尘"
         ]
     },
     {
@@ -16733,9 +16918,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "离别",
-        "王勃",
-        "送杜少府之任蜀州",
-        "宦游"
+            "王勃",
+            "送杜少府之任蜀州",
+            "宦游"
         ]
     },
     {
@@ -16751,10 +16936,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "凉州词",
-        "边塞"
-        ]
+            "王之涣",
+            "凉州词",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_204",
@@ -16769,9 +16955,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "多情",
-        "杜牧",
-        "赠别",
-        "无情"
+            "杜牧",
+            "赠别",
+            "无情"
         ]
     },
     {
@@ -16787,9 +16973,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "长烟",
-        "范仲淹",
-        "岳阳楼记",
-        "一空"
+            "范仲淹",
+            "岳阳楼记",
+            "一空"
         ],
         "poetryType": false
     },
@@ -16806,9 +16992,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "前不见",
-        "陈子昂",
-        "登幽州台歌",
-        "来者"
+            "陈子昂",
+            "登幽州台歌",
+            "来者"
         ]
     },
     {
@@ -16824,9 +17010,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "木兰诗",
-        "北朝民歌",
-        "战争"
+            "木兰诗",
+            "北朝民歌",
+            "战争"
         ]
     },
     {
@@ -16842,9 +17028,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "端午",
-        "杜甫",
-        "端午日赐衣",
-        "细葛"
+            "杜甫",
+            "端午日赐衣",
+            "细葛"
         ]
     },
     {
@@ -16860,11 +17046,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "静影",
-        "范仲淹",
-        "岳阳楼记",
-        "沉璧"
+            "范仲淹",
+            "岳阳楼记",
+            "沉璧"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_chu1_205",
@@ -16879,9 +17066,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "东临",
-        "曹操",
-        "观沧海",
-        "澹澹"
+            "曹操",
+            "观沧海",
+            "澹澹"
         ]
     },
     {
@@ -16897,9 +17084,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天地",
-        "陈子昂",
-        "登幽州台歌",
-        "涕下"
+            "陈子昂",
+            "登幽州台歌",
+            "涕下"
         ]
     },
     {
@@ -16915,9 +17102,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "木兰诗",
-        "北朝民歌",
-        "女性"
+            "木兰诗",
+            "北朝民歌",
+            "女性"
         ]
     },
     {
@@ -16933,13 +17120,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "宫衣",
-        "杜甫",
-        "端午日赐衣",
-        "恩荣"
+            "杜甫",
+            "端午日赐衣",
+            "恩荣"
         ]
     },
     {
         "id": "q_zk_206",
+        "poetryType": false,
         "type": "fill",
         "grade": "zk",
         "source": "古诗词真题精选",
@@ -16951,9 +17139,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "登斯",
-        "范仲淹",
-        "岳阳楼记",
-        "怡"
+            "范仲淹",
+            "岳阳楼记",
+            "怡"
         ]
     },
     {
@@ -16969,10 +17157,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "树木",
-        "曹操",
-        "观沧海",
-        "丰茂"
-        ]
+            "曹操",
+            "观沧海",
+            "丰茂"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_206",
@@ -16987,9 +17176,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "结庐",
-        "陶渊明",
-        "饮酒·其五",
-        "车马"
+            "陶渊明",
+            "饮酒·其五",
+            "车马"
         ]
     },
     {
@@ -17005,9 +17194,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟郊",
-        "游子吟",
-        "母爱"
+            "孟郊",
+            "游子吟",
+            "母爱"
         ]
     },
     {
@@ -17023,10 +17212,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春城",
-        "韩翃",
-        "寒食",
-        "飞花"
-        ]
+            "韩翃",
+            "寒食",
+            "飞花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_207",
@@ -17041,9 +17231,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "嗟夫",
-        "范仲淹",
-        "岳阳楼记",
-        "微斯"
+            "范仲淹",
+            "岳阳楼记",
+            "微斯"
         ],
         "poetryType": false
     },
@@ -17060,10 +17250,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋风",
-        "曹操",
-        "观沧海",
-        "洪波"
-        ]
+            "曹操",
+            "观沧海",
+            "洪波"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_207",
@@ -17078,9 +17269,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "问君",
-        "陶渊明",
-        "饮酒·其五",
-        "心远"
+            "陶渊明",
+            "饮酒·其五",
+            "心远"
         ]
     },
     {
@@ -17096,9 +17287,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟郊",
-        "游子吟",
-        "母爱"
+            "孟郊",
+            "游子吟",
+            "母爱"
         ]
     },
     {
@@ -17114,10 +17305,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蜡烛",
-        "韩翃",
-        "寒食",
-        "五侯"
-        ]
+            "韩翃",
+            "寒食",
+            "五侯"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_208",
@@ -17132,9 +17324,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "环滁",
-        "欧阳修",
-        "醉翁亭记",
-        "琅琊"
+            "欧阳修",
+            "醉翁亭记",
+            "琅琊"
         ],
         "poetryType": false
     },
@@ -17151,9 +17343,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日月",
-        "曹操",
-        "观沧海",
-        "星汉"
+            "曹操",
+            "观沧海",
+            "星汉"
         ]
     },
     {
@@ -17169,9 +17361,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "采菊",
-        "陶渊明",
-        "饮酒·其五",
-        "南山"
+            "陶渊明",
+            "饮酒·其五",
+            "南山"
         ]
     },
     {
@@ -17187,9 +17379,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟郊",
-        "游子吟",
-        "母爱"
+            "孟郊",
+            "游子吟",
+            "母爱"
         ]
     },
     {
@@ -17205,10 +17397,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "移舟",
-        "孟浩然",
-        "宿建德江",
-        "烟渚"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "烟渚"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_209",
@@ -17223,9 +17416,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山行",
-        "欧阳修",
-        "醉翁亭记",
-        "潺潺"
+            "欧阳修",
+            "醉翁亭记",
+            "潺潺"
         ],
         "poetryType": false
     },
@@ -17242,10 +17435,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "岱宗",
-        "杜甫",
-        "望岳",
-        "齐鲁"
-        ]
+            "杜甫",
+            "望岳",
+            "齐鲁"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_209",
@@ -17260,9 +17454,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日夕",
-        "陶渊明",
-        "饮酒·其五",
-        "飞鸟"
+            "陶渊明",
+            "饮酒·其五",
+            "飞鸟"
         ],
         "poetryType": false
     },
@@ -17279,9 +17473,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟郊",
-        "游子吟",
-        "母爱"
+            "孟郊",
+            "游子吟",
+            "母爱"
         ]
     },
     {
@@ -17297,10 +17491,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野旷",
-        "孟浩然",
-        "宿建德江",
-        "天低"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "天低"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_210",
@@ -17315,9 +17510,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "作亭",
-        "欧阳修",
-        "醉翁亭记",
-        "智仙"
+            "欧阳修",
+            "醉翁亭记",
+            "智仙"
         ],
         "poetryType": false
     },
@@ -17334,9 +17529,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "造化",
-        "杜甫",
-        "望岳",
-        "神秀"
+            "杜甫",
+            "望岳",
+            "神秀"
         ]
     },
     {
@@ -17352,9 +17547,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "此中",
-        "陶渊明",
-        "饮酒·其五",
-        "忘言"
+            "陶渊明",
+            "饮酒·其五",
+            "忘言"
         ]
     },
     {
@@ -17370,10 +17565,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "登鹳雀楼",
-        "写景"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "写景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_211",
@@ -17388,9 +17584,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春眠",
-        "孟浩然",
-        "春晓",
-        "啼鸟"
+            "孟浩然",
+            "春晓",
+            "啼鸟"
         ]
     },
     {
@@ -17406,9 +17602,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "元嘉",
-        "辛弃疾",
-        "永遇乐·京口北固亭怀古",
-        "草草"
+            "辛弃疾",
+            "永遇乐·京口北固亭怀古",
+            "草草"
         ]
     },
     {
@@ -17424,10 +17620,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "荡胸",
-        "杜甫",
-        "望岳",
-        "曾云"
-        ]
+            "杜甫",
+            "望岳",
+            "曾云"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_211",
@@ -17442,9 +17639,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蝉噪",
-        "王籍",
-        "入若耶溪",
-        "林逾"
+            "王籍",
+            "入若耶溪",
+            "林逾"
         ]
     },
     {
@@ -17460,10 +17657,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "登鹳雀楼",
-        "哲理"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "哲理"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_212",
@@ -17478,9 +17676,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "花落",
-        "孟浩然",
-        "春晓",
-        "风雨"
+            "孟浩然",
+            "春晓",
+            "风雨"
         ]
     },
     {
@@ -17496,9 +17694,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "四十三年",
-        "辛弃疾",
-        "永遇乐·京口北固亭怀古",
-        "扬州"
+            "辛弃疾",
+            "永遇乐·京口北固亭怀古",
+            "扬州"
         ]
     },
     {
@@ -17514,10 +17712,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "会当",
-        "杜甫",
-        "望岳",
-        "绝顶"
-        ]
+            "杜甫",
+            "望岳",
+            "绝顶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_212",
@@ -17532,9 +17731,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "茅檐",
-        "王安石",
-        "书湖阴先生壁",
-        "无苔"
+            "王安石",
+            "书湖阴先生壁",
+            "无苔"
         ]
     },
     {
@@ -17550,9 +17749,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陶渊明",
-        "饮酒",
-        "田园"
+            "陶渊明",
+            "饮酒",
+            "田园"
         ]
     },
     {
@@ -17568,10 +17767,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白日",
-        "王之涣",
-        "登鹳雀楼",
-        "入海"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "入海"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_213",
@@ -17586,9 +17786,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "佛狸",
-        "辛弃疾",
-        "永遇乐·京口北固亭怀古",
-        "社鼓"
+            "辛弃疾",
+            "永遇乐·京口北固亭怀古",
+            "社鼓"
         ]
     },
     {
@@ -17604,9 +17804,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "国破",
-        "杜甫",
-        "春望",
-        "山河"
+            "杜甫",
+            "春望",
+            "山河"
         ]
     },
     {
@@ -17622,9 +17822,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "一水",
-        "王安石",
-        "书湖阴先生壁",
-        "绿绕"
+            "王安石",
+            "书湖阴先生壁",
+            "绿绕"
         ]
     },
     {
@@ -17640,9 +17840,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陶渊明",
-        "饮酒",
-        "田园"
+            "陶渊明",
+            "饮酒",
+            "田园"
         ]
     },
     {
@@ -17658,9 +17858,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千里",
-        "王之涣",
-        "登鹳雀楼",
-        "更上"
+            "王之涣",
+            "登鹳雀楼",
+            "更上"
         ]
     },
     {
@@ -17676,9 +17876,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "廉颇",
-        "辛弃疾",
-        "永遇乐·京口北固亭怀古",
-        "饭否"
+            "辛弃疾",
+            "永遇乐·京口北固亭怀古",
+            "饭否"
         ]
     },
     {
@@ -17694,10 +17894,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "感时",
-        "杜甫",
-        "春望",
-        "溅泪"
-        ]
+            "杜甫",
+            "春望",
+            "溅泪"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_214",
@@ -17712,9 +17913,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "飞来峰",
-        "王安石",
-        "登飞来峰",
-        "千寻"
+            "王安石",
+            "登飞来峰",
+            "千寻"
         ]
     },
     {
@@ -17730,9 +17931,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "过故人庄",
-        "田园"
+            "孟浩然",
+            "过故人庄",
+            "田园"
         ]
     },
     {
@@ -17748,9 +17949,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "万径",
-        "柳宗元",
-        "江雪",
-        "人踪"
+            "柳宗元",
+            "江雪",
+            "人踪"
         ]
     },
     {
@@ -17766,9 +17967,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千古",
-        "辛弃疾",
-        "永遇乐·京口北固亭怀古",
-        "英雄"
+            "辛弃疾",
+            "永遇乐·京口北固亭怀古",
+            "英雄"
         ]
     },
     {
@@ -17784,10 +17985,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "烽火",
-        "杜甫",
-        "春望",
-        "家书"
-        ]
+            "杜甫",
+            "春望",
+            "家书"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_215",
@@ -17802,9 +18004,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "不畏",
-        "王安石",
-        "登飞来峰",
-        "最高层"
+            "王安石",
+            "登飞来峰",
+            "最高层"
         ]
     },
     {
@@ -17820,9 +18022,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "孟浩然",
-        "过故人庄",
-        "田园"
+            "孟浩然",
+            "过故人庄",
+            "田园"
         ]
     },
     {
@@ -17838,9 +18040,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "寒江",
-        "柳宗元",
-        "江雪",
-        "独钓"
+            "柳宗元",
+            "江雪",
+            "独钓"
         ]
     },
     {
@@ -17856,9 +18058,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "舞榭",
-        "辛弃疾",
-        "永遇乐·京口北固亭怀古",
-        "风流"
+            "辛弃疾",
+            "永遇乐·京口北固亭怀古",
+            "风流"
         ]
     },
     {
@@ -17874,10 +18076,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白头",
-        "杜甫",
-        "春望",
-        "搔更短"
-        ]
+            "杜甫",
+            "春望",
+            "搔更短"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_216",
@@ -17892,10 +18095,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闻说",
-        "王安石",
-        "登飞来峰",
-        "日升"
-        ]
+            "王安石",
+            "登飞来峰",
+            "日升"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_217",
@@ -17910,9 +18114,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "高适",
-        "别董大",
-        "送别"
+            "高适",
+            "别董大",
+            "送别"
         ]
     },
     {
@@ -17928,10 +18132,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "移舟",
-        "孟浩然",
-        "宿建德江",
-        "客愁"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "客愁"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_217",
@@ -17946,9 +18151,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "斜阳",
-        "辛弃疾",
-        "永遇乐·京口北固亭怀古",
-        "寄奴"
+            "辛弃疾",
+            "永遇乐·京口北固亭怀古",
+            "寄奴"
         ]
     },
     {
@@ -17964,9 +18169,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "客路",
-        "王湾",
-        "次北固山下",
-        "青山"
+            "王湾",
+            "次北固山下",
+            "青山"
         ]
     },
     {
@@ -17982,9 +18187,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "京口",
-        "王安石",
-        "泊船瓜洲",
-        "瓜洲"
+            "王安石",
+            "泊船瓜洲",
+            "瓜洲"
         ]
     },
     {
@@ -18000,9 +18205,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "高适",
-        "别董大",
-        "友情"
+            "高适",
+            "别董大",
+            "友情"
         ]
     },
     {
@@ -18018,10 +18223,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江清",
-        "孟浩然",
-        "宿建德江",
-        "月近"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "月近"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_218",
@@ -18036,9 +18242,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "金戈",
-        "辛弃疾",
-        "永遇乐·京口北固亭怀古",
-        "如虎"
+            "辛弃疾",
+            "永遇乐·京口北固亭怀古",
+            "如虎"
         ]
     },
     {
@@ -18054,9 +18260,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "潮平",
-        "王湾",
-        "次北固山下",
-        "帆悬"
+            "王湾",
+            "次北固山下",
+            "帆悬"
         ]
     },
     {
@@ -18072,9 +18278,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春风又",
-        "王安石",
-        "泊船瓜洲",
-        "江南"
+            "王安石",
+            "泊船瓜洲",
+            "江南"
         ]
     },
     {
@@ -18090,10 +18296,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "岑参",
-        "送别",
-        "边塞"
-        ]
+            "岑参",
+            "送别",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_219",
@@ -18108,10 +18315,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春眠",
-        "孟浩然",
-        "春晓",
-        "不觉"
-        ]
+            "孟浩然",
+            "春晓",
+            "不觉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_219",
@@ -18126,10 +18334,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "明月",
-        "苏轼",
-        "水调歌头",
-        "青天"
-        ]
+            "苏轼",
+            "水调歌头",
+            "青天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_219",
@@ -18144,10 +18353,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "海日",
-        "王湾",
-        "次北固山下",
-        "残夜"
-        ]
+            "王湾",
+            "次北固山下",
+            "残夜"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_219",
@@ -18162,9 +18372,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蒹葭苍",
-        "无名氏",
-        "诗经·蒹葭",
-        "白露"
+            "无名氏",
+            "诗经·蒹葭",
+            "白露"
         ]
     },
     {
@@ -18180,9 +18390,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "早发白帝城",
-        "船行"
+            "李白",
+            "早发白帝城",
+            "船行"
         ]
     },
     {
@@ -18198,10 +18408,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜来",
-        "孟浩然",
-        "春晓",
-        "花落"
-        ]
+            "孟浩然",
+            "春晓",
+            "花落"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_220",
@@ -18216,10 +18427,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天上",
-        "苏轼",
-        "水调歌头",
-        "宫阙"
-        ]
+            "苏轼",
+            "水调歌头",
+            "宫阙"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_220",
@@ -18234,10 +18446,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乡书",
-        "王湾",
-        "次北固山下",
-        "归雁"
-        ]
+            "王湾",
+            "次北固山下",
+            "归雁"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_220",
@@ -18252,9 +18465,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蒹葭萋",
-        "无名氏",
-        "诗经·蒹葭",
-        "未晞"
+            "无名氏",
+            "诗经·蒹葭",
+            "未晞"
         ]
     },
     {
@@ -18270,10 +18483,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "示儿",
-        "爱国"
-        ]
+            "陆游",
+            "示儿",
+            "爱国"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_221",
@@ -18288,9 +18502,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "八月",
-        "孟浩然",
-        "望洞庭湖赠张丞相",
-        "太清"
+            "孟浩然",
+            "望洞庭湖赠张丞相",
+            "太清"
         ]
     },
     {
@@ -18306,10 +18520,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "悲欢",
-        "苏轼",
-        "水调歌头",
-        "圆缺"
-        ]
+            "苏轼",
+            "水调歌头",
+            "圆缺"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_221",
@@ -18324,10 +18539,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "枯藤",
-        "马致远",
-        "天净沙·秋思",
-        "昏鸦"
-        ]
+            "马致远",
+            "天净沙·秋思",
+            "昏鸦"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_221",
@@ -18342,9 +18558,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蒹葭采",
-        "无名氏",
-        "诗经·蒹葭",
-        "未已"
+            "无名氏",
+            "诗经·蒹葭",
+            "未已"
         ]
     },
     {
@@ -18360,9 +18576,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "陆游",
-        "示儿",
-        "爱国"
+            "陆游",
+            "示儿",
+            "爱国"
         ]
     },
     {
@@ -18378,9 +18594,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "气蒸",
-        "孟浩然",
-        "望洞庭湖赠张丞相",
-        "云梦"
+            "孟浩然",
+            "望洞庭湖赠张丞相",
+            "云梦"
         ]
     },
     {
@@ -18396,10 +18612,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "长久",
-        "苏轼",
-        "水调歌头",
-        "婵娟"
-        ]
+            "苏轼",
+            "水调歌头",
+            "婵娟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_222",
@@ -18414,10 +18631,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古道",
-        "马致远",
-        "天净沙·秋思",
-        "西风"
-        ]
+            "马致远",
+            "天净沙·秋思",
+            "西风"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_222",
@@ -18432,9 +18650,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "所谓伊",
-        "无名氏",
-        "诗经·蒹葭",
-        "一方"
+            "无名氏",
+            "诗经·蒹葭",
+            "一方"
         ]
     },
     {
@@ -18450,10 +18668,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范成大",
-        "田园",
-        "劳动"
-        ]
+            "范成大",
+            "田园",
+            "劳动"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_223",
@@ -18468,9 +18687,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "欲济",
-        "孟浩然",
-        "望洞庭湖赠张丞相",
-        "舟楫"
+            "孟浩然",
+            "望洞庭湖赠张丞相",
+            "舟楫"
         ]
     },
     {
@@ -18486,10 +18705,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "把酒",
-        "苏轼",
-        "水调歌头",
-        "青天"
-        ]
+            "苏轼",
+            "水调歌头",
+            "青天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_223",
@@ -18504,10 +18724,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夕阳",
-        "马致远",
-        "天净沙·秋思",
-        "断肠"
-        ]
+            "马致远",
+            "天净沙·秋思",
+            "断肠"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu2_223",
@@ -18522,9 +18743,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "溯洄",
-        "无名氏",
-        "诗经·蒹葭",
-        "中央"
+            "无名氏",
+            "诗经·蒹葭",
+            "中央"
         ]
     },
     {
@@ -18540,9 +18761,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范成大",
-        "田园",
-        "儿童"
+            "范成大",
+            "田园",
+            "儿童"
         ]
     },
     {
@@ -18558,9 +18779,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "垂钓",
-        "孟浩然",
-        "望洞庭湖赠张丞相",
-        "羡鱼"
+            "孟浩然",
+            "望洞庭湖赠张丞相",
+            "羡鱼"
         ]
     },
     {
@@ -18576,9 +18797,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乘风",
-        "苏轼",
-        "水调歌头",
-        "琼楼"
+            "苏轼",
+            "水调歌头",
+            "琼楼"
         ]
     },
     {
@@ -18594,9 +18815,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天净沙",
-        "马致远",
-        "天净沙·秋思",
-        "秋思"
+            "马致远",
+            "天净沙·秋思",
+            "秋思"
         ]
     },
     {
@@ -18612,9 +18833,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "道阻且",
-        "无名氏",
-        "诗经·蒹葭",
-        "中坻"
+            "无名氏",
+            "诗经·蒹葭",
+            "中坻"
         ]
     },
     {
@@ -18630,9 +18851,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范成大",
-        "田园",
-        "儿童"
+            "范成大",
+            "田园",
+            "儿童"
         ]
     },
     {
@@ -18648,9 +18869,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山暝",
-        "孟浩然",
-        "宿桐庐江寄广陵旧游",
-        "听猿"
+            "孟浩然",
+            "宿桐庐江寄广陵旧游",
+            "听猿"
         ]
     },
     {
@@ -18666,10 +18887,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "清影",
-        "苏轼",
-        "水调歌头",
-        "人间"
-        ]
+            "苏轼",
+            "水调歌头",
+            "人间"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_225",
@@ -18684,9 +18906,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "明月",
-        "辛弃疾",
-        "西江月·夜行黄沙道中",
-        "别枝"
+            "辛弃疾",
+            "西江月·夜行黄沙道中",
+            "别枝"
         ]
     },
     {
@@ -18702,9 +18924,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "道阻且右",
-        "无名氏",
-        "诗经·蒹葭",
-        "中沚"
+            "无名氏",
+            "诗经·蒹葭",
+            "中沚"
         ]
     },
     {
@@ -18720,9 +18942,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "范成大",
-        "田园",
-        "劳动"
+            "范成大",
+            "田园",
+            "劳动"
         ]
     },
     {
@@ -18738,9 +18960,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月照",
-        "孟浩然",
-        "宿桐庐江寄广陵旧游",
-        "孤舟"
+            "孟浩然",
+            "宿桐庐江寄广陵旧游",
+            "孤舟"
         ]
     },
     {
@@ -18756,10 +18978,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "朱阁",
-        "苏轼",
-        "水调歌头",
-        "绮户"
-        ]
+            "苏轼",
+            "水调歌头",
+            "绮户"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_226",
@@ -18774,9 +18997,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "稻花",
-        "辛弃疾",
-        "西江月·夜行黄沙道中",
-        "蛙声"
+            "辛弃疾",
+            "西江月·夜行黄沙道中",
+            "蛙声"
         ]
     },
     {
@@ -18792,9 +19015,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "挥手自",
-        "李白",
-        "送友人",
-        "班马"
+            "李白",
+            "送友人",
+            "班马"
         ]
     },
     {
@@ -18810,9 +19033,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "朱熹",
-        "春日",
-        "春天"
+            "朱熹",
+            "春日",
+            "春天"
         ]
     },
     {
@@ -18828,9 +19051,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄河",
-        "李白",
-        "将进酒",
-        "天上来"
+            "李白",
+            "将进酒",
+            "天上来"
         ]
     },
     {
@@ -18846,9 +19069,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "别时",
-        "苏轼",
-        "水调歌头",
-        "恨"
+            "苏轼",
+            "水调歌头",
+            "恨"
         ]
     },
     {
@@ -18864,9 +19087,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "星天外",
-        "辛弃疾",
-        "西江月·夜行黄沙道中",
-        "雨山前"
+            "辛弃疾",
+            "西江月·夜行黄沙道中",
+            "雨山前"
         ]
     },
     {
@@ -18882,9 +19105,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青山横",
-        "李白",
-        "送友人",
-        "北郭"
+            "李白",
+            "送友人",
+            "北郭"
         ]
     },
     {
@@ -18900,10 +19123,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "朱熹",
-        "春日",
-        "春天"
-        ]
+            "朱熹",
+            "春日",
+            "春天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_228",
@@ -18918,9 +19142,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "得意",
-        "李白",
-        "将进酒",
-        "金樽"
+            "李白",
+            "将进酒",
+            "金樽"
         ]
     },
     {
@@ -18936,10 +19160,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "阴晴",
-        "苏轼",
-        "水调歌头",
-        "离合"
-        ]
+            "苏轼",
+            "水调歌头",
+            "离合"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_228",
@@ -18954,9 +19179,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "旧时",
-        "辛弃疾",
-        "西江月·夜行黄沙道中",
-        "溪桥"
+            "辛弃疾",
+            "西江月·夜行黄沙道中",
+            "溪桥"
         ]
     },
     {
@@ -18972,9 +19197,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "此地一",
-        "李白",
-        "送友人",
-        "孤蓬"
+            "李白",
+            "送友人",
+            "孤蓬"
         ]
     },
     {
@@ -18990,9 +19215,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "朱熹",
-        "春日",
-        "春天"
+            "朱熹",
+            "春日",
+            "春天"
         ]
     },
     {
@@ -19008,9 +19233,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "材",
-        "李白",
-        "将进酒",
-        "千金"
+            "李白",
+            "将进酒",
+            "千金"
         ]
     },
     {
@@ -19026,13 +19251,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "大江",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "风流"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "风流"
         ]
     },
     {
         "id": "q_chu1_229",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu1",
         "source": "古诗词真题精选",
@@ -19044,9 +19270,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "学而",
-        "孔子",
-        "论语",
-        "时习"
+            "孔子",
+            "论语",
+            "时习"
         ]
     },
     {
@@ -19062,9 +19288,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "浮云游",
-        "李白",
-        "送友人",
-        "游子"
+            "李白",
+            "送友人",
+            "游子"
         ]
     },
     {
@@ -19080,10 +19306,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王之涣",
-        "凉州词",
-        "边塞"
-        ]
+            "王之涣",
+            "凉州词",
+            "边塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_230",
@@ -19098,9 +19325,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "烹羊",
-        "李白",
-        "将进酒",
-        "三百"
+            "李白",
+            "将进酒",
+            "三百"
         ]
     },
     {
@@ -19116,13 +19343,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故垒",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "周郎"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "周郎"
         ]
     },
     {
         "id": "q_chu1_230",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu1",
         "source": "古诗词真题精选",
@@ -19134,9 +19362,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "有朋",
-        "孔子",
-        "论语",
-        "远方"
+            "孔子",
+            "论语",
+            "远方"
         ]
     },
     {
@@ -19152,10 +19380,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "海内存",
-        "王勃",
-        "送杜少府之任蜀州",
-        "比邻"
-        ]
+            "王勃",
+            "送杜少府之任蜀州",
+            "比邻"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_231",
@@ -19170,10 +19399,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "高适",
-        "别董大",
-        "送别"
-        ]
+            "高适",
+            "别董大",
+            "送别"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_231",
@@ -19188,9 +19418,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "岑夫",
-        "李白",
-        "将进酒",
-        "丹丘"
+            "李白",
+            "将进酒",
+            "丹丘"
         ]
     },
     {
@@ -19206,13 +19436,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乱石",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "惊涛"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "惊涛"
         ]
     },
     {
         "id": "q_chu1_231",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu1",
         "source": "古诗词真题精选",
@@ -19224,9 +19455,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人不知",
-        "孔子",
-        "论语",
-        "君子"
+            "孔子",
+            "论语",
+            "君子"
         ]
     },
     {
@@ -19242,9 +19473,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "舍南有",
-        "陆游",
-        "东轩",
-        "琅玕"
+            "陆游",
+            "东轩",
+            "琅玕"
         ]
     },
     {
@@ -19260,10 +19491,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "高适",
-        "别董大",
-        "友情"
-        ]
+            "高适",
+            "别董大",
+            "友情"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_232",
@@ -19278,9 +19510,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "侧耳",
-        "李白",
-        "将进酒",
-        "君歌"
+            "李白",
+            "将进酒",
+            "君歌"
         ]
     },
     {
@@ -19296,13 +19528,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江山",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "豪杰"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "豪杰"
         ]
     },
     {
         "id": "q_chu1_232",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu1",
         "source": "古诗词真题精选",
@@ -19314,9 +19547,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "三人行",
-        "孔子",
-        "论语",
-        "师焉"
+            "孔子",
+            "论语",
+            "师焉"
         ]
     },
     {
@@ -19332,9 +19565,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韦应物",
-        "滁州西涧",
-        "春天"
+            "韦应物",
+            "滁州西涧",
+            "春天"
         ]
     },
     {
@@ -19350,9 +19583,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "钟鼓",
-        "李白",
-        "将进酒",
-        "不足"
+            "李白",
+            "将进酒",
+            "不足"
         ]
     },
     {
@@ -19368,9 +19601,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "公瑾",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "小乔"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "小乔"
         ]
     },
     {
@@ -19386,9 +19619,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "择其善",
-        "孔子",
-        "论语",
-        "从之"
+            "孔子",
+            "论语",
+            "从之"
         ],
         "poetryType": false
     },
@@ -19405,10 +19638,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "韦应物",
-        "滁州西涧",
-        "写景"
-        ]
+            "韦应物",
+            "滁州西涧",
+            "写景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_234",
@@ -19423,9 +19657,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "圣贤",
-        "李白",
-        "将进酒",
-        "寂寞"
+            "李白",
+            "将进酒",
+            "寂寞"
         ]
     },
     {
@@ -19441,9 +19675,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "羽扇",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "樯橹"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "樯橹"
         ]
     },
     {
@@ -19459,10 +19693,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "逝者",
-        "孔子",
-        "论语",
-        "昼夜"
-        ]
+            "孔子",
+            "论语",
+            "昼夜"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_mk_235",
@@ -19477,10 +19712,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张继",
-        "枫桥夜泊",
-        "羁旅"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "羁旅"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_235",
@@ -19495,9 +19731,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "陈王",
-        "李白",
-        "将进酒",
-        "宴平"
+            "李白",
+            "将进酒",
+            "宴平"
         ]
     },
     {
@@ -19513,13 +19749,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故国",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "华发"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "华发"
         ]
     },
     {
         "id": "q_chu1_235",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu1",
         "source": "古诗词真题精选",
@@ -19531,9 +19768,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "温故",
-        "孔子",
-        "论语",
-        "知新"
+            "孔子",
+            "论语",
+            "知新"
         ]
     },
     {
@@ -19549,10 +19786,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "张继",
-        "枫桥夜泊",
-        "夜景"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "夜景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_236",
@@ -19567,9 +19805,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沽取",
-        "李白",
-        "将进酒",
-        "少钱"
+            "李白",
+            "将进酒",
+            "少钱"
         ]
     },
     {
@@ -19585,9 +19823,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人生",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "酹江"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "酹江"
         ]
     },
     {
@@ -19603,9 +19841,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "学而不",
-        "孔子",
-        "论语",
-        "则罔"
+            "孔子",
+            "论语",
+            "则罔"
         ],
         "poetryType": false
     },
@@ -19622,10 +19860,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "清明",
-        "节日"
-        ]
+            "杜牧",
+            "清明",
+            "节日"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_237",
@@ -19640,9 +19879,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "换酒",
-        "李白",
-        "将进酒",
-        "千金"
+            "李白",
+            "将进酒",
+            "千金"
         ]
     },
     {
@@ -19658,9 +19897,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初见",
-        "纳兰性德",
-        "木兰词",
-        "秋风"
+            "纳兰性德",
+            "木兰词",
+            "秋风"
         ]
     },
     {
@@ -19676,9 +19915,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "知之者",
-        "孔子",
-        "论语",
-        "乐之"
+            "孔子",
+            "论语",
+            "乐之"
         ],
         "poetryType": false
     },
@@ -19695,10 +19934,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "清明",
-        "节日"
-        ]
+            "杜牧",
+            "清明",
+            "节日"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_238",
@@ -19713,9 +19953,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "万古",
-        "李白",
-        "将进酒",
-        "同销"
+            "李白",
+            "将进酒",
+            "同销"
         ]
     },
     {
@@ -19731,13 +19971,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故人",
-        "纳兰性德",
-        "木兰词",
-        "心变"
+            "纳兰性德",
+            "木兰词",
+            "心变"
         ]
     },
     {
         "id": "q_chu1_238",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu1",
         "source": "古诗词真题精选",
@@ -19749,9 +19990,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "仁者",
-        "孔子",
-        "论语",
-        "知者"
+            "孔子",
+            "论语",
+            "知者"
         ]
     },
     {
@@ -19767,10 +20008,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "江南春",
-        "春天"
-        ]
+            "杜牧",
+            "江南春",
+            "春天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_239",
@@ -19785,10 +20027,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月落",
-        "张继",
-        "枫桥夜泊",
-        "乌啼"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "乌啼"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_239",
@@ -19803,9 +20046,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "骊山",
-        "纳兰性德",
-        "木兰词",
-        "清宵"
+            "纳兰性德",
+            "木兰词",
+            "清宵"
         ]
     },
     {
@@ -19821,9 +20064,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "己所不",
-        "孔子",
-        "论语",
-        "施于"
+            "孔子",
+            "论语",
+            "施于"
         ],
         "poetryType": false
     },
@@ -19840,9 +20083,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "江南春",
-        "春天"
+            "杜牧",
+            "江南春",
+            "春天"
         ]
     },
     {
@@ -19858,10 +20101,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "寒山",
-        "张继",
-        "枫桥夜泊",
-        "客船"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "客船"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_240",
@@ -19876,13 +20120,14 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "薄幸",
-        "纳兰性德",
-        "木兰词",
-        "比翼"
+            "纳兰性德",
+            "木兰词",
+            "比翼"
         ]
     },
     {
         "id": "q_chu1_240",
+        "poetryType": false,
         "type": "fill",
         "grade": "chu1",
         "source": "古诗词真题精选",
@@ -19894,9 +20139,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "见贤",
-        "孔子",
-        "论语",
-        "内自"
+            "孔子",
+            "论语",
+            "内自"
         ]
     },
     {
@@ -19912,10 +20157,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "山行",
-        "秋天"
-        ]
+            "杜牧",
+            "山行",
+            "秋天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_241",
@@ -19930,10 +20176,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "异乡",
-        "王维",
-        "九月九日忆山东兄弟",
-        "倍思"
-        ]
+            "王维",
+            "九月九日忆山东兄弟",
+            "倍思"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_241",
@@ -19948,9 +20195,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "醉里",
-        "辛弃疾",
-        "破阵子·为陈同甫赋壮词以寄之",
-        "角"
+            "辛弃疾",
+            "破阵子·为陈同甫赋壮词以寄之",
+            "角"
         ]
     },
     {
@@ -19966,10 +20213,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "关关雎",
-        "无名氏",
-        "诗经·关雎",
-        "淑女"
-        ]
+            "无名氏",
+            "诗经·关雎",
+            "淑女"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_242",
@@ -19984,10 +20232,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "山行",
-        "秋天"
-        ]
+            "杜牧",
+            "山行",
+            "秋天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_242",
@@ -20002,10 +20251,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "茱",
-        "王维",
-        "九月九日忆山东兄弟",
-        "遍插"
-        ]
+            "王维",
+            "九月九日忆山东兄弟",
+            "遍插"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_242",
@@ -20020,9 +20270,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "八百里",
-        "辛弃疾",
-        "破阵子·为陈同甫赋壮词以寄之",
-        "麾下"
+            "辛弃疾",
+            "破阵子·为陈同甫赋壮词以寄之",
+            "麾下"
         ]
     },
     {
@@ -20038,9 +20288,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "参差",
-        "无名氏",
-        "诗经·关雎",
-        "荇菜"
+            "无名氏",
+            "诗经·关雎",
+            "荇菜"
         ]
     },
     {
@@ -20056,9 +20306,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "秋夕",
-        "秋天"
+            "杜牧",
+            "秋夕",
+            "秋天"
         ]
     },
     {
@@ -20074,9 +20324,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "朝雨",
-        "王维",
-        "送元二使安西",
-        "轻尘"
+            "王维",
+            "送元二使安西",
+            "轻尘"
         ]
     },
     {
@@ -20092,9 +20342,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "马作",
-        "辛弃疾",
-        "破阵子·为陈同甫赋壮词以寄之",
-        "的卢"
+            "辛弃疾",
+            "破阵子·为陈同甫赋壮词以寄之",
+            "的卢"
         ]
     },
     {
@@ -20110,10 +20360,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "求之不",
-        "无名氏",
-        "诗经·关雎",
-        "思服"
-        ]
+            "无名氏",
+            "诗经·关雎",
+            "思服"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_244",
@@ -20128,9 +20379,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "秋夕",
-        "秋天"
+            "杜牧",
+            "秋夕",
+            "秋天"
         ]
     },
     {
@@ -20146,9 +20397,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "酒",
-        "王维",
-        "送元二使安西",
-        "无故"
+            "王维",
+            "送元二使安西",
+            "无故"
         ]
     },
     {
@@ -20164,9 +20415,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "了却",
-        "辛弃疾",
-        "破阵子·为陈同甫赋壮词以寄之",
-        "生前"
+            "辛弃疾",
+            "破阵子·为陈同甫赋壮词以寄之",
+            "生前"
         ]
     },
     {
@@ -20182,9 +20433,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "悠哉",
-        "无名氏",
-        "诗经·关雎",
-        "辗转"
+            "无名氏",
+            "诗经·关雎",
+            "辗转"
         ]
     },
     {
@@ -20200,9 +20451,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "泊秦淮",
-        "夜景"
+            "杜牧",
+            "泊秦淮",
+            "夜景"
         ]
     },
     {
@@ -20218,10 +20469,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "幽篁",
-        "王维",
-        "竹里馆",
-        "弹琴"
-        ]
+            "王维",
+            "竹里馆",
+            "弹琴"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_245",
@@ -20236,9 +20488,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白发生",
-        "辛弃疾",
-        "破阵子·为陈同甫赋壮词以寄之",
-        "可怜"
+            "辛弃疾",
+            "破阵子·为陈同甫赋壮词以寄之",
+            "可怜"
         ]
     },
     {
@@ -20254,9 +20506,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "左右采",
-        "无名氏",
-        "诗经·关雎",
-        "琴瑟"
+            "无名氏",
+            "诗经·关雎",
+            "琴瑟"
         ]
     },
     {
@@ -20272,9 +20524,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "泊秦淮",
-        "讽刺"
+            "杜牧",
+            "泊秦淮",
+            "讽刺"
         ]
     },
     {
@@ -20290,10 +20542,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "深林",
-        "王维",
-        "竹里馆",
-        "明月"
-        ]
+            "王维",
+            "竹里馆",
+            "明月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_246",
@@ -20308,9 +20561,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "红酥手",
-        "陆游",
-        "钗头凤",
-        "黄縢"
+            "陆游",
+            "钗头凤",
+            "黄縢"
         ]
     },
     {
@@ -20326,9 +20579,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "左右芼",
-        "无名氏",
-        "诗经·关雎",
-        "钟鼓"
+            "无名氏",
+            "诗经·关雎",
+            "钟鼓"
         ]
     },
     {
@@ -20344,9 +20597,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "赤壁",
-        "怀古"
+            "杜牧",
+            "赤壁",
+            "怀古"
         ]
     },
     {
@@ -20362,9 +20615,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月光",
-        "李白",
-        "静夜思",
-        "明"
+            "李白",
+            "静夜思",
+            "明"
         ]
     },
     {
@@ -20380,9 +20633,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "东风",
-        "陆游",
-        "钗头凤",
-        "离索"
+            "陆游",
+            "钗头凤",
+            "离索"
         ]
     },
     {
@@ -20398,9 +20651,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故人西",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "扬州"
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "扬州"
         ]
     },
     {
@@ -20416,9 +20669,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "杜牧",
-        "赤壁",
-        "怀古"
+            "杜牧",
+            "赤壁",
+            "怀古"
         ]
     },
     {
@@ -20434,9 +20687,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "举头",
-        "李白",
-        "静夜思",
-        "低头"
+            "李白",
+            "静夜思",
+            "低头"
         ]
     },
     {
@@ -20452,9 +20705,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春如旧",
-        "陆游",
-        "钗头凤",
-        "空瘦"
+            "陆游",
+            "钗头凤",
+            "空瘦"
         ]
     },
     {
@@ -20470,9 +20723,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "桃花潭",
-        "李白",
-        "赠汪伦",
-        "汪伦"
+            "李白",
+            "赠汪伦",
+            "汪伦"
         ]
     },
     {
@@ -20488,9 +20741,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "登乐游原",
-        "抒情"
+            "李商隐",
+            "登乐游原",
+            "抒情"
         ]
     },
     {
@@ -20506,9 +20759,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋悲",
-        "刘禹锡",
-        "秋词",
-        "寂寥"
+            "刘禹锡",
+            "秋词",
+            "寂寥"
         ]
     },
     {
@@ -20524,9 +20777,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "桃花",
-        "陆游",
-        "钗头凤",
-        "锦书"
+            "陆游",
+            "钗头凤",
+            "锦书"
         ]
     },
     {
@@ -20542,9 +20795,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "李白乘",
-        "李白",
-        "赠汪伦",
-        "踏歌"
+            "李白",
+            "赠汪伦",
+            "踏歌"
         ]
     },
     {
@@ -20560,9 +20813,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李商隐",
-        "登乐游原",
-        "哲理"
+            "李商隐",
+            "登乐游原",
+            "哲理"
         ]
     },
     {
@@ -20578,9 +20831,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "鹤",
-        "刘禹锡",
-        "秋词",
-        "碧霄"
+            "刘禹锡",
+            "秋词",
+            "碧霄"
         ]
     },
     {
@@ -20596,9 +20849,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "寻寻觅觅",
-        "李清照",
-        "声声慢",
-        "凄凄惨惨"
+            "李清照",
+            "声声慢",
+            "凄凄惨惨"
         ]
     },
     {
@@ -20614,10 +20867,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "烟花三",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "黄鹤楼"
-        ]
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "黄鹤楼"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_251",
@@ -20632,9 +20886,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春雨",
-        "杜甫",
-        "春夜喜雨",
-        "描写"
+            "杜甫",
+            "春夜喜雨",
+            "描写"
         ]
     },
     {
@@ -20650,9 +20904,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋光",
-        "杜牧",
-        "秋夕",
-        "画屏"
+            "杜牧",
+            "秋夕",
+            "画屏"
         ]
     },
     {
@@ -20668,9 +20922,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乍暖",
-        "李清照",
-        "声声慢",
-        "将息"
+            "李清照",
+            "声声慢",
+            "将息"
         ]
     },
     {
@@ -20686,9 +20940,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "杨柳青",
-        "贺知章",
-        "送别",
-        "杨花"
+            "贺知章",
+            "送别",
+            "杨花"
         ]
     },
     {
@@ -20704,9 +20958,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "长江",
-        "李白",
-        "早发白帝城",
-        "船行"
+            "李白",
+            "早发白帝城",
+            "船行"
         ]
     },
     {
@@ -20722,9 +20976,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜色",
-        "杜牧",
-        "秋夕",
-        "牵牛"
+            "杜牧",
+            "秋夕",
+            "牵牛"
         ]
     },
     {
@@ -20740,9 +20994,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "三杯",
-        "李清照",
-        "声声慢",
-        "淡酒"
+            "李清照",
+            "声声慢",
+            "淡酒"
         ]
     },
     {
@@ -20758,9 +21012,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闻道龙",
-        "李白",
-        "闻王昌龄左迁龙标遥有此寄",
-        "过五"
+            "李白",
+            "闻王昌龄左迁龙标遥有此寄",
+            "过五"
         ]
     },
     {
@@ -20776,9 +21030,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "思乡",
-        "王维",
-        "重阳节",
-        "兄弟"
+            "王维",
+            "重阳节",
+            "兄弟"
         ]
     },
     {
@@ -20794,9 +21048,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "枫林",
-        "杜牧",
-        "山行",
-        "霜叶"
+            "杜牧",
+            "山行",
+            "霜叶"
         ]
     },
     {
@@ -20812,9 +21066,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "满地",
-        "李清照",
-        "声声慢",
-        "黄花"
+            "李清照",
+            "声声慢",
+            "黄花"
         ]
     },
     {
@@ -20830,10 +21084,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "随风直",
-        "李白",
-        "闻王昌龄左迁龙标遥有此寄",
-        "夜郎"
-        ]
+            "李白",
+            "闻王昌龄左迁龙标遥有此寄",
+            "夜郎"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_254",
@@ -20848,10 +21103,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "哲理",
-        "王之涣",
-        "登鹳雀楼",
-        "积极"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "积极"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_254",
@@ -20866,9 +21122,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "寒山",
-        "杜牧",
-        "山行",
-        "石径"
+            "杜牧",
+            "山行",
+            "石径"
         ]
     },
     {
@@ -20884,9 +21140,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "守着窗儿",
-        "李清照",
-        "声声慢",
-        "怎生"
+            "李清照",
+            "声声慢",
+            "怎生"
         ]
     },
     {
@@ -20902,7 +21158,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ]
     },
     {
@@ -20918,9 +21174,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "边塞",
-        "王昌龄",
-        "从军行",
-        "爱国"
+            "王昌龄",
+            "从军行",
+            "爱国"
         ]
     },
     {
@@ -20936,9 +21192,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "清明",
-        "杜牧",
-        "清明",
-        "欲断"
+            "杜牧",
+            "清明",
+            "欲断"
         ]
     },
     {
@@ -20954,9 +21210,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "梧桐",
-        "李清照",
-        "声声慢",
-        "点滴"
+            "李清照",
+            "声声慢",
+            "点滴"
         ]
     },
     {
@@ -20972,7 +21228,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
         "poetryType": false
     },
@@ -20989,9 +21245,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "边塞",
-        "王之涣",
-        "凉州词",
-        "思乡"
+            "王之涣",
+            "凉州词",
+            "思乡"
         ]
     },
     {
@@ -21007,9 +21263,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "酒家",
-        "杜牧",
-        "清明",
-        "杏花"
+            "杜牧",
+            "清明",
+            "杏花"
         ]
     },
     {
@@ -21025,9 +21281,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "怒发",
-        "岳飞",
-        "满江红",
-        "冲冠"
+            "岳飞",
+            "满江红",
+            "冲冠"
         ]
     },
     {
@@ -21043,7 +21299,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
         "poetryType": false
     },
@@ -21060,9 +21316,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "边塞",
-        "王昌龄",
-        "出塞",
-        "爱国"
+            "王昌龄",
+            "出塞",
+            "爱国"
         ]
     },
     {
@@ -21078,10 +21334,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月下",
-        "李白",
-        "渡荆门送别",
-        "海楼"
-        ]
+            "李白",
+            "渡荆门送别",
+            "海楼"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_257",
@@ -21096,9 +21353,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "三十功名",
-        "岳飞",
-        "满江红",
-        "尘与土"
+            "岳飞",
+            "满江红",
+            "尘与土"
         ]
     },
     {
@@ -21114,7 +21371,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
         "poetryType": false
     },
@@ -21131,9 +21388,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "边塞",
-        "王昌龄",
-        "出塞",
-        "战争"
+            "王昌龄",
+            "出塞",
+            "战争"
         ]
     },
     {
@@ -21149,10 +21406,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "平野",
-        "李白",
-        "渡荆门送别",
-        "大荒"
-        ]
+            "李白",
+            "渡荆门送别",
+            "大荒"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_258",
@@ -21167,9 +21425,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "莫等闲",
-        "岳飞",
-        "满江红",
-        "等闲"
+            "岳飞",
+            "满江红",
+            "等闲"
         ]
     },
     {
@@ -21185,7 +21443,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
         "poetryType": false
     },
@@ -21202,9 +21460,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "送别",
-        "王昌龄",
-        "芙蓉楼送辛渐",
-        "品格"
+            "王昌龄",
+            "芙蓉楼送辛渐",
+            "品格"
         ]
     },
     {
@@ -21220,10 +21478,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "水",
-        "李白",
-        "渡荆门送别",
-        "行舟"
-        ]
+            "李白",
+            "渡荆门送别",
+            "行舟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_259",
@@ -21238,9 +21497,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "靖康耻",
-        "岳飞",
-        "满江红",
-        "臣子"
+            "岳飞",
+            "满江红",
+            "臣子"
         ]
     },
     {
@@ -21256,7 +21515,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
         "poetryType": false
     },
@@ -21273,9 +21532,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "送别",
-        "王昌龄",
-        "芙蓉楼送辛渐",
-        "品格"
+            "王昌龄",
+            "芙蓉楼送辛渐",
+            "品格"
         ]
     },
     {
@@ -21291,10 +21550,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "渡远",
-        "李白",
-        "渡荆门送别",
-        "楚国"
-        ]
+            "李白",
+            "渡荆门送别",
+            "楚国"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_260",
@@ -21309,9 +21569,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "壮志",
-        "岳飞",
-        "满江红",
-        "胡虏"
+            "岳飞",
+            "满江红",
+            "胡虏"
         ]
     },
     {
@@ -21327,7 +21587,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ]
     },
     {
@@ -21343,9 +21603,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "怀古",
-        "韦庄",
-        "台城",
-        "春天"
+            "韦庄",
+            "台城",
+            "春天"
         ]
     },
     {
@@ -21361,9 +21621,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "别",
-        "李白",
-        "送友人",
-        "孤蓬"
+            "李白",
+            "送友人",
+            "孤蓬"
         ]
     },
     {
@@ -21379,9 +21639,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "怒发冲冠",
-        "岳飞",
-        "满江红",
-        "长啸"
+            "岳飞",
+            "满江红",
+            "长啸"
         ]
     },
     {
@@ -21397,7 +21657,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ]
     },
     {
@@ -21413,9 +21673,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋夜",
-        "张继",
-        "枫桥夜泊",
-        "愁思"
+            "张继",
+            "枫桥夜泊",
+            "愁思"
         ]
     },
     {
@@ -21431,9 +21691,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "浮云",
-        "李白",
-        "送友人",
-        "游子"
+            "李白",
+            "送友人",
+            "游子"
         ]
     },
     {
@@ -21449,9 +21709,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "莫等闲",
-        "岳飞",
-        "满江红",
-        "悲切"
+            "岳飞",
+            "满江红",
+            "悲切"
         ]
     },
     {
@@ -21467,7 +21727,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ]
     },
     {
@@ -21483,10 +21743,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春天",
-        "白居易",
-        "忆江南",
-        "美景"
-        ]
+            "白居易",
+            "忆江南",
+            "美景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_263",
@@ -21501,9 +21762,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "挥手",
-        "李白",
-        "送友人",
-        "班马"
+            "李白",
+            "送友人",
+            "班马"
         ]
     },
     {
@@ -21519,9 +21780,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "靖康耻",
-        "岳飞",
-        "满江红",
-        "臣子"
+            "岳飞",
+            "满江红",
+            "臣子"
         ]
     },
     {
@@ -21537,7 +21798,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
         "poetryType": false
     },
@@ -21554,9 +21815,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "草",
-        "白居易",
-        "草",
-        "生命"
+            "白居易",
+            "草",
+            "生命"
         ]
     },
     {
@@ -21572,9 +21833,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青山",
-        "李白",
-        "送友人",
-        "北郭"
+            "李白",
+            "送友人",
+            "北郭"
         ]
     },
     {
@@ -21590,9 +21851,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人生",
-        "文天祥",
-        "过零丁洋",
-        "丹心"
+            "文天祥",
+            "过零丁洋",
+            "丹心"
         ]
     },
     {
@@ -21608,7 +21869,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "观沧海"
+            "观沧海"
         ]
     },
     {
@@ -21624,9 +21885,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "草",
-        "白居易",
-        "草",
-        "生命"
+            "白居易",
+            "草",
+            "生命"
         ]
     },
     {
@@ -21642,9 +21903,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋来",
-        "范仲淹",
-        "渔家傲",
-        "雁去"
+            "范仲淹",
+            "渔家傲",
+            "雁去"
         ]
     },
     {
@@ -21660,9 +21921,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "辛苦",
-        "文天祥",
-        "过零丁洋",
-        "遭逢"
+            "文天祥",
+            "过零丁洋",
+            "遭逢"
         ]
     },
     {
@@ -21678,7 +21939,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "观沧海"
+            "观沧海"
         ]
     },
     {
@@ -21694,10 +21955,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月亮",
-        "李白",
-        "古朗月行",
-        "儿童"
-        ]
+            "李白",
+            "古朗月行",
+            "儿童"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_266",
@@ -21712,9 +21974,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "边声",
-        "范仲淹",
-        "渔家傲",
-        "千嶂"
+            "范仲淹",
+            "渔家傲",
+            "千嶂"
         ]
     },
     {
@@ -21730,9 +21992,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山河",
-        "文天祥",
-        "过零丁洋",
-        "浮沉"
+            "文天祥",
+            "过零丁洋",
+            "浮沉"
         ]
     },
     {
@@ -21748,8 +22010,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "观沧海"
-        ]
+            "观沧海"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_267",
@@ -21764,10 +22027,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋天",
-        "孟浩然",
-        "宿建德江",
-        "夜晚"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "夜晚"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_267",
@@ -21782,9 +22046,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "酒",
-        "范仲淹",
-        "渔家傲",
-        "燕然"
+            "范仲淹",
+            "渔家傲",
+            "燕然"
         ]
     },
     {
@@ -21800,9 +22064,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "惶恐滩",
-        "文天祥",
-        "过零丁洋",
-        "叹零丁"
+            "文天祥",
+            "过零丁洋",
+            "叹零丁"
         ]
     },
     {
@@ -21818,8 +22082,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "次北固山下"
-        ]
+            "次北固山下"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_268",
@@ -21834,9 +22099,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "景色",
-        "李白",
-        "南陵别儿童入京",
-        "高兴"
+            "李白",
+            "南陵别儿童入京",
+            "高兴"
         ]
     },
     {
@@ -21852,9 +22117,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "羌管",
-        "范仲淹",
-        "渔家傲",
-        "霜满"
+            "范仲淹",
+            "渔家傲",
+            "霜满"
         ]
     },
     {
@@ -21870,9 +22135,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春蚕",
-        "李商隐",
-        "无题",
-        "丝方尽"
+            "李商隐",
+            "无题",
+            "丝方尽"
         ]
     },
     {
@@ -21888,8 +22153,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "次北固山下"
-        ]
+            "次北固山下"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_269",
@@ -21904,10 +22170,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "美女",
-        "李白",
-        "清平调",
-        "杨贵妃"
-        ]
+            "李白",
+            "清平调",
+            "杨贵妃"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_269",
@@ -21922,10 +22189,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "农家",
-        "陆游",
-        "游山西村",
-        "腊酒"
-        ]
+            "陆游",
+            "游山西村",
+            "腊酒"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_269",
@@ -21940,9 +22208,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "相见",
-        "李商隐",
-        "无题",
-        "别亦难"
+            "李商隐",
+            "无题",
+            "别亦难"
         ]
     },
     {
@@ -21958,7 +22226,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "钱塘湖春行"
+            "钱塘湖春行"
         ]
     },
     {
@@ -21974,9 +22242,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "美女",
-        "李白",
-        "清平调",
-        "赵飞燕"
+            "李白",
+            "清平调",
+            "赵飞燕"
         ]
     },
     {
@@ -21992,10 +22260,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "水复",
-        "陆游",
-        "游山西村",
-        "柳暗"
-        ]
+            "陆游",
+            "游山西村",
+            "柳暗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_270",
@@ -22010,9 +22279,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "晓镜",
-        "李商隐",
-        "无题",
-        "云鬓"
+            "李商隐",
+            "无题",
+            "云鬓"
         ]
     },
     {
@@ -22028,7 +22297,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "钱塘湖春行"
+            "钱塘湖春行"
         ]
     },
     {
@@ -22044,9 +22313,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "花卉",
-        "李白",
-        "清平调",
-        "巫山"
+            "李白",
+            "清平调",
+            "巫山"
         ]
     },
     {
@@ -22062,9 +22331,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春社",
-        "陆游",
-        "游山西村",
-        "古风"
+            "陆游",
+            "游山西村",
+            "古风"
         ]
     },
     {
@@ -22080,9 +22349,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蓬山",
-        "李商隐",
-        "无题",
-        "青鸟"
+            "李商隐",
+            "无题",
+            "青鸟"
         ]
     },
     {
@@ -22098,7 +22367,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "钱塘湖春行"
+            "钱塘湖春行"
         ]
     },
     {
@@ -22114,9 +22383,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "名花",
-        "李白",
-        "清平调",
-        "君王"
+            "李白",
+            "清平调",
+            "君王"
         ]
     },
     {
@@ -22132,9 +22401,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月",
-        "陆游",
-        "游山西村",
-        "拄杖"
+            "陆游",
+            "游山西村",
+            "拄杖"
         ]
     },
     {
@@ -22150,9 +22419,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "塞下",
-        "范仲淹",
-        "渔家傲·秋思",
-        "风景"
+            "范仲淹",
+            "渔家傲·秋思",
+            "风景"
         ]
     },
     {
@@ -22168,7 +22437,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
+            "西江月"
         ]
     },
     {
@@ -22184,9 +22453,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "阑干",
-        "李白",
-        "清平调",
-        "栏杆"
+            "李白",
+            "清平调",
+            "栏杆"
         ]
     },
     {
@@ -22202,9 +22471,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孤村",
-        "陆游",
-        "十一月四日风雨大作",
-        "戍轮"
+            "陆游",
+            "十一月四日风雨大作",
+            "戍轮"
         ]
     },
     {
@@ -22220,9 +22489,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "四面边声",
-        "范仲淹",
-        "渔家傲·秋思",
-        "边声"
+            "范仲淹",
+            "渔家傲·秋思",
+            "边声"
         ]
     },
     {
@@ -22238,7 +22507,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
+            "西江月"
         ]
     },
     {
@@ -22254,9 +22523,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山",
-        "李白",
-        "山中问答",
-        "隐居"
+            "李白",
+            "山中问答",
+            "隐居"
         ]
     },
     {
@@ -22272,9 +22541,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "雨",
-        "陆游",
-        "十一月四日风雨大作",
-        "冰河"
+            "陆游",
+            "十一月四日风雨大作",
+            "冰河"
         ]
     },
     {
@@ -22290,9 +22559,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "浊酒",
-        "范仲淹",
-        "渔家傲·秋思",
-        "燕然"
+            "范仲淹",
+            "渔家傲·秋思",
+            "燕然"
         ]
     },
     {
@@ -22308,7 +22577,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
+            "西江月"
         ]
     },
     {
@@ -22324,9 +22593,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "仙境",
-        "李白",
-        "山中问答",
-        "自然"
+            "李白",
+            "山中问答",
+            "自然"
         ]
     },
     {
@@ -22342,9 +22611,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "单车",
-        "王维",
-        "使至塞上",
-        "汉塞"
+            "王维",
+            "使至塞上",
+            "汉塞"
         ]
     },
     {
@@ -22360,9 +22629,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "羌管",
-        "范仲淹",
-        "渔家傲·秋思",
-        "霜满地"
+            "范仲淹",
+            "渔家傲·秋思",
+            "霜满地"
         ]
     },
     {
@@ -22378,7 +22647,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
+            "西江月"
         ]
     },
     {
@@ -22394,10 +22663,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月光",
-        "李白",
-        "静夜思",
-        "思乡"
-        ]
+            "李白",
+            "静夜思",
+            "思乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_276",
@@ -22412,10 +22682,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "大漠",
-        "王维",
-        "使至塞上",
-        "孤烟"
-        ]
+            "王维",
+            "使至塞上",
+            "孤烟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_276",
@@ -22430,9 +22701,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "小桥",
-        "马致远",
-        "天净沙·秋思",
-        "流水"
+            "马致远",
+            "天净沙·秋思",
+            "流水"
         ]
     },
     {
@@ -22448,7 +22719,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "天净沙·秋思"
+            "天净沙·秋思"
         ]
     },
     {
@@ -22464,10 +22735,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "思乡",
-        "李白",
-        "静夜思",
-        "故乡"
-        ]
+            "李白",
+            "静夜思",
+            "故乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_277",
@@ -22482,10 +22754,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "归雁",
-        "王维",
-        "使至塞上",
-        "胡天"
-        ]
+            "王维",
+            "使至塞上",
+            "胡天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_277",
@@ -22500,9 +22773,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夕阳西",
-        "马致远",
-        "天净沙·秋思",
-        "断肠"
+            "马致远",
+            "天净沙·秋思",
+            "断肠"
         ]
     },
     {
@@ -22518,8 +22791,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "天净沙·秋思"
-        ]
+            "天净沙·秋思"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_278",
@@ -22534,10 +22808,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "船",
-        "李白",
-        "早发白帝城",
-        "速度"
-        ]
+            "李白",
+            "早发白帝城",
+            "速度"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_278",
@@ -22552,9 +22827,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江流",
-        "张若虚",
-        "春江花月夜",
-        "芳甸"
+            "张若虚",
+            "春江花月夜",
+            "芳甸"
         ]
     },
     {
@@ -22570,10 +22845,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "把酒问",
-        "苏轼",
-        "水调歌头",
-        "青天"
-        ]
+            "苏轼",
+            "水调歌头",
+            "青天"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_278",
@@ -22588,7 +22864,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "杂诗"
+            "杂诗"
         ]
     },
     {
@@ -22604,10 +22880,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "船",
-        "李白",
-        "早发白帝城",
-        "三峡"
-        ]
+            "李白",
+            "早发白帝城",
+            "三峡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_279",
@@ -22622,9 +22899,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "流霜",
-        "张若虚",
-        "春江花月夜",
-        "白沙"
+            "张若虚",
+            "春江花月夜",
+            "白沙"
         ]
     },
     {
@@ -22640,10 +22917,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "恐琼楼",
-        "苏轼",
-        "水调歌头",
-        "玉宇"
-        ]
+            "苏轼",
+            "水调歌头",
+            "玉宇"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_279",
@@ -22658,7 +22936,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "杂诗"
+            "杂诗"
         ]
     },
     {
@@ -22674,10 +22952,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "瀑布",
-        "李白",
-        "望庐山瀑布",
-        "风景"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "风景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_280",
@@ -22692,10 +22971,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江天",
-        "张若虚",
-        "春江花月夜",
-        "纤尘"
-        ]
+            "张若虚",
+            "春江花月夜",
+            "纤尘"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_280",
@@ -22710,10 +22990,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "何似",
-        "苏轼",
-        "水调歌头",
-        "在人间"
-        ]
+            "苏轼",
+            "水调歌头",
+            "在人间"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_280",
@@ -22728,7 +23009,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -22744,10 +23025,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "瀑布",
-        "李白",
-        "望庐山瀑布",
-        "壮观"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "壮观"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_281",
@@ -22762,9 +23044,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江畔",
-        "张若虚",
-        "春江花月夜",
-        "初见"
+            "张若虚",
+            "春江花月夜",
+            "初见"
         ]
     },
     {
@@ -22780,10 +23062,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "巴山",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "凄凉"
-        ]
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "凄凉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_281",
@@ -22798,7 +23081,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -22814,10 +23097,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "送别",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "烟花"
-        ]
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "烟花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_282",
@@ -22832,10 +23116,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人生",
-        "张若虚",
-        "春江花月夜",
-        "无穷"
-        ]
+            "张若虚",
+            "春江花月夜",
+            "无穷"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_282",
@@ -22850,10 +23135,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "怀旧",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "闻笛"
-        ]
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "闻笛"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_282",
@@ -22868,7 +23154,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -22884,10 +23170,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄鹤楼",
-        "崔颢",
-        "黄鹤楼",
-        "历史"
-        ]
+            "崔颢",
+            "黄鹤楼",
+            "历史"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_283",
@@ -22902,10 +23189,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乘月",
-        "张若虚",
-        "春江花月夜",
-        "摇情"
-        ]
+            "张若虚",
+            "春江花月夜",
+            "摇情"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_283",
@@ -22920,10 +23208,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沉舟",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "千帆"
-        ]
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "千帆"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_283",
@@ -22938,7 +23227,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -22954,10 +23243,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "景色",
-        "崔颢",
-        "黄鹤楼",
-        "草木"
-        ]
+            "崔颢",
+            "黄鹤楼",
+            "草木"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_284",
@@ -22972,10 +23262,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "潮",
-        "张若虚",
-        "春江花月夜",
-        "海平"
-        ]
+            "张若虚",
+            "春江花月夜",
+            "海平"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_284",
@@ -22990,10 +23281,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "听君",
-        "刘禹锡",
-        "酬乐天扬州初逢席上见赠",
-        "精神"
-        ]
+            "刘禹锡",
+            "酬乐天扬州初逢席上见赠",
+            "精神"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_284",
@@ -23008,7 +23300,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -23024,10 +23316,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乡愁",
-        "崔颢",
-        "黄鹤楼",
-        "思乡"
-        ]
+            "崔颢",
+            "黄鹤楼",
+            "思乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_285",
@@ -23042,10 +23335,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "西辞",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "下扬州"
-        ]
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "下扬州"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_285",
@@ -23060,9 +23354,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "湖光",
-        "刘禹锡",
-        "望洞庭",
-        "秋月"
+            "刘禹锡",
+            "望洞庭",
+            "秋月"
         ]
     },
     {
@@ -23078,7 +23372,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -23094,9 +23388,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "长江",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "天际"
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "天际"
         ]
     },
     {
@@ -23112,9 +23406,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "遥望",
-        "刘禹锡",
-        "望洞庭",
-        "青螺"
+            "刘禹锡",
+            "望洞庭",
+            "青螺"
         ]
     },
     {
@@ -23130,7 +23424,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -23146,10 +23440,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "碧水",
-        "李白",
-        "望天门山",
-        "至此"
-        ]
+            "李白",
+            "望天门山",
+            "至此"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_287",
@@ -23164,9 +23459,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "逢秋",
-        "刘禹锡",
-        "秋词",
-        "寂寥"
+            "刘禹锡",
+            "秋词",
+            "寂寥"
         ]
     },
     {
@@ -23182,7 +23477,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -23198,10 +23493,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日边",
-        "李白",
-        "望天门山",
-        "相对"
-        ]
+            "李白",
+            "望天门山",
+            "相对"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_288",
@@ -23216,9 +23512,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "晴空",
-        "刘禹锡",
-        "秋词",
-        "排云"
+            "刘禹锡",
+            "秋词",
+            "排云"
         ]
     },
     {
@@ -23234,7 +23530,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -23250,9 +23546,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "峨眉",
-        "李白",
-        "峨眉山月歌",
-        "半轮"
+            "李白",
+            "峨眉山月歌",
+            "半轮"
         ]
     },
     {
@@ -23268,9 +23564,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "折戟沉",
-        "杜牧",
-        "赤壁",
-        "前朝"
+            "杜牧",
+            "赤壁",
+            "前朝"
         ]
     },
     {
@@ -23286,7 +23582,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -23297,31 +23593,31 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "《静夜思》中'床前明月光'的'床'指的是什么？",
         "options": [
-    {
+            {
                 "text": "井床",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "床铺",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "窗台",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "案几",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "井床",
         "explanation": "床指井床，是井口的围栏。",
         "poemId": null,
         "knowledgePoints": [
             "床",
-        "李白",
-        "静夜思",
-        "词语"
+            "李白",
+            "静夜思",
+            "词语"
         ]
     },
     {
@@ -23337,9 +23633,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "清溪",
-        "李白",
-        "峨眉山月歌",
-        "三峡"
+            "李白",
+            "峨眉山月歌",
+            "三峡"
         ]
     },
     {
@@ -23355,9 +23651,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "东风不",
-        "杜牧",
-        "赤壁",
-        "周郎"
+            "杜牧",
+            "赤壁",
+            "周郎"
         ]
     },
     {
@@ -23373,7 +23669,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -23384,31 +23680,31 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "《望庐山瀑布》是李白在什么地方写的？",
         "options": [
-    {
+            {
                 "text": "庐山",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "黄山",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "泰山",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "华山",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "庐山",
         "explanation": "诗题即为《望庐山瀑布》。",
         "poemId": null,
         "knowledgePoints": [
             "地点",
-        "李白",
-        "望庐山瀑布",
-        "地点"
+            "李白",
+            "望庐山瀑布",
+            "地点"
         ]
     },
     {
@@ -23424,9 +23720,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "玉笛",
-        "李白",
-        "春夜洛城闻笛",
-        "暗飞"
+            "李白",
+            "春夜洛城闻笛",
+            "暗飞"
         ]
     },
     {
@@ -23442,9 +23738,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "雨纷纷",
-        "杜牧",
-        "清明",
-        "行人"
+            "杜牧",
+            "清明",
+            "行人"
         ]
     },
     {
@@ -23460,7 +23756,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -23471,31 +23767,31 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "'春风得意马蹄疾'形容的是诗人什么时候的心情？",
         "options": [
-    {
+            {
                 "text": "中举时",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "做官时",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "被贬时",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "隐居时",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "中举时",
         "explanation": "出自《登科后》，诗人进士及第后所作。",
         "poemId": null,
         "knowledgePoints": [
             "喜悦",
-        "孟郊",
-        "登科后",
-        "情感"
+            "孟郊",
+            "登科后",
+            "情感"
         ]
     },
     {
@@ -23511,9 +23807,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "折柳",
-        "李白",
-        "春夜洛城闻笛",
-        "故园"
+            "李白",
+            "春夜洛城闻笛",
+            "故园"
         ]
     },
     {
@@ -23529,9 +23825,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "借问酒",
-        "杜牧",
-        "清明",
-        "杏花"
+            "杜牧",
+            "清明",
+            "杏花"
         ]
     },
     {
@@ -23547,7 +23843,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -23563,10 +23859,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "冬天",
-        "柳宗元",
-        "江雪",
-        "雪景"
-        ]
+            "柳宗元",
+            "江雪",
+            "雪景"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_293",
@@ -23581,9 +23878,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "花间",
-        "李白",
-        "月下独酌",
-        "一壶"
+            "李白",
+            "月下独酌",
+            "一壶"
         ]
     },
     {
@@ -23599,9 +23896,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千里莺",
-        "杜牧",
-        "江南春",
-        "山郭"
+            "杜牧",
+            "江南春",
+            "山郭"
         ]
     },
     {
@@ -23617,7 +23914,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
+            "木兰诗"
         ]
     },
     {
@@ -23633,9 +23930,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "渔翁",
-        "柳宗元",
-        "江雪",
-        "孤独"
+            "柳宗元",
+            "江雪",
+            "孤独"
         ]
     },
     {
@@ -23651,9 +23948,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "邀月",
-        "李白",
-        "月下独酌",
-        "对影"
+            "李白",
+            "月下独酌",
+            "对影"
         ]
     },
     {
@@ -23669,9 +23966,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "四百八",
-        "杜牧",
-        "江南春",
-        "楼台"
+            "杜牧",
+            "江南春",
+            "楼台"
         ]
     },
     {
@@ -23687,7 +23984,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "泊秦淮"
+            "泊秦淮"
         ]
     },
     {
@@ -23703,10 +24000,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春天",
-        "杜甫",
-        "绝句",
-        "黄鹂"
-        ]
+            "杜甫",
+            "绝句",
+            "黄鹂"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_295",
@@ -23721,9 +24019,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月",
-        "李白",
-        "月下独酌",
-        "解饮"
+            "李白",
+            "月下独酌",
+            "解饮"
         ]
     },
     {
@@ -23739,9 +24037,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天街",
-        "韩愈",
-        "早春呈水部张十八员外",
-        "润如酥"
+            "韩愈",
+            "早春呈水部张十八员外",
+            "润如酥"
         ]
     },
     {
@@ -23757,7 +24055,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "游山西村"
+            "游山西村"
         ]
     },
     {
@@ -23773,9 +24071,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "雪山",
-        "杜甫",
-        "绝句",
-        "船只"
+            "杜甫",
+            "绝句",
+            "船只"
         ]
     },
     {
@@ -23791,9 +24089,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月将",
-        "李白",
-        "月下独酌",
-        "行乐"
+            "李白",
+            "月下独酌",
+            "行乐"
         ]
     },
     {
@@ -23809,9 +24107,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "最是一年",
-        "韩愈",
-        "早春呈水部张十八员外",
-        "烟柳"
+            "韩愈",
+            "早春呈水部张十八员外",
+            "烟柳"
         ]
     },
     {
@@ -23827,8 +24125,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "游山西村"
-        ]
+            "游山西村"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_297",
@@ -23843,10 +24142,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "燕子",
-        "杜甫",
-        "绝句",
-        "鸳鸯"
-        ]
+            "杜甫",
+            "绝句",
+            "鸳鸯"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_297",
@@ -23861,9 +24161,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "我来",
-        "苏轼",
-        "书戴贯货",
-        "沙丘"
+            "苏轼",
+            "书戴贯货",
+            "沙丘"
         ]
     },
     {
@@ -23879,9 +24179,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "云横",
-        "韩愈",
-        "左迁至蓝关示侄孙湘",
-        "秦岭"
+            "韩愈",
+            "左迁至蓝关示侄孙湘",
+            "秦岭"
         ]
     },
     {
@@ -23897,7 +24197,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "从军行"
+            "从军行"
         ]
     },
     {
@@ -23913,10 +24213,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春天",
-        "张志和",
-        "渔歌子",
-        "桃花"
-        ]
+            "张志和",
+            "渔歌子",
+            "桃花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_298",
@@ -23931,9 +24232,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "遗响",
-        "苏轼",
-        "书戴贯货",
-        "悲秋"
+            "苏轼",
+            "书戴贯货",
+            "悲秋"
         ]
     },
     {
@@ -23949,9 +24250,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "知汝",
-        "韩愈",
-        "左迁至蓝关示侄孙湘",
-        "吾骨"
+            "韩愈",
+            "左迁至蓝关示侄孙湘",
+            "吾骨"
         ]
     },
     {
@@ -23967,7 +24268,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渔家傲"
+            "渔家傲"
         ]
     },
     {
@@ -23983,9 +24284,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "渔翁",
-        "张志和",
-        "渔歌子",
-        "垂钓"
+            "张志和",
+            "渔歌子",
+            "垂钓"
         ]
     },
     {
@@ -24001,10 +24302,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "腊酒",
-        "陆游",
-        "游山西村",
-        "鸡豚"
-        ]
+            "陆游",
+            "游山西村",
+            "鸡豚"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_299",
@@ -24019,9 +24321,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "空山新",
-        "王维",
-        "山居秋暝",
-        "天气"
+            "王维",
+            "山居秋暝",
+            "天气"
         ]
     },
     {
@@ -24037,7 +24339,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渔家傲"
+            "渔家傲"
         ]
     },
     {
@@ -24053,10 +24355,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春天",
-        "白居易",
-        "忆江南",
-        "江水"
-        ]
+            "白居易",
+            "忆江南",
+            "江水"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_300",
@@ -24071,10 +24374,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山重",
-        "陆游",
-        "游山西村",
-        "花明"
-        ]
+            "陆游",
+            "游山西村",
+            "花明"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_300",
@@ -24089,9 +24393,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "明月松",
-        "王维",
-        "山居秋暝",
-        "清泉"
+            "王维",
+            "山居秋暝",
+            "清泉"
         ]
     },
     {
@@ -24107,7 +24411,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "定风波"
+            "定风波"
         ]
     },
     {
@@ -24123,9 +24427,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春雪",
-        "韩愈",
-        "春雪",
-        "草芽"
+            "韩愈",
+            "春雪",
+            "草芽"
         ]
     },
     {
@@ -24141,10 +24445,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青海",
-        "王昌龄",
-        "从军行",
-        "长云"
-        ]
+            "王昌龄",
+            "从军行",
+            "长云"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_301",
@@ -24159,10 +24464,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "竹喧归",
-        "王维",
-        "山居秋暝",
-        "渔舟"
-        ]
+            "王维",
+            "山居秋暝",
+            "渔舟"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_chu1_301",
@@ -24177,7 +24483,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "定风波"
+            "定风波"
         ]
     },
     {
@@ -24193,9 +24499,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "飞雪",
-        "韩愈",
-        "春雪",
-        "春色"
+            "韩愈",
+            "春雪",
+            "春色"
         ]
     },
     {
@@ -24211,10 +24517,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄沙",
-        "王昌龄",
-        "从军行",
-        "金甲"
-        ]
+            "王昌龄",
+            "从军行",
+            "金甲"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_302",
@@ -24229,9 +24536,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "随意春",
-        "王维",
-        "山居秋暝",
-        "王孙"
+            "王维",
+            "山居秋暝",
+            "王孙"
         ]
     },
     {
@@ -24247,7 +24554,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "定风波"
+            "定风波"
         ]
     },
     {
@@ -24263,9 +24570,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春天",
-        "韩愈",
-        "晚春",
-        "芳菲"
+            "韩愈",
+            "晚春",
+            "芳菲"
         ]
     },
     {
@@ -24281,9 +24588,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "窈窕",
-        "无名氏",
-        "诗经·关雎",
-        "好逑"
+            "无名氏",
+            "诗经·关雎",
+            "好逑"
         ]
     },
     {
@@ -24299,7 +24606,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "青玉案·元夕"
+            "青玉案·元夕"
         ]
     },
     {
@@ -24315,9 +24622,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "柳絮",
-        "韩愈",
-        "晚春",
-        "雪飞"
+            "韩愈",
+            "晚春",
+            "雪飞"
         ]
     },
     {
@@ -24333,9 +24640,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白露为",
-        "无名氏",
-        "诗经·蒹葭",
-        "为霜"
+            "无名氏",
+            "诗经·蒹葭",
+            "为霜"
         ]
     },
     {
@@ -24351,7 +24658,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "青玉案·元夕"
+            "青玉案·元夕"
         ]
     },
     {
@@ -24367,9 +24674,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "桃花",
-        "白居易",
-        "大林寺桃花",
-        "山峰"
+            "白居易",
+            "大林寺桃花",
+            "山峰"
         ]
     },
     {
@@ -24385,10 +24692,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秦时",
-        "王昌龄",
-        "出塞",
-        "长征"
-        ]
+            "王昌龄",
+            "出塞",
+            "长征"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_305",
@@ -24403,9 +24711,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "寤寐",
-        "无名氏",
-        "诗经·关雎",
-        "思服"
+            "无名氏",
+            "诗经·关雎",
+            "思服"
         ]
     },
     {
@@ -24421,7 +24729,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "丑奴儿"
+            "丑奴儿"
         ]
     },
     {
@@ -24437,9 +24745,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春天",
-        "白居易",
-        "大林寺桃花",
-        "寻觅"
+            "白居易",
+            "大林寺桃花",
+            "寻觅"
         ]
     },
     {
@@ -24455,10 +24763,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "龙城",
-        "王昌龄",
-        "出塞",
-        "阴山"
-        ]
+            "王昌龄",
+            "出塞",
+            "阴山"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_306",
@@ -24473,9 +24782,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "在水之",
-        "无名氏",
-        "诗经·蒹葭",
-        "之涘"
+            "无名氏",
+            "诗经·蒹葭",
+            "之涘"
         ]
     },
     {
@@ -24491,7 +24800,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "丑奴儿"
+            "丑奴儿"
         ]
     },
     {
@@ -24507,10 +24816,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "饮酒",
-        "白居易",
-        "与梦得沽酒",
-        "陶然"
-        ]
+            "白居易",
+            "与梦得沽酒",
+            "陶然"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_fbc_307",
@@ -24525,9 +24835,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "骝马",
-        "王昌龄",
-        "出塞",
-        "沙场"
+            "王昌龄",
+            "出塞",
+            "沙场"
         ]
     },
     {
@@ -24543,9 +24853,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "君子好",
-        "无名氏",
-        "诗经",
-        "好逑"
+            "无名氏",
+            "诗经",
+            "好逑"
         ]
     },
     {
@@ -24561,7 +24871,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渡荆门送别"
+            "渡荆门送别"
         ]
     },
     {
@@ -24577,9 +24887,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "风",
-        "孟郊",
-        "寓言",
-        "涤荡"
+            "孟郊",
+            "寓言",
+            "涤荡"
         ]
     },
     {
@@ -24595,9 +24905,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "城头",
-        "王昌龄",
-        "出塞",
-        "铁鼓"
+            "王昌龄",
+            "出塞",
+            "铁鼓"
         ]
     },
     {
@@ -24613,9 +24923,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "所谓伊人",
-        "无名氏",
-        "诗经",
-        "一方"
+            "无名氏",
+            "诗经",
+            "一方"
         ]
     },
     {
@@ -24631,8 +24941,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渡荆门送别"
-        ]
+            "渡荆门送别"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_309",
@@ -24647,9 +24958,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "得意",
-        "孟郊",
-        "登科后",
-        "长安"
+            "孟郊",
+            "登科后",
+            "长安"
         ]
     },
     {
@@ -24665,10 +24976,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闺中",
-        "王昌龄",
-        "闺怨",
-        "凝妆"
-        ]
+            "王昌龄",
+            "闺怨",
+            "凝妆"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_309",
@@ -24683,9 +24995,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "北风卷",
-        "岑参",
-        "白雪歌送武判官归京",
-        "白草"
+            "岑参",
+            "白雪歌送武判官归京",
+            "白草"
         ]
     },
     {
@@ -24701,8 +25013,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渡荆门送别"
-        ]
+            "渡荆门送别"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_310",
@@ -24717,9 +25030,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "母爱",
-        "孟郊",
-        "游子吟",
-        "线"
+            "孟郊",
+            "游子吟",
+            "线"
         ]
     },
     {
@@ -24735,10 +25048,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "陌头",
-        "王昌龄",
-        "闺怨",
-        "杨柳"
-        ]
+            "王昌龄",
+            "闺怨",
+            "杨柳"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_310",
@@ -24753,9 +25067,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "忽如一",
-        "岑参",
-        "白雪歌送武判官归京",
-        "梨花开"
+            "岑参",
+            "白雪歌送武判官归京",
+            "梨花开"
         ]
     },
     {
@@ -24771,7 +25085,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "春望"
+            "春望"
         ]
     },
     {
@@ -24787,10 +25101,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "母爱",
-        "孟郊",
-        "游子吟",
-        "母亲"
-        ]
+            "孟郊",
+            "游子吟",
+            "母亲"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_311",
@@ -24805,10 +25120,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "奉帚",
-        "王昌龄",
-        "长信秋词",
-        "团扇"
-        ]
+            "王昌龄",
+            "长信秋词",
+            "团扇"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_311",
@@ -24823,9 +25139,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "瀚海阑",
-        "岑参",
-        "白雪歌送武判官归京",
-        "惨淡"
+            "岑参",
+            "白雪歌送武判官归京",
+            "惨淡"
         ]
     },
     {
@@ -24841,8 +25157,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "春望"
-        ]
+            "春望"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_312",
@@ -24857,10 +25174,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "母爱",
-        "孟郊",
-        "游子吟",
-        "担心"
-        ]
+            "孟郊",
+            "游子吟",
+            "担心"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_312",
@@ -24875,10 +25193,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "金井",
-        "王昌龄",
-        "长信秋词",
-        "秋叶"
-        ]
+            "王昌龄",
+            "长信秋词",
+            "秋叶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_312",
@@ -24893,9 +25212,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "中军置",
-        "岑参",
-        "白雪歌送武判官归京",
-        "琵琶"
+            "岑参",
+            "白雪歌送武判官归京",
+            "琵琶"
         ],
         "poetryType": false
     },
@@ -24912,8 +25231,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "春望"
-        ]
+            "春望"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_313",
@@ -24928,10 +25248,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "母爱",
-        "孟郊",
-        "游子吟",
-        "报答"
-        ]
+            "孟郊",
+            "游子吟",
+            "报答"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_313",
@@ -24946,10 +25267,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "熏笼",
-        "王昌龄",
-        "长信秋词",
-        "玉枕"
-        ]
+            "王昌龄",
+            "长信秋词",
+            "玉枕"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_313",
@@ -24964,9 +25286,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "纷纷暮",
-        "岑参",
-        "白雪歌送武判官归京",
-        "辕门"
+            "岑参",
+            "白雪歌送武判官归京",
+            "辕门"
         ]
     },
     {
@@ -24982,7 +25304,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "望岳"
+            "望岳"
         ]
     },
     {
@@ -24998,9 +25320,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "鸟",
-        "李白",
-        "独坐敬亭山",
-        "鸟"
+            "李白",
+            "独坐敬亭山",
+            "鸟"
         ]
     },
     {
@@ -25016,10 +25338,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "薄命",
-        "杜牧",
-        "宫怨",
-        "寻思"
-        ]
+            "杜牧",
+            "宫怨",
+            "寻思"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_314",
@@ -25034,9 +25357,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "轮台东",
-        "岑参",
-        "白雪歌送武判官归京",
-        "天山"
+            "岑参",
+            "白雪歌送武判官归京",
+            "天山"
         ]
     },
     {
@@ -25052,8 +25375,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "望岳"
-        ]
+            "望岳"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_315",
@@ -25068,9 +25392,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山",
-        "李白",
-        "独坐敬亭山",
-        "相看"
+            "李白",
+            "独坐敬亭山",
+            "相看"
         ]
     },
     {
@@ -25086,9 +25410,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乍笔",
-        "杜牧",
-        "宫怨",
-        "绿萝"
+            "杜牧",
+            "宫怨",
+            "绿萝"
         ]
     },
     {
@@ -25104,9 +25428,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "将军角",
-        "岑参",
-        "白雪歌送武判官归京",
-        "铁衣"
+            "岑参",
+            "白雪歌送武判官归京",
+            "铁衣"
         ]
     },
     {
@@ -25122,8 +25446,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "使至塞上"
-        ]
+            "使至塞上"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_316",
@@ -25138,9 +25463,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春天",
-        "杜甫",
-        "绝句",
-        "花草"
+            "杜甫",
+            "绝句",
+            "花草"
         ]
     },
     {
@@ -25156,9 +25481,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春风",
-        "杜牧",
-        "宫怨",
-        "梦里"
+            "杜牧",
+            "宫怨",
+            "梦里"
         ]
     },
     {
@@ -25174,9 +25499,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "散入珠",
-        "岑参",
-        "白雪歌送武判官归京",
-        "罗幕"
+            "岑参",
+            "白雪歌送武判官归京",
+            "罗幕"
         ]
     },
     {
@@ -25192,7 +25517,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "饮酒"
+            "饮酒"
         ]
     },
     {
@@ -25208,10 +25533,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "燕子",
-        "杜甫",
-        "绝句",
-        "鸳鸯"
-        ]
+            "杜甫",
+            "绝句",
+            "鸳鸯"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_317",
@@ -25226,9 +25552,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "高枝",
-        "杜牧",
-        "宫怨",
-        "卖珠"
+            "杜牧",
+            "宫怨",
+            "卖珠"
         ]
     },
     {
@@ -25244,9 +25570,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "角声满",
-        "岑参",
-        "白雪歌送武判官归京",
-        "秋色"
+            "岑参",
+            "白雪歌送武判官归京",
+            "秋色"
         ]
     },
     {
@@ -25262,8 +25588,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "饮酒"
-        ]
+            "饮酒"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_318",
@@ -25278,10 +25605,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江",
-        "杜甫",
-        "绝句",
-        "山青"
-        ]
+            "杜甫",
+            "绝句",
+            "山青"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_318",
@@ -25296,9 +25624,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "铅华",
-        "杜牧",
-        "宫怨",
-        "天真"
+            "杜牧",
+            "宫怨",
+            "天真"
         ]
     },
     {
@@ -25314,9 +25642,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山回路",
-        "岑参",
-        "白雪歌送武判官归京",
-        "马行"
+            "岑参",
+            "白雪歌送武判官归京",
+            "马行"
         ]
     },
     {
@@ -25332,7 +25660,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "饮酒"
+            "饮酒"
         ]
     },
     {
@@ -25348,9 +25676,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "思乡",
-        "杜甫",
-        "绝句",
-        "归年"
+            "杜甫",
+            "绝句",
+            "归年"
         ]
     },
     {
@@ -25366,9 +25694,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "云光",
-        "杜牧",
-        "寄扬州韩绰判官",
-        "江南"
+            "杜牧",
+            "寄扬州韩绰判官",
+            "江南"
         ]
     },
     {
@@ -25384,9 +25712,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "今夜鄜",
-        "杜甫",
-        "月夜",
-        "独看"
+            "杜甫",
+            "月夜",
+            "独看"
         ]
     },
     {
@@ -25402,8 +25730,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "送杜少府之任蜀州"
-        ]
+            "送杜少府之任蜀州"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_320",
@@ -25418,9 +25747,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋天",
-        "杜甫",
-        "登高",
-        "作客"
+            "杜甫",
+            "登高",
+            "作客"
         ]
     },
     {
@@ -25436,9 +25765,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "贾傅",
-        "杜牧",
-        "寄扬州韩绰判官",
-        "江淹"
+            "杜牧",
+            "寄扬州韩绰判官",
+            "江淹"
         ]
     },
     {
@@ -25454,9 +25783,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "遥怜小",
-        "杜甫",
-        "月夜",
-        "小儿女"
+            "杜甫",
+            "月夜",
+            "小儿女"
         ]
     },
     {
@@ -25472,8 +25801,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "早春呈水部张十八员外"
-        ]
+            "早春呈水部张十八员外"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_321",
@@ -25488,9 +25818,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "落叶",
-        "杜甫",
-        "登高",
-        "长江"
+            "杜甫",
+            "登高",
+            "长江"
         ]
     },
     {
@@ -25506,10 +25836,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "独坐",
-        "王维",
-        "竹里馆",
-        "幽篁"
-        ]
+            "王维",
+            "竹里馆",
+            "幽篁"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_321",
@@ -25524,9 +25855,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "香雾云",
-        "杜甫",
-        "月夜",
-        "玉臂"
+            "杜甫",
+            "月夜",
+            "玉臂"
         ]
     },
     {
@@ -25542,8 +25873,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "早春呈水部张十八员外"
-        ]
+            "早春呈水部张十八员外"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_322",
@@ -25558,9 +25890,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "苦恨",
-        "杜甫",
-        "登高",
-        "霜鬓"
+            "杜甫",
+            "登高",
+            "霜鬓"
         ]
     },
     {
@@ -25576,10 +25908,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "深林",
-        "王维",
-        "竹里馆",
-        "相照"
-        ]
+            "王维",
+            "竹里馆",
+            "相照"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_322",
@@ -25594,9 +25927,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "何时倚",
-        "杜甫",
-        "月夜",
-        "泪痕"
+            "杜甫",
+            "月夜",
+            "泪痕"
         ]
     },
     {
@@ -25612,7 +25945,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "酬乐天初逢席上见赠"
+            "酬乐天初逢席上见赠"
         ]
     },
     {
@@ -25628,9 +25961,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋天",
-        "杜甫",
-        "登高",
-        "猿啸"
+            "杜甫",
+            "登高",
+            "猿啸"
         ]
     },
     {
@@ -25646,10 +25979,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "荆溪",
-        "王维",
-        "山中",
-        "白石"
-        ]
+            "王维",
+            "山中",
+            "白石"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_323",
@@ -25664,9 +25998,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "岐王宅",
-        "杜甫",
-        "江南逢李龟年",
-        "寻常"
+            "杜甫",
+            "江南逢李龟年",
+            "寻常"
         ]
     },
     {
@@ -25682,8 +26016,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
-        ]
+            "论语"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_324",
@@ -25698,10 +26033,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "长江",
-        "杜甫",
-        "登高",
-        "落木"
-        ]
+            "杜甫",
+            "登高",
+            "落木"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_324",
@@ -25716,9 +26052,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山路",
-        "王维",
-        "山中",
-        "空翠"
+            "王维",
+            "山中",
+            "空翠"
         ]
     },
     {
@@ -25734,9 +26070,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "正是江",
-        "杜甫",
-        "江南逢李龟年",
-        "落花"
+            "杜甫",
+            "江南逢李龟年",
+            "落花"
         ]
     },
     {
@@ -25752,9 +26088,10 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_325",
@@ -25769,10 +26106,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "思乡",
-        "杜甫",
-        "登高",
-        "百年"
-        ]
+            "杜甫",
+            "登高",
+            "百年"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_325",
@@ -25787,9 +26125,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "竹林寺",
-        "刘长卿",
-        "送灵澈上人",
-        "钟声"
+            "刘长卿",
+            "送灵澈上人",
+            "钟声"
         ]
     },
     {
@@ -25805,9 +26143,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "好雨知",
-        "杜甫",
-        "春夜喜雨",
-        "时节"
+            "杜甫",
+            "春夜喜雨",
+            "时节"
         ]
     },
     {
@@ -25823,9 +26161,10 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_326",
@@ -25840,10 +26179,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春雨",
-        "杜甫",
-        "春夜喜雨",
-        "时节"
-        ]
+            "杜甫",
+            "春夜喜雨",
+            "时节"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_326",
@@ -25858,9 +26198,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "荷笠",
-        "刘长卿",
-        "送灵澈上人",
-        "斜阳"
+            "刘长卿",
+            "送灵澈上人",
+            "斜阳"
         ]
     },
     {
@@ -25876,9 +26216,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野径云",
-        "杜甫",
-        "春夜喜雨",
-        "火独"
+            "杜甫",
+            "春夜喜雨",
+            "火独"
         ]
     },
     {
@@ -25894,9 +26234,10 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_327",
@@ -25911,10 +26252,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜景",
-        "杜甫",
-        "春夜喜雨",
-        "江船"
-        ]
+            "杜甫",
+            "春夜喜雨",
+            "江船"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_327",
@@ -25929,9 +26271,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "七弦",
-        "刘长卿",
-        "弹琴",
-        "松风"
+            "刘长卿",
+            "弹琴",
+            "松风"
         ]
     },
     {
@@ -25947,9 +26289,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "晓看红",
-        "杜甫",
-        "春夜喜雨",
-        "锦官"
+            "杜甫",
+            "春夜喜雨",
+            "锦官"
         ]
     },
     {
@@ -25965,7 +26307,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
         "poetryType": false
     },
@@ -25982,10 +26324,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "花",
-        "杜甫",
-        "春夜喜雨",
-        "锦官城"
-        ]
+            "杜甫",
+            "春夜喜雨",
+            "锦官城"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_328",
@@ -26000,9 +26343,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古调",
-        "刘长卿",
-        "弹琴",
-        "自爱"
+            "刘长卿",
+            "弹琴",
+            "自爱"
         ]
     },
     {
@@ -26018,9 +26361,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "岱宗夫",
-        "杜甫",
-        "望岳",
-        "青未"
+            "杜甫",
+            "望岳",
+            "青未"
         ]
     },
     {
@@ -26036,8 +26379,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
-        ]
+            "论语"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_329",
@@ -26052,10 +26396,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春雨",
-        "杜甫",
-        "春夜喜雨",
-        "润物"
-        ]
+            "杜甫",
+            "春夜喜雨",
+            "润物"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_329",
@@ -26070,9 +26415,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日暮",
-        "刘长卿",
-        "逢雪宿芙蓉山主人",
-        "苍山"
+            "刘长卿",
+            "逢雪宿芙蓉山主人",
+            "苍山"
         ]
     },
     {
@@ -26088,9 +26433,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "造化钟",
-        "杜甫",
-        "望岳",
-        "神秀"
+            "杜甫",
+            "望岳",
+            "神秀"
         ]
     },
     {
@@ -26106,7 +26451,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
         "poetryType": false
     },
@@ -26123,9 +26468,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "云",
-        "杜甫",
-        "春夜喜雨",
-        "野径"
+            "杜甫",
+            "春夜喜雨",
+            "野径"
         ]
     },
     {
@@ -26141,9 +26486,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "柴门",
-        "刘长卿",
-        "逢雪宿芙蓉山主人",
-        "犬吠"
+            "刘长卿",
+            "逢雪宿芙蓉山主人",
+            "犬吠"
         ]
     },
     {
@@ -26159,9 +26504,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "荡胸生",
-        "杜甫",
-        "望岳",
-        "曾云"
+            "杜甫",
+            "望岳",
+            "曾云"
         ]
     },
     {
@@ -26177,8 +26522,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "观沧海"
-        ]
+            "观沧海"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_331",
@@ -26193,10 +26539,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "小池",
-        "杨万里",
-        "小池",
-        "晴柔"
-        ]
+            "杨万里",
+            "小池",
+            "晴柔"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_331",
@@ -26211,10 +26558,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沧江",
-        "孟浩然",
-        "宿桐庐江寄广陵旧游",
-        "急夜"
-        ]
+            "孟浩然",
+            "宿桐庐江寄广陵旧游",
+            "急夜"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_331",
@@ -26229,9 +26577,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "会当凌",
-        "杜甫",
-        "望岳",
-        "绝顶"
+            "杜甫",
+            "望岳",
+            "绝顶"
         ]
     },
     {
@@ -26247,8 +26595,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "观沧海"
-        ]
+            "观沧海"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_332",
@@ -26263,10 +26612,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蜻蜓",
-        "杨万里",
-        "小池",
-        "荷花"
-        ]
+            "杨万里",
+            "小池",
+            "荷花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_332",
@@ -26281,9 +26631,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "建德",
-        "孟浩然",
-        "宿建德江",
-        "维扬"
+            "孟浩然",
+            "宿建德江",
+            "维扬"
         ]
     },
     {
@@ -26299,9 +26649,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月色半",
-        "刘方平",
-        "月夜",
-        "斜"
+            "刘方平",
+            "月夜",
+            "斜"
         ]
     },
     {
@@ -26317,8 +26667,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "次北固山下"
-        ]
+            "次北固山下"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_333",
@@ -26333,10 +26684,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "西湖",
-        "杨万里",
-        "晓出净慈寺送林子方",
-        "风光"
-        ]
+            "杨万里",
+            "晓出净慈寺送林子方",
+            "风光"
+        ],
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_fbc_333",
@@ -26351,9 +26704,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "垂钓",
-        "孟浩然",
-        "万山潭作",
-        "磐石"
+            "孟浩然",
+            "万山潭作",
+            "磐石"
         ]
     },
     {
@@ -26369,9 +26722,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春气暖",
-        "刘方平",
-        "月夜",
-        "新透"
+            "刘方平",
+            "月夜",
+            "新透"
         ]
     },
     {
@@ -26387,8 +26740,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "次北固山下"
-        ]
+            "次北固山下"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_334",
@@ -26403,10 +26757,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "荷花",
-        "杨万里",
-        "晓出净慈寺送林子方",
-        "莲叶"
-        ]
+            "杨万里",
+            "晓出净慈寺送林子方",
+            "莲叶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_334",
@@ -26421,9 +26776,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "岩壁",
-        "孟浩然",
-        "万山潭作",
-        "松棹"
+            "孟浩然",
+            "万山潭作",
+            "松棹"
         ]
     },
     {
@@ -26439,9 +26794,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沙似雪",
-        "李益",
-        "夜上受降城闻笛",
-        "如霜"
+            "李益",
+            "夜上受降城闻笛",
+            "如霜"
         ]
     },
     {
@@ -26457,8 +26812,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "钱塘湖春行"
-        ]
+            "钱塘湖春行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_335",
@@ -26473,9 +26829,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春天",
-        "杨万里",
-        "宿新市徐公店",
-        "花落"
+            "杨万里",
+            "宿新市徐公店",
+            "花落"
         ]
     },
     {
@@ -26491,10 +26847,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "水清",
-        "孟浩然",
-        "万山潭作",
-        "心矣"
-        ]
+            "孟浩然",
+            "万山潭作",
+            "心矣"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_335",
@@ -26509,9 +26866,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "一夜征",
-        "李益",
-        "夜上受降城闻笛",
-        "望乡"
+            "李益",
+            "夜上受降城闻笛",
+            "望乡"
         ]
     },
     {
@@ -26527,8 +26884,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "钱塘湖春行"
-        ]
+            "钱塘湖春行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_336",
@@ -26543,9 +26901,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "儿童",
-        "杨万里",
-        "宿新市徐公店",
-        "黄蝶"
+            "杨万里",
+            "宿新市徐公店",
+            "黄蝶"
         ]
     },
     {
@@ -26561,9 +26919,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "王孙",
-        "王维",
-        "山居秋暝",
-        "春芳"
+            "王维",
+            "山居秋暝",
+            "春芳"
         ]
     },
     {
@@ -26579,9 +26937,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "幽草涧",
-        "韦应物",
-        "滁州西涧",
-        "黄鹂"
+            "韦应物",
+            "滁州西涧",
+            "黄鹂"
         ]
     },
     {
@@ -26597,8 +26955,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "钱塘湖春行"
-        ]
+            "钱塘湖春行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_337",
@@ -26613,9 +26972,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "渔船",
-        "杨万里",
-        "舟过安仁",
-        "渔船"
+            "杨万里",
+            "舟过安仁",
+            "渔船"
         ]
     },
     {
@@ -26631,10 +26990,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "空山",
-        "王维",
-        "山居秋暝",
-        "新雨"
-        ]
+            "王维",
+            "山居秋暝",
+            "新雨"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_337",
@@ -26649,9 +27009,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "无人舟",
-        "韦应物",
-        "滁州西涧",
-        "自横"
+            "韦应物",
+            "滁州西涧",
+            "自横"
         ]
     },
     {
@@ -26667,8 +27027,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
-        ]
+            "西江月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_338",
@@ -26683,9 +27044,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "风",
-        "杨万里",
-        "舟过安仁",
-        "张伞"
+            "杨万里",
+            "舟过安仁",
+            "张伞"
         ]
     },
     {
@@ -26701,10 +27062,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "明月",
-        "王维",
-        "山居秋暝",
-        "清泉"
-        ]
+            "王维",
+            "山居秋暝",
+            "清泉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_338",
@@ -26719,10 +27081,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闺中只",
-        "杜甫",
-        "月夜",
-        "独看"
-        ]
+            "杜甫",
+            "月夜",
+            "独看"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_338",
@@ -26737,8 +27100,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
-        ]
+            "西江月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_339",
@@ -26753,9 +27117,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "农夫",
-        "王维",
-        "渭川田家",
-        "相见"
+            "王维",
+            "渭川田家",
+            "相见"
         ]
     },
     {
@@ -26771,11 +27135,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "竹喧",
-        "王维",
-        "山居秋暝",
-        "浣女"
+            "王维",
+            "山居秋暝",
+            "浣女"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_zk_339",
@@ -26790,10 +27155,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "小儿女",
-        "杜甫",
-        "月夜",
-        "忆长安"
-        ]
+            "杜甫",
+            "月夜",
+            "忆长安"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_339",
@@ -26808,8 +27174,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
-        ]
+            "西江月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_340",
@@ -26824,9 +27191,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "傍晚",
-        "王维",
-        "渭川田家",
-        "牛羊"
+            "王维",
+            "渭川田家",
+            "牛羊"
         ]
     },
     {
@@ -26842,10 +27209,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "随意",
-        "王维",
-        "山居秋暝",
-        "留"
-        ]
+            "王维",
+            "山居秋暝",
+            "留"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_340",
@@ -26860,10 +27228,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "清辉玉",
-        "杜甫",
-        "月夜",
-        "玉臂"
-        ]
+            "杜甫",
+            "月夜",
+            "玉臂"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_340",
@@ -26878,8 +27247,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
-        ]
+            "西江月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_341",
@@ -26894,10 +27264,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄河",
-        "王之涣",
-        "登鹳雀楼",
-        "白日"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "白日"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_341",
@@ -26912,9 +27283,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "功盖",
-        "杜甫",
-        "八阵图",
-        "八阵"
+            "杜甫",
+            "八阵图",
+            "八阵"
         ]
     },
     {
@@ -26930,10 +27301,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "崔九堂",
-        "杜甫",
-        "江南逢李龟年",
-        "几度"
-        ]
+            "杜甫",
+            "江南逢李龟年",
+            "几度"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_341",
@@ -26948,8 +27320,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "天净沙·秋思"
-        ]
+            "天净沙·秋思"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_342",
@@ -26964,10 +27337,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "上楼",
-        "王之涣",
-        "登鹳雀楼",
-        "千里"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "千里"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_342",
@@ -26982,9 +27356,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江流",
-        "杜甫",
-        "八阵图",
-        "石不"
+            "杜甫",
+            "八阵图",
+            "石不"
         ]
     },
     {
@@ -27000,10 +27374,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "落花时",
-        "杜甫",
-        "江南逢李龟年",
-        "又逢"
-        ]
+            "杜甫",
+            "江南逢李龟年",
+            "又逢"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_342",
@@ -27018,8 +27393,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "天净沙·秋思"
-        ]
+            "天净沙·秋思"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_343",
@@ -27034,10 +27410,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "凉州",
-        "王之涣",
-        "凉州词",
-        "孤城"
-        ]
+            "王之涣",
+            "凉州词",
+            "孤城"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_343",
@@ -27052,9 +27429,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "今夜",
-        "杜甫",
-        "月夜",
-        "鄜州"
+            "杜甫",
+            "月夜",
+            "鄜州"
         ]
     },
     {
@@ -27070,10 +27447,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "潜入夜",
-        "杜甫",
-        "春夜喜雨",
-        "无声"
-        ]
+            "杜甫",
+            "春夜喜雨",
+            "无声"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_343",
@@ -27088,8 +27466,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_344",
@@ -27104,10 +27483,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "玉门关",
-        "王之涣",
-        "凉州词",
-        "羌笛"
-        ]
+            "王之涣",
+            "凉州词",
+            "羌笛"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_344",
@@ -27122,9 +27502,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "香雾",
-        "杜甫",
-        "月夜",
-        "云鬟"
+            "杜甫",
+            "月夜",
+            "云鬟"
         ]
     },
     {
@@ -27140,10 +27520,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江船火",
-        "杜甫",
-        "春夜喜雨",
-        "独明"
-        ]
+            "杜甫",
+            "春夜喜雨",
+            "独明"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_344",
@@ -27158,8 +27539,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_345",
@@ -27174,10 +27556,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "长征",
-        "王昌龄",
-        "出塞",
-        "秦时"
-        ]
+            "王昌龄",
+            "出塞",
+            "秦时"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_345",
@@ -27192,9 +27575,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "虚幌",
-        "杜甫",
-        "月夜",
-        "泪痕"
+            "杜甫",
+            "月夜",
+            "泪痕"
         ]
     },
     {
@@ -27210,10 +27593,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "花重锦",
-        "杜甫",
-        "春夜喜雨",
-        "锦官"
-        ]
+            "杜甫",
+            "春夜喜雨",
+            "锦官"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_345",
@@ -27228,8 +27612,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_346",
@@ -27244,10 +27629,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "阴山",
-        "王昌龄",
-        "出塞",
-        "龙城"
-        ]
+            "王昌龄",
+            "出塞",
+            "龙城"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_346",
@@ -27262,10 +27648,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "剑外",
-        "杜甫",
-        "闻官军收河南河北",
-        "蓟北"
-        ]
+            "杜甫",
+            "闻官军收河南河北",
+            "蓟北"
+        ],
+        "deleted": true
     },
     {
         "id": "q_zk_346",
@@ -27280,10 +27667,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "齐鲁青",
-        "杜甫",
-        "望岳",
-        "未了"
-        ]
+            "杜甫",
+            "望岳",
+            "未了"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_346",
@@ -27298,8 +27686,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_347",
@@ -27314,9 +27703,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "饮酒",
-        "王翰",
-        "凉州词",
-        "夜光杯"
+            "王翰",
+            "凉州词",
+            "夜光杯"
         ]
     },
     {
@@ -27332,9 +27721,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "妻子",
-        "杜甫",
-        "闻官军收河南河北",
-        "漫卷"
+            "杜甫",
+            "闻官军收河南河北",
+            "漫卷"
         ]
     },
     {
@@ -27350,10 +27739,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "阴阳割",
-        "杜甫",
-        "望岳",
-        "昏晓"
-        ]
+            "杜甫",
+            "望岳",
+            "昏晓"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_347",
@@ -27368,8 +27758,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_348",
@@ -27384,9 +27775,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "征战",
-        "王翰",
-        "凉州词",
-        "沙场"
+            "王翰",
+            "凉州词",
+            "沙场"
         ]
     },
     {
@@ -27402,9 +27793,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白日",
-        "杜甫",
-        "闻官军收河南河北",
-        "放歌"
+            "杜甫",
+            "闻官军收河南河北",
+            "放歌"
         ]
     },
     {
@@ -27420,10 +27811,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "决眦入",
-        "杜甫",
-        "望岳",
-        "归鸟"
-        ]
+            "杜甫",
+            "望岳",
+            "归鸟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_348",
@@ -27438,8 +27830,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_349",
@@ -27454,10 +27847,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "思乡",
-        "王维",
-        "九月九日忆山东兄弟",
-        "异客"
-        ]
+            "王维",
+            "九月九日忆山东兄弟",
+            "异客"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_349",
@@ -27472,9 +27866,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "巴峡",
-        "杜甫",
-        "闻官军收河南河北",
-        "巫峡"
+            "杜甫",
+            "闻官军收河南河北",
+            "巫峡"
         ]
     },
     {
@@ -27490,10 +27884,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "一览众",
-        "杜甫",
-        "望岳",
-        "众山"
-        ]
+            "杜甫",
+            "望岳",
+            "众山"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_349",
@@ -27508,8 +27903,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "泊秦淮"
-        ]
+            "泊秦淮"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_350",
@@ -27524,10 +27920,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "登高",
-        "王维",
-        "九月九日忆山东兄弟",
-        "茱萸"
-        ]
+            "王维",
+            "九月九日忆山东兄弟",
+            "茱萸"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_350",
@@ -27542,9 +27939,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "细草",
-        "杜甫",
-        "旅夜书怀",
-        "微风"
+            "杜甫",
+            "旅夜书怀",
+            "微风"
         ]
     },
     {
@@ -27560,8 +27957,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "游山西村"
-        ]
+            "游山西村"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_351",
@@ -27576,9 +27974,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "空山",
-        "王维",
-        "鹿柴",
-        "人语"
+            "王维",
+            "鹿柴",
+            "人语"
         ]
     },
     {
@@ -27594,9 +27992,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "星垂",
-        "杜甫",
-        "旅夜书怀",
-        "平野"
+            "杜甫",
+            "旅夜书怀",
+            "平野"
         ]
     },
     {
@@ -27612,8 +28010,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "从军行"
-        ]
+            "从军行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_352",
@@ -27628,9 +28027,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "深林",
-        "王维",
-        "鹿柴",
-        "返景"
+            "王维",
+            "鹿柴",
+            "返景"
         ]
     },
     {
@@ -27646,9 +28045,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "飘飘",
-        "杜甫",
-        "旅夜书怀",
-        "沙鸥"
+            "杜甫",
+            "旅夜书怀",
+            "沙鸥"
         ]
     },
     {
@@ -27664,7 +28063,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "卖炭翁"
+            "卖炭翁"
         ]
     },
     {
@@ -27680,9 +28079,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山中",
-        "王维",
-        "山中",
-        "红叶"
+            "王维",
+            "山中",
+            "红叶"
         ]
     },
     {
@@ -27698,9 +28097,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "岱宗",
-        "杜甫",
-        "望岳",
-        "齐鲁"
+            "杜甫",
+            "望岳",
+            "齐鲁"
         ]
     },
     {
@@ -27716,7 +28115,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "卖炭翁"
+            "卖炭翁"
         ]
     },
     {
@@ -27732,9 +28131,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山路",
-        "王维",
-        "山中",
-        "空翠"
+            "王维",
+            "山中",
+            "空翠"
         ]
     },
     {
@@ -27750,9 +28149,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "造化",
-        "杜甫",
-        "望岳",
-        "神秀"
+            "杜甫",
+            "望岳",
+            "神秀"
         ]
     },
     {
@@ -27768,7 +28167,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "茅屋为秋风所破歌"
+            "茅屋为秋风所破歌"
         ]
     },
     {
@@ -27784,9 +28183,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "竹林",
-        "刘长卿",
-        "送灵澈上人",
-        "钟声"
+            "刘长卿",
+            "送灵澈上人",
+            "钟声"
         ]
     },
     {
@@ -27802,9 +28201,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "荡胸",
-        "杜甫",
-        "望岳",
-        "曾云"
+            "杜甫",
+            "望岳",
+            "曾云"
         ]
     },
     {
@@ -27820,7 +28219,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "茅屋为秋风所破歌"
+            "茅屋为秋风所破歌"
         ]
     },
     {
@@ -27836,9 +28235,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "归远",
-        "刘长卿",
-        "送灵澈上人",
-        "荷笠"
+            "刘长卿",
+            "送灵澈上人",
+            "荷笠"
         ]
     },
     {
@@ -27854,9 +28253,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "会当",
-        "杜甫",
-        "望岳",
-        "绝顶"
+            "杜甫",
+            "望岳",
+            "绝顶"
         ]
     },
     {
@@ -27872,7 +28271,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "南园十三首"
+            "南园十三首"
         ]
     },
     {
@@ -27888,9 +28287,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "琴声",
-        "刘长卿",
-        "弹琴",
-        "七弦"
+            "刘长卿",
+            "弹琴",
+            "七弦"
         ]
     },
     {
@@ -27906,9 +28305,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "国破",
-        "杜甫",
-        "春望",
-        "草木"
+            "杜甫",
+            "春望",
+            "草木"
         ]
     },
     {
@@ -27924,7 +28323,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "雁门太守行"
+            "雁门太守行"
         ]
     },
     {
@@ -27940,9 +28339,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "古调",
-        "刘长卿",
-        "弹琴",
-        "今人"
+            "刘长卿",
+            "弹琴",
+            "今人"
         ]
     },
     {
@@ -27958,9 +28357,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "感时",
-        "杜甫",
-        "春望",
-        "溅泪"
+            "杜甫",
+            "春望",
+            "溅泪"
         ]
     },
     {
@@ -27976,7 +28375,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "雁门太守行"
+            "雁门太守行"
         ]
     },
     {
@@ -27992,9 +28391,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日暮",
-        "刘长卿",
-        "逢雪宿芙蓉山主人",
-        "白屋"
+            "刘长卿",
+            "逢雪宿芙蓉山主人",
+            "白屋"
         ]
     },
     {
@@ -28010,9 +28409,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "烽火",
-        "杜甫",
-        "春望",
-        "万金"
+            "杜甫",
+            "春望",
+            "万金"
         ]
     },
     {
@@ -28028,7 +28427,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "雁门太守行"
+            "雁门太守行"
         ]
     },
     {
@@ -28044,9 +28443,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "犬吠",
-        "刘长卿",
-        "逢雪宿芙蓉山主人",
-        "柴门"
+            "刘长卿",
+            "逢雪宿芙蓉山主人",
+            "柴门"
         ]
     },
     {
@@ -28062,9 +28461,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白头",
-        "杜甫",
-        "春望",
-        "不胜"
+            "杜甫",
+            "春望",
+            "不胜"
         ]
     },
     {
@@ -28080,7 +28479,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "梦江南"
+            "梦江南"
         ]
     },
     {
@@ -28096,9 +28495,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "敕勒川",
-        "无名氏",
-        "敕勒歌",
-        "阴山"
+            "无名氏",
+            "敕勒歌",
+            "阴山"
         ]
     },
     {
@@ -28114,10 +28513,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "丞相",
-        "杜甫",
-        "蜀相",
-        "锦官"
-        ]
+            "杜甫",
+            "蜀相",
+            "锦官"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_361",
@@ -28132,7 +28532,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "梦江南"
+            "梦江南"
         ]
     },
     {
@@ -28148,9 +28548,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "四野",
-        "无名氏",
-        "敕勒歌",
-        "穹庐"
+            "无名氏",
+            "敕勒歌",
+            "穹庐"
         ]
     },
     {
@@ -28166,10 +28566,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "映阶",
-        "杜甫",
-        "蜀相",
-        "碧草"
-        ]
+            "杜甫",
+            "蜀相",
+            "碧草"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_362",
@@ -28184,7 +28585,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "望江南"
+            "望江南"
         ]
     },
     {
@@ -28200,9 +28601,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "牛羊",
-        "无名氏",
-        "敕勒歌",
-        "草低"
+            "无名氏",
+            "敕勒歌",
+            "草低"
         ]
     },
     {
@@ -28218,10 +28619,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "三顾",
-        "杜甫",
-        "蜀相",
-        "老臣"
-        ]
+            "杜甫",
+            "蜀相",
+            "老臣"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_363",
@@ -28236,7 +28638,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渔家傲"
+            "渔家傲"
         ]
     },
     {
@@ -28252,10 +28654,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "鸟",
-        "柳宗元",
-        "江雪",
-        "千山"
-        ]
+            "柳宗元",
+            "江雪",
+            "千山"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_364",
@@ -28270,10 +28673,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "出师",
-        "杜甫",
-        "蜀相",
-        "泪满"
-        ]
+            "杜甫",
+            "蜀相",
+            "泪满"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_364",
@@ -28288,7 +28692,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渔家傲"
+            "渔家傲"
         ]
     },
     {
@@ -28304,10 +28708,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "渔翁",
-        "柳宗元",
-        "江雪",
-        "孤舟"
-        ]
+            "柳宗元",
+            "江雪",
+            "孤舟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_365",
@@ -28322,9 +28727,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "风急",
-        "杜甫",
-        "登高",
-        "猿啸"
+            "杜甫",
+            "登高",
+            "猿啸"
         ]
     },
     {
@@ -28340,8 +28745,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "定风波"
-        ]
+            "定风波"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_366",
@@ -28356,9 +28762,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "终南",
-        "祖咏",
-        "终南望余雪",
-        "阴岭"
+            "祖咏",
+            "终南望余雪",
+            "阴岭"
         ]
     },
     {
@@ -28374,9 +28780,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "落木",
-        "杜甫",
-        "登高",
-        "萧萧"
+            "杜甫",
+            "登高",
+            "萧萧"
         ]
     },
     {
@@ -28392,8 +28798,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "定风波"
-        ]
+            "定风波"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_367",
@@ -28408,9 +28815,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "暮寒",
-        "祖咏",
-        "终南望余雪",
-        "林表"
+            "祖咏",
+            "终南望余雪",
+            "林表"
         ]
     },
     {
@@ -28426,9 +28833,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "悲秋",
-        "杜甫",
-        "登高",
-        "作客"
+            "杜甫",
+            "登高",
+            "作客"
         ]
     },
     {
@@ -28444,8 +28851,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "定风波"
-        ]
+            "定风波"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_368",
@@ -28460,9 +28868,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乡音",
-        "贺知章",
-        "回乡偶书",
-        "鬓毛"
+            "贺知章",
+            "回乡偶书",
+            "鬓毛"
         ]
     },
     {
@@ -28478,9 +28886,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "苦恨",
-        "杜甫",
-        "登高",
-        "霜鬓"
+            "杜甫",
+            "登高",
+            "霜鬓"
         ]
     },
     {
@@ -28496,7 +28904,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "青玉案"
+            "青玉案"
         ]
     },
     {
@@ -28512,9 +28920,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "儿童",
-        "贺知章",
-        "回乡偶书",
-        "笑问"
+            "贺知章",
+            "回乡偶书",
+            "笑问"
         ]
     },
     {
@@ -28530,10 +28938,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "舍南",
-        "韩愈",
-        "题竹",
-        "书字"
-        ]
+            "韩愈",
+            "题竹",
+            "书字"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_369",
@@ -28548,7 +28957,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "青玉案"
+            "青玉案"
         ]
     },
     {
@@ -28564,9 +28973,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人事",
-        "贺知章",
-        "回乡偶书",
-        "消磨"
+            "贺知章",
+            "回乡偶书",
+            "消磨"
         ]
     },
     {
@@ -28582,10 +28991,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "谗言",
-        "韩愈",
-        "浪淘沙",
-        "迁客"
-        ]
+            "韩愈",
+            "浪淘沙",
+            "迁客"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_370",
@@ -28600,7 +29010,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "丑奴儿"
+            "丑奴儿"
         ]
     },
     {
@@ -28616,10 +29026,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "松下",
-        "贾岛",
-        "寻隐者不遇",
-        "童子"
-        ]
+            "贾岛",
+            "寻隐者不遇",
+            "童子"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_371",
@@ -28634,9 +29045,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "锄禾",
-        "李绅",
-        "悯农",
-        "汗滴"
+            "李绅",
+            "悯农",
+            "汗滴"
         ]
     },
     {
@@ -28652,7 +29063,7 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "丑奴儿"
+            "丑奴儿"
         ]
     },
     {
@@ -28668,9 +29079,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "云深",
-        "贾岛",
-        "寻隐者不遇",
-        "不知"
+            "贾岛",
+            "寻隐者不遇",
+            "不知"
         ]
     },
     {
@@ -28686,9 +29097,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "盘中",
-        "李绅",
-        "悯农",
-        "辛苦"
+            "李绅",
+            "悯农",
+            "辛苦"
         ]
     },
     {
@@ -28704,8 +29115,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渡荆门送别"
-        ]
+            "渡荆门送别"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_373",
@@ -28720,10 +29132,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "向晚",
-        "李商隐",
-        "登乐游原",
-        "不适"
-        ]
+            "李商隐",
+            "登乐游原",
+            "不适"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_373",
@@ -28738,10 +29151,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春种",
-        "李绅",
-        "悯农",
-        "万颗"
-        ]
+            "李绅",
+            "悯农",
+            "万颗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_373",
@@ -28756,8 +29170,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渡荆门送别"
-        ]
+            "渡荆门送别"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_374",
@@ -28772,10 +29187,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夕阳",
-        "李商隐",
-        "登乐游原",
-        "无限"
-        ]
+            "李商隐",
+            "登乐游原",
+            "无限"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_374",
@@ -28790,9 +29206,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "四海",
-        "李绅",
-        "悯农",
-        "犹饿死"
+            "李绅",
+            "悯农",
+            "犹饿死"
         ]
     },
     {
@@ -28808,8 +29224,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
-        ]
+            "论语"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_375",
@@ -28824,9 +29241,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "海上",
-        "张九龄",
-        "望月怀远",
-        "明月"
+            "张九龄",
+            "望月怀远",
+            "明月"
         ]
     },
     {
@@ -28842,9 +29259,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "鹅",
-        "骆宾王",
-        "咏鹅",
-        "曲项"
+            "骆宾王",
+            "咏鹅",
+            "曲项"
         ]
     },
     {
@@ -28860,9 +29277,10 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_376",
@@ -28877,9 +29295,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "情人",
-        "张九龄",
-        "望月怀远",
-        "遥夜"
+            "张九龄",
+            "望月怀远",
+            "遥夜"
         ]
     },
     {
@@ -28895,9 +29313,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白毛",
-        "骆宾王",
-        "咏鹅",
-        "红掌"
+            "骆宾王",
+            "咏鹅",
+            "红掌"
         ]
     },
     {
@@ -28913,9 +29331,10 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_377",
@@ -28930,9 +29349,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "灭烛",
-        "张九龄",
-        "望月怀远",
-        "光满"
+            "张九龄",
+            "望月怀远",
+            "光满"
         ]
     },
     {
@@ -28948,9 +29367,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "解落",
-        "李峤",
-        "风",
-        "三秋"
+            "李峤",
+            "风",
+            "三秋"
         ]
     },
     {
@@ -28966,9 +29385,10 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_378",
@@ -28983,9 +29403,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "盈手",
-        "张九龄",
-        "望月怀远",
-        "佳期"
+            "张九龄",
+            "望月怀远",
+            "佳期"
         ]
     },
     {
@@ -29001,9 +29421,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "过江",
-        "李峤",
-        "风",
-        "万竿"
+            "李峤",
+            "风",
+            "万竿"
         ]
     },
     {
@@ -29019,9 +29439,10 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_379",
@@ -29036,9 +29457,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "岭猿",
-        "孟浩然",
-        "宿桐庐江寄广陵旧游",
-        "旦暮"
+            "孟浩然",
+            "宿桐庐江寄广陵旧游",
+            "旦暮"
         ]
     },
     {
@@ -29054,9 +29475,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "冷烛",
-        "钱珝",
-        "未展芭蕉",
-        "绿蜡"
+            "钱珝",
+            "未展芭蕉",
+            "绿蜡"
         ]
     },
     {
@@ -29072,8 +29493,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
-        ]
+            "论语"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_380",
@@ -29088,9 +29510,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "风鸣",
-        "孟浩然",
-        "宿桐庐江寄广陵旧游",
-        "月照"
+            "孟浩然",
+            "宿桐庐江寄广陵旧游",
+            "月照"
         ]
     },
     {
@@ -29106,9 +29528,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "深红",
-        "温庭筠",
-        "南歌子",
-        "曲尘"
+            "温庭筠",
+            "南歌子",
+            "曲尘"
         ]
     },
     {
@@ -29124,9 +29546,10 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "论语"
+            "论语"
         ],
-        "poetryType": false
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_381",
@@ -29141,10 +29564,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "小儿",
-        "胡令能",
-        "小儿垂钓",
-        "垂纶"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "垂纶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_381",
@@ -29159,9 +29583,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "临行",
-        "孟郊",
-        "游子吟",
-        "密密"
+            "孟郊",
+            "游子吟",
+            "密密"
         ]
     },
     {
@@ -29177,8 +29601,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "观沧海"
-        ]
+            "观沧海"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_382",
@@ -29193,10 +29618,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "招手",
-        "胡令能",
-        "小儿垂钓",
-        "借问"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "借问"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_382",
@@ -29211,9 +29637,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "寸草",
-        "孟郊",
-        "游子吟",
-        "三春"
+            "孟郊",
+            "游子吟",
+            "三春"
         ]
     },
     {
@@ -29229,8 +29655,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "观沧海"
-        ]
+            "观沧海"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_383",
@@ -29245,10 +29672,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "危楼",
-        "李白",
-        "夜宿山寺",
-        "高百"
-        ]
+            "李白",
+            "夜宿山寺",
+            "高百"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_383",
@@ -29263,9 +29691,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄河",
-        "王之涣",
-        "凉州词",
-        "孤城"
+            "王之涣",
+            "凉州词",
+            "孤城"
         ]
     },
     {
@@ -29281,8 +29709,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "次北固山下"
-        ]
+            "次北固山下"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_384",
@@ -29297,10 +29726,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "高声",
-        "李白",
-        "夜宿山寺",
-        "天上"
-        ]
+            "李白",
+            "夜宿山寺",
+            "天上"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_384",
@@ -29315,9 +29745,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "羌笛",
-        "王之涣",
-        "凉州词",
-        "杨柳"
+            "王之涣",
+            "凉州词",
+            "杨柳"
         ]
     },
     {
@@ -29333,8 +29763,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "次北固山下"
-        ]
+            "次北固山下"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_385",
@@ -29349,9 +29780,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "李杜",
-        "赵翼",
-        "论诗",
-        "万口"
+            "赵翼",
+            "论诗",
+            "万口"
         ]
     },
     {
@@ -29367,10 +29798,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秦时",
-        "王昌龄",
-        "出塞",
-        "长征"
-        ]
+            "王昌龄",
+            "出塞",
+            "长征"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_385",
@@ -29385,8 +29817,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "钱塘湖春行"
-        ]
+            "钱塘湖春行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_386",
@@ -29401,9 +29834,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "才人",
-        "赵翼",
-        "论诗",
-        "风骚"
+            "赵翼",
+            "论诗",
+            "风骚"
         ]
     },
     {
@@ -29419,10 +29852,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "龙城",
-        "王昌龄",
-        "出塞",
-        "阴山"
-        ]
+            "王昌龄",
+            "出塞",
+            "阴山"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_386",
@@ -29437,8 +29871,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "钱塘湖春行"
-        ]
+            "钱塘湖春行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_387",
@@ -29453,10 +29888,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "赤壁",
-        "杜牧",
-        "赤壁",
-        "周郎"
-        ]
+            "杜牧",
+            "赤壁",
+            "周郎"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_387",
@@ -29471,9 +29907,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "葡萄",
-        "王翰",
-        "凉州词",
-        "夜光"
+            "王翰",
+            "凉州词",
+            "夜光"
         ]
     },
     {
@@ -29489,8 +29925,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "钱塘湖春行"
-        ]
+            "钱塘湖春行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_388",
@@ -29505,10 +29942,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "折戟",
-        "杜牧",
-        "赤壁",
-        "前朝"
-        ]
+            "杜牧",
+            "赤壁",
+            "前朝"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_388",
@@ -29523,9 +29961,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "醉卧",
-        "王翰",
-        "凉州词",
-        "沙场"
+            "王翰",
+            "凉州词",
+            "沙场"
         ]
     },
     {
@@ -29541,8 +29979,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
-        ]
+            "西江月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_389",
@@ -29557,10 +29996,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "商女",
-        "杜牧",
-        "泊秦淮",
-        "亡国"
-        ]
+            "杜牧",
+            "泊秦淮",
+            "亡国"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_389",
@@ -29575,10 +30015,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千里",
-        "高适",
-        "别董大",
-        "黄云"
-        ]
+            "高适",
+            "别董大",
+            "黄云"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_389",
@@ -29593,8 +30034,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
-        ]
+            "西江月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_390",
@@ -29609,10 +30051,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "寒水",
-        "杜牧",
-        "泊秦淮",
-        "夜泊"
-        ]
+            "杜牧",
+            "泊秦淮",
+            "夜泊"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_390",
@@ -29627,10 +30070,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "莫愁",
-        "高适",
-        "别董大",
-        "知己"
-        ]
+            "高适",
+            "别董大",
+            "知己"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_390",
@@ -29645,8 +30089,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
-        ]
+            "西江月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_391",
@@ -29661,10 +30106,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江花",
-        "白居易",
-        "忆江南",
-        "红胜"
-        ]
+            "白居易",
+            "忆江南",
+            "红胜"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_391",
@@ -29679,9 +30125,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "金樽",
-        "李白",
-        "行路难",
-        "珍羞"
+            "李白",
+            "行路难",
+            "珍羞"
         ]
     },
     {
@@ -29697,8 +30143,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "西江月"
-        ]
+            "西江月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_392",
@@ -29713,9 +30160,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江南",
-        "白居易",
-        "忆江南",
-        "曾谙"
+            "白居易",
+            "忆江南",
+            "曾谙"
         ]
     },
     {
@@ -29731,9 +30178,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "停杯",
-        "李白",
-        "行路难",
-        "箸"
+            "李白",
+            "行路难",
+            "箸"
         ]
     },
     {
@@ -29749,8 +30196,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "天净沙·秋思"
-        ]
+            "天净沙·秋思"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_393",
@@ -29765,9 +30213,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "杭州",
-        "白居易",
-        "忆江南",
-        "山寺"
+            "白居易",
+            "忆江南",
+            "山寺"
         ]
     },
     {
@@ -29783,9 +30231,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "欲渡",
-        "李白",
-        "行路难",
-        "冰塞"
+            "李白",
+            "行路难",
+            "冰塞"
         ]
     },
     {
@@ -29801,8 +30249,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "天净沙·秋思"
-        ]
+            "天净沙·秋思"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_394",
@@ -29817,9 +30266,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "茅檐",
-        "王安石",
-        "书湖阴先生壁",
-        "花木"
+            "王安石",
+            "书湖阴先生壁",
+            "花木"
         ]
     },
     {
@@ -29835,9 +30284,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闲来",
-        "李白",
-        "行路难",
-        "垂钓"
+            "李白",
+            "行路难",
+            "垂钓"
         ]
     },
     {
@@ -29853,8 +30302,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_395",
@@ -29869,9 +30319,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "绿绕",
-        "王安石",
-        "书湖阴先生壁",
-        "排闼"
+            "王安石",
+            "书湖阴先生壁",
+            "排闼"
         ]
     },
     {
@@ -29887,9 +30337,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "长风",
-        "李白",
-        "行路难",
-        "沧海"
+            "李白",
+            "行路难",
+            "沧海"
         ]
     },
     {
@@ -29905,8 +30355,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_396",
@@ -29921,9 +30372,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "爆竹",
-        "王安石",
-        "元日",
-        "一岁"
+            "王安石",
+            "元日",
+            "一岁"
         ]
     },
     {
@@ -29939,10 +30390,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "玉盘",
-        "李白",
-        "行路难",
-        "万钱"
-        ]
+            "李白",
+            "行路难",
+            "万钱"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_396",
@@ -29957,8 +30409,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_397",
@@ -29973,10 +30426,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "曈曈",
-        "王安石",
-        "元日",
-        "新桃"
-        ]
+            "王安石",
+            "元日",
+            "新桃"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_397",
@@ -29991,10 +30445,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "茫然",
-        "李白",
-        "行路难",
-        "四顾"
-        ]
+            "李白",
+            "行路难",
+            "四顾"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_397",
@@ -30009,8 +30464,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_398",
@@ -30025,9 +30481,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "京口",
-        "王安石",
-        "泊船瓜洲",
-        "瓜洲"
+            "王安石",
+            "泊船瓜洲",
+            "瓜洲"
         ]
     },
     {
@@ -30043,9 +30499,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "歧路",
-        "李白",
-        "行路难",
-        "安在"
+            "李白",
+            "行路难",
+            "安在"
         ]
     },
     {
@@ -30061,8 +30517,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_399",
@@ -30077,9 +30534,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "绿",
-        "王安石",
-        "泊船瓜洲",
-        "何时"
+            "王安石",
+            "泊船瓜洲",
+            "何时"
         ]
     },
     {
@@ -30095,9 +30552,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沧海",
-        "李白",
-        "行路难",
-        "云帆"
+            "李白",
+            "行路难",
+            "云帆"
         ]
     },
     {
@@ -30113,8 +30570,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "木兰诗"
-        ]
+            "木兰诗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_400",
@@ -30129,9 +30587,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "梅",
-        "王安石",
-        "梅花",
-        "墙角"
+            "王安石",
+            "梅花",
+            "墙角"
         ]
     },
     {
@@ -30147,9 +30605,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "大道",
-        "李白",
-        "行路难",
-        "青天"
+            "李白",
+            "行路难",
+            "青天"
         ]
     },
     {
@@ -30165,8 +30623,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "泊秦淮"
-        ]
+            "泊秦淮"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_401",
@@ -30181,10 +30640,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄鹂",
-        "杜甫",
-        "绝句",
-        "白鹭"
-        ]
+            "杜甫",
+            "绝句",
+            "白鹭"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_401",
@@ -30199,10 +30659,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "早莺",
-        "白居易",
-        "钱塘湖春行",
-        "暖树"
-        ]
+            "白居易",
+            "钱塘湖春行",
+            "暖树"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_401",
@@ -30217,8 +30678,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "游山西村"
-        ]
+            "游山西村"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_402",
@@ -30233,10 +30695,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "西岭",
-        "杜甫",
-        "绝句",
-        "千秋"
-        ]
+            "杜甫",
+            "绝句",
+            "千秋"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_402",
@@ -30251,10 +30714,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乱花",
-        "白居易",
-        "钱塘湖春行",
-        "浅草"
-        ]
+            "白居易",
+            "钱塘湖春行",
+            "浅草"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_402",
@@ -30269,8 +30733,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "从军行"
-        ]
+            "从军行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_403",
@@ -30285,10 +30750,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "潭水",
-        "李白",
-        "赠汪伦",
-        "送我"
-        ]
+            "李白",
+            "赠汪伦",
+            "送我"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_403",
@@ -30303,10 +30769,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "湖东",
-        "白居易",
-        "钱塘湖春行",
-        "绿杨"
-        ]
+            "白居易",
+            "钱塘湖春行",
+            "绿杨"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_403",
@@ -30321,8 +30788,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "卖炭翁"
-        ]
+            "卖炭翁"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_404",
@@ -30337,10 +30805,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "飞流",
-        "李白",
-        "望庐山瀑布",
-        "银河"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "银河"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_404",
@@ -30355,10 +30824,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孤山",
-        "白居易",
-        "钱塘湖春行",
-        "贾亭"
-        ]
+            "白居易",
+            "钱塘湖春行",
+            "贾亭"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_404",
@@ -30373,8 +30843,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "卖炭翁"
-        ]
+            "卖炭翁"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_405",
@@ -30389,10 +30860,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "香炉",
-        "李白",
-        "望庐山瀑布",
-        "紫烟"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "紫烟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_405",
@@ -30407,10 +30879,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "水面",
-        "白居易",
-        "钱塘湖春行",
-        "云脚"
-        ]
+            "白居易",
+            "钱塘湖春行",
+            "云脚"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_405",
@@ -30425,8 +30898,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "茅屋为秋风所破歌"
-        ]
+            "茅屋为秋风所破歌"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_406",
@@ -30441,10 +30915,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "危楼",
-        "李白",
-        "夜宿山寺",
-        "摘星"
-        ]
+            "李白",
+            "夜宿山寺",
+            "摘星"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_406",
@@ -30459,10 +30934,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黑云",
-        "李贺",
-        "雁门太守行",
-        "金鳞"
-        ]
+            "李贺",
+            "雁门太守行",
+            "金鳞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_406",
@@ -30477,8 +30953,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "茅屋为秋风所破歌"
-        ]
+            "茅屋为秋风所破歌"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_407",
@@ -30493,10 +30970,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "语",
-        "李白",
-        "夜宿山寺",
-        "天上"
-        ]
+            "李白",
+            "夜宿山寺",
+            "天上"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_407",
@@ -30511,10 +30989,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "角声",
-        "李贺",
-        "雁门太守行",
-        "秋色"
-        ]
+            "李贺",
+            "雁门太守行",
+            "秋色"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_407",
@@ -30529,8 +31008,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "南园十三首"
-        ]
+            "南园十三首"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_408",
@@ -30545,10 +31025,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "识",
-        "李白",
-        "古朗月行",
-        "白玉"
-        ]
+            "李白",
+            "古朗月行",
+            "白玉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_408",
@@ -30563,10 +31044,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄金台",
-        "李贺",
-        "雁门太守行",
-        "玉龙"
-        ]
+            "李贺",
+            "雁门太守行",
+            "玉龙"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_408",
@@ -30581,8 +31063,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "雁门太守行"
-        ]
+            "雁门太守行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_409",
@@ -30597,9 +31080,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "瑶台",
-        "李白",
-        "古朗月行",
-        "青云"
+            "李白",
+            "古朗月行",
+            "青云"
         ]
     },
     {
@@ -30615,10 +31098,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "磨洗",
-        "杜牧",
-        "赤壁",
-        "前朝"
-        ]
+            "杜牧",
+            "赤壁",
+            "前朝"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_409",
@@ -30633,8 +31117,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "雁门太守行"
-        ]
+            "雁门太守行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_410",
@@ -30649,10 +31134,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "湖光",
-        "刘禹锡",
-        "望洞庭",
-        "秋月"
-        ]
+            "刘禹锡",
+            "望洞庭",
+            "秋月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_410",
@@ -30667,10 +31153,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "铜雀",
-        "杜牧",
-        "赤壁",
-        "二乔"
-        ]
+            "杜牧",
+            "赤壁",
+            "二乔"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_410",
@@ -30685,8 +31172,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "雁门太守行"
-        ]
+            "雁门太守行"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_411",
@@ -30701,10 +31189,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "潭面",
-        "刘禹锡",
-        "望洞庭",
-        "无风"
-        ]
+            "刘禹锡",
+            "望洞庭",
+            "无风"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_411",
@@ -30719,10 +31208,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜泊",
-        "杜牧",
-        "泊秦淮",
-        "近酒"
-        ]
+            "杜牧",
+            "泊秦淮",
+            "近酒"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_411",
@@ -30737,8 +31227,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "梦江南"
-        ]
+            "梦江南"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_412",
@@ -30753,10 +31244,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山水",
-        "刘禹锡",
-        "望洞庭",
-        "青螺"
-        ]
+            "刘禹锡",
+            "望洞庭",
+            "青螺"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_412",
@@ -30771,10 +31263,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "隔江",
-        "杜牧",
-        "泊秦淮",
-        "亡国"
-        ]
+            "杜牧",
+            "泊秦淮",
+            "亡国"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_412",
@@ -30789,8 +31282,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "梦江南"
-        ]
+            "梦江南"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_413",
@@ -30805,9 +31299,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄河",
-        "刘禹锡",
-        "浪淘沙",
-        "浪淘"
+            "刘禹锡",
+            "浪淘沙",
+            "浪淘"
         ]
     },
     {
@@ -30823,10 +31317,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "雨纷纷",
-        "杜牧",
-        "清明",
-        "行人"
-        ]
+            "杜牧",
+            "清明",
+            "行人"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_413",
@@ -30841,8 +31336,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "望江南"
-        ]
+            "望江南"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_414",
@@ -30857,9 +31353,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "银河",
-        "刘禹锡",
-        "浪淘沙",
-        "牵牛"
+            "刘禹锡",
+            "浪淘沙",
+            "牵牛"
         ]
     },
     {
@@ -30875,10 +31371,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "牧童",
-        "杜牧",
-        "清明",
-        "杏花"
-        ]
+            "杜牧",
+            "清明",
+            "杏花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_414",
@@ -30893,8 +31390,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渔家傲"
-        ]
+            "渔家傲"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_415",
@@ -30909,10 +31407,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白鹭",
-        "张志和",
-        "渔歌子",
-        "鳜鱼"
-        ]
+            "张志和",
+            "渔歌子",
+            "鳜鱼"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_415",
@@ -30927,9 +31426,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "水村",
-        "杜牧",
-        "江南春",
-        "山郭"
+            "杜牧",
+            "江南春",
+            "山郭"
         ]
     },
     {
@@ -30945,8 +31444,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "渔家傲"
-        ]
+            "渔家傲"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_416",
@@ -30961,10 +31461,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蓑衣",
-        "张志和",
-        "渔歌子",
-        "斜风"
-        ]
+            "张志和",
+            "渔歌子",
+            "斜风"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_416",
@@ -30979,9 +31480,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "四百八",
-        "杜牧",
-        "江南春",
-        "烟雨"
+            "杜牧",
+            "江南春",
+            "烟雨"
         ]
     },
     {
@@ -30997,8 +31498,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "定风波"
-        ]
+            "定风波"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_417",
@@ -31013,10 +31515,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日出",
-        "白居易",
-        "忆江南",
-        "绿如"
-        ]
+            "白居易",
+            "忆江南",
+            "绿如"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_417",
@@ -31031,10 +31534,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "轻罗",
-        "杜牧",
-        "秋夕",
-        "流萤"
-        ]
+            "杜牧",
+            "秋夕",
+            "流萤"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_417",
@@ -31049,8 +31553,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "定风波"
-        ]
+            "定风波"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_418",
@@ -31065,9 +31570,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "忆",
-        "白居易",
-        "忆江南",
-        "最忆"
+            "白居易",
+            "忆江南",
+            "最忆"
         ]
     },
     {
@@ -31083,10 +31588,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "牵牛",
-        "杜牧",
-        "秋夕",
-        "织女"
-        ]
+            "杜牧",
+            "秋夕",
+            "织女"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_418",
@@ -31101,8 +31607,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "定风波"
-        ]
+            "定风波"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_419",
@@ -31117,10 +31624,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "竹外",
-        "苏轼",
-        "惠崇春江晚景",
-        "鸭先"
-        ]
+            "苏轼",
+            "惠崇春江晚景",
+            "鸭先"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_419",
@@ -31135,9 +31643,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "草未凋",
-        "杜牧",
-        "寄扬州韩绰判官",
-        "江南"
+            "杜牧",
+            "寄扬州韩绰判官",
+            "江南"
         ]
     },
     {
@@ -31153,8 +31661,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "青玉案"
-        ]
+            "青玉案"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_420",
@@ -31169,10 +31678,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蒌蒿",
-        "苏轼",
-        "惠崇春江晚景",
-        "河豚"
-        ]
+            "苏轼",
+            "惠崇春江晚景",
+            "河豚"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_420",
@@ -31187,9 +31697,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "玉人",
-        "杜牧",
-        "寄扬州韩绰判官",
-        "吹箫"
+            "杜牧",
+            "寄扬州韩绰判官",
+            "吹箫"
         ]
     },
     {
@@ -31205,8 +31715,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "青玉案"
-        ]
+            "青玉案"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_421",
@@ -31221,10 +31732,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "杏花",
-        "杜牧",
-        "清明",
-        "牧童"
-        ]
+            "杜牧",
+            "清明",
+            "牧童"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_421",
@@ -31239,9 +31751,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "飞来",
-        "王安石",
-        "登飞来峰",
-        "千寻"
+            "王安石",
+            "登飞来峰",
+            "千寻"
         ]
     },
     {
@@ -31257,8 +31769,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "丑奴儿"
-        ]
+            "丑奴儿"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_422",
@@ -31273,10 +31786,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "雨",
-        "杜牧",
-        "清明",
-        "行人"
-        ]
+            "杜牧",
+            "清明",
+            "行人"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_422",
@@ -31291,9 +31805,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "浮云",
-        "王安石",
-        "登飞来峰",
-        "最高层"
+            "王安石",
+            "登飞来峰",
+            "最高层"
         ]
     },
     {
@@ -31309,8 +31823,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初一",
-        "丑奴儿"
-        ]
+            "丑奴儿"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_423",
@@ -31325,10 +31840,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "莺啼",
-        "杜牧",
-        "江南春",
-        "绿映"
-        ]
+            "杜牧",
+            "江南春",
+            "绿映"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_423",
@@ -31343,9 +31859,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "爆竹",
-        "王安石",
-        "元日",
-        "屠苏"
+            "王安石",
+            "元日",
+            "屠苏"
         ]
     },
     {
@@ -31361,10 +31877,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "四百",
-        "杜牧",
-        "江南春",
-        "楼台"
-        ]
+            "杜牧",
+            "江南春",
+            "楼台"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_424",
@@ -31379,9 +31896,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "瞳瞳",
-        "王安石",
-        "元日",
-        "新桃"
+            "王安石",
+            "元日",
+            "新桃"
         ]
     },
     {
@@ -31397,10 +31914,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "石径",
-        "杜牧",
-        "山行",
-        "白云"
-        ]
+            "杜牧",
+            "山行",
+            "白云"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_425",
@@ -31415,9 +31933,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "京口",
-        "王安石",
-        "泊船瓜洲",
-        "瓜洲"
+            "王安石",
+            "泊船瓜洲",
+            "瓜洲"
         ]
     },
     {
@@ -31433,10 +31951,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "枫林",
-        "杜牧",
-        "山行",
-        "霜叶"
-        ]
+            "杜牧",
+            "山行",
+            "霜叶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_426",
@@ -31451,9 +31970,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "绿江南",
-        "王安石",
-        "泊船瓜洲",
-        "明月"
+            "王安石",
+            "泊船瓜洲",
+            "明月"
         ]
     },
     {
@@ -31469,10 +31988,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秋光",
-        "杜牧",
-        "秋夕",
-        "画屏"
-        ]
+            "杜牧",
+            "秋夕",
+            "画屏"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_427",
@@ -31487,9 +32007,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "墙角",
-        "王安石",
-        "梅花",
-        "凌寒"
+            "王安石",
+            "梅花",
+            "凌寒"
         ]
     },
     {
@@ -31505,10 +32025,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜色",
-        "杜牧",
-        "秋夕",
-        "牵牛"
-        ]
+            "杜牧",
+            "秋夕",
+            "牵牛"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_428",
@@ -31523,9 +32044,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "暗香",
-        "王安石",
-        "梅花",
-        "不是雪"
+            "王安石",
+            "梅花",
+            "不是雪"
         ]
     },
     {
@@ -31541,9 +32062,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青山",
-        "杜牧",
-        "寄扬州韩绰判官",
-        "迢迢"
+            "杜牧",
+            "寄扬州韩绰判官",
+            "迢迢"
         ]
     },
     {
@@ -31559,9 +32080,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "莫言",
-        "杨万里",
-        "过松源晨炊漆公店",
-        "错喜欢"
+            "杨万里",
+            "过松源晨炊漆公店",
+            "错喜欢"
         ]
     },
     {
@@ -31577,9 +32098,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "明月",
-        "杜牧",
-        "寄扬州韩绰判官",
-        "吹箫"
+            "杜牧",
+            "寄扬州韩绰判官",
+            "吹箫"
         ]
     },
     {
@@ -31595,9 +32116,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "万山",
-        "杨万里",
-        "过松源晨炊漆公店",
-        "放出"
+            "杨万里",
+            "过松源晨炊漆公店",
+            "放出"
         ]
     },
     {
@@ -31613,10 +32134,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "柳树",
-        "贺知章",
-        "咏柳",
-        "丝绦"
-        ]
+            "贺知章",
+            "咏柳",
+            "丝绦"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_431",
@@ -31631,10 +32153,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月落",
-        "张继",
-        "枫桥夜泊",
-        "乌啼"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "乌啼"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_432",
@@ -31649,10 +32172,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春风",
-        "贺知章",
-        "咏柳",
-        "剪刀"
-        ]
+            "贺知章",
+            "咏柳",
+            "剪刀"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_432",
@@ -31667,10 +32191,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "姑苏",
-        "张继",
-        "枫桥夜泊",
-        "钟声"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "钟声"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_433",
@@ -31685,10 +32210,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野火",
-        "白居易",
-        "草",
-        "吹又"
-        ]
+            "白居易",
+            "草",
+            "吹又"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_433",
@@ -31703,10 +32229,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春城无处",
-        "韩翃",
-        "寒食",
-        "飞花"
-        ]
+            "韩翃",
+            "寒食",
+            "飞花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_434",
@@ -31721,10 +32248,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "离离",
-        "白居易",
-        "草",
-        "枯荣"
-        ]
+            "白居易",
+            "草",
+            "枯荣"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_434",
@@ -31739,10 +32267,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日暮汉宫",
-        "韩翃",
-        "寒食",
-        "蜡烛"
-        ]
+            "韩翃",
+            "寒食",
+            "蜡烛"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_435",
@@ -31757,9 +32286,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "远芳",
-        "白居易",
-        "草",
-        "古道"
+            "白居易",
+            "草",
+            "古道"
         ]
     },
     {
@@ -31775,10 +32304,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "独在",
-        "王维",
-        "九月九日忆山东兄弟",
-        "异乡"
-        ]
+            "王维",
+            "九月九日忆山东兄弟",
+            "异乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_436",
@@ -31793,10 +32323,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄鹤",
-        "崔颢",
-        "黄鹤楼",
-        "千载"
-        ]
+            "崔颢",
+            "黄鹤楼",
+            "千载"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_436",
@@ -31811,10 +32342,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "遥知",
-        "王维",
-        "九月九日忆山东兄弟",
-        "登高"
-        ]
+            "王维",
+            "九月九日忆山东兄弟",
+            "登高"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_437",
@@ -31829,10 +32361,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "晴川",
-        "崔颢",
-        "黄鹤楼",
-        "汉阳"
-        ]
+            "崔颢",
+            "黄鹤楼",
+            "汉阳"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_437",
@@ -31847,10 +32380,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "渭城",
-        "王维",
-        "送元二使安西",
-        "轻尘"
-        ]
+            "王维",
+            "送元二使安西",
+            "轻尘"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_438",
@@ -31865,10 +32399,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日暮",
-        "崔颢",
-        "黄鹤楼",
-        "乡关"
-        ]
+            "崔颢",
+            "黄鹤楼",
+            "乡关"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_438",
@@ -31883,10 +32418,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "劝君",
-        "王维",
-        "送元二使安西",
-        "无故人"
-        ]
+            "王维",
+            "送元二使安西",
+            "无故人"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_439",
@@ -31901,10 +32437,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乌啼",
-        "张继",
-        "枫桥夜泊",
-        "渔火"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "渔火"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_439",
@@ -31919,10 +32456,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "独坐幽篁",
-        "王维",
-        "竹里馆",
-        "长啸"
-        ]
+            "王维",
+            "竹里馆",
+            "长啸"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_440",
@@ -31937,10 +32475,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江枫",
-        "张继",
-        "枫桥夜泊",
-        "愁眠"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "愁眠"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_440",
@@ -31955,10 +32494,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "深林人",
-        "王维",
-        "竹里馆",
-        "明月"
-        ]
+            "王维",
+            "竹里馆",
+            "明月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_441",
@@ -31973,9 +32513,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "敕勒川",
-        "无名氏",
-        "敕勒歌",
-        "穹庐"
+            "无名氏",
+            "敕勒歌",
+            "穹庐"
         ]
     },
     {
@@ -31991,9 +32531,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山居",
-        "王维",
-        "山居秋暝",
-        "新雨"
+            "王维",
+            "山居秋暝",
+            "新雨"
         ]
     },
     {
@@ -32009,10 +32549,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "四野",
-        "无名氏",
-        "敕勒歌",
-        "笼盖"
-        ]
+            "无名氏",
+            "敕勒歌",
+            "笼盖"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_442",
@@ -32027,10 +32568,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "明月松间",
-        "王维",
-        "山居秋暝",
-        "清泉"
-        ]
+            "王维",
+            "山居秋暝",
+            "清泉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_443",
@@ -32045,10 +32587,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "猿声",
-        "李白",
-        "早发白帝城",
-        "轻舟"
-        ]
+            "李白",
+            "早发白帝城",
+            "轻舟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_443",
@@ -32063,10 +32606,12 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "竹喧",
-        "王维",
-        "山居秋暝",
-        "浣女"
-        ]
+            "王维",
+            "山居秋暝",
+            "浣女"
+        ],
+        "poetryType": false,
+        "deleted": true
     },
     {
         "id": "q_mk_444",
@@ -32081,10 +32626,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白帝",
-        "李白",
-        "早发白帝城",
-        "彩云"
-        ]
+            "李白",
+            "早发白帝城",
+            "彩云"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_444",
@@ -32099,10 +32645,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "随意",
-        "王维",
-        "山居秋暝",
-        "春芳"
-        ]
+            "王维",
+            "山居秋暝",
+            "春芳"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_445",
@@ -32117,10 +32664,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "万重",
-        "李白",
-        "早发白帝城",
-        "万重山"
-        ]
+            "李白",
+            "早发白帝城",
+            "万重山"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_445",
@@ -32135,10 +32683,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "单车欲",
-        "王维",
-        "使至塞上",
-        "问边"
-        ]
+            "王维",
+            "使至塞上",
+            "问边"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_446",
@@ -32153,10 +32702,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故人",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "烟花"
-        ]
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "烟花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_446",
@@ -32171,10 +32721,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "征蓬",
-        "王维",
-        "使至塞上",
-        "汉塞"
-        ]
+            "王维",
+            "使至塞上",
+            "汉塞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_447",
@@ -32189,9 +32740,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孤帆",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "碧空"
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "碧空"
         ]
     },
     {
@@ -32207,10 +32758,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "大漠孤烟",
-        "王维",
-        "使至塞上",
-        "长河"
-        ]
+            "王维",
+            "使至塞上",
+            "长河"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_448",
@@ -32225,10 +32777,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天门",
-        "李白",
-        "望天门山",
-        "楚江"
-        ]
+            "李白",
+            "望天门山",
+            "楚江"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_448",
@@ -32243,9 +32796,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "大江东",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "风流"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "风流"
         ]
     },
     {
@@ -32261,10 +32814,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青山",
-        "李白",
-        "望天门山",
-        "日边"
-        ]
+            "李白",
+            "望天门山",
+            "日边"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_449",
@@ -32279,9 +32833,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乱石穿空",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "惊涛"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "惊涛"
         ]
     },
     {
@@ -32297,10 +32851,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "香炉",
-        "李白",
-        "望庐山瀑布",
-        "紫烟"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "紫烟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_450",
@@ -32315,9 +32870,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "明月几时",
-        "苏轼",
-        "水调歌头",
-        "青天"
+            "苏轼",
+            "水调歌头",
+            "青天"
         ]
     },
     {
@@ -32333,9 +32888,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江南",
-        "白居易",
-        "忆江南",
-        "蓝尾"
+            "白居易",
+            "忆江南",
+            "蓝尾"
         ]
     },
     {
@@ -32351,9 +32906,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "悲欢",
-        "苏轼",
-        "水调歌头",
-        "阴晴"
+            "苏轼",
+            "水调歌头",
+            "阴晴"
         ]
     },
     {
@@ -32369,9 +32924,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "吴宫",
-        "白居易",
-        "忆江南",
-        "朱灯"
+            "白居易",
+            "忆江南",
+            "朱灯"
         ]
     },
     {
@@ -32387,9 +32942,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人长久",
-        "苏轼",
-        "水调歌头",
-        "婵娟"
+            "苏轼",
+            "水调歌头",
+            "婵娟"
         ]
     },
     {
@@ -32405,9 +32960,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "三更",
-        "贺铸",
-        "子夜歌",
-        "中庭"
+            "贺铸",
+            "子夜歌",
+            "中庭"
         ]
     },
     {
@@ -32423,9 +32978,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乘风归去",
-        "苏轼",
-        "水调歌头",
-        "琼楼"
+            "苏轼",
+            "水调歌头",
+            "琼楼"
         ]
     },
     {
@@ -32441,9 +32996,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "卷帘",
-        "李清照",
-        "如梦令",
-        "海棠"
+            "李清照",
+            "如梦令",
+            "海棠"
         ]
     },
     {
@@ -32459,9 +33014,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "弄清影",
-        "苏轼",
-        "水调歌头",
-        "人间"
+            "苏轼",
+            "水调歌头",
+            "人间"
         ]
     },
     {
@@ -32477,9 +33032,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "绿肥",
-        "李清照",
-        "如梦令",
-        "红瘦"
+            "李清照",
+            "如梦令",
+            "红瘦"
         ]
     },
     {
@@ -32495,9 +33050,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "朱阁",
-        "苏轼",
-        "水调歌头",
-        "绮户"
+            "苏轼",
+            "水调歌头",
+            "绮户"
         ]
     },
     {
@@ -32513,9 +33068,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "寻寻",
-        "李清照",
-        "声声慢",
-        "戚戚"
+            "李清照",
+            "声声慢",
+            "戚戚"
         ]
     },
     {
@@ -32531,9 +33086,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "别时圆",
-        "苏轼",
-        "水调歌头",
-        "恨"
+            "苏轼",
+            "水调歌头",
+            "恨"
         ]
     },
     {
@@ -32549,9 +33104,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乍暖",
-        "李清照",
-        "声声慢",
-        "将息"
+            "李清照",
+            "声声慢",
+            "将息"
         ]
     },
     {
@@ -32567,10 +33122,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千古风流",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "风流"
-        ]
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "风流"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_458",
@@ -32585,9 +33141,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "满地",
-        "李清照",
-        "声声慢",
-        "黄花"
+            "李清照",
+            "声声慢",
+            "黄花"
         ]
     },
     {
@@ -32603,9 +33159,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故垒",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "周郎"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "周郎"
         ]
     },
     {
@@ -32621,9 +33177,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "窗儿",
-        "李清照",
-        "声声慢",
-        "黄昏"
+            "李清照",
+            "声声慢",
+            "黄昏"
         ]
     },
     {
@@ -32639,10 +33195,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "卷起",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "千堆雪"
-        ]
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "千堆雪"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_460",
@@ -32657,9 +33214,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "这次",
-        "李清照",
-        "声声慢",
-        "愁字"
+            "李清照",
+            "声声慢",
+            "愁字"
         ]
     },
     {
@@ -32675,9 +33232,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "如画",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "豪杰"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "豪杰"
         ]
     },
     {
@@ -32693,10 +33250,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蓬头",
-        "胡令能",
-        "小儿垂钓",
-        "垂纶"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "垂纶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_461",
@@ -32711,9 +33269,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "公瑾",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "小乔"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "小乔"
         ]
     },
     {
@@ -32729,10 +33287,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "招手",
-        "胡令能",
-        "小儿垂钓",
-        "借问"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "借问"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_462",
@@ -32747,9 +33306,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "羽扇",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "樯橹"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "樯橹"
         ]
     },
     {
@@ -32765,10 +33324,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "二三",
-        "邵雍",
-        "山村咏怀",
-        "烟村"
-        ]
+            "邵雍",
+            "山村咏怀",
+            "烟村"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_463",
@@ -32783,9 +33343,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故国神游",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "华发"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "华发"
         ]
     },
     {
@@ -32801,9 +33361,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "亭台",
-        "邵雍",
-        "山村咏怀",
-        "八九十"
+            "邵雍",
+            "山村咏怀",
+            "八九十"
         ]
     },
     {
@@ -32819,9 +33379,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人生如梦",
-        "苏轼",
-        "念奴娇·赤壁怀古",
-        "酹江"
+            "苏轼",
+            "念奴娇·赤壁怀古",
+            "酹江"
         ]
     },
     {
@@ -32837,9 +33397,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "新亭",
-        "邵雍",
-        "山村咏怀",
-        "采芝"
+            "邵雍",
+            "山村咏怀",
+            "采芝"
         ]
     },
     {
@@ -32855,10 +33415,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "农家腊酒",
-        "陆游",
-        "游山西村",
-        "鸡豚"
-        ]
+            "陆游",
+            "游山西村",
+            "鸡豚"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_466",
@@ -32873,9 +33434,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "十",
-        "邵雍",
-        "山村咏怀",
-        "亿"
+            "邵雍",
+            "山村咏怀",
+            "亿"
         ]
     },
     {
@@ -32891,10 +33452,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山重水复",
-        "陆游",
-        "游山西村",
-        "柳暗"
-        ]
+            "陆游",
+            "游山西村",
+            "柳暗"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_467",
@@ -32909,10 +33471,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春眠",
-        "孟浩然",
-        "春晓",
-        "啼鸟"
-        ]
+            "孟浩然",
+            "春晓",
+            "啼鸟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_467",
@@ -32927,10 +33490,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春社",
-        "陆游",
-        "游山西村",
-        "箫鼓"
-        ]
+            "陆游",
+            "游山西村",
+            "箫鼓"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_468",
@@ -32945,10 +33509,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜来",
-        "孟浩然",
-        "春晓",
-        "花落"
-        ]
+            "孟浩然",
+            "春晓",
+            "花落"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_468",
@@ -32963,10 +33528,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "闲乘月",
-        "陆游",
-        "游山西村",
-        "叩门"
-        ]
+            "陆游",
+            "游山西村",
+            "叩门"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_469",
@@ -32981,10 +33547,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "移舟",
-        "孟浩然",
-        "宿建德江",
-        "烟渚"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "烟渚"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_469",
@@ -32999,9 +33566,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "死去元知",
-        "陆游",
-        "示儿",
-        "九州"
+            "陆游",
+            "示儿",
+            "九州"
         ]
     },
     {
@@ -33017,10 +33584,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野旷",
-        "孟浩然",
-        "宿建德江",
-        "天低"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "天低"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_470",
@@ -33035,9 +33603,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "王师北定",
-        "陆游",
-        "示儿",
-        "家祭"
+            "陆游",
+            "示儿",
+            "家祭"
         ]
     },
     {
@@ -33053,10 +33621,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春城",
-        "韩翃",
-        "寒食",
-        "飞花"
-        ]
+            "韩翃",
+            "寒食",
+            "飞花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_471",
@@ -33071,10 +33640,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "岱宗夫",
-        "杜甫",
-        "望岳",
-        "齐鲁"
-        ]
+            "杜甫",
+            "望岳",
+            "齐鲁"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_472",
@@ -33089,10 +33659,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日暮",
-        "韩翃",
-        "寒食",
-        "蜡烛"
-        ]
+            "韩翃",
+            "寒食",
+            "蜡烛"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_472",
@@ -33107,10 +33678,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "造化钟",
-        "杜甫",
-        "望岳",
-        "神秀"
-        ]
+            "杜甫",
+            "望岳",
+            "神秀"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_473",
@@ -33125,10 +33697,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千山",
-        "柳宗元",
-        "江雪",
-        "鸟飞"
-        ]
+            "柳宗元",
+            "江雪",
+            "鸟飞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_473",
@@ -33143,10 +33716,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "荡胸生",
-        "杜甫",
-        "望岳",
-        "曾云"
-        ]
+            "杜甫",
+            "望岳",
+            "曾云"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_474",
@@ -33161,10 +33735,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孤舟",
-        "柳宗元",
-        "江雪",
-        "蓑笠"
-        ]
+            "柳宗元",
+            "江雪",
+            "蓑笠"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_474",
@@ -33179,10 +33754,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "会当凌",
-        "杜甫",
-        "望岳",
-        "绝顶"
-        ]
+            "杜甫",
+            "望岳",
+            "绝顶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_475",
@@ -33197,10 +33773,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "空山",
-        "王维",
-        "鹿柴",
-        "人语"
-        ]
+            "王维",
+            "鹿柴",
+            "人语"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_475",
@@ -33215,10 +33792,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "国破山河",
-        "杜甫",
-        "春望",
-        "草木"
-        ]
+            "杜甫",
+            "春望",
+            "草木"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_476",
@@ -33233,10 +33811,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "返景",
-        "王维",
-        "鹿柴",
-        "深林"
-        ]
+            "王维",
+            "鹿柴",
+            "深林"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_476",
@@ -33251,10 +33830,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "感时花",
-        "杜甫",
-        "春望",
-        "溅泪"
-        ]
+            "杜甫",
+            "春望",
+            "溅泪"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_477",
@@ -33269,10 +33849,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乡音",
-        "贺知章",
-        "回乡偶书",
-        "鬓毛"
-        ]
+            "贺知章",
+            "回乡偶书",
+            "鬓毛"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_477",
@@ -33287,10 +33868,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "烽火连",
-        "杜甫",
-        "春望",
-        "家书"
-        ]
+            "杜甫",
+            "春望",
+            "家书"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_478",
@@ -33305,10 +33887,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "儿童",
-        "贺知章",
-        "回乡偶书",
-        "笑问"
-        ]
+            "贺知章",
+            "回乡偶书",
+            "笑问"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_478",
@@ -33323,10 +33906,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白头搔",
-        "杜甫",
-        "春望",
-        "不胜簪"
-        ]
+            "杜甫",
+            "春望",
+            "不胜簪"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_479",
@@ -33341,10 +33925,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "离别",
-        "贺知章",
-        "回乡偶书",
-        "消磨"
-        ]
+            "贺知章",
+            "回乡偶书",
+            "消磨"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_479",
@@ -33359,9 +33944,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "茅屋",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "秋风"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "秋风"
         ]
     },
     {
@@ -33377,10 +33962,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "岭猿",
-        "孟浩然",
-        "宿桐庐江寄广陵旧游",
-        "旦暮"
-        ]
+            "孟浩然",
+            "宿桐庐江寄广陵旧游",
+            "旦暮"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_480",
@@ -33395,9 +33981,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "布衾",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "似铁"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "似铁"
         ]
     },
     {
@@ -33413,10 +33999,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "风鸣",
-        "孟浩然",
-        "宿桐庐江寄广陵旧游",
-        "月照"
-        ]
+            "孟浩然",
+            "宿桐庐江寄广陵旧游",
+            "月照"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_481",
@@ -33431,9 +34018,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "床头",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "雨脚"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "雨脚"
         ]
     },
     {
@@ -33449,9 +34036,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "木落",
-        "孟浩然",
-        "早寒江上有怀",
-        "雁南"
+            "孟浩然",
+            "早寒江上有怀",
+            "雁南"
         ]
     },
     {
@@ -33467,9 +34054,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "自经丧乱",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "沾湿"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "沾湿"
         ]
     },
     {
@@ -33485,9 +34072,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "我家",
-        "孟浩然",
-        "早寒江上有怀",
-        "襄水"
+            "孟浩然",
+            "早寒江上有怀",
+            "襄水"
         ]
     },
     {
@@ -33503,9 +34090,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "广厦",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "欢颜"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "欢颜"
         ]
     },
     {
@@ -33521,9 +34108,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "迷津",
-        "孟浩然",
-        "早寒江上有怀",
-        "漫漫"
+            "孟浩然",
+            "早寒江上有怀",
+            "漫漫"
         ]
     },
     {
@@ -33539,9 +34126,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "突兀",
-        "杜甫",
-        "茅屋为秋风所破歌",
-        "受冻"
+            "杜甫",
+            "茅屋为秋风所破歌",
+            "受冻"
         ]
     },
     {
@@ -33557,9 +34144,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "山暝",
-        "孟浩然",
-        "宿桐庐江寄广陵旧游",
-        "听猿"
+            "孟浩然",
+            "宿桐庐江寄广陵旧游",
+            "听猿"
         ]
     },
     {
@@ -33575,10 +34162,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "剑外",
-        "杜甫",
-        "闻官军收河南河北",
-        "蓟北"
-        ]
+            "杜甫",
+            "闻官军收河南河北",
+            "蓟北"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_486",
@@ -33593,9 +34181,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "鸣笙",
-        "孟浩然",
-        "宿桐庐江寄广陵旧游",
-        "西夜"
+            "孟浩然",
+            "宿桐庐江寄广陵旧游",
+            "西夜"
         ]
     },
     {
@@ -33611,10 +34199,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "妻子",
-        "杜甫",
-        "闻官军收河南河北",
-        "诗书"
-        ]
+            "杜甫",
+            "闻官军收河南河北",
+            "诗书"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_487",
@@ -33629,10 +34218,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白日",
-        "王之涣",
-        "登鹳雀楼",
-        "入海"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "入海"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_487",
@@ -33647,10 +34237,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白日放歌",
-        "杜甫",
-        "闻官军收河南河北",
-        "纵酒"
-        ]
+            "杜甫",
+            "闻官军收河南河北",
+            "纵酒"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_488",
@@ -33665,10 +34256,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千里",
-        "王之涣",
-        "登鹳雀楼",
-        "更上"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "更上"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_488",
@@ -33683,10 +34275,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "巴峡",
-        "杜甫",
-        "闻官军收河南河北",
-        "巫峡"
-        ]
+            "杜甫",
+            "闻官军收河南河北",
+            "巫峡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_489",
@@ -33701,10 +34294,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄河",
-        "王之涣",
-        "凉州词",
-        "孤城"
-        ]
+            "王之涣",
+            "凉州词",
+            "孤城"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_489",
@@ -33719,9 +34313,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "昔闻",
-        "杜甫",
-        "登岳阳楼",
-        "洞庭"
+            "杜甫",
+            "登岳阳楼",
+            "洞庭"
         ]
     },
     {
@@ -33737,10 +34331,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "羌笛",
-        "王之涣",
-        "凉州词",
-        "杨柳"
-        ]
+            "王之涣",
+            "凉州词",
+            "杨柳"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_490",
@@ -33755,9 +34350,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "吴楚",
-        "杜甫",
-        "登岳阳楼",
-        "乾坤"
+            "杜甫",
+            "登岳阳楼",
+            "乾坤"
         ]
     },
     {
@@ -33773,10 +34368,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秦时",
-        "王昌龄",
-        "出塞",
-        "长征"
-        ]
+            "王昌龄",
+            "出塞",
+            "长征"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_491",
@@ -33791,9 +34387,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "空山不",
-        "王维",
-        "鹿柴",
-        "人语"
+            "王维",
+            "鹿柴",
+            "人语"
         ]
     },
     {
@@ -33809,10 +34405,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "龙城",
-        "王昌龄",
-        "出塞",
-        "阴山"
-        ]
+            "王昌龄",
+            "出塞",
+            "阴山"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_492",
@@ -33827,9 +34424,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "返景",
-        "王维",
-        "鹿柴",
-        "青苔"
+            "王维",
+            "鹿柴",
+            "青苔"
         ]
     },
     {
@@ -33845,10 +34442,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "葡萄",
-        "王翰",
-        "凉州词",
-        "夜光"
-        ]
+            "王翰",
+            "凉州词",
+            "夜光"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_493",
@@ -33863,10 +34461,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "独坐幽",
-        "王维",
-        "竹里馆",
-        "弹琴"
-        ]
+            "王维",
+            "竹里馆",
+            "弹琴"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_494",
@@ -33881,10 +34480,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "醉卧",
-        "王翰",
-        "凉州词",
-        "沙场"
-        ]
+            "王翰",
+            "凉州词",
+            "沙场"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_494",
@@ -33899,10 +34499,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "深林人",
-        "王维",
-        "竹里馆",
-        "明月"
-        ]
+            "王维",
+            "竹里馆",
+            "明月"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_495",
@@ -33917,10 +34518,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千里",
-        "高适",
-        "别董大",
-        "黄云"
-        ]
+            "高适",
+            "别董大",
+            "黄云"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_495",
@@ -33935,9 +34537,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人闲桂",
-        "王维",
-        "鸟鸣涧",
-        "春山"
+            "王维",
+            "鸟鸣涧",
+            "春山"
         ]
     },
     {
@@ -33953,10 +34555,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "莫愁",
-        "高适",
-        "别董大",
-        "知己"
-        ]
+            "高适",
+            "别董大",
+            "知己"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_496",
@@ -33971,9 +34574,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月出惊",
-        "王维",
-        "鸟鸣涧",
-        "春涧"
+            "王维",
+            "鸟鸣涧",
+            "春涧"
         ]
     },
     {
@@ -33989,10 +34592,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "香炉",
-        "李白",
-        "望庐山瀑布",
-        "紫烟"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "紫烟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_497",
@@ -34007,10 +34611,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "花间",
-        "李白",
-        "月下独酌",
-        "一壶"
-        ]
+            "李白",
+            "月下独酌",
+            "一壶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_498",
@@ -34025,10 +34630,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "飞流",
-        "李白",
-        "望庐山瀑布",
-        "银河"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "银河"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_498",
@@ -34043,10 +34649,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "举杯",
-        "李白",
-        "月下独酌",
-        "三人"
-        ]
+            "李白",
+            "月下独酌",
+            "三人"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_499",
@@ -34061,10 +34668,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白帝",
-        "李白",
-        "早发白帝城",
-        "彩云"
-        ]
+            "李白",
+            "早发白帝城",
+            "彩云"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_499",
@@ -34079,10 +34687,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月既",
-        "李白",
-        "月下独酌",
-        "解饮"
-        ]
+            "李白",
+            "月下独酌",
+            "解饮"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_500",
@@ -34097,10 +34706,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "猿声",
-        "李白",
-        "早发白帝城",
-        "万重"
-        ]
+            "李白",
+            "早发白帝城",
+            "万重"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_500",
@@ -34115,10 +34725,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "暂伴",
-        "李白",
-        "月下独酌",
-        "行乐"
-        ]
+            "李白",
+            "月下独酌",
+            "行乐"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_500",
@@ -34128,30 +34739,30 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "《天净沙·秋思》的作者是？",
         "options": [
-    {
+            {
                 "text": "马致远",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "白朴",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "郑光祖",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "关汉卿",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "马致远",
         "explanation": "《天净沙·秋思》是元代戏曲家马致远的代表作。",
         "poemId": null,
         "knowledgePoints": [
             "元曲",
-        "马致远",
-        "天净沙"
+            "马致远",
+            "天净沙"
         ]
     },
     {
@@ -34167,10 +34778,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故人",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "烟花"
-        ]
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "烟花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_501",
@@ -34185,10 +34797,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春眠",
-        "孟浩然",
-        "春晓",
-        "啼鸟"
-        ]
+            "孟浩然",
+            "春晓",
+            "啼鸟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_501",
@@ -34198,31 +34811,31 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "'夕阳西下'的下一句是什么？",
         "options": [
-    {
+            {
                 "text": "断肠人在天涯",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "古道西风瘦马",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "千里共婵娟",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "月落乌啼霜满天",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "断肠人在天涯",
         "explanation": "出自马致远《天净沙·秋思》，表达了游子思乡之情。",
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "马致远",
-        "天净沙",
-        "思乡"
+            "马致远",
+            "天净沙",
+            "思乡"
         ]
     },
     {
@@ -34238,10 +34851,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孤帆",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "碧空"
-        ]
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "碧空"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_502",
@@ -34256,10 +34870,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜来风",
-        "孟浩然",
-        "春晓",
-        "花落"
-        ]
+            "孟浩然",
+            "春晓",
+            "花落"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_502",
@@ -34269,30 +34884,30 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "以下哪句诗不是李白写的？",
         "options": [
-    {
+            {
                 "text": "烽火连三月，家书抵万金",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "飞流直下三千尺，疑是银河落九天",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "长风破浪会有时，直挂云帆济沧海",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "两岸猿声啼不住，轻舟已过万重山",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "烽火连三月，家书抵万金",
         "explanation": "这句诗出自杜甫《春望》，李白写的是'两岸猿声啼不住'。",
         "poemId": null,
         "knowledgePoints": [
             "诗人鉴别",
-        "李白",
-        "杜甫"
+            "李白",
+            "杜甫"
         ]
     },
     {
@@ -34308,10 +34923,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天门",
-        "李白",
-        "望天门山",
-        "楚江"
-        ]
+            "李白",
+            "望天门山",
+            "楚江"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_503",
@@ -34326,10 +34942,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "移舟泊",
-        "孟浩然",
-        "宿建德江",
-        "烟渚"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "烟渚"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_503",
@@ -34339,30 +34956,30 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "'黄鹤一去不复返'的下一句是什么？",
         "options": [
-    {
+            {
                 "text": "白云千载空悠悠",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "此地空余黄鹤楼",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "晴川历历汉阳树",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "芳草萋萋鹦鹉洲",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "白云千载空悠悠",
         "explanation": "出自崔颢《黄鹤楼》，与上句'黄鹤一去不复返'相对。",
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "崔颢",
-        "黄鹤楼"
+            "崔颢",
+            "黄鹤楼"
         ]
     },
     {
@@ -34378,10 +34995,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青山",
-        "李白",
-        "望天门山",
-        "日边"
-        ]
+            "李白",
+            "望天门山",
+            "日边"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_504",
@@ -34396,10 +35014,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野旷天",
-        "孟浩然",
-        "宿建德江",
-        "月近"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "月近"
+        ],
+        "deleted": true
     },
     {
         "id": "q_chu1_504",
@@ -34409,30 +35028,30 @@ const QUESTIONS_DATA = [
         "difficulty": 4,
         "question": "《观沧海》的作者是？",
         "options": [
-    {
+            {
                 "text": "曹操",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "曹丕",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "曹植",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "陶渊明",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "曹操",
         "explanation": "《观沧海》是东汉末年曹操的代表作。",
         "poemId": null,
         "knowledgePoints": [
             "曹操",
-        "观沧海",
-        "东汉"
+            "观沧海",
+            "东汉"
         ]
     },
     {
@@ -34448,9 +35067,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "峨眉",
-        "李白",
-        "峨眉山月歌",
-        "半轮"
+            "李白",
+            "峨眉山月歌",
+            "半轮"
         ]
     },
     {
@@ -34466,9 +35085,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "八月",
-        "孟浩然",
-        "望洞庭湖赠张丞相",
-        "太清"
+            "孟浩然",
+            "望洞庭湖赠张丞相",
+            "太清"
         ]
     },
     {
@@ -34484,9 +35103,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "清溪",
-        "李白",
-        "峨眉山月歌",
-        "三峡"
+            "李白",
+            "峨眉山月歌",
+            "三峡"
         ]
     },
     {
@@ -34502,10 +35121,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "气蒸",
-        "孟浩然",
-        "望洞庭湖赠张丞相",
-        "岳阳"
-        ]
+            "孟浩然",
+            "望洞庭湖赠张丞相",
+            "岳阳"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_507",
@@ -34520,10 +35140,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江南",
-        "白居易",
-        "忆江南",
-        "蓝尾"
-        ]
+            "白居易",
+            "忆江南",
+            "蓝尾"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_507",
@@ -34538,10 +35159,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "欲济",
-        "孟浩然",
-        "望洞庭湖赠张丞相",
-        "舟楫"
-        ]
+            "孟浩然",
+            "望洞庭湖赠张丞相",
+            "舟楫"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_508",
@@ -34556,10 +35178,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日出",
-        "白居易",
-        "忆江南",
-        "绿如"
-        ]
+            "白居易",
+            "忆江南",
+            "绿如"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_508",
@@ -34574,10 +35197,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "坐观",
-        "孟浩然",
-        "望洞庭湖赠张丞相",
-        "羡鱼"
-        ]
+            "孟浩然",
+            "望洞庭湖赠张丞相",
+            "羡鱼"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_509",
@@ -34592,9 +35216,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "杭州",
-        "白居易",
-        "忆江南",
-        "山寺"
+            "白居易",
+            "忆江南",
+            "山寺"
         ]
     },
     {
@@ -34610,10 +35234,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秦时",
-        "王昌龄",
-        "出塞",
-        "长征"
-        ]
+            "王昌龄",
+            "出塞",
+            "长征"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_510",
@@ -34628,9 +35253,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "残阳",
-        "白居易",
-        "暮江吟",
-        "瑟瑟"
+            "白居易",
+            "暮江吟",
+            "瑟瑟"
         ]
     },
     {
@@ -34646,10 +35271,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "龙城",
-        "王昌龄",
-        "出塞",
-        "胡马"
-        ]
+            "王昌龄",
+            "出塞",
+            "胡马"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_511",
@@ -34664,9 +35290,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "初三",
-        "白居易",
-        "暮江吟",
-        "露似"
+            "白居易",
+            "暮江吟",
+            "露似"
         ]
     },
     {
@@ -34682,10 +35308,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "离离",
-        "白居易",
-        "草",
-        "枯荣"
-        ]
+            "白居易",
+            "草",
+            "枯荣"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_512",
@@ -34700,9 +35327,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "琵琶起",
-        "王昌龄",
-        "从军行",
-        "关山"
+            "王昌龄",
+            "从军行",
+            "关山"
         ]
     },
     {
@@ -34718,10 +35345,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野火",
-        "白居易",
-        "草",
-        "吹又"
-        ]
+            "白居易",
+            "草",
+            "吹又"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_514",
@@ -34736,10 +35364,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "远芳",
-        "白居易",
-        "草",
-        "古道"
-        ]
+            "白居易",
+            "草",
+            "古道"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_514",
@@ -34754,10 +35383,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青海长",
-        "王昌龄",
-        "从军行",
-        "雪山"
-        ]
+            "王昌龄",
+            "从军行",
+            "雪山"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_515",
@@ -34772,10 +35402,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千山",
-        "柳宗元",
-        "江雪",
-        "人踪"
-        ]
+            "柳宗元",
+            "江雪",
+            "人踪"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_515",
@@ -34790,10 +35421,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄沙百",
-        "王昌龄",
-        "从军行",
-        "楼兰"
-        ]
+            "王昌龄",
+            "从军行",
+            "楼兰"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_516",
@@ -34808,10 +35440,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孤舟",
-        "柳宗元",
-        "江雪",
-        "蓑笠"
-        ]
+            "柳宗元",
+            "江雪",
+            "蓑笠"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_517",
@@ -34826,10 +35459,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蓬头",
-        "胡令能",
-        "小儿垂钓",
-        "垂纶"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "垂纶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_517",
@@ -34844,10 +35478,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "秦时明",
-        "王昌龄",
-        "出塞",
-        "长征"
-        ]
+            "王昌龄",
+            "出塞",
+            "长征"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_518",
@@ -34862,10 +35497,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "招手",
-        "胡令能",
-        "小儿垂钓",
-        "借问"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "借问"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_518",
@@ -34880,10 +35516,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "但使龙",
-        "王昌龄",
-        "出塞",
-        "胡马"
-        ]
+            "王昌龄",
+            "出塞",
+            "胡马"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_519",
@@ -34898,10 +35535,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "二三",
-        "邵雍",
-        "山村咏怀",
-        "烟村"
-        ]
+            "邵雍",
+            "山村咏怀",
+            "烟村"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_519",
@@ -34916,9 +35554,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "骝马新",
-        "李白",
-        "塞下曲",
-        "沙场"
+            "李白",
+            "塞下曲",
+            "沙场"
         ]
     },
     {
@@ -34934,10 +35572,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "亭台",
-        "邵雍",
-        "山村咏怀",
-        "八九十"
-        ]
+            "邵雍",
+            "山村咏怀",
+            "八九十"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_520",
@@ -34952,9 +35591,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "愿将腰",
-        "李白",
-        "塞下曲",
-        "腰下"
+            "李白",
+            "塞下曲",
+            "腰下"
         ]
     },
     {
@@ -34970,10 +35609,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "敕勒川",
-        "无名氏",
-        "敕勒歌",
-        "穹庐"
-        ]
+            "无名氏",
+            "敕勒歌",
+            "穹庐"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_521",
@@ -34988,10 +35628,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月黑雁",
-        "卢纶",
-        "塞下曲",
-        "单于"
-        ]
+            "卢纶",
+            "塞下曲",
+            "单于"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_522",
@@ -35006,10 +35647,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "四野",
-        "无名氏",
-        "敕勒歌",
-        "笼盖"
-        ]
+            "无名氏",
+            "敕勒歌",
+            "笼盖"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_522",
@@ -35024,9 +35666,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "欲将轻",
-        "卢纶",
-        "塞下曲",
-        "大雪"
+            "卢纶",
+            "塞下曲",
+            "大雪"
         ]
     },
     {
@@ -35042,10 +35684,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "牛羊",
-        "无名氏",
-        "敕勒歌",
-        "草低"
-        ]
+            "无名氏",
+            "敕勒歌",
+            "草低"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_523",
@@ -35060,9 +35703,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "林暗草",
-        "卢纶",
-        "塞下曲",
-        "夜引"
+            "卢纶",
+            "塞下曲",
+            "夜引"
         ]
     },
     {
@@ -35078,10 +35721,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "终南",
-        "祖咏",
-        "终南望余雪",
-        "阴岭"
-        ]
+            "祖咏",
+            "终南望余雪",
+            "阴岭"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_524",
@@ -35096,9 +35740,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "平明寻",
-        "卢纶",
-        "塞下曲",
-        "石棱"
+            "卢纶",
+            "塞下曲",
+            "石棱"
         ]
     },
     {
@@ -35114,10 +35758,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "林表",
-        "祖咏",
-        "终南望余雪",
-        "霁色"
-        ]
+            "祖咏",
+            "终南望余雪",
+            "霁色"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_525",
@@ -35132,9 +35777,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野幕敞",
-        "卢纶",
-        "塞下曲",
-        "琼筵"
+            "卢纶",
+            "塞下曲",
+            "琼筵"
         ]
     },
     {
@@ -35150,10 +35795,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "慈母",
-        "孟郊",
-        "游子吟",
-        "手中"
-        ]
+            "孟郊",
+            "游子吟",
+            "手中"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_526",
@@ -35168,9 +35814,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "醉和",
-        "卢纶",
-        "塞下曲",
-        "金甲"
+            "卢纶",
+            "塞下曲",
+            "金甲"
         ]
     },
     {
@@ -35186,10 +35832,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "小时",
-        "李白",
-        "古朗月行",
-        "白玉"
-        ]
+            "李白",
+            "古朗月行",
+            "白玉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_527",
@@ -35204,9 +35851,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "鹫翎",
-        "卢纶",
-        "塞下曲",
-        "金仆"
+            "卢纶",
+            "塞下曲",
+            "金仆"
         ]
     },
     {
@@ -35222,9 +35869,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "仙人",
-        "李白",
-        "古朗月行",
-        "团团"
+            "李白",
+            "古朗月行",
+            "团团"
         ]
     },
     {
@@ -35240,9 +35887,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "独立扬",
-        "卢纶",
-        "塞下曲",
-        "新令"
+            "卢纶",
+            "塞下曲",
+            "新令"
         ]
     },
     {
@@ -35258,10 +35905,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白兔",
-        "李白",
-        "古朗月行",
-        "捣药"
-        ]
+            "李白",
+            "古朗月行",
+            "捣药"
+        ],
+        "poetryType": false
     },
     {
         "id": "q_fbc_529",
@@ -35276,10 +35924,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "月落乌",
-        "张继",
-        "枫桥夜泊",
-        "渔火"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "渔火"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_530",
@@ -35294,9 +35943,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "圣贤",
-        "李白",
-        "将进酒",
-        "寂寞"
+            "李白",
+            "将进酒",
+            "寂寞"
         ]
     },
     {
@@ -35312,10 +35961,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "姑苏城",
-        "张继",
-        "枫桥夜泊",
-        "钟声"
-        ]
+            "张继",
+            "枫桥夜泊",
+            "钟声"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_531",
@@ -35330,9 +35980,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄河",
-        "李白",
-        "将进酒",
-        "天上来"
+            "李白",
+            "将进酒",
+            "天上来"
         ]
     },
     {
@@ -35348,9 +35998,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "独怜",
-        "韦应物",
-        "滁州西涧",
-        "黄鹂"
+            "韦应物",
+            "滁州西涧",
+            "黄鹂"
         ]
     },
     {
@@ -35366,9 +36016,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "得意",
-        "李白",
-        "将进酒",
-        "金樽"
+            "李白",
+            "将进酒",
+            "金樽"
         ]
     },
     {
@@ -35384,9 +36034,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春潮",
-        "韦应物",
-        "滁州西涧",
-        "野渡"
+            "韦应物",
+            "滁州西涧",
+            "野渡"
         ]
     },
     {
@@ -35402,9 +36052,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天生",
-        "李白",
-        "将进酒",
-        "材"
+            "李白",
+            "将进酒",
+            "材"
         ]
     },
     {
@@ -35420,9 +36070,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "怀旧空",
-        "刘禹锡",
-        "酬乐天",
-        "烂柯"
+            "刘禹锡",
+            "酬乐天",
+            "烂柯"
         ]
     },
     {
@@ -35438,9 +36088,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "烹羊",
-        "李白",
-        "将进酒",
-        "三百"
+            "李白",
+            "将进酒",
+            "三百"
         ]
     },
     {
@@ -35456,9 +36106,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "沉舟侧",
-        "刘禹锡",
-        "酬乐天",
-        "千帆"
+            "刘禹锡",
+            "酬乐天",
+            "千帆"
         ]
     },
     {
@@ -35474,9 +36124,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "岑夫",
-        "李白",
-        "将进酒",
-        "莫停"
+            "李白",
+            "将进酒",
+            "莫停"
         ]
     },
     {
@@ -35492,10 +36142,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "今夜偏",
-        "刘方平",
-        "月夜",
-        "春气"
-        ]
+            "刘方平",
+            "月夜",
+            "春气"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_536",
@@ -35510,9 +36161,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "歌一曲",
-        "李白",
-        "将进酒",
-        "侧耳"
+            "李白",
+            "将进酒",
+            "侧耳"
         ]
     },
     {
@@ -35528,10 +36179,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "更深月",
-        "刘方平",
-        "月夜",
-        "月色"
-        ]
+            "刘方平",
+            "月夜",
+            "月色"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_537",
@@ -35546,10 +36198,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "草长",
-        "高鼎",
-        "村居",
-        "莺飞"
-        ]
+            "高鼎",
+            "村居",
+            "莺飞"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_537",
@@ -35564,9 +36217,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "回乐烽",
-        "李益",
-        "夜上受降城闻笛",
-        "似雪"
+            "李益",
+            "夜上受降城闻笛",
+            "似雪"
         ]
     },
     {
@@ -35582,9 +36235,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "儿童",
-        "高鼎",
-        "村居",
-        "纸鸢"
+            "高鼎",
+            "村居",
+            "纸鸢"
         ]
     },
     {
@@ -35600,9 +36253,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "不知何",
-        "李益",
-        "夜上受降城闻笛",
-        "望乡"
+            "李益",
+            "夜上受降城闻笛",
+            "望乡"
         ]
     },
     {
@@ -35618,10 +36271,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "泉眼",
-        "杨万里",
-        "小池",
-        "细流"
-        ]
+            "杨万里",
+            "小池",
+            "细流"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_539",
@@ -35636,9 +36290,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "杨花落",
-        "李白",
-        "闻王昌龄左迁龙标遥有此寄",
-        "子规"
+            "李白",
+            "闻王昌龄左迁龙标遥有此寄",
+            "子规"
         ]
     },
     {
@@ -35654,10 +36308,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "小荷",
-        "杨万里",
-        "小池",
-        "蜻蜓"
-        ]
+            "杨万里",
+            "小池",
+            "蜻蜓"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_540",
@@ -35672,9 +36327,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "我寄愁",
-        "李白",
-        "闻王昌龄左迁龙标遥有此寄",
-        "夜郎"
+            "李白",
+            "闻王昌龄左迁龙标遥有此寄",
+            "夜郎"
         ]
     },
     {
@@ -35690,10 +36345,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄鹂",
-        "杜甫",
-        "绝句",
-        "白鹭"
-        ]
+            "杜甫",
+            "绝句",
+            "白鹭"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_541",
@@ -35708,10 +36364,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "独怜幽",
-        "韦应物",
-        "滁州西涧",
-        "深树"
-        ]
+            "韦应物",
+            "滁州西涧",
+            "深树"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_542",
@@ -35726,10 +36383,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "窗含",
-        "杜甫",
-        "绝句",
-        "西岭"
-        ]
+            "杜甫",
+            "绝句",
+            "西岭"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_542",
@@ -35744,10 +36402,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春潮带",
-        "韦应物",
-        "滁州西涧",
-        "舟自横"
-        ]
+            "韦应物",
+            "滁州西涧",
+            "舟自横"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_543",
@@ -35762,10 +36421,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "泥融",
-        "杜甫",
-        "绝句",
-        "燕子"
-        ]
+            "杜甫",
+            "绝句",
+            "燕子"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_543",
@@ -35780,10 +36440,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "今夜偏",
-        "刘方平",
-        "月夜",
-        "虫声"
-        ]
+            "刘方平",
+            "月夜",
+            "虫声"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_544",
@@ -35798,10 +36459,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "迟日",
-        "杜甫",
-        "绝句",
-        "花草"
-        ]
+            "杜甫",
+            "绝句",
+            "花草"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_544",
@@ -35816,10 +36478,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "更深月",
-        "刘方平",
-        "月夜",
-        "阑干"
-        ]
+            "刘方平",
+            "月夜",
+            "阑干"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_545",
@@ -35834,10 +36497,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江碧",
-        "杜甫",
-        "绝句",
-        "欲燃"
-        ]
+            "杜甫",
+            "绝句",
+            "欲燃"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_545",
@@ -35852,10 +36516,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "回乐烽",
-        "李益",
-        "夜上受降城闻笛",
-        "月如霜"
-        ]
+            "李益",
+            "夜上受降城闻笛",
+            "月如霜"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_546",
@@ -35870,10 +36535,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "今春",
-        "杜甫",
-        "绝句",
-        "归年"
-        ]
+            "杜甫",
+            "绝句",
+            "归年"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_546",
@@ -35888,10 +36554,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "不知何",
-        "李益",
-        "夜上受降城闻笛",
-        "征人"
-        ]
+            "李益",
+            "夜上受降城闻笛",
+            "征人"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_547",
@@ -35906,9 +36573,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄师塔",
-        "杜甫",
-        "江畔独步寻花",
-        "懒困"
+            "杜甫",
+            "江畔独步寻花",
+            "懒困"
         ]
     },
     {
@@ -35924,10 +36591,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "杨花落",
-        "李白",
-        "闻王昌龄左迁龙标遥有此寄",
-        "龙标"
-        ]
+            "李白",
+            "闻王昌龄左迁龙标遥有此寄",
+            "龙标"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_548",
@@ -35942,9 +36610,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "桃花",
-        "杜甫",
-        "江畔独步寻花",
-        "深红"
+            "杜甫",
+            "江畔独步寻花",
+            "深红"
         ]
     },
     {
@@ -35960,10 +36628,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "我寄愁",
-        "李白",
-        "闻王昌龄左迁龙标遥有此寄",
-        "夜郎"
-        ]
+            "李白",
+            "闻王昌龄左迁龙标遥有此寄",
+            "夜郎"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_549",
@@ -35978,9 +36647,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄四娘",
-        "杜甫",
-        "江畔独步寻花",
-        "压枝"
+            "杜甫",
+            "江畔独步寻花",
+            "压枝"
         ]
     },
     {
@@ -35996,10 +36665,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春城无",
-        "韩翃",
-        "寒食",
-        "御柳"
-        ]
+            "韩翃",
+            "寒食",
+            "御柳"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_550",
@@ -36014,9 +36684,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "留连",
-        "杜甫",
-        "江畔独步寻花",
-        "娇莺"
+            "杜甫",
+            "江畔独步寻花",
+            "娇莺"
         ]
     },
     {
@@ -36032,10 +36702,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日暮汉",
-        "韩翃",
-        "寒食",
-        "五侯"
-        ]
+            "韩翃",
+            "寒食",
+            "五侯"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_551",
@@ -36050,10 +36721,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "白日",
-        "王之涣",
-        "登鹳雀楼",
-        "依山"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "依山"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_551",
@@ -36068,10 +36740,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春眠不",
-        "孟浩然",
-        "春晓",
-        "啼鸟"
-        ]
+            "孟浩然",
+            "春晓",
+            "啼鸟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_552",
@@ -36086,10 +36759,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "欲穷",
-        "王之涣",
-        "登鹳雀楼",
-        "千里"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "千里"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_552",
@@ -36104,10 +36778,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜来风",
-        "孟浩然",
-        "春晓",
-        "花落"
-        ]
+            "孟浩然",
+            "春晓",
+            "花落"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_553",
@@ -36122,10 +36797,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄河",
-        "王之涣",
-        "登鹳雀楼",
-        "入海"
-        ]
+            "王之涣",
+            "登鹳雀楼",
+            "入海"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_553",
@@ -36140,10 +36816,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "移舟泊",
-        "孟浩然",
-        "宿建德江",
-        "烟渚"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "烟渚"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_554",
@@ -36158,10 +36835,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "万径",
-        "柳宗元",
-        "江雪",
-        "人踪"
-        ]
+            "柳宗元",
+            "江雪",
+            "人踪"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_554",
@@ -36176,10 +36854,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野旷天",
-        "孟浩然",
-        "宿建德江",
-        "月近"
-        ]
+            "孟浩然",
+            "宿建德江",
+            "月近"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_555",
@@ -36194,10 +36873,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "独钓",
-        "柳宗元",
-        "江雪",
-        "寒江"
-        ]
+            "柳宗元",
+            "江雪",
+            "寒江"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_555",
@@ -36212,10 +36892,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "床前明",
-        "李白",
-        "静夜思",
-        "地上"
-        ]
+            "李白",
+            "静夜思",
+            "地上"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_556",
@@ -36230,10 +36911,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "地上霜",
-        "李白",
-        "静夜思",
-        "床前"
-        ]
+            "李白",
+            "静夜思",
+            "床前"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_556",
@@ -36248,10 +36930,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "举头望",
-        "李白",
-        "静夜思",
-        "故乡"
-        ]
+            "李白",
+            "静夜思",
+            "故乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_557",
@@ -36266,10 +36949,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "低头",
-        "李白",
-        "静夜思",
-        "故乡"
-        ]
+            "李白",
+            "静夜思",
+            "故乡"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_557",
@@ -36284,10 +36968,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千山鸟",
-        "柳宗元",
-        "江雪",
-        "人踪"
-        ]
+            "柳宗元",
+            "江雪",
+            "人踪"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_558",
@@ -36302,10 +36987,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "春眠",
-        "孟浩然",
-        "春晓",
-        "不觉"
-        ]
+            "孟浩然",
+            "春晓",
+            "不觉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_558",
@@ -36320,10 +37006,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孤舟蓑",
-        "柳宗元",
-        "江雪",
-        "寒江"
-        ]
+            "柳宗元",
+            "江雪",
+            "寒江"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_559",
@@ -36338,10 +37025,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜来",
-        "孟浩然",
-        "春晓",
-        "风雨"
-        ]
+            "孟浩然",
+            "春晓",
+            "风雨"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_559",
@@ -36356,10 +37044,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "空山不",
-        "王维",
-        "鹿柴",
-        "人语"
-        ]
+            "王维",
+            "鹿柴",
+            "人语"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_560",
@@ -36374,10 +37063,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "松下",
-        "贾岛",
-        "寻隐者不遇",
-        "童子"
-        ]
+            "贾岛",
+            "寻隐者不遇",
+            "童子"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_560",
@@ -36392,10 +37082,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "返景入",
-        "王维",
-        "鹿柴",
-        "青苔"
-        ]
+            "王维",
+            "鹿柴",
+            "青苔"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_561",
@@ -36410,10 +37101,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "碧玉",
-        "贺知章",
-        "咏柳",
-        "丝绦"
-        ]
+            "贺知章",
+            "咏柳",
+            "丝绦"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_562",
@@ -36428,10 +37120,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "不知细叶",
-        "贺知章",
-        "咏柳",
-        "剪刀"
-        ]
+            "贺知章",
+            "咏柳",
+            "剪刀"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_563",
@@ -36446,10 +37139,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "少小离家",
-        "贺知章",
-        "回乡偶书",
-        "鬓毛"
-        ]
+            "贺知章",
+            "回乡偶书",
+            "鬓毛"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_564",
@@ -36464,10 +37158,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "儿童",
-        "贺知章",
-        "回乡偶书",
-        "笑问"
-        ]
+            "贺知章",
+            "回乡偶书",
+            "笑问"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_565",
@@ -36482,10 +37177,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄河远上",
-        "王之涣",
-        "凉州词",
-        "孤城"
-        ]
+            "王之涣",
+            "凉州词",
+            "孤城"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_566",
@@ -36500,10 +37196,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "羌笛",
-        "王之涣",
-        "凉州词",
-        "杨柳"
-        ]
+            "王之涣",
+            "凉州词",
+            "杨柳"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_567",
@@ -36518,10 +37215,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日照",
-        "李白",
-        "望庐山瀑布",
-        "香炉"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "香炉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_568",
@@ -36536,10 +37234,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "飞流",
-        "李白",
-        "望庐山瀑布",
-        "银河"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "银河"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_569",
@@ -36554,10 +37253,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "朝辞",
-        "李白",
-        "早发白帝城",
-        "彩云"
-        ]
+            "李白",
+            "早发白帝城",
+            "彩云"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_570",
@@ -36572,10 +37272,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "两岸猿声",
-        "李白",
-        "早发白帝城",
-        "轻舟"
-        ]
+            "李白",
+            "早发白帝城",
+            "轻舟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_571",
@@ -36590,10 +37291,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "故人西辞",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "黄鹤楼"
-        ]
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "黄鹤楼"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_572",
@@ -36608,10 +37310,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "桃花潭水",
-        "李白",
-        "赠汪伦",
-        "汪伦"
-        ]
+            "李白",
+            "赠汪伦",
+            "汪伦"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_573",
@@ -36626,10 +37329,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "两岸青山",
-        "李白",
-        "望天门山",
-        "孤帆"
-        ]
+            "李白",
+            "望天门山",
+            "孤帆"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_574",
@@ -36644,10 +37348,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天门中断",
-        "李白",
-        "望天门山",
-        "楚江"
-        ]
+            "李白",
+            "望天门山",
+            "楚江"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_575",
@@ -36662,10 +37367,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "遥看",
-        "李白",
-        "望庐山瀑布",
-        "前川"
-        ]
+            "李白",
+            "望庐山瀑布",
+            "前川"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_576",
@@ -36680,9 +37386,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "望庐山",
-        "李白",
-        "望庐山瀑布",
-        "香炉"
+            "李白",
+            "望庐山瀑布",
+            "香炉"
         ]
     },
     {
@@ -36698,9 +37404,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄鹤楼送",
-        "李白",
-        "黄鹤楼送孟浩然之广陵",
-        "广陵"
+            "李白",
+            "黄鹤楼送孟浩然之广陵",
+            "广陵"
         ]
     },
     {
@@ -36716,9 +37422,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "赠汪伦",
-        "李白",
-        "赠汪伦",
-        "乘舟"
+            "李白",
+            "赠汪伦",
+            "乘舟"
         ]
     },
     {
@@ -36734,9 +37440,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "望天门",
-        "李白",
-        "望天门山",
-        "中断"
+            "李白",
+            "望天门山",
+            "中断"
         ]
     },
     {
@@ -36752,9 +37458,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "早发",
-        "李白",
-        "早发白帝城",
-        "白帝"
+            "李白",
+            "早发白帝城",
+            "白帝"
         ]
     },
     {
@@ -36770,9 +37476,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "离离",
-        "白居易",
-        "赋得古原草送别",
-        "枯荣"
+            "白居易",
+            "赋得古原草送别",
+            "枯荣"
         ]
     },
     {
@@ -36788,9 +37494,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "野火",
-        "白居易",
-        "赋得古原草送别",
-        "春风吹"
+            "白居易",
+            "赋得古原草送别",
+            "春风吹"
         ]
     },
     {
@@ -36806,9 +37512,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "远芳",
-        "白居易",
-        "赋得古原草送别",
-        "古道"
+            "白居易",
+            "赋得古原草送别",
+            "古道"
         ]
     },
     {
@@ -36824,9 +37530,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "送王孙",
-        "白居易",
-        "赋得古原草送别",
-        "萋萋"
+            "白居易",
+            "赋得古原草送别",
+            "萋萋"
         ]
     },
     {
@@ -36842,10 +37548,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "人间四月",
-        "白居易",
-        "大林寺桃花",
-        "芳菲"
-        ]
+            "白居易",
+            "大林寺桃花",
+            "芳菲"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_586",
@@ -36860,10 +37567,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "长恨",
-        "白居易",
-        "大林寺桃花",
-        "春归"
-        ]
+            "白居易",
+            "大林寺桃花",
+            "春归"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_587",
@@ -36878,10 +37586,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "残阳",
-        "白居易",
-        "暮江吟",
-        "瑟瑟"
-        ]
+            "白居易",
+            "暮江吟",
+            "瑟瑟"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_588",
@@ -36896,10 +37605,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "九月初三",
-        "白居易",
-        "暮江吟",
-        "真珠"
-        ]
+            "白居易",
+            "暮江吟",
+            "真珠"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_589",
@@ -36914,10 +37624,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日出",
-        "白居易",
-        "忆江南",
-        "江花"
-        ]
+            "白居易",
+            "忆江南",
+            "江花"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_590",
@@ -36932,10 +37643,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江南好",
-        "白居易",
-        "忆江南",
-        "曾谙"
-        ]
+            "白居易",
+            "忆江南",
+            "曾谙"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_591",
@@ -36950,9 +37662,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "能不忆",
-        "白居易",
-        "忆江南",
-        "忆"
+            "白居易",
+            "忆江南",
+            "忆"
         ]
     },
     {
@@ -36968,9 +37680,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "最爱湖东",
-        "白居易",
-        "钱塘湖春行",
-        "白沙堤"
+            "白居易",
+            "钱塘湖春行",
+            "白沙堤"
         ]
     },
     {
@@ -36986,9 +37698,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "早莺争",
-        "白居易",
-        "钱塘湖春行",
-        "暖树"
+            "白居易",
+            "钱塘湖春行",
+            "暖树"
         ]
     },
     {
@@ -37004,9 +37716,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "乱花",
-        "白居易",
-        "钱塘湖春行",
-        "浅草"
+            "白居易",
+            "钱塘湖春行",
+            "浅草"
         ]
     },
     {
@@ -37022,9 +37734,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "卖炭翁",
-        "白居易",
-        "卖炭翁",
-        "烟火"
+            "白居易",
+            "卖炭翁",
+            "烟火"
         ]
     },
     {
@@ -37040,9 +37752,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "卖炭得",
-        "白居易",
-        "卖炭翁",
-        "衣裳"
+            "白居易",
+            "卖炭翁",
+            "衣裳"
         ]
     },
     {
@@ -37058,9 +37770,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "可怜身上",
-        "白居易",
-        "卖炭翁",
-        "天寒"
+            "白居易",
+            "卖炭翁",
+            "天寒"
         ]
     },
     {
@@ -37076,9 +37788,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "夜来",
-        "白居易",
-        "卖炭翁",
-        "碾冰"
+            "白居易",
+            "卖炭翁",
+            "碾冰"
         ]
     },
     {
@@ -37094,9 +37806,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "牛困",
-        "白居易",
-        "卖炭翁",
-        "日已高"
+            "白居易",
+            "卖炭翁",
+            "日已高"
         ]
     },
     {
@@ -37112,9 +37824,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "翩翩",
-        "白居易",
-        "卖炭翁",
-        "黄衣"
+            "白居易",
+            "卖炭翁",
+            "黄衣"
         ]
     },
     {
@@ -37130,10 +37842,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蓬头",
-        "胡令能",
-        "小儿垂钓",
-        "垂纶"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "垂纶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_602",
@@ -37148,10 +37861,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "路人",
-        "胡令能",
-        "小儿垂钓",
-        "鱼惊"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "鱼惊"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_603",
@@ -37166,9 +37880,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "敕勒川",
-        "无名氏",
-        "敕勒歌",
-        "阴山"
+            "无名氏",
+            "敕勒歌",
+            "阴山"
         ]
     },
     {
@@ -37184,9 +37898,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天苍苍",
-        "无名氏",
-        "敕勒歌",
-        "牛羊"
+            "无名氏",
+            "敕勒歌",
+            "牛羊"
         ]
     },
     {
@@ -37202,10 +37916,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "牧童",
-        "袁枚",
-        "所见",
-        "黄牛"
-        ]
+            "袁枚",
+            "所见",
+            "黄牛"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_606",
@@ -37220,10 +37935,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "意欲",
-        "袁枚",
-        "所见",
-        "鸣蝉"
-        ]
+            "袁枚",
+            "所见",
+            "鸣蝉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_607",
@@ -37238,10 +37954,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "一去",
-        "邵雍",
-        "山村咏怀",
-        "烟村"
-        ]
+            "邵雍",
+            "山村咏怀",
+            "烟村"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_608",
@@ -37256,10 +37973,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "亭台",
-        "邵雍",
-        "山村咏怀",
-        "八九十"
-        ]
+            "邵雍",
+            "山村咏怀",
+            "八九十"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_609",
@@ -37274,10 +37992,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "危楼",
-        "李白",
-        "夜宿山寺",
-        "星辰"
-        ]
+            "李白",
+            "夜宿山寺",
+            "星辰"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_610",
@@ -37292,10 +38011,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "不敢",
-        "李白",
-        "夜宿山寺",
-        "天上"
-        ]
+            "李白",
+            "夜宿山寺",
+            "天上"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_611",
@@ -37310,9 +38030,9 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "阴山下",
-        "无名氏",
-        "敕勒歌",
-        "四野"
+            "无名氏",
+            "敕勒歌",
+            "四野"
         ]
     },
     {
@@ -37328,10 +38048,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "小时不",
-        "李白",
-        "古朗月行",
-        "白玉"
-        ]
+            "李白",
+            "古朗月行",
+            "白玉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_613",
@@ -37346,10 +38067,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "湖光秋",
-        "刘禹锡",
-        "望洞庭",
-        "相和"
-        ]
+            "刘禹锡",
+            "望洞庭",
+            "相和"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_614",
@@ -37364,10 +38086,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "遥望洞",
-        "刘禹锡",
-        "望洞庭",
-        "青螺"
-        ]
+            "刘禹锡",
+            "望洞庭",
+            "青螺"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_615",
@@ -37382,10 +38105,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江南好",
-        "白居易",
-        "忆江南",
-        "曾谙"
-        ]
+            "白居易",
+            "忆江南",
+            "曾谙"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_616",
@@ -37400,10 +38124,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "日出江",
-        "白居易",
-        "忆江南",
-        "绿如蓝"
-        ]
+            "白居易",
+            "忆江南",
+            "绿如蓝"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_617",
@@ -37418,10 +38143,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "西塞山",
-        "张志和",
-        "渔歌子",
-        "白鹭"
-        ]
+            "张志和",
+            "渔歌子",
+            "白鹭"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_618",
@@ -37436,10 +38162,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "青箬笠",
-        "张志和",
-        "渔歌子",
-        "不须归"
-        ]
+            "张志和",
+            "渔歌子",
+            "不须归"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_619",
@@ -37454,10 +38181,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "千山鸟",
-        "柳宗元",
-        "江雪",
-        "人踪"
-        ]
+            "柳宗元",
+            "江雪",
+            "人踪"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_620",
@@ -37472,10 +38200,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "孤舟蓑",
-        "柳宗元",
-        "江雪",
-        "寒江"
-        ]
+            "柳宗元",
+            "江雪",
+            "寒江"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_621",
@@ -37490,10 +38219,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "两个黄",
-        "杜甫",
-        "绝句",
-        "白鹭"
-        ]
+            "杜甫",
+            "绝句",
+            "白鹭"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_622",
@@ -37508,10 +38238,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "窗含",
-        "杜甫",
-        "绝句",
-        "西岭"
-        ]
+            "杜甫",
+            "绝句",
+            "西岭"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_623",
@@ -37526,10 +38257,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "泥融",
-        "杜甫",
-        "绝句",
-        "燕子"
-        ]
+            "杜甫",
+            "绝句",
+            "燕子"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_623",
@@ -37539,29 +38271,29 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "以下哪位诗人不是'唐宋八大家'之一？",
         "options": [
-    {
+            {
                 "text": "白居易",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "韩愈",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "柳宗元",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "欧阳修",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "白居易",
         "explanation": "唐宋八大家包括韩愈、柳宗元、欧阳修、苏洵、苏轼、苏辙、王安石、曾巩。",
         "poemId": null,
         "knowledgePoints": [
             "文学常识",
-        "唐宋八大家"
+            "唐宋八大家"
         ]
     },
     {
@@ -37577,10 +38309,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "迟日",
-        "杜甫",
-        "绝句",
-        "花草"
-        ]
+            "杜甫",
+            "绝句",
+            "花草"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_624",
@@ -37590,31 +38323,31 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "'大漠孤烟直'的下一句是什么？",
         "options": [
-    {
+            {
                 "text": "长河落日圆",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "黄河入海流",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "明月出天山",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "江入大荒流",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "长河落日圆",
         "explanation": "出自王维《使至塞上》，描写边塞壮阔景象。",
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "使至塞上",
-        "边塞"
+            "王维",
+            "使至塞上",
+            "边塞"
         ]
     },
     {
@@ -37630,10 +38363,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "江碧",
-        "杜甫",
-        "绝句",
-        "欲燃"
-        ]
+            "杜甫",
+            "绝句",
+            "欲燃"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_625",
@@ -37643,29 +38377,29 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "以下哪首诗的作者是王维？",
         "options": [
-    {
+            {
                 "text": "《山居秋暝》",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "《望庐山瀑布》",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "《黄鹤楼送孟浩然之广陵》",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "《将进酒》",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "《山居秋暝》",
         "explanation": "《山居秋暝》是王维的代表作，描写秋日山居景色。",
         "poemId": null,
         "knowledgePoints": [
             "王维",
-        "山居秋暝"
+            "山居秋暝"
         ]
     },
     {
@@ -37681,10 +38415,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "今春",
-        "杜甫",
-        "绝句",
-        "归年"
-        ]
+            "杜甫",
+            "绝句",
+            "归年"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_626",
@@ -37694,30 +38429,30 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "'明月松间照'的上句是什么？",
         "options": [
-    {
+            {
                 "text": "空山新雨后",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "天气晚来秋",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "随意春芳歇",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "王孙自可留",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "空山新雨后",
         "explanation": "出自王维《山居秋暝》，上句是'空山新雨后'。",
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "王维",
-        "山居秋暝"
+            "王维",
+            "山居秋暝"
         ]
     },
     {
@@ -37733,10 +38468,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄师塔",
-        "杜甫",
-        "江畔独步寻花",
-        "懒困"
-        ]
+            "杜甫",
+            "江畔独步寻花",
+            "懒困"
+        ],
+        "deleted": true
     },
     {
         "id": "q_fbc_627",
@@ -37746,30 +38482,30 @@ const QUESTIONS_DATA = [
         "difficulty": 4,
         "question": "以下哪句诗表达了送别之情？",
         "options": [
-    {
+            {
                 "text": "海内存知己，天涯若比邻",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "欲穷千里目，更上一层楼",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "野火烧不尽，春风吹又生",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "明月松间照，清泉石上流",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "海内存知己，天涯若比邻",
         "explanation": "出自王勃《送杜少府之任蜀州》，是著名的送别诗。",
         "poemId": null,
         "knowledgePoints": [
             "送别",
-        "王勃",
-        "友情"
+            "王勃",
+            "友情"
         ]
     },
     {
@@ -37785,10 +38521,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "桃花一",
-        "杜甫",
-        "江畔独步寻花",
-        "深红"
-        ]
+            "杜甫",
+            "江畔独步寻花",
+            "深红"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_629",
@@ -37803,10 +38540,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "黄四娘",
-        "杜甫",
-        "江畔独步寻花",
-        "压枝"
-        ]
+            "杜甫",
+            "江畔独步寻花",
+            "压枝"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_630",
@@ -37821,10 +38559,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "留连",
-        "杜甫",
-        "江畔独步寻花",
-        "娇莺"
-        ]
+            "杜甫",
+            "江畔独步寻花",
+            "娇莺"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_631",
@@ -37839,10 +38578,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "蓬头稚",
-        "胡令能",
-        "小儿垂钓",
-        "垂纶"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "垂纶"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_632",
@@ -37857,10 +38597,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "路人借",
-        "胡令能",
-        "小儿垂钓",
-        "鱼惊"
-        ]
+            "胡令能",
+            "小儿垂钓",
+            "鱼惊"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_633",
@@ -37875,10 +38616,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "天似穹",
-        "无名氏",
-        "敕勒歌",
-        "穹庐"
-        ]
+            "无名氏",
+            "敕勒歌",
+            "穹庐"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_634",
@@ -37893,10 +38635,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "风吹草",
-        "无名氏",
-        "敕勒歌",
-        "牛羊"
-        ]
+            "无名氏",
+            "敕勒歌",
+            "牛羊"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_635",
@@ -37911,10 +38654,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "牧童骑",
-        "袁枚",
-        "所见",
-        "林樾"
-        ]
+            "袁枚",
+            "所见",
+            "林樾"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_636",
@@ -37929,10 +38673,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "意欲捕",
-        "袁枚",
-        "所见",
-        "鸣蝉"
-        ]
+            "袁枚",
+            "所见",
+            "鸣蝉"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_637",
@@ -37947,10 +38692,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "一去二",
-        "邵雍",
-        "山村咏怀",
-        "烟村"
-        ]
+            "邵雍",
+            "山村咏怀",
+            "烟村"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_638",
@@ -37965,10 +38711,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "亭台六",
-        "邵雍",
-        "山村咏怀",
-        "八九十"
-        ]
+            "邵雍",
+            "山村咏怀",
+            "八九十"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_639",
@@ -37983,10 +38730,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "危楼高",
-        "李白",
-        "夜宿山寺",
-        "星辰"
-        ]
+            "李白",
+            "夜宿山寺",
+            "星辰"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_640",
@@ -38001,10 +38749,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "不敢高",
-        "李白",
-        "夜宿山寺",
-        "天上"
-        ]
+            "李白",
+            "夜宿山寺",
+            "天上"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_641",
@@ -38019,10 +38768,11 @@ const QUESTIONS_DATA = [
         "poemId": null,
         "knowledgePoints": [
             "京口瓜",
-        "王安石",
-        "泊船瓜洲",
-        "钟山"
-        ]
+            "王安石",
+            "泊船瓜洲",
+            "钟山"
+        ],
+        "deleted": true
     },
     {
         "id": "q_mk_642",
@@ -38032,30 +38782,30 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "以下哪位诗人被称为'诗仙'？",
         "options": [
-    {
+            {
                 "text": "李白",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "杜甫",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "白居易",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "王维",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "李白",
         "explanation": "李白被称为'诗仙'，杜甫被称为'诗圣'。",
         "poemId": null,
         "knowledgePoints": [
             "诗人称号",
-        "李白",
-        "诗仙"
+            "李白",
+            "诗仙"
         ]
     },
     {
@@ -38066,30 +38816,30 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "'锄禾日当午'的下一句是什么？",
         "options": [
-    {
+            {
                 "text": "汗滴禾下土",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "粒粒皆辛苦",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "谁知盘中餐",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "禾熟哪家收",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "汗滴禾下土",
         "explanation": "出自李绅《悯农》，描述农民劳作的艰辛。",
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李绅",
-        "悯农"
+            "李绅",
+            "悯农"
         ]
     },
     {
@@ -38100,31 +38850,31 @@ const QUESTIONS_DATA = [
         "difficulty": 3,
         "question": "以下哪句诗描写的是春天景色？",
         "options": [
-    {
+            {
                 "text": "春眠不觉晓，处处闻啼鸟",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "停车坐爱枫林晚，霜叶红于二月花",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "墙角数枝梅，凌寒独自开",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "千山鸟飞绝，万径人踪灭",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "春眠不觉晓，处处闻啼鸟",
         "explanation": "出自孟浩然《春晓》，描写春天的景象。",
         "poemId": null,
         "knowledgePoints": [
             "写景",
-        "春天",
-        "孟浩然",
-        "春晓"
+            "春天",
+            "孟浩然",
+            "春晓"
         ]
     },
     {
@@ -38135,29 +38885,29 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "《静夜思》的作者是？",
         "options": [
-    {
+            {
                 "text": "李白",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "杜甫",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "王维",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "白居易",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "李白",
         "explanation": "《静夜思》是唐代诗人李白的代表作之一。",
         "poemId": null,
         "knowledgePoints": [
             "李白",
-        "静夜思"
+            "静夜思"
         ]
     },
     {
@@ -38168,31 +38918,31 @@ const QUESTIONS_DATA = [
         "difficulty": 2,
         "question": "'举头望明月'的下一句是什么？",
         "options": [
-    {
+            {
                 "text": "低头思故乡",
-        "correct": true
+                "correct": true
             },
             {
                 "text": "明月松间照",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "海上生明月",
-        "correct": false
+                "correct": false
             },
             {
                 "text": "明月几时有",
-        "correct": false
+                "correct": false
             }
-  ],
+        ],
         "answer": "低头思故乡",
         "explanation": "出自李白《静夜思》，表达了诗人的思乡之情。",
         "poemId": null,
         "knowledgePoints": [
             "古诗默写",
-        "李白",
-        "静夜思",
-        "思乡"
+            "李白",
+            "静夜思",
+            "思乡"
         ]
     }
-  ];
+];

@@ -346,7 +346,7 @@ function showLevelSelect() {
 // 获取指定年级的题目
 function getQuestionsByGrade(grade, count = 10) {
     // 过滤掉2个月内已掌握的题目和非诗词题目（poetryType: false）
-    const available = QUESTIONS_DATA.filter(q => q.grade === grade && !isQuestionMastered(q.id) && q.poetryType !== false);
+    const available = QUESTIONS_DATA.filter(q => q.grade === grade && !q.deleted && !isQuestionMastered(q.id) && q.poetryType !== false);
     // 打乱顺序并返回指定数量
     const shuffled = available.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);
@@ -355,7 +355,7 @@ function getQuestionsByGrade(grade, count = 10) {
 // 获取随机题目（用于每日挑战）
 function getRandomQuestions(count = 10) {
     // 过滤掉2个月内已掌握的题目和非诗词题目（poetryType: false）
-    const available = [...QUESTIONS_DATA].filter(q => !isQuestionMastered(q.id) && q.poetryType !== false);
+    const available = [...QUESTIONS_DATA].filter(q => !q.deleted && !isQuestionMastered(q.id) && q.poetryType !== false);
     const shuffled = available.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);
 }
@@ -2193,30 +2193,71 @@ function showDict() {
 }
 
 // 增强解析内容：包含诗词全文、作者、朝代、释义
+// 查找诗词的增强匹配函数（处理繁简差异和标题差异）
+function findPoemEnhanced(title, author) {
+    const baseTitle = title.split(/[·・]/)[0]; // 去掉副标题
+
+    // 策略1：精确匹配（标题+作者，标题先转简）
+    let poem = POEMS_DATA.find(p => {
+        const pt = toSimplified(p.title || '');
+        return pt === title && (p.author || '').includes(author);
+    });
+
+    // 策略2：去掉副标题后匹配（处理"渔家傲·秋思" vs "渔家傲"等）
+    if (!poem && baseTitle !== title) {
+        poem = POEMS_DATA.find(p => {
+            const pt = toSimplified(p.title || '');
+            return pt === baseTitle && (p.author || '').includes(author);
+        });
+    }
+
+    // 策略3：仅作者匹配 + 标题包含搜索（宽松匹配）
+    if (!poem) {
+        poem = POEMS_DATA.find(p => {
+            const pt = toSimplified(p.title || '');
+            const pa = toSimplified(p.author || '');
+            return pt.includes(baseTitle) && pa.includes(author);
+        });
+    }
+
+    // 策略4：仅作者匹配（忽略标题，用于同一作者多首诗的情况）
+    if (!poem) {
+        const authorMatches = POEMS_DATA.filter(p =>
+            toSimplified(p.author || '').includes(author)
+        );
+        if (authorMatches.length > 0) {
+            // 优先选标题包含题目关键词的
+            poem = authorMatches.find(p =>
+                toSimplified(p.title || '').includes(baseTitle)
+            ) || authorMatches[0];
+        }
+    }
+
+    return poem;
+}
+
 function getEnhancedExplanation(q) {
     // 尝试从题目中提取诗词名和作者
     // 题目格式如："海日生残夜，__________。（王湾《次北固山下》）"
     const matchResult = q.question.match(/（([^《》]+)《([^《》]+)》）/);
-    
+
     let enhancedHTML = `<strong>正确答案：</strong>${q.answer}`;
-    
+
     if (matchResult) {
         const author = matchResult[1].trim();
         const title = matchResult[2].trim();
-        
-        // 在诗词库中查找对应诗词
-        const poem = POEMS_DATA.find(p => 
-            p.title === title && p.author.includes(author)
-        );
-        
+
+        // 在诗词库中查找对应诗词（增强匹配）
+        const poem = findPoemEnhanced(title, author);
+
         if (poem) {
             // 找到诗词，增强解析（转换为简体）
             const fullText = toSimplified(poem.fullText || (Array.isArray(poem.content) ? poem.content.join('，') : ''));
             const interpretation = toSimplified(poem.interpretation || '');
             const dynasty = toSimplified(poem.dynasty || '');
-            const author = toSimplified(poem.author || '');
-            const title = toSimplified(poem.title || '');
-            
+            const pAuthor = toSimplified(poem.author || '');
+            const pTitle = toSimplified(poem.title || '');
+
             enhancedHTML = `
                 <div style="margin-bottom:15px;">
                     <strong>【诗词原文】</strong><br>
@@ -2226,7 +2267,7 @@ function getEnhancedExplanation(q) {
                 </div>
                 <div style="margin-bottom:10px;">
                     <strong>【诗词信息】</strong><br>
-                    <span style="color:#666;">${dynasty}·${author}《${title}》</span>
+                    <span style="color:#666;">${dynasty}·${pAuthor}《${pTitle}》</span>
                 </div>
                 ${interpretation ? `
                 <div style="margin-bottom:10px;">
@@ -2249,7 +2290,7 @@ function getEnhancedExplanation(q) {
             <strong>解析：</strong>${q.explanation || '无'}
         `;
     }
-    
+
     return enhancedHTML;
 }
 
