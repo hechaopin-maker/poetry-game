@@ -292,8 +292,7 @@ const QUESTIONS_DATA = [
         "杜甫",
         "春夜喜雨",
         "春雨"
-        ],
-        "poetryType": false
+        ]
     },
     {
         "id": "q_chu1_003",
@@ -6005,8 +6004,7 @@ const QUESTIONS_DATA = [
         "杨万里",
         "送别",
         "夏天"
-        ],
-        "poetryType": false
+        ]
     },
     {
         "id": "q_fbc_070",
@@ -6078,8 +6076,7 @@ const QUESTIONS_DATA = [
         "杨万里",
         "西湖",
         "夏天"
-        ],
-        "poetryType": false
+        ]
     },
     {
         "id": "q_fbc_071",
@@ -6801,8 +6798,7 @@ const QUESTIONS_DATA = [
         "王维",
         "山居秋暝",
         "田园"
-        ],
-        "poetryType": false
+        ]
     },
     {
         "id": "q_chu1_081",
@@ -9803,8 +9799,7 @@ const QUESTIONS_DATA = [
         "杨万里",
         "西湖",
         "夏天"
-        ],
-        "poetryType": false
+        ]
     },
     {
         "id": "q_fbc_126",
@@ -10458,8 +10453,7 @@ const QUESTIONS_DATA = [
         "王维",
         "山居秋暝",
         "田园"
-        ],
-        "poetryType": false
+        ]
     },
     {
         "id": "q_chu1_133",
@@ -13163,8 +13157,7 @@ const QUESTIONS_DATA = [
         "王维",
         "山居秋暝",
         "田园"
-        ],
-        "poetryType": false
+        ]
     },
     {
         "id": "q_chu1_163",
@@ -24169,8 +24162,7 @@ const QUESTIONS_DATA = [
         "王维",
         "山居秋暝",
         "渔舟"
-        ],
-        "poetryType": false
+        ]
     },
     {
         "id": "q_chu1_301",
@@ -26344,8 +26336,7 @@ const QUESTIONS_DATA = [
         "杨万里",
         "晓出净慈寺送林子方",
         "风光"
-        ],
-        "poetryType": false
+        ]
     },
     {
         "id": "q_fbc_333",
@@ -32075,8 +32066,7 @@ const QUESTIONS_DATA = [
         "王维",
         "山居秋暝",
         "浣女"
-        ],
-        "poetryType": false
+        ]
     },
     {
         "id": "q_mk_444",
