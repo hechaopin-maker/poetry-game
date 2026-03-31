@@ -942,7 +942,7 @@ let feihuaState = {
     currentIndex: 0,     // 已说出的诗句数
     correctCount: 0,      // 答对的次数
     timer: null,
-    timeLeft: 50,       // 50秒倒计时
+    timeLeft: 500,       // 500秒倒计时
     score: 0,
     answered: [],         // 已说出的诗句列表（用于去重）
     isPlaying: false,
@@ -1069,7 +1069,7 @@ async function startFeihua() {
         currentIndex: 0,
         correctCount: 0,
         timer: null,
-        timeLeft: 50,
+        timeLeft: 500,
         score: 0,
         answered: [],
         isPlaying: false,
@@ -1101,7 +1101,7 @@ async function startFeihua() {
     document.getElementById('feihuaKeyword').textContent = feihuaState.keyword;
     document.getElementById('feihuaTimer').textContent = '500';
     document.getElementById('feihuaScore').textContent = '0';
-    document.getElementById('feihuaCount').textContent = '0/3';
+    document.getElementById('feihuaCount').textContent = '0/10';
     document.getElementById('feihuaHistory').innerHTML = '';
     
     // 清空提示区
@@ -1114,7 +1114,7 @@ async function startFeihua() {
 
 function startFeihuaGame() {
     feihuaState.isPlaying = true;
-    feihuaState.timeLeft = 50;
+    feihuaState.timeLeft = 500;
     feihuaState.currentIndex = 0;
     feihuaState.correctCount = 0;
     feihuaState.answered = [];
@@ -1269,7 +1269,7 @@ function submitFeihuaAnswerByInput() {
         const comboBonus = Math.min(feihuaState.combo - 1, 5) * 2; // 最多+10分
         feihuaState.score += baseScore + comboBonus;
         
-        document.getElementById('feihuaCount').textContent = feihuaState.currentIndex + '/3';
+        document.getElementById('feihuaCount').textContent = feihuaState.currentIndex + '/10';
         document.getElementById('feihuaScore').textContent = feihuaState.score;
         
         // 显示正确提示（带来源信息）
@@ -1279,7 +1279,7 @@ function submitFeihuaAnswerByInput() {
         showPoemSource(poemData);
         
         // 检查是否完成10句
-        if (feihuaState.currentIndex >= 3) {
+        if (feihuaState.currentIndex >= 10) {
             clearInterval(feihuaState.timer);
             feihuaState.isPlaying = false;
             showFeihuaSuccess();
@@ -1483,14 +1483,14 @@ function submitFeihuaAnswerByInput() {
     if (isCorrect) {
         feihuaState.currentIndex++;
         feihuaState.correctCount++;
-        document.getElementById('feihuaCount').textContent = feihuaState.currentIndex + '/3';
+        document.getElementById('feihuaCount').textContent = feihuaState.currentIndex + '/10';
         
         // 加分
         feihuaState.score += 10;
         document.getElementById('feihuaScore').textContent = feihuaState.score;
         
         // 检查是否完成10句
-        if (feihuaState.currentIndex >= 3) {
+        if (feihuaState.currentIndex >= 10) {
             clearInterval(feihuaState.timer);
             endFeihua();
             return;
@@ -1508,7 +1508,7 @@ function submitFeihuaAnswerByInput() {
         switchToNewKeyword(poemForKeyword);
         
         // 重置计时器并显示下一题
-        feihuaState.timeLeft = 50;
+        feihuaState.timeLeft = 500;
         document.getElementById('feihuaTimer').textContent = '500';
         document.getElementById('feihuaTimer').style.color = '';
         showFeihuaInput();
@@ -1633,7 +1633,7 @@ function startNextFeihuaRound() {
     document.getElementById('feihuaTimer').textContent = '500';
     document.getElementById('feihuaTimer').style.color = '';
     document.getElementById('feihuaScore').textContent = feihuaState.score; // 保留总分
-    document.getElementById('feihuaCount').textContent = '0/3';
+    document.getElementById('feihuaCount').textContent = '0/10';
     document.getElementById('feihuaHistory').innerHTML = '';
     
     // 显示输入框
