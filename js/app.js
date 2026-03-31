@@ -345,8 +345,8 @@ function showLevelSelect() {
 
 // 获取指定年级的题目
 function getQuestionsByGrade(grade, count = 10) {
-    // 过滤掉2个月内已掌握的题目
-    const available = QUESTIONS_DATA.filter(q => q.grade === grade && !isQuestionMastered(q.id));
+    // 过滤掉2个月内已掌握的题目和非诗词题目（poetryType: false）
+    const available = QUESTIONS_DATA.filter(q => q.grade === grade && !isQuestionMastered(q.id) && q.poetryType !== false);
     // 打乱顺序并返回指定数量
     const shuffled = available.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);
@@ -354,8 +354,8 @@ function getQuestionsByGrade(grade, count = 10) {
 
 // 获取随机题目（用于每日挑战）
 function getRandomQuestions(count = 10) {
-    // 过滤掉2个月内已掌握的题目
-    const available = [...QUESTIONS_DATA].filter(q => !isQuestionMastered(q.id));
+    // 过滤掉2个月内已掌握的题目和非诗词题目（poetryType: false）
+    const available = [...QUESTIONS_DATA].filter(q => !isQuestionMastered(q.id) && q.poetryType !== false);
     const shuffled = available.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);
 }
