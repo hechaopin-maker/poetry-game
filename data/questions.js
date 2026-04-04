@@ -130,7 +130,7 @@ const QUESTIONS_DATA = [
                                 "correct": false
                         }
                 ],
-                "answer": "人生自古谁无死？留取丹心照汗青",
+                "answer": "\"人生自古谁无死？留取丹心照汗青\"表现了诗人想要流芳百世的追求",
                 "explanation": "这句诗出自文天祥《过零丁洋》，表达的是诗人以身殉国的决心和爱国精神，而非追求流芳百世。",
                 "poemId": "sup_070",
                 "knowledgePoints": [
@@ -38995,7 +38995,7 @@ const QUESTIONS_DATA = [
                                 "correct": false
                         }
                 ],
-                "answer": "王昌龄",
+                "answer": "王昌龄（完整版）",
                 "explanation": "《从军行》出自王昌龄（完整版）之手。",
                 "poemId": "sup_poetry_new_033",
                 "knowledgePoints": [
