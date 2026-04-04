@@ -595,6 +595,7 @@ function submitFillAnswer() {
     // 显示解析（增强版：包含诗词全文、作者、朝代、释义）
     document.getElementById('explanationText').innerHTML = getEnhancedExplanation(q);
     document.getElementById('explanation').classList.add('show');
+    updateShowPoemButton(q);
     
     if (allCorrect) {
         // 答对了：1.5秒后自动进入下一题
@@ -640,6 +641,7 @@ function skipAndShowAnswer() {
     // 显示解析（增强版）
     document.getElementById('explanationText').innerHTML = getEnhancedExplanation(q);
     document.getElementById('explanation').classList.add('show');
+    updateShowPoemButton(q);
     
     // 显示"下一题"按钮
     const nextBtn = document.getElementById('nextQuestionBtn');
@@ -727,6 +729,7 @@ function selectOption(element, isCorrect) {
     // 显示解析（增强版）
     document.getElementById('explanationText').innerHTML = getEnhancedExplanation(q);
     document.getElementById('explanation').classList.add('show');
+    updateShowPoemButton(q);
     
     if (isCorrect) {
         // 答对了：1.5秒后自动进入下一题
@@ -2302,6 +2305,73 @@ function getEnhancedExplanation(q) {
     }
 
     return enhancedHTML;
+}
+
+// 更新"看原诗"按钮的显示状态
+function updateShowPoemButton(q) {
+    const btn = document.getElementById('showPoemBtn');
+    if (!btn || !q) return;
+    const hasTitle = q.question && q.question.includes('《') && q.question.includes('》');
+    btn.style.display = hasTitle ? 'inline-block' : 'none';
+}
+
+// 显示原诗功能：从题目中提取诗题并展示完整诗词
+function showPoemByQuestion() {
+    const q = gameState.currentQuestion;
+    if (!q) return;
+    const titleMatch = q.question.match(/《([^》]+)》/);
+    if (!titleMatch) { alert('无法从题目中提取诗题'); return; }
+    const title = titleMatch[1];
+    const poemResults = window.POEMS_DATA || [];
+    const poem = poemResults.find(p => {
+        const pt = (p.title || '').replace(/[（(].*?[）)]/g, '').trim();
+        return pt === title || p.title?.includes(title);
+    });
+    if (!poem) {
+        const fuzzyResults = (window.POEMS_DATA || []).filter(p => (p.title || '').includes(title));
+        if (fuzzyResults.length > 0) showPoemModal(fuzzyResults[0]);
+        else alert(`未找到诗题《${title}》的诗词数据`);
+        return;
+    }
+    showPoemModal(poem);
+}
+
+function showPoemModal(poem) {
+    const fullText = toSimplified(Array.isArray(poem.content) ? poem.content.join('，') : (poem.fullText || ''));
+    const interpretation = toSimplified(poem.interpretation || '');
+    const dynasty = toSimplified(poem.dynasty || '');
+    const author = toSimplified(poem.author || '');
+    const pTitle = toSimplified(poem.title || '');
+    const lines = fullText.split(/[，。！？；]/).filter(l => l.trim());
+    const formattedText = lines.join('<br>');
+    
+    const poemHTML = `
+        <div style="position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.6);z-index:1000;display:flex;align-items:center;justify-content:center;">
+            <div style="background:#FDF5E6;border-radius:16px;padding:30px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;font-family:'Noto Serif SC',serif;">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+                    <h3 style="margin:0;color:#8B4513;">📖 诗词原文</h3>
+                    <button onclick="closePoemModal()" style="background:none;border:none;font-size:1.5em;cursor:pointer;">✕</button>
+                </div>
+                <div style="text-align:center;margin-bottom:15px;">
+                    <span style="font-size:1.4em;font-weight:bold;color:#333;">${dynasty}·${author}《${pTitle}》</span>
+                </div>
+                <div style="background:#fff;padding:20px;border-radius:10px;text-align:center;line-height:2.2;font-size:1.15em;color:#222;margin-bottom:15px;">
+                    ${formattedText}
+                </div>
+                ${interpretation ? `<div style="margin-top:15px;padding:15px;background:#fff;border-radius:8px;"><strong style="color:#8B4513;">【诗词释义】</strong><p style="color:#555;margin:10px 0 0 0;line-height:1.8;">${interpretation}</p></div>` : ''}
+                <div style="text-align:center;margin-top:20px;">
+                    <button class="btn btn-primary" onclick="closePoemModal()">返回解析</button>
+                </div>
+            </div>
+        </div>`;
+    let modal = document.getElementById('poemModal');
+    if (!modal) { modal = document.createElement('div'); modal.id = 'poemModal'; document.body.appendChild(modal); }
+    modal.innerHTML = poemHTML;
+}
+
+function closePoemModal() {
+    const modal = document.getElementById('poemModal');
+    if (modal) modal.innerHTML = '';
 }
 
 function searchPoems() {
