@@ -70,42 +70,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu1_001",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文单元测试",
-                "difficulty": 2,
-                "question": "海日生残夜，__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "江春入旧年",
-                "explanation": "出自王湾《次北固山下》，描写江南早春景象。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王湾",
-                        "次北固山下",
-                        "春天"
-                ]
-        },
-        {
-                "id": "q_chu2_001",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文单元测试",
-                "difficulty": 3,
-                "question": "春江潮水连海平，__________。（张若虚《春江花月夜》）",
-                "options": [],
-                "answer": "海上明月共潮生",
-                "explanation": "出自张若虚《春江花月夜》，描写春江月夜的壮阔景象。",
-                "poemId": "sup_291",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "张若虚",
-                        "春江花月夜",
-                        "月亮"
-                ]
-        },
-        {
                 "id": "q_zk_001",
                 "type": "choice",
                 "grade": "zk",
@@ -282,24 +246,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_fbc_003",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "2024年重点初中分班测真题",
-                "difficulty": 2,
-                "question": "随风潜入夜，__________。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "润物细无声",
-                "explanation": "出自杜甫《春夜喜雨》，形容春雨默默滋润万物。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "春夜喜雨",
-                        "春雨"
-                ]
-        },
-        {
                 "id": "q_chu1_003",
                 "type": "fill",
                 "grade": "chu1",
@@ -409,24 +355,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_004",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "2024年分班测真题",
-                "difficulty": 2,
-                "question": "人间四月芳菲尽，__________。（白居易《大林寺桃花》）",
-                "options": [],
-                "answer": "山寺桃花始盛开",
-                "explanation": "出自白居易《大林寺桃花》，描写山上桃花晚开的景象。",
-                "poemId": "sup_poetry_new_022",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "白居易",
-                        "大林寺桃花",
-                        "春天"
-                ]
-        },
-        {
                 "id": "q_chu2_004",
                 "poetryType": false,
                 "type": "fill",
@@ -480,25 +408,6 @@ const QUESTIONS_DATA = [
                         "江南春",
                         "写景"
                 ]
-        },
-        {
-                "id": "q_chu1_005",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文单元测试",
-                "difficulty": 2,
-                "question": "我寄愁心与明月，__________。（李白《闻王昌龄左迁龙标遥有此寄》）",
-                "options": [],
-                "answer": "随风直到夜郎西",
-                "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，表达对友人的关切。",
-                "poemId": "sup_055",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "友情",
-                        "思念"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_005",
@@ -574,42 +483,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_006",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "何当共剪西窗烛，__________。（李商隐《夜雨寄北》）",
-                "options": [],
-                "answer": "却话巴山夜雨时",
-                "explanation": "出自李商隐《夜雨寄北》，表达对远方亲人的思念。",
-                "poemId": "sup_061",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李商隐",
-                        "夜雨寄北",
-                        "思念"
-                ]
-        },
-        {
-                "id": "q_fbc_006",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "2024年分班测真题",
-                "difficulty": 2,
-                "question": "离离原上草，__________。（白居易《赋得古原草送别》）",
-                "options": [],
-                "answer": "一岁一枯荣",
-                "explanation": "出自白居易《赋得古原草送别》，描写草木一年一枯荣的规律。",
-                "poemId": "sup_224",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "白居易",
-                        "赋得古原草送别",
-                        "自然规律"
-                ]
-        },
-        {
                 "id": "q_chu2_006",
                 "type": "fill",
                 "grade": "chu2",
@@ -663,42 +536,6 @@ const QUESTIONS_DATA = [
                         "王建",
                         "十五夜望月",
                         "中秋"
-                ]
-        },
-        {
-                "id": "q_chu1_007",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "商女不知亡国恨，__________。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "隔江犹唱后庭花",
-                "explanation": "出自杜牧《泊秦淮》，借古讽今，批评统治者荒淫误国。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "泊秦淮",
-                        "咏史"
-                ]
-        },
-        {
-                "id": "q_fbc_007",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "2024年分班测真题",
-                "difficulty": 2,
-                "question": "远芳侵古道，__________。（白居易《赋得古原草送别》）",
-                "options": [],
-                "answer": "晴翠接荒城",
-                "explanation": "出自白居易《赋得古原草送别》，描写春天草蔓延到荒城的景象。",
-                "poemId": "sup_224",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "白居易",
-                        "赋得古原草送别",
-                        "送别"
                 ]
         },
         {
@@ -942,42 +779,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_010",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "感时花溅泪，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "恨别鸟惊心",
-                "explanation": "出自杜甫《春望》，表达战乱中的忧国忧民之情。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "春望",
-                        "爱国"
-                ]
-        },
-        {
-                "id": "q_fbc_010",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "少壮不努力，__________。（汉乐府《长歌行》）",
-                "options": [],
-                "answer": "老大徒伤悲",
-                "explanation": "出自汉乐府《长歌行》，告诫人们要珍惜少年时光。",
-                "poemId": "sup_160",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "长歌行",
-                        "惜时",
-                        "汉乐府"
-                ]
-        },
-        {
                 "id": "q_zk_010",
                 "type": "fill",
                 "grade": "zk",
@@ -1142,42 +943,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_012",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 1,
-                "question": "鹅，鹅，鹅，__________。（骆宾王《咏鹅》）",
-                "options": [],
-                "answer": "曲项向天歌",
-                "explanation": "出自骆宾王《咏鹅》，描写大白鹅弯曲着脖子向天唱歌的形象。",
-                "poemId": "sup_044",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "骆宾王",
-                        "咏鹅",
-                        "动物"
-                ]
-        },
-        {
-                "id": "q_zk_012",
-                "type": "fill",
-                "grade": "zk",
-                "source": "2024年中考古诗文默写",
-                "difficulty": 3,
-                "question": "《登飞来峰》中'不畏浮云遮望眼，__________'表达了诗人的远大抱负。",
-                "options": [],
-                "answer": "自缘身在最高层",
-                "explanation": "出自王安石《登飞来峰》，表达了诗人实现政治抱负的信心。",
-                "poemId": "sup_025",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王安石",
-                        "登飞来峰",
-                        "志向"
-                ]
-        },
-        {
                 "id": "q_chu2_012",
                 "type": "fill",
                 "grade": "chu2",
@@ -1230,24 +995,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "渡荆门送别",
                         "写景"
-                ]
-        },
-        {
-                "id": "q_fbc_013",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 1,
-                "question": "__________，万条垂下绿丝绦。（贺知章《咏柳》）",
-                "options": [],
-                "answer": "碧玉妆成一树高",
-                "explanation": "出自贺知章《咏柳》，用碧玉比喻柳树的嫩绿。",
-                "poemId": "sup_106",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "贺知章",
-                        "咏柳",
-                        "春天"
                 ]
         },
         {
@@ -1323,24 +1070,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_014",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "白日依山尽，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "黄河入海流",
-                "explanation": "出自王之涣《登鹳雀楼》，描写夕阳西下、黄河奔流入海的壮阔景象。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "写景"
-                ]
-        },
-        {
                 "id": "q_zk_014",
                 "type": "fill",
                 "grade": "zk",
@@ -1392,24 +1121,6 @@ const QUESTIONS_DATA = [
                         "王冕",
                         "墨梅",
                         "咏物"
-                ]
-        },
-        {
-                "id": "q_chu1_015",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "春蚕到死丝方尽，__________。（李商隐《无题》）",
-                "options": [],
-                "answer": "蜡炬成灰泪始干",
-                "explanation": "出自李商隐《无题》，用春蚕和蜡烛比喻爱情的坚贞不渝。",
-                "poemId": "sup_060",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李商隐",
-                        "无题",
-                        "爱情"
                 ]
         },
         {
@@ -1482,42 +1193,6 @@ const QUESTIONS_DATA = [
                         "张志和",
                         "渔歌子",
                         "渔隐"
-                ]
-        },
-        {
-                "id": "q_chu1_016",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "塞下秋来风景异，__________。（范仲淹《渔家傲·秋思》）",
-                "options": [],
-                "answer": "衡阳雁去无留意",
-                "explanation": "出自范仲淹《渔家傲·秋思》，描写边塞秋天的萧瑟景象。",
-                "poemId": "sup_062",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "范仲淹",
-                        "渔家傲",
-                        "边塞"
-                ]
-        },
-        {
-                "id": "q_fbc_016",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "秦时明月汉时关，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "万里长征人未还",
-                "explanation": "出自王昌龄《出塞》，表达边塞战士的思乡之情。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王昌龄",
-                        "出塞",
-                        "边塞"
                 ]
         },
         {
@@ -1665,24 +1340,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_018",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "我寄愁心与明月，__________。（李白《闻王昌龄左迁龙标遥有此寄》）",
-                "options": [],
-                "answer": "随风直到夜郎西",
-                "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，表达对友人的关切。",
-                "poemId": "sup_055",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "友情",
-                        "思念"
-                ]
-        },
-        {
                 "id": "q_fbc_018",
                 "type": "fill",
                 "grade": "fbc",
@@ -1755,42 +1412,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_019",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "春潮带雨晚来急，__________。（韦应物《滁州西涧》）",
-                "options": [],
-                "answer": "野渡无人舟自横",
-                "explanation": "出自韦应物《滁州西涧》，描写春雨中西涧的幽静景色。",
-                "poemId": "sup_217",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "韦应物",
-                        "滁州西涧",
-                        "写景"
-                ]
-        },
-        {
-                "id": "q_fbc_019",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "独在异乡为异客，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "每逢佳节倍思亲",
-                "explanation": "出自王维《九月九日忆山东兄弟》，表达重阳节对亲人的思念。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "思乡",
-                        "重阳节"
-                ]
-        },
-        {
                 "id": "q_zk_019",
                 "type": "fill",
                 "grade": "zk",
@@ -1843,43 +1464,6 @@ const QUESTIONS_DATA = [
                         "春夜喜雨",
                         "春雨"
                 ]
-        },
-        {
-                "id": "q_chu1_020",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "明月松间照，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "清泉石上流",
-                "explanation": "出自王维《山居秋暝》，描写秋夜山居的宁静景色。",
-                "poemId": "sup_108",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "山居秋暝",
-                        "秋天"
-                ]
-        },
-        {
-                "id": "q_fbc_020",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 1,
-                "question": "床前明月光，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "疑是地上霜",
-                "explanation": "出自李白《静夜思》，描写月光照在床前像霜一样的景象。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "静夜思",
-                        "思乡"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_020",
@@ -2135,24 +1719,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_023",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "李白乘舟将欲行，__________。（李白《赠汪伦》）",
-                "options": [],
-                "answer": "忽闻岸上踏歌声",
-                "explanation": "出自李白《赠汪伦》，描写汪伦来送行的场景。",
-                "poemId": "sup_008",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "赠汪伦",
-                        "友情"
-                ]
-        },
-        {
                 "id": "q_zk_023",
                 "type": "fill",
                 "grade": "zk",
@@ -2207,42 +1773,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_024",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "不畏浮云遮望眼，__________。（王安石《登飞来峰》）",
-                "options": [],
-                "answer": "自缘身在最高层",
-                "explanation": "出自王安石《登飞来峰》，表达了诗人的远大抱负和坚定信念。",
-                "poemId": "sup_025",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王安石",
-                        "登飞来峰",
-                        "哲理"
-                ]
-        },
-        {
-                "id": "q_fbc_024",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "故人西辞黄鹤楼，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "烟花三月下扬州",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写阳春三月的扬州美景。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "送别",
-                        "黄鹤楼送孟浩然之广陵"
-                ]
-        },
-        {
                 "id": "q_zk_024",
                 "type": "fill",
                 "grade": "zk",
@@ -2294,24 +1824,6 @@ const QUESTIONS_DATA = [
                         "郑燮",
                         "竹石",
                         "咏物"
-                ]
-        },
-        {
-                "id": "q_chu1_025",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "采菊东篱下，__________。（陶渊明《饮酒》）",
-                "options": [],
-                "answer": "悠然见南山",
-                "explanation": "出自陶渊明《饮酒》，表现诗人归隐后的悠闲生活。",
-                "poemId": "sup_126",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "陶渊明",
-                        "饮酒",
-                        "田园"
                 ]
         },
         {
@@ -2460,25 +1972,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_027",
-                "type": "fill",
-                "grade": "mk",
-                "source": "2023·鱼台县小升初真题",
-                "difficulty": 2,
-                "question": "不要人夸好颜色，__________。（王冕《墨梅》）",
-                "options": [],
-                "answer": "只留清气满乾坤",
-                "explanation": "出自王冕《墨梅》，借梅抒情，表达诗人不向世俗献媚的品格。",
-                "poemId": "sup_082",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王冕",
-                        "墨梅",
-                        "咏物"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_027",
                 "type": "fill",
                 "grade": "chu1",
@@ -2494,24 +1987,6 @@ const QUESTIONS_DATA = [
                         "陶渊明",
                         "饮酒",
                         "田园"
-                ]
-        },
-        {
-                "id": "q_fbc_027",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 1,
-                "question": "__________，一行白鹭上青天。（杜甫《绝句》）",
-                "options": [],
-                "answer": "两个黄鹂鸣翠柳",
-                "explanation": "出自杜甫《绝句》，描写春天生机勃勃的景象。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "绝句",
-                        "春天"
                 ]
         },
         {
@@ -2660,25 +2135,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_029",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中语文古诗词默写真题汇总",
-                "difficulty": 2,
-                "question": "会当凌绝顶，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "一览众山小",
-                "explanation": "出自杜甫《望岳》，表达了诗人登临泰山的雄心壮志。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "望岳",
-                        "志向"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_029",
                 "type": "fill",
                 "grade": "fbc",
@@ -2767,24 +2223,6 @@ const QUESTIONS_DATA = [
                         "李贺",
                         "马诗",
                         "边塞"
-                ]
-        },
-        {
-                "id": "q_fbc_030",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "黄四娘家花满蹊，__________。（杜甫《江畔独步寻花》）",
-                "options": [],
-                "answer": "千朵万朵压枝低",
-                "explanation": "出自杜甫《江畔独步寻花》，描写繁花似锦的景象。",
-                "poemId": "sup_039",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "江畔独步寻花",
-                        "春天"
                 ]
         },
         {
@@ -2934,24 +2372,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_032",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "月落乌啼霜满天，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "江枫渔火对愁眠",
-                "explanation": "出自张继《枫桥夜泊》，描写深夜江边的愁绪。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "张继",
-                        "枫桥夜泊",
-                        "羁旅"
-                ]
-        },
-        {
                 "id": "q_chu1_032",
                 "type": "fill",
                 "grade": "chu1",
@@ -3097,25 +2517,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_034",
-                "type": "fill",
-                "grade": "mk",
-                "source": "2023·椒江区小升初真题",
-                "difficulty": 2,
-                "question": "不要人夸好颜色，__________。（王冕《墨梅》）",
-                "options": [],
-                "answer": "只留清气满乾坤",
-                "explanation": "出自王冕《墨梅》，赞美梅花的高洁品格。",
-                "poemId": "sup_082",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王冕",
-                        "墨梅",
-                        "咏物"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_034",
                 "type": "fill",
                 "grade": "fbc",
@@ -3169,25 +2570,6 @@ const QUESTIONS_DATA = [
                         "战争"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu2_034",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《石壕吏》中'暮投石壕村，有吏夜捉人'后是'__________'。",
-                "options": [],
-                "answer": "老翁逾墙走，老妇出门看",
-                "explanation": "出自杜甫《石壕吏》，描写官差深夜抓人当兵的场景。",
-                "poemId": "sup_357",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "石壕吏",
-                        "战乱"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_035",
@@ -3261,26 +2643,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_035",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《石壕吏》中'吏呼一何怒！妇啼一何苦'！体现__________。",
-                "options": [],
-                "answer": "差役凶狠，百姓痛苦",
-                "explanation": "出自杜甫《石壕吏》，通过对比表现社会现实的黑暗。",
-                "poemId": "sup_357",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "石壕吏",
-                        "社会"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
                 "id": "q_mk_036",
                 "type": "fill",
                 "grade": "mk",
@@ -3350,25 +2712,6 @@ const QUESTIONS_DATA = [
                         "茅屋为秋风所破歌",
                         "忧国忧民"
                 ]
-        },
-        {
-                "id": "q_chu2_036",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《茅屋为秋风所破歌》中'布衾多年冷似铁，__________'。",
-                "options": [],
-                "answer": "娇儿恶卧踏里裂",
-                "explanation": "出自杜甫《茅屋为秋风所破歌》，描写诗人贫困的生活状况。",
-                "poemId": "sup_382",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "茅屋为秋风所破歌",
-                        "贫困"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_037",
@@ -3443,25 +2786,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_037",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《白雪歌送武判官归京》中'北风卷地白草折，__________'。",
-                "options": [],
-                "answer": "胡天八月即飞雪",
-                "explanation": "出自岑参《白雪歌送武判官归京》，描写边塞八月飞雪的奇景。",
-                "poemId": "sup_057",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "岑参",
-                        "白雪歌",
-                        "边塞"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_038",
                 "type": "fill",
                 "grade": "mk",
@@ -3477,24 +2801,6 @@ const QUESTIONS_DATA = [
                         "苏轼",
                         "西湖",
                         "夏雨"
-                ]
-        },
-        {
-                "id": "q_fbc_038",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "野火烧不尽，__________。（白居易《赋得古原草送别》）",
-                "options": [],
-                "answer": "春风吹又生",
-                "explanation": "出自白居易《赋得古原草送别》，赞美野草顽强的生命力。",
-                "poemId": "sup_224",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "白居易",
-                        "顽强",
-                        "送别"
                 ]
         },
         {
@@ -3532,25 +2838,6 @@ const QUESTIONS_DATA = [
                         "过零丁洋",
                         "爱国"
                 ]
-        },
-        {
-                "id": "q_chu2_038",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《白雪歌送武判官归京》中'忽如一夜春风来，__________'。",
-                "options": [],
-                "answer": "千树万树梨花开",
-                "explanation": "出自岑参《白雪歌送武判官归京》，用梨花比喻雪花，意境优美。",
-                "poemId": "sup_057",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "岑参",
-                        "白雪歌",
-                        "比喻"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_039",
@@ -3625,25 +2912,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_039",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《白雪歌送武判官归京》中'瀚海阑干百丈冰，__________'。",
-                "options": [],
-                "answer": "愁云惨淡万里凝",
-                "explanation": "出自岑参《白雪歌送武判官归京》，描写边塞冰天雪地的景象。",
-                "poemId": "sup_poetry_new_007",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "岑参",
-                        "白雪歌",
-                        "边塞"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_040",
                 "type": "fill",
                 "grade": "mk",
@@ -3714,25 +2982,6 @@ const QUESTIONS_DATA = [
                         "过零丁洋",
                         "抒情"
                 ]
-        },
-        {
-                "id": "q_chu2_040",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《卖炭翁》中'卖炭翁，伐薪烧炭南山中'后是'__________'。",
-                "options": [],
-                "answer": "满面尘灰烟火色，两鬓苍苍十指黑",
-                "explanation": "出自白居易《卖炭翁》，描写卖炭翁的艰辛劳动和贫困状况。",
-                "poemId": "sup_058",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "白居易",
-                        "卖炭翁",
-                        "社会"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_041",
@@ -3808,25 +3057,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_041",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《春望》中'国破山河在，__________'。",
-                "options": [],
-                "answer": "城春草木深",
-                "explanation": "出自杜甫《春望》，描写战乱后长安城的荒凉景象。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "春望",
-                        "爱国"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_042",
                 "type": "fill",
                 "grade": "mk",
@@ -3881,43 +3111,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_042",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《天净沙·秋思》中'枯藤老树昏鸦，__________'。",
-                "options": [],
-                "answer": "小桥流水人家",
-                "explanation": "出自马致远《天净沙·秋思》，描写深秋的萧瑟景象。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "马致远",
-                        "天净沙",
-                        "秋天"
-                ]
-        },
-        {
-                "id": "q_chu2_042",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《春望》中'烽火连三月，__________'。",
-                "options": [],
-                "answer": "家书抵万金",
-                "explanation": "出自杜甫《春望》，表达战乱中人们对亲人的思念。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "春望",
-                        "思乡"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_043",
                 "type": "fill",
                 "grade": "mk",
@@ -3933,24 +3126,6 @@ const QUESTIONS_DATA = [
                         "朱熹",
                         "观书有感",
                         "读书"
-                ]
-        },
-        {
-                "id": "q_fbc_043",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 3,
-                "question": "向晚意不适，__________。（李商隐《登乐游原》）",
-                "options": [],
-                "answer": "驱车登古原",
-                "explanation": "出自李商隐《登乐游原》，描写傍晚心情不佳时登高散心。",
-                "poemId": "sup_320",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李商隐",
-                        "登乐游原",
-                        "抒怀"
                 ]
         },
         {
@@ -4261,24 +3436,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_046",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《雁门太守行》中'黑云压城城欲摧，__________'。",
-                "options": [],
-                "answer": "甲光向日金鳞开",
-                "explanation": "出自李贺《雁门太守行》，描写敌军压境、将士严阵以待的情景。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李贺",
-                        "雁门太守行",
-                        "边塞"
-                ]
-        },
-        {
                 "id": "q_mk_047",
                 "type": "fill",
                 "grade": "mk",
@@ -4293,24 +3450,6 @@ const QUESTIONS_DATA = [
                         "古诗默写",
                         "孟浩然",
                         "春晓",
-                        "春天"
-                ]
-        },
-        {
-                "id": "q_fbc_047",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "竹外桃花三两枝，__________。（苏轼《惠崇春江晚景》）",
-                "options": [],
-                "answer": "春江水暖鸭先知",
-                "explanation": "出自苏轼《惠崇春江晚景》，描写江南春天的美景。",
-                "poemId": "sup_165",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "苏轼",
-                        "惠崇春江晚景",
                         "春天"
                 ]
         },
@@ -4476,24 +3615,6 @@ const QUESTIONS_DATA = [
                         "王之涣",
                         "登鹳雀楼",
                         "写景"
-                ]
-        },
-        {
-                "id": "q_fbc_049",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 3,
-                "question": "三万里河东入海，__________。（陆游《秋夜将晓出篱门迎凉有感》）",
-                "options": [],
-                "answer": "五千仞岳上摩天",
-                "explanation": "出自陆游《秋夜将晓出篱门迎凉有感》，描写北方山岳的雄伟。",
-                "poemId": "sup_076",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "陆游",
-                        "爱国",
-                        "山川"
                 ]
         },
         {
@@ -4881,24 +4002,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_054",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "21世纪教育网-小升初语文初一分班考专项练习题一",
-                "difficulty": 2,
-                "question": "千锤万凿出深山，__________。（于谦《石灰吟》）",
-                "options": [],
-                "answer": "烈火焚烧若等闲",
-                "explanation": "出自于谦《石灰吟》，以石灰自喻表达刚正不阿的精神。",
-                "poemId": "sup_083",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "于谦",
-                        "石灰吟",
-                        "言志"
-                ]
-        },
-        {
                 "id": "q_chu1_054",
                 "type": "fill",
                 "grade": "chu1",
@@ -5099,24 +4202,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_057",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "重点初中分班考真题",
-                "difficulty": 2,
-                "question": "西塞山前白鹭飞，__________。（张志和《渔歌子》）",
-                "options": [],
-                "answer": "桃花流水鳜鱼肥",
-                "explanation": "出自张志和《渔歌子》，描写江南春天的美景和渔家生活。",
-                "poemId": "sup_218",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "张志和",
-                        "渔歌子",
-                        "春天"
-                ]
-        },
-        {
                 "id": "q_chu1_057",
                 "type": "fill",
                 "grade": "chu1",
@@ -5240,24 +4325,6 @@ const QUESTIONS_DATA = [
                         "刘禹锡",
                         "望洞庭",
                         "比喻"
-                ]
-        },
-        {
-                "id": "q_fbc_059",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "重点初中分班考真题",
-                "difficulty": 2,
-                "question": "日照香炉生紫烟，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "遥看瀑布挂前川",
-                "explanation": "出自李白《望庐山瀑布》，描写庐山香炉峰瀑布的壮观景象。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "望庐山瀑布",
-                        "写景"
                 ]
         },
         {
@@ -5389,24 +4456,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_061",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "重点初中分班考真题",
-                "difficulty": 2,
-                "question": "天门中断楚江开，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "碧水东流至此回",
-                "explanation": "出自李白《望天门山》，描写天门山夹江对峙、长江水折东而流的景象。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "望天门山",
-                        "写景"
-                ]
-        },
-        {
                 "id": "q_chu1_061",
                 "type": "fill",
                 "grade": "chu1",
@@ -5459,24 +4508,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "绝句",
                         "春天"
-                ]
-        },
-        {
-                "id": "q_fbc_062",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "重点初中分班考真题",
-                "difficulty": 2,
-                "question": "两岸青山相对出，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "孤帆一片日边来",
-                "explanation": "出自李白《望天门山》，描写一只小船从日边驶来的景象。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "望天门山",
-                        "送别"
                 ]
         },
         {
@@ -5535,24 +4566,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_063",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "重点初中分班考真题",
-                "difficulty": 2,
-                "question": "朝辞白帝彩云间，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "千里江陵一日还",
-                "explanation": "出自李白《早发白帝城》，描写诗人从白帝城返回江陵的轻快心情。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "早发白帝城",
-                        "抒情"
-                ]
-        },
-        {
                 "id": "q_chu1_063",
                 "type": "fill",
                 "grade": "chu1",
@@ -5605,24 +4618,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "绝句",
                         "春天"
-                ]
-        },
-        {
-                "id": "q_fbc_064",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "重点初中分班考真题",
-                "difficulty": 2,
-                "question": "__________，轻舟已过万重山。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "两岸猿声啼不住",
-                "explanation": "出自李白《早发白帝城》，描写舟行迅速、猿声不绝于耳的景象。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "早发白帝城",
-                        "船行"
                 ]
         },
         {
@@ -5681,25 +4676,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_065",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "重点初中分班考真题",
-                "difficulty": 2,
-                "question": "故人西辞黄鹤楼，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "烟花三月下扬州",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写阳春三月的扬州美景。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "送别",
-                        "黄鹤楼送孟浩然之广陵"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_065",
                 "type": "fill",
                 "grade": "chu1",
@@ -5715,24 +4691,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "渡荆门送别",
                         "写景"
-                ]
-        },
-        {
-                "id": "q_zk_065",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《春望》中'国破山河在，__________'。",
-                "options": [],
-                "answer": "城春草木深",
-                "explanation": "出自杜甫《春望》，描写战乱后长安城的荒凉景象。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "春望",
-                        "爱国"
                 ]
         },
         {
@@ -5754,61 +4712,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_066",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "重点初中分班考真题",
-                "difficulty": 2,
-                "question": "黄鹤一去不复返，__________。（崔颢《黄鹤楼》）",
-                "options": [],
-                "answer": "白云千载空悠悠",
-                "explanation": "出自崔颢《黄鹤楼》，表达对岁月流逝、物是人非的感慨。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "崔颢",
-                        "黄鹤楼",
-                        "怀古"
-                ]
-        },
-        {
-                "id": "q_chu1_066",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《渡荆门送别》中'月下飞天镜，__________'。",
-                "options": [],
-                "answer": "云生结海楼",
-                "explanation": "出自李白《渡荆门送别》，描写江面平静时的倒影和云彩。",
-                "poemId": "sup_300",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "渡荆门送别",
-                        "写景"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_066",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《春望》中'烽火连三月，__________'。",
-                "options": [],
-                "answer": "家书抵万金",
-                "explanation": "出自杜甫《春望》，表达战乱中人们对亲人的思念。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "春望",
-                        "思乡"
-                ]
-        },
-        {
                 "id": "q_mk_067",
                 "type": "fill",
                 "grade": "mk",
@@ -5827,62 +4730,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_067",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "重点初中分班考真题",
-                "difficulty": 2,
-                "question": "晴川历历汉阳树，__________。（崔颢《黄鹤楼》）",
-                "options": [],
-                "answer": "芳草萋萋鹦鹉洲",
-                "explanation": "出自崔颢《黄鹤楼》，描写登楼远眺的美景。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "崔颢",
-                        "黄鹤楼",
-                        "写景"
-                ]
-        },
-        {
-                "id": "q_chu1_067",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《渡荆门送别》中'山随平野尽，__________'。",
-                "options": [],
-                "answer": "江入大荒流",
-                "explanation": "出自李白《渡荆门送别》，描写船过荆门的壮阔景象。",
-                "poemId": "sup_120",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "渡荆门送别",
-                        "送别"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_067",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《茅屋为秋风所破歌》中'安得广厦千万间，__________'。",
-                "options": [],
-                "answer": "大庇天下寒士俱欢颜",
-                "explanation": "出自杜甫《茅屋为秋风所破歌》，表现诗人忧国忧民的情怀。",
-                "poemId": "sup_382",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "茅屋为秋风所破歌",
-                        "忧国忧民"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_068",
                 "type": "fill",
                 "grade": "mk",
@@ -5899,62 +4746,6 @@ const QUESTIONS_DATA = [
                         "小池",
                         "写景"
                 ]
-        },
-        {
-                "id": "q_fbc_068",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "重点初中分班考真题",
-                "difficulty": 2,
-                "question": "日暮乡关何处是？__________。（崔颢《黄鹤楼》）",
-                "options": [],
-                "answer": "烟波江上使人愁",
-                "explanation": "出自崔颢《黄鹤楼》，表达诗人的思乡之情。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "崔颢",
-                        "黄鹤楼",
-                        "思乡"
-                ]
-        },
-        {
-                "id": "q_chu1_068",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《野望》中'树树皆秋色，__________'。",
-                "options": [],
-                "answer": "山山唯落晖",
-                "explanation": "出自王绩《野望》，描写秋天傍晚的山野景色。",
-                "poemId": "sup_389",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王绩",
-                        "野望",
-                        "秋天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_068",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《过零丁洋》中'人生自古谁无死？__________'。",
-                "options": [],
-                "answer": "留取丹心照汗青",
-                "explanation": "出自文天祥《过零丁洋》，表达了诗人以身殉国的决心。",
-                "poemId": "sup_070",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "文天祥",
-                        "过零丁洋",
-                        "爱国"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_069",
@@ -5991,25 +4782,6 @@ const QUESTIONS_DATA = [
                         "送别",
                         "友情"
                 ]
-        },
-        {
-                "id": "q_chu1_069",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《野望》中'东皋薄暮望，__________'。",
-                "options": [],
-                "answer": "徙倚欲何依",
-                "explanation": "出自王绩《野望》，表达诗人孤独彷徨的心情。",
-                "poemId": "sup_389",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王绩",
-                        "野望",
-                        "彷徨"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_069",
@@ -6066,25 +4838,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_070",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《黄鹤楼》中'昔人已乘黄鹤去，__________'。",
-                "options": [],
-                "answer": "此地空余黄鹤楼",
-                "explanation": "出自崔颢《黄鹤楼》，表达对岁月流逝的感慨。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "崔颢",
-                        "黄鹤楼",
-                        "怀古"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_070",
                 "type": "fill",
                 "grade": "zk",
@@ -6139,25 +4892,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_071",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《黄鹤楼》中'黄鹤一去不复返，__________'。",
-                "options": [],
-                "answer": "白云千载空悠悠",
-                "explanation": "出自崔颢《黄鹤楼》，表达物是人非的感慨。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "崔颢",
-                        "黄鹤楼",
-                        "怀古"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_071",
                 "type": "fill",
                 "grade": "zk",
@@ -6192,43 +4926,6 @@ const QUESTIONS_DATA = [
                         "古朗月行",
                         "儿童"
                 ]
-        },
-        {
-                "id": "q_fbc_072",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词真题",
-                "difficulty": 2,
-                "question": "千里黄云白日曛，__________。（高适《别董大》）",
-                "options": [],
-                "answer": "北风吹雁雪纷纷",
-                "explanation": "出自高适《别董大》，描写边塞寒冬送别时的景象。",
-                "poemId": "sup_213",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "高适",
-                        "别董大",
-                        "送别"
-                ]
-        },
-        {
-                "id": "q_chu1_072",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《使至塞上》中'大漠孤烟直，__________'。",
-                "options": [],
-                "answer": "长河落日圆",
-                "explanation": "出自王维《使至塞上》，描写边塞奇特壮美的景象。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "使至塞上",
-                        "边塞"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_072",
@@ -6267,62 +4964,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_073",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词真题",
-                "difficulty": 2,
-                "question": "莫愁前路无知己，__________。（高适《别董大》）",
-                "options": [],
-                "answer": "天下谁人不识君",
-                "explanation": "出自高适《别董大》，表达对友人的鼓励和信心。",
-                "poemId": "sup_213",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "高适",
-                        "别董大",
-                        "友情"
-                ]
-        },
-        {
-                "id": "q_chu1_073",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《钱塘湖春行》中'孤山寺北贾亭西，__________'。",
-                "options": [],
-                "answer": "水面初平云脚低",
-                "explanation": "出自白居易《钱塘湖春行》，描写西湖早春的景色。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "白居易",
-                        "钱塘湖春行",
-                        "春天"
-                ]
-        },
-        {
-                "id": "q_zk_073",
-                "poetryType": false,
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《生于忧患，死于安乐》中'故天将降大任于是人也，必先__________'。",
-                "options": [],
-                "answer": "苦其心志",
-                "explanation": "出自《孟子》，说明成大事者必先经历磨难。",
-                "poemId": "sup_148",
-                "knowledgePoints": [
-                        "古文默写",
-                        "孟子",
-                        "生于忧患死于安乐",
-                        "磨难"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_074",
                 "type": "fill",
                 "grade": "mk",
@@ -6338,100 +4979,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "静夜思",
                         "夜景"
-                ]
-        },
-        {
-                "id": "q_fbc_074",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词真题",
-                "difficulty": 2,
-                "question": "秦时明月汉时关，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "万里长征人未还",
-                "explanation": "出自王昌龄《出塞》，表达边塞战士的思乡之情。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王昌龄",
-                        "出塞",
-                        "边塞"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_074",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《钱塘湖春行》中'几处早莺争暖树，__________'。",
-                "options": [],
-                "answer": "谁家新燕啄春泥",
-                "explanation": "出自白居易《钱塘湖春行》，描写春天生机勃勃的景象。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "白居易",
-                        "钱塘湖春行",
-                        "春天"
-                ]
-        },
-        {
-                "id": "q_zk_074",
-                "poetryType": false,
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《鱼我所欲也》中'__________，义也'。",
-                "options": [],
-                "answer": "舍生而取者",
-                "explanation": "出自《孟子》，阐述'舍生取义'的道理。",
-                "poemId": "sup_149",
-                "knowledgePoints": [
-                        "古文默写",
-                        "孟子",
-                        "鱼我所欲也",
-                        "正义"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_075",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初古诗词真题精选",
-                "difficulty": 2,
-                "question": "举头望明月，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "低头思故乡",
-                "explanation": "出自李白《静夜思》，表达诗人对故乡的深切思念。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "静夜思",
-                        "思乡"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_075",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词真题",
-                "difficulty": 2,
-                "question": "但使龙城飞将在，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "不教胡马度阴山",
-                "explanation": "出自王昌龄《出塞》，表达诗人对抗敌名将的怀念。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王昌龄",
-                        "出塞",
-                        "爱国"
                 ]
         },
         {
@@ -6451,25 +4998,6 @@ const QUESTIONS_DATA = [
                         "钱塘湖春行",
                         "春天"
                 ]
-        },
-        {
-                "id": "q_zk_075",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《山坡羊·潼关怀古》中'峰峦如聚，__________，山河表里潼关路'。",
-                "options": [],
-                "answer": "波涛如怒",
-                "explanation": "出自张养浩《山坡羊·潼关怀古》，描写潼关地势险要。",
-                "poemId": "sup_069",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "张养浩",
-                        "潼关怀古",
-                        "怀古"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_076",
@@ -6544,25 +5072,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_077",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "初中入学分班考古诗词",
-                "difficulty": 2,
-                "question": "独在异乡为异客，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "每逢佳节倍思亲",
-                "explanation": "出自王维《九月九日忆山东兄弟》，表达重阳节对亲人的思念。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "思乡",
-                        "重阳节"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_077",
                 "type": "fill",
                 "grade": "chu1",
@@ -6579,25 +5088,6 @@ const QUESTIONS_DATA = [
                         "友情",
                         "被贬"
                 ]
-        },
-        {
-                "id": "q_zk_077",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《山坡羊·潼关怀古》中'兴，百姓苦；亡，百姓苦'的前一句是'__________'。",
-                "options": [],
-                "answer": "赢，都变做了土",
-                "explanation": "出自张养浩《山坡羊·潼关怀古》，揭示封建社会朝代更替的实质。",
-                "poemId": "sup_069",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "张养浩",
-                        "潼关怀古",
-                        "民本"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_078",
@@ -6618,24 +5108,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_078",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "初中入学分班考古诗词",
-                "difficulty": 2,
-                "question": "遥知兄弟登高处，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "遍插茱萸少一人",
-                "explanation": "出自王维《九月九日忆山东兄弟》，表达诗人想象兄弟们重阳登高的情景。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "重阳节",
-                        "思乡"
-                ]
-        },
-        {
                 "id": "q_chu1_078",
                 "type": "fill",
                 "grade": "chu1",
@@ -6652,26 +5124,6 @@ const QUESTIONS_DATA = [
                         "次北固山下",
                         "羁旅"
                 ]
-        },
-        {
-                "id": "q_zk_078",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《岳阳楼记》中'至若春和景明，__________'。",
-                "options": [],
-                "answer": "波澜不惊",
-                "explanation": "出自范仲淹《岳阳楼记》，描写春光明媚时的洞庭湖景色。",
-                "poemId": "sup_132",
-                "knowledgePoints": [
-                        "古文默写",
-                        "范仲淹",
-                        "岳阳楼记",
-                        "写景"
-                ],
-                "poetryType": false,
-                "deleted": true
         },
         {
                 "id": "q_mk_079",
@@ -6728,45 +5180,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_079",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《醉翁亭记》中'醉翁之意不在酒，__________'。",
-                "options": [],
-                "answer": "在乎山水之间也",
-                "explanation": "出自欧阳修《醉翁亭记》，表现了作者寄情山水的豁达情怀。",
-                "poemId": "sup_117",
-                "knowledgePoints": [
-                        "古文默写",
-                        "欧阳修",
-                        "醉翁亭记",
-                        "情趣"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_mk_080",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初语文古诗词必背",
-                "difficulty": 2,
-                "question": "夜来风雨声，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "花落知多少",
-                "explanation": "出自孟浩然《春晓》，表达诗人对落花的惋惜。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "孟浩然",
-                        "春晓",
-                        "惜春"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_080",
                 "type": "fill",
                 "grade": "fbc",
@@ -6785,82 +5198,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_080",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《峨眉山月歌》中'峨眉山月半轮秋，__________'。",
-                "options": [],
-                "answer": "影入平羌江水流",
-                "explanation": "出自李白《峨眉山月歌》，描写峨眉山月倒映在江中的景象。",
-                "poemId": "sup_034",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "峨眉山月歌",
-                        "写景"
-                ]
-        },
-        {
-                "id": "q_zk_080",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《爱莲说》中'予独爱莲之出淤泥而不染，__________'。",
-                "options": [],
-                "answer": "濯清涟而不妖",
-                "explanation": "出自周敦颐《爱莲说》，赞美莲花的高洁品格。",
-                "poemId": "sup_147",
-                "knowledgePoints": [
-                        "古文默写",
-                        "周敦颐",
-                        "爱莲说",
-                        "品格"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_mk_081",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初语文古诗词必背",
-                "difficulty": 2,
-                "question": "春眠不觉晓，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "处处闻啼鸟",
-                "explanation": "出自孟浩然《春晓》，描写春天早晨处处鸟鸣的景象。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "孟浩然",
-                        "春晓",
-                        "春天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_081",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "初中入学分班考古诗词",
-                "difficulty": 2,
-                "question": "竹喧归浣女，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "莲动下渔舟",
-                "explanation": "出自王维《山居秋暝》，描写山村生活的和谐美好。",
-                "poemId": "sup_313",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "山居秋暝",
-                        "田园"
-                ],
-                "poetryType": false
-        },
-        {
                 "id": "q_chu1_081",
                 "type": "fill",
                 "grade": "chu1",
@@ -6877,26 +5214,6 @@ const QUESTIONS_DATA = [
                         "江南逢李龟年",
                         "怀旧"
                 ]
-        },
-        {
-                "id": "q_zk_081",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《出师表》中'__________，不宜异同'。",
-                "options": [],
-                "answer": "陟罚臧否",
-                "explanation": "出自诸葛亮《出师表》，说明赏罚要公平一致。",
-                "poemId": "sup_153",
-                "knowledgePoints": [
-                        "古文默写",
-                        "诸葛亮",
-                        "出师表",
-                        "法治"
-                ],
-                "poetryType": false,
-                "deleted": true
         },
         {
                 "id": "q_mk_082",
@@ -6935,44 +5252,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_082",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初一语文古诗词理解性默写",
-                "difficulty": 3,
-                "question": "《夜上受降城闻笛》中'不知何处吹芦管，__________'。",
-                "options": [],
-                "answer": "一夜征人尽望乡",
-                "explanation": "出自李益《夜上受降城闻笛》，表达戍边将士的思乡之情。",
-                "poemId": "sup_340",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李益",
-                        "边塞",
-                        "思乡"
-                ]
-        },
-        {
-                "id": "q_zk_082",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《送东阳马生序》中'余立侍左右，__________'。",
-                "options": [],
-                "answer": "援疑质理",
-                "explanation": "出自宋濂《送东阳马生序》，表现作者求教时的恭敬态度。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "古文默写",
-                        "宋濂",
-                        "送东阳马生序",
-                        "求学"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
                 "id": "q_mk_083",
                 "type": "fill",
                 "grade": "mk",
@@ -6988,24 +5267,6 @@ const QUESTIONS_DATA = [
                         "孟浩然",
                         "宿建德江",
                         "羁旅"
-                ]
-        },
-        {
-                "id": "q_fbc_083",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "初中入学分班考古诗词",
-                "difficulty": 2,
-                "question": "大漠孤烟直，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "长河落日圆",
-                "explanation": "出自王维《使至塞上》，描写边塞奇特壮美的景象。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "使至塞上",
-                        "边塞"
                 ]
         },
         {
@@ -7025,26 +5286,6 @@ const QUESTIONS_DATA = [
                         "登幽州台歌",
                         "孤独"
                 ]
-        },
-        {
-                "id": "q_zk_083",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《曹刿论战》中'肉食者鄙，未能远谋'的前一句是'__________'。",
-                "options": [],
-                "answer": "十年春，齐师伐我",
-                "explanation": "出自《左传·曹刿论战》，交代战争背景。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "古文默写",
-                        "左传",
-                        "曹刿论战",
-                        "战争"
-                ],
-                "poetryType": false,
-                "deleted": true
         },
         {
                 "id": "q_mk_084",
@@ -7101,45 +5342,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_084",
-                "type": "fill",
-                "grade": "zk",
-                "source": "中考古诗文理解性默写",
-                "difficulty": 3,
-                "question": "《答谢中书书》中'高峰入云，清流见底'后是'__________'。",
-                "options": [],
-                "answer": "两岸石壁，五色交辉",
-                "explanation": "出自陶弘景《答谢中书书》，描写山川美景。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "古文默写",
-                        "陶弘景",
-                        "答谢中书书",
-                        "山水"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_mk_085",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初语文古诗词必背",
-                "difficulty": 2,
-                "question": "白日依山尽，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "黄河入海流",
-                "explanation": "出自王之涣《登鹳雀楼》，描写夕阳西下、黄河奔流入海的壮阔景象。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "写景"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_085",
                 "type": "fill",
                 "grade": "fbc",
@@ -7176,43 +5378,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_086",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初语文古诗词必背",
-                "difficulty": 2,
-                "question": "欲穷千里目，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "更上一层楼",
-                "explanation": "出自王之涣《登鹳雀楼》，表达了积极向上的精神。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "哲理"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_086",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "初中入学分班考古诗词",
-                "difficulty": 2,
-                "question": "旧时王谢堂前燕，__________。（刘禹锡《乌衣巷》）",
-                "options": [],
-                "answer": "飞入寻常百姓家",
-                "explanation": "出自刘禹锡《乌衣巷》，借燕子迁徙感叹世事变迁。",
-                "poemId": "sup_089",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "刘禹锡",
-                        "乌衣巷",
-                        "怀古"
-                ]
-        },
-        {
                 "id": "q_mk_087",
                 "type": "fill",
                 "grade": "mk",
@@ -7228,62 +5393,6 @@ const QUESTIONS_DATA = [
                         "贺知章",
                         "咏柳",
                         "春天"
-                ]
-        },
-        {
-                "id": "q_fbc_087",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "月落乌啼霜满天，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "江枫渔火对愁眠",
-                "explanation": "出自张继《枫桥夜泊》，描写深夜江边的愁绪。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "张继",
-                        "枫桥夜泊",
-                        "羁旅"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_088",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初语文古诗词必背",
-                "difficulty": 2,
-                "question": "不知细叶谁裁出，__________。（贺知章《咏柳》）",
-                "options": [],
-                "answer": "二月春风似剪刀",
-                "explanation": "出自贺知章《咏柳》，用巧妙的比喻赞美春天的美好。",
-                "poemId": "sup_307",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "贺知章",
-                        "咏柳",
-                        "比喻"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_088",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "姑苏城外寒山寺，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "夜半钟声到客船",
-                "explanation": "出自张继《枫桥夜泊》，描写夜半时分寒山寺的钟声传到客船。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "张继",
-                        "枫桥夜泊",
-                        "夜景"
                 ]
         },
         {
@@ -7378,24 +5487,6 @@ const QUESTIONS_DATA = [
                 "deleted": true
         },
         {
-                "id": "q_fbc_091",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "荆溪白石出，__________。（王维《山中》）",
-                "options": [],
-                "answer": "天寒红叶稀",
-                "explanation": "出自王维《山中》，描写晚秋山中的景色。",
-                "poemId": "sup_390",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "山中",
-                        "秋天"
-                ]
-        },
-        {
                 "id": "q_mk_092",
                 "type": "fill",
                 "grade": "mk",
@@ -7467,25 +5558,6 @@ const QUESTIONS_DATA = [
                         "送别",
                         "友情"
                 ]
-        },
-        {
-                "id": "q_mk_094",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学古诗词必背篇目",
-                "difficulty": 2,
-                "question": "春城无处不飞花，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "寒食东风御柳斜",
-                "explanation": "出自韩翃《寒食》，描写长安城寒食节的暮春景色。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "韩翃",
-                        "寒食",
-                        "节日"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_094",
@@ -7596,24 +5668,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_097",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "折戟沉沙铁未销，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "自将磨洗认前朝",
-                "explanation": "出自杜牧《赤壁》，借古讽今，评论历史人物。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "赤壁",
-                        "怀古"
-                ]
-        },
-        {
                 "id": "q_mk_098",
                 "type": "fill",
                 "grade": "mk",
@@ -7629,24 +5683,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "清平调",
                         "写人"
-                ]
-        },
-        {
-                "id": "q_fbc_098",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "东风不与周郎便，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "铜雀春深锁二乔",
-                "explanation": "出自杜牧《赤壁》，用假设手法评论赤壁之战。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "赤壁",
-                        "怀古"
                 ]
         },
         {
@@ -7668,24 +5704,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_099",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "烟笼寒水月笼沙，__________。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "夜泊秦淮近酒家",
-                "explanation": "出自杜牧《泊秦淮》，描写夜晚秦淮河的朦胧景象。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "泊秦淮",
-                        "夜景"
-                ]
-        },
-        {
                 "id": "q_mk_100",
                 "type": "fill",
                 "grade": "mk",
@@ -7701,24 +5719,6 @@ const QUESTIONS_DATA = [
                         "杜牧",
                         "清明",
                         "节日"
-                ]
-        },
-        {
-                "id": "q_fbc_100",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "商女不知亡国恨，__________。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "隔江犹唱后庭花",
-                "explanation": "出自杜牧《泊秦淮》，讽刺当权者的腐败。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "泊秦淮",
-                        "讽刺"
                 ]
         },
         {
@@ -7777,24 +5777,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_101",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二古诗词默写真题",
-                "difficulty": 4,
-                "question": "国破山河在，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "城春草木深",
-                "explanation": "出自杜甫《春望》，描写战乱后长安城的荒凉。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "战争",
-                        "杜甫",
-                        "春望",
-                        "亡国"
-                ]
-        },
-        {
                 "id": "q_zk_101",
                 "type": "fill",
                 "grade": "zk",
@@ -7850,42 +5832,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_102",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中古诗词默写真题",
-                "difficulty": 3,
-                "question": "会当凌绝顶，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "一览众山小",
-                "explanation": "出自杜甫《望岳》，表达诗人的壮志豪情。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "哲理",
-                        "杜甫",
-                        "望岳",
-                        "志向"
-                ]
-        },
-        {
-                "id": "q_chu2_102",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "初二古诗词默写真题",
-                "difficulty": 4,
-                "question": "感时花溅泪，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "恨别鸟惊心",
-                "explanation": "出自杜甫《春望》，表达诗人的悲伤情感。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "战争",
-                        "杜甫",
-                        "春望",
-                        "情感"
-                ]
-        },
-        {
                 "id": "q_zk_102",
                 "type": "fill",
                 "grade": "zk",
@@ -7938,24 +5884,6 @@ const QUESTIONS_DATA = [
                         "李商隐",
                         "无题",
                         "爱情"
-                ]
-        },
-        {
-                "id": "q_chu1_103",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中古诗词默写真题",
-                "difficulty": 3,
-                "question": "烽火连三月，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "家书抵万金",
-                "explanation": "出自杜甫《春望》，表达战乱中对亲人的思念。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "战争",
-                        "杜甫",
-                        "春望",
-                        "思乡"
                 ]
         },
         {
@@ -8033,24 +5961,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_104",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "初中古诗词默写真题",
-                "difficulty": 3,
-                "question": "白头搔更短，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "浑欲不胜簪",
-                "explanation": "出自杜甫《春望》，表达诗人忧国忧民的情怀。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "战争",
-                        "杜甫",
-                        "春望",
-                        "忧国"
-                ]
-        },
-        {
                 "id": "q_zk_104",
                 "type": "fill",
                 "grade": "zk",
@@ -8124,24 +6034,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_105",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "岱宗夫如何？__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "齐鲁青未了",
-                "explanation": "出自杜甫《望岳》，描写泰山。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "泰山",
-                        "杜甫",
-                        "望岳",
-                        "山"
-                ]
-        },
-        {
                 "id": "q_chu2_105",
                 "type": "fill",
                 "grade": "chu2",
@@ -8157,24 +6049,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "石壕吏",
                         "死亡"
-                ]
-        },
-        {
-                "id": "q_zk_105",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "巴山楚水凄凉地，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "二十三年弃置身",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写贬谪。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "贬谪",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "感慨"
                 ]
         },
         {
@@ -8214,24 +6088,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_106",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "荡胸生曾云，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "决眦入归鸟",
-                "explanation": "出自杜甫《望岳》，描写云鸟。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "云",
-                        "杜甫",
-                        "望岳",
-                        "鸟"
-                ]
-        },
-        {
                 "id": "q_chu2_106",
                 "type": "fill",
                 "grade": "chu2",
@@ -8247,24 +6103,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "石壕吏",
                         "哭泣"
-                ]
-        },
-        {
-                "id": "q_zk_106",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "怀旧空吟闻笛赋，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "到乡翻似烂柯人",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写思乡。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "思乡",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "时间"
                 ]
         },
         {
@@ -8305,61 +6143,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_107",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今夜鄜州月，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "闺中只独看",
-                "explanation": "出自杜甫《月夜》，描写月夜。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "月夜",
-                        "杜甫",
-                        "月夜",
-                        "妻子"
-                ]
-        },
-        {
-                "id": "q_zk_107",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "沉舟侧畔千帆过，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "病树前头万木春",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写哲理。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "哲理",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "希望"
-                ]
-        },
-        {
-                "id": "q_mk_108",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 1,
-                "question": "碧玉妆成一树高，__________。（贺知章《咏柳》）",
-                "options": [],
-                "answer": "万条垂下绿丝绦",
-                "explanation": "出自贺知章《咏柳》，用丝绦比喻柳枝，赞美春天的美好。",
-                "poemId": "sup_106",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "贺知章",
-                        "咏柳",
-                        "春天"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_108",
                 "type": "fill",
                 "grade": "fbc",
@@ -8396,43 +6179,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_108",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今日听君歌一曲，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "暂凭杯酒长精神",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写饮酒。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "饮酒",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "振作"
-                ]
-        },
-        {
-                "id": "q_mk_109",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 1,
-                "question": "不知细叶谁裁出，__________。（贺知章《咏柳》）",
-                "options": [],
-                "answer": "二月春风似剪刀",
-                "explanation": "出自贺知章《咏柳》，用巧妙的比喻赞美春天的美好。",
-                "poemId": "sup_307",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "贺知章",
-                        "咏柳",
-                        "比喻"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_109",
                 "type": "fill",
                 "grade": "fbc",
@@ -8448,24 +6194,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "蜀相",
                         "惋惜"
-                ]
-        },
-        {
-                "id": "q_chu1_109",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "香雾云鬟湿，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "清辉玉臂寒",
-                "explanation": "出自杜甫《月夜》，描写妻子。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "妻子",
-                        "杜甫",
-                        "月夜",
-                        "美丽"
                 ]
         },
         {
@@ -8487,25 +6215,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_110",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "春眠不觉晓，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "处处闻啼鸟",
-                "explanation": "出自孟浩然《春晓》，描写春天早晨处处鸟鸣的景象。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "孟浩然",
-                        "春晓",
-                        "春天"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_110",
                 "type": "fill",
                 "grade": "fbc",
@@ -8521,24 +6230,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "蜀相",
                         "怀古"
-                ]
-        },
-        {
-                "id": "q_chu1_110",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "何时倚虚幌，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "双照泪痕干",
-                "explanation": "出自杜甫《月夜》，描写团聚。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "团聚",
-                        "杜甫",
-                        "月夜",
-                        "希望"
                 ]
         },
         {
@@ -8596,25 +6287,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_111",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "夜来风雨声，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "花落知多少",
-                "explanation": "出自孟浩然《春晓》，表达诗人对落花的惋惜。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "孟浩然",
-                        "春晓",
-                        "惜春"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_111",
                 "type": "fill",
                 "grade": "fbc",
@@ -8651,25 +6323,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_112",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "__________，处处闻啼鸟。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "春眠不觉晓",
-                "explanation": "出自孟浩然《春晓》，春夜酣睡不知不觉天已亮。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "孟浩然",
-                        "春晓",
-                        "春天"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_112",
                 "type": "fill",
                 "grade": "fbc",
@@ -8686,43 +6339,6 @@ const QUESTIONS_DATA = [
                         "渔家傲",
                         "边塞"
                 ]
-        },
-        {
-                "id": "q_chu2_112",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遥怜小儿女，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "未解忆长安",
-                "explanation": "出自杜甫《月夜》，描写儿女。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "儿女",
-                        "杜甫",
-                        "月夜",
-                        "未解"
-                ]
-        },
-        {
-                "id": "q_mk_113",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 1,
-                "question": "少壮不努力，__________。（汉乐府《长歌行》）",
-                "options": [],
-                "answer": "老大徒伤悲",
-                "explanation": "出自汉乐府《长歌行》，告诫人们要珍惜少年时光。",
-                "poemId": "sup_160",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "长歌行",
-                        "惜时",
-                        "汉乐府"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_113",
@@ -8779,43 +6395,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_114",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "莫笑农家腊酒浑，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "丰年留客足鸡豚",
-                "explanation": "出自陆游《游山西村》，描写农村待客的热情。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "陆游",
-                        "游山西村",
-                        "田园"
-                ]
-        },
-        {
-                "id": "q_chu2_114",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "国破山河在，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "城春草木深",
-                "explanation": "出自杜甫《春望》，描写荒凉。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "荒凉",
-                        "杜甫",
-                        "春望",
-                        "国破"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_115",
                 "type": "fill",
                 "grade": "mk",
@@ -8831,24 +6410,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "绝句",
                         "鸟类"
-                ]
-        },
-        {
-                "id": "q_fbc_115",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "山重水复疑无路，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "柳暗花明又一村",
-                "explanation": "出自陆游《游山西村》，表达在困境中要充满希望的哲理。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "陆游",
-                        "游山西村",
-                        "哲理"
                 ]
         },
         {
@@ -8940,25 +6501,6 @@ const QUESTIONS_DATA = [
                         "蜀相",
                         "伯仲"
                 ]
-        },
-        {
-                "id": "q_mk_116",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "两个黄鹂鸣翠柳，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "一行白鹭上青天",
-                "explanation": "出自杜甫《绝句》，描写春天生机勃勃的景象。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜甫",
-                        "绝句",
-                        "春天"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_116",
@@ -9070,42 +6612,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_117",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "春城无处不飞花，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "寒食东风御柳斜",
-                "explanation": "出自韩翃《寒食》，描写长安城寒食节的暮春景色。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "韩翃",
-                        "寒食",
-                        "节日"
-                ]
-        },
-        {
-                "id": "q_chu1_117",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "昔闻洞庭水，__________。（杜甫《登岳阳楼》）",
-                "options": [],
-                "answer": "今上岳阳楼",
-                "explanation": "出自杜甫《登岳阳楼》，描写登楼。",
-                "poemId": "sup_186",
-                "knowledgePoints": [
-                        "登楼",
-                        "杜甫",
-                        "登岳阳楼",
-                        "洞庭"
-                ]
-        },
-        {
                 "id": "q_zk_117",
                 "type": "fill",
                 "grade": "zk",
@@ -9123,79 +6629,6 @@ const QUESTIONS_DATA = [
                         "山林"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu2_117",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "细草微风岸，__________。（杜甫《旅夜书怀》）",
-                "options": [],
-                "answer": "危樯独夜舟",
-                "explanation": "出自杜甫《旅夜书怀》，描写江岸。",
-                "poemId": "sup_321",
-                "knowledgePoints": [
-                        "江岸",
-                        "杜甫",
-                        "旅夜书怀",
-                        "细草"
-                ]
-        },
-        {
-                "id": "q_mk_118",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "千山鸟飞绝，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "万径人踪灭",
-                "explanation": "出自柳宗元《江雪》，描写大雪天山的寂静景象。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "柳宗元",
-                        "江雪",
-                        "冬天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_118",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "日暮汉宫传蜡烛，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "轻烟散入五侯家",
-                "explanation": "出自韩翃《寒食》，讽刺达官贵人的特权。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "韩翃",
-                        "寒食",
-                        "讽刺"
-                ]
-        },
-        {
-                "id": "q_chu1_118",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "吴楚东南坼，__________。（杜甫《登岳阳楼》）",
-                "options": [],
-                "answer": "乾坤日夜浮",
-                "explanation": "出自杜甫《登岳阳楼》，描写洞庭。",
-                "poemId": "sup_186",
-                "knowledgePoints": [
-                        "洞庭",
-                        "杜甫",
-                        "登岳阳楼",
-                        "日月"
-                ]
         },
         {
                 "id": "q_zk_118",
@@ -9217,43 +6650,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_118",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "星垂平野阔，__________。（杜甫《旅夜书怀》）",
-                "options": [],
-                "answer": "月涌大江流",
-                "explanation": "出自杜甫《旅夜书怀》，描写大江。",
-                "poemId": "sup_321",
-                "knowledgePoints": [
-                        "大江",
-                        "杜甫",
-                        "旅夜书怀",
-                        "星垂"
-                ]
-        },
-        {
-                "id": "q_mk_119",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "__________，独钓寒江雪。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "孤舟蓑笠翁",
-                "explanation": "出自柳宗元《江雪》，描写渔翁独自在雪天垂钓的情景。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "柳宗元",
-                        "江雪",
-                        "孤独"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_119",
                 "type": "fill",
                 "grade": "fbc",
@@ -9272,81 +6668,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_119",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天街小雨润如酥，__________。（韩愈《早春呈水部张十八员外》）",
-                "options": [],
-                "answer": "草色遥看近却无",
-                "explanation": "出自韩愈《早春呈水部张十八员外》，描写春草。",
-                "poemId": "sup_221",
-                "knowledgePoints": [
-                        "春草",
-                        "韩愈",
-                        "早春呈水部张十八员外",
-                        "小雨"
-                ]
-        },
-        {
-                "id": "q_zk_119",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "先天下之忧而忧，__________。（范仲淹《岳阳楼记》）",
-                "options": [],
-                "answer": "后天下之乐而乐",
-                "explanation": "出自范仲淹《岳阳楼记》，描写忧乐。",
-                "poemId": "sup_132",
-                "knowledgePoints": [
-                        "忧乐",
-                        "范仲淹",
-                        "岳阳楼记",
-                        "先后"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_119",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "飘飘何所似？__________。（杜甫《旅夜书怀》）",
-                "options": [],
-                "answer": "天地一沙鸥",
-                "explanation": "出自杜甫《旅夜书怀》，描写沙鸥。",
-                "poemId": "sup_321",
-                "knowledgePoints": [
-                        "沙鸥",
-                        "杜甫",
-                        "旅夜书怀",
-                        "天地"
-                ]
-        },
-        {
-                "id": "q_mk_120",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 1,
-                "question": "白日依山尽，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "黄河入海流",
-                "explanation": "出自王之涣《登鹳雀楼》，描写夕阳西下、黄河奔流入海的壮阔景象。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "写景"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_120",
                 "type": "fill",
                 "grade": "fbc",
@@ -9362,24 +6683,6 @@ const QUESTIONS_DATA = [
                         "刘方平",
                         "月夜",
                         "夜景"
-                ]
-        },
-        {
-                "id": "q_chu1_120",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "最是一年春好处，__________。（韩愈《早春呈水部张十八员外》）",
-                "options": [],
-                "answer": "绝胜烟柳满皇都",
-                "explanation": "出自韩愈《早春呈水部张十八员外》，描写春景。",
-                "poemId": "sup_221",
-                "knowledgePoints": [
-                        "春景",
-                        "韩愈",
-                        "早春呈水部张十八员外",
-                        "烟柳"
                 ]
         },
         {
@@ -9402,44 +6705,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_120",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "国破山河在，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "城春草木深",
-                "explanation": "出自杜甫《春望》，描写国破。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "国破",
-                        "杜甫",
-                        "春望",
-                        "山河"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_121",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 1,
-                "question": "欲穷千里目，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "更上一层楼",
-                "explanation": "出自王之涣《登鹳雀楼》，表达了积极向上的精神。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "哲理"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_121",
                 "type": "fill",
                 "grade": "fbc",
@@ -9456,25 +6721,6 @@ const QUESTIONS_DATA = [
                         "夜雨寄北",
                         "思念"
                 ]
-        },
-        {
-                "id": "q_chu1_121",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "荡胸生曾云，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "决眦入归鸟",
-                "explanation": "出自杜甫《望岳》，描写云。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "云",
-                        "杜甫",
-                        "望岳",
-                        "归鸟"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_121",
@@ -9496,43 +6742,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_121",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "感时花溅泪，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "恨别鸟惊心",
-                "explanation": "出自杜甫《春望》，描写感时。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "感时",
-                        "杜甫",
-                        "春望",
-                        "花溅"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_122",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "__________，红掌拨清波。（骆宾王《咏鹅》）",
-                "options": [],
-                "answer": "白毛浮绿水",
-                "explanation": "出自骆宾王《咏鹅》，描写白鹅在水中游动的优美姿态。",
-                "poemId": "sup_044",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "骆宾王",
-                        "咏鹅",
-                        "动物"
-                ]
-        },
-        {
                 "id": "q_fbc_122",
                 "type": "fill",
                 "grade": "fbc",
@@ -9542,100 +6751,6 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "客行悲故乡",
                 "explanation": "出自温庭筠《商山早行》，描写清晨出发的情景。",
-                "poemId": "sup_299",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "温庭筠",
-                        "商山早行",
-                        "羁旅"
-                ]
-        },
-        {
-                "id": "q_chu1_122",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白头搔更短，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "浑欲不胜簪",
-                "explanation": "出自杜甫《春望》，描写衰老。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "衰老",
-                        "杜甫",
-                        "春望",
-                        "白头"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_122",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "登斯楼也，则有心旷神怡，__________，把酒临风。（范仲淹《岳阳楼记》）",
-                "options": [],
-                "answer": "宠辱偕忘",
-                "explanation": "出自范仲淹《岳阳楼记》，描写心情。",
-                "poemId": "sup_132",
-                "knowledgePoints": [
-                        "心情",
-                        "范仲淹",
-                        "岳阳楼记",
-                        "宠辱"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_122",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烽火连三月，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "家书抵万金",
-                "explanation": "出自杜甫《春望》，描写烽火。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "烽火",
-                        "杜甫",
-                        "春望",
-                        "万金"
-                ]
-        },
-        {
-                "id": "q_mk_123",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 1,
-                "question": "蓬头稚子学垂纶，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "侧坐莓苔草映身",
-                "explanation": "出自胡令能《小儿垂钓》，描写儿童认真学钓鱼的可爱模样。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "胡令能",
-                        "小儿垂钓",
-                        "儿童"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_123",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "鸡声茅店月，__________。（温庭筠《商山早行》）",
-                "options": [],
-                "answer": "人迹板桥霜",
-                "explanation": "出自温庭筠《商山早行》，描写清晨出行的景色。",
                 "poemId": "sup_299",
                 "knowledgePoints": [
                         "古诗默写",
@@ -9663,100 +6778,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_123",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "登斯楼也，则有心旷神怡，__________，把酒临风。（范仲淹《岳阳楼记》）",
-                "options": [],
-                "answer": "宠辱偕忘",
-                "explanation": "出自范仲淹《岳阳楼记》，描写忘怀。",
-                "poemId": "sup_132",
-                "knowledgePoints": [
-                        "忘怀",
-                        "范仲淹",
-                        "岳阳楼记",
-                        "偕忘"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_123",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白头搔更短，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "浑欲不胜簪",
-                "explanation": "出自杜甫《春望》，描写白头。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "白头",
-                        "杜甫",
-                        "春望",
-                        "更短"
-                ]
-        },
-        {
-                "id": "q_mk_124",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "小荷才露尖尖角，__________。（杨万里《小池》）",
-                "options": [],
-                "answer": "早有蜻蜓立上头",
-                "explanation": "出自杨万里《小池》，描写初夏小池边的生机勃勃景象。",
-                "poemId": "sup_079",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杨万里",
-                        "小池",
-                        "夏天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_124",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "槲叶落山路，__________。（温庭筠《商山早行》）",
-                "options": [],
-                "answer": "枳花明驿墙",
-                "explanation": "出自温庭筠《商山早行》，描写清晨出行的景色。",
-                "poemId": "sup_299",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "温庭筠",
-                        "商山早行",
-                        "羁旅"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_124",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫道谗言如浪深，__________。（韩愈《浪淘沙》）",
-                "options": [],
-                "answer": "莫言迁客似沙沉",
-                "explanation": "出自韩愈《浪淘沙》，描写谗言。",
-                "poemId": "sup_poetry_new_054",
-                "knowledgePoints": [
-                        "谗言",
-                        "韩愈",
-                        "浪淘沙",
-                        "迁客"
-                ]
-        },
-        {
                 "id": "q_zk_124",
                 "type": "fill",
                 "grade": "zk",
@@ -9776,43 +6797,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_124",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黑云压城城欲摧，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "甲光向日金鳞开",
-                "explanation": "出自李贺《雁门太守行》，描写黑云。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "黑云",
-                        "李贺",
-                        "雁门太守行",
-                        "压城"
-                ]
-        },
-        {
-                "id": "q_mk_125",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "泉眼无声惜细流，__________。（杨万里《小池》）",
-                "options": [],
-                "answer": "树阴照水爱晴柔",
-                "explanation": "出自杨万里《小池》，描写小池边树荫倒映在水中的柔美景象。",
-                "poemId": "sup_079",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杨万里",
-                        "小池",
-                        "写景"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_125",
                 "type": "fill",
                 "grade": "fbc",
@@ -9829,25 +6813,6 @@ const QUESTIONS_DATA = [
                         "商山早行",
                         "思乡"
                 ]
-        },
-        {
-                "id": "q_chu1_125",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今夜鄜州月，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "闺中只独看",
-                "explanation": "出自杜甫《月夜》，描写月夜。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "月夜",
-                        "杜甫",
-                        "月夜",
-                        "闺中"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_125",
@@ -9869,44 +6834,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_125",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "角声满天秋色里，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "塞上燕脂凝夜紫",
-                "explanation": "出自李贺《雁门太守行》，描写角声。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "角声",
-                        "李贺",
-                        "雁门太守行",
-                        "秋色"
-                ]
-        },
-        {
-                "id": "q_mk_126",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "毕竟西湖六月中，__________。（杨万里《晓出净慈寺送林子方》）",
-                "options": [],
-                "answer": "风光不与四时同",
-                "explanation": "出自杨万里《晓出净慈寺送林子方》，突出西湖六月景色的独特。",
-                "poemId": "sup_078",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杨万里",
-                        "西湖",
-                        "夏天"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_126",
                 "type": "fill",
                 "grade": "fbc",
@@ -9922,63 +6849,6 @@ const QUESTIONS_DATA = [
                         "孟浩然",
                         "夜归鹿门歌",
                         "隐居"
-                ]
-        },
-        {
-                "id": "q_chu1_126",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "香雾云鬟湿，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "清辉玉臂寒",
-                "explanation": "出自杜甫《月夜》，描写云鬟。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "云鬟",
-                        "杜甫",
-                        "月夜",
-                        "玉臂"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_126",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "若夫日出而林霏开，__________，山间之朝暮也。（欧阳修《醉翁亭记》）",
-                "options": [],
-                "answer": "云归而岩穴暝",
-                "explanation": "出自欧阳修《醉翁亭记》，描写林霏。",
-                "poemId": "sup_117",
-                "knowledgePoints": [
-                        "林霏",
-                        "欧阳修",
-                        "醉翁亭记",
-                        "日出"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_126",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "报君黄金台上意，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "提携玉龙为君死",
-                "explanation": "出自李贺《雁门太守行》，描写黄金。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "黄金",
-                        "李贺",
-                        "雁门太守行",
-                        "玉龙"
                 ]
         },
         {
@@ -10015,24 +6885,6 @@ const QUESTIONS_DATA = [
                         "张若虚",
                         "春江花月夜",
                         "夜景"
-                ]
-        },
-        {
-                "id": "q_chu1_127",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "剑外忽传收蓟北，__________。（杜甫《闻官军收河南河北》）",
-                "options": [],
-                "answer": "初闻涕泪满衣裳",
-                "explanation": "出自杜甫《闻官军收河南河北》，描写蓟北。",
-                "poemId": "sup_383",
-                "knowledgePoints": [
-                        "蓟北",
-                        "杜甫",
-                        "闻官军收河南河北",
-                        "剑外"
                 ]
         },
         {
@@ -10109,24 +6961,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_128",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "却看妻子愁何在，__________。（杜甫《闻官军收河南河北》）",
-                "options": [],
-                "answer": "漫卷诗书喜欲狂",
-                "explanation": "出自杜甫《闻官军收河南河北》，描写妻子。",
-                "poemId": "sup_383",
-                "knowledgePoints": [
-                        "妻子",
-                        "杜甫",
-                        "闻官军收河南河北",
-                        "愁何在"
-                ]
-        },
-        {
                 "id": "q_zk_128",
                 "type": "fill",
                 "grade": "zk",
@@ -10200,24 +7034,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_129",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白日放歌须纵酒，__________。（杜甫《闻官军收河南河北》）",
-                "options": [],
-                "answer": "青春作伴好还乡",
-                "explanation": "出自杜甫《闻官军收河南河北》，描写还乡。",
-                "poemId": "sup_383",
-                "knowledgePoints": [
-                        "还乡",
-                        "杜甫",
-                        "闻官军收河南河北",
-                        "放歌"
-                ]
-        },
-        {
                 "id": "q_zk_129",
                 "type": "fill",
                 "grade": "zk",
@@ -10255,25 +7071,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_130",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "月落乌啼霜满天，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "江枫渔火对愁眠",
-                "explanation": "出自张继《枫桥夜泊》，描写深夜江边的愁绪。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "张继",
-                        "枫桥夜泊",
-                        "羁旅"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_130",
                 "type": "fill",
                 "grade": "fbc",
@@ -10292,44 +7089,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_130",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "即从巴峡穿巫峡，__________。（杜甫《闻官军收河南河北》）",
-                "options": [],
-                "answer": "便下襄阳向洛阳",
-                "explanation": "出自杜甫《闻官军收河南河北》，描写襄阳。",
-                "poemId": "sup_383",
-                "knowledgePoints": [
-                        "襄阳",
-                        "杜甫",
-                        "闻官军收河南河北",
-                        "巴峡"
-                ]
-        },
-        {
-                "id": "q_zk_130",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "醉翁之意不在酒，__________。（欧阳修《醉翁亭记》）",
-                "options": [],
-                "answer": "在乎山水之间也",
-                "explanation": "出自欧阳修《醉翁亭记》，描写山水。",
-                "poemId": "sup_117",
-                "knowledgePoints": [
-                        "山水",
-                        "欧阳修",
-                        "醉翁亭记",
-                        "醉翁"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
                 "id": "q_chu2_130",
                 "type": "fill",
                 "grade": "chu2",
@@ -10345,62 +7104,6 @@ const QUESTIONS_DATA = [
                         "刘禹锡",
                         "酬乐天扬州初逢席上见赠",
                         "精神"
-                ]
-        },
-        {
-                "id": "q_mk_131",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "清明时节雨纷纷，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "路上行人欲断魂",
-                "explanation": "出自杜牧《清明》，描写清明时节的凄清景象和行人的愁苦心情。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "清明",
-                        "节日"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_131",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "空山新雨后，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "天气晚来秋",
-                "explanation": "出自王维《山居秋暝》，描写秋夜山居的清新气息。",
-                "poemId": "sup_108",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "山居秋暝",
-                        "秋天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_131",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "细草微风岸，__________。（杜甫《旅夜书怀》）",
-                "options": [],
-                "answer": "危樯独夜舟",
-                "explanation": "出自杜甫《旅夜书怀》，描写微风。",
-                "poemId": "sup_321",
-                "knowledgePoints": [
-                        "微风",
-                        "杜甫",
-                        "旅夜书怀",
-                        "细草"
                 ]
         },
         {
@@ -10423,80 +7126,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_131",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "东风不与周郎便，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "铜雀春深锁二乔",
-                "explanation": "出自杜牧《赤壁》，描写周郎。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "周郎",
-                        "杜牧",
-                        "赤壁",
-                        "铜雀"
-                ]
-        },
-        {
-                "id": "q_mk_132",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "借问酒家何处有，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "牧童遥指杏花村",
-                "explanation": "出自杜牧《清明》，描写诗人找酒解愁的情景。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "清明",
-                        "节日"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_132",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "明月松间照，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "清泉石上流",
-                "explanation": "出自王维《山居秋暝》，描写秋夜山居的宁静景色。",
-                "poemId": "sup_108",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "山居秋暝",
-                        "夜景"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_132",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "星垂平野阔，__________。（杜甫《旅夜书怀》）",
-                "options": [],
-                "answer": "月涌大江流",
-                "explanation": "出自杜甫《旅夜书怀》，描写星垂。",
-                "poemId": "sup_321",
-                "knowledgePoints": [
-                        "星垂",
-                        "杜甫",
-                        "旅夜书怀",
-                        "平野"
-                ]
-        },
-        {
                 "id": "q_zk_132",
                 "type": "fill",
                 "grade": "zk",
@@ -10514,24 +7143,6 @@ const QUESTIONS_DATA = [
                         "倾颓"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu2_132",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "折戟沉沙铁未销，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "自将磨洗认前朝",
-                "explanation": "出自杜牧《赤壁》，描写折戟。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "折戟",
-                        "杜牧",
-                        "赤壁",
-                        "前朝"
-                ]
         },
         {
                 "id": "q_mk_133",
@@ -10552,44 +7163,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_133",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "竹喧归浣女，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "莲动下渔舟",
-                "explanation": "出自王维《山居秋暝》，描写山村生活的和谐美好。",
-                "poemId": "sup_313",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "山居秋暝",
-                        "田园"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_133",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "飘飘何所似？__________。（杜甫《旅夜书怀》）",
-                "options": [],
-                "answer": "天地一沙鸥",
-                "explanation": "出自杜甫《旅夜书怀》，描写沙鸥。",
-                "poemId": "sup_321",
-                "knowledgePoints": [
-                        "沙鸥",
-                        "杜甫",
-                        "旅夜书怀",
-                        "飘飘"
-                ]
-        },
-        {
                 "id": "q_zk_133",
                 "poetryType": false,
                 "type": "fill",
@@ -10606,24 +7179,6 @@ const QUESTIONS_DATA = [
                         "诸葛亮",
                         "出师表",
                         "益州"
-                ]
-        },
-        {
-                "id": "q_chu2_133",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烟笼寒水月笼沙，__________。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "夜泊秦淮近酒家",
-                "explanation": "出自杜牧《泊秦淮》，描写夜泊。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "夜泊",
-                        "杜牧",
-                        "泊秦淮",
-                        "近酒"
                 ]
         },
         {
@@ -10661,25 +7216,6 @@ const QUESTIONS_DATA = [
                         "山居秋暝",
                         "隐居"
                 ]
-        },
-        {
-                "id": "q_chu1_134",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "细草微风岸，__________。（杜甫《旅夜书怀》）",
-                "options": [],
-                "answer": "危樯独夜舟",
-                "explanation": "出自杜甫《旅夜书怀》，描写危樯。",
-                "poemId": "sup_321",
-                "knowledgePoints": [
-                        "危樯",
-                        "杜甫",
-                        "旅夜书怀",
-                        "独夜"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_134",
@@ -10734,43 +7270,6 @@ const QUESTIONS_DATA = [
                         "杜牧",
                         "山行",
                         "秋天"
-                ]
-        },
-        {
-                "id": "q_fbc_135",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "大漠孤烟直，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "长河落日圆",
-                "explanation": "出自王维《使至塞上》，描写边塞奇特壮美的景象。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "使至塞上",
-                        "边塞"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_135",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "单车欲问边，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "属国过居延",
-                "explanation": "出自王维《使至塞上》，描写单车。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "单车",
-                        "王维",
-                        "使至塞上",
-                        "问边"
                 ]
         },
         {
@@ -10830,61 +7329,6 @@ const QUESTIONS_DATA = [
                 "deleted": true
         },
         {
-                "id": "q_fbc_136",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "单车欲问边，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "属国过居延",
-                "explanation": "出自王维《使至塞上》，描写诗人出使边塞的路途。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "使至塞上",
-                        "边塞"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_136",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "征蓬出汉塞，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "归雁入胡天",
-                "explanation": "出自王维《使至塞上》，描写征蓬。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "征蓬",
-                        "王维",
-                        "使至塞上",
-                        "汉塞"
-                ]
-        },
-        {
-                "id": "q_zk_136",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "塞下秋来风景异，__________。（范仲淹《渔家傲》）",
-                "options": [],
-                "answer": "衡阳雁去无留意",
-                "explanation": "出自范仲淹《渔家傲》，描写塞下。",
-                "poemId": "sup_062",
-                "knowledgePoints": [
-                        "塞下",
-                        "范仲淹",
-                        "渔家傲",
-                        "风景"
-                ]
-        },
-        {
                 "id": "q_chu2_136",
                 "type": "fill",
                 "grade": "chu2",
@@ -10936,24 +7380,6 @@ const QUESTIONS_DATA = [
                         "王维",
                         "使至塞上",
                         "抒情"
-                ]
-        },
-        {
-                "id": "q_chu1_137",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "大漠孤烟直，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "长河落日圆",
-                "explanation": "出自王维《使至塞上》，描写孤烟。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "孤烟",
-                        "王维",
-                        "使至塞上",
-                        "大漠"
                 ]
         },
         {
@@ -11029,60 +7455,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_138",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山随平野尽，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "江入大荒流",
-                "explanation": "出自李白《渡荆门送别》，描写山随。",
-                "poemId": "sup_120",
-                "knowledgePoints": [
-                        "山",
-                        "李白",
-                        "渡荆门送别",
-                        "平野"
-                ]
-        },
-        {
-                "id": "q_zk_138",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "浊酒一杯家万里，__________。（范仲淹《渔家傲》）",
-                "options": [],
-                "answer": "燕然未勒归无计",
-                "explanation": "出自范仲淹《渔家傲》，描写浊酒。",
-                "poemId": "sup_041",
-                "knowledgePoints": [
-                        "浊酒",
-                        "范仲淹",
-                        "渔家傲",
-                        "家万里"
-                ]
-        },
-        {
-                "id": "q_chu2_138",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "万里赴戎机，__________。（《木兰诗》）",
-                "options": [],
-                "answer": "关山度若飞",
-                "explanation": "出自无名氏《木兰诗》，描写万里。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "万里",
-                        "无名氏",
-                        "木兰诗",
-                        "戎机"
-                ]
-        },
-        {
                 "id": "q_mk_139",
                 "type": "fill",
                 "grade": "mk",
@@ -11116,24 +7488,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "渡荆门送别",
                         "送别"
-                ]
-        },
-        {
-                "id": "q_chu1_139",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月下飞天镜，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "云生结海楼",
-                "explanation": "出自李白《渡荆门送别》，描写月下。",
-                "poemId": "sup_300",
-                "knowledgePoints": [
-                        "月下",
-                        "李白",
-                        "渡荆门送别",
-                        "飞天"
                 ]
         },
         {
@@ -11209,60 +7563,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_140",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "仍怜故乡水，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "万里送行舟",
-                "explanation": "出自李白《渡荆门送别》，描写故乡。",
-                "poemId": "sup_300",
-                "knowledgePoints": [
-                        "故乡",
-                        "李白",
-                        "渡荆门送别",
-                        "送行"
-                ]
-        },
-        {
-                "id": "q_zk_140",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫笑农家腊酒浑，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "丰年留客足鸡豚",
-                "explanation": "出自陆游《游山西村》，描写农家。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "农家",
-                        "陆游",
-                        "游山西村",
-                        "腊酒"
-                ]
-        },
-        {
-                "id": "q_chu2_140",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "风急天高猿啸哀，__________。（杜甫《登高》）",
-                "options": [],
-                "answer": "渚清沙白鸟飞回",
-                "explanation": "出自杜甫《登高》，描写风急。",
-                "poemId": "sup_387",
-                "knowledgePoints": [
-                        "风急",
-                        "杜甫",
-                        "登高",
-                        "猿啸"
-                ]
-        },
-        {
                 "id": "q_mk_141",
                 "type": "fill",
                 "grade": "mk",
@@ -11300,151 +7600,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_141",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "更深月色半人家，__________。（刘方平《月夜》）",
-                "options": [],
-                "answer": "北斗阑干南斗斜",
-                "explanation": "出自刘方平《月夜》，描写月色。",
-                "poemId": "sup_345",
-                "knowledgePoints": [
-                        "月色",
-                        "刘方平",
-                        "月夜",
-                        "更深"
-                ]
-        },
-        {
-                "id": "q_zk_141",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山重水复疑无路，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "柳暗花明又一村",
-                "explanation": "出自陆游《游山西村》，描写山重。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "山重",
-                        "陆游",
-                        "游山西村",
-                        "疑无"
-                ]
-        },
-        {
-                "id": "q_chu2_141",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "无边落木萧萧下，__________。（杜甫《登高》）",
-                "options": [],
-                "answer": "不尽长江滚滚来",
-                "explanation": "出自杜甫《登高》，描写落木。",
-                "poemId": "sup_387",
-                "knowledgePoints": [
-                        "落木",
-                        "杜甫",
-                        "登高",
-                        "萧萧"
-                ]
-        },
-        {
-                "id": "q_mk_142",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "飞流直下三千尺，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "疑是银河落九天",
-                "explanation": "出自李白《望庐山瀑布》，用夸张手法描写瀑布的雄伟壮观。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "望庐山瀑布",
-                        "夸张"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_142",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "移舟泊烟渚，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "日暮客愁新",
-                "explanation": "出自孟浩然《宿建德江》，描写傍晚泊船时的愁绪。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "孟浩然",
-                        "宿建德江",
-                        "羁旅"
-                ]
-        },
-        {
-                "id": "q_chu1_142",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今夜偏知春气暖，__________。（刘方平《月夜》）",
-                "options": [],
-                "answer": "虫声新透绿窗纱",
-                "explanation": "出自刘方平《月夜》，描写春气。",
-                "poemId": "sup_345",
-                "knowledgePoints": [
-                        "春气",
-                        "刘方平",
-                        "月夜",
-                        "虫声"
-                ]
-        },
-        {
-                "id": "q_zk_142",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "箫鼓追随春社近，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "衣冠简朴古风存",
-                "explanation": "出自陆游《游山西村》，描写箫鼓。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "箫鼓",
-                        "陆游",
-                        "游山西村",
-                        "春社"
-                ]
-        },
-        {
-                "id": "q_chu2_142",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "万里悲秋常作客，__________。（杜甫《登高》）",
-                "options": [],
-                "answer": "百年多病独登台",
-                "explanation": "出自杜甫《登高》，描写悲秋。",
-                "poemId": "sup_387",
-                "knowledgePoints": [
-                        "悲秋",
-                        "杜甫",
-                        "登高",
-                        "作客"
-                ]
-        },
-        {
                 "id": "q_mk_143",
                 "type": "fill",
                 "grade": "mk",
@@ -11460,78 +7615,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "望天门山",
                         "写景"
-                ]
-        },
-        {
-                "id": "q_fbc_143",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "野旷天低树，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "江清月近人",
-                "explanation": "出自孟浩然《宿建德江》，描写江边夜晚的清幽景色。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "孟浩然",
-                        "宿建德江",
-                        "夜景"
-                ]
-        },
-        {
-                "id": "q_chu1_143",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "回乐烽前沙似雪，__________。（李益《夜上受降城闻笛》）",
-                "options": [],
-                "answer": "受降城外月如霜",
-                "explanation": "出自李益《夜上受降城闻笛》，描写回乐。",
-                "poemId": "sup_340",
-                "knowledgePoints": [
-                        "回乐",
-                        "李益",
-                        "夜上受降城闻笛",
-                        "似雪"
-                ]
-        },
-        {
-                "id": "q_zk_143",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "从今若许闲乘月，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "拄杖无时夜叩门",
-                "explanation": "出自陆游《游山西村》，描写闲乘。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "闲乘",
-                        "陆游",
-                        "游山西村",
-                        "拄杖"
-                ]
-        },
-        {
-                "id": "q_chu2_143",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "艰难苦恨繁霜鬓，__________。（杜甫《登高》）",
-                "options": [],
-                "answer": "潦倒新停浊酒杯",
-                "explanation": "出自杜甫《登高》，描写苦恨。",
-                "poemId": "sup_387",
-                "knowledgePoints": [
-                        "苦恨",
-                        "杜甫",
-                        "登高",
-                        "霜鬓"
                 ]
         },
         {
@@ -11571,42 +7654,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_144",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不知何处吹芦管，__________。（李益《夜上受降城闻笛》）",
-                "options": [],
-                "answer": "一夜征人尽望乡",
-                "explanation": "出自李益《夜上受降城闻笛》，描写芦管。",
-                "poemId": "sup_340",
-                "knowledgePoints": [
-                        "芦管",
-                        "李益",
-                        "夜上受降城闻笛",
-                        "征人"
-                ]
-        },
-        {
-                "id": "q_zk_144",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月几时有？__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "把酒问青天",
-                "explanation": "出自苏轼《水调歌头》，描写明月。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "明月",
-                        "苏轼",
-                        "水调歌头",
-                        "把酒"
-                ]
-        },
-        {
                 "id": "q_chu2_144",
                 "type": "fill",
                 "grade": "chu2",
@@ -11623,43 +7670,6 @@ const QUESTIONS_DATA = [
                         "春望",
                         "山河"
                 ]
-        },
-        {
-                "id": "q_mk_145",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "小时不识月，呼作白玉盘。又疑瑶台镜，__________。（李白《古朗月行》）",
-                "options": [],
-                "answer": "飞在青云端",
-                "explanation": "出自李白《古朗月行》，描写儿童对月亮的天真想象。",
-                "poemId": "sup_051",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "古朗月行",
-                        "儿童"
-                ]
-        },
-        {
-                "id": "q_fbc_145",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "独在异乡为异客，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "每逢佳节倍思亲",
-                "explanation": "出自王维《九月九日忆山东兄弟》，表达重阳节对亲人的思念。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "思乡",
-                        "重阳节"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu1_145",
@@ -11698,25 +7708,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_145",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "感时花溅泪，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "恨别鸟惊心",
-                "explanation": "出自杜甫《春望》，描写感时。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "感时",
-                        "杜甫",
-                        "春望",
-                        "花溅"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_146",
                 "type": "fill",
                 "grade": "mk",
@@ -11732,43 +7723,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "夜宿山寺",
                         "夸张"
-                ]
-        },
-        {
-                "id": "q_fbc_146",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "遥知兄弟登高处，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "遍插茱萸少一人",
-                "explanation": "出自王维《九月九日忆山东兄弟》，表达诗人想象兄弟们重阳登高的情景。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "重阳节",
-                        "思乡"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_146",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "东边日出西边雨，__________。（刘禹锡《竹枝词》）",
-                "options": [],
-                "answer": "道是无晴还有晴",
-                "explanation": "出自刘禹锡《竹枝词》，描写日出。",
-                "poemId": "sup_088",
-                "knowledgePoints": [
-                        "日出",
-                        "刘禹锡",
-                        "竹枝词",
-                        "有晴"
                 ]
         },
         {
@@ -11790,25 +7744,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_146",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烽火连三月，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "家书抵万金",
-                "explanation": "出自杜甫《春望》，描写烽火。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "烽火",
-                        "杜甫",
-                        "春望",
-                        "万金"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_147",
                 "type": "fill",
                 "grade": "mk",
@@ -11824,24 +7759,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "夜宿山寺",
                         "夸张"
-                ]
-        },
-        {
-                "id": "q_fbc_147",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "乱花渐欲迷人眼，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "浅草才能没马蹄",
-                "explanation": "出自白居易《钱塘湖春行》，描写春天西湖边花草茂盛的景象。",
-                "poemId": "sup_131",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "白居易",
-                        "钱塘湖春行",
-                        "春天"
                 ]
         },
         {
@@ -11863,80 +7780,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_147",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "起舞弄清影，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "何似在人间",
-                "explanation": "出自苏轼《水调歌头》，描写弄影。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "弄影",
-                        "苏轼",
-                        "水调歌头",
-                        "清影"
-                ]
-        },
-        {
-                "id": "q_chu2_147",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白头搔更短，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "浑欲不胜簪",
-                "explanation": "出自杜甫《春望》，描写白头。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "白头",
-                        "杜甫",
-                        "春望",
-                        "更短"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_148",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "两岸青山相对出，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "孤帆一片日边来",
-                "explanation": "出自李白《望天门山》，描写一只小船从日边驶来的景象。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "望天门山",
-                        "送别"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_148",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "最爱湖东行不足，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "绿杨阴里白沙堤",
-                "explanation": "出自白居易《钱塘湖春行》，表达诗人对西湖的热爱。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "白居易",
-                        "钱塘湖春行",
-                        "春天"
-                ]
-        },
-        {
                 "id": "q_chu1_148",
                 "type": "fill",
                 "grade": "chu1",
@@ -11953,136 +7796,6 @@ const QUESTIONS_DATA = [
                         "次北固山下",
                         "青山"
                 ]
-        },
-        {
-                "id": "q_zk_148",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "转朱阁，低绮户，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "照无眠",
-                "explanation": "出自苏轼《水调歌头》，描写朱阁。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "朱阁",
-                        "苏轼",
-                        "水调歌头",
-                        "无眠"
-                ]
-        },
-        {
-                "id": "q_chu2_148",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "巴山楚水凄凉地，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "二十三年弃置身",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写凄凉。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "凄凉",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "二十"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_149",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "蓬头稚子学垂纶，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "侧坐莓苔草映身",
-                "explanation": "出自胡令能《小儿垂钓》，描写儿童认真学钓鱼的可爱模样。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "胡令能",
-                        "小儿垂钓",
-                        "儿童"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_149",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "几处早莺争暖树，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "谁家新燕啄春泥",
-                "explanation": "出自白居易《钱塘湖春行》，描写春天生机勃勃的景象。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "白居易",
-                        "钱塘湖春行",
-                        "春天"
-                ]
-        },
-        {
-                "id": "q_chu1_149",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海日生残夜，__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "江春入旧年",
-                "explanation": "出自王湾《次北固山下》，描写海日。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "海日",
-                        "王湾",
-                        "次北固山下",
-                        "残夜"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_149",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "人有悲欢离合，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "月有阴晴圆缺",
-                "explanation": "出自苏轼《水调歌头》，描写悲欢。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "悲欢",
-                        "苏轼",
-                        "水调歌头",
-                        "圆缺"
-                ]
-        },
-        {
-                "id": "q_chu2_149",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "怀旧空吟闻笛赋，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "到乡翻似烂柯人",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写闻笛。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "闻笛",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "烂柯"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_150",
@@ -12121,81 +7834,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_150",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海日生残夜，__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "江春入旧年",
-                "explanation": "出自王湾《次北固山下》，描写江春。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "江春",
-                        "王湾",
-                        "次北固山下",
-                        "旧年"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_150",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "但愿人长久，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "千里共婵娟",
-                "explanation": "出自苏轼《水调歌头》，描写人长久。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "长久",
-                        "苏轼",
-                        "水调歌头",
-                        "婵娟"
-                ]
-        },
-        {
-                "id": "q_chu2_150",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "沉舟侧畔千帆过，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "病树前头万木春",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写沉舟。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "沉舟",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "千帆"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_151",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "敕勒川，阴山下。天似穹庐，__________。（《敕勒歌》）",
-                "options": [],
-                "answer": "笼盖四野",
-                "explanation": "出自北朝民歌《敕勒歌》，描写草原天空辽阔的景象。",
-                "poemId": "sup_158",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "敕勒歌",
-                        "北朝民歌",
-                        "草原"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_151",
                 "type": "fill",
                 "grade": "fbc",
@@ -12211,24 +7849,6 @@ const QUESTIONS_DATA = [
                         "李贺",
                         "雁门太守行",
                         "边塞"
-                ]
-        },
-        {
-                "id": "q_chu1_151",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "乡书何处达？__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "归雁洛阳边",
-                "explanation": "出自王湾《次北固山下》，描写乡书。",
-                "poemId": "sup_314",
-                "knowledgePoints": [
-                        "乡书",
-                        "王湾",
-                        "次北固山下",
-                        "归雁"
                 ]
         },
         {
@@ -12249,25 +7869,6 @@ const QUESTIONS_DATA = [
                         "清风"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu2_151",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今日听君歌一曲，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "暂凭杯酒长精神",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写听君。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "听君",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "精神"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_152",
@@ -12306,25 +7907,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_152",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "枯藤老树昏鸦，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "小桥流水人家",
-                "explanation": "出自马致远《天净沙·秋思》，描写枯藤。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "枯藤",
-                        "马致远",
-                        "天净沙·秋思",
-                        "昏鸦"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_152",
                 "poetryType": false,
                 "type": "fill",
@@ -12342,25 +7924,6 @@ const QUESTIONS_DATA = [
                         "赤壁赋",
                         "明月"
                 ]
-        },
-        {
-                "id": "q_chu2_152",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烟笼寒水月笼沙，__________。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "夜泊秦淮近酒家",
-                "explanation": "出自杜牧《泊秦淮》，描写烟笼。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "烟笼",
-                        "杜牧",
-                        "泊秦淮",
-                        "寒水"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_153",
@@ -12437,24 +8000,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_153",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "商女不知亡国恨，__________。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "隔江犹唱后庭花",
-                "explanation": "出自杜牧《泊秦淮》，描写商女。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "商女",
-                        "杜牧",
-                        "泊秦淮",
-                        "后庭"
-                ]
-        },
-        {
                 "id": "q_mk_154",
                 "type": "fill",
                 "grade": "mk",
@@ -12528,43 +8073,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_154",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "折戟沉沙铁未销，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "自将磨洗认前朝",
-                "explanation": "出自杜牧《赤壁》，描写折戟。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "折戟",
-                        "杜牧",
-                        "赤壁",
-                        "沉沙"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_155",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "一去二三里，__________。（邵雍《山村咏怀》）",
-                "options": [],
-                "answer": "烟村四五家",
-                "explanation": "出自邵雍《山村咏怀》，描写山村人家的宁静景象。",
-                "poemId": "sup_172",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "邵雍",
-                        "山村咏怀",
-                        "田园"
-                ]
-        },
-        {
                 "id": "q_fbc_155",
                 "type": "fill",
                 "grade": "fbc",
@@ -12618,25 +8126,6 @@ const QUESTIONS_DATA = [
                         "赤壁赋",
                         "万顷"
                 ]
-        },
-        {
-                "id": "q_chu2_155",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "东风不与周郎便，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "铜雀春深锁二乔",
-                "explanation": "出自杜牧《赤壁》，描写东风。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "东风",
-                        "杜牧",
-                        "赤壁",
-                        "周郎"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_156",
@@ -12709,24 +8198,6 @@ const QUESTIONS_DATA = [
                         "苏轼",
                         "赤壁赋",
                         "冯虚"
-                ]
-        },
-        {
-                "id": "q_chu2_156",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "清明时节雨纷纷，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "路上行人欲断魂",
-                "explanation": "出自杜牧《清明》，描写清明。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "清明",
-                        "杜牧",
-                        "清明",
-                        "断魂"
                 ]
         },
         {
@@ -12803,24 +8274,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_157",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "借问酒家何处有，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "牧童遥指杏花村",
-                "explanation": "出自杜牧《清明》，描写借问。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "借问",
-                        "杜牧",
-                        "清明",
-                        "杏花"
-                ]
-        },
-        {
                 "id": "q_mk_158",
                 "type": "fill",
                 "grade": "mk",
@@ -12837,25 +8290,6 @@ const QUESTIONS_DATA = [
                         "所见",
                         "田园"
                 ]
-        },
-        {
-                "id": "q_fbc_158",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "单车欲问边，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "属国过居延",
-                "explanation": "出自王维《使至塞上》，描写诗人出使边塞的路途。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "使至塞上",
-                        "边塞"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu1_158",
@@ -12895,24 +8329,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_158",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千里莺啼绿映红，__________。（杜牧《江南春》）",
-                "options": [],
-                "answer": "水村山郭酒旗风",
-                "explanation": "出自杜牧《江南春》，描写千里。",
-                "poemId": "sup_234",
-                "knowledgePoints": [
-                        "千里",
-                        "杜牧",
-                        "江南春",
-                        "莺啼"
-                ]
-        },
-        {
                 "id": "q_mk_159",
                 "type": "fill",
                 "grade": "mk",
@@ -12929,25 +8345,6 @@ const QUESTIONS_DATA = [
                         "所见",
                         "田园"
                 ]
-        },
-        {
-                "id": "q_fbc_159",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "征蓬出汉塞，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "归雁入胡天",
-                "explanation": "出自王维《使至塞上》，以征蓬、归雁自喻。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "使至塞上",
-                        "抒情"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu1_159",
@@ -12987,24 +8384,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_159",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "南朝四百八十寺，__________。（杜牧《江南春》）",
-                "options": [],
-                "answer": "多少楼台烟雨中",
-                "explanation": "出自杜牧《江南春》，描写南朝。",
-                "poemId": "sup_234",
-                "knowledgePoints": [
-                        "南朝",
-                        "杜牧",
-                        "江南春",
-                        "楼台"
-                ]
-        },
-        {
                 "id": "q_mk_160",
                 "type": "fill",
                 "grade": "mk",
@@ -13021,25 +8400,6 @@ const QUESTIONS_DATA = [
                         "所见",
                         "田园"
                 ]
-        },
-        {
-                "id": "q_fbc_160",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "大漠孤烟直，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "长河落日圆",
-                "explanation": "出自王维《使至塞上》，描写边塞奇特壮美的景象。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "使至塞上",
-                        "边塞"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu1_160",
@@ -13079,24 +8439,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_160",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "银烛秋光冷画屏，__________。（杜牧《秋夕》）",
-                "options": [],
-                "answer": "轻罗小扇扑流萤",
-                "explanation": "出自杜牧《秋夕》，描写银烛。",
-                "poemId": "sup_poetry_new_131",
-                "knowledgePoints": [
-                        "银烛",
-                        "杜牧",
-                        "秋夕",
-                        "画屏"
-                ]
-        },
-        {
                 "id": "q_mk_161",
                 "type": "fill",
                 "grade": "mk",
@@ -13113,25 +8455,6 @@ const QUESTIONS_DATA = [
                         "墨梅",
                         "写景"
                 ]
-        },
-        {
-                "id": "q_fbc_161",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "明月松间照，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "清泉石上流",
-                "explanation": "出自王维《山居秋暝》，描写秋夜山居的宁静景色。",
-                "poemId": "sup_108",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "山居秋暝",
-                        "夜景"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu1_161",
@@ -13171,62 +8494,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_161",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天阶夜色凉如水，__________。（杜牧《秋夕》）",
-                "options": [],
-                "answer": "卧看牵牛织女星",
-                "explanation": "出自杜牧《秋夕》，描写天阶。",
-                "poemId": "sup_poetry_new_131",
-                "knowledgePoints": [
-                        "天阶",
-                        "杜牧",
-                        "秋夕",
-                        "牵牛"
-                ]
-        },
-        {
-                "id": "q_mk_162",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "不要人夸好颜色，__________。（王冕《墨梅》）",
-                "options": [],
-                "answer": "只留清气满乾坤",
-                "explanation": "出自王冕《墨梅》，表达诗人高洁的志向。",
-                "poemId": "sup_082",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王冕",
-                        "墨梅",
-                        "品格"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_162",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "空山新雨后，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "天气晚来秋",
-                "explanation": "出自王维《山居秋暝》，描写秋夜山居的清新气息。",
-                "poemId": "sup_108",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "山居秋暝",
-                        "秋天"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_162",
                 "type": "fill",
                 "grade": "chu1",
@@ -13264,24 +8531,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_162",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "青山隐隐水迢迢，__________。（杜牧《寄扬州韩绰判官》）",
-                "options": [],
-                "answer": "秋尽江南草未凋",
-                "explanation": "出自杜牧《寄扬州韩绰判官》，描写青山。",
-                "poemId": "sup_187",
-                "knowledgePoints": [
-                        "青山",
-                        "杜牧",
-                        "寄扬州韩绰判官",
-                        "迢迢"
-                ]
-        },
-        {
                 "id": "q_mk_163",
                 "type": "fill",
                 "grade": "mk",
@@ -13298,26 +8547,6 @@ const QUESTIONS_DATA = [
                         "石灰吟",
                         "品格"
                 ]
-        },
-        {
-                "id": "q_fbc_163",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "竹喧归浣女，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "莲动下渔舟",
-                "explanation": "出自王维《山居秋暝》，描写山村生活的和谐美好。",
-                "poemId": "sup_313",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "山居秋暝",
-                        "田园"
-                ],
-                "poetryType": false,
-                "deleted": true
         },
         {
                 "id": "q_chu1_163",
@@ -13357,24 +8586,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_163",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "二十四桥明月夜，__________。（杜牧《寄扬州韩绰判官》）",
-                "options": [],
-                "answer": "玉人何处教吹箫",
-                "explanation": "出自杜牧《寄扬州韩绰判官》，描写二十四桥。",
-                "poemId": "sup_187",
-                "knowledgePoints": [
-                        "二十四桥",
-                        "杜牧",
-                        "寄扬州韩绰判官",
-                        "玉人"
-                ]
-        },
-        {
                 "id": "q_mk_164",
                 "type": "fill",
                 "grade": "mk",
@@ -13391,44 +8602,6 @@ const QUESTIONS_DATA = [
                         "石灰吟",
                         "品格"
                 ]
-        },
-        {
-                "id": "q_fbc_164",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "随意春芳歇，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "王孙自可留",
-                "explanation": "出自王维《山居秋暝》，表达诗人对隐居生活的热爱。",
-                "poemId": "sup_313",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王维",
-                        "山居秋暝",
-                        "隐居"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_164",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "枯藤老树昏鸦，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "小桥流水人家",
-                "explanation": "出自马致远《天净沙·秋思》，描写小桥。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "小桥",
-                        "马致远",
-                        "天净沙·秋思",
-                        "流水"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_164",
@@ -13468,63 +8641,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_165",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "咬定青山不放松，__________。（郑燮《竹石》）",
-                "options": [],
-                "answer": "立根原在破岩中",
-                "explanation": "出自郑燮《竹石》，描写竹子顽强的生命力。",
-                "poemId": "sup_084",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "郑燮",
-                        "竹石",
-                        "品格"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_165",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "渡远荆门外，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "来从楚国游",
-                "explanation": "出自李白《渡荆门送别》，点明此行的目的地。",
-                "poemId": "sup_120",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "渡荆门送别",
-                        "游历"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_165",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "古道西风瘦马，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "夕阳西下",
-                "explanation": "出自马致远《天净沙·秋思》，描写夕阳。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "夕阳",
-                        "马致远",
-                        "天净沙·秋思",
-                        "西风"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_165",
                 "type": "fill",
                 "grade": "zk",
@@ -13560,63 +8676,6 @@ const QUESTIONS_DATA = [
                         "题乌江亭",
                         "才俊"
                 ]
-        },
-        {
-                "id": "q_mk_166",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "千磨万击还坚劲，__________。（郑燮《竹石》）",
-                "options": [],
-                "answer": "任尔东西南北风",
-                "explanation": "出自郑燮《竹石》，表达诗人坚韧不拔的品格。",
-                "poemId": "sup_084",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "郑燮",
-                        "竹石",
-                        "品格"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_166",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "分班考古诗词精选",
-                "difficulty": 2,
-                "question": "山随平野尽，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "江入大荒流",
-                "explanation": "出自李白《渡荆门送别》，描写船过荆门的壮阔景象。",
-                "poemId": "sup_120",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "李白",
-                        "渡荆门送别",
-                        "送别"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_166",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "枯藤老树昏鸦，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "小桥流水人家",
-                "explanation": "出自马致远《天净沙·秋思》，描写流水。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "流水",
-                        "马致远",
-                        "天净沙·秋思",
-                        "人家"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_166",
@@ -13674,45 +8733,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_167",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "出师未捷身先死，__________。（杜甫《蜀相》）",
-                "options": [],
-                "answer": "长使英雄泪满襟",
-                "explanation": "出自杜甫《蜀相》，描写悲痛。",
-                "poemId": "sup_384",
-                "knowledgePoints": [
-                        "悲痛",
-                        "杜甫",
-                        "蜀相",
-                        "出师"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_167",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "亲贤臣，远小人，__________。（诸葛亮《出师表》）",
-                "options": [],
-                "answer": "此先汉所以兴隆也",
-                "explanation": "出自诸葛亮《出师表》，描写兴隆。",
-                "poemId": "sup_153",
-                "knowledgePoints": [
-                        "兴隆",
-                        "诸葛亮",
-                        "出师表",
-                        "先汉"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_167",
                 "type": "fill",
                 "grade": "chu1",
@@ -13765,45 +8785,6 @@ const QUESTIONS_DATA = [
                         "元日",
                         "节日"
                 ]
-        },
-        {
-                "id": "q_fbc_168",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "丞相祠堂何处寻，__________。（杜甫《蜀相》）",
-                "options": [],
-                "answer": "锦官城外柏森森",
-                "explanation": "出自杜甫《蜀相》，描写柏树。",
-                "poemId": "sup_384",
-                "knowledgePoints": [
-                        "柏树",
-                        "杜甫",
-                        "蜀相",
-                        "丞相"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_168",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "亲小人，远贤臣，__________。（诸葛亮《出师表》）",
-                "options": [],
-                "answer": "此后汉所以倾颓也",
-                "explanation": "出自诸葛亮《出师表》，描写倾颓。",
-                "poemId": "sup_153",
-                "knowledgePoints": [
-                        "倾颓",
-                        "诸葛亮",
-                        "出师表",
-                        "后汉"
-                ],
-                "poetryType": false,
-                "deleted": true
         },
         {
                 "id": "q_chu1_168",
@@ -14388,25 +9369,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_175",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "黄河远上白云间，__________。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "一片孤城万仞山",
-                "explanation": "出自王之涣《凉州词》，描写边塞的荒凉和孤城矗立的景象。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王之涣",
-                        "凉州词",
-                        "边塞"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_175",
                 "type": "fill",
                 "grade": "fbc",
@@ -14498,24 +9460,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_176",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "草树知春不久归，__________。（韩愈《晚春》）",
-                "options": [],
-                "answer": "百般红紫斗芳菲",
-                "explanation": "出自韩愈《晚春》，描写春景。",
-                "poemId": "sup_334",
-                "knowledgePoints": [
-                        "春天",
-                        "韩愈",
-                        "晚春",
-                        "芳菲"
-                ]
-        },
-        {
                 "id": "q_zk_176",
                 "type": "fill",
                 "grade": "zk",
@@ -14533,24 +9477,6 @@ const QUESTIONS_DATA = [
                         "冥"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu1_176",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "城阙辅三秦，__________。（王勃《送杜少府之任蜀州》）",
-                "options": [],
-                "answer": "风烟望五津",
-                "explanation": "出自王勃《送杜少府之任蜀州》，描写城阙。",
-                "poemId": "sup_103",
-                "knowledgePoints": [
-                        "城阙",
-                        "王勃",
-                        "送杜少府之任蜀州",
-                        "三秦"
-                ]
         },
         {
                 "id": "q_chu2_176",
@@ -14586,24 +9512,6 @@ const QUESTIONS_DATA = [
                         "毛泽东",
                         "蝶恋花",
                         "革命"
-                ]
-        },
-        {
-                "id": "q_fbc_177",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "杨花榆荚无才思，__________。（韩愈《晚春》）",
-                "options": [],
-                "answer": "惟解漫天作雪飞",
-                "explanation": "出自韩愈《晚春》，描写柳絮。",
-                "poemId": "sup_334",
-                "knowledgePoints": [
-                        "柳絮",
-                        "韩愈",
-                        "晚春",
-                        "雪飞"
                 ]
         },
         {
@@ -14717,42 +9625,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu1_178",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海内存知己，__________。（王勃《送杜少府之任蜀州》）",
-                "options": [],
-                "answer": "天涯若比邻",
-                "explanation": "出自王勃《送杜少府之任蜀州》，描写海内。",
-                "poemId": "poem_009",
-                "knowledgePoints": [
-                        "海内",
-                        "王勃",
-                        "送杜少府之任蜀州",
-                        "知己"
-                ]
-        },
-        {
-                "id": "q_chu2_178",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月几时有？__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "把酒问青天",
-                "explanation": "出自苏轼《水调歌头》，描写青天。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "青天",
-                        "苏轼",
-                        "水调歌头",
-                        "明月"
-                ]
-        },
-        {
                 "id": "q_mk_179",
                 "type": "fill",
                 "grade": "mk",
@@ -14844,24 +9716,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_180",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "可怜九月初三夜，__________。（白居易《暮江吟》）",
-                "options": [],
-                "answer": "露似真珠月似弓",
-                "explanation": "出自白居易《暮江吟》，描写秋夜。",
-                "poemId": "sup_164",
-                "knowledgePoints": [
-                        "秋夜",
-                        "白居易",
-                        "暮江吟",
-                        "露珠"
-                ]
-        },
-        {
                 "id": "q_chu1_180",
                 "type": "fill",
                 "grade": "chu1",
@@ -14880,44 +9734,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_180",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "醉翁之意不在酒，__________。（欧阳修《醉翁亭记》）",
-                "options": [],
-                "answer": "在乎山水之间也",
-                "explanation": "出自欧阳修《醉翁亭记》，描写醉翁。",
-                "poemId": "sup_117",
-                "knowledgePoints": [
-                        "醉翁",
-                        "欧阳修",
-                        "醉翁亭记",
-                        "山水"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_180",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春城无处不飞花，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "寒食东风御柳斜",
-                "explanation": "出自韩翃《寒食》，描写春城。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "春城",
-                        "韩翃",
-                        "寒食",
-                        "飞花"
-                ]
-        },
-        {
                 "id": "q_mk_181",
                 "type": "fill",
                 "grade": "mk",
@@ -14933,24 +9749,6 @@ const QUESTIONS_DATA = [
                         "毛泽东",
                         "长征",
                         "革命"
-                ]
-        },
-        {
-                "id": "q_fbc_181",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "一道残阳铺水中，__________。（白居易《暮江吟》）",
-                "options": [],
-                "answer": "半江瑟瑟半江红",
-                "explanation": "出自白居易《暮江吟》，描写江水。",
-                "poemId": "sup_164",
-                "knowledgePoints": [
-                        "江水",
-                        "白居易",
-                        "暮江吟",
-                        "残阳"
                 ]
         },
         {
@@ -14989,24 +9787,6 @@ const QUESTIONS_DATA = [
                         "寓酒"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu2_181",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日暮汉宫传蜡烛，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "轻烟散入五侯家",
-                "explanation": "出自韩翃《寒食》，描写日暮。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "日暮",
-                        "韩翃",
-                        "寒食",
-                        "蜡烛"
-                ]
         },
         {
                 "id": "q_mk_182",
@@ -15060,44 +9840,6 @@ const QUESTIONS_DATA = [
                         "王维",
                         "送别",
                         "饮君"
-                ]
-        },
-        {
-                "id": "q_zk_182",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "树林阴翳，__________，然而禽鸟知山林之乐，而不知人之乐。（欧阳修《醉翁亭记》）",
-                "options": [],
-                "answer": "鸣声上下",
-                "explanation": "出自欧阳修《醉翁亭记》，描写树林。",
-                "poemId": "sup_117",
-                "knowledgePoints": [
-                        "树林",
-                        "欧阳修",
-                        "醉翁亭记",
-                        "阴翳"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_182",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "移舟泊烟渚，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "日暮客愁新",
-                "explanation": "出自孟浩然《宿建德江》，描写移舟。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "移舟",
-                        "孟浩然",
-                        "宿建德江",
-                        "烟渚"
                 ]
         },
         {
@@ -15174,24 +9916,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_183",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野旷天低树，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "江清月近人",
-                "explanation": "出自孟浩然《宿建德江》，描写野旷。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "野旷",
-                        "孟浩然",
-                        "宿建德江",
-                        "月近"
-                ]
-        },
-        {
                 "id": "q_mk_184",
                 "type": "fill",
                 "grade": "mk",
@@ -15207,24 +9931,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "春夜喜雨",
                         "夜景"
-                ]
-        },
-        {
-                "id": "q_fbc_184",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "胜日寻芳泗水滨，__________。（朱熹《春日》）",
-                "options": [],
-                "answer": "无边光景一时新",
-                "explanation": "出自朱熹《春日》，描写春景。",
-                "poemId": "sup_080",
-                "knowledgePoints": [
-                        "春天",
-                        "朱熹",
-                        "春日",
-                        "光景"
                 ]
         },
         {
@@ -15265,24 +9971,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu2_184",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "床前明月光，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "疑是地上霜",
-                "explanation": "出自李白《静夜思》，描写床前。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "床前",
-                        "李白",
-                        "静夜思",
-                        "明月光"
-                ]
-        },
-        {
                 "id": "q_mk_185",
                 "type": "fill",
                 "grade": "mk",
@@ -15301,44 +9989,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_185",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "等闲识得东风面，__________。（朱熹《春日》）",
-                "options": [],
-                "answer": "万紫千红总是春",
-                "explanation": "出自朱熹《春日》，描写春色。",
-                "poemId": "sup_080",
-                "knowledgePoints": [
-                        "春色",
-                        "朱熹",
-                        "春日",
-                        "万紫千红"
-                ]
-        },
-        {
-                "id": "q_zk_185",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野芳发而幽香，__________，山间之四时也。（欧阳修《醉翁亭记》）",
-                "options": [],
-                "answer": "佳木秀而繁阴",
-                "explanation": "出自欧阳修《醉翁亭记》，描写野芳。",
-                "poemId": "sup_117",
-                "knowledgePoints": [
-                        "野芳",
-                        "欧阳修",
-                        "醉翁亭记",
-                        "佳木"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_185",
                 "type": "fill",
                 "grade": "chu1",
@@ -15354,24 +10004,6 @@ const QUESTIONS_DATA = [
                         "王湾",
                         "次北固山下",
                         "青山"
-                ]
-        },
-        {
-                "id": "q_chu2_185",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "举头望明月，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "低头思故乡",
-                "explanation": "出自李白《静夜思》，描写举头。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "举头",
-                        "李白",
-                        "静夜思",
-                        "思故乡"
                 ]
         },
         {
@@ -15411,63 +10043,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_186",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海日生残夜，__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "江春入旧年",
-                "explanation": "出自王湾《次北固山下》，描写海日。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "海日",
-                        "王湾",
-                        "次北固山下",
-                        "残夜"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_186",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "若夫日出而林霏开，__________，山间之朝暮也。（欧阳修《醉翁亭记》）",
-                "options": [],
-                "answer": "云归而岩穴暝",
-                "explanation": "出自欧阳修《醉翁亭记》，描写日出。",
-                "poemId": "sup_117",
-                "knowledgePoints": [
-                        "日出",
-                        "欧阳修",
-                        "醉翁亭记",
-                        "林霏"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_186",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千山鸟飞绝，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "万径人踪灭",
-                "explanation": "出自柳宗元《江雪》，描写千山。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "千山",
-                        "柳宗元",
-                        "江雪",
-                        "鸟飞"
-                ]
-        },
-        {
                 "id": "q_mk_187",
                 "type": "fill",
                 "grade": "mk",
@@ -15501,63 +10076,6 @@ const QUESTIONS_DATA = [
                         "骆宾王",
                         "在狱咏蝉",
                         "风多"
-                ]
-        },
-        {
-                "id": "q_chu1_187",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "乡书何处达？__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "归雁洛阳边",
-                "explanation": "出自王湾《次北固山下》，描写乡书。",
-                "poemId": "sup_314",
-                "knowledgePoints": [
-                        "乡书",
-                        "王湾",
-                        "次北固山下",
-                        "归雁"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_187",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野芳发而幽香，__________，山间之四时也。（欧阳修《醉翁亭记》）",
-                "options": [],
-                "answer": "佳木秀而繁阴",
-                "explanation": "出自欧阳修《醉翁亭记》，描写野芳。",
-                "poemId": "sup_117",
-                "knowledgePoints": [
-                        "野芳",
-                        "欧阳修",
-                        "醉翁亭记",
-                        "佳木"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_187",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤舟蓑笠翁，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "独钓寒江雪",
-                "explanation": "出自柳宗元《江雪》，描写孤舟。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "孤舟",
-                        "柳宗元",
-                        "江雪",
-                        "蓑笠"
                 ]
         },
         {
@@ -15598,43 +10116,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu1_188",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "回乐烽前沙似雪，__________。（李益《夜上受降城闻笛》）",
-                "options": [],
-                "answer": "受降城外月如霜",
-                "explanation": "出自李益《夜上受降城闻笛》，描写回乐。",
-                "poemId": "sup_340",
-                "knowledgePoints": [
-                        "回乐",
-                        "李益",
-                        "夜上受降城闻笛",
-                        "似雪"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_188",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "空山不见人，__________。（王维《鹿柴》）",
-                "options": [],
-                "answer": "但闻人语响",
-                "explanation": "出自王维《鹿柴》，描写空山。",
-                "poemId": "sup_024",
-                "knowledgePoints": [
-                        "空山",
-                        "王维",
-                        "鹿柴",
-                        "人语"
-                ]
-        },
-        {
                 "id": "q_mk_189",
                 "type": "fill",
                 "grade": "mk",
@@ -15672,43 +10153,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu1_189",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不知何处吹芦管，__________。（李益《夜上受降城闻笛》）",
-                "options": [],
-                "answer": "一夜征人尽望乡",
-                "explanation": "出自李益《夜上受降城闻笛》，描写芦管。",
-                "poemId": "sup_340",
-                "knowledgePoints": [
-                        "芦管",
-                        "李益",
-                        "夜上受降城闻笛",
-                        "望乡"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_189",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "返景入深林，__________。（王维《鹿柴》）",
-                "options": [],
-                "answer": "复照青苔上",
-                "explanation": "出自王维《鹿柴》，描写返景。",
-                "poemId": "sup_024",
-                "knowledgePoints": [
-                        "返景",
-                        "王维",
-                        "鹿柴",
-                        "青苔"
-                ]
-        },
-        {
                 "id": "q_mk_190",
                 "type": "fill",
                 "grade": "mk",
@@ -15744,42 +10188,6 @@ const QUESTIONS_DATA = [
                         "影布"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu1_190",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "半亩方塘一鉴开，__________。（朱熹《观书有感》）",
-                "options": [],
-                "answer": "天光云影共徘徊",
-                "explanation": "出自朱熹《观书有感》，描写半亩。",
-                "poemId": "sup_081",
-                "knowledgePoints": [
-                        "半亩",
-                        "朱熹",
-                        "观书有感",
-                        "方塘"
-                ]
-        },
-        {
-                "id": "q_chu2_190",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独坐幽篁里，__________。（王维《竹里馆》）",
-                "options": [],
-                "answer": "弹琴复长啸",
-                "explanation": "出自王维《竹里馆》，描写独坐。",
-                "poemId": "sup_023",
-                "knowledgePoints": [
-                        "独坐",
-                        "王维",
-                        "竹里馆",
-                        "幽篁"
-                ]
         },
         {
                 "id": "q_mk_191",
@@ -15837,79 +10245,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu1_191",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "问渠那得清如许？__________。（朱熹《观书有感》）",
-                "options": [],
-                "answer": "为有源头活水来",
-                "explanation": "出自朱熹《观书有感》，描写渠。",
-                "poemId": "sup_081",
-                "knowledgePoints": [
-                        "渠",
-                        "朱熹",
-                        "观书有感",
-                        "源头"
-                ]
-        },
-        {
-                "id": "q_chu2_191",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "深林人不知，__________。（王维《竹里馆》）",
-                "options": [],
-                "answer": "明月来相照",
-                "explanation": "出自王维《竹里馆》，描写深林。",
-                "poemId": "sup_023",
-                "knowledgePoints": [
-                        "深林",
-                        "王维",
-                        "竹里馆",
-                        "明月"
-                ]
-        },
-        {
-                "id": "q_mk_192",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "黑云翻墨未遮山，__________。（苏轼《六月二十七日望湖楼醉书》）",
-                "options": [],
-                "answer": "白雨跳珠乱入船",
-                "explanation": "出自苏轼《六月二十七日望湖楼醉书》，描写夏日阵雨的景象。",
-                "poemId": "sup_240",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "苏轼",
-                        "夏天",
-                        "写景"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_192",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄沙百战穿金甲，__________。（王昌龄《从军行》）",
-                "options": [],
-                "answer": "不破楼兰终不还",
-                "explanation": "出自王昌龄《从军行》，描写楼兰。",
-                "poemId": "sup_012",
-                "knowledgePoints": [
-                        "楼兰",
-                        "王昌龄",
-                        "从军行",
-                        "黄沙"
-                ]
-        },
-        {
                 "id": "q_zk_192",
                 "type": "fill",
                 "grade": "zk",
@@ -15925,43 +10260,6 @@ const QUESTIONS_DATA = [
                         "柳宗元",
                         "小石潭记",
                         "明灭"
-                ]
-        },
-        {
-                "id": "q_chu1_192",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "常记溪亭日暮，__________。（李清照《如梦令》）",
-                "options": [],
-                "answer": "沉醉不知归路",
-                "explanation": "出自李清照《如梦令》，描写溪亭。",
-                "poemId": "sup_poetry_new_001",
-                "knowledgePoints": [
-                        "溪亭",
-                        "李清照",
-                        "如梦令",
-                        "日暮"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_192",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "人闲桂花落，__________。（王维《鸟鸣涧》）",
-                "options": [],
-                "answer": "夜静春山空",
-                "explanation": "出自王维《鸟鸣涧》，描写人闲。",
-                "poemId": "sup_047",
-                "knowledgePoints": [
-                        "人闲",
-                        "王维",
-                        "鸟鸣涧",
-                        "桂花"
                 ]
         },
         {
@@ -16001,43 +10299,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_193",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "兴尽晚回舟，__________。（李清照《如梦令》）",
-                "options": [],
-                "answer": "误入藕花深处",
-                "explanation": "出自李清照《如梦令》，描写兴尽。",
-                "poemId": "sup_poetry_new_001",
-                "knowledgePoints": [
-                        "兴尽",
-                        "李清照",
-                        "如梦令",
-                        "藕花"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_193",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月出惊山鸟，__________。（王维《鸟鸣涧》）",
-                "options": [],
-                "answer": "时鸣春涧中",
-                "explanation": "出自王维《鸟鸣涧》，描写月出。",
-                "poemId": "sup_047",
-                "knowledgePoints": [
-                        "月出",
-                        "王维",
-                        "鸟鸣涧",
-                        "惊山"
-                ]
-        },
-        {
                 "id": "q_mk_194",
                 "type": "fill",
                 "grade": "mk",
@@ -16073,43 +10334,6 @@ const QUESTIONS_DATA = [
                         "悄怆"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu1_194",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "争渡，争渡，__________。（李清照《如梦令》）",
-                "options": [],
-                "answer": "惊起一滩鸥鹭",
-                "explanation": "出自李清照《如梦令》，描写争渡。",
-                "poemId": "sup_poetry_new_001",
-                "knowledgePoints": [
-                        "争渡",
-                        "李清照",
-                        "如梦令",
-                        "鸥鹭"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_194",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "单车欲问边，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "属国过居延",
-                "explanation": "出自王维《使至塞上》，描写单车。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "单车",
-                        "王维",
-                        "使至塞上",
-                        "问边"
-                ]
         },
         {
                 "id": "q_mk_195",
@@ -16167,43 +10391,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu1_195",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "常记溪亭日暮，__________。（李清照《如梦令》）",
-                "options": [],
-                "answer": "沉醉不知归路",
-                "explanation": "出自李清照《如梦令》，描写沉醉。",
-                "poemId": "sup_poetry_new_001",
-                "knowledgePoints": [
-                        "沉醉",
-                        "李清照",
-                        "如梦令",
-                        "沉醉"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_195",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "大漠孤烟直，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "长河落日圆",
-                "explanation": "出自王维《使至塞上》，描写大漠。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "大漠",
-                        "王维",
-                        "使至塞上",
-                        "孤烟"
-                ]
-        },
-        {
                 "id": "q_mk_196",
                 "type": "fill",
                 "grade": "mk",
@@ -16257,42 +10444,6 @@ const QUESTIONS_DATA = [
                         "龙"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu1_196",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫笑农家腊酒浑，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "丰年留客足鸡豚",
-                "explanation": "出自陆游《游山西村》，描写农家。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "农家",
-                        "陆游",
-                        "游山西村",
-                        "腊酒"
-                ]
-        },
-        {
-                "id": "q_chu2_196",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "渡远荆门外，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "来从楚国游",
-                "explanation": "出自李白《渡荆门送别》，描写渡远。",
-                "poemId": "sup_120",
-                "knowledgePoints": [
-                        "渡远",
-                        "李白",
-                        "渡荆门送别",
-                        "荆门"
-                ]
         },
         {
                 "id": "q_mk_197",
@@ -16350,42 +10501,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu1_197",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山重水复疑无路，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "柳暗花明又一村",
-                "explanation": "出自陆游《游山西村》，描写山重。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "山重",
-                        "陆游",
-                        "游山西村",
-                        "柳暗"
-                ]
-        },
-        {
-                "id": "q_chu2_197",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山随平野尽，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "江入大荒流",
-                "explanation": "出自李白《渡荆门送别》，描写山随。",
-                "poemId": "sup_120",
-                "knowledgePoints": [
-                        "山随",
-                        "李白",
-                        "渡荆门送别",
-                        "平野"
-                ]
-        },
-        {
                 "id": "q_mk_198",
                 "type": "fill",
                 "grade": "mk",
@@ -16419,62 +10534,6 @@ const QUESTIONS_DATA = [
                         "王昌龄",
                         "长信秋词",
                         "金井"
-                ]
-        },
-        {
-                "id": "q_zk_198",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "苔痕上阶绿，__________。（刘禹锡《陋室铭》）",
-                "options": [],
-                "answer": "草色入帘青",
-                "explanation": "出自刘禹锡《陋室铭》，描写苔痕。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "苔痕",
-                        "刘禹锡",
-                        "陋室铭",
-                        "阶绿"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_198",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "箫鼓追随春社近，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "衣冠简朴古风存",
-                "explanation": "出自陆游《游山西村》，描写箫鼓。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "箫鼓",
-                        "陆游",
-                        "游山西村",
-                        "春社"
-                ]
-        },
-        {
-                "id": "q_chu2_198",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "仍怜故乡水，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "万里送行舟",
-                "explanation": "出自李白《渡荆门送别》，描写故乡水。",
-                "poemId": "sup_300",
-                "knowledgePoints": [
-                        "故乡水",
-                        "李白",
-                        "渡荆门送别",
-                        "送行"
                 ]
         },
         {
@@ -16531,24 +10590,6 @@ const QUESTIONS_DATA = [
                         "鸿儒"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu1_199",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "从今若许闲乘月，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "拄杖无时夜叩门",
-                "explanation": "出自陆游《游山西村》，描写闲乘月。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "闲乘月",
-                        "陆游",
-                        "游山西村",
-                        "叩门"
-                ]
         },
         {
                 "id": "q_chu2_199",
@@ -16624,42 +10665,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu1_200",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "死去元知万事空，__________。（陆游《示儿》）",
-                "options": [],
-                "answer": "但悲不见九州同",
-                "explanation": "出自陆游《示儿》，描写死去。",
-                "poemId": "sup_075",
-                "knowledgePoints": [
-                        "死去",
-                        "陆游",
-                        "示儿",
-                        "万事"
-                ]
-        },
-        {
-                "id": "q_chu2_200",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海内存知己，__________。（王勃《送杜少府之任蜀州》）",
-                "options": [],
-                "answer": "天涯若比邻",
-                "explanation": "出自王勃《送杜少府之任蜀州》，描写海内。",
-                "poemId": "poem_009",
-                "knowledgePoints": [
-                        "海内",
-                        "王勃",
-                        "送杜少府之任蜀州",
-                        "知己"
-                ]
-        },
-        {
                 "id": "q_mk_201",
                 "type": "fill",
                 "grade": "mk",
@@ -16713,42 +10718,6 @@ const QUESTIONS_DATA = [
                         "子云"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu1_201",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "王师北定中原日，__________。（陆游《示儿》）",
-                "options": [],
-                "answer": "家祭无忘告乃翁",
-                "explanation": "出自陆游《示儿》，描写王师。",
-                "poemId": "sup_075",
-                "knowledgePoints": [
-                        "王师",
-                        "陆游",
-                        "示儿",
-                        "祭"
-                ]
-        },
-        {
-                "id": "q_chu2_201",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "无为在歧路，__________。（王勃《送杜少府之任蜀州》）",
-                "options": [],
-                "answer": "儿女共沾巾",
-                "explanation": "出自王勃《送杜少府之任蜀州》，描写歧路。",
-                "poemId": "poem_009",
-                "knowledgePoints": [
-                        "歧路",
-                        "王勃",
-                        "送杜少府之任蜀州",
-                        "沾巾"
-                ]
         },
         {
                 "id": "q_mk_202",
@@ -16806,42 +10775,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu1_202",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "三万里河东入海，__________。（陆游《秋夜将晓出篱门迎凉有感》）",
-                "options": [],
-                "answer": "五千仞岳上摩天",
-                "explanation": "出自陆游《秋夜将晓出篱门迎凉有感》，描写三万里。",
-                "poemId": "sup_076",
-                "knowledgePoints": [
-                        "三万里",
-                        "陆游",
-                        "秋夜将晓出篱门迎凉有感",
-                        "摩天"
-                ]
-        },
-        {
-                "id": "q_chu2_202",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "城阙辅三秦，__________。（王勃《送杜少府之任蜀州》）",
-                "options": [],
-                "answer": "风烟望五津",
-                "explanation": "出自王勃《送杜少府之任蜀州》，描写城阙。",
-                "poemId": "sup_103",
-                "knowledgePoints": [
-                        "城阙",
-                        "王勃",
-                        "送杜少府之任蜀州",
-                        "三秦"
-                ]
-        },
-        {
                 "id": "q_mk_203",
                 "type": "fill",
                 "grade": "mk",
@@ -16895,61 +10828,6 @@ const QUESTIONS_DATA = [
                         "跃金"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu1_203",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遗民泪尽胡尘里，__________。（陆游《秋夜将晓出篱门迎凉有感》）",
-                "options": [],
-                "answer": "南望王师又一年",
-                "explanation": "出自陆游《秋夜将晓出篱门迎凉有感》，描写遗民。",
-                "poemId": "sup_076",
-                "knowledgePoints": [
-                        "遗民",
-                        "陆游",
-                        "秋夜将晓出篱门迎凉有感",
-                        "胡尘"
-                ]
-        },
-        {
-                "id": "q_chu2_203",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "与君离别意，__________。（王勃《送杜少府之任蜀州》）",
-                "options": [],
-                "answer": "同是宦游人",
-                "explanation": "出自王勃《送杜少府之任蜀州》，描写离别。",
-                "poemId": "sup_103",
-                "knowledgePoints": [
-                        "离别",
-                        "王勃",
-                        "送杜少府之任蜀州",
-                        "宦游"
-                ]
-        },
-        {
-                "id": "q_mk_204",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "__________，春风不度玉门关。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "羌笛何须怨杨柳",
-                "explanation": "出自王之涣《凉州词》，表达戍边士兵的思乡之情。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王之涣",
-                        "凉州词",
-                        "边塞"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_204",
@@ -17043,26 +10921,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_205",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "浮光跃金，__________。（范仲淹《岳阳楼记》）",
-                "options": [],
-                "answer": "静影沉璧",
-                "explanation": "出自范仲淹《岳阳楼记》，描写静影。",
-                "poemId": "sup_132",
-                "knowledgePoints": [
-                        "静影",
-                        "范仲淹",
-                        "岳阳楼记",
-                        "沉璧"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_205",
                 "type": "fill",
                 "grade": "chu1",
@@ -17154,25 +11012,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_206",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "树木丛生，__________。（曹操《观沧海》）",
-                "options": [],
-                "answer": "百草丰茂",
-                "explanation": "出自曹操《观沧海》，描写树木。",
-                "poemId": "sup_125",
-                "knowledgePoints": [
-                        "树木",
-                        "曹操",
-                        "观沧海",
-                        "丰茂"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu2_206",
                 "type": "fill",
                 "grade": "chu2",
@@ -17209,25 +11048,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_207",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春城无处不飞花，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "寒食东风御柳斜",
-                "explanation": "出自韩翃《寒食》，描写春城。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "春城",
-                        "韩翃",
-                        "寒食",
-                        "飞花"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_207",
                 "type": "fill",
                 "grade": "zk",
@@ -17245,25 +11065,6 @@ const QUESTIONS_DATA = [
                         "微斯"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu1_207",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "秋风萧瑟，__________。（曹操《观沧海》）",
-                "options": [],
-                "answer": "洪波涌起",
-                "explanation": "出自曹操《观沧海》，描写秋风。",
-                "poemId": "sup_125",
-                "knowledgePoints": [
-                        "秋风",
-                        "曹操",
-                        "观沧海",
-                        "洪波"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu2_207",
@@ -17300,25 +11101,6 @@ const QUESTIONS_DATA = [
                         "游子吟",
                         "母爱"
                 ]
-        },
-        {
-                "id": "q_fbc_208",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日暮汉宫传蜡烛，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "轻烟散入五侯家",
-                "explanation": "出自韩翃《寒食》，描写蜡烛。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "蜡烛",
-                        "韩翃",
-                        "寒食",
-                        "五侯"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_208",
@@ -17394,25 +11176,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_209",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "移舟泊烟渚，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "日暮客愁新",
-                "explanation": "出自孟浩然《宿建德江》，描写移舟。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "移舟",
-                        "孟浩然",
-                        "宿建德江",
-                        "烟渚"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_209",
                 "type": "fill",
                 "grade": "zk",
@@ -17430,25 +11193,6 @@ const QUESTIONS_DATA = [
                         "潺潺"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu1_209",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "岱宗夫如何？__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "齐鲁青未了",
-                "explanation": "出自杜甫《望岳》，描写岱宗。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "岱宗",
-                        "杜甫",
-                        "望岳",
-                        "齐鲁"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu2_209",
@@ -17488,25 +11232,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_210",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野旷天低树，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "江清月近人",
-                "explanation": "出自孟浩然《宿建德江》，描写野旷。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "野旷",
-                        "孟浩然",
-                        "宿建德江",
-                        "天低"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_210",
                 "type": "fill",
                 "grade": "zk",
@@ -17526,24 +11251,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_chu1_210",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "造化钟神秀，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "阴阳割昏晓",
-                "explanation": "出自杜甫《望岳》，描写造化。",
-                "poemId": "sup_129",
-                "knowledgePoints": [
-                        "造化",
-                        "杜甫",
-                        "望岳",
-                        "神秀"
-                ]
-        },
-        {
                 "id": "q_chu2_210",
                 "type": "fill",
                 "grade": "chu2",
@@ -17559,43 +11266,6 @@ const QUESTIONS_DATA = [
                         "陶渊明",
                         "饮酒·其五",
                         "忘言"
-                ]
-        },
-        {
-                "id": "q_mk_211",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "白日依山尽，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "黄河入海流",
-                "explanation": "出自王之涣《登鹳雀楼》，描写夕阳西下、黄河奔流入海的壮阔景象。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "写景"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_211",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春眠不觉晓，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "处处闻啼鸟",
-                "explanation": "出自孟浩然《春晓》，描写春眠。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "春眠",
-                        "孟浩然",
-                        "春晓",
-                        "啼鸟"
                 ]
         },
         {
@@ -17617,25 +11287,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_211",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "荡胸生曾云，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "决眦入归鸟",
-                "explanation": "出自杜甫《望岳》，描写荡胸。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "荡胸",
-                        "杜甫",
-                        "望岳",
-                        "曾云"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu2_211",
                 "type": "fill",
                 "grade": "chu2",
@@ -17651,43 +11302,6 @@ const QUESTIONS_DATA = [
                         "王籍",
                         "入若耶溪",
                         "林逾"
-                ]
-        },
-        {
-                "id": "q_mk_212",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "欲穷千里目，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "更上一层楼",
-                "explanation": "出自王之涣《登鹳雀楼》，表达了积极向上的精神。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "哲理"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_212",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夜来风雨声，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "花落知多少",
-                "explanation": "出自孟浩然《春晓》，描写花落。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "花落",
-                        "孟浩然",
-                        "春晓",
-                        "风雨"
                 ]
         },
         {
@@ -17709,43 +11323,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_212",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "会当凌绝顶，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "一览众山小",
-                "explanation": "出自杜甫《望岳》，描写会当。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "会当",
-                        "杜甫",
-                        "望岳",
-                        "绝顶"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_212",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "茅檐长扫净无苔，__________。（王安石《书湖阴先生壁》）",
-                "options": [],
-                "answer": "花木成畦手自栽",
-                "explanation": "出自王安石《书湖阴先生壁》，描写茅檐。",
-                "poemId": "sup_173",
-                "knowledgePoints": [
-                        "茅檐",
-                        "王安石",
-                        "书湖阴先生壁",
-                        "无苔"
-                ]
-        },
-        {
                 "id": "q_mk_213",
                 "type": "fill",
                 "grade": "mk",
@@ -17764,25 +11341,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_213",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白日依山尽，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "黄河入海流",
-                "explanation": "出自王之涣《登鹳雀楼》，描写白日。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "白日",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "入海"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_213",
                 "type": "fill",
                 "grade": "zk",
@@ -17798,42 +11356,6 @@ const QUESTIONS_DATA = [
                         "辛弃疾",
                         "永遇乐·京口北固亭怀古",
                         "社鼓"
-                ]
-        },
-        {
-                "id": "q_chu1_213",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "国破山河在，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "城春草木深",
-                "explanation": "出自杜甫《春望》，描写国破。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "国破",
-                        "杜甫",
-                        "春望",
-                        "山河"
-                ]
-        },
-        {
-                "id": "q_chu2_213",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "一水护田将绿绕，__________。（王安石《书湖阴先生壁》）",
-                "options": [],
-                "answer": "两山排闼送青来",
-                "explanation": "出自王安石《书湖阴先生壁》，描写一水。",
-                "poemId": "sup_173",
-                "knowledgePoints": [
-                        "一水",
-                        "王安石",
-                        "书湖阴先生壁",
-                        "绿绕"
                 ]
         },
         {
@@ -17855,24 +11377,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_214",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "欲穷千里目，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "更上一层楼",
-                "explanation": "出自王之涣《登鹳雀楼》，描写千里。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "千里",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "更上"
-                ]
-        },
-        {
                 "id": "q_zk_214",
                 "type": "fill",
                 "grade": "zk",
@@ -17889,25 +11393,6 @@ const QUESTIONS_DATA = [
                         "永遇乐·京口北固亭怀古",
                         "饭否"
                 ]
-        },
-        {
-                "id": "q_chu1_214",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "感时花溅泪，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "恨别鸟惊心",
-                "explanation": "出自杜甫《春望》，描写感时。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "感时",
-                        "杜甫",
-                        "春望",
-                        "溅泪"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu2_214",
@@ -17946,24 +11431,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_215",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千山鸟飞绝，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "万径人踪灭",
-                "explanation": "出自柳宗元《江雪》，描写万径。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "万径",
-                        "柳宗元",
-                        "江雪",
-                        "人踪"
-                ]
-        },
-        {
                 "id": "q_zk_215",
                 "type": "fill",
                 "grade": "zk",
@@ -17979,43 +11446,6 @@ const QUESTIONS_DATA = [
                         "辛弃疾",
                         "永遇乐·京口北固亭怀古",
                         "英雄"
-                ]
-        },
-        {
-                "id": "q_chu1_215",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烽火连三月，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "家书抵万金",
-                "explanation": "出自杜甫《春望》，描写烽火。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "烽火",
-                        "杜甫",
-                        "春望",
-                        "家书"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_215",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不畏浮云遮望眼，__________。（王安石《登飞来峰》）",
-                "options": [],
-                "answer": "自缘身在最高层",
-                "explanation": "出自王安石《登飞来峰》，描写不畏。",
-                "poemId": "sup_025",
-                "knowledgePoints": [
-                        "不畏",
-                        "王安石",
-                        "登飞来峰",
-                        "最高层"
                 ]
         },
         {
@@ -18037,24 +11467,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_216",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤舟蓑笠翁，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "独钓寒江雪",
-                "explanation": "出自柳宗元《江雪》，描写寒江。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "寒江",
-                        "柳宗元",
-                        "江雪",
-                        "独钓"
-                ]
-        },
-        {
                 "id": "q_zk_216",
                 "type": "fill",
                 "grade": "zk",
@@ -18071,44 +11483,6 @@ const QUESTIONS_DATA = [
                         "永遇乐·京口北固亭怀古",
                         "风流"
                 ]
-        },
-        {
-                "id": "q_chu1_216",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白头搔更短，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "浑欲不胜簪",
-                "explanation": "出自杜甫《春望》，描写白头。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "白头",
-                        "杜甫",
-                        "春望",
-                        "搔更短"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu2_216",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "飞来峰上千寻塔，__________。（王安石《登飞来峰》）",
-                "options": [],
-                "answer": "闻说鸡鸣见日升",
-                "explanation": "出自王安石《登飞来峰》，描写闻说。",
-                "poemId": "sup_025",
-                "knowledgePoints": [
-                        "闻说",
-                        "王安石",
-                        "登飞来峰",
-                        "日升"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_217",
@@ -18129,25 +11503,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_217",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "移舟泊烟渚，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "日暮客愁新",
-                "explanation": "出自孟浩然《宿建德江》，描写移舟。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "移舟",
-                        "孟浩然",
-                        "宿建德江",
-                        "客愁"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_217",
                 "type": "fill",
                 "grade": "zk",
@@ -18163,42 +11518,6 @@ const QUESTIONS_DATA = [
                         "辛弃疾",
                         "永遇乐·京口北固亭怀古",
                         "寄奴"
-                ]
-        },
-        {
-                "id": "q_chu1_217",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "客路青山外，__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "行舟绿水前",
-                "explanation": "出自王湾《次北固山下》，描写客路。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "客路",
-                        "王湾",
-                        "次北固山下",
-                        "青山"
-                ]
-        },
-        {
-                "id": "q_chu2_217",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "京口瓜洲一水间，__________。（王安石《泊船瓜洲》）",
-                "options": [],
-                "answer": "钟山只隔数重山",
-                "explanation": "出自王安石《泊船瓜洲》，描写京口。",
-                "poemId": "sup_238",
-                "knowledgePoints": [
-                        "京口",
-                        "王安石",
-                        "泊船瓜洲",
-                        "瓜洲"
                 ]
         },
         {
@@ -18220,25 +11539,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_218",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野旷天低树，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "江清月近人",
-                "explanation": "出自孟浩然《宿建德江》，描写江清。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "江清",
-                        "孟浩然",
-                        "宿建德江",
-                        "月近"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_218",
                 "type": "fill",
                 "grade": "zk",
@@ -18255,118 +11555,6 @@ const QUESTIONS_DATA = [
                         "永遇乐·京口北固亭怀古",
                         "如虎"
                 ]
-        },
-        {
-                "id": "q_chu1_218",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "潮平两岸阔，__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "风正一帆悬",
-                "explanation": "出自王湾《次北固山下》，描写潮平。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "潮平",
-                        "王湾",
-                        "次北固山下",
-                        "帆悬"
-                ]
-        },
-        {
-                "id": "q_chu2_218",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春风又绿江南岸，__________。（王安石《泊船瓜洲》）",
-                "options": [],
-                "answer": "明月何时照我还",
-                "explanation": "出自王安石《泊船瓜洲》，描写春风又。",
-                "poemId": "sup_238",
-                "knowledgePoints": [
-                        "春风又",
-                        "王安石",
-                        "泊船瓜洲",
-                        "江南"
-                ]
-        },
-        {
-                "id": "q_mk_219",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "__________，雪上空留马行处。（岑参《白雪歌送武判官归京》）",
-                "options": [],
-                "answer": "山回路转不见君",
-                "explanation": "出自岑参《白雪歌送武判官归京》，描写送别友人后诗人凝望雪地马蹄印的情景。",
-                "poemId": "sup_poetry_new_007",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "岑参",
-                        "送别",
-                        "边塞"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_219",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春眠不觉晓，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "处处闻啼鸟",
-                "explanation": "出自孟浩然《春晓》，描写春眠。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "春眠",
-                        "孟浩然",
-                        "春晓",
-                        "不觉"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_219",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月几时有？__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "把酒问青天",
-                "explanation": "出自苏轼《水调歌头》，描写明月。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "明月",
-                        "苏轼",
-                        "水调歌头",
-                        "青天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_219",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海日生残夜，__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "江春入旧年",
-                "explanation": "出自王湾《次北固山下》，描写海日。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "海日",
-                        "王湾",
-                        "次北固山下",
-                        "残夜"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu2_219",
@@ -18405,63 +11593,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_220",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夜来风雨声，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "花落知多少",
-                "explanation": "出自孟浩然《春晓》，描写夜来。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "夜来",
-                        "孟浩然",
-                        "春晓",
-                        "花落"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_220",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不知天上宫阙，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "今夕是何年",
-                "explanation": "出自苏轼《水调歌头》，描写天上。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "天上",
-                        "苏轼",
-                        "水调歌头",
-                        "宫阙"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_220",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "乡书何处达？__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "归雁洛阳边",
-                "explanation": "出自王湾《次北固山下》，描写乡书。",
-                "poemId": "sup_314",
-                "knowledgePoints": [
-                        "乡书",
-                        "王湾",
-                        "次北固山下",
-                        "归雁"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu2_220",
                 "type": "fill",
                 "grade": "chu2",
@@ -18480,25 +11611,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_221",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "死去元知万事空，__________。（陆游《示儿》）",
-                "options": [],
-                "answer": "但悲不见九州同",
-                "explanation": "出自陆游《示儿》，表达诗人至死不忘收复失地的爱国情怀。",
-                "poemId": "sup_075",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "陆游",
-                        "示儿",
-                        "爱国"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_221",
                 "type": "fill",
                 "grade": "fbc",
@@ -18515,44 +11627,6 @@ const QUESTIONS_DATA = [
                         "望洞庭湖赠张丞相",
                         "太清"
                 ]
-        },
-        {
-                "id": "q_zk_221",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "人有悲欢离合，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "月有阴晴圆缺",
-                "explanation": "出自苏轼《水调歌头》，描写悲欢。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "悲欢",
-                        "苏轼",
-                        "水调歌头",
-                        "圆缺"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_221",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "枯藤老树昏鸦，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "小桥流水人家",
-                "explanation": "出自马致远《天净沙·秋思》，描写枯藤。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "枯藤",
-                        "马致远",
-                        "天净沙·秋思",
-                        "昏鸦"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu2_221",
@@ -18609,44 +11683,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_222",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "但愿人长久，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "千里共婵娟",
-                "explanation": "出自苏轼《水调歌头》，描写人长久。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "长久",
-                        "苏轼",
-                        "水调歌头",
-                        "婵娟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_222",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "古道西风瘦马，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "夕阳西下",
-                "explanation": "出自马致远《天净沙·秋思》，描写古道。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "古道",
-                        "马致远",
-                        "天净沙·秋思",
-                        "西风"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu2_222",
                 "type": "fill",
                 "grade": "chu2",
@@ -18665,25 +11701,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_223",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "昼出耘田夜绩麻，__________。（范成大《四时田园杂兴》）",
-                "options": [],
-                "answer": "村庄儿女各当家",
-                "explanation": "出自范成大《四时田园杂兴》，描写农村繁忙的劳动场景。",
-                "poemId": "sup_077",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "范成大",
-                        "田园",
-                        "劳动"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_223",
                 "type": "fill",
                 "grade": "fbc",
@@ -18700,44 +11717,6 @@ const QUESTIONS_DATA = [
                         "望洞庭湖赠张丞相",
                         "舟楫"
                 ]
-        },
-        {
-                "id": "q_zk_223",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月几时有？__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "把酒问青天",
-                "explanation": "出自苏轼《水调歌头》，描写把酒。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "把酒",
-                        "苏轼",
-                        "水调歌头",
-                        "青天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_223",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夕阳西下，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "断肠人在天涯",
-                "explanation": "出自马致远《天净沙·秋思》，描写夕阳。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "夕阳",
-                        "马致远",
-                        "天净沙·秋思",
-                        "断肠"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu2_223",
@@ -18791,24 +11770,6 @@ const QUESTIONS_DATA = [
                         "孟浩然",
                         "望洞庭湖赠张丞相",
                         "羡鱼"
-                ]
-        },
-        {
-                "id": "q_zk_224",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "我欲乘风归去，__________，高处不胜寒。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "又恐琼楼玉宇",
-                "explanation": "出自苏轼《水调歌头》，描写乘风。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "乘风",
-                        "苏轼",
-                        "水调歌头",
-                        "琼楼"
                 ]
         },
         {
@@ -18866,61 +11827,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_225",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山暝听猿愁，__________。（孟浩然《宿桐庐江寄广陵旧游》）",
-                "options": [],
-                "answer": "沧江急夜流",
-                "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写山暝。",
-                "poemId": "sup_poetry_new_031",
-                "knowledgePoints": [
-                        "山暝",
-                        "孟浩然",
-                        "宿桐庐江寄广陵旧游",
-                        "听猿"
-                ]
-        },
-        {
-                "id": "q_zk_225",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "起舞弄清影，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "何似在人间",
-                "explanation": "出自苏轼《水调歌头》，描写弄清影。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "清影",
-                        "苏轼",
-                        "水调歌头",
-                        "人间"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_225",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月别枝惊鹊，__________。（辛弃疾《西江月·夜行黄沙道中》）",
-                "options": [],
-                "answer": "清风半夜鸣蝉",
-                "explanation": "出自辛弃疾《西江月·夜行黄沙道中》，描写明月。",
-                "poemId": "sup_310",
-                "knowledgePoints": [
-                        "明月",
-                        "辛弃疾",
-                        "西江月·夜行黄沙道中",
-                        "别枝"
-                ]
-        },
-        {
                 "id": "q_chu2_225",
                 "type": "fill",
                 "grade": "chu2",
@@ -18957,79 +11863,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_226",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "风鸣两岸叶，__________。（孟浩然《宿桐庐江寄广陵旧游》）",
-                "options": [],
-                "answer": "月照一孤舟",
-                "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写月照。",
-                "poemId": "sup_poetry_new_031",
-                "knowledgePoints": [
-                        "月照",
-                        "孟浩然",
-                        "宿桐庐江寄广陵旧游",
-                        "孤舟"
-                ]
-        },
-        {
-                "id": "q_zk_226",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "转朱阁，低绮户，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "照无眠",
-                "explanation": "出自苏轼《水调歌头》，描写朱阁。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "朱阁",
-                        "苏轼",
-                        "水调歌头",
-                        "绮户"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_226",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "稻花香里说丰年，__________。（辛弃疾《西江月·夜行黄沙道中》）",
-                "options": [],
-                "answer": "听取蛙声一片",
-                "explanation": "出自辛弃疾《西江月·夜行黄沙道中》，描写稻花。",
-                "poemId": "sup_310",
-                "knowledgePoints": [
-                        "稻花",
-                        "辛弃疾",
-                        "西江月·夜行黄沙道中",
-                        "蛙声"
-                ]
-        },
-        {
-                "id": "q_chu2_226",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "挥手自兹去，__________。（李白《送友人》）",
-                "options": [],
-                "answer": "萧萧班马鸣",
-                "explanation": "出自李白《送友人》，描写挥手自。",
-                "poemId": "sup_121",
-                "knowledgePoints": [
-                        "挥手自",
-                        "李白",
-                        "送友人",
-                        "班马"
-                ]
-        },
-        {
                 "id": "q_mk_227",
                 "type": "fill",
                 "grade": "mk",
@@ -19045,42 +11878,6 @@ const QUESTIONS_DATA = [
                         "朱熹",
                         "春日",
                         "春天"
-                ]
-        },
-        {
-                "id": "q_fbc_227",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "君不见黄河之水天上来，__________。（李白《将进酒》）",
-                "options": [],
-                "answer": "奔流到海不复回",
-                "explanation": "出自李白《将进酒》，描写黄河。",
-                "poemId": "sup_116",
-                "knowledgePoints": [
-                        "黄河",
-                        "李白",
-                        "将进酒",
-                        "天上来"
-                ]
-        },
-        {
-                "id": "q_zk_227",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不应有恨，__________？（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "何事长向别时圆",
-                "explanation": "出自苏轼《水调歌头》，描写别时。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "别时",
-                        "苏轼",
-                        "水调歌头",
-                        "恨"
                 ]
         },
         {
@@ -19102,80 +11899,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_227",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "青山横北郭，__________。（李白《送友人》）",
-                "options": [],
-                "answer": "白水绕东城",
-                "explanation": "出自李白《送友人》，描写青山横。",
-                "poemId": "sup_121",
-                "knowledgePoints": [
-                        "青山横",
-                        "李白",
-                        "送友人",
-                        "北郭"
-                ]
-        },
-        {
-                "id": "q_mk_228",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "等闲识得东风面，__________。（朱熹《春日》）",
-                "options": [],
-                "answer": "万紫千红总是春",
-                "explanation": "出自朱熹《春日》，形容春天万紫千红的景色。",
-                "poemId": "sup_080",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "朱熹",
-                        "春日",
-                        "春天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_228",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "人生得意须尽欢，__________。（李白《将进酒》）",
-                "options": [],
-                "answer": "莫使金樽空对月",
-                "explanation": "出自李白《将进酒》，描写得意。",
-                "poemId": "sup_poetry_new_005",
-                "knowledgePoints": [
-                        "得意",
-                        "李白",
-                        "将进酒",
-                        "金樽"
-                ]
-        },
-        {
-                "id": "q_zk_228",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "人有悲欢离合，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "月有阴晴圆缺",
-                "explanation": "出自苏轼《水调歌头》，描写阴晴。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "阴晴",
-                        "苏轼",
-                        "水调歌头",
-                        "离合"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_228",
                 "type": "fill",
                 "grade": "chu1",
@@ -19194,24 +11917,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_228",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "此地一为别，__________。（李白《送友人》）",
-                "options": [],
-                "answer": "孤蓬万里征",
-                "explanation": "出自李白《送友人》，描写此地一。",
-                "poemId": "sup_121",
-                "knowledgePoints": [
-                        "此地一",
-                        "李白",
-                        "送友人",
-                        "孤蓬"
-                ]
-        },
-        {
                 "id": "q_mk_229",
                 "type": "fill",
                 "grade": "mk",
@@ -19227,42 +11932,6 @@ const QUESTIONS_DATA = [
                         "朱熹",
                         "春日",
                         "春天"
-                ]
-        },
-        {
-                "id": "q_fbc_229",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天生我材必有用，__________。（李白《将进酒》）",
-                "options": [],
-                "answer": "千金散尽还复来",
-                "explanation": "出自李白《将进酒》，描写材必。",
-                "poemId": "sup_poetry_new_005",
-                "knowledgePoints": [
-                        "材",
-                        "李白",
-                        "将进酒",
-                        "千金"
-                ]
-        },
-        {
-                "id": "q_zk_229",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "大江东去，浪淘尽，__________。（苏轼《念奴娇·赤壁怀古》）",
-                "options": [],
-                "answer": "千古风流人物",
-                "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写大江。",
-                "poemId": "sup_133",
-                "knowledgePoints": [
-                        "大江",
-                        "苏轼",
-                        "念奴娇·赤壁怀古",
-                        "风流"
                 ]
         },
         {
@@ -19285,79 +11954,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_229",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "浮云游子意，__________。（李白《送友人》）",
-                "options": [],
-                "answer": "落日故人情",
-                "explanation": "出自李白《送友人》，描写浮云游。",
-                "poemId": "sup_121",
-                "knowledgePoints": [
-                        "浮云游",
-                        "李白",
-                        "送友人",
-                        "游子"
-                ]
-        },
-        {
-                "id": "q_mk_230",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "__________，春风不度玉门关。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "羌笛何须怨杨柳",
-                "explanation": "出自王之涣《凉州词》，表达戍边士兵的思乡之情。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "王之涣",
-                        "凉州词",
-                        "边塞"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_230",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烹羊宰牛且为乐，__________。（李白《将进酒》）",
-                "options": [],
-                "answer": "会须一饮三百杯",
-                "explanation": "出自李白《将进酒》，描写烹羊。",
-                "poemId": "sup_poetry_new_005",
-                "knowledgePoints": [
-                        "烹羊",
-                        "李白",
-                        "将进酒",
-                        "三百"
-                ]
-        },
-        {
-                "id": "q_zk_230",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "故垒西边，人道是，__________。（苏轼《念奴娇·赤壁怀古》）",
-                "options": [],
-                "answer": "三国周郎赤壁",
-                "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写故垒。",
-                "poemId": "sup_133",
-                "knowledgePoints": [
-                        "故垒",
-                        "苏轼",
-                        "念奴娇·赤壁怀古",
-                        "周郎"
-                ]
-        },
-        {
                 "id": "q_chu1_230",
                 "poetryType": false,
                 "type": "fill",
@@ -19377,44 +11973,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu2_230",
-                "type": "fill",
-                "grade": "chu2",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海内存知己，__________。（王勃《送杜少府之任蜀州》）",
-                "options": [],
-                "answer": "天涯若比邻",
-                "explanation": "出自王勃《送杜少府之任蜀州》，描写海内存。",
-                "poemId": "poem_009",
-                "knowledgePoints": [
-                        "海内存",
-                        "王勃",
-                        "送杜少府之任蜀州",
-                        "比邻"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_231",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "千里黄云白日曛，__________。（高适《别董大》）",
-                "options": [],
-                "answer": "北风吹雁雪纷纷",
-                "explanation": "出自高适《别董大》，描写送别时的壮阔景象。",
-                "poemId": "sup_213",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "高适",
-                        "别董大",
-                        "送别"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_231",
                 "type": "fill",
                 "grade": "fbc",
@@ -19430,24 +11988,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "将进酒",
                         "丹丘"
-                ]
-        },
-        {
-                "id": "q_zk_231",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "乱石穿空，惊涛拍岸，__________。（苏轼《念奴娇·赤壁怀古》）",
-                "options": [],
-                "answer": "卷起千堆雪",
-                "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写乱石。",
-                "poemId": "sup_133",
-                "knowledgePoints": [
-                        "乱石",
-                        "苏轼",
-                        "念奴娇·赤壁怀古",
-                        "惊涛"
                 ]
         },
         {
@@ -19485,61 +12025,6 @@ const QUESTIONS_DATA = [
                         "陆游",
                         "东轩",
                         "琅玕"
-                ]
-        },
-        {
-                "id": "q_mk_232",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "莫愁前路无知己，__________。（高适《别董大》）",
-                "options": [],
-                "answer": "天下谁人不识君",
-                "explanation": "出自高适《别董大》，表达对友人的劝慰和鼓励。",
-                "poemId": "sup_213",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "高适",
-                        "别董大",
-                        "友情"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_232",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "与君歌一曲，__________。（李白《将进酒》）",
-                "options": [],
-                "answer": "请君为我侧耳听",
-                "explanation": "出自李白《将进酒》，描写侧耳。",
-                "poemId": "sup_poetry_new_005",
-                "knowledgePoints": [
-                        "侧耳",
-                        "李白",
-                        "将进酒",
-                        "君歌"
-                ]
-        },
-        {
-                "id": "q_zk_232",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "江山如画，__________。（苏轼《念奴娇·赤壁怀古》）",
-                "options": [],
-                "answer": "一时多少豪杰",
-                "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写江山。",
-                "poemId": "sup_133",
-                "knowledgePoints": [
-                        "江山",
-                        "苏轼",
-                        "念奴娇·赤壁怀古",
-                        "豪杰"
                 ]
         },
         {
@@ -19598,24 +12083,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_233",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遥想公瑾当年，__________，雄姿英发。（苏轼《念奴娇·赤壁怀古》）",
-                "options": [],
-                "answer": "小乔初嫁了",
-                "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写公瑾。",
-                "poemId": "sup_133",
-                "knowledgePoints": [
-                        "公瑾",
-                        "苏轼",
-                        "念奴娇·赤壁怀古",
-                        "小乔"
-                ]
-        },
-        {
                 "id": "q_chu1_233",
                 "type": "fill",
                 "grade": "chu1",
@@ -19633,61 +12100,6 @@ const QUESTIONS_DATA = [
                         "从之"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_mk_234",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "春潮带雨晚来急，__________。（韦应物《滁州西涧》）",
-                "options": [],
-                "answer": "野渡无人舟自横",
-                "explanation": "出自韦应物《滁州西涧》，描写渡口无人、船只随意横渡的景象。",
-                "poemId": "sup_217",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "韦应物",
-                        "滁州西涧",
-                        "写景"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_234",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "古来圣贤皆寂寞，__________。（李白《将进酒》）",
-                "options": [],
-                "answer": "惟有饮者留其名",
-                "explanation": "出自李白《将进酒》，描写圣贤。",
-                "poemId": "sup_poetry_new_005",
-                "knowledgePoints": [
-                        "圣贤",
-                        "李白",
-                        "将进酒",
-                        "寂寞"
-                ]
-        },
-        {
-                "id": "q_zk_234",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "羽扇纶巾，谈笑间，__________。（苏轼《念奴娇·赤壁怀古》）",
-                "options": [],
-                "answer": "樯橹灰飞烟灭",
-                "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写羽扇。",
-                "poemId": "sup_133",
-                "knowledgePoints": [
-                        "羽扇",
-                        "苏轼",
-                        "念奴娇·赤壁怀古",
-                        "樯橹"
-                ]
         },
         {
                 "id": "q_chu1_234",
@@ -19709,25 +12121,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_235",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "月落乌啼霜满天，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "江枫渔火对愁眠",
-                "explanation": "出自张继《枫桥夜泊》，描写深夜江边的愁绪。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "张继",
-                        "枫桥夜泊",
-                        "羁旅"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_235",
                 "type": "fill",
                 "grade": "fbc",
@@ -19743,24 +12136,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "将进酒",
                         "宴平"
-                ]
-        },
-        {
-                "id": "q_zk_235",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "故国神游，多情应笑我，__________。（苏轼《念奴娇·赤壁怀古》）",
-                "options": [],
-                "answer": "早生华发",
-                "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写故国。",
-                "poemId": "sup_133",
-                "knowledgePoints": [
-                        "故国",
-                        "苏轼",
-                        "念奴娇·赤壁怀古",
-                        "华发"
                 ]
         },
         {
@@ -19783,25 +12158,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_236",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "姑苏城外寒山寺，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "夜半钟声到客船",
-                "explanation": "出自张继《枫桥夜泊》，描写夜半时分寒山寺的钟声传到客船。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "张继",
-                        "枫桥夜泊",
-                        "夜景"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_236",
                 "type": "fill",
                 "grade": "fbc",
@@ -19817,24 +12173,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "将进酒",
                         "少钱"
-                ]
-        },
-        {
-                "id": "q_zk_236",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "人生如梦，__________。（苏轼《念奴娇·赤壁怀古》）",
-                "options": [],
-                "answer": "一尊还酹江月",
-                "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写人生。",
-                "poemId": "sup_133",
-                "knowledgePoints": [
-                        "人生",
-                        "苏轼",
-                        "念奴娇·赤壁怀古",
-                        "酹江"
                 ]
         },
         {
@@ -19855,25 +12193,6 @@ const QUESTIONS_DATA = [
                         "则罔"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_mk_237",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "清明时节雨纷纷，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "路上行人欲断魂",
-                "explanation": "出自杜牧《清明》，描写清明时节的凄清景象和行人的愁苦心情。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "清明",
-                        "节日"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_237",
@@ -19931,25 +12250,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_238",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "借问酒家何处有，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "牧童遥指杏花村",
-                "explanation": "出自杜牧《清明》，描写诗人找酒解愁的情景。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "清明",
-                        "节日"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_238",
                 "type": "fill",
                 "grade": "fbc",
@@ -20003,44 +12303,6 @@ const QUESTIONS_DATA = [
                         "论语",
                         "知者"
                 ]
-        },
-        {
-                "id": "q_mk_239",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "千里莺啼绿映红，__________。（杜牧《江南春》）",
-                "options": [],
-                "answer": "水村山郭酒旗风",
-                "explanation": "出自杜牧《江南春》，描写江南春天的美丽景色。",
-                "poemId": "sup_234",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "江南春",
-                        "春天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_239",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月落乌啼霜满天，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "江枫渔火对愁眠",
-                "explanation": "出自张继《枫桥夜泊》，描写月落。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "月落",
-                        "张继",
-                        "枫桥夜泊",
-                        "乌啼"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_239",
@@ -20098,25 +12360,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_240",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "姑苏城外寒山寺，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "夜半钟声到客船",
-                "explanation": "出自张继《枫桥夜泊》，描写寒山。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "寒山",
-                        "张继",
-                        "枫桥夜泊",
-                        "客船"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_240",
                 "type": "fill",
                 "grade": "zk",
@@ -20154,44 +12397,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_241",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "远上寒山石径斜，__________。（杜牧《山行》）",
-                "options": [],
-                "answer": "白云生处有人家",
-                "explanation": "出自杜牧《山行》，描写山行时看到的景象。",
-                "poemId": "sup_156",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "山行",
-                        "秋天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_241",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独在异乡为异客，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "每逢佳节倍思亲",
-                "explanation": "出自王维《九月九日忆山东兄弟》，描写异乡。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "异乡",
-                        "王维",
-                        "九月九日忆山东兄弟",
-                        "倍思"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_241",
                 "type": "fill",
                 "grade": "zk",
@@ -20208,63 +12413,6 @@ const QUESTIONS_DATA = [
                         "破阵子·为陈同甫赋壮词以寄之",
                         "角"
                 ]
-        },
-        {
-                "id": "q_chu1_241",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "关关雎鸠，在河之洲。__________，君子好逑。（《诗经·关雎》）",
-                "options": [],
-                "answer": "窈窕淑女",
-                "explanation": "出自无名氏《诗经·关雎》，描写关关雎。",
-                "poemId": "sup_122",
-                "knowledgePoints": [
-                        "关关雎",
-                        "无名氏",
-                        "诗经·关雎",
-                        "淑女"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_242",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小学必背古诗词",
-                "difficulty": 2,
-                "question": "停车坐爱枫林晚，__________。（杜牧《山行》）",
-                "options": [],
-                "answer": "霜叶红于二月花",
-                "explanation": "出自杜牧《山行》，赞美秋天红叶比春天鲜花更美丽。",
-                "poemId": "sup_156",
-                "knowledgePoints": [
-                        "古诗默写",
-                        "杜牧",
-                        "山行",
-                        "秋天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_242",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遥知兄弟登高处，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "遍插茱萸少一人",
-                "explanation": "出自王维《九月九日忆山东兄弟》，描写插茱。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "茱",
-                        "王维",
-                        "九月九日忆山东兄弟",
-                        "遍插"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_242",
@@ -20321,24 +12469,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_243",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "渭城朝雨浥轻尘，__________。（王维《送元二使安西》）",
-                "options": [],
-                "answer": "客舍青青柳色新",
-                "explanation": "出自王维《送元二使安西》，描写朝雨。",
-                "poemId": "sup_107",
-                "knowledgePoints": [
-                        "朝雨",
-                        "王维",
-                        "送元二使安西",
-                        "轻尘"
-                ]
-        },
-        {
                 "id": "q_zk_243",
                 "type": "fill",
                 "grade": "zk",
@@ -20357,25 +12487,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_243",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "求之不得，__________。（《诗经·关雎》）",
-                "options": [],
-                "answer": "寤寐思服",
-                "explanation": "出自无名氏《诗经·关雎》，描写求之不。",
-                "poemId": "sup_poetry_new_003",
-                "knowledgePoints": [
-                        "求之不",
-                        "无名氏",
-                        "诗经·关雎",
-                        "思服"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_244",
                 "type": "fill",
                 "grade": "mk",
@@ -20391,24 +12502,6 @@ const QUESTIONS_DATA = [
                         "杜牧",
                         "秋夕",
                         "秋天"
-                ]
-        },
-        {
-                "id": "q_fbc_244",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "劝君更尽一杯酒，__________。（王维《送元二使安西》）",
-                "options": [],
-                "answer": "西出阳关无故人",
-                "explanation": "出自王维《送元二使安西》，描写尽酒。",
-                "poemId": "sup_107",
-                "knowledgePoints": [
-                        "酒",
-                        "王维",
-                        "送元二使安西",
-                        "无故"
                 ]
         },
         {
@@ -20466,25 +12559,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_245",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独坐幽篁里，__________。（王维《竹里馆》）",
-                "options": [],
-                "answer": "弹琴复长啸",
-                "explanation": "出自王维《竹里馆》，描写幽篁。",
-                "poemId": "sup_023",
-                "knowledgePoints": [
-                        "幽篁",
-                        "王维",
-                        "竹里馆",
-                        "弹琴"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_245",
                 "type": "fill",
                 "grade": "zk",
@@ -20537,25 +12611,6 @@ const QUESTIONS_DATA = [
                         "泊秦淮",
                         "讽刺"
                 ]
-        },
-        {
-                "id": "q_fbc_246",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "深林人不知，__________。（王维《竹里馆》）",
-                "options": [],
-                "answer": "明月来相照",
-                "explanation": "出自王维《竹里馆》，描写深林。",
-                "poemId": "sup_023",
-                "knowledgePoints": [
-                        "深林",
-                        "王维",
-                        "竹里馆",
-                        "明月"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_246",
@@ -20612,24 +12667,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_247",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "床前明月光，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "疑是地上霜",
-                "explanation": "出自李白《静夜思》，描写明月光。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "月光",
-                        "李白",
-                        "静夜思",
-                        "明"
-                ]
-        },
-        {
                 "id": "q_zk_247",
                 "type": "fill",
                 "grade": "zk",
@@ -20645,24 +12682,6 @@ const QUESTIONS_DATA = [
                         "陆游",
                         "钗头凤",
                         "离索"
-                ]
-        },
-        {
-                "id": "q_chu1_247",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "故人西辞黄鹤楼，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "烟花三月下扬州",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写故人西。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "故人西",
-                        "李白",
-                        "黄鹤楼送孟浩然之广陵",
-                        "扬州"
                 ]
         },
         {
@@ -20684,24 +12703,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_248",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "举头望明月，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "低头思故乡",
-                "explanation": "出自李白《静夜思》，描写举头。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "举头",
-                        "李白",
-                        "静夜思",
-                        "低头"
-                ]
-        },
-        {
                 "id": "q_zk_248",
                 "type": "fill",
                 "grade": "zk",
@@ -20717,24 +12718,6 @@ const QUESTIONS_DATA = [
                         "陆游",
                         "钗头凤",
                         "空瘦"
-                ]
-        },
-        {
-                "id": "q_chu1_248",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "桃花潭水深千尺，__________。（李白《赠汪伦》）",
-                "options": [],
-                "answer": "不及汪伦送我情",
-                "explanation": "出自李白《赠汪伦》，描写桃花潭。",
-                "poemId": "sup_008",
-                "knowledgePoints": [
-                        "桃花潭",
-                        "李白",
-                        "赠汪伦",
-                        "汪伦"
                 ]
         },
         {
@@ -20792,24 +12775,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_249",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "李白乘舟将欲行，__________。（李白《赠汪伦》）",
-                "options": [],
-                "answer": "忽闻岸上踏歌声",
-                "explanation": "出自李白《赠汪伦》，描写李白乘。",
-                "poemId": "sup_008",
-                "knowledgePoints": [
-                        "李白乘",
-                        "李白",
-                        "赠汪伦",
-                        "踏歌"
-                ]
-        },
-        {
                 "id": "q_mk_250",
                 "type": "fill",
                 "grade": "mk",
@@ -20846,43 +12811,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_250",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "寻寻觅觅，冷冷清清，__________。（李清照《声声慢》）",
-                "options": [],
-                "answer": "凄凄惨惨戚戚",
-                "explanation": "出自李清照《声声慢》，描写寻寻觅觅。",
-                "poemId": "sup_143",
-                "knowledgePoints": [
-                        "寻寻觅觅",
-                        "李清照",
-                        "声声慢",
-                        "凄凄惨惨"
-                ]
-        },
-        {
-                "id": "q_chu1_250",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "故人西辞黄鹤楼，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "烟花三月下扬州",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写烟花三。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "烟花三",
-                        "李白",
-                        "黄鹤楼送孟浩然之广陵",
-                        "黄鹤楼"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_251",
                 "type": "fill",
                 "grade": "mk",
@@ -20898,42 +12826,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "春夜喜雨",
                         "描写"
-                ]
-        },
-        {
-                "id": "q_fbc_251",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "银烛秋光冷画屏，__________。（杜牧《秋夕》）",
-                "options": [],
-                "answer": "轻罗小扇扑流萤",
-                "explanation": "出自杜牧《秋夕》，描写秋光。",
-                "poemId": "sup_poetry_new_131",
-                "knowledgePoints": [
-                        "秋光",
-                        "杜牧",
-                        "秋夕",
-                        "画屏"
-                ]
-        },
-        {
-                "id": "q_zk_251",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "乍暖还寒时候，__________。（李清照《声声慢》）",
-                "options": [],
-                "answer": "最难将息",
-                "explanation": "出自李清照《声声慢》，描写乍暖。",
-                "poemId": "sup_143",
-                "knowledgePoints": [
-                        "乍暖",
-                        "李清照",
-                        "声声慢",
-                        "将息"
                 ]
         },
         {
@@ -20955,42 +12847,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_252",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初古诗词真题精选",
-                "difficulty": 2,
-                "question": "两岸猿声啼不住，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "轻舟已过万重山",
-                "explanation": "出自李白《早发白帝城》，描写顺流而下船速极快的情景。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "长江",
-                        "李白",
-                        "早发白帝城",
-                        "船行"
-                ]
-        },
-        {
-                "id": "q_fbc_252",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天阶夜色凉如水，__________。（杜牧《秋夕》）",
-                "options": [],
-                "answer": "卧看牵牛织女星",
-                "explanation": "出自杜牧《秋夕》，描写夜色。",
-                "poemId": "sup_poetry_new_131",
-                "knowledgePoints": [
-                        "夜色",
-                        "杜牧",
-                        "秋夕",
-                        "牵牛"
-                ]
-        },
-        {
                 "id": "q_zk_252",
                 "type": "fill",
                 "grade": "zk",
@@ -21009,60 +12865,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_252",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "杨花落尽子规啼，__________。（李白《闻王昌龄左迁龙标遥有此寄》）",
-                "options": [],
-                "answer": "闻道龙标过五溪",
-                "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，描写闻道龙。",
-                "poemId": "sup_055",
-                "knowledgePoints": [
-                        "闻道龙",
-                        "李白",
-                        "闻王昌龄左迁龙标遥有此寄",
-                        "过五"
-                ]
-        },
-        {
-                "id": "q_mk_253",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初古诗词真题精选",
-                "difficulty": 2,
-                "question": "独在异乡为异客，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "每逢佳节倍思亲",
-                "explanation": "出自王维《九月九日忆山东兄弟》，表达游子思乡之情。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "思乡",
-                        "王维",
-                        "重阳节",
-                        "兄弟"
-                ]
-        },
-        {
-                "id": "q_fbc_253",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "停车坐爱枫林晚，__________。（杜牧《山行》）",
-                "options": [],
-                "answer": "霜叶红于二月花",
-                "explanation": "出自杜牧《山行》，描写枫林。",
-                "poemId": "sup_156",
-                "knowledgePoints": [
-                        "枫林",
-                        "杜牧",
-                        "山行",
-                        "霜叶"
-                ]
-        },
-        {
                 "id": "q_zk_253",
                 "type": "fill",
                 "grade": "zk",
@@ -21078,62 +12880,6 @@ const QUESTIONS_DATA = [
                         "李清照",
                         "声声慢",
                         "黄花"
-                ]
-        },
-        {
-                "id": "q_chu1_253",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "我寄愁心与明月，__________。（李白《闻王昌龄左迁龙标遥有此寄》）",
-                "options": [],
-                "answer": "随风直到夜郎西",
-                "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，描写随风直。",
-                "poemId": "sup_055",
-                "knowledgePoints": [
-                        "随风直",
-                        "李白",
-                        "闻王昌龄左迁龙标遥有此寄",
-                        "夜郎"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_254",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初古诗词真题精选",
-                "difficulty": 2,
-                "question": "欲穷千里目，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "更上一层楼",
-                "explanation": "出自王之涣《登鹳雀楼》，表达积极向上的精神。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "哲理",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "积极"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_254",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "远上寒山石径斜，__________。（杜牧《山行》）",
-                "options": [],
-                "answer": "白云生处有人家",
-                "explanation": "出自杜牧《山行》，描写寒山。",
-                "poemId": "sup_156",
-                "knowledgePoints": [
-                        "寒山",
-                        "杜牧",
-                        "山行",
-                        "石径"
                 ]
         },
         {
@@ -21190,24 +12936,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_255",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "清明时节雨纷纷，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "路上行人欲断魂",
-                "explanation": "出自杜牧《清明》，描写清明。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "清明",
-                        "杜牧",
-                        "清明",
-                        "欲断"
-                ]
-        },
-        {
                 "id": "q_zk_255",
                 "type": "fill",
                 "grade": "zk",
@@ -21241,42 +12969,6 @@ const QUESTIONS_DATA = [
                         "论语"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_mk_256",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初古诗词真题精选",
-                "difficulty": 2,
-                "question": "__________，春风不度玉门关。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "羌笛何须怨杨柳",
-                "explanation": "出自王之涣《凉州词》，表达边塞生活的艰苦。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "边塞",
-                        "王之涣",
-                        "凉州词",
-                        "思乡"
-                ]
-        },
-        {
-                "id": "q_fbc_256",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "借问酒家何处有，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "牧童遥指杏花村",
-                "explanation": "出自杜牧《清明》，描写酒家。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "酒家",
-                        "杜牧",
-                        "清明",
-                        "杏花"
-                ]
         },
         {
                 "id": "q_zk_256",
@@ -21332,25 +13024,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_257",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月下飞天镜，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "云生结海楼",
-                "explanation": "出自李白《渡荆门送别》，描写月下。",
-                "poemId": "sup_300",
-                "knowledgePoints": [
-                        "月下",
-                        "李白",
-                        "渡荆门送别",
-                        "海楼"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_257",
                 "type": "fill",
                 "grade": "zk",
@@ -21402,25 +13075,6 @@ const QUESTIONS_DATA = [
                         "出塞",
                         "战争"
                 ]
-        },
-        {
-                "id": "q_fbc_258",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山随平野尽，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "江入大荒流",
-                "explanation": "出自李白《渡荆门送别》，描写平野。",
-                "poemId": "sup_120",
-                "knowledgePoints": [
-                        "平野",
-                        "李白",
-                        "渡荆门送别",
-                        "大荒"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_258",
@@ -21476,25 +13130,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_259",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "仍怜故乡水，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "万里送行舟",
-                "explanation": "出自李白《渡荆门送别》，描写故乡水。",
-                "poemId": "sup_300",
-                "knowledgePoints": [
-                        "水",
-                        "李白",
-                        "渡荆门送别",
-                        "行舟"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_259",
                 "type": "fill",
                 "grade": "zk",
@@ -21546,25 +13181,6 @@ const QUESTIONS_DATA = [
                         "芙蓉楼送辛渐",
                         "品格"
                 ]
-        },
-        {
-                "id": "q_fbc_260",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "渡远荆门外，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "来从楚国游",
-                "explanation": "出自李白《渡荆门送别》，描写渡远。",
-                "poemId": "sup_120",
-                "knowledgePoints": [
-                        "渡远",
-                        "李白",
-                        "渡荆门送别",
-                        "楚国"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_260",
@@ -21673,24 +13289,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_262",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初古诗词真题精选",
-                "difficulty": 2,
-                "question": "月落乌啼霜满天，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "江枫渔火对愁眠",
-                "explanation": "出自张继《枫桥夜泊》，描写诗人夜泊枫桥的愁绪。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "秋夜",
-                        "张继",
-                        "枫桥夜泊",
-                        "愁思"
-                ]
-        },
-        {
                 "id": "q_fbc_262",
                 "type": "fill",
                 "grade": "fbc",
@@ -21742,25 +13340,6 @@ const QUESTIONS_DATA = [
                         "论语"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_mk_263",
-                "type": "fill",
-                "grade": "mk",
-                "source": "小升初古诗词真题精选",
-                "difficulty": 2,
-                "question": "日出江花红胜火，__________。（白居易《忆江南》）",
-                "options": [],
-                "answer": "春来江水绿如蓝",
-                "explanation": "出自白居易《忆江南》，描写江南春天的美景。",
-                "poemId": "sup_226",
-                "knowledgePoints": [
-                        "春天",
-                        "白居易",
-                        "忆江南",
-                        "美景"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_263",
@@ -21956,25 +13535,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_266",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "小时不识月，__________。（李白《古朗月行》）",
-                "options": [],
-                "answer": "呼作白玉盘",
-                "explanation": "出自李白《古朗月行》，描写月亮。",
-                "poemId": "sup_051",
-                "knowledgePoints": [
-                        "月亮",
-                        "李白",
-                        "古朗月行",
-                        "儿童"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_266",
                 "type": "fill",
                 "grade": "fbc",
@@ -22009,42 +13569,6 @@ const QUESTIONS_DATA = [
                         "过零丁洋",
                         "浮沉"
                 ]
-        },
-        {
-                "id": "q_chu1_266",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日月之行，若出其中；__________，若出其里。（曹操《观沧海》）",
-                "options": [],
-                "answer": "星汉灿烂",
-                "explanation": "出自观沧海。",
-                "poemId": "sup_125",
-                "knowledgePoints": [
-                        "初一",
-                        "观沧海"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_267",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野旷天低树，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "江清月近人",
-                "explanation": "出自孟浩然《宿建德江》，描写秋夜。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "秋天",
-                        "孟浩然",
-                        "宿建德江",
-                        "夜晚"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_267",
@@ -22083,23 +13607,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_267",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "客路青山外，行舟绿水前。__________，风正一帆悬。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "潮平两岸阔",
-                "explanation": "出自次北固山下。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "初一",
-                        "次北固山下"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_268",
                 "type": "fill",
                 "grade": "mk",
@@ -22136,97 +13643,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_268",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春蚕到死丝方尽，__________。（李商隐《无题》）",
-                "options": [],
-                "answer": "蜡炬成灰泪始干",
-                "explanation": "出自李商隐《无题》，描写春蚕。",
-                "poemId": "sup_060",
-                "knowledgePoints": [
-                        "春蚕",
-                        "李商隐",
-                        "无题",
-                        "丝方尽"
-                ]
-        },
-        {
-                "id": "q_chu1_268",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海日生残夜，__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "江春入旧年",
-                "explanation": "出自次北固山下。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "初一",
-                        "次北固山下"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_269",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "云想衣裳花想容，__________。（李白《清平调》）",
-                "options": [],
-                "answer": "春风拂槛露华浓",
-                "explanation": "出自李白《清平调》，描写美女。",
-                "poemId": "sup_171",
-                "knowledgePoints": [
-                        "美女",
-                        "李白",
-                        "清平调",
-                        "杨贵妃"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_269",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫笑农家腊酒浑，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "丰年留客足鸡豚",
-                "explanation": "出自陆游《游山西村》，描写农家。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "农家",
-                        "陆游",
-                        "游山西村",
-                        "腊酒"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_269",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "相见时难别亦难，__________。（李商隐《无题》）",
-                "options": [],
-                "answer": "东风无力百花残",
-                "explanation": "出自李商隐《无题》，描写相见。",
-                "poemId": "sup_060",
-                "knowledgePoints": [
-                        "相见",
-                        "李商隐",
-                        "无题",
-                        "别亦难"
-                ]
-        },
-        {
                 "id": "q_chu1_269",
                 "type": "fill",
                 "grade": "chu1",
@@ -22258,59 +13674,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "清平调",
                         "赵飞燕"
-                ]
-        },
-        {
-                "id": "q_fbc_270",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山重水复疑无路，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "柳暗花明又一村",
-                "explanation": "出自陆游《游山西村》，描写水复。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "水复",
-                        "陆游",
-                        "游山西村",
-                        "柳暗"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_270",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "晓镜但愁云鬓改，__________。（李商隐《无题》）",
-                "options": [],
-                "answer": "夜吟应觉月光寒",
-                "explanation": "出自李商隐《无题》，描写晓镜。",
-                "poemId": "sup_060",
-                "knowledgePoints": [
-                        "晓镜",
-                        "李商隐",
-                        "无题",
-                        "云鬓"
-                ]
-        },
-        {
-                "id": "q_chu1_270",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "乱花渐欲迷人眼，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "浅草才能没马蹄",
-                "explanation": "出自钱塘湖春行。",
-                "poemId": "sup_131",
-                "knowledgePoints": [
-                        "初一",
-                        "钱塘湖春行"
                 ]
         },
         {
@@ -22350,40 +13713,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_271",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "蓬山此去无多路，__________。（李商隐《无题》）",
-                "options": [],
-                "answer": "青鸟殷勤为探看",
-                "explanation": "出自李商隐《无题》，描写蓬山。",
-                "poemId": "sup_060",
-                "knowledgePoints": [
-                        "蓬山",
-                        "李商隐",
-                        "无题",
-                        "青鸟"
-                ]
-        },
-        {
-                "id": "q_chu1_271",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "最爱湖东行不足，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "绿杨阴里白沙堤",
-                "explanation": "出自钱塘湖春行。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "初一",
-                        "钱塘湖春行"
-                ]
-        },
-        {
                 "id": "q_mk_272",
                 "type": "fill",
                 "grade": "mk",
@@ -22417,24 +13746,6 @@ const QUESTIONS_DATA = [
                         "陆游",
                         "游山西村",
                         "拄杖"
-                ]
-        },
-        {
-                "id": "q_zk_272",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "塞下秋来风景异，__________。（范仲淹《渔家傲·秋思》）",
-                "options": [],
-                "answer": "衡阳雁去无留意",
-                "explanation": "出自范仲淹《渔家傲·秋思》，描写塞下。",
-                "poemId": "sup_062",
-                "knowledgePoints": [
-                        "塞下",
-                        "范仲淹",
-                        "渔家傲·秋思",
-                        "风景"
                 ]
         },
         {
@@ -22560,24 +13871,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_274",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "浊酒一杯家万里，__________。（范仲淹《渔家傲·秋思》）",
-                "options": [],
-                "answer": "燕然未勒归无计",
-                "explanation": "出自范仲淹《渔家傲·秋思》，描写浊酒。",
-                "poemId": "sup_041",
-                "knowledgePoints": [
-                        "浊酒",
-                        "范仲淹",
-                        "渔家傲·秋思",
-                        "燕然"
-                ]
-        },
-        {
                 "id": "q_chu1_274",
                 "type": "fill",
                 "grade": "chu1",
@@ -22664,62 +13957,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_276",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "床前明月光，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "疑是地上霜",
-                "explanation": "出自李白《静夜思》，描写月光。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "月光",
-                        "李白",
-                        "静夜思",
-                        "思乡"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_276",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "大漠孤烟直，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "长河落日圆",
-                "explanation": "出自王维《使至塞上》，描写大漠。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "大漠",
-                        "王维",
-                        "使至塞上",
-                        "孤烟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_276",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "枯藤老树昏鸦，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "小桥流水人家",
-                "explanation": "出自马致远《天净沙·秋思》，描写小桥。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "小桥",
-                        "马致远",
-                        "天净沙·秋思",
-                        "流水"
-                ]
-        },
-        {
                 "id": "q_chu1_276",
                 "type": "fill",
                 "grade": "chu1",
@@ -22734,98 +13971,6 @@ const QUESTIONS_DATA = [
                         "初一",
                         "天净沙·秋思"
                 ]
-        },
-        {
-                "id": "q_mk_277",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "举头望明月，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "低头思故乡",
-                "explanation": "出自李白《静夜思》，描写思乡。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "思乡",
-                        "李白",
-                        "静夜思",
-                        "故乡"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_277",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "单车欲问边，属国过居延。__________，归雁入胡天。（王维《使至塞上》）",
-                "options": [],
-                "answer": "征蓬出汉塞",
-                "explanation": "出自王维《使至塞上》，描写归雁。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "归雁",
-                        "王维",
-                        "使至塞上",
-                        "胡天"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_277",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "古道西风瘦马，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "夕阳西下",
-                "explanation": "出自马致远《天净沙·秋思》，描写夕阳西。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "夕阳西",
-                        "马致远",
-                        "天净沙·秋思",
-                        "断肠"
-                ]
-        },
-        {
-                "id": "q_chu1_277",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夕阳西下，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "断肠人在天涯",
-                "explanation": "出自天净沙·秋思。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "初一",
-                        "天净沙·秋思"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_278",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "朝辞白帝彩云间，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "千里江陵一日还",
-                "explanation": "出自李白《早发白帝城》，描写船速。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "船",
-                        "李白",
-                        "早发白帝城",
-                        "速度"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_278",
@@ -22846,25 +13991,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_278",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月几时有？__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "把酒问青天",
-                "explanation": "出自苏轼《水调歌头》，描写把酒问。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "把酒问",
-                        "苏轼",
-                        "水调歌头",
-                        "青天"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_278",
                 "type": "fill",
                 "grade": "chu1",
@@ -22879,25 +14005,6 @@ const QUESTIONS_DATA = [
                         "初一",
                         "杂诗"
                 ]
-        },
-        {
-                "id": "q_mk_279",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两岸猿声啼不住，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "轻舟已过万重山",
-                "explanation": "出自李白《早发白帝城》，描写船行。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "船",
-                        "李白",
-                        "早发白帝城",
-                        "三峡"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_279",
@@ -22918,25 +14025,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_279",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "我欲乘风归去，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "又恐琼楼玉宇",
-                "explanation": "出自苏轼《水调歌头》，描写恐琼楼。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "恐琼楼",
-                        "苏轼",
-                        "水调歌头",
-                        "玉宇"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_279",
                 "type": "fill",
                 "grade": "chu1",
@@ -22953,63 +14041,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_280",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日照香炉生紫烟，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "遥看瀑布挂前川",
-                "explanation": "出自李白《望庐山瀑布》，描写瀑布。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "瀑布",
-                        "李白",
-                        "望庐山瀑布",
-                        "风景"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_280",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "江天一色无纤尘，__________。（张若虚《春江花月夜》）",
-                "options": [],
-                "answer": "皎皎空中孤月轮",
-                "explanation": "出自张若虚《春江花月夜》，描写江天。",
-                "poemId": "sup_291",
-                "knowledgePoints": [
-                        "江天",
-                        "张若虚",
-                        "春江花月夜",
-                        "纤尘"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_280",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "起舞弄清影，__________。（苏轼《水调歌头》）",
-                "options": [],
-                "answer": "何似在人间",
-                "explanation": "出自苏轼《水调歌头》，描写何似。",
-                "poemId": "sup_065",
-                "knowledgePoints": [
-                        "何似",
-                        "苏轼",
-                        "水调歌头",
-                        "在人间"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_280",
                 "type": "fill",
                 "grade": "chu1",
@@ -23024,25 +14055,6 @@ const QUESTIONS_DATA = [
                         "初一",
                         "木兰诗"
                 ]
-        },
-        {
-                "id": "q_mk_281",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "飞流直下三千尺，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "疑是银河落九天",
-                "explanation": "出自李白《望庐山瀑布》，描写瀑布。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "瀑布",
-                        "李白",
-                        "望庐山瀑布",
-                        "壮观"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_281",
@@ -23063,25 +14075,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_281",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "巴山楚水凄凉地，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "二十三年弃置身",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写巴山。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "巴山",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "凄凉"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_281",
                 "type": "fill",
                 "grade": "chu1",
@@ -23096,63 +14089,6 @@ const QUESTIONS_DATA = [
                         "初一",
                         "木兰诗"
                 ]
-        },
-        {
-                "id": "q_mk_282",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "故人西辞黄鹤楼，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "烟花三月下扬州",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写送别。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "送别",
-                        "李白",
-                        "黄鹤楼送孟浩然之广陵",
-                        "烟花"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_282",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "人生代代无穷已，__________。（张若虚《春江花月夜》）",
-                "options": [],
-                "answer": "江月年年望相似",
-                "explanation": "出自张若虚《春江花月夜》，描写人生。",
-                "poemId": "sup_291",
-                "knowledgePoints": [
-                        "人生",
-                        "张若虚",
-                        "春江花月夜",
-                        "无穷"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_282",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "怀旧空吟闻笛赋，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "到乡翻似烂柯人",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写怀旧。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "怀旧",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "闻笛"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu1_282",
@@ -23171,63 +14107,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_283",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄鹤一去不复返，__________。（崔颢《黄鹤楼》）",
-                "options": [],
-                "answer": "白云千载空悠悠",
-                "explanation": "出自崔颢《黄鹤楼》，描写黄鹤楼。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "黄鹤楼",
-                        "崔颢",
-                        "黄鹤楼",
-                        "历史"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_283",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不知乘月几人归，__________。（张若虚《春江花月夜》）",
-                "options": [],
-                "answer": "落月摇情满江树",
-                "explanation": "出自张若虚《春江花月夜》，描写乘月。",
-                "poemId": "sup_291",
-                "knowledgePoints": [
-                        "乘月",
-                        "张若虚",
-                        "春江花月夜",
-                        "摇情"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_283",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "沉舟侧畔千帆过，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "病树前头万木春",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写沉舟。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "沉舟",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "千帆"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_283",
                 "type": "fill",
                 "grade": "chu1",
@@ -23244,63 +14123,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_284",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "晴川历历汉阳树，__________。（崔颢《黄鹤楼》）",
-                "options": [],
-                "answer": "芳草萋萋鹦鹉洲",
-                "explanation": "出自崔颢《黄鹤楼》，描写景色。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "景色",
-                        "崔颢",
-                        "黄鹤楼",
-                        "草木"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_284",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春江潮水连海平，__________。（张若虚《春江花月夜》）",
-                "options": [],
-                "answer": "海上明月共潮生",
-                "explanation": "出自张若虚《春江花月夜》，描写春江潮。",
-                "poemId": "sup_291",
-                "knowledgePoints": [
-                        "潮",
-                        "张若虚",
-                        "春江花月夜",
-                        "海平"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_284",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今日听君歌一曲，__________。（刘禹锡《酬乐天扬州初逢席上见赠》）",
-                "options": [],
-                "answer": "暂凭杯酒长精神",
-                "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写听君。",
-                "poemId": "sup_189",
-                "knowledgePoints": [
-                        "听君",
-                        "刘禹锡",
-                        "酬乐天扬州初逢席上见赠",
-                        "精神"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_284",
                 "type": "fill",
                 "grade": "chu1",
@@ -23314,62 +14136,6 @@ const QUESTIONS_DATA = [
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
-                ]
-        },
-        {
-                "id": "q_mk_285",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日暮乡关何处是？__________。（崔颢《黄鹤楼》）",
-                "options": [],
-                "answer": "烟波江上使人愁",
-                "explanation": "出自崔颢《黄鹤楼》，描写乡愁。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "乡愁",
-                        "崔颢",
-                        "黄鹤楼",
-                        "思乡"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_285",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "故人西辞黄鹤楼，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "烟花三月下扬州",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写西辞。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "西辞",
-                        "李白",
-                        "黄鹤楼送孟浩然之广陵",
-                        "下扬州"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_285",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "湖光秋月两相和，__________。（刘禹锡《望洞庭》）",
-                "options": [],
-                "answer": "潭面无风镜未磨",
-                "explanation": "出自刘禹锡《望洞庭》，描写湖光。",
-                "poemId": "sup_033",
-                "knowledgePoints": [
-                        "湖光",
-                        "刘禹锡",
-                        "望洞庭",
-                        "秋月"
                 ]
         },
         {
@@ -23389,42 +14155,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_286",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤帆远影碧空尽，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "唯见长江天际流",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写长江。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "长江",
-                        "李白",
-                        "黄鹤楼送孟浩然之广陵",
-                        "天际"
-                ]
-        },
-        {
-                "id": "q_zk_286",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遥望洞庭山水翠，__________。（刘禹锡《望洞庭》）",
-                "options": [],
-                "answer": "白银盘里一青螺",
-                "explanation": "出自刘禹锡《望洞庭》，描写遥望。",
-                "poemId": "sup_033",
-                "knowledgePoints": [
-                        "遥望",
-                        "刘禹锡",
-                        "望洞庭",
-                        "青螺"
-                ]
-        },
-        {
                 "id": "q_chu1_286",
                 "type": "fill",
                 "grade": "chu1",
@@ -23438,43 +14168,6 @@ const QUESTIONS_DATA = [
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
-                ]
-        },
-        {
-                "id": "q_fbc_287",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天门中断楚江开，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "碧水东流至此回",
-                "explanation": "出自李白《望天门山》，描写碧水。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "碧水",
-                        "李白",
-                        "望天门山",
-                        "至此"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_287",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "自古逢秋悲寂寥，__________。（刘禹锡《秋词》）",
-                "options": [],
-                "answer": "我言秋日胜春朝",
-                "explanation": "出自刘禹锡《秋词》，描写逢秋。",
-                "poemId": "sup_332",
-                "knowledgePoints": [
-                        "逢秋",
-                        "刘禹锡",
-                        "秋词",
-                        "寂寥"
                 ]
         },
         {
@@ -23494,43 +14187,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_288",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两岸青山相对出，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "孤帆一片日边来",
-                "explanation": "出自李白《望天门山》，描写日边。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "日边",
-                        "李白",
-                        "望天门山",
-                        "相对"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_288",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "晴空一鹤排云上，__________。（刘禹锡《秋词》）",
-                "options": [],
-                "answer": "便引诗情到碧霄",
-                "explanation": "出自刘禹锡《秋词》，描写晴空。",
-                "poemId": "sup_332",
-                "knowledgePoints": [
-                        "晴空",
-                        "刘禹锡",
-                        "秋词",
-                        "排云"
-                ]
-        },
-        {
                 "id": "q_chu1_288",
                 "type": "fill",
                 "grade": "chu1",
@@ -23544,42 +14200,6 @@ const QUESTIONS_DATA = [
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
-                ]
-        },
-        {
-                "id": "q_fbc_289",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "峨眉山月半轮秋，__________。（李白《峨眉山月歌》）",
-                "options": [],
-                "answer": "影入平羌江水流",
-                "explanation": "出自李白《峨眉山月歌》，描写峨眉。",
-                "poemId": "sup_034",
-                "knowledgePoints": [
-                        "峨眉",
-                        "李白",
-                        "峨眉山月歌",
-                        "半轮"
-                ]
-        },
-        {
-                "id": "q_zk_289",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "折戟沉沙铁未销，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "自将磨洗认前朝",
-                "explanation": "出自杜牧《赤壁》，描写折戟沉。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "折戟沉",
-                        "杜牧",
-                        "赤壁",
-                        "前朝"
                 ]
         },
         {
@@ -23633,42 +14253,6 @@ const QUESTIONS_DATA = [
                         "词语"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_fbc_290",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夜发清溪向三峡，__________。（李白《峨眉山月歌》）",
-                "options": [],
-                "answer": "思君不见下渝州",
-                "explanation": "出自李白《峨眉山月歌》，描写清溪。",
-                "poemId": "sup_034",
-                "knowledgePoints": [
-                        "清溪",
-                        "李白",
-                        "峨眉山月歌",
-                        "三峡"
-                ]
-        },
-        {
-                "id": "q_zk_290",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "东风不与周郎便，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "铜雀春深锁二乔",
-                "explanation": "出自杜牧《赤壁》，描写东风不。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "东风不",
-                        "杜牧",
-                        "赤壁",
-                        "周郎"
-                ]
         },
         {
                 "id": "q_chu1_290",
@@ -23738,24 +14322,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "春夜洛城闻笛",
                         "暗飞"
-                ]
-        },
-        {
-                "id": "q_zk_291",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "清明时节雨纷纷，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "路上行人欲断魂",
-                "explanation": "出自杜牧《清明》，描写雨纷纷。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "雨纷纷",
-                        "杜牧",
-                        "清明",
-                        "行人"
                 ]
         },
         {
@@ -23829,24 +14395,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_292",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "借问酒家何处有，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "牧童遥指杏花村",
-                "explanation": "出自杜牧《清明》，描写借问酒。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "借问酒",
-                        "杜牧",
-                        "清明",
-                        "杏花"
-                ]
-        },
-        {
                 "id": "q_chu1_292",
                 "type": "fill",
                 "grade": "chu1",
@@ -23861,25 +14409,6 @@ const QUESTIONS_DATA = [
                         "初一",
                         "木兰诗"
                 ]
-        },
-        {
-                "id": "q_mk_293",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千山鸟飞绝，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "万径人踪灭",
-                "explanation": "出自柳宗元《江雪》，描写冬景。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "冬天",
-                        "柳宗元",
-                        "江雪",
-                        "雪景"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_293",
@@ -23897,24 +14426,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "月下独酌",
                         "一壶"
-                ]
-        },
-        {
-                "id": "q_zk_293",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千里莺啼绿映红，__________。（杜牧《江南春》）",
-                "options": [],
-                "answer": "水村山郭酒旗风",
-                "explanation": "出自杜牧《江南春》，描写千里莺。",
-                "poemId": "sup_234",
-                "knowledgePoints": [
-                        "千里莺",
-                        "杜牧",
-                        "江南春",
-                        "山郭"
                 ]
         },
         {
@@ -23970,24 +14481,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_294",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "南朝四百八十寺，__________。（杜牧《江南春》）",
-                "options": [],
-                "answer": "多少楼台烟雨中",
-                "explanation": "出自杜牧《江南春》，描写四百八。",
-                "poemId": "sup_234",
-                "knowledgePoints": [
-                        "四百八",
-                        "杜牧",
-                        "江南春",
-                        "楼台"
-                ]
-        },
-        {
                 "id": "q_chu1_294",
                 "type": "fill",
                 "grade": "chu1",
@@ -24002,25 +14495,6 @@ const QUESTIONS_DATA = [
                         "初一",
                         "泊秦淮"
                 ]
-        },
-        {
-                "id": "q_mk_295",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两个黄鹂鸣翠柳，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "一行白鹭上青天",
-                "explanation": "出自杜甫《绝句》，描写春景。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "春天",
-                        "杜甫",
-                        "绝句",
-                        "黄鹂"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_295",
@@ -24038,24 +14512,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "月下独酌",
                         "解饮"
-                ]
-        },
-        {
-                "id": "q_zk_295",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天街小雨润如酥，__________。（韩愈《早春呈水部张十八员外》）",
-                "options": [],
-                "answer": "草色遥看近却无",
-                "explanation": "出自韩愈《早春呈水部张十八员外》，描写天街。",
-                "poemId": "sup_221",
-                "knowledgePoints": [
-                        "天街",
-                        "韩愈",
-                        "早春呈水部张十八员外",
-                        "润如酥"
                 ]
         },
         {
@@ -24111,60 +14567,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_296",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "最是一年春好处，__________。（韩愈《早春呈水部张十八员外》）",
-                "options": [],
-                "answer": "绝胜烟柳满皇都",
-                "explanation": "出自韩愈《早春呈水部张十八员外》，描写最是一年。",
-                "poemId": "sup_221",
-                "knowledgePoints": [
-                        "最是一年",
-                        "韩愈",
-                        "早春呈水部张十八员外",
-                        "烟柳"
-                ]
-        },
-        {
-                "id": "q_chu1_296",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "箫鼓追随春社近，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "衣冠简朴古风存",
-                "explanation": "出自游山西村。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "初一",
-                        "游山西村"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_297",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "泥融飞燕子，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "沙暖睡鸳鸯",
-                "explanation": "出自杜甫《绝句》，描写春燕。",
-                "poemId": "sup_353",
-                "knowledgePoints": [
-                        "燕子",
-                        "杜甫",
-                        "绝句",
-                        "鸳鸯"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_297",
                 "type": "fill",
                 "grade": "fbc",
@@ -24180,24 +14582,6 @@ const QUESTIONS_DATA = [
                         "苏轼",
                         "书戴贯货",
                         "沙丘"
-                ]
-        },
-        {
-                "id": "q_zk_297",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "云横秦岭家何在？__________。（韩愈《左迁至蓝关示侄孙湘》）",
-                "options": [],
-                "answer": "雪拥蓝关马不前",
-                "explanation": "出自韩愈《左迁至蓝关示侄孙湘》，描写云横。",
-                "poemId": "sup_182",
-                "knowledgePoints": [
-                        "云横",
-                        "韩愈",
-                        "左迁至蓝关示侄孙湘",
-                        "秦岭"
                 ]
         },
         {
@@ -24217,25 +14601,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_298",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "西塞山前白鹭飞，__________。（张志和《渔歌子》）",
-                "options": [],
-                "answer": "桃花流水鳜鱼肥",
-                "explanation": "出自张志和《渔歌子》，描写春景。",
-                "poemId": "sup_218",
-                "knowledgePoints": [
-                        "春天",
-                        "张志和",
-                        "渔歌子",
-                        "桃花"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_298",
                 "type": "fill",
                 "grade": "fbc",
@@ -24251,24 +14616,6 @@ const QUESTIONS_DATA = [
                         "苏轼",
                         "书戴贯货",
                         "悲秋"
-                ]
-        },
-        {
-                "id": "q_zk_298",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "知汝远来应有意，__________。（韩愈《左迁至蓝关示侄孙湘》）",
-                "options": [],
-                "answer": "好收吾骨瘴江边",
-                "explanation": "出自韩愈《左迁至蓝关示侄孙湘》，描写知汝。",
-                "poemId": "sup_182",
-                "knowledgePoints": [
-                        "知汝",
-                        "韩愈",
-                        "左迁至蓝关示侄孙湘",
-                        "吾骨"
                 ]
         },
         {
@@ -24306,43 +14653,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_299",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫笑农家腊酒浑，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "丰年留客足鸡豚",
-                "explanation": "出自陆游《游山西村》，描写农家腊。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "腊酒",
-                        "陆游",
-                        "游山西村",
-                        "鸡豚"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_299",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "空山新雨后，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "天气晚来秋",
-                "explanation": "出自王维《山居秋暝》，描写空山新。",
-                "poemId": "sup_108",
-                "knowledgePoints": [
-                        "空山新",
-                        "王维",
-                        "山居秋暝",
-                        "天气"
-                ]
-        },
-        {
                 "id": "q_chu1_299",
                 "type": "fill",
                 "grade": "chu1",
@@ -24356,62 +14666,6 @@ const QUESTIONS_DATA = [
                 "knowledgePoints": [
                         "初一",
                         "渔家傲"
-                ]
-        },
-        {
-                "id": "q_mk_300",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日出江花红胜火，__________。（白居易《忆江南》）",
-                "options": [],
-                "answer": "春来江水绿如蓝",
-                "explanation": "出自白居易《忆江南》，描写春景。",
-                "poemId": "sup_226",
-                "knowledgePoints": [
-                        "春天",
-                        "白居易",
-                        "忆江南",
-                        "江水"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_300",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山重水复疑无路，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "柳暗花明又一村",
-                "explanation": "出自陆游《游山西村》，描写山重水。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "山重",
-                        "陆游",
-                        "游山西村",
-                        "花明"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_300",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月松间照，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "清泉石上流",
-                "explanation": "出自王维《山居秋暝》，描写明月松。",
-                "poemId": "sup_108",
-                "knowledgePoints": [
-                        "明月松",
-                        "王维",
-                        "山居秋暝",
-                        "清泉"
                 ]
         },
         {
@@ -24449,44 +14703,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_301",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "青海长云暗雪山，__________。（王昌龄《从军行》）",
-                "options": [],
-                "answer": "孤城遥望玉门关",
-                "explanation": "出自王昌龄《从军行》，描写青海。",
-                "poemId": "sup_012",
-                "knowledgePoints": [
-                        "青海",
-                        "王昌龄",
-                        "从军行",
-                        "长云"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_301",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "竹喧归浣女，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "莲动下渔舟",
-                "explanation": "出自王维《山居秋暝》，描写竹喧归。",
-                "poemId": "sup_313",
-                "knowledgePoints": [
-                        "竹喧归",
-                        "王维",
-                        "山居秋暝",
-                        "渔舟"
-                ],
-                "poetryType": false
-        },
-        {
                 "id": "q_chu1_301",
                 "type": "fill",
                 "grade": "chu1",
@@ -24518,43 +14734,6 @@ const QUESTIONS_DATA = [
                         "韩愈",
                         "春雪",
                         "春色"
-                ]
-        },
-        {
-                "id": "q_fbc_302",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄沙百战穿金甲，__________。（王昌龄《从军行》）",
-                "options": [],
-                "answer": "不破楼兰终不还",
-                "explanation": "出自王昌龄《从军行》，描写黄沙。",
-                "poemId": "sup_012",
-                "knowledgePoints": [
-                        "黄沙",
-                        "王昌龄",
-                        "从军行",
-                        "金甲"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_302",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "随意春芳歇，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "王孙自可留",
-                "explanation": "出自王维《山居秋暝》，描写随意春。",
-                "poemId": "sup_313",
-                "knowledgePoints": [
-                        "随意春",
-                        "王维",
-                        "山居秋暝",
-                        "王孙"
                 ]
         },
         {
@@ -24592,24 +14771,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_303",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "关关雎鸠，在河之洲。__________，君子好逑。（《诗经·关雎》）",
-                "options": [],
-                "answer": "窈窕淑女",
-                "explanation": "出自无名氏《诗经·关雎》，描写窈窕。",
-                "poemId": "sup_122",
-                "knowledgePoints": [
-                        "窈窕",
-                        "无名氏",
-                        "诗经·关雎",
-                        "好逑"
-                ]
-        },
-        {
                 "id": "q_chu1_303",
                 "type": "fill",
                 "grade": "chu1",
@@ -24641,24 +14802,6 @@ const QUESTIONS_DATA = [
                         "韩愈",
                         "晚春",
                         "雪飞"
-                ]
-        },
-        {
-                "id": "q_zk_304",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "蒹葭苍苍，__________。（《诗经·蒹葭》）",
-                "options": [],
-                "answer": "白露为霜",
-                "explanation": "出自无名氏《诗经·蒹葭》，描写白露为。",
-                "poemId": "sup_123",
-                "knowledgePoints": [
-                        "白露为",
-                        "无名氏",
-                        "诗经·蒹葭",
-                        "为霜"
                 ]
         },
         {
@@ -24696,43 +14839,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_305",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "秦时明月汉时关，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "万里长征人未还",
-                "explanation": "出自王昌龄《出塞》，描写秦时。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "秦时",
-                        "王昌龄",
-                        "出塞",
-                        "长征"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_305",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "求之不得，__________。（《诗经·关雎》）",
-                "options": [],
-                "answer": "寤寐思服",
-                "explanation": "出自无名氏《诗经·关雎》，描写寤寐。",
-                "poemId": "sup_poetry_new_003",
-                "knowledgePoints": [
-                        "寤寐",
-                        "无名氏",
-                        "诗经·关雎",
-                        "思服"
-                ]
-        },
-        {
                 "id": "q_chu1_305",
                 "type": "fill",
                 "grade": "chu1",
@@ -24765,25 +14871,6 @@ const QUESTIONS_DATA = [
                         "大林寺桃花",
                         "寻觅"
                 ]
-        },
-        {
-                "id": "q_fbc_306",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "但使龙城飞将在，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "不教胡马度阴山",
-                "explanation": "出自王昌龄《出塞》，描写龙城。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "龙城",
-                        "王昌龄",
-                        "出塞",
-                        "阴山"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_306",
@@ -24945,23 +15032,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_308",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月下飞天镜，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "云生结海楼",
-                "explanation": "出自渡荆门送别。",
-                "poemId": "sup_300",
-                "knowledgePoints": [
-                        "初一",
-                        "渡荆门送别"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_309",
                 "type": "fill",
                 "grade": "mk",
@@ -24978,25 +15048,6 @@ const QUESTIONS_DATA = [
                         "登科后",
                         "长安"
                 ]
-        },
-        {
-                "id": "q_fbc_309",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "闺中少妇不知愁，__________。（王昌龄《闺怨》）",
-                "options": [],
-                "answer": "春日凝妆上翠楼",
-                "explanation": "出自王昌龄《闺怨》，描写闺中。",
-                "poemId": "sup_097",
-                "knowledgePoints": [
-                        "闺中",
-                        "王昌龄",
-                        "闺怨",
-                        "凝妆"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_309",
@@ -25017,23 +15068,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_309",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "仍怜故乡水，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "万里送行舟",
-                "explanation": "出自渡荆门送别。",
-                "poemId": "sup_300",
-                "knowledgePoints": [
-                        "初一",
-                        "渡荆门送别"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_310",
                 "type": "fill",
                 "grade": "mk",
@@ -25050,25 +15084,6 @@ const QUESTIONS_DATA = [
                         "游子吟",
                         "线"
                 ]
-        },
-        {
-                "id": "q_fbc_310",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "忽见陌头杨柳色，__________。（王昌龄《闺怨》）",
-                "options": [],
-                "answer": "悔教夫婿觅封侯",
-                "explanation": "出自王昌龄《闺怨》，描写陌头。",
-                "poemId": "sup_097",
-                "knowledgePoints": [
-                        "陌头",
-                        "王昌龄",
-                        "闺怨",
-                        "杨柳"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_310",
@@ -25105,44 +15120,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_311",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "慈母手中线，__________。（孟郊《游子吟》）",
-                "options": [],
-                "answer": "游子身上衣",
-                "explanation": "出自孟郊《游子吟》，描写母亲。",
-                "poemId": "sup_161",
-                "knowledgePoints": [
-                        "母爱",
-                        "孟郊",
-                        "游子吟",
-                        "母亲"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_311",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "奉帚平明金殿开，__________。（王昌龄《长信秋词》）",
-                "options": [],
-                "answer": "且将团扇共徘徊",
-                "explanation": "出自王昌龄《长信秋词》，描写奉帚。",
-                "poemId": "sup_poetry_new_015",
-                "knowledgePoints": [
-                        "奉帚",
-                        "王昌龄",
-                        "长信秋词",
-                        "团扇"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_311",
                 "type": "fill",
                 "grade": "zk",
@@ -25159,61 +15136,6 @@ const QUESTIONS_DATA = [
                         "白雪歌送武判官归京",
                         "惨淡"
                 ]
-        },
-        {
-                "id": "q_chu1_311",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烽火连三月，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "家书抵万金",
-                "explanation": "出自春望。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "初一",
-                        "春望"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_312",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "临行密密缝，__________。（孟郊《游子吟》）",
-                "options": [],
-                "answer": "意恐迟迟归",
-                "explanation": "出自孟郊《游子吟》，描写母亲。",
-                "poemId": "sup_161",
-                "knowledgePoints": [
-                        "母爱",
-                        "孟郊",
-                        "游子吟",
-                        "担心"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_312",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "金井梧桐秋叶黄，__________。（王昌龄《长信秋词》）",
-                "options": [],
-                "answer": "珠帘不卷夜来霜",
-                "explanation": "出自王昌龄《长信秋词》，描写金井。",
-                "poemId": "sup_poetry_new_015",
-                "knowledgePoints": [
-                        "金井",
-                        "王昌龄",
-                        "长信秋词",
-                        "秋叶"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_312",
@@ -25233,61 +15155,6 @@ const QUESTIONS_DATA = [
                         "琵琶"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_chu1_312",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白头搔更短，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "浑欲不胜簪",
-                "explanation": "出自春望。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "初一",
-                        "春望"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_313",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "谁言寸草心，__________。（孟郊《游子吟》）",
-                "options": [],
-                "answer": "报得三春晖",
-                "explanation": "出自孟郊《游子吟》，描写母爱。",
-                "poemId": "sup_161",
-                "knowledgePoints": [
-                        "母爱",
-                        "孟郊",
-                        "游子吟",
-                        "报答"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_313",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "熏笼玉枕无颜色，__________。（王昌龄《长信秋词》）",
-                "options": [],
-                "answer": "卧听南宫清漏长",
-                "explanation": "出自王昌龄《长信秋词》，描写熏笼。",
-                "poemId": "sup_poetry_new_015",
-                "knowledgePoints": [
-                        "熏笼",
-                        "王昌龄",
-                        "长信秋词",
-                        "玉枕"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_zk_313",
@@ -25342,25 +15209,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_314",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "真成薄命久寻思，__________。（杜牧《宫怨》）",
-                "options": [],
-                "answer": "梦见君王觉后疑",
-                "explanation": "出自杜牧《宫怨》，描写薄命。",
-                "poemId": "sup_poetry_new_021",
-                "knowledgePoints": [
-                        "薄命",
-                        "杜牧",
-                        "宫怨",
-                        "寻思"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_zk_314",
                 "type": "fill",
                 "grade": "zk",
@@ -25377,23 +15225,6 @@ const QUESTIONS_DATA = [
                         "白雪歌送武判官归京",
                         "天山"
                 ]
-        },
-        {
-                "id": "q_chu1_314",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "会当凌绝顶，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "一览众山小",
-                "explanation": "出自望岳。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "初一",
-                        "望岳"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_315",
@@ -25448,23 +15279,6 @@ const QUESTIONS_DATA = [
                         "白雪歌送武判官归京",
                         "铁衣"
                 ]
-        },
-        {
-                "id": "q_chu1_315",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "大漠孤烟直，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "长河落日圆",
-                "explanation": "出自使至塞上。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "初一",
-                        "使至塞上"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_316",
@@ -25537,25 +15351,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_317",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "泥融飞燕子，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "沙暖睡鸳鸯",
-                "explanation": "出自杜甫《绝句》，描写燕子。",
-                "poemId": "sup_353",
-                "knowledgePoints": [
-                        "燕子",
-                        "杜甫",
-                        "绝句",
-                        "鸳鸯"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_317",
                 "type": "fill",
                 "grade": "fbc",
@@ -25590,42 +15385,6 @@ const QUESTIONS_DATA = [
                         "白雪歌送武判官归京",
                         "秋色"
                 ]
-        },
-        {
-                "id": "q_chu1_317",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "采菊东篱下，__________。（陶渊明《饮酒》）",
-                "options": [],
-                "answer": "悠然见南山",
-                "explanation": "出自饮酒。",
-                "poemId": "sup_126",
-                "knowledgePoints": [
-                        "初一",
-                        "饮酒"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_318",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "江碧鸟逾白，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "山青花欲燃",
-                "explanation": "出自杜甫《绝句》，描写江景。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "江",
-                        "杜甫",
-                        "绝句",
-                        "山青"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_318",
@@ -25716,41 +15475,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_319",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今夜鄜州月，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "闺中只独看",
-                "explanation": "出自杜甫《月夜》，描写今夜鄜。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "今夜鄜",
-                        "杜甫",
-                        "月夜",
-                        "独看"
-                ]
-        },
-        {
-                "id": "q_chu1_319",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海内存知己，__________。（王勃《送杜少府之任蜀州》）",
-                "options": [],
-                "answer": "天涯若比邻",
-                "explanation": "出自送杜少府之任蜀州。",
-                "poemId": "poem_009",
-                "knowledgePoints": [
-                        "初一",
-                        "送杜少府之任蜀州"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_320",
                 "type": "fill",
                 "grade": "mk",
@@ -25787,41 +15511,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_320",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遥怜小儿女，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "未解忆长安",
-                "explanation": "出自杜甫《月夜》，描写遥怜小。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "遥怜小",
-                        "杜甫",
-                        "月夜",
-                        "小儿女"
-                ]
-        },
-        {
-                "id": "q_chu1_320",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天街小雨润如酥，__________。（韩愈《早春呈水部张十八员外》）",
-                "options": [],
-                "answer": "草色遥看近却无",
-                "explanation": "出自早春呈水部张十八员外。",
-                "poemId": "sup_221",
-                "knowledgePoints": [
-                        "初一",
-                        "早春呈水部张十八员外"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_321",
                 "type": "fill",
                 "grade": "mk",
@@ -25840,60 +15529,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_321",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独坐幽篁里，__________。（王维《竹里馆》）",
-                "options": [],
-                "answer": "弹琴复长啸",
-                "explanation": "出自王维《竹里馆》，描写独坐。",
-                "poemId": "sup_023",
-                "knowledgePoints": [
-                        "独坐",
-                        "王维",
-                        "竹里馆",
-                        "幽篁"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_321",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "香雾云鬟湿，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "清辉玉臂寒",
-                "explanation": "出自杜甫《月夜》，描写香雾云。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "香雾云",
-                        "杜甫",
-                        "月夜",
-                        "玉臂"
-                ]
-        },
-        {
-                "id": "q_chu1_321",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "最是一年春好处，__________。（韩愈《早春呈水部张十八员外》）",
-                "options": [],
-                "answer": "绝胜烟柳满皇都",
-                "explanation": "出自早春呈水部张十八员外。",
-                "poemId": "sup_221",
-                "knowledgePoints": [
-                        "初一",
-                        "早春呈水部张十八员外"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_322",
                 "type": "fill",
                 "grade": "mk",
@@ -25909,43 +15544,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "登高",
                         "霜鬓"
-                ]
-        },
-        {
-                "id": "q_fbc_322",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "深林人不知，__________。（王维《竹里馆》）",
-                "options": [],
-                "answer": "明月来相照",
-                "explanation": "出自王维《竹里馆》，描写深林。",
-                "poemId": "sup_023",
-                "knowledgePoints": [
-                        "深林",
-                        "王维",
-                        "竹里馆",
-                        "相照"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_322",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "何时倚虚幌，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "双照泪痕干",
-                "explanation": "出自杜甫《月夜》，描写何时倚。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "何时倚",
-                        "杜甫",
-                        "月夜",
-                        "泪痕"
                 ]
         },
         {
@@ -25983,97 +15581,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_323",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "荆溪白石出，__________。（王维《山中》）",
-                "options": [],
-                "answer": "天寒红叶稀",
-                "explanation": "出自王维《山中》，描写荆溪。",
-                "poemId": "sup_390",
-                "knowledgePoints": [
-                        "荆溪",
-                        "王维",
-                        "山中",
-                        "白石"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_323",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "岐王宅里寻常见，__________。（杜甫《江南逢李龟年》）",
-                "options": [],
-                "answer": "崔九堂前几度闻",
-                "explanation": "出自杜甫《江南逢李龟年》，描写岐王宅。",
-                "poemId": "sup_036",
-                "knowledgePoints": [
-                        "岐王宅",
-                        "杜甫",
-                        "江南逢李龟年",
-                        "寻常"
-                ]
-        },
-        {
-                "id": "q_chu1_323",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
-                "options": [],
-                "answer": "不亦君子乎",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_324",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "无边落木萧萧下，__________。（杜甫《登高》）",
-                "options": [],
-                "answer": "不尽长江滚滚来",
-                "explanation": "出自杜甫《登高》，描写长江。",
-                "poemId": "sup_387",
-                "knowledgePoints": [
-                        "长江",
-                        "杜甫",
-                        "登高",
-                        "落木"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_324",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山路元无雨，__________。（王维《山中》）",
-                "options": [],
-                "answer": "空翠湿人衣",
-                "explanation": "出自王维《山中》，描写山路。",
-                "poemId": "sup_390",
-                "knowledgePoints": [
-                        "山路",
-                        "王维",
-                        "山中",
-                        "空翠"
-                ]
-        },
-        {
                 "id": "q_zk_324",
                 "type": "fill",
                 "grade": "zk",
@@ -26092,225 +15599,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_324",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：温故而知新，可以为师矣。",
-                "options": [],
-                "answer": "温故而知新",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_mk_325",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "万里悲秋常作客，__________。（杜甫《登高》）",
-                "options": [],
-                "answer": "百年多病独登台",
-                "explanation": "出自杜甫《登高》，描写思乡。",
-                "poemId": "sup_387",
-                "knowledgePoints": [
-                        "思乡",
-                        "杜甫",
-                        "登高",
-                        "百年"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_325",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "苍苍竹林寺，__________。（刘长卿《送灵澈上人》）",
-                "options": [],
-                "answer": "杳杳钟声晚",
-                "explanation": "出自刘长卿《送灵澈上人》，描写竹林寺。",
-                "poemId": "sup_091",
-                "knowledgePoints": [
-                        "竹林寺",
-                        "刘长卿",
-                        "送灵澈上人",
-                        "钟声"
-                ]
-        },
-        {
-                "id": "q_zk_325",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "好雨知时节，当春乃发生。__________，润物细无声。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "随风潜入夜",
-                "explanation": "出自杜甫《春夜喜雨》，描写好雨知。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "好雨知",
-                        "杜甫",
-                        "春夜喜雨",
-                        "时节"
-                ]
-        },
-        {
-                "id": "q_chu1_325",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：学而不思则罔，思而不学则殆。",
-                "options": [],
-                "answer": "学而不思则罔，思而不学则殆",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_mk_326",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "好雨知时节，__________。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "当春乃发生",
-                "explanation": "出自杜甫《春夜喜雨》，描写春雨。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "春雨",
-                        "杜甫",
-                        "春夜喜雨",
-                        "时节"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_326",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "荷笠带斜阳，__________。（刘长卿《送灵澈上人》）",
-                "options": [],
-                "answer": "青山独归远",
-                "explanation": "出自刘长卿《送灵澈上人》，描写荷笠。",
-                "poemId": "sup_091",
-                "knowledgePoints": [
-                        "荷笠",
-                        "刘长卿",
-                        "送灵澈上人",
-                        "斜阳"
-                ]
-        },
-        {
-                "id": "q_zk_326",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野径云俱黑，__________。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "江船火独明",
-                "explanation": "出自杜甫《春夜喜雨》，描写野径云。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "野径云",
-                        "杜甫",
-                        "春夜喜雨",
-                        "火独"
-                ]
-        },
-        {
-                "id": "q_chu1_326",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：知之者不如好之者，好之者不如乐之者。",
-                "options": [],
-                "answer": "好之者不如乐之者",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_mk_327",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野径云俱黑，__________。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "江船火独明",
-                "explanation": "出自杜甫《春夜喜雨》，描写夜景。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "夜景",
-                        "杜甫",
-                        "春夜喜雨",
-                        "江船"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_327",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "泠泠七弦上，__________。（刘长卿《弹琴》）",
-                "options": [],
-                "answer": "静听松风寒",
-                "explanation": "出自刘长卿《弹琴》，描写七弦。",
-                "poemId": "sup_179",
-                "knowledgePoints": [
-                        "七弦",
-                        "刘长卿",
-                        "弹琴",
-                        "松风"
-                ]
-        },
-        {
-                "id": "q_zk_327",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "晓看红湿处，__________。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "花重锦官城",
-                "explanation": "出自杜甫《春夜喜雨》，描写晓看红。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "晓看红",
-                        "杜甫",
-                        "春夜喜雨",
-                        "锦官"
-                ]
-        },
-        {
                 "id": "q_chu1_327",
                 "type": "fill",
                 "grade": "chu1",
@@ -26326,133 +15614,6 @@ const QUESTIONS_DATA = [
                         "论语"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_mk_328",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "晓看红湿处，__________。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "花重锦官城",
-                "explanation": "出自杜甫《春夜喜雨》，描写花。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "花",
-                        "杜甫",
-                        "春夜喜雨",
-                        "锦官城"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_328",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "古调虽自爱，__________。（刘长卿《弹琴》）",
-                "options": [],
-                "answer": "今人多不弹",
-                "explanation": "出自刘长卿《弹琴》，描写古调。",
-                "poemId": "sup_179",
-                "knowledgePoints": [
-                        "古调",
-                        "刘长卿",
-                        "弹琴",
-                        "自爱"
-                ]
-        },
-        {
-                "id": "q_zk_328",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "岱宗夫如何？__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "齐鲁青未了",
-                "explanation": "出自杜甫《望岳》，描写岱宗夫。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "岱宗夫",
-                        "杜甫",
-                        "望岳",
-                        "青未"
-                ]
-        },
-        {
-                "id": "q_chu1_328",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：见贤思齐焉，见不贤而内自省也。",
-                "options": [],
-                "answer": "见不贤而内自省也",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_329",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "随风潜入夜，__________。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "润物细无声",
-                "explanation": "出自杜甫《春夜喜雨》，描写春雨。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "春雨",
-                        "杜甫",
-                        "春夜喜雨",
-                        "润物"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_329",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日暮苍山远，__________。（刘长卿《逢雪宿芙蓉山主人》）",
-                "options": [],
-                "answer": "天寒白屋贫",
-                "explanation": "出自刘长卿《逢雪宿芙蓉山主人》，描写日暮。",
-                "poemId": "sup_090",
-                "knowledgePoints": [
-                        "日暮",
-                        "刘长卿",
-                        "逢雪宿芙蓉山主人",
-                        "苍山"
-                ]
-        },
-        {
-                "id": "q_zk_329",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "造化钟神秀，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "阴阳割昏晓",
-                "explanation": "出自杜甫《望岳》，描写造化钟。",
-                "poemId": "sup_129",
-                "knowledgePoints": [
-                        "造化钟",
-                        "杜甫",
-                        "望岳",
-                        "神秀"
-                ]
         },
         {
                 "id": "q_chu1_329",
@@ -26490,151 +15651,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_330",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "柴门闻犬吠，__________。（刘长卿《逢雪宿芙蓉山主人》）",
-                "options": [],
-                "answer": "风雪夜归人",
-                "explanation": "出自刘长卿《逢雪宿芙蓉山主人》，描写柴门。",
-                "poemId": "sup_090",
-                "knowledgePoints": [
-                        "柴门",
-                        "刘长卿",
-                        "逢雪宿芙蓉山主人",
-                        "犬吠"
-                ]
-        },
-        {
-                "id": "q_zk_330",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "荡胸生曾云，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "决眦入归鸟",
-                "explanation": "出自杜甫《望岳》，描写荡胸生。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "荡胸生",
-                        "杜甫",
-                        "望岳",
-                        "曾云"
-                ]
-        },
-        {
-                "id": "q_chu1_330",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "东临碣石，以观沧海。水何澹澹，__________。（曹操《观沧海》）",
-                "options": [],
-                "answer": "山岛竦峙",
-                "explanation": "出自观沧海。",
-                "poemId": "sup_125",
-                "knowledgePoints": [
-                        "初一",
-                        "观沧海"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_331",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "泉眼无声惜细流，__________。（杨万里《小池》）",
-                "options": [],
-                "answer": "树阴照水爱晴柔",
-                "explanation": "出自杨万里《小池》，描写小池。",
-                "poemId": "sup_079",
-                "knowledgePoints": [
-                        "小池",
-                        "杨万里",
-                        "小池",
-                        "晴柔"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_331",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山暝听猿愁，__________。（孟浩然《宿桐庐江寄广陵旧游》）",
-                "options": [],
-                "answer": "沧江急夜流",
-                "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写沧江。",
-                "poemId": "sup_poetry_new_031",
-                "knowledgePoints": [
-                        "沧江",
-                        "孟浩然",
-                        "宿桐庐江寄广陵旧游",
-                        "急夜"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_331",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "会当凌绝顶，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "一览众山小",
-                "explanation": "出自杜甫《望岳》，描写会当凌。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "会当凌",
-                        "杜甫",
-                        "望岳",
-                        "绝顶"
-                ]
-        },
-        {
-                "id": "q_chu1_331",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日月之行，若出其中；__________，若出其里。（曹操《观沧海》）",
-                "options": [],
-                "answer": "星汉灿烂",
-                "explanation": "出自观沧海。",
-                "poemId": "sup_125",
-                "knowledgePoints": [
-                        "初一",
-                        "观沧海"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_332",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "小荷才露尖尖角，__________。（杨万里《小池》）",
-                "options": [],
-                "answer": "早有蜻蜓立上头",
-                "explanation": "出自杨万里《小池》，描写蜻蜓。",
-                "poemId": "sup_079",
-                "knowledgePoints": [
-                        "蜻蜓",
-                        "杨万里",
-                        "小池",
-                        "荷花"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_332",
                 "type": "fill",
                 "grade": "fbc",
@@ -26651,61 +15667,6 @@ const QUESTIONS_DATA = [
                         "宿建德江",
                         "维扬"
                 ]
-        },
-        {
-                "id": "q_zk_332",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "更深月色半人家，__________。（刘方平《月夜》）",
-                "options": [],
-                "answer": "北斗阑干南斗斜",
-                "explanation": "出自刘方平《月夜》，描写月色半。",
-                "poemId": "sup_345",
-                "knowledgePoints": [
-                        "月色半",
-                        "刘方平",
-                        "月夜",
-                        "斜"
-                ]
-        },
-        {
-                "id": "q_chu1_332",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "客路青山外，行舟绿水前。__________，风正一帆悬。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "潮平两岸阔",
-                "explanation": "出自次北固山下。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "初一",
-                        "次北固山下"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_333",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "毕竟西湖六月中，__________。（杨万里《晓出净慈寺送林子方》）",
-                "options": [],
-                "answer": "风光不与四时同",
-                "explanation": "出自杨万里《晓出净慈寺送林子方》，描写西湖。",
-                "poemId": "sup_078",
-                "knowledgePoints": [
-                        "西湖",
-                        "杨万里",
-                        "晓出净慈寺送林子方",
-                        "风光"
-                ],
-                "poetryType": false,
-                "deleted": true
         },
         {
                 "id": "q_fbc_333",
@@ -26726,60 +15687,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_333",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今夜偏知春气暖，__________。（刘方平《月夜》）",
-                "options": [],
-                "answer": "虫声新透绿窗纱",
-                "explanation": "出自刘方平《月夜》，描写春气暖。",
-                "poemId": "sup_345",
-                "knowledgePoints": [
-                        "春气暖",
-                        "刘方平",
-                        "月夜",
-                        "新透"
-                ]
-        },
-        {
-                "id": "q_chu1_333",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海日生残夜，__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "江春入旧年",
-                "explanation": "出自次北固山下。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "初一",
-                        "次北固山下"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_334",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "接天莲叶无穷碧，__________。（杨万里《晓出净慈寺送林子方》）",
-                "options": [],
-                "answer": "映日荷花别样红",
-                "explanation": "出自杨万里《晓出净慈寺送林子方》，描写荷花。",
-                "poemId": "sup_078",
-                "knowledgePoints": [
-                        "荷花",
-                        "杨万里",
-                        "晓出净慈寺送林子方",
-                        "莲叶"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_334",
                 "type": "fill",
                 "grade": "fbc",
@@ -26798,41 +15705,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_334",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "回乐烽前沙似雪，__________。（李益《夜上受降城闻笛》）",
-                "options": [],
-                "answer": "受降城外月如霜",
-                "explanation": "出自李益《夜上受降城闻笛》，描写沙似雪。",
-                "poemId": "sup_340",
-                "knowledgePoints": [
-                        "沙似雪",
-                        "李益",
-                        "夜上受降城闻笛",
-                        "如霜"
-                ]
-        },
-        {
-                "id": "q_chu1_334",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤山寺北贾亭西，水面初平云脚低。几处早莺争暖树，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "谁家新燕啄春泥",
-                "explanation": "出自钱塘湖春行。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "初一",
-                        "钱塘湖春行"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_335",
                 "type": "fill",
                 "grade": "mk",
@@ -26849,60 +15721,6 @@ const QUESTIONS_DATA = [
                         "宿新市徐公店",
                         "花落"
                 ]
-        },
-        {
-                "id": "q_fbc_335",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "垂钓坐磐石，__________。（孟浩然《万山潭作》）",
-                "options": [],
-                "answer": "水清心矣闲",
-                "explanation": "出自孟浩然《万山潭作》，描写水清。",
-                "poemId": "sup_190",
-                "knowledgePoints": [
-                        "水清",
-                        "孟浩然",
-                        "万山潭作",
-                        "心矣"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_335",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不知何处吹芦管，__________。（李益《夜上受降城闻笛》）",
-                "options": [],
-                "answer": "一夜征人尽望乡",
-                "explanation": "出自李益《夜上受降城闻笛》，描写一夜征。",
-                "poemId": "sup_340",
-                "knowledgePoints": [
-                        "一夜征",
-                        "李益",
-                        "夜上受降城闻笛",
-                        "望乡"
-                ]
-        },
-        {
-                "id": "q_chu1_335",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "乱花渐欲迷人眼，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "浅草才能没马蹄",
-                "explanation": "出自钱塘湖春行。",
-                "poemId": "sup_131",
-                "knowledgePoints": [
-                        "初一",
-                        "钱塘湖春行"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_336",
@@ -26941,41 +15759,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_336",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独怜幽草涧边生，__________。（韦应物《滁州西涧》）",
-                "options": [],
-                "answer": "上有黄鹂深树鸣",
-                "explanation": "出自韦应物《滁州西涧》，描写幽草涧。",
-                "poemId": "sup_217",
-                "knowledgePoints": [
-                        "幽草涧",
-                        "韦应物",
-                        "滁州西涧",
-                        "黄鹂"
-                ]
-        },
-        {
-                "id": "q_chu1_336",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "最爱湖东行不足，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "绿杨阴里白沙堤",
-                "explanation": "出自钱塘湖春行。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "初一",
-                        "钱塘湖春行"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_337",
                 "type": "fill",
                 "grade": "mk",
@@ -26992,60 +15775,6 @@ const QUESTIONS_DATA = [
                         "舟过安仁",
                         "渔船"
                 ]
-        },
-        {
-                "id": "q_fbc_337",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "空山新雨后，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "天气晚来秋",
-                "explanation": "出自王维《山居秋暝》，描写空山。",
-                "poemId": "sup_108",
-                "knowledgePoints": [
-                        "空山",
-                        "王维",
-                        "山居秋暝",
-                        "新雨"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_337",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春潮带雨晚来急，__________。（韦应物《滁州西涧》）",
-                "options": [],
-                "answer": "野渡无人舟自横",
-                "explanation": "出自韦应物《滁州西涧》，描写无人舟。",
-                "poemId": "sup_217",
-                "knowledgePoints": [
-                        "无人舟",
-                        "韦应物",
-                        "滁州西涧",
-                        "自横"
-                ]
-        },
-        {
-                "id": "q_chu1_337",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月别枝惊鹊，__________。（辛弃疾《西江月》）",
-                "options": [],
-                "answer": "听取蛙声一片",
-                "explanation": "出自西江月。",
-                "poemId": "sup_310",
-                "knowledgePoints": [
-                        "初一",
-                        "西江月"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_338",
@@ -27066,61 +15795,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_338",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月松间照，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "清泉石上流",
-                "explanation": "出自王维《山居秋暝》，描写明月。",
-                "poemId": "sup_108",
-                "knowledgePoints": [
-                        "明月",
-                        "王维",
-                        "山居秋暝",
-                        "清泉"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_338",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今夜鄜州月，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "闺中只独看",
-                "explanation": "出自杜甫《月夜》，描写闺中只。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "闺中只",
-                        "杜甫",
-                        "月夜",
-                        "独看"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_338",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "稻花香里说丰年，__________。（辛弃疾《西江月》）",
-                "options": [],
-                "answer": "听取蛙声一片",
-                "explanation": "出自西江月。",
-                "poemId": "sup_310",
-                "knowledgePoints": [
-                        "初一",
-                        "西江月"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_339",
                 "type": "fill",
                 "grade": "mk",
@@ -27137,62 +15811,6 @@ const QUESTIONS_DATA = [
                         "渭川田家",
                         "相见"
                 ]
-        },
-        {
-                "id": "q_fbc_339",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "竹喧归浣女，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "莲动下渔舟",
-                "explanation": "出自王维《山居秋暝》，描写竹喧。",
-                "poemId": "sup_313",
-                "knowledgePoints": [
-                        "竹喧",
-                        "王维",
-                        "山居秋暝",
-                        "浣女"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_zk_339",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遥怜小儿女，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "未解忆长安",
-                "explanation": "出自杜甫《月夜》，描写小儿女。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "小儿女",
-                        "杜甫",
-                        "月夜",
-                        "忆长安"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_339",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "七八个星天外，__________。（辛弃疾《西江月》）",
-                "options": [],
-                "answer": "两三点雨山前",
-                "explanation": "出自西江月。",
-                "poemId": "sup_310",
-                "knowledgePoints": [
-                        "初一",
-                        "西江月"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_340",
@@ -27213,80 +15831,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_340",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "随意春芳歇，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "王孙自可留",
-                "explanation": "出自王维《山居秋暝》，描写随意。",
-                "poemId": "sup_313",
-                "knowledgePoints": [
-                        "随意",
-                        "王维",
-                        "山居秋暝",
-                        "留"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_340",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "香雾云鬟湿，__________。（杜甫《月夜》）",
-                "options": [],
-                "answer": "清辉玉臂寒",
-                "explanation": "出自杜甫《月夜》，描写清辉玉。",
-                "poemId": "sup_392",
-                "knowledgePoints": [
-                        "清辉玉",
-                        "杜甫",
-                        "月夜",
-                        "玉臂"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_340",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "旧时茅店社林边，__________。（辛弃疾《西江月》）",
-                "options": [],
-                "answer": "路转溪桥忽见",
-                "explanation": "出自西江月。",
-                "poemId": "sup_310",
-                "knowledgePoints": [
-                        "初一",
-                        "西江月"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_341",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白日依山尽，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "黄河入海流",
-                "explanation": "出自王之涣《登鹳雀楼》，描写黄河。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "黄河",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "白日"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_341",
                 "type": "fill",
                 "grade": "fbc",
@@ -27303,61 +15847,6 @@ const QUESTIONS_DATA = [
                         "八阵图",
                         "八阵"
                 ]
-        },
-        {
-                "id": "q_zk_341",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "岐王宅里寻常见，__________。（杜甫《江南逢李龟年》）",
-                "options": [],
-                "answer": "崔九堂前几度闻",
-                "explanation": "出自杜甫《江南逢李龟年》，描写崔九堂。",
-                "poemId": "sup_036",
-                "knowledgePoints": [
-                        "崔九堂",
-                        "杜甫",
-                        "江南逢李龟年",
-                        "几度"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_341",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "枯藤老树昏鸦，小桥流水人家，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "古道西风瘦马",
-                "explanation": "出自天净沙·秋思。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "初一",
-                        "天净沙·秋思"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_342",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "欲穷千里目，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "更上一层楼",
-                "explanation": "出自王之涣《登鹳雀楼》，描写上楼。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "上楼",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "千里"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_342",
@@ -27378,61 +15867,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_342",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "正是江南好风景，__________。（杜甫《江南逢李龟年》）",
-                "options": [],
-                "answer": "落花时节又逢君",
-                "explanation": "出自杜甫《江南逢李龟年》，描写落花时。",
-                "poemId": "sup_036",
-                "knowledgePoints": [
-                        "落花时",
-                        "杜甫",
-                        "江南逢李龟年",
-                        "又逢"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_342",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夕阳西下，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "断肠人在天涯",
-                "explanation": "出自天净沙·秋思。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "初一",
-                        "天净沙·秋思"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_343",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄河远上白云间，__________。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "一片孤城万仞山",
-                "explanation": "出自王之涣《凉州词》，描写凉州。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "凉州",
-                        "王之涣",
-                        "凉州词",
-                        "孤城"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_343",
                 "type": "fill",
                 "grade": "fbc",
@@ -27449,61 +15883,6 @@ const QUESTIONS_DATA = [
                         "月夜",
                         "鄜州"
                 ]
-        },
-        {
-                "id": "q_zk_343",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "好雨知时节，当春乃发生。__________，润物细无声。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "随风潜入夜",
-                "explanation": "出自杜甫《春夜喜雨》，描写潜入夜。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "潜入夜",
-                        "杜甫",
-                        "春夜喜雨",
-                        "无声"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_343",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "唧唧复唧唧，木兰当户织。__________，女亦无所闻。（《木兰诗》）",
-                "options": [],
-                "answer": "不闻机杼声",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_127",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_344",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "羌笛何须怨杨柳，__________。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "春风不度玉门关",
-                "explanation": "出自王之涣《凉州词》，描写玉门关。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "玉门关",
-                        "王之涣",
-                        "凉州词",
-                        "羌笛"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_344",
@@ -27524,61 +15903,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_344",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野径云俱黑，__________。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "江船火独明",
-                "explanation": "出自杜甫《春夜喜雨》，描写江船火。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "江船火",
-                        "杜甫",
-                        "春夜喜雨",
-                        "独明"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_344",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "问女何所思，__________。（《木兰诗》）",
-                "options": [],
-                "answer": "问女何所忆",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_345",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "秦时明月汉时关，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "万里长征人未还",
-                "explanation": "出自王昌龄《出塞》，描写长征。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "长征",
-                        "王昌龄",
-                        "出塞",
-                        "秦时"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_345",
                 "type": "fill",
                 "grade": "fbc",
@@ -27595,116 +15919,6 @@ const QUESTIONS_DATA = [
                         "月夜",
                         "泪痕"
                 ]
-        },
-        {
-                "id": "q_zk_345",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "晓看红湿处，__________。（杜甫《春夜喜雨》）",
-                "options": [],
-                "answer": "花重锦官城",
-                "explanation": "出自杜甫《春夜喜雨》，描写花重锦。",
-                "poemId": "sup_013",
-                "knowledgePoints": [
-                        "花重锦",
-                        "杜甫",
-                        "春夜喜雨",
-                        "锦官"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_345",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "万里赴戎机，__________。（《木兰诗》）",
-                "options": [],
-                "answer": "关山度若飞",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_346",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "但使龙城飞将在，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "不教胡马度阴山",
-                "explanation": "出自王昌龄《出塞》，描写阴山。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "阴山",
-                        "王昌龄",
-                        "出塞",
-                        "龙城"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_346",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "剑外忽传收蓟北，__________。（杜甫《闻官军收河南河北》）",
-                "options": [],
-                "answer": "初闻涕泪满衣裳",
-                "explanation": "出自杜甫《闻官军收河南河北》，描写剑外。",
-                "poemId": "sup_383",
-                "knowledgePoints": [
-                        "剑外",
-                        "杜甫",
-                        "闻官军收河南河北",
-                        "蓟北"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_zk_346",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "岱宗夫如何？__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "齐鲁青未了",
-                "explanation": "出自杜甫《望岳》，描写齐鲁青。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "齐鲁青",
-                        "杜甫",
-                        "望岳",
-                        "未了"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_346",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "朔气传金柝，__________。（《木兰诗》）",
-                "options": [],
-                "answer": "寒光照铁衣",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_347",
@@ -27743,42 +15957,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_347",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "造化钟神秀，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "阴阳割昏晓",
-                "explanation": "出自杜甫《望岳》，描写阴阳割。",
-                "poemId": "sup_129",
-                "knowledgePoints": [
-                        "阴阳割",
-                        "杜甫",
-                        "望岳",
-                        "昏晓"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_347",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "将军百战死，__________。（《木兰诗》）",
-                "options": [],
-                "answer": "壮士十年归",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_348",
                 "type": "fill",
                 "grade": "mk",
@@ -27815,61 +15993,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_348",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "荡胸生曾云，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "决眦入归鸟",
-                "explanation": "出自杜甫《望岳》，描写决眦入。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "决眦入",
-                        "杜甫",
-                        "望岳",
-                        "归鸟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_348",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "雄兔脚扑朔，雌兔眼迷离；__________？（《木兰诗》）",
-                "options": [],
-                "answer": "双兔傍地走，安能辨我是雄雌",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_349",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独在异乡为异客，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "每逢佳节倍思亲",
-                "explanation": "出自王维《九月九日忆山东兄弟》，描写思乡。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "思乡",
-                        "王维",
-                        "九月九日忆山东兄弟",
-                        "异客"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_349",
                 "type": "fill",
                 "grade": "fbc",
@@ -27888,61 +16011,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_349",
-                "type": "fill",
-                "grade": "zk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "会当凌绝顶，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "一览众山小",
-                "explanation": "出自杜甫《望岳》，描写一览众。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "一览众",
-                        "杜甫",
-                        "望岳",
-                        "众山"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_349",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烟笼寒水月笼沙，夜泊秦淮近酒家。__________，隔江犹唱后庭花。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "商女不知亡国恨",
-                "explanation": "出自泊秦淮。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "初一",
-                        "泊秦淮"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_350",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遥知兄弟登高处，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "遍插茱萸少一人",
-                "explanation": "出自王维《九月九日忆山东兄弟》，描写登高。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "登高",
-                        "王维",
-                        "九月九日忆山东兄弟",
-                        "茱萸"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_350",
                 "type": "fill",
                 "grade": "fbc",
@@ -27959,23 +16027,6 @@ const QUESTIONS_DATA = [
                         "旅夜书怀",
                         "微风"
                 ]
-        },
-        {
-                "id": "q_chu1_350",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫笑农家腊酒浑，丰年留客足鸡豚。__________，柳暗花明又一村。（陆游《游山西村》）",
-                "options": [],
-                "answer": "山重水复疑无路",
-                "explanation": "出自游山西村。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "初一",
-                        "游山西村"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_351",
@@ -28012,23 +16063,6 @@ const QUESTIONS_DATA = [
                         "旅夜书怀",
                         "平野"
                 ]
-        },
-        {
-                "id": "q_chu1_351",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "从军行，烽火照西京，心中自不平。__________，辞君一夜取楼兰。（杨炯《从军行》）",
-                "options": [],
-                "answer": "牙璋辞凤阙",
-                "explanation": "出自从军行。",
-                "poemId": "sup_346",
-                "knowledgePoints": [
-                        "初一",
-                        "从军行"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_352",
@@ -28327,22 +16361,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_357",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黑云压城城欲摧，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "甲光向日金鳞开",
-                "explanation": "出自雁门太守行。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "初一",
-                        "雁门太守行"
-                ]
-        },
-        {
                 "id": "q_mk_358",
                 "type": "fill",
                 "grade": "mk",
@@ -28379,22 +16397,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_358",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "角声满天秋色里，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "塞上燕脂凝夜紫",
-                "explanation": "出自雁门太守行。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "初一",
-                        "雁门太守行"
-                ]
-        },
-        {
                 "id": "q_mk_359",
                 "type": "fill",
                 "grade": "mk",
@@ -28428,22 +16430,6 @@ const QUESTIONS_DATA = [
                         "杜甫",
                         "春望",
                         "万金"
-                ]
-        },
-        {
-                "id": "q_chu1_359",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "报君黄金台上意，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "提携玉龙为君死",
-                "explanation": "出自雁门太守行。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "初一",
-                        "雁门太守行"
                 ]
         },
         {
@@ -28517,25 +16503,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_361",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "丞相祠堂何处寻，__________。（杜甫《蜀相》）",
-                "options": [],
-                "answer": "锦官城外柏森森",
-                "explanation": "出自杜甫《蜀相》，描写丞相。",
-                "poemId": "sup_384",
-                "knowledgePoints": [
-                        "丞相",
-                        "杜甫",
-                        "蜀相",
-                        "锦官"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_361",
                 "type": "fill",
                 "grade": "chu1",
@@ -28568,25 +16535,6 @@ const QUESTIONS_DATA = [
                         "敕勒歌",
                         "穹庐"
                 ]
-        },
-        {
-                "id": "q_fbc_362",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "映阶碧草自春色，__________。（杜甫《蜀相》）",
-                "options": [],
-                "answer": "隔叶黄鹂空好音",
-                "explanation": "出自杜甫《蜀相》，描写映阶。",
-                "poemId": "sup_384",
-                "knowledgePoints": [
-                        "映阶",
-                        "杜甫",
-                        "蜀相",
-                        "碧草"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu1_362",
@@ -28623,79 +16571,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_363",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "三顾频烦天下计，__________。（杜甫《蜀相》）",
-                "options": [],
-                "answer": "两朝开济老臣心",
-                "explanation": "出自杜甫《蜀相》，描写三顾。",
-                "poemId": "sup_384",
-                "knowledgePoints": [
-                        "三顾",
-                        "杜甫",
-                        "蜀相",
-                        "老臣"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_363",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "塞下秋来风景异，__________。（范仲淹《渔家傲》）",
-                "options": [],
-                "answer": "衡阳雁去无留意",
-                "explanation": "出自渔家傲。",
-                "poemId": "sup_062",
-                "knowledgePoints": [
-                        "初一",
-                        "渔家傲"
-                ]
-        },
-        {
-                "id": "q_mk_364",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千山鸟飞绝，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "万径人踪灭",
-                "explanation": "出自柳宗元《江雪》，描写鸟。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "鸟",
-                        "柳宗元",
-                        "江雪",
-                        "千山"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_364",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "出师未捷身先死，__________。（杜甫《蜀相》）",
-                "options": [],
-                "answer": "长使英雄泪满襟",
-                "explanation": "出自杜甫《蜀相》，描写出师。",
-                "poemId": "sup_384",
-                "knowledgePoints": [
-                        "出师",
-                        "杜甫",
-                        "蜀相",
-                        "泪满"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_364",
                 "type": "fill",
                 "grade": "chu1",
@@ -28710,60 +16585,6 @@ const QUESTIONS_DATA = [
                         "初一",
                         "渔家傲"
                 ]
-        },
-        {
-                "id": "q_mk_365",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤舟蓑笠翁，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "独钓寒江雪",
-                "explanation": "出自柳宗元《江雪》，描写渔翁。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "渔翁",
-                        "柳宗元",
-                        "江雪",
-                        "孤舟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_365",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "风急天高猿啸哀，__________。（杜甫《登高》）",
-                "options": [],
-                "answer": "渚清沙白鸟飞回",
-                "explanation": "出自杜甫《登高》，描写风急。",
-                "poemId": "sup_387",
-                "knowledgePoints": [
-                        "风急",
-                        "杜甫",
-                        "登高",
-                        "猿啸"
-                ]
-        },
-        {
-                "id": "q_chu1_365",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫听穿林打叶声，__________。（苏轼《定风波》）",
-                "options": [],
-                "answer": "何妨吟啸且徐行",
-                "explanation": "出自定风波。",
-                "poemId": "sup_135",
-                "knowledgePoints": [
-                        "初一",
-                        "定风波"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_366",
@@ -28784,41 +16605,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_366",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "无边落木萧萧下，__________。（杜甫《登高》）",
-                "options": [],
-                "answer": "不尽长江滚滚来",
-                "explanation": "出自杜甫《登高》，描写落木。",
-                "poemId": "sup_387",
-                "knowledgePoints": [
-                        "落木",
-                        "杜甫",
-                        "登高",
-                        "萧萧"
-                ]
-        },
-        {
-                "id": "q_chu1_366",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "竹杖芒鞋轻胜马，谁怕？__________。（苏轼《定风波》）",
-                "options": [],
-                "answer": "一蓑烟雨任平生",
-                "explanation": "出自定风波。",
-                "poemId": "sup_135",
-                "knowledgePoints": [
-                        "初一",
-                        "定风波"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_367",
                 "type": "fill",
                 "grade": "mk",
@@ -28837,41 +16623,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_367",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "万里悲秋常作客，__________。（杜甫《登高》）",
-                "options": [],
-                "answer": "百年多病独登台",
-                "explanation": "出自杜甫《登高》，描写悲秋。",
-                "poemId": "sup_387",
-                "knowledgePoints": [
-                        "悲秋",
-                        "杜甫",
-                        "登高",
-                        "作客"
-                ]
-        },
-        {
-                "id": "q_chu1_367",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "回首向来萧瑟处，归去，__________。（苏轼《定风波》）",
-                "options": [],
-                "answer": "也无风雨也无晴",
-                "explanation": "出自定风波。",
-                "poemId": "sup_135",
-                "knowledgePoints": [
-                        "初一",
-                        "定风波"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_368",
                 "type": "fill",
                 "grade": "mk",
@@ -28887,24 +16638,6 @@ const QUESTIONS_DATA = [
                         "贺知章",
                         "回乡偶书",
                         "鬓毛"
-                ]
-        },
-        {
-                "id": "q_fbc_368",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "艰难苦恨繁霜鬓，__________。（杜甫《登高》）",
-                "options": [],
-                "answer": "潦倒新停浊酒杯",
-                "explanation": "出自杜甫《登高》，描写苦恨。",
-                "poemId": "sup_387",
-                "knowledgePoints": [
-                        "苦恨",
-                        "杜甫",
-                        "登高",
-                        "霜鬓"
                 ]
         },
         {
@@ -28942,25 +16675,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_369",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "舍南有竹堪书字，__________。（韩愈《题竹》）",
-                "options": [],
-                "answer": "老去溪斋日日闲",
-                "explanation": "出自韩愈《题竹》，描写舍南。",
-                "poemId": "sup_poetry_new_053",
-                "knowledgePoints": [
-                        "舍南",
-                        "韩愈",
-                        "题竹",
-                        "书字"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_369",
                 "type": "fill",
                 "grade": "chu1",
@@ -28995,25 +16709,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_370",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫道谗言如浪深，__________。（韩愈《浪淘沙》）",
-                "options": [],
-                "answer": "莫言迁客似沙沉",
-                "explanation": "出自韩愈《浪淘沙》，描写谗言。",
-                "poemId": "sup_poetry_new_054",
-                "knowledgePoints": [
-                        "谗言",
-                        "韩愈",
-                        "浪淘沙",
-                        "迁客"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_370",
                 "type": "fill",
                 "grade": "chu1",
@@ -29028,25 +16723,6 @@ const QUESTIONS_DATA = [
                         "初一",
                         "丑奴儿"
                 ]
-        },
-        {
-                "id": "q_mk_371",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "松下问童子，__________。（贾岛《寻隐者不遇》）",
-                "options": [],
-                "answer": "言师采药去",
-                "explanation": "出自贾岛《寻隐者不遇》，描写松下。",
-                "poemId": "sup_021",
-                "knowledgePoints": [
-                        "松下",
-                        "贾岛",
-                        "寻隐者不遇",
-                        "童子"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_371",
@@ -29119,97 +16795,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_372",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "渡远荆门外，来从楚国游。__________，山随平野尽。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "山随平野尽",
-                "explanation": "出自渡荆门送别。",
-                "poemId": "sup_120",
-                "knowledgePoints": [
-                        "初一",
-                        "渡荆门送别"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_373",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "向晚意不适，__________。（李商隐《登乐游原》）",
-                "options": [],
-                "answer": "驱车登古原",
-                "explanation": "出自李商隐《登乐游原》，描写向晚。",
-                "poemId": "sup_320",
-                "knowledgePoints": [
-                        "向晚",
-                        "李商隐",
-                        "登乐游原",
-                        "不适"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_373",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春种一粒粟，__________。（李绅《悯农》）",
-                "options": [],
-                "answer": "秋收万颗子",
-                "explanation": "出自李绅《悯农》，描写春种。",
-                "poemId": "sup_015",
-                "knowledgePoints": [
-                        "春种",
-                        "李绅",
-                        "悯农",
-                        "万颗"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_373",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月下飞天镜，__________。（李白《渡荆门送别》）",
-                "options": [],
-                "answer": "云生结海楼",
-                "explanation": "出自渡荆门送别。",
-                "poemId": "sup_300",
-                "knowledgePoints": [
-                        "初一",
-                        "渡荆门送别"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_374",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夕阳无限好，__________。（李商隐《登乐游原》）",
-                "options": [],
-                "answer": "只是近黄昏",
-                "explanation": "出自李商隐《登乐游原》，描写夕阳。",
-                "poemId": "sup_320",
-                "knowledgePoints": [
-                        "夕阳",
-                        "李商隐",
-                        "登乐游原",
-                        "无限"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_374",
                 "type": "fill",
                 "grade": "fbc",
@@ -29226,23 +16811,6 @@ const QUESTIONS_DATA = [
                         "悯农",
                         "犹饿死"
                 ]
-        },
-        {
-                "id": "q_chu1_374",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
-                "options": [],
-                "answer": "不亦君子乎",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_375",
@@ -29281,24 +16849,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_375",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：温故而知新，可以为师矣。",
-                "options": [],
-                "answer": "温故而知新",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
                 "id": "q_mk_376",
                 "type": "fill",
                 "grade": "mk",
@@ -29333,24 +16883,6 @@ const QUESTIONS_DATA = [
                         "咏鹅",
                         "红掌"
                 ]
-        },
-        {
-                "id": "q_chu1_376",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：学而不思则罔，思而不学则殆。",
-                "options": [],
-                "answer": "学而不思则罔，思而不学则殆",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "poetryType": false,
-                "deleted": true
         },
         {
                 "id": "q_mk_377",
@@ -29389,24 +16921,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_377",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：知之者不如好之者，好之者不如乐之者。",
-                "options": [],
-                "answer": "好之者不如乐之者",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
                 "id": "q_mk_378",
                 "type": "fill",
                 "grade": "mk",
@@ -29441,24 +16955,6 @@ const QUESTIONS_DATA = [
                         "风",
                         "万竿"
                 ]
-        },
-        {
-                "id": "q_chu1_378",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：三人行，必有我师焉。",
-                "options": [],
-                "answer": "择其善者而从之，其不善者而改之",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "poetryType": false,
-                "deleted": true
         },
         {
                 "id": "q_mk_379",
@@ -29497,23 +16993,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_379",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "子曰：见贤思齐焉，见不贤而内自省也。",
-                "options": [],
-                "answer": "见不贤而内自省也",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_380",
                 "type": "fill",
                 "grade": "mk",
@@ -29550,240 +17029,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_380",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "曾子曰：吾日三省吾身。",
-                "options": [],
-                "answer": "传不习乎",
-                "explanation": "出自论语。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "论语"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_mk_381",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "蓬头稚子学垂纶，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "侧坐莓苔草映身",
-                "explanation": "出自胡令能《小儿垂钓》，描写小儿。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "小儿",
-                        "胡令能",
-                        "小儿垂钓",
-                        "垂纶"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_381",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "临行密密缝，__________。（孟郊《游子吟》）",
-                "options": [],
-                "answer": "意恐迟迟归",
-                "explanation": "出自孟郊《游子吟》，描写临行。",
-                "poemId": "sup_161",
-                "knowledgePoints": [
-                        "临行",
-                        "孟郊",
-                        "游子吟",
-                        "密密"
-                ]
-        },
-        {
-                "id": "q_chu1_381",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "东临碣石，以观沧海。水何澹澹，__________。（曹操《观沧海》）",
-                "options": [],
-                "answer": "山岛竦峙",
-                "explanation": "出自观沧海。",
-                "poemId": "sup_125",
-                "knowledgePoints": [
-                        "初一",
-                        "观沧海"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_382",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "路人借问遥招手，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "怕得鱼惊不应人",
-                "explanation": "出自胡令能《小儿垂钓》，描写招手。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "招手",
-                        "胡令能",
-                        "小儿垂钓",
-                        "借问"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_382",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "谁言寸草心，__________。（孟郊《游子吟》）",
-                "options": [],
-                "answer": "报得三春晖",
-                "explanation": "出自孟郊《游子吟》，描写寸草。",
-                "poemId": "sup_161",
-                "knowledgePoints": [
-                        "寸草",
-                        "孟郊",
-                        "游子吟",
-                        "三春"
-                ]
-        },
-        {
-                "id": "q_chu1_382",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日月之行，若出其中；__________，若出其里。（曹操《观沧海》）",
-                "options": [],
-                "answer": "星汉灿烂",
-                "explanation": "出自观沧海。",
-                "poemId": "sup_125",
-                "knowledgePoints": [
-                        "初一",
-                        "观沧海"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_383",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "危楼高百尺，__________。（李白《夜宿山寺》）",
-                "options": [],
-                "answer": "手可摘星辰",
-                "explanation": "出自李白《夜宿山寺》，描写危楼。",
-                "poemId": "sup_114",
-                "knowledgePoints": [
-                        "危楼",
-                        "李白",
-                        "夜宿山寺",
-                        "高百"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_383",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄河远上白云间，__________。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "一片孤城万仞山",
-                "explanation": "出自王之涣《凉州词》，描写黄河。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "黄河",
-                        "王之涣",
-                        "凉州词",
-                        "孤城"
-                ]
-        },
-        {
-                "id": "q_chu1_383",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "客路青山外，行舟绿水前。__________，风正一帆悬。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "潮平两岸阔",
-                "explanation": "出自次北固山下。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "初一",
-                        "次北固山下"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_384",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不敢高声语，__________。（李白《夜宿山寺》）",
-                "options": [],
-                "answer": "恐惊天上人",
-                "explanation": "出自李白《夜宿山寺》，描写高声。",
-                "poemId": "sup_114",
-                "knowledgePoints": [
-                        "高声",
-                        "李白",
-                        "夜宿山寺",
-                        "天上"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_384",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "羌笛何须怨杨柳，__________。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "春风不度玉门关",
-                "explanation": "出自王之涣《凉州词》，描写羌笛。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "羌笛",
-                        "王之涣",
-                        "凉州词",
-                        "杨柳"
-                ]
-        },
-        {
-                "id": "q_chu1_384",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "海日生残夜，__________。（王湾《次北固山下》）",
-                "options": [],
-                "answer": "江春入旧年",
-                "explanation": "出自次北固山下。",
-                "poemId": "sup_054",
-                "knowledgePoints": [
-                        "初一",
-                        "次北固山下"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_385",
                 "type": "fill",
                 "grade": "mk",
@@ -29800,42 +17045,6 @@ const QUESTIONS_DATA = [
                         "论诗",
                         "万口"
                 ]
-        },
-        {
-                "id": "q_fbc_385",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "秦时明月汉时关，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "万里长征人未还",
-                "explanation": "出自王昌龄《出塞》，描写秦时。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "秦时",
-                        "王昌龄",
-                        "出塞",
-                        "长征"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_385",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤山寺北贾亭西，水面初平云脚低。几处早莺争暖树，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "谁家新燕啄春泥",
-                "explanation": "出自钱塘湖春行。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "初一",
-                        "钱塘湖春行"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_386",
@@ -29856,279 +17065,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_386",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "但使龙城飞将在，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "不教胡马度阴山",
-                "explanation": "出自王昌龄《出塞》，描写龙城。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "龙城",
-                        "王昌龄",
-                        "出塞",
-                        "阴山"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_386",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "乱花渐欲迷人眼，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "浅草才能没马蹄",
-                "explanation": "出自钱塘湖春行。",
-                "poemId": "sup_131",
-                "knowledgePoints": [
-                        "初一",
-                        "钱塘湖春行"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_387",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "东风不与周郎便，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "铜雀春深锁二乔",
-                "explanation": "出自杜牧《赤壁》，描写赤壁。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "赤壁",
-                        "杜牧",
-                        "赤壁",
-                        "周郎"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_387",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "葡萄美酒夜光杯，__________。（王翰《凉州词》）",
-                "options": [],
-                "answer": "欲饮琵琶马上催",
-                "explanation": "出自王翰《凉州词》，描写葡萄。",
-                "poemId": "sup_010",
-                "knowledgePoints": [
-                        "葡萄",
-                        "王翰",
-                        "凉州词",
-                        "夜光"
-                ]
-        },
-        {
-                "id": "q_chu1_387",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "最爱湖东行不足，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "绿杨阴里白沙堤",
-                "explanation": "出自钱塘湖春行。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "初一",
-                        "钱塘湖春行"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_388",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "折戟沉沙铁未销，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "自将磨洗认前朝",
-                "explanation": "出自杜牧《赤壁》，描写折戟。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "折戟",
-                        "杜牧",
-                        "赤壁",
-                        "前朝"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_388",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "醉卧沙场君莫笑，__________。（王翰《凉州词》）",
-                "options": [],
-                "answer": "古来征战几人回",
-                "explanation": "出自王翰《凉州词》，描写醉卧。",
-                "poemId": "sup_010",
-                "knowledgePoints": [
-                        "醉卧",
-                        "王翰",
-                        "凉州词",
-                        "沙场"
-                ]
-        },
-        {
-                "id": "q_chu1_388",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月别枝惊鹊，__________。（辛弃疾《西江月》）",
-                "options": [],
-                "answer": "听取蛙声一片",
-                "explanation": "出自西江月。",
-                "poemId": "sup_310",
-                "knowledgePoints": [
-                        "初一",
-                        "西江月"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_389",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "商女不知亡国恨，__________。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "隔江犹唱后庭花",
-                "explanation": "出自杜牧《泊秦淮》，描写商女。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "商女",
-                        "杜牧",
-                        "泊秦淮",
-                        "亡国"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_389",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千里黄云白日曛，__________。（高适《别董大》）",
-                "options": [],
-                "answer": "北风吹雁雪纷纷",
-                "explanation": "出自高适《别董大》，描写千里。",
-                "poemId": "sup_213",
-                "knowledgePoints": [
-                        "千里",
-                        "高适",
-                        "别董大",
-                        "黄云"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_389",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "稻花香里说丰年，__________。（辛弃疾《西江月》）",
-                "options": [],
-                "answer": "听取蛙声一片",
-                "explanation": "出自西江月。",
-                "poemId": "sup_310",
-                "knowledgePoints": [
-                        "初一",
-                        "西江月"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_390",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烟笼寒水月笼沙，__________。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "夜泊秦淮近酒家",
-                "explanation": "出自杜牧《泊秦淮》，描写寒水。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "寒水",
-                        "杜牧",
-                        "泊秦淮",
-                        "夜泊"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_390",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫愁前路无知己，__________。（高适《别董大》）",
-                "options": [],
-                "answer": "天下谁人不识君",
-                "explanation": "出自高适《别董大》，描写莫愁。",
-                "poemId": "sup_213",
-                "knowledgePoints": [
-                        "莫愁",
-                        "高适",
-                        "别董大",
-                        "知己"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_390",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "七八个星天外，__________。（辛弃疾《西江月》）",
-                "options": [],
-                "answer": "两三点雨山前",
-                "explanation": "出自西江月。",
-                "poemId": "sup_310",
-                "knowledgePoints": [
-                        "初一",
-                        "西江月"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_391",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日出江花红胜火，__________。（白居易《忆江南》）",
-                "options": [],
-                "answer": "春来江水绿如蓝",
-                "explanation": "出自白居易《忆江南》，描写江花。",
-                "poemId": "sup_226",
-                "knowledgePoints": [
-                        "江花",
-                        "白居易",
-                        "忆江南",
-                        "红胜"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_391",
                 "type": "fill",
                 "grade": "fbc",
@@ -30145,23 +17081,6 @@ const QUESTIONS_DATA = [
                         "行路难",
                         "珍羞"
                 ]
-        },
-        {
-                "id": "q_chu1_391",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "旧时茅店社林边，__________。（辛弃疾《西江月》）",
-                "options": [],
-                "answer": "路转溪桥忽见",
-                "explanation": "出自西江月。",
-                "poemId": "sup_310",
-                "knowledgePoints": [
-                        "初一",
-                        "西江月"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_392",
@@ -30200,23 +17119,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_392",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "枯藤老树昏鸦，小桥流水人家，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "古道西风瘦马",
-                "explanation": "出自天净沙·秋思。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "初一",
-                        "天净沙·秋思"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_393",
                 "type": "fill",
                 "grade": "mk",
@@ -30251,23 +17153,6 @@ const QUESTIONS_DATA = [
                         "行路难",
                         "冰塞"
                 ]
-        },
-        {
-                "id": "q_chu1_393",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夕阳西下，__________。（马致远《天净沙·秋思》）",
-                "options": [],
-                "answer": "断肠人在天涯",
-                "explanation": "出自天净沙·秋思。",
-                "poemId": "sup_068",
-                "knowledgePoints": [
-                        "初一",
-                        "天净沙·秋思"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_394",
@@ -30306,23 +17191,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_394",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "唧唧复唧唧，木兰当户织。__________，女亦无所闻。（《木兰诗》）",
-                "options": [],
-                "answer": "不闻机杼声",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_127",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_395",
                 "type": "fill",
                 "grade": "mk",
@@ -30359,23 +17227,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_395",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "问女何所思，__________。（《木兰诗》）",
-                "options": [],
-                "answer": "问女何所忆",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_396",
                 "type": "fill",
                 "grade": "mk",
@@ -30392,97 +17243,6 @@ const QUESTIONS_DATA = [
                         "元日",
                         "一岁"
                 ]
-        },
-        {
-                "id": "q_fbc_396",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "金樽清酒斗十千，__________。（李白《行路难》）",
-                "options": [],
-                "answer": "玉盘珍羞直万钱",
-                "explanation": "出自李白《行路难》，描写玉盘。",
-                "poemId": "sup_056",
-                "knowledgePoints": [
-                        "玉盘",
-                        "李白",
-                        "行路难",
-                        "万钱"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_396",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "万里赴戎机，__________。（《木兰诗》）",
-                "options": [],
-                "answer": "关山度若飞",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_397",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千门万户曈曈日，__________。（王安石《元日》）",
-                "options": [],
-                "answer": "总把新桃换旧符",
-                "explanation": "出自王安石《元日》，描写曈曈。",
-                "poemId": "sup_237",
-                "knowledgePoints": [
-                        "曈曈",
-                        "王安石",
-                        "元日",
-                        "新桃"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_397",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "停杯投箸不能食，__________。（李白《行路难》）",
-                "options": [],
-                "answer": "拔剑四顾心茫然",
-                "explanation": "出自李白《行路难》，描写茫然。",
-                "poemId": "sup_056",
-                "knowledgePoints": [
-                        "茫然",
-                        "李白",
-                        "行路难",
-                        "四顾"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_397",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "朔气传金柝，__________。（《木兰诗》）",
-                "options": [],
-                "answer": "寒光照铁衣",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_398",
@@ -30521,23 +17281,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_398",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "将军百战死，__________。（《木兰诗》）",
-                "options": [],
-                "answer": "壮士十年归",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_399",
                 "type": "fill",
                 "grade": "mk",
@@ -30572,23 +17315,6 @@ const QUESTIONS_DATA = [
                         "行路难",
                         "云帆"
                 ]
-        },
-        {
-                "id": "q_chu1_399",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "雄兔脚扑朔，雌兔眼迷离；__________？（《木兰诗》）",
-                "options": [],
-                "answer": "双兔傍地走，安能辨我是雄雌",
-                "explanation": "出自木兰诗。",
-                "poemId": "sup_159",
-                "knowledgePoints": [
-                        "初一",
-                        "木兰诗"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_400",
@@ -30627,463 +17353,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_400",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烟笼寒水月笼沙，夜泊秦淮近酒家。__________，隔江犹唱后庭花。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "商女不知亡国恨",
-                "explanation": "出自泊秦淮。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "初一",
-                        "泊秦淮"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_401",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两个黄鹂鸣翠柳，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "一行白鹭上青天",
-                "explanation": "出自杜甫《绝句》，描写黄鹂。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "黄鹂",
-                        "杜甫",
-                        "绝句",
-                        "白鹭"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_401",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "几处早莺争暖树，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "谁家新燕啄春泥",
-                "explanation": "出自白居易《钱塘湖春行》，描写早莺。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "早莺",
-                        "白居易",
-                        "钱塘湖春行",
-                        "暖树"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_401",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫笑农家腊酒浑，丰年留客足鸡豚。__________，柳暗花明又一村。（陆游《游山西村》）",
-                "options": [],
-                "answer": "山重水复疑无路",
-                "explanation": "出自游山西村。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "初一",
-                        "游山西村"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_402",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "窗含西岭千秋雪，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "门泊东吴万里船",
-                "explanation": "出自杜甫《绝句》，描写西岭。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "西岭",
-                        "杜甫",
-                        "绝句",
-                        "千秋"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_402",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "乱花渐欲迷人眼，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "浅草才能没马蹄",
-                "explanation": "出自白居易《钱塘湖春行》，描写乱花。",
-                "poemId": "sup_131",
-                "knowledgePoints": [
-                        "乱花",
-                        "白居易",
-                        "钱塘湖春行",
-                        "浅草"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_402",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "从军行，烽火照西京，心中自不平。__________，辞君一夜取楼兰。（杨炯《从军行》）",
-                "options": [],
-                "answer": "牙璋辞凤阙",
-                "explanation": "出自从军行。",
-                "poemId": "sup_346",
-                "knowledgePoints": [
-                        "初一",
-                        "从军行"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_403",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "桃花潭水深千尺，__________。（李白《赠汪伦》）",
-                "options": [],
-                "answer": "不及汪伦送我情",
-                "explanation": "出自李白《赠汪伦》，描写潭水。",
-                "poemId": "sup_008",
-                "knowledgePoints": [
-                        "潭水",
-                        "李白",
-                        "赠汪伦",
-                        "送我"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_403",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "最爱湖东行不足，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "绿杨阴里白沙堤",
-                "explanation": "出自白居易《钱塘湖春行》，描写湖东。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "湖东",
-                        "白居易",
-                        "钱塘湖春行",
-                        "绿杨"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_403",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "卖炭翁，伐薪烧炭南山中。满面尘灰烟火色，__________。（白居易《卖炭翁》）",
-                "options": [],
-                "answer": "两鬓苍苍十指黑",
-                "explanation": "出自卖炭翁。",
-                "poemId": "sup_058",
-                "knowledgePoints": [
-                        "初一",
-                        "卖炭翁"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_404",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "飞流直下三千尺，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "疑是银河落九天",
-                "explanation": "出自李白《望庐山瀑布》，描写飞流。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "飞流",
-                        "李白",
-                        "望庐山瀑布",
-                        "银河"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_404",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤山寺北贾亭西，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "水面初平云脚低",
-                "explanation": "出自白居易《钱塘湖春行》，描写孤山。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "孤山",
-                        "白居易",
-                        "钱塘湖春行",
-                        "贾亭"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_404",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "一车炭，千余斤，__________。（白居易《卖炭翁》）",
-                "options": [],
-                "answer": "宫使驱将惜不得",
-                "explanation": "出自卖炭翁。",
-                "poemId": "sup_poetry_new_006",
-                "knowledgePoints": [
-                        "初一",
-                        "卖炭翁"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_405",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日照香炉生紫烟，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "遥看瀑布挂前川",
-                "explanation": "出自李白《望庐山瀑布》，描写香炉。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "香炉",
-                        "李白",
-                        "望庐山瀑布",
-                        "紫烟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_405",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤山寺北贾亭西，__________。（白居易《钱塘湖春行》）",
-                "options": [],
-                "answer": "水面初平云脚低",
-                "explanation": "出自白居易《钱塘湖春行》，描写水面。",
-                "poemId": "poem_003",
-                "knowledgePoints": [
-                        "水面",
-                        "白居易",
-                        "钱塘湖春行",
-                        "云脚"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_405",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "安得广厦千万间，__________，风雨不动安如山！（杜甫《茅屋为秋风所破歌》）",
-                "options": [],
-                "answer": "大庇天下寒士俱欢颜",
-                "explanation": "出自茅屋为秋风所破歌。",
-                "poemId": "sup_382",
-                "knowledgePoints": [
-                        "初一",
-                        "茅屋为秋风所破歌"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_406",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "危楼高百尺，__________。（李白《夜宿山寺》）",
-                "options": [],
-                "answer": "手可摘星辰",
-                "explanation": "出自李白《夜宿山寺》，描写危楼。",
-                "poemId": "sup_114",
-                "knowledgePoints": [
-                        "危楼",
-                        "李白",
-                        "夜宿山寺",
-                        "摘星"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_406",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黑云压城城欲摧，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "甲光向日金鳞开",
-                "explanation": "出自李贺《雁门太守行》，描写黑云。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "黑云",
-                        "李贺",
-                        "雁门太守行",
-                        "金鳞"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_406",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "呜呼！何时眼前突兀见此屋，__________！（杜甫《茅屋为秋风所破歌》）",
-                "options": [],
-                "answer": "吾庐独破受冻死亦足",
-                "explanation": "出自茅屋为秋风所破歌。",
-                "poemId": "sup_382",
-                "knowledgePoints": [
-                        "初一",
-                        "茅屋为秋风所破歌"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_407",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不敢高声语，__________。（李白《夜宿山寺》）",
-                "options": [],
-                "answer": "恐惊天上人",
-                "explanation": "出自李白《夜宿山寺》，描写高声语。",
-                "poemId": "sup_114",
-                "knowledgePoints": [
-                        "语",
-                        "李白",
-                        "夜宿山寺",
-                        "天上"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_407",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "角声满天秋色里，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "塞上燕脂凝夜紫",
-                "explanation": "出自李贺《雁门太守行》，描写角声。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "角声",
-                        "李贺",
-                        "雁门太守行",
-                        "秋色"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_407",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "男儿何不带吴钩，__________。（李贺《南园十三首》）",
-                "options": [],
-                "answer": "收取关山五十州",
-                "explanation": "出自南园十三首。",
-                "poemId": "sup_poetry_new_084",
-                "knowledgePoints": [
-                        "初一",
-                        "南园十三首"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_408",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "小时不识月，__________。（李白《古朗月行》）",
-                "options": [],
-                "answer": "呼作白玉盘",
-                "explanation": "出自李白《古朗月行》，描写不识。",
-                "poemId": "sup_051",
-                "knowledgePoints": [
-                        "识",
-                        "李白",
-                        "古朗月行",
-                        "白玉"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_408",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "报君黄金台上意，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "提携玉龙为君死",
-                "explanation": "出自李贺《雁门太守行》，描写黄金台。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "黄金台",
-                        "李贺",
-                        "雁门太守行",
-                        "玉龙"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_408",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黑云压城城欲摧，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "甲光向日金鳞开",
-                "explanation": "出自雁门太守行。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "初一",
-                        "雁门太守行"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_409",
                 "type": "fill",
                 "grade": "mk",
@@ -31100,207 +17369,6 @@ const QUESTIONS_DATA = [
                         "古朗月行",
                         "青云"
                 ]
-        },
-        {
-                "id": "q_fbc_409",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "折戟沉沙铁未销，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "自将磨洗认前朝",
-                "explanation": "出自杜牧《赤壁》，描写磨洗。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "磨洗",
-                        "杜牧",
-                        "赤壁",
-                        "前朝"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_409",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "角声满天秋色里，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "塞上燕脂凝夜紫",
-                "explanation": "出自雁门太守行。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "初一",
-                        "雁门太守行"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_410",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "湖光秋月两相和，__________。（刘禹锡《望洞庭》）",
-                "options": [],
-                "answer": "潭面无风镜未磨",
-                "explanation": "出自刘禹锡《望洞庭》，描写湖光。",
-                "poemId": "sup_033",
-                "knowledgePoints": [
-                        "湖光",
-                        "刘禹锡",
-                        "望洞庭",
-                        "秋月"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_410",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "东风不与周郎便，__________。（杜牧《赤壁》）",
-                "options": [],
-                "answer": "铜雀春深锁二乔",
-                "explanation": "出自杜牧《赤壁》，描写铜雀。",
-                "poemId": "sup_273",
-                "knowledgePoints": [
-                        "铜雀",
-                        "杜牧",
-                        "赤壁",
-                        "二乔"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_410",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "报君黄金台上意，__________。（李贺《雁门太守行》）",
-                "options": [],
-                "answer": "提携玉龙为君死",
-                "explanation": "出自雁门太守行。",
-                "poemId": "sup_059",
-                "knowledgePoints": [
-                        "初一",
-                        "雁门太守行"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_411",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "湖光秋月两相和，__________。（刘禹锡《望洞庭》）",
-                "options": [],
-                "answer": "潭面无风镜未磨",
-                "explanation": "出自刘禹锡《望洞庭》，描写潭面。",
-                "poemId": "sup_033",
-                "knowledgePoints": [
-                        "潭面",
-                        "刘禹锡",
-                        "望洞庭",
-                        "无风"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_411",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烟笼寒水月笼沙，__________。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "夜泊秦淮近酒家",
-                "explanation": "出自杜牧《泊秦淮》，描写夜泊。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "夜泊",
-                        "杜牧",
-                        "泊秦淮",
-                        "近酒"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_411",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "梳洗罢，__________，独倚望江楼。（温庭筠《梦江南》）",
-                "options": [],
-                "answer": "独倚望江楼",
-                "explanation": "出自梦江南。",
-                "poemId": "sup_poetry_new_085",
-                "knowledgePoints": [
-                        "初一",
-                        "梦江南"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_412",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遥望洞庭山水翠，__________。（刘禹锡《望洞庭》）",
-                "options": [],
-                "answer": "白银盘里一青螺",
-                "explanation": "出自刘禹锡《望洞庭》，描写山水。",
-                "poemId": "sup_033",
-                "knowledgePoints": [
-                        "山水",
-                        "刘禹锡",
-                        "望洞庭",
-                        "青螺"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_412",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "商女不知亡国恨，__________。（杜牧《泊秦淮》）",
-                "options": [],
-                "answer": "隔江犹唱后庭花",
-                "explanation": "出自杜牧《泊秦淮》，描写隔江。",
-                "poemId": "sup_017",
-                "knowledgePoints": [
-                        "隔江",
-                        "杜牧",
-                        "泊秦淮",
-                        "亡国"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_412",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "过尽千帆皆不是，__________，肠断白苹洲。（温庭筠《梦江南》）",
-                "options": [],
-                "answer": "斜晖脉脉水悠悠",
-                "explanation": "出自梦江南。",
-                "poemId": "sup_poetry_new_085",
-                "knowledgePoints": [
-                        "初一",
-                        "梦江南"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_413",
@@ -31321,42 +17389,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_413",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "清明时节雨纷纷，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "路上行人欲断魂",
-                "explanation": "出自杜牧《清明》，描写雨纷纷。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "雨纷纷",
-                        "杜牧",
-                        "清明",
-                        "行人"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_413",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "休对故人思故国，__________。（苏轼《望江南》）",
-                "options": [],
-                "answer": "且将新火试新茶",
-                "explanation": "出自望江南。",
-                "poemId": "sup_poetry_new_087",
-                "knowledgePoints": [
-                        "初一",
-                        "望江南"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_414",
                 "type": "fill",
                 "grade": "mk",
@@ -31373,205 +17405,6 @@ const QUESTIONS_DATA = [
                         "浪淘沙",
                         "牵牛"
                 ]
-        },
-        {
-                "id": "q_fbc_414",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "借问酒家何处有，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "牧童遥指杏花村",
-                "explanation": "出自杜牧《清明》，描写牧童。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "牧童",
-                        "杜牧",
-                        "清明",
-                        "杏花"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_414",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "塞下秋来风景异，__________。（范仲淹《渔家傲》）",
-                "options": [],
-                "answer": "衡阳雁去无留意",
-                "explanation": "出自渔家傲。",
-                "poemId": "sup_062",
-                "knowledgePoints": [
-                        "初一",
-                        "渔家傲"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_415",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "西塞山前白鹭飞，__________。（张志和《渔歌子》）",
-                "options": [],
-                "answer": "桃花流水鳜鱼肥",
-                "explanation": "出自张志和《渔歌子》，描写白鹭。",
-                "poemId": "sup_218",
-                "knowledgePoints": [
-                        "白鹭",
-                        "张志和",
-                        "渔歌子",
-                        "鳜鱼"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_415",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千里莺啼绿映红，__________。（杜牧《江南春》）",
-                "options": [],
-                "answer": "水村山郭酒旗风",
-                "explanation": "出自杜牧《江南春》，描写水村。",
-                "poemId": "sup_234",
-                "knowledgePoints": [
-                        "水村",
-                        "杜牧",
-                        "江南春",
-                        "山郭"
-                ]
-        },
-        {
-                "id": "q_chu1_415",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "四面边声连角起，千嶂里，__________。（范仲淹《渔家傲》）",
-                "options": [],
-                "answer": "长烟落日孤城闭",
-                "explanation": "出自渔家傲。",
-                "poemId": "sup_062",
-                "knowledgePoints": [
-                        "初一",
-                        "渔家傲"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_416",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "青箬笠，绿蓑衣，__________。（张志和《渔歌子》）",
-                "options": [],
-                "answer": "斜风细雨不须归",
-                "explanation": "出自张志和《渔歌子》，描写蓑衣。",
-                "poemId": "sup_218",
-                "knowledgePoints": [
-                        "蓑衣",
-                        "张志和",
-                        "渔歌子",
-                        "斜风"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_416",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "南朝四百八十寺，__________。（杜牧《江南春》）",
-                "options": [],
-                "answer": "多少楼台烟雨中",
-                "explanation": "出自杜牧《江南春》，描写四百八。",
-                "poemId": "sup_234",
-                "knowledgePoints": [
-                        "四百八",
-                        "杜牧",
-                        "江南春",
-                        "烟雨"
-                ]
-        },
-        {
-                "id": "q_chu1_416",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫听穿林打叶声，__________。（苏轼《定风波》）",
-                "options": [],
-                "answer": "何妨吟啸且徐行",
-                "explanation": "出自定风波。",
-                "poemId": "sup_135",
-                "knowledgePoints": [
-                        "初一",
-                        "定风波"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_417",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日出江花红胜火，__________。（白居易《忆江南》）",
-                "options": [],
-                "answer": "春来江水绿如蓝",
-                "explanation": "出自白居易《忆江南》，描写日出。",
-                "poemId": "sup_226",
-                "knowledgePoints": [
-                        "日出",
-                        "白居易",
-                        "忆江南",
-                        "绿如"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_417",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "银烛秋光冷画屏，__________。（杜牧《秋夕》）",
-                "options": [],
-                "answer": "轻罗小扇扑流萤",
-                "explanation": "出自杜牧《秋夕》，描写轻罗。",
-                "poemId": "sup_poetry_new_131",
-                "knowledgePoints": [
-                        "轻罗",
-                        "杜牧",
-                        "秋夕",
-                        "流萤"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_417",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "竹杖芒鞋轻胜马，谁怕？__________。（苏轼《定风波》）",
-                "options": [],
-                "answer": "一蓑烟雨任平生",
-                "explanation": "出自定风波。",
-                "poemId": "sup_135",
-                "knowledgePoints": [
-                        "初一",
-                        "定风波"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_418",
@@ -31592,169 +17425,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_418",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天阶夜色凉如水，__________。（杜牧《秋夕》）",
-                "options": [],
-                "answer": "卧看牵牛织女星",
-                "explanation": "出自杜牧《秋夕》，描写牵牛。",
-                "poemId": "sup_poetry_new_131",
-                "knowledgePoints": [
-                        "牵牛",
-                        "杜牧",
-                        "秋夕",
-                        "织女"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_chu1_418",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "回首向来萧瑟处，归去，__________。（苏轼《定风波》）",
-                "options": [],
-                "answer": "也无风雨也无晴",
-                "explanation": "出自定风波。",
-                "poemId": "sup_135",
-                "knowledgePoints": [
-                        "初一",
-                        "定风波"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_419",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "竹外桃花三两枝，__________。（苏轼《惠崇春江晚景》）",
-                "options": [],
-                "answer": "春江水暖鸭先知",
-                "explanation": "出自苏轼《惠崇春江晚景》，描写竹外。",
-                "poemId": "sup_165",
-                "knowledgePoints": [
-                        "竹外",
-                        "苏轼",
-                        "惠崇春江晚景",
-                        "鸭先"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_419",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "青山隐隐水迢迢，__________。（杜牧《寄扬州韩绰判官》）",
-                "options": [],
-                "answer": "秋尽江南草未凋",
-                "explanation": "出自杜牧《寄扬州韩绰判官》，描写草未凋。",
-                "poemId": "sup_187",
-                "knowledgePoints": [
-                        "草未凋",
-                        "杜牧",
-                        "寄扬州韩绰判官",
-                        "江南"
-                ]
-        },
-        {
-                "id": "q_chu1_419",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "东风夜放花千树，更吹落、__________。（辛弃疾《青玉案》）",
-                "options": [],
-                "answer": "星如雨",
-                "explanation": "出自青玉案。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "青玉案"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_420",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "蒌蒿满地芦芽短，__________。（苏轼《惠崇春江晚景》）",
-                "options": [],
-                "answer": "正是河豚欲上时",
-                "explanation": "出自苏轼《惠崇春江晚景》，描写蒌蒿。",
-                "poemId": "sup_165",
-                "knowledgePoints": [
-                        "蒌蒿",
-                        "苏轼",
-                        "惠崇春江晚景",
-                        "河豚"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_420",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "二十四桥明月夜，__________。（杜牧《寄扬州韩绰判官》）",
-                "options": [],
-                "answer": "玉人何处教吹箫",
-                "explanation": "出自杜牧《寄扬州韩绰判官》，描写玉人。",
-                "poemId": "sup_187",
-                "knowledgePoints": [
-                        "玉人",
-                        "杜牧",
-                        "寄扬州韩绰判官",
-                        "吹箫"
-                ]
-        },
-        {
-                "id": "q_chu1_420",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "众里寻他千百度，蓦然回首，__________。（辛弃疾《青玉案》）",
-                "options": [],
-                "answer": "那人却在，灯火阑珊处",
-                "explanation": "出自青玉案。",
-                "poemId": "sup_373",
-                "knowledgePoints": [
-                        "初一",
-                        "青玉案"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_421",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "借问酒家何处有，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "牧童遥指杏花村",
-                "explanation": "出自杜牧《清明》，描写杏花。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "杏花",
-                        "杜牧",
-                        "清明",
-                        "牧童"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_421",
                 "type": "fill",
                 "grade": "fbc",
@@ -31771,42 +17441,6 @@ const QUESTIONS_DATA = [
                         "登飞来峰",
                         "千寻"
                 ]
-        },
-        {
-                "id": "q_chu1_421",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "少年不识愁滋味，__________。（辛弃疾《丑奴儿》）",
-                "options": [],
-                "answer": "爱上层楼",
-                "explanation": "出自丑奴儿。",
-                "poemId": "sup_067",
-                "knowledgePoints": [
-                        "初一",
-                        "丑奴儿"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_422",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "清明时节雨纷纷，__________。（杜牧《清明》）",
-                "options": [],
-                "answer": "路上行人欲断魂",
-                "explanation": "出自杜牧《清明》，描写雨纷纷。",
-                "poemId": "sup_001",
-                "knowledgePoints": [
-                        "雨",
-                        "杜牧",
-                        "清明",
-                        "行人"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_422",
@@ -31827,79 +17461,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_422",
-                "type": "fill",
-                "grade": "chu1",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "而今识尽愁滋味，欲说还休，__________。（辛弃疾《丑奴儿》）",
-                "options": [],
-                "answer": "却道天凉好个秋",
-                "explanation": "出自丑奴儿。",
-                "poemId": null,
-                "knowledgePoints": [
-                        "初一",
-                        "丑奴儿"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_423",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千里莺啼绿映红，__________。（杜牧《江南春》）",
-                "options": [],
-                "answer": "水村山郭酒旗风",
-                "explanation": "出自杜牧《江南春》，描写莺啼。",
-                "poemId": "sup_234",
-                "knowledgePoints": [
-                        "莺啼",
-                        "杜牧",
-                        "江南春",
-                        "绿映"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_423",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "爆竹声中一岁除，__________。（王安石《元日》）",
-                "options": [],
-                "answer": "春风送暖入屠苏",
-                "explanation": "出自王安石《元日》，描写爆竹。",
-                "poemId": "sup_237",
-                "knowledgePoints": [
-                        "爆竹",
-                        "王安石",
-                        "元日",
-                        "屠苏"
-                ]
-        },
-        {
-                "id": "q_mk_424",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "南朝四百八十寺，__________。（杜牧《江南春》）",
-                "options": [],
-                "answer": "多少楼台烟雨中",
-                "explanation": "出自杜牧《江南春》，描写四百。",
-                "poemId": "sup_234",
-                "knowledgePoints": [
-                        "四百",
-                        "杜牧",
-                        "江南春",
-                        "楼台"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_424",
                 "type": "fill",
                 "grade": "fbc",
@@ -31916,136 +17477,6 @@ const QUESTIONS_DATA = [
                         "元日",
                         "新桃"
                 ]
-        },
-        {
-                "id": "q_mk_425",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "远上寒山石径斜，__________。（杜牧《山行》）",
-                "options": [],
-                "answer": "白云生处有人家",
-                "explanation": "出自杜牧《山行》，描写石径。",
-                "poemId": "sup_156",
-                "knowledgePoints": [
-                        "石径",
-                        "杜牧",
-                        "山行",
-                        "白云"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_425",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "京口瓜洲一水间，__________。（王安石《泊船瓜洲》）",
-                "options": [],
-                "answer": "钟山只隔数重山",
-                "explanation": "出自王安石《泊船瓜洲》，描写京口。",
-                "poemId": "sup_238",
-                "knowledgePoints": [
-                        "京口",
-                        "王安石",
-                        "泊船瓜洲",
-                        "瓜洲"
-                ]
-        },
-        {
-                "id": "q_mk_426",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "停车坐爱枫林晚，__________。（杜牧《山行》）",
-                "options": [],
-                "answer": "霜叶红于二月花",
-                "explanation": "出自杜牧《山行》，描写枫林晚。",
-                "poemId": "sup_156",
-                "knowledgePoints": [
-                        "枫林",
-                        "杜牧",
-                        "山行",
-                        "霜叶"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_426",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春风又绿江南岸，__________。（王安石《泊船瓜洲》）",
-                "options": [],
-                "answer": "明月何时照我还",
-                "explanation": "出自王安石《泊船瓜洲》，描写绿江南。",
-                "poemId": "sup_238",
-                "knowledgePoints": [
-                        "绿江南",
-                        "王安石",
-                        "泊船瓜洲",
-                        "明月"
-                ]
-        },
-        {
-                "id": "q_mk_427",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "银烛秋光冷画屏，__________。（杜牧《秋夕》）",
-                "options": [],
-                "answer": "轻罗小扇扑流萤",
-                "explanation": "出自杜牧《秋夕》，描写秋光。",
-                "poemId": "sup_poetry_new_131",
-                "knowledgePoints": [
-                        "秋光",
-                        "杜牧",
-                        "秋夕",
-                        "画屏"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_427",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "墙角数枝梅，__________。（王安石《梅花》）",
-                "options": [],
-                "answer": "凌寒独自开",
-                "explanation": "出自王安石《梅花》，描写墙角。",
-                "poemId": "sup_poetry_new_090",
-                "knowledgePoints": [
-                        "墙角",
-                        "王安石",
-                        "梅花",
-                        "凌寒"
-                ]
-        },
-        {
-                "id": "q_mk_428",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天阶夜色凉如水，__________。（杜牧《秋夕》）",
-                "options": [],
-                "answer": "卧看牵牛织女星",
-                "explanation": "出自杜牧《秋夕》，描写夜色凉。",
-                "poemId": "sup_poetry_new_131",
-                "knowledgePoints": [
-                        "夜色",
-                        "杜牧",
-                        "秋夕",
-                        "牵牛"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_428",
@@ -32138,158 +17569,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_431",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "碧玉妆成一树高，__________。（贺知章《咏柳》）",
-                "options": [],
-                "answer": "万条垂下绿丝绦",
-                "explanation": "出自贺知章《咏柳》，描写柳树。",
-                "poemId": "sup_106",
-                "knowledgePoints": [
-                        "柳树",
-                        "贺知章",
-                        "咏柳",
-                        "丝绦"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_431",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月落乌啼霜满天，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "江枫渔火对愁眠",
-                "explanation": "出自张继《枫桥夜泊》，描写月落。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "月落",
-                        "张继",
-                        "枫桥夜泊",
-                        "乌啼"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_432",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不知细叶谁裁出，__________。（贺知章《咏柳》）",
-                "options": [],
-                "answer": "二月春风似剪刀",
-                "explanation": "出自贺知章《咏柳》，描写春风。",
-                "poemId": "sup_307",
-                "knowledgePoints": [
-                        "春风",
-                        "贺知章",
-                        "咏柳",
-                        "剪刀"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_432",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "姑苏城外寒山寺，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "夜半钟声到客船",
-                "explanation": "出自张继《枫桥夜泊》，描写姑苏。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "姑苏",
-                        "张继",
-                        "枫桥夜泊",
-                        "钟声"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_433",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野火烧不尽，__________。（白居易《草》）",
-                "options": [],
-                "answer": "春风吹又生",
-                "explanation": "出自白居易《草》，描写野火。",
-                "poemId": "sup_224",
-                "knowledgePoints": [
-                        "野火",
-                        "白居易",
-                        "草",
-                        "吹又"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_433",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春城无处不飞花，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "寒食东风御柳斜",
-                "explanation": "出自韩翃《寒食》，描写春城无处。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "春城无处",
-                        "韩翃",
-                        "寒食",
-                        "飞花"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_434",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "离离原上草，__________。（白居易《草》）",
-                "options": [],
-                "answer": "一岁一枯荣",
-                "explanation": "出自白居易《草》，描写离离。",
-                "poemId": "sup_224",
-                "knowledgePoints": [
-                        "离离",
-                        "白居易",
-                        "草",
-                        "枯荣"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_434",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日暮汉宫传蜡烛，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "轻烟散入五侯家",
-                "explanation": "出自韩翃《寒食》，描写日暮汉宫。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "日暮汉宫",
-                        "韩翃",
-                        "寒食",
-                        "蜡烛"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_435",
                 "type": "fill",
                 "grade": "mk",
@@ -32306,215 +17585,6 @@ const QUESTIONS_DATA = [
                         "草",
                         "古道"
                 ]
-        },
-        {
-                "id": "q_fbc_435",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独在异乡为异客，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "每逢佳节倍思亲",
-                "explanation": "出自王维《九月九日忆山东兄弟》，描写独在。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "独在",
-                        "王维",
-                        "九月九日忆山东兄弟",
-                        "异乡"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_436",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄鹤一去不复返，__________。（崔颢《黄鹤楼》）",
-                "options": [],
-                "answer": "白云千载空悠悠",
-                "explanation": "出自崔颢《黄鹤楼》，描写黄鹤。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "黄鹤",
-                        "崔颢",
-                        "黄鹤楼",
-                        "千载"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_436",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遥知兄弟登高处，__________。（王维《九月九日忆山东兄弟》）",
-                "options": [],
-                "answer": "遍插茱萸少一人",
-                "explanation": "出自王维《九月九日忆山东兄弟》，描写遥知。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "遥知",
-                        "王维",
-                        "九月九日忆山东兄弟",
-                        "登高"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_437",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "晴川历历汉阳树，__________。（崔颢《黄鹤楼》）",
-                "options": [],
-                "answer": "芳草萋萋鹦鹉洲",
-                "explanation": "出自崔颢《黄鹤楼》，描写晴川。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "晴川",
-                        "崔颢",
-                        "黄鹤楼",
-                        "汉阳"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_437",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "渭城朝雨浥轻尘，__________。（王维《送元二使安西》）",
-                "options": [],
-                "answer": "客舍青青柳色新",
-                "explanation": "出自王维《送元二使安西》，描写渭城。",
-                "poemId": "sup_107",
-                "knowledgePoints": [
-                        "渭城",
-                        "王维",
-                        "送元二使安西",
-                        "轻尘"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_438",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日暮乡关何处是？__________。（崔颢《黄鹤楼》）",
-                "options": [],
-                "answer": "烟波江上使人愁",
-                "explanation": "出自崔颢《黄鹤楼》，描写日暮。",
-                "poemId": "sup_052",
-                "knowledgePoints": [
-                        "日暮",
-                        "崔颢",
-                        "黄鹤楼",
-                        "乡关"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_438",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "劝君更尽一杯酒，__________。（王维《送元二使安西》）",
-                "options": [],
-                "answer": "西出阳关无故人",
-                "explanation": "出自王维《送元二使安西》，描写劝君。",
-                "poemId": "sup_107",
-                "knowledgePoints": [
-                        "劝君",
-                        "王维",
-                        "送元二使安西",
-                        "无故人"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_439",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月落乌啼霜满天，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "江枫渔火对愁眠",
-                "explanation": "出自张继《枫桥夜泊》，描写月落乌啼。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "乌啼",
-                        "张继",
-                        "枫桥夜泊",
-                        "渔火"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_439",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独坐幽篁里，__________。（王维《竹里馆》）",
-                "options": [],
-                "answer": "弹琴复长啸",
-                "explanation": "出自王维《竹里馆》，描写独坐幽篁。",
-                "poemId": "sup_023",
-                "knowledgePoints": [
-                        "独坐幽篁",
-                        "王维",
-                        "竹里馆",
-                        "长啸"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_440",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月落乌啼霜满天，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "江枫渔火对愁眠",
-                "explanation": "出自张继《枫桥夜泊》，描写江枫。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "江枫",
-                        "张继",
-                        "枫桥夜泊",
-                        "愁眠"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_440",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "深林人不知，__________。（王维《竹里馆》）",
-                "options": [],
-                "answer": "明月来相照",
-                "explanation": "出自王维《竹里馆》，描写深林人。",
-                "poemId": "sup_023",
-                "knowledgePoints": [
-                        "深林人",
-                        "王维",
-                        "竹里馆",
-                        "明月"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_441",
@@ -32553,197 +17623,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_442",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天似穹庐，__________。（《敕勒歌》）",
-                "options": [],
-                "answer": "笼盖四野",
-                "explanation": "出自无名氏《敕勒歌》，描写四野。",
-                "poemId": "sup_158",
-                "knowledgePoints": [
-                        "四野",
-                        "无名氏",
-                        "敕勒歌",
-                        "笼盖"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_442",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "明月松间照，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "清泉石上流",
-                "explanation": "出自王维《山居秋暝》，描写明月松间。",
-                "poemId": "sup_108",
-                "knowledgePoints": [
-                        "明月松间",
-                        "王维",
-                        "山居秋暝",
-                        "清泉"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_443",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两岸猿声啼不住，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "轻舟已过万重山",
-                "explanation": "出自李白《早发白帝城》，描写猿声。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "猿声",
-                        "李白",
-                        "早发白帝城",
-                        "轻舟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_443",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "竹喧归浣女，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "莲动下渔舟",
-                "explanation": "出自王维《山居秋暝》，描写竹喧。",
-                "poemId": "sup_313",
-                "knowledgePoints": [
-                        "竹喧",
-                        "王维",
-                        "山居秋暝",
-                        "浣女"
-                ],
-                "poetryType": false,
-                "deleted": true
-        },
-        {
-                "id": "q_mk_444",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "朝辞白帝彩云间，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "千里江陵一日还",
-                "explanation": "出自李白《早发白帝城》，描写白帝。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "白帝",
-                        "李白",
-                        "早发白帝城",
-                        "彩云"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_444",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "随意春芳歇，__________。（王维《山居秋暝》）",
-                "options": [],
-                "answer": "王孙自可留",
-                "explanation": "出自王维《山居秋暝》，描写随意。",
-                "poemId": "sup_313",
-                "knowledgePoints": [
-                        "随意",
-                        "王维",
-                        "山居秋暝",
-                        "春芳"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_445",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两岸猿声啼不住，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "轻舟已过万重山",
-                "explanation": "出自李白《早发白帝城》，描写万重。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "万重",
-                        "李白",
-                        "早发白帝城",
-                        "万重山"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_445",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "单车欲问边，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "属国过居延",
-                "explanation": "出自王维《使至塞上》，描写单车欲。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "单车欲",
-                        "王维",
-                        "使至塞上",
-                        "问边"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_446",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "故人西辞黄鹤楼，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "烟花三月下扬州",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写故人。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "故人",
-                        "李白",
-                        "黄鹤楼送孟浩然之广陵",
-                        "烟花"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_446",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "征蓬出汉塞，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "归雁入胡天",
-                "explanation": "出自王维《使至塞上》，描写征蓬。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "征蓬",
-                        "王维",
-                        "使至塞上",
-                        "汉塞"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_447",
                 "type": "fill",
                 "grade": "mk",
@@ -32760,44 +17639,6 @@ const QUESTIONS_DATA = [
                         "黄鹤楼送孟浩然之广陵",
                         "碧空"
                 ]
-        },
-        {
-                "id": "q_fbc_447",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "大漠孤烟直，__________。（王维《使至塞上》）",
-                "options": [],
-                "answer": "长河落日圆",
-                "explanation": "出自王维《使至塞上》，描写大漠孤烟。",
-                "poemId": "sup_053",
-                "knowledgePoints": [
-                        "大漠孤烟",
-                        "王维",
-                        "使至塞上",
-                        "长河"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_448",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天门中断楚江开，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "碧水东流至此回",
-                "explanation": "出自李白《望天门山》，描写天门。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "天门",
-                        "李白",
-                        "望天门山",
-                        "楚江"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_448",
@@ -32818,25 +17659,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_449",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两岸青山相对出，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "孤帆一片日边来",
-                "explanation": "出自李白《望天门山》，描写青山。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "青山",
-                        "李白",
-                        "望天门山",
-                        "日边"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_449",
                 "type": "fill",
                 "grade": "fbc",
@@ -32853,25 +17675,6 @@ const QUESTIONS_DATA = [
                         "念奴娇·赤壁怀古",
                         "惊涛"
                 ]
-        },
-        {
-                "id": "q_mk_450",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日照香炉生紫烟，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "遥看瀑布挂前川",
-                "explanation": "出自李白《望庐山瀑布》，描写香炉生。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "香炉",
-                        "李白",
-                        "望庐山瀑布",
-                        "紫烟"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_450",
@@ -33126,25 +17929,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_457",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "大江东去，浪淘尽，__________。（苏轼《念奴娇·赤壁怀古》）",
-                "options": [],
-                "answer": "千古风流人物",
-                "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写千古风流。",
-                "poemId": "sup_133",
-                "knowledgePoints": [
-                        "千古风流",
-                        "苏轼",
-                        "念奴娇·赤壁怀古",
-                        "风流"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_458",
                 "type": "fill",
                 "grade": "mk",
@@ -33199,25 +17983,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_459",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "乱石穿空，惊涛拍岸，__________。（苏轼《念奴娇·赤壁怀古》）",
-                "options": [],
-                "answer": "卷起千堆雪",
-                "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写卷起。",
-                "poemId": "sup_133",
-                "knowledgePoints": [
-                        "卷起",
-                        "苏轼",
-                        "念奴娇·赤壁怀古",
-                        "千堆雪"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_460",
                 "type": "fill",
                 "grade": "mk",
@@ -33254,25 +18019,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_461",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "蓬头稚子学垂纶，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "侧坐莓苔草映身",
-                "explanation": "出自胡令能《小儿垂钓》，描写蓬头。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "蓬头",
-                        "胡令能",
-                        "小儿垂钓",
-                        "垂纶"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_461",
                 "type": "fill",
                 "grade": "fbc",
@@ -33291,25 +18037,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_462",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "路人借问遥招手，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "怕得鱼惊不应人",
-                "explanation": "出自胡令能《小儿垂钓》，描写遥招手。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "招手",
-                        "胡令能",
-                        "小儿垂钓",
-                        "借问"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_462",
                 "type": "fill",
                 "grade": "fbc",
@@ -33326,25 +18053,6 @@ const QUESTIONS_DATA = [
                         "念奴娇·赤壁怀古",
                         "樯橹"
                 ]
-        },
-        {
-                "id": "q_mk_463",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "一去二三里，__________。（邵雍《山村咏怀》）",
-                "options": [],
-                "answer": "烟村四五家",
-                "explanation": "出自邵雍《山村咏怀》，描写二三。",
-                "poemId": "sup_172",
-                "knowledgePoints": [
-                        "二三",
-                        "邵雍",
-                        "山村咏怀",
-                        "烟村"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_463",
@@ -33419,25 +18127,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_465",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫笑农家腊酒浑，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "丰年留客足鸡豚",
-                "explanation": "出自陆游《游山西村》，描写农家腊酒。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "农家腊酒",
-                        "陆游",
-                        "游山西村",
-                        "鸡豚"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_466",
                 "type": "fill",
                 "grade": "mk",
@@ -33454,498 +18143,6 @@ const QUESTIONS_DATA = [
                         "山村咏怀",
                         "亿"
                 ]
-        },
-        {
-                "id": "q_fbc_466",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "山重水复疑无路，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "柳暗花明又一村",
-                "explanation": "出自陆游《游山西村》，描写山重水复。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "山重水复",
-                        "陆游",
-                        "游山西村",
-                        "柳暗"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_467",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春眠不觉晓，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "处处闻啼鸟",
-                "explanation": "出自孟浩然《春晓》，描写春眠。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "春眠",
-                        "孟浩然",
-                        "春晓",
-                        "啼鸟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_467",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "箫鼓追随春社近，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "衣冠简朴古风存",
-                "explanation": "出自陆游《游山西村》，描写春社。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "春社",
-                        "陆游",
-                        "游山西村",
-                        "箫鼓"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_468",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夜来风雨声，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "花落知多少",
-                "explanation": "出自孟浩然《春晓》，描写夜来。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "夜来",
-                        "孟浩然",
-                        "春晓",
-                        "花落"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_468",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "从今若许闲乘月，__________。（陆游《游山西村》）",
-                "options": [],
-                "answer": "拄杖无时夜叩门",
-                "explanation": "出自陆游《游山西村》，描写闲乘月。",
-                "poemId": "sup_283",
-                "knowledgePoints": [
-                        "闲乘月",
-                        "陆游",
-                        "游山西村",
-                        "叩门"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_469",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "移舟泊烟渚，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "日暮客愁新",
-                "explanation": "出自孟浩然《宿建德江》，描写移舟。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "移舟",
-                        "孟浩然",
-                        "宿建德江",
-                        "烟渚"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_469",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "死去元知万事空，__________。（陆游《示儿》）",
-                "options": [],
-                "answer": "但悲不见九州同",
-                "explanation": "出自陆游《示儿》，描写死去元知。",
-                "poemId": "sup_075",
-                "knowledgePoints": [
-                        "死去元知",
-                        "陆游",
-                        "示儿",
-                        "九州"
-                ]
-        },
-        {
-                "id": "q_mk_470",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野旷天低树，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "江清月近人",
-                "explanation": "出自孟浩然《宿建德江》，描写野旷。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "野旷",
-                        "孟浩然",
-                        "宿建德江",
-                        "天低"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_470",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "王师北定中原日，__________。（陆游《示儿》）",
-                "options": [],
-                "answer": "家祭无忘告乃翁",
-                "explanation": "出自陆游《示儿》，描写王师北定。",
-                "poemId": "sup_075",
-                "knowledgePoints": [
-                        "王师北定",
-                        "陆游",
-                        "示儿",
-                        "家祭"
-                ]
-        },
-        {
-                "id": "q_mk_471",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春城无处不飞花，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "寒食东风御柳斜",
-                "explanation": "出自韩翃《寒食》，描写春城。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "春城",
-                        "韩翃",
-                        "寒食",
-                        "飞花"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_471",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "岱宗夫如何？__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "齐鲁青未了",
-                "explanation": "出自杜甫《望岳》，描写岱宗夫。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "岱宗夫",
-                        "杜甫",
-                        "望岳",
-                        "齐鲁"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_472",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日暮汉宫传蜡烛，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "轻烟散入五侯家",
-                "explanation": "出自韩翃《寒食》，描写日暮。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "日暮",
-                        "韩翃",
-                        "寒食",
-                        "蜡烛"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_472",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "造化钟神秀，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "阴阳割昏晓",
-                "explanation": "出自杜甫《望岳》，描写造化钟。",
-                "poemId": "sup_129",
-                "knowledgePoints": [
-                        "造化钟",
-                        "杜甫",
-                        "望岳",
-                        "神秀"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_473",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千山鸟飞绝，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "万径人踪灭",
-                "explanation": "出自柳宗元《江雪》，描写千山。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "千山",
-                        "柳宗元",
-                        "江雪",
-                        "鸟飞"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_473",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "荡胸生曾云，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "决眦入归鸟",
-                "explanation": "出自杜甫《望岳》，描写荡胸生。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "荡胸生",
-                        "杜甫",
-                        "望岳",
-                        "曾云"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_474",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤舟蓑笠翁，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "独钓寒江雪",
-                "explanation": "出自柳宗元《江雪》，描写孤舟。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "孤舟",
-                        "柳宗元",
-                        "江雪",
-                        "蓑笠"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_474",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "会当凌绝顶，__________。（杜甫《望岳》）",
-                "options": [],
-                "answer": "一览众山小",
-                "explanation": "出自杜甫《望岳》，描写会当凌。",
-                "poemId": "poem_013",
-                "knowledgePoints": [
-                        "会当凌",
-                        "杜甫",
-                        "望岳",
-                        "绝顶"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_475",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "空山不见人，__________。（王维《鹿柴》）",
-                "options": [],
-                "answer": "但闻人语响",
-                "explanation": "出自王维《鹿柴》，描写空山。",
-                "poemId": "sup_024",
-                "knowledgePoints": [
-                        "空山",
-                        "王维",
-                        "鹿柴",
-                        "人语"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_475",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "国破山河在，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "城春草木深",
-                "explanation": "出自杜甫《春望》，描写国破山河。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "国破山河",
-                        "杜甫",
-                        "春望",
-                        "草木"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_476",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "返景入深林，__________。（王维《鹿柴》）",
-                "options": [],
-                "answer": "复照青苔上",
-                "explanation": "出自王维《鹿柴》，描写返景。",
-                "poemId": "sup_024",
-                "knowledgePoints": [
-                        "返景",
-                        "王维",
-                        "鹿柴",
-                        "深林"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_476",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "感时花溅泪，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "恨别鸟惊心",
-                "explanation": "出自杜甫《春望》，描写感时花。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "感时花",
-                        "杜甫",
-                        "春望",
-                        "溅泪"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_477",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "少小离家老大回，__________。（贺知章《回乡偶书》）",
-                "options": [],
-                "answer": "乡音无改鬓毛衰",
-                "explanation": "出自贺知章《回乡偶书》，描写乡音。",
-                "poemId": "sup_009",
-                "knowledgePoints": [
-                        "乡音",
-                        "贺知章",
-                        "回乡偶书",
-                        "鬓毛"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_477",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "烽火连三月，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "家书抵万金",
-                "explanation": "出自杜甫《春望》，描写烽火连。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "烽火连",
-                        "杜甫",
-                        "春望",
-                        "家书"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_478",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "儿童相见不相识，__________。（贺知章《回乡偶书》）",
-                "options": [],
-                "answer": "笑问客从何处来",
-                "explanation": "出自贺知章《回乡偶书》，描写儿童。",
-                "poemId": "sup_009",
-                "knowledgePoints": [
-                        "儿童",
-                        "贺知章",
-                        "回乡偶书",
-                        "笑问"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_478",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白头搔更短，__________。（杜甫《春望》）",
-                "options": [],
-                "answer": "浑欲不胜簪",
-                "explanation": "出自杜甫《春望》，描写白头搔。",
-                "poemId": "sup_130",
-                "knowledgePoints": [
-                        "白头搔",
-                        "杜甫",
-                        "春望",
-                        "不胜簪"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_479",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "离别家乡岁月多，__________。（贺知章《回乡偶书》）",
-                "options": [],
-                "answer": "近来人事半消磨",
-                "explanation": "出自贺知章《回乡偶书》，描写离别。",
-                "poemId": "sup_093",
-                "knowledgePoints": [
-                        "离别",
-                        "贺知章",
-                        "回乡偶书",
-                        "消磨"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_479",
@@ -33966,25 +18163,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_480",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "岭猿同旦暮，__________。（孟浩然《宿桐庐江寄广陵旧游》）",
-                "options": [],
-                "answer": "江柳共风烟",
-                "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写岭猿。",
-                "poemId": "sup_poetry_new_031",
-                "knowledgePoints": [
-                        "岭猿",
-                        "孟浩然",
-                        "宿桐庐江寄广陵旧游",
-                        "旦暮"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_480",
                 "type": "fill",
                 "grade": "fbc",
@@ -34001,25 +18179,6 @@ const QUESTIONS_DATA = [
                         "茅屋为秋风所破歌",
                         "似铁"
                 ]
-        },
-        {
-                "id": "q_mk_481",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "风鸣两岸叶，__________。（孟浩然《宿桐庐江寄广陵旧游》）",
-                "options": [],
-                "answer": "月照一孤舟",
-                "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写风鸣。",
-                "poemId": "sup_poetry_new_031",
-                "knowledgePoints": [
-                        "风鸣",
-                        "孟浩然",
-                        "宿桐庐江寄广陵旧游",
-                        "月照"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_481",
@@ -34166,25 +18325,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_485",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "剑外忽传收蓟北，__________。（杜甫《闻官军收河南河北》）",
-                "options": [],
-                "answer": "初闻涕泪满衣裳",
-                "explanation": "出自杜甫《闻官军收河南河北》，描写剑外。",
-                "poemId": "sup_383",
-                "knowledgePoints": [
-                        "剑外",
-                        "杜甫",
-                        "闻官军收河南河北",
-                        "蓟北"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_486",
                 "type": "fill",
                 "grade": "mk",
@@ -34201,120 +18341,6 @@ const QUESTIONS_DATA = [
                         "宿桐庐江寄广陵旧游",
                         "西夜"
                 ]
-        },
-        {
-                "id": "q_fbc_486",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "却看妻子愁何在，__________。（杜甫《闻官军收河南河北》）",
-                "options": [],
-                "answer": "漫卷诗书喜欲狂",
-                "explanation": "出自杜甫《闻官军收河南河北》，描写妻子。",
-                "poemId": "sup_383",
-                "knowledgePoints": [
-                        "妻子",
-                        "杜甫",
-                        "闻官军收河南河北",
-                        "诗书"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_487",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白日依山尽，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "黄河入海流",
-                "explanation": "出自王之涣《登鹳雀楼》，描写白日。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "白日",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "入海"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_487",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白日放歌须纵酒，__________。（杜甫《闻官军收河南河北》）",
-                "options": [],
-                "answer": "青春作伴好还乡",
-                "explanation": "出自杜甫《闻官军收河南河北》，描写白日放歌。",
-                "poemId": "sup_383",
-                "knowledgePoints": [
-                        "白日放歌",
-                        "杜甫",
-                        "闻官军收河南河北",
-                        "纵酒"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_488",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "欲穷千里目，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "更上一层楼",
-                "explanation": "出自王之涣《登鹳雀楼》，描写千里。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "千里",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "更上"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_488",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "即从巴峡穿巫峡，__________。（杜甫《闻官军收河南河北》）",
-                "options": [],
-                "answer": "便下襄阳向洛阳",
-                "explanation": "出自杜甫《闻官军收河南河北》，描写巴峡。",
-                "poemId": "sup_383",
-                "knowledgePoints": [
-                        "巴峡",
-                        "杜甫",
-                        "闻官军收河南河北",
-                        "巫峡"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_489",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄河远上白云间，__________。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "一片孤城万仞山",
-                "explanation": "出自王之涣《凉州词》，描写黄河。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "黄河",
-                        "王之涣",
-                        "凉州词",
-                        "孤城"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_489",
@@ -34335,25 +18361,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_490",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "羌笛何须怨杨柳，__________。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "春风不度玉门关",
-                "explanation": "出自王之涣《凉州词》，描写羌笛。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "羌笛",
-                        "王之涣",
-                        "凉州词",
-                        "杨柳"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_490",
                 "type": "fill",
                 "grade": "fbc",
@@ -34370,175 +18377,6 @@ const QUESTIONS_DATA = [
                         "登岳阳楼",
                         "乾坤"
                 ]
-        },
-        {
-                "id": "q_mk_491",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "秦时明月汉时关，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "万里长征人未还",
-                "explanation": "出自王昌龄《出塞》，描写秦时。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "秦时",
-                        "王昌龄",
-                        "出塞",
-                        "长征"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_491",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "空山不见人，__________。（王维《鹿柴》）",
-                "options": [],
-                "answer": "但闻人语响",
-                "explanation": "出自王维《鹿柴》，描写空山不。",
-                "poemId": "sup_024",
-                "knowledgePoints": [
-                        "空山不",
-                        "王维",
-                        "鹿柴",
-                        "人语"
-                ]
-        },
-        {
-                "id": "q_mk_492",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "但使龙城飞将在，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "不教胡马度阴山",
-                "explanation": "出自王昌龄《出塞》，描写龙城。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "龙城",
-                        "王昌龄",
-                        "出塞",
-                        "阴山"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_492",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "返景入深林，__________。（王维《鹿柴》）",
-                "options": [],
-                "answer": "复照青苔上",
-                "explanation": "出自王维《鹿柴》，描写返景。",
-                "poemId": "sup_024",
-                "knowledgePoints": [
-                        "返景",
-                        "王维",
-                        "鹿柴",
-                        "青苔"
-                ]
-        },
-        {
-                "id": "q_mk_493",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "葡萄美酒夜光杯，__________。（王翰《凉州词》）",
-                "options": [],
-                "answer": "欲饮琵琶马上催",
-                "explanation": "出自王翰《凉州词》，描写葡萄。",
-                "poemId": "sup_010",
-                "knowledgePoints": [
-                        "葡萄",
-                        "王翰",
-                        "凉州词",
-                        "夜光"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_493",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独坐幽篁里，__________。（王维《竹里馆》）",
-                "options": [],
-                "answer": "弹琴复长啸",
-                "explanation": "出自王维《竹里馆》，描写独坐幽。",
-                "poemId": "sup_023",
-                "knowledgePoints": [
-                        "独坐幽",
-                        "王维",
-                        "竹里馆",
-                        "弹琴"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_494",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "醉卧沙场君莫笑，__________。（王翰《凉州词》）",
-                "options": [],
-                "answer": "古来征战几人回",
-                "explanation": "出自王翰《凉州词》，描写醉卧。",
-                "poemId": "sup_010",
-                "knowledgePoints": [
-                        "醉卧",
-                        "王翰",
-                        "凉州词",
-                        "沙场"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_494",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "深林人不知，__________。（王维《竹里馆》）",
-                "options": [],
-                "answer": "明月来相照",
-                "explanation": "出自王维《竹里馆》，描写深林人。",
-                "poemId": "sup_023",
-                "knowledgePoints": [
-                        "深林人",
-                        "王维",
-                        "竹里馆",
-                        "明月"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_495",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千里黄云白日曛，__________。（高适《别董大》）",
-                "options": [],
-                "answer": "北风吹雁雪纷纷",
-                "explanation": "出自高适《别董大》，描写千里。",
-                "poemId": "sup_213",
-                "knowledgePoints": [
-                        "千里",
-                        "高适",
-                        "别董大",
-                        "黄云"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_495",
@@ -34559,25 +18397,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_496",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "莫愁前路无知己，__________。（高适《别董大》）",
-                "options": [],
-                "answer": "天下谁人不识君",
-                "explanation": "出自高适《别董大》，描写莫愁。",
-                "poemId": "sup_213",
-                "knowledgePoints": [
-                        "莫愁",
-                        "高适",
-                        "别董大",
-                        "知己"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_496",
                 "type": "fill",
                 "grade": "fbc",
@@ -34594,158 +18413,6 @@ const QUESTIONS_DATA = [
                         "鸟鸣涧",
                         "春涧"
                 ]
-        },
-        {
-                "id": "q_mk_497",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日照香炉生紫烟，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "遥看瀑布挂前川",
-                "explanation": "出自李白《望庐山瀑布》，描写香炉。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "香炉",
-                        "李白",
-                        "望庐山瀑布",
-                        "紫烟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_497",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "花间一壶酒，__________。（李白《月下独酌》）",
-                "options": [],
-                "answer": "独酌无相亲",
-                "explanation": "出自李白《月下独酌》，描写花间。",
-                "poemId": "sup_poetry_new_075",
-                "knowledgePoints": [
-                        "花间",
-                        "李白",
-                        "月下独酌",
-                        "一壶"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_498",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "飞流直下三千尺，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "疑是银河落九天",
-                "explanation": "出自李白《望庐山瀑布》，描写飞流。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "飞流",
-                        "李白",
-                        "望庐山瀑布",
-                        "银河"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_498",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "举杯邀明月，__________。（李白《月下独酌》）",
-                "options": [],
-                "answer": "对影成三人",
-                "explanation": "出自李白《月下独酌》，描写举杯。",
-                "poemId": "sup_poetry_new_075",
-                "knowledgePoints": [
-                        "举杯",
-                        "李白",
-                        "月下独酌",
-                        "三人"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_499",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "朝辞白帝彩云间，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "千里江陵一日还",
-                "explanation": "出自李白《早发白帝城》，描写白帝。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "白帝",
-                        "李白",
-                        "早发白帝城",
-                        "彩云"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_499",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月既不解饮，__________。（李白《月下独酌》）",
-                "options": [],
-                "answer": "影徒随我身",
-                "explanation": "出自李白《月下独酌》，描写月既。",
-                "poemId": "sup_poetry_new_075",
-                "knowledgePoints": [
-                        "月既",
-                        "李白",
-                        "月下独酌",
-                        "解饮"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_500",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两岸猿声啼不住，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "轻舟已过万重山",
-                "explanation": "出自李白《早发白帝城》，描写猿声。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "猿声",
-                        "李白",
-                        "早发白帝城",
-                        "万重"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_500",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "暂伴月将影，__________。（李白《月下独酌》）",
-                "options": [],
-                "answer": "行乐须及春",
-                "explanation": "出自李白《月下独酌》，描写暂伴。",
-                "poemId": "sup_poetry_new_075",
-                "knowledgePoints": [
-                        "暂伴",
-                        "李白",
-                        "月下独酌",
-                        "行乐"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu1_500",
@@ -34783,44 +18450,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_501",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "故人西辞黄鹤楼，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "烟花三月下扬州",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写故人。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "故人",
-                        "李白",
-                        "黄鹤楼送孟浩然之广陵",
-                        "烟花"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_501",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春眠不觉晓，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "处处闻啼鸟",
-                "explanation": "出自孟浩然《春晓》，描写春眠。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "春眠",
-                        "孟浩然",
-                        "春晓",
-                        "啼鸟"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_501",
                 "type": "choice",
                 "grade": "chu1",
@@ -34854,44 +18483,6 @@ const QUESTIONS_DATA = [
                         "天净沙",
                         "思乡"
                 ]
-        },
-        {
-                "id": "q_mk_502",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤帆远影碧空尽，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "唯见长江天际流",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写孤帆。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "孤帆",
-                        "李白",
-                        "黄鹤楼送孟浩然之广陵",
-                        "碧空"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_502",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夜来风雨声，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "花落知多少",
-                "explanation": "出自孟浩然《春晓》，描写夜来风。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "夜来风",
-                        "孟浩然",
-                        "春晓",
-                        "花落"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu1_502",
@@ -34929,44 +18520,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_503",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天门中断楚江开，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "碧水东流至此回",
-                "explanation": "出自李白《望天门山》，描写天门。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "天门",
-                        "李白",
-                        "望天门山",
-                        "楚江"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_503",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "移舟泊烟渚，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "日暮客愁新",
-                "explanation": "出自孟浩然《宿建德江》，描写移舟泊。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "移舟泊",
-                        "孟浩然",
-                        "宿建德江",
-                        "烟渚"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_chu1_503",
                 "type": "choice",
                 "grade": "chu1",
@@ -34999,44 +18552,6 @@ const QUESTIONS_DATA = [
                         "崔颢",
                         "黄鹤楼"
                 ]
-        },
-        {
-                "id": "q_mk_504",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两岸青山相对出，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "孤帆一片日边来",
-                "explanation": "出自李白《望天门山》，描写青山。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "青山",
-                        "李白",
-                        "望天门山",
-                        "日边"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_504",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野旷天低树，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "江清月近人",
-                "explanation": "出自孟浩然《宿建德江》，描写野旷天。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "野旷天",
-                        "孟浩然",
-                        "宿建德江",
-                        "月近"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_chu1_504",
@@ -35128,101 +18643,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_506",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "气蒸云梦泽，__________。（孟浩然《望洞庭湖赠张丞相》）",
-                "options": [],
-                "answer": "波撼岳阳城",
-                "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写气蒸。",
-                "poemId": "sup_102",
-                "knowledgePoints": [
-                        "气蒸",
-                        "孟浩然",
-                        "望洞庭湖赠张丞相",
-                        "岳阳"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_507",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "江南好，风景旧曾谙。__________，蓝尾鸬鹚。（白居易《忆江南》）",
-                "options": [],
-                "answer": "江南好",
-                "explanation": "出自白居易《忆江南》，描写江南。",
-                "poemId": "sup_226",
-                "knowledgePoints": [
-                        "江南",
-                        "白居易",
-                        "忆江南",
-                        "蓝尾"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_507",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "欲济无舟楫，__________。（孟浩然《望洞庭湖赠张丞相》）",
-                "options": [],
-                "answer": "端居耻圣明",
-                "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写欲济。",
-                "poemId": "sup_102",
-                "knowledgePoints": [
-                        "欲济",
-                        "孟浩然",
-                        "望洞庭湖赠张丞相",
-                        "舟楫"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_508",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日出江花红胜火，__________。（白居易《忆江南》）",
-                "options": [],
-                "answer": "春来江水绿如蓝",
-                "explanation": "出自白居易《忆江南》，描写日出。",
-                "poemId": "sup_226",
-                "knowledgePoints": [
-                        "日出",
-                        "白居易",
-                        "忆江南",
-                        "绿如"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_508",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "坐观垂钓者，__________。（孟浩然《望洞庭湖赠张丞相》）",
-                "options": [],
-                "answer": "徒有羡鱼情",
-                "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写坐观。",
-                "poemId": "sup_102",
-                "knowledgePoints": [
-                        "坐观",
-                        "孟浩然",
-                        "望洞庭湖赠张丞相",
-                        "羡鱼"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_509",
                 "type": "fill",
                 "grade": "mk",
@@ -35239,25 +18659,6 @@ const QUESTIONS_DATA = [
                         "忆江南",
                         "山寺"
                 ]
-        },
-        {
-                "id": "q_fbc_509",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "秦时明月汉时关，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "万里长征人未还",
-                "explanation": "出自王昌龄《出塞》，描写秦时。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "秦时",
-                        "王昌龄",
-                        "出塞",
-                        "长征"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_510",
@@ -35278,25 +18679,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_510",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "但使龙城飞将在，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "不教胡马度阴山",
-                "explanation": "出自王昌龄《出塞》，描写龙城。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "龙城",
-                        "王昌龄",
-                        "出塞",
-                        "胡马"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_511",
                 "type": "fill",
                 "grade": "mk",
@@ -35313,25 +18695,6 @@ const QUESTIONS_DATA = [
                         "暮江吟",
                         "露似"
                 ]
-        },
-        {
-                "id": "q_mk_512",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "离离原上草，__________。（白居易《草》）",
-                "options": [],
-                "answer": "一岁一枯荣",
-                "explanation": "出自白居易《草》，描写离离。",
-                "poemId": "sup_224",
-                "knowledgePoints": [
-                        "离离",
-                        "白居易",
-                        "草",
-                        "枯荣"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_512",
@@ -35352,215 +18715,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_513",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野火烧不尽，__________。（白居易《草》）",
-                "options": [],
-                "answer": "春风吹又生",
-                "explanation": "出自白居易《草》，描写野火。",
-                "poemId": "sup_224",
-                "knowledgePoints": [
-                        "野火",
-                        "白居易",
-                        "草",
-                        "吹又"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_514",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "远芳侵古道，__________。（白居易《草》）",
-                "options": [],
-                "answer": "晴翠接荒城",
-                "explanation": "出自白居易《草》，描写远芳。",
-                "poemId": "sup_224",
-                "knowledgePoints": [
-                        "远芳",
-                        "白居易",
-                        "草",
-                        "古道"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_514",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "青海长云暗雪山，__________。（王昌龄《从军行》）",
-                "options": [],
-                "answer": "孤城遥望玉门关",
-                "explanation": "出自王昌龄《从军行》，描写青海长。",
-                "poemId": "sup_012",
-                "knowledgePoints": [
-                        "青海长",
-                        "王昌龄",
-                        "从军行",
-                        "雪山"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_515",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千山鸟飞绝，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "万径人踪灭",
-                "explanation": "出自柳宗元《江雪》，描写千山。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "千山",
-                        "柳宗元",
-                        "江雪",
-                        "人踪"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_515",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄沙百战穿金甲，__________。（王昌龄《从军行》）",
-                "options": [],
-                "answer": "不破楼兰终不还",
-                "explanation": "出自王昌龄《从军行》，描写黄沙百。",
-                "poemId": "sup_012",
-                "knowledgePoints": [
-                        "黄沙百",
-                        "王昌龄",
-                        "从军行",
-                        "楼兰"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_516",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤舟蓑笠翁，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "独钓寒江雪",
-                "explanation": "出自柳宗元《江雪》，描写孤舟。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "孤舟",
-                        "柳宗元",
-                        "江雪",
-                        "蓑笠"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_517",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "蓬头稚子学垂纶，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "侧坐莓苔草映身",
-                "explanation": "出自胡令能《小儿垂钓》，描写蓬头。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "蓬头",
-                        "胡令能",
-                        "小儿垂钓",
-                        "垂纶"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_517",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "秦时明月汉时关，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "万里长征人未还",
-                "explanation": "出自王昌龄《出塞》，描写秦时明。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "秦时明",
-                        "王昌龄",
-                        "出塞",
-                        "长征"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_518",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "路人借问遥招手，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "怕得鱼惊不应人",
-                "explanation": "出自胡令能《小儿垂钓》，描写遥招手。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "招手",
-                        "胡令能",
-                        "小儿垂钓",
-                        "借问"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_518",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "但使龙城飞将在，__________。（王昌龄《出塞》）",
-                "options": [],
-                "answer": "不教胡马度阴山",
-                "explanation": "出自王昌龄《出塞》，描写但使龙。",
-                "poemId": "sup_011",
-                "knowledgePoints": [
-                        "但使龙",
-                        "王昌龄",
-                        "出塞",
-                        "胡马"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_519",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "一去二三里，__________。（邵雍《山村咏怀》）",
-                "options": [],
-                "answer": "烟村四五家",
-                "explanation": "出自邵雍《山村咏怀》，描写二三。",
-                "poemId": "sup_172",
-                "knowledgePoints": [
-                        "二三",
-                        "邵雍",
-                        "山村咏怀",
-                        "烟村"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_519",
                 "type": "fill",
                 "grade": "fbc",
@@ -35577,25 +18731,6 @@ const QUESTIONS_DATA = [
                         "塞下曲",
                         "沙场"
                 ]
-        },
-        {
-                "id": "q_mk_520",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "亭台六七座，__________。（邵雍《山村咏怀》）",
-                "options": [],
-                "answer": "八九十枝花",
-                "explanation": "出自邵雍《山村咏怀》，描写亭台。",
-                "poemId": "sup_172",
-                "knowledgePoints": [
-                        "亭台",
-                        "邵雍",
-                        "山村咏怀",
-                        "八九十"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_520",
@@ -35616,63 +18751,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_521",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "敕勒川，阴山下。__________，四野茫茫。（《敕勒歌》）",
-                "options": [],
-                "answer": "天似穹庐",
-                "explanation": "出自无名氏《敕勒歌》，描写敕勒川。",
-                "poemId": "sup_158",
-                "knowledgePoints": [
-                        "敕勒川",
-                        "无名氏",
-                        "敕勒歌",
-                        "穹庐"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_521",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月黑雁飞高，__________。（卢纶《塞下曲》）",
-                "options": [],
-                "answer": "单于夜遁逃",
-                "explanation": "出自卢纶《塞下曲》，描写月黑雁。",
-                "poemId": "sup_219",
-                "knowledgePoints": [
-                        "月黑雁",
-                        "卢纶",
-                        "塞下曲",
-                        "单于"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_522",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天似穹庐，__________。（《敕勒歌》）",
-                "options": [],
-                "answer": "笼盖四野",
-                "explanation": "出自无名氏《敕勒歌》，描写四野。",
-                "poemId": "sup_158",
-                "knowledgePoints": [
-                        "四野",
-                        "无名氏",
-                        "敕勒歌",
-                        "笼盖"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_522",
                 "type": "fill",
                 "grade": "fbc",
@@ -35689,25 +18767,6 @@ const QUESTIONS_DATA = [
                         "塞下曲",
                         "大雪"
                 ]
-        },
-        {
-                "id": "q_mk_523",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "风吹草低见牛羊，__________。（《敕勒歌》）",
-                "options": [],
-                "answer": "敕勒川",
-                "explanation": "出自无名氏《敕勒歌》，描写牛羊。",
-                "poemId": "sup_158",
-                "knowledgePoints": [
-                        "牛羊",
-                        "无名氏",
-                        "敕勒歌",
-                        "草低"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_523",
@@ -35728,25 +18787,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_524",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "终南阴岭秀，__________。（祖咏《终南望余雪》）",
-                "options": [],
-                "answer": "积雪浮云端",
-                "explanation": "出自祖咏《终南望余雪》，描写终南。",
-                "poemId": "sup_325",
-                "knowledgePoints": [
-                        "终南",
-                        "祖咏",
-                        "终南望余雪",
-                        "阴岭"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_524",
                 "type": "fill",
                 "grade": "fbc",
@@ -35763,25 +18803,6 @@ const QUESTIONS_DATA = [
                         "塞下曲",
                         "石棱"
                 ]
-        },
-        {
-                "id": "q_mk_525",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "林表明霁色，__________。（祖咏《终南望余雪》）",
-                "options": [],
-                "answer": "城中增暮寒",
-                "explanation": "出自祖咏《终南望余雪》，描写林表。",
-                "poemId": "sup_325",
-                "knowledgePoints": [
-                        "林表",
-                        "祖咏",
-                        "终南望余雪",
-                        "霁色"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_525",
@@ -35802,25 +18823,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_526",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "慈母手中线，__________。（孟郊《游子吟》）",
-                "options": [],
-                "answer": "游子身上衣",
-                "explanation": "出自孟郊《游子吟》，描写慈母。",
-                "poemId": "sup_161",
-                "knowledgePoints": [
-                        "慈母",
-                        "孟郊",
-                        "游子吟",
-                        "手中"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_526",
                 "type": "fill",
                 "grade": "fbc",
@@ -35837,25 +18839,6 @@ const QUESTIONS_DATA = [
                         "塞下曲",
                         "金甲"
                 ]
-        },
-        {
-                "id": "q_mk_527",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "小时不识月，__________。（李白《古朗月行》）",
-                "options": [],
-                "answer": "呼作白玉盘",
-                "explanation": "出自李白《古朗月行》，描写小时。",
-                "poemId": "sup_051",
-                "knowledgePoints": [
-                        "小时",
-                        "李白",
-                        "古朗月行",
-                        "白玉"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_527",
@@ -35931,25 +18914,6 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_fbc_529",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "月落乌啼霜满天，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "江枫渔火对愁眠",
-                "explanation": "出自张继《枫桥夜泊》，描写月落乌。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "月落乌",
-                        "张继",
-                        "枫桥夜泊",
-                        "渔火"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_530",
                 "type": "fill",
                 "grade": "mk",
@@ -35966,25 +18930,6 @@ const QUESTIONS_DATA = [
                         "将进酒",
                         "寂寞"
                 ]
-        },
-        {
-                "id": "q_fbc_530",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "姑苏城外寒山寺，__________。（张继《枫桥夜泊》）",
-                "options": [],
-                "answer": "夜半钟声到客船",
-                "explanation": "出自张继《枫桥夜泊》，描写姑苏城。",
-                "poemId": "sup_016",
-                "knowledgePoints": [
-                        "姑苏城",
-                        "张继",
-                        "枫桥夜泊",
-                        "钟声"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_531",
@@ -36005,24 +18950,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_531",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独怜幽草涧边生，__________。（韦应物《滁州西涧》）",
-                "options": [],
-                "answer": "上有黄鹂深树鸣",
-                "explanation": "出自韦应物《滁州西涧》，描写独怜。",
-                "poemId": "sup_217",
-                "knowledgePoints": [
-                        "独怜",
-                        "韦应物",
-                        "滁州西涧",
-                        "黄鹂"
-                ]
-        },
-        {
                 "id": "q_mk_532",
                 "type": "fill",
                 "grade": "mk",
@@ -36038,24 +18965,6 @@ const QUESTIONS_DATA = [
                         "李白",
                         "将进酒",
                         "金樽"
-                ]
-        },
-        {
-                "id": "q_fbc_532",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春潮带雨晚来急，__________。（韦应物《滁州西涧》）",
-                "options": [],
-                "answer": "野渡无人舟自横",
-                "explanation": "出自韦应物《滁州西涧》，描写春潮。",
-                "poemId": "sup_217",
-                "knowledgePoints": [
-                        "春潮",
-                        "韦应物",
-                        "滁州西涧",
-                        "野渡"
                 ]
         },
         {
@@ -36149,25 +19058,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_535",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今夜偏知春气暖，__________。（刘方平《月夜》）",
-                "options": [],
-                "answer": "虫声新透绿窗纱",
-                "explanation": "出自刘方平《月夜》，描写今夜偏。",
-                "poemId": "sup_345",
-                "knowledgePoints": [
-                        "今夜偏",
-                        "刘方平",
-                        "月夜",
-                        "春气"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_536",
                 "type": "fill",
                 "grade": "mk",
@@ -36184,44 +19074,6 @@ const QUESTIONS_DATA = [
                         "将进酒",
                         "侧耳"
                 ]
-        },
-        {
-                "id": "q_fbc_536",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "更深月色半人家，__________。（刘方平《月夜》）",
-                "options": [],
-                "answer": "北斗阑干南斗斜",
-                "explanation": "出自刘方平《月夜》，描写更深月。",
-                "poemId": "sup_345",
-                "knowledgePoints": [
-                        "更深月",
-                        "刘方平",
-                        "月夜",
-                        "月色"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_537",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "草长莺飞二月天，__________。（高鼎《村居》）",
-                "options": [],
-                "answer": "拂堤杨柳醉春烟",
-                "explanation": "出自高鼎《村居》，描写草长。",
-                "poemId": "sup_073",
-                "knowledgePoints": [
-                        "草长",
-                        "高鼎",
-                        "村居",
-                        "莺飞"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_537",
@@ -36278,25 +19130,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_539",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "泉眼无声惜细流，__________。（杨万里《小池》）",
-                "options": [],
-                "answer": "树阴照水爱晴柔",
-                "explanation": "出自杨万里《小池》，描写泉眼。",
-                "poemId": "sup_079",
-                "knowledgePoints": [
-                        "泉眼",
-                        "杨万里",
-                        "小池",
-                        "细流"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_539",
                 "type": "fill",
                 "grade": "fbc",
@@ -36313,25 +19146,6 @@ const QUESTIONS_DATA = [
                         "闻王昌龄左迁龙标遥有此寄",
                         "子规"
                 ]
-        },
-        {
-                "id": "q_mk_540",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "小荷才露尖尖角，__________。（杨万里《小池》）",
-                "options": [],
-                "answer": "早有蜻蜓立上头",
-                "explanation": "出自杨万里《小池》，描写小荷。",
-                "poemId": "sup_079",
-                "knowledgePoints": [
-                        "小荷",
-                        "杨万里",
-                        "小池",
-                        "蜻蜓"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_540",
@@ -36352,234 +19166,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_541",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两个黄鹂鸣翠柳，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "一行白鹭上青天",
-                "explanation": "出自杜甫《绝句》，描写黄鹂。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "黄鹂",
-                        "杜甫",
-                        "绝句",
-                        "白鹭"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_541",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "独怜幽草涧边生，__________。（韦应物《滁州西涧》）",
-                "options": [],
-                "answer": "上有黄鹂深树鸣",
-                "explanation": "出自韦应物《滁州西涧》，描写独怜幽。",
-                "poemId": "sup_217",
-                "knowledgePoints": [
-                        "独怜幽",
-                        "韦应物",
-                        "滁州西涧",
-                        "深树"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_542",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "窗含西岭千秋雪，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "门泊东吴万里船",
-                "explanation": "出自杜甫《绝句》，描写窗含。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "窗含",
-                        "杜甫",
-                        "绝句",
-                        "西岭"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_542",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春潮带雨晚来急，__________。（韦应物《滁州西涧》）",
-                "options": [],
-                "answer": "野渡无人舟自横",
-                "explanation": "出自韦应物《滁州西涧》，描写春潮带。",
-                "poemId": "sup_217",
-                "knowledgePoints": [
-                        "春潮带",
-                        "韦应物",
-                        "滁州西涧",
-                        "舟自横"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_543",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "泥融飞燕子，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "沙暖睡鸳鸯",
-                "explanation": "出自杜甫《绝句》，描写泥融。",
-                "poemId": "sup_353",
-                "knowledgePoints": [
-                        "泥融",
-                        "杜甫",
-                        "绝句",
-                        "燕子"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_543",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今夜偏知春气暖，__________。（刘方平《月夜》）",
-                "options": [],
-                "answer": "虫声新透绿窗纱",
-                "explanation": "出自刘方平《月夜》，描写今夜偏。",
-                "poemId": "sup_345",
-                "knowledgePoints": [
-                        "今夜偏",
-                        "刘方平",
-                        "月夜",
-                        "虫声"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_544",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "迟日江山丽，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "春风花草香",
-                "explanation": "出自杜甫《绝句》，描写迟日。",
-                "poemId": "sup_353",
-                "knowledgePoints": [
-                        "迟日",
-                        "杜甫",
-                        "绝句",
-                        "花草"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_544",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "更深月色半人家，__________。（刘方平《月夜》）",
-                "options": [],
-                "answer": "北斗阑干南斗斜",
-                "explanation": "出自刘方平《月夜》，描写更深月。",
-                "poemId": "sup_345",
-                "knowledgePoints": [
-                        "更深月",
-                        "刘方平",
-                        "月夜",
-                        "阑干"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_545",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "江碧鸟逾白，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "山青花欲燃",
-                "explanation": "出自杜甫《绝句》，描写江碧。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "江碧",
-                        "杜甫",
-                        "绝句",
-                        "欲燃"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_545",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "回乐烽前沙似雪，__________。（李益《夜上受降城闻笛》）",
-                "options": [],
-                "answer": "受降城外月如霜",
-                "explanation": "出自李益《夜上受降城闻笛》，描写回乐烽。",
-                "poemId": "sup_340",
-                "knowledgePoints": [
-                        "回乐烽",
-                        "李益",
-                        "夜上受降城闻笛",
-                        "月如霜"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_546",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今春看又过，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "何日是归年",
-                "explanation": "出自杜甫《绝句》，描写今春。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "今春",
-                        "杜甫",
-                        "绝句",
-                        "归年"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_546",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不知何处吹芦管，__________。（李益《夜上受降城闻笛》）",
-                "options": [],
-                "answer": "一夜征人尽望乡",
-                "explanation": "出自李益《夜上受降城闻笛》，描写不知何。",
-                "poemId": "sup_340",
-                "knowledgePoints": [
-                        "不知何",
-                        "李益",
-                        "夜上受降城闻笛",
-                        "征人"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_547",
                 "type": "fill",
                 "grade": "mk",
@@ -36596,25 +19182,6 @@ const QUESTIONS_DATA = [
                         "江畔独步寻花",
                         "懒困"
                 ]
-        },
-        {
-                "id": "q_fbc_547",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "杨花落尽子规啼，__________。（李白《闻王昌龄左迁龙标遥有此寄》）",
-                "options": [],
-                "answer": "闻道龙标过五溪",
-                "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，描写杨花落。",
-                "poemId": "sup_055",
-                "knowledgePoints": [
-                        "杨花落",
-                        "李白",
-                        "闻王昌龄左迁龙标遥有此寄",
-                        "龙标"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_548",
@@ -36635,25 +19202,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_548",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "我寄愁心与明月，__________。（李白《闻王昌龄左迁龙标遥有此寄》）",
-                "options": [],
-                "answer": "随风直到夜郎西",
-                "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，描写我寄愁。",
-                "poemId": "sup_055",
-                "knowledgePoints": [
-                        "我寄愁",
-                        "李白",
-                        "闻王昌龄左迁龙标遥有此寄",
-                        "夜郎"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_549",
                 "type": "fill",
                 "grade": "mk",
@@ -36672,25 +19220,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_fbc_549",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春城无处不飞花，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "寒食东风御柳斜",
-                "explanation": "出自韩翃《寒食》，描写春城无。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "春城无",
-                        "韩翃",
-                        "寒食",
-                        "御柳"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_550",
                 "type": "fill",
                 "grade": "mk",
@@ -36707,690 +19236,6 @@ const QUESTIONS_DATA = [
                         "江畔独步寻花",
                         "娇莺"
                 ]
-        },
-        {
-                "id": "q_fbc_550",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日暮汉宫传蜡烛，__________。（韩翃《寒食》）",
-                "options": [],
-                "answer": "轻烟散入五侯家",
-                "explanation": "出自韩翃《寒食》，描写日暮汉。",
-                "poemId": "sup_302",
-                "knowledgePoints": [
-                        "日暮汉",
-                        "韩翃",
-                        "寒食",
-                        "五侯"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_551",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白日依山尽，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "黄河入海流",
-                "explanation": "出自王之涣《登鹳雀楼》，描写白日。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "白日",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "依山"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_551",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春眠不觉晓，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "处处闻啼鸟",
-                "explanation": "出自孟浩然《春晓》，描写春眠不。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "春眠不",
-                        "孟浩然",
-                        "春晓",
-                        "啼鸟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_552",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "欲穷千里目，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "更上一层楼",
-                "explanation": "出自王之涣《登鹳雀楼》，描写欲穷。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "欲穷",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "千里"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_552",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夜来风雨声，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "花落知多少",
-                "explanation": "出自孟浩然《春晓》，描写夜来风。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "夜来风",
-                        "孟浩然",
-                        "春晓",
-                        "花落"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_553",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "白日依山尽，__________。（王之涣《登鹳雀楼》）",
-                "options": [],
-                "answer": "黄河入海流",
-                "explanation": "出自王之涣《登鹳雀楼》，描写黄河。",
-                "poemId": "sup_046",
-                "knowledgePoints": [
-                        "黄河",
-                        "王之涣",
-                        "登鹳雀楼",
-                        "入海"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_553",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "移舟泊烟渚，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "日暮客愁新",
-                "explanation": "出自孟浩然《宿建德江》，描写移舟泊。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "移舟泊",
-                        "孟浩然",
-                        "宿建德江",
-                        "烟渚"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_554",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千山鸟飞绝，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "万径人踪灭",
-                "explanation": "出自柳宗元《江雪》，描写万径。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "万径",
-                        "柳宗元",
-                        "江雪",
-                        "人踪"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_554",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "野旷天低树，__________。（孟浩然《宿建德江》）",
-                "options": [],
-                "answer": "江清月近人",
-                "explanation": "出自孟浩然《宿建德江》，描写野旷天。",
-                "poemId": "sup_099",
-                "knowledgePoints": [
-                        "野旷天",
-                        "孟浩然",
-                        "宿建德江",
-                        "月近"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_555",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤舟蓑笠翁，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "独钓寒江雪",
-                "explanation": "出自柳宗元《江雪》，描写独钓。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "独钓",
-                        "柳宗元",
-                        "江雪",
-                        "寒江"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_555",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "床前明月光，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "疑是地上霜",
-                "explanation": "出自李白《静夜思》，描写床前明。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "床前明",
-                        "李白",
-                        "静夜思",
-                        "地上"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_556",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "床前明月光，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "疑是地上霜",
-                "explanation": "出自李白《静夜思》，描写地上霜。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "地上霜",
-                        "李白",
-                        "静夜思",
-                        "床前"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_556",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "举头望明月，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "低头思故乡",
-                "explanation": "出自李白《静夜思》，描写举头望。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "举头望",
-                        "李白",
-                        "静夜思",
-                        "故乡"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_557",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "举头望明月，__________。（李白《静夜思》）",
-                "options": [],
-                "answer": "低头思故乡",
-                "explanation": "出自李白《静夜思》，描写低头。",
-                "poemId": "sup_113",
-                "knowledgePoints": [
-                        "低头",
-                        "李白",
-                        "静夜思",
-                        "故乡"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_557",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千山鸟飞绝，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "万径人踪灭",
-                "explanation": "出自柳宗元《江雪》，描写千山鸟。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "千山鸟",
-                        "柳宗元",
-                        "江雪",
-                        "人踪"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_558",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "春眠不觉晓，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "处处闻啼鸟",
-                "explanation": "出自孟浩然《春晓》，描写春眠。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "春眠",
-                        "孟浩然",
-                        "春晓",
-                        "不觉"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_558",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤舟蓑笠翁，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "独钓寒江雪",
-                "explanation": "出自柳宗元《江雪》，描写孤舟蓑。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "孤舟蓑",
-                        "柳宗元",
-                        "江雪",
-                        "寒江"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_559",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "夜来风雨声，__________。（孟浩然《春晓》）",
-                "options": [],
-                "answer": "花落知多少",
-                "explanation": "出自孟浩然《春晓》，描写夜来。",
-                "poemId": "sup_045",
-                "knowledgePoints": [
-                        "夜来",
-                        "孟浩然",
-                        "春晓",
-                        "风雨"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_559",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "空山不见人，__________。（王维《鹿柴》）",
-                "options": [],
-                "answer": "但闻人语响",
-                "explanation": "出自王维《鹿柴》，描写空山不。",
-                "poemId": "sup_024",
-                "knowledgePoints": [
-                        "空山不",
-                        "王维",
-                        "鹿柴",
-                        "人语"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_560",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "松下问童子，__________。（贾岛《寻隐者不遇》）",
-                "options": [],
-                "answer": "言师采药去",
-                "explanation": "出自贾岛《寻隐者不遇》，描写松下。",
-                "poemId": "sup_021",
-                "knowledgePoints": [
-                        "松下",
-                        "贾岛",
-                        "寻隐者不遇",
-                        "童子"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_fbc_560",
-                "type": "fill",
-                "grade": "fbc",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "返景入深林，__________。（王维《鹿柴》）",
-                "options": [],
-                "answer": "复照青苔上",
-                "explanation": "出自王维《鹿柴》，描写返景入。",
-                "poemId": "sup_024",
-                "knowledgePoints": [
-                        "返景入",
-                        "王维",
-                        "鹿柴",
-                        "青苔"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_561",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "碧玉妆成一树高，__________。（贺知章《咏柳》）",
-                "options": [],
-                "answer": "万条垂下绿丝绦",
-                "explanation": "出自贺知章《咏柳》，描写碧玉。",
-                "poemId": "sup_106",
-                "knowledgePoints": [
-                        "碧玉",
-                        "贺知章",
-                        "咏柳",
-                        "丝绦"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_562",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不知细叶谁裁出，__________。（贺知章《咏柳》）",
-                "options": [],
-                "answer": "二月春风似剪刀",
-                "explanation": "出自贺知章《咏柳》，描写不知细叶。",
-                "poemId": "sup_307",
-                "knowledgePoints": [
-                        "不知细叶",
-                        "贺知章",
-                        "咏柳",
-                        "剪刀"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_563",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "少小离家老大回，__________。（贺知章《回乡偶书》）",
-                "options": [],
-                "answer": "乡音无改鬓毛衰",
-                "explanation": "出自贺知章《回乡偶书》，描写少小离家。",
-                "poemId": "sup_009",
-                "knowledgePoints": [
-                        "少小离家",
-                        "贺知章",
-                        "回乡偶书",
-                        "鬓毛"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_564",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "儿童相见不相识，__________。（贺知章《回乡偶书》）",
-                "options": [],
-                "answer": "笑问客从何处来",
-                "explanation": "出自贺知章《回乡偶书》，描写儿童。",
-                "poemId": "sup_009",
-                "knowledgePoints": [
-                        "儿童",
-                        "贺知章",
-                        "回乡偶书",
-                        "笑问"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_565",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄河远上白云间，__________。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "一片孤城万仞山",
-                "explanation": "出自王之涣《凉州词》，描写黄河远上。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "黄河远上",
-                        "王之涣",
-                        "凉州词",
-                        "孤城"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_566",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "羌笛何须怨杨柳，__________。（王之涣《凉州词》）",
-                "options": [],
-                "answer": "春风不度玉门关",
-                "explanation": "出自王之涣《凉州词》，描写羌笛。",
-                "poemId": "sup_042",
-                "knowledgePoints": [
-                        "羌笛",
-                        "王之涣",
-                        "凉州词",
-                        "杨柳"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_567",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日照香炉生紫烟，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "遥看瀑布挂前川",
-                "explanation": "出自李白《望庐山瀑布》，描写日照。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "日照",
-                        "李白",
-                        "望庐山瀑布",
-                        "香炉"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_568",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "飞流直下三千尺，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "疑是银河落九天",
-                "explanation": "出自李白《望庐山瀑布》，描写飞流。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "飞流",
-                        "李白",
-                        "望庐山瀑布",
-                        "银河"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_569",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "朝辞白帝彩云间，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "千里江陵一日还",
-                "explanation": "出自李白《早发白帝城》，描写朝辞。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "朝辞",
-                        "李白",
-                        "早发白帝城",
-                        "彩云"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_570",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两岸猿声啼不住，__________。（李白《早发白帝城》）",
-                "options": [],
-                "answer": "轻舟已过万重山",
-                "explanation": "出自李白《早发白帝城》，描写两岸猿声。",
-                "poemId": "sup_030",
-                "knowledgePoints": [
-                        "两岸猿声",
-                        "李白",
-                        "早发白帝城",
-                        "轻舟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_571",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "故人西辞黄鹤楼，__________。（李白《黄鹤楼送孟浩然之广陵》）",
-                "options": [],
-                "answer": "烟花三月下扬州",
-                "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写故人西辞。",
-                "poemId": "sup_031",
-                "knowledgePoints": [
-                        "故人西辞",
-                        "李白",
-                        "黄鹤楼送孟浩然之广陵",
-                        "黄鹤楼"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_572",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "桃花潭水深千尺，__________。（李白《赠汪伦》）",
-                "options": [],
-                "answer": "不及汪伦送我情",
-                "explanation": "出自李白《赠汪伦》，描写桃花潭水。",
-                "poemId": "sup_008",
-                "knowledgePoints": [
-                        "桃花潭水",
-                        "李白",
-                        "赠汪伦",
-                        "汪伦"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_573",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两岸青山相对出，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "孤帆一片日边来",
-                "explanation": "出自李白《望天门山》，描写两岸青山。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "两岸青山",
-                        "李白",
-                        "望天门山",
-                        "孤帆"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_574",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天门中断楚江开，__________。（李白《望天门山》）",
-                "options": [],
-                "answer": "碧水东流至此回",
-                "explanation": "出自李白《望天门山》，描写天门中断。",
-                "poemId": "sup_381",
-                "knowledgePoints": [
-                        "天门中断",
-                        "李白",
-                        "望天门山",
-                        "楚江"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_575",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日照香炉生紫烟，__________。（李白《望庐山瀑布》）",
-                "options": [],
-                "answer": "遥看瀑布挂前川",
-                "explanation": "出自李白《望庐山瀑布》，描写遥看。",
-                "poemId": "sup_014",
-                "knowledgePoints": [
-                        "遥看",
-                        "李白",
-                        "望庐山瀑布",
-                        "前川"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_576",
@@ -37553,120 +19398,6 @@ const QUESTIONS_DATA = [
                         "赋得古原草送别",
                         "萋萋"
                 ]
-        },
-        {
-                "id": "q_mk_585",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "人间四月芳菲尽，__________。（白居易《大林寺桃花》）",
-                "options": [],
-                "answer": "山寺桃花始盛开",
-                "explanation": "出自白居易《大林寺桃花》，描写人间四月。",
-                "poemId": "sup_poetry_new_022",
-                "knowledgePoints": [
-                        "人间四月",
-                        "白居易",
-                        "大林寺桃花",
-                        "芳菲"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_586",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "长恨春归无觅处，__________。（白居易《大林寺桃花》）",
-                "options": [],
-                "answer": "不知转入此中来",
-                "explanation": "出自白居易《大林寺桃花》，描写长恨。",
-                "poemId": "sup_poetry_new_022",
-                "knowledgePoints": [
-                        "长恨",
-                        "白居易",
-                        "大林寺桃花",
-                        "春归"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_587",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "一道残阳铺水中，__________。（白居易《暮江吟》）",
-                "options": [],
-                "answer": "半江瑟瑟半江红",
-                "explanation": "出自白居易《暮江吟》，描写残阳。",
-                "poemId": "sup_164",
-                "knowledgePoints": [
-                        "残阳",
-                        "白居易",
-                        "暮江吟",
-                        "瑟瑟"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_588",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "可怜九月初三夜，__________。（白居易《暮江吟》）",
-                "options": [],
-                "answer": "露似真珠月似弓",
-                "explanation": "出自白居易《暮江吟》，描写九月初三。",
-                "poemId": "sup_164",
-                "knowledgePoints": [
-                        "九月初三",
-                        "白居易",
-                        "暮江吟",
-                        "真珠"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_589",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日出江花红胜火，__________。（白居易《忆江南》）",
-                "options": [],
-                "answer": "春来江水绿如蓝",
-                "explanation": "出自白居易《忆江南》，描写日出。",
-                "poemId": "sup_226",
-                "knowledgePoints": [
-                        "日出",
-                        "白居易",
-                        "忆江南",
-                        "江花"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_590",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "江南好，__________。（白居易《忆江南》）",
-                "options": [],
-                "answer": "风景旧曾谙",
-                "explanation": "出自白居易《忆江南》，描写江南好。",
-                "poemId": "sup_226",
-                "knowledgePoints": [
-                        "江南好",
-                        "白居易",
-                        "忆江南",
-                        "曾谙"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_591",
@@ -37849,44 +19580,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_601",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "蓬头稚子学垂纶，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "侧坐莓苔草映身",
-                "explanation": "出自胡令能《小儿垂钓》，描写蓬头。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "蓬头",
-                        "胡令能",
-                        "小儿垂钓",
-                        "垂纶"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_602",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "路人借问遥招手，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "怕得鱼惊不应人",
-                "explanation": "出自胡令能《小儿垂钓》，描写路人。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "路人",
-                        "胡令能",
-                        "小儿垂钓",
-                        "鱼惊"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_603",
                 "type": "fill",
                 "grade": "mk",
@@ -37923,120 +19616,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_605",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "牧童骑黄牛，__________。（袁枚《所见》）",
-                "options": [],
-                "answer": "歌声振林樾",
-                "explanation": "出自袁枚《所见》，描写牧童。",
-                "poemId": "sup_072",
-                "knowledgePoints": [
-                        "牧童",
-                        "袁枚",
-                        "所见",
-                        "黄牛"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_606",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "意欲捕鸣蝉，__________。（袁枚《所见》）",
-                "options": [],
-                "answer": "忽然闭口立",
-                "explanation": "出自袁枚《所见》，描写意欲。",
-                "poemId": "sup_072",
-                "knowledgePoints": [
-                        "意欲",
-                        "袁枚",
-                        "所见",
-                        "鸣蝉"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_607",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "一去二三里，__________。（邵雍《山村咏怀》）",
-                "options": [],
-                "answer": "烟村四五家",
-                "explanation": "出自邵雍《山村咏怀》，描写一去。",
-                "poemId": "sup_172",
-                "knowledgePoints": [
-                        "一去",
-                        "邵雍",
-                        "山村咏怀",
-                        "烟村"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_608",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "亭台六七座，__________。（邵雍《山村咏怀》）",
-                "options": [],
-                "answer": "八九十枝花",
-                "explanation": "出自邵雍《山村咏怀》，描写亭台。",
-                "poemId": "sup_172",
-                "knowledgePoints": [
-                        "亭台",
-                        "邵雍",
-                        "山村咏怀",
-                        "八九十"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_609",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "危楼高百尺，__________。（李白《夜宿山寺》）",
-                "options": [],
-                "answer": "手可摘星辰",
-                "explanation": "出自李白《夜宿山寺》，描写危楼。",
-                "poemId": "sup_114",
-                "knowledgePoints": [
-                        "危楼",
-                        "李白",
-                        "夜宿山寺",
-                        "星辰"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_610",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不敢高声语，__________。（李白《夜宿山寺》）",
-                "options": [],
-                "answer": "恐惊天上人",
-                "explanation": "出自李白《夜宿山寺》，描写不敢。",
-                "poemId": "sup_114",
-                "knowledgePoints": [
-                        "不敢",
-                        "李白",
-                        "夜宿山寺",
-                        "天上"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_mk_611",
                 "type": "fill",
                 "grade": "mk",
@@ -38053,234 +19632,6 @@ const QUESTIONS_DATA = [
                         "敕勒歌",
                         "四野"
                 ]
-        },
-        {
-                "id": "q_mk_612",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "小时不识月，__________。（李白《古朗月行》）",
-                "options": [],
-                "answer": "呼作白玉盘",
-                "explanation": "出自李白《古朗月行》，描写小时不。",
-                "poemId": "sup_051",
-                "knowledgePoints": [
-                        "小时不",
-                        "李白",
-                        "古朗月行",
-                        "白玉"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_613",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "湖光秋月两相和，__________。（刘禹锡《望洞庭》）",
-                "options": [],
-                "answer": "潭面无风镜未磨",
-                "explanation": "出自刘禹锡《望洞庭》，描写湖光秋。",
-                "poemId": "sup_033",
-                "knowledgePoints": [
-                        "湖光秋",
-                        "刘禹锡",
-                        "望洞庭",
-                        "相和"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_614",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "遥望洞庭山水翠，__________。（刘禹锡《望洞庭》）",
-                "options": [],
-                "answer": "白银盘里一青螺",
-                "explanation": "出自刘禹锡《望洞庭》，描写遥望洞。",
-                "poemId": "sup_033",
-                "knowledgePoints": [
-                        "遥望洞",
-                        "刘禹锡",
-                        "望洞庭",
-                        "青螺"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_615",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "江南好，__________。（白居易《忆江南》）",
-                "options": [],
-                "answer": "风景旧曾谙",
-                "explanation": "出自白居易《忆江南》，描写江南好。",
-                "poemId": "sup_226",
-                "knowledgePoints": [
-                        "江南好",
-                        "白居易",
-                        "忆江南",
-                        "曾谙"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_616",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "日出江花红胜火，__________。（白居易《忆江南》）",
-                "options": [],
-                "answer": "春来江水绿如蓝",
-                "explanation": "出自白居易《忆江南》，描写日出江。",
-                "poemId": "sup_226",
-                "knowledgePoints": [
-                        "日出江",
-                        "白居易",
-                        "忆江南",
-                        "绿如蓝"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_617",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "西塞山前白鹭飞，__________。（张志和《渔歌子》）",
-                "options": [],
-                "answer": "桃花流水鳜鱼肥",
-                "explanation": "出自张志和《渔歌子》，描写西塞山。",
-                "poemId": "sup_218",
-                "knowledgePoints": [
-                        "西塞山",
-                        "张志和",
-                        "渔歌子",
-                        "白鹭"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_618",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "青箬笠，绿蓑衣，__________。（张志和《渔歌子》）",
-                "options": [],
-                "answer": "斜风细雨不须归",
-                "explanation": "出自张志和《渔歌子》，描写青箬笠。",
-                "poemId": "sup_218",
-                "knowledgePoints": [
-                        "青箬笠",
-                        "张志和",
-                        "渔歌子",
-                        "不须归"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_619",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "千山鸟飞绝，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "万径人踪灭",
-                "explanation": "出自柳宗元《江雪》，描写千山鸟。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "千山鸟",
-                        "柳宗元",
-                        "江雪",
-                        "人踪"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_620",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "孤舟蓑笠翁，__________。（柳宗元《江雪》）",
-                "options": [],
-                "answer": "独钓寒江雪",
-                "explanation": "出自柳宗元《江雪》，描写孤舟蓑。",
-                "poemId": "sup_020",
-                "knowledgePoints": [
-                        "孤舟蓑",
-                        "柳宗元",
-                        "江雪",
-                        "寒江"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_621",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "两个黄鹂鸣翠柳，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "一行白鹭上青天",
-                "explanation": "出自杜甫《绝句》，描写两个黄。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "两个黄",
-                        "杜甫",
-                        "绝句",
-                        "白鹭"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_622",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "窗含西岭千秋雪，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "门泊东吴万里船",
-                "explanation": "出自杜甫《绝句》，描写窗含。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "窗含",
-                        "杜甫",
-                        "绝句",
-                        "西岭"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_623",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "泥融飞燕子，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "沙暖睡鸳鸯",
-                "explanation": "出自杜甫《绝句》，描写泥融。",
-                "poemId": "sup_353",
-                "knowledgePoints": [
-                        "泥融",
-                        "杜甫",
-                        "绝句",
-                        "燕子"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_623",
@@ -38315,25 +19666,6 @@ const QUESTIONS_DATA = [
                         "唐宋八大家"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_mk_624",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "迟日江山丽，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "春风花草香",
-                "explanation": "出自杜甫《绝句》，描写迟日。",
-                "poemId": "sup_353",
-                "knowledgePoints": [
-                        "迟日",
-                        "杜甫",
-                        "绝句",
-                        "花草"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_624",
@@ -38371,25 +19703,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_625",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "江碧鸟逾白，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "山青花欲燃",
-                "explanation": "出自杜甫《绝句》，描写江碧。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "江碧",
-                        "杜甫",
-                        "绝句",
-                        "欲燃"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_625",
                 "type": "choice",
                 "grade": "fbc",
@@ -38422,25 +19735,6 @@ const QUESTIONS_DATA = [
                         "山居秋暝"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_mk_626",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "今春看又过，__________。（杜甫《绝句》）",
-                "options": [],
-                "answer": "何日是归年",
-                "explanation": "出自杜甫《绝句》，描写今春。",
-                "poemId": "sup_391",
-                "knowledgePoints": [
-                        "今春",
-                        "杜甫",
-                        "绝句",
-                        "归年"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_fbc_626",
@@ -38477,25 +19771,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_627",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄师塔前江水东，__________。（杜甫《江畔独步寻花》）",
-                "options": [],
-                "answer": "春光懒困倚微风",
-                "explanation": "出自杜甫《江畔独步寻花》，描写黄师塔。",
-                "poemId": "sup_039",
-                "knowledgePoints": [
-                        "黄师塔",
-                        "杜甫",
-                        "江畔独步寻花",
-                        "懒困"
-                ],
-                "deleted": true
-        },
-        {
                 "id": "q_fbc_627",
                 "type": "choice",
                 "grade": "fbc",
@@ -38529,272 +19804,6 @@ const QUESTIONS_DATA = [
                         "友情"
                 ],
                 "poetryType": false
-        },
-        {
-                "id": "q_mk_628",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "桃花一簇开无主，__________。（杜甫《江畔独步寻花》）",
-                "options": [],
-                "answer": "可爱深红爱浅红",
-                "explanation": "出自杜甫《江畔独步寻花》，描写桃花一。",
-                "poemId": "sup_039",
-                "knowledgePoints": [
-                        "桃花一",
-                        "杜甫",
-                        "江畔独步寻花",
-                        "深红"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_629",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "黄四娘家花满蹊，__________。（杜甫《江畔独步寻花》）",
-                "options": [],
-                "answer": "千朵万朵压枝低",
-                "explanation": "出自杜甫《江畔独步寻花》，描写黄四娘。",
-                "poemId": "sup_039",
-                "knowledgePoints": [
-                        "黄四娘",
-                        "杜甫",
-                        "江畔独步寻花",
-                        "压枝"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_630",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "留连戏蝶时时舞，__________。（杜甫《江畔独步寻花》）",
-                "options": [],
-                "answer": "自在娇莺恰恰啼",
-                "explanation": "出自杜甫《江畔独步寻花》，描写留连。",
-                "poemId": "sup_039",
-                "knowledgePoints": [
-                        "留连",
-                        "杜甫",
-                        "江畔独步寻花",
-                        "娇莺"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_631",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "蓬头稚子学垂纶，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "侧坐莓苔草映身",
-                "explanation": "出自胡令能《小儿垂钓》，描写蓬头稚。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "蓬头稚",
-                        "胡令能",
-                        "小儿垂钓",
-                        "垂纶"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_632",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "路人借问遥招手，__________。（胡令能《小儿垂钓》）",
-                "options": [],
-                "answer": "怕得鱼惊不应人",
-                "explanation": "出自胡令能《小儿垂钓》，描写路人借。",
-                "poemId": "sup_019",
-                "knowledgePoints": [
-                        "路人借",
-                        "胡令能",
-                        "小儿垂钓",
-                        "鱼惊"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_633",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": " TX 敕勒川，阴山下，__________。（《敕勒歌》）",
-                "options": [],
-                "answer": "天似穹庐，笼盖四野",
-                "explanation": "出自无名氏《敕勒歌》，描写天似穹。",
-                "poemId": "sup_158",
-                "knowledgePoints": [
-                        "天似穹",
-                        "无名氏",
-                        "敕勒歌",
-                        "穹庐"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_634",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "天苍苍，野茫茫，__________。（《敕勒歌》）",
-                "options": [],
-                "answer": "风吹草低见牛羊",
-                "explanation": "出自无名氏《敕勒歌》，描写风吹草。",
-                "poemId": "sup_158",
-                "knowledgePoints": [
-                        "风吹草",
-                        "无名氏",
-                        "敕勒歌",
-                        "牛羊"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_635",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "牧童骑黄牛，__________。（袁枚《所见》）",
-                "options": [],
-                "answer": "歌声振林樾",
-                "explanation": "出自袁枚《所见》，描写牧童骑。",
-                "poemId": "sup_072",
-                "knowledgePoints": [
-                        "牧童骑",
-                        "袁枚",
-                        "所见",
-                        "林樾"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_636",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "意欲捕鸣蝉，__________。（袁枚《所见》）",
-                "options": [],
-                "answer": "忽然闭口立",
-                "explanation": "出自袁枚《所见》，描写意欲捕。",
-                "poemId": "sup_072",
-                "knowledgePoints": [
-                        "意欲捕",
-                        "袁枚",
-                        "所见",
-                        "鸣蝉"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_637",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "一去二三里，__________。（邵雍《山村咏怀》）",
-                "options": [],
-                "answer": "烟村四五家",
-                "explanation": "出自邵雍《山村咏怀》，描写一去二。",
-                "poemId": "sup_172",
-                "knowledgePoints": [
-                        "一去二",
-                        "邵雍",
-                        "山村咏怀",
-                        "烟村"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_638",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "亭台六七座，__________。（邵雍《山村咏怀》）",
-                "options": [],
-                "answer": "八九十枝花",
-                "explanation": "出自邵雍《山村咏怀》，描写亭台六。",
-                "poemId": "sup_172",
-                "knowledgePoints": [
-                        "亭台六",
-                        "邵雍",
-                        "山村咏怀",
-                        "八九十"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_639",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "危楼高百尺，__________。（李白《夜宿山寺》）",
-                "options": [],
-                "answer": "手可摘星辰",
-                "explanation": "出自李白《夜宿山寺》，描写危楼高。",
-                "poemId": "sup_114",
-                "knowledgePoints": [
-                        "危楼高",
-                        "李白",
-                        "夜宿山寺",
-                        "星辰"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_640",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "不敢高声语，__________。（李白《夜宿山寺》）",
-                "options": [],
-                "answer": "恐惊天上人",
-                "explanation": "出自李白《夜宿山寺》，描写不敢高。",
-                "poemId": "sup_114",
-                "knowledgePoints": [
-                        "不敢高",
-                        "李白",
-                        "夜宿山寺",
-                        "天上"
-                ],
-                "deleted": true
-        },
-        {
-                "id": "q_mk_641",
-                "type": "fill",
-                "grade": "mk",
-                "source": "古诗词真题精选",
-                "difficulty": 2,
-                "question": "京口瓜洲一水间，__________。（王安石《泊船瓜洲》）",
-                "options": [],
-                "answer": "钟山只隔数重山",
-                "explanation": "出自王安石《泊船瓜洲》，描写京口瓜。",
-                "poemId": "sup_238",
-                "knowledgePoints": [
-                        "京口瓜",
-                        "王安石",
-                        "泊船瓜洲",
-                        "钟山"
-                ],
-                "deleted": true
         },
         {
                 "id": "q_mk_642",
