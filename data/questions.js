@@ -79,7 +79,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江春入旧年",
                 "explanation": "出自王湾《次北固山下》，描写江南早春景象。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "古诗默写",
                         "王湾",
@@ -97,7 +97,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "海上明月共潮生",
                 "explanation": "出自张若虚《春江花月夜》，描写春江月夜的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "古诗默写",
                         "张若虚",
@@ -132,7 +132,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "人生自古谁无死？留取丹心照汗青",
                 "explanation": "这句诗出自文天祥《过零丁洋》，表达的是诗人以身殉国的决心和爱国精神，而非追求流芳百世。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "古诗鉴赏",
                         "文天祥",
@@ -151,7 +151,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "且莫深青只浅黄；水中柳影引他长",
                 "explanation": "这是杨万里《新柳》的原文。",
-                "poemId": null,
+                "poemId": "sup_319",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -185,7 +185,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "王安石《泊船瓜洲》",
                 "explanation": "春风又绿江南岸出自王安石的《泊船瓜洲》，表达了诗人对家乡的思念。",
-                "poemId": null,
+                "poemId": "poem_008",
                 "knowledgePoints": [
                         "古诗常识",
                         "王安石",
@@ -203,7 +203,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小桥流水人家",
                 "explanation": "出自马致远《天净沙·秋思》，描写秋日黄昏的萧瑟景象。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "古诗默写",
                         "马致远",
@@ -221,7 +221,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "原驰蜡象",
                 "explanation": "出自毛泽东《沁园春·雪》，描写北国雪景的壮丽。",
-                "poemId": null,
+                "poemId": "sup_304",
                 "knowledgePoints": [
                         "古诗默写",
                         "毛泽东",
@@ -239,7 +239,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "安得广厦千万间",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，表现了诗人忧国忧民的情怀。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -291,7 +291,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "润物细无声",
                 "explanation": "出自杜甫《春夜喜雨》，形容春雨默默滋润万物。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -309,7 +309,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "野旷天低树",
                 "explanation": "出自孟浩然《宿建德江》，描写江边夜景。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -346,7 +346,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "后天下之乐而乐",
                 "explanation": "出自范仲淹《岳阳楼记》，表达了以天下为己任的高尚情怀。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "古文默写",
                         "范仲淹",
@@ -365,7 +365,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "快走踏清秋",
                 "explanation": "出自李贺《马诗》，意思是何时才能给马戴上金络脑，在秋天的原野上自由驰骋。",
-                "poemId": null,
+                "poemId": "sup_162",
                 "knowledgePoints": [
                         "古诗默写",
                         "李贺",
@@ -400,7 +400,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "清泉石上流",
                 "explanation": "出自王维《山居秋暝》，描写秋夜山居的宁静景色。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -418,7 +418,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山寺桃花始盛开",
                 "explanation": "出自白居易《大林寺桃花》，描写山上桃花晚开的景象。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_022",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -455,7 +455,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里共婵娟",
                 "explanation": "出自苏轼《水调歌头·明月几时有》，借明月表达对亲人思念和祝愿。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -473,7 +473,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "多少楼台烟雨中",
                 "explanation": "出自杜牧《江南春》，描绘了江南春天的美丽景色。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -491,7 +491,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随风直到夜郎西",
                 "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，表达对友人的关切。",
-                "poemId": null,
+                "poemId": "sup_055",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -510,7 +510,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "野火烧不尽",
                 "explanation": "出自白居易《赋得古原草送别》，赞美野草顽强的生命力。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -528,7 +528,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "生于忧患而死于安乐",
                 "explanation": "出自《孟子》，阐述忧患使人奋勉、安乐使人灭亡的道理。",
-                "poemId": null,
+                "poemId": "sup_148",
                 "knowledgePoints": [
                         "古诗文",
                         "孟子",
@@ -547,7 +547,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "留取丹心照汗青",
                 "explanation": "出自文天祥《过零丁洋》，表达了诗人以身殉国的决心。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "古诗默写",
                         "文天祥",
@@ -565,7 +565,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不拘一格降人才",
                 "explanation": "出自龚自珍《己亥杂诗》，表达了诗人渴望打破常规、选拔人才的愿望。",
-                "poemId": null,
+                "poemId": "poem_015",
                 "knowledgePoints": [
                         "古诗默写",
                         "龚自珍",
@@ -583,7 +583,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "却话巴山夜雨时",
                 "explanation": "出自李商隐《夜雨寄北》，表达对远方亲人的思念。",
-                "poemId": null,
+                "poemId": "sup_061",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -601,7 +601,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一岁一枯荣",
                 "explanation": "出自白居易《赋得古原草送别》，描写草木一年一枯荣的规律。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -638,7 +638,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "陟罚臧否",
                 "explanation": "出自诸葛亮《出师表》，表现诸葛亮公正严明的执法态度。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "古文默写",
                         "诸葛亮",
@@ -657,7 +657,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "冷露无声湿桂花",
                 "explanation": "出自王建《十五夜望月》，描写中秋夜的庭院景色。",
-                "poemId": null,
+                "poemId": "sup_294",
                 "knowledgePoints": [
                         "古诗默写",
                         "王建",
@@ -675,7 +675,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "隔江犹唱后庭花",
                 "explanation": "出自杜牧《泊秦淮》，借古讽今，批评统治者荒淫误国。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -693,7 +693,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "晴翠接荒城",
                 "explanation": "出自白居易《赋得古原草送别》，描写春天草蔓延到荒城的景象。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -712,7 +712,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "舍生而取者",
                 "explanation": "出自《孟子》，阐述'舍生取义'的道理。",
-                "poemId": null,
+                "poemId": "sup_149",
                 "knowledgePoints": [
                         "古诗文",
                         "孟子",
@@ -731,7 +731,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "出淤泥而不染",
                 "explanation": "出自周敦颐《爱莲说》，以莲花象征君子的高洁品格。",
-                "poemId": null,
+                "poemId": "sup_147",
                 "knowledgePoints": [
                         "古文默写",
                         "周敦颐",
@@ -749,7 +749,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "立根原在破岩中",
                 "explanation": "出自郑燮《竹石》，赞美竹子顽强的生命力。",
-                "poemId": null,
+                "poemId": "sup_084",
                 "knowledgePoints": [
                         "古诗默写",
                         "郑燮",
@@ -767,7 +767,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "似曾相识燕归来",
                 "explanation": "出自晏殊《浣溪沙》，表达对时光流逝的感慨。",
-                "poemId": null,
+                "poemId": "sup_063",
                 "knowledgePoints": [
                         "古诗默写",
                         "晏殊",
@@ -785,7 +785,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青草池塘处处蛙",
                 "explanation": "出自赵师秀《约客》，描写江南梅雨季节的景象。",
-                "poemId": null,
+                "poemId": "sup_163",
                 "knowledgePoints": [
                         "古诗默写",
                         "赵师秀",
@@ -803,7 +803,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "在乎山水之间也",
                 "explanation": "出自欧阳修《醉翁亭记》，表现了作者寄情山水的豁达情怀。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "古文默写",
                         "欧阳修",
@@ -841,7 +841,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "草色遥看近却无",
                 "explanation": "出自韩愈《早春呈水部张十八员外》，描写早春细雨的美景。",
-                "poemId": null,
+                "poemId": "sup_221",
                 "knowledgePoints": [
                         "古诗默写",
                         "韩愈",
@@ -859,7 +859,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "窈窕淑女；君子好逑",
                 "explanation": "出自《诗经·关雎》，描写男子对美好女子的追求。",
-                "poemId": null,
+                "poemId": "sup_122",
                 "knowledgePoints": [
                         "古诗默写",
                         "诗经",
@@ -877,7 +877,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "朝露待日晞",
                 "explanation": "出自汉乐府《长歌行》，描写园中葵菜上沾满露珠的景象。",
-                "poemId": null,
+                "poemId": "sup_160",
                 "knowledgePoints": [
                         "古诗默写",
                         "长歌行",
@@ -933,7 +933,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "人迹板桥霜",
                 "explanation": "出自温庭筠《商山早行》，描写旅人早行的情景。",
-                "poemId": null,
+                "poemId": "sup_299",
                 "knowledgePoints": [
                         "古诗默写",
                         "温庭筠",
@@ -951,7 +951,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恨别鸟惊心",
                 "explanation": "出自杜甫《春望》，表达战乱中的忧国忧民之情。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -969,7 +969,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "老大徒伤悲",
                 "explanation": "出自汉乐府《长歌行》，告诫人们要珍惜少年时光。",
-                "poemId": null,
+                "poemId": "sup_160",
                 "knowledgePoints": [
                         "古诗默写",
                         "长歌行",
@@ -987,7 +987,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "三十功名尘与土",
                 "explanation": "出自岳飞《满江红》，表达了作者报国杀敌的壮志。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "古诗默写",
                         "岳飞",
@@ -1025,7 +1025,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是银河落九天",
                 "explanation": "出自李白《望庐山瀑布》，夸张地描写庐山瀑布的雄伟壮观。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -1043,7 +1043,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山河表里潼关路",
                 "explanation": "出自张养浩《山坡羊·潼关怀古》，描写潼关地势险要。",
-                "poemId": null,
+                "poemId": "sup_069",
                 "knowledgePoints": [
                         "古诗默写",
                         "张养浩",
@@ -1061,7 +1061,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "阴山下",
                 "explanation": "出自北朝民歌《敕勒歌》，描写敕勒川的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "古诗默写",
                         "敕勒歌",
@@ -1079,7 +1079,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山随平野尽",
                 "explanation": "出自李白《渡荆门送别》，描写楚地高山平原的过渡。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -1097,7 +1097,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "而无车马喧",
                 "explanation": "出自陶渊明《饮酒》，表现诗人超然物外的心境。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "古诗默写",
                         "陶渊明",
@@ -1115,7 +1115,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "客舍青青柳色新",
                 "explanation": "出自王维《送元二使安西》（又称《渭城曲》），描写送别情景。",
-                "poemId": null,
+                "poemId": "sup_107",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -1133,7 +1133,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寂寞梧桐深院锁清秋",
                 "explanation": "出自李煜《相见欢》，描写亡国之君的孤寂与哀愁。",
-                "poemId": null,
+                "poemId": "sup_277",
                 "knowledgePoints": [
                         "古诗默写",
                         "李煜",
@@ -1151,7 +1151,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "曲项向天歌",
                 "explanation": "出自骆宾王《咏鹅》，描写大白鹅弯曲着脖子向天唱歌的形象。",
-                "poemId": null,
+                "poemId": "sup_044",
                 "knowledgePoints": [
                         "古诗默写",
                         "骆宾王",
@@ -1169,7 +1169,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自缘身在最高层",
                 "explanation": "出自王安石《登飞来峰》，表达了诗人实现政治抱负的信心。",
-                "poemId": null,
+                "poemId": "sup_025",
                 "knowledgePoints": [
                         "古诗默写",
                         "王安石",
@@ -1187,7 +1187,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "飞鸟相与还",
                 "explanation": "出自陶渊明《饮酒》，表现诗人归隐后的悠闲生活。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "古诗默写",
                         "陶渊明",
@@ -1206,7 +1206,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "当春乃发生；润物细无声",
                 "explanation": "出自杜甫《春夜喜雨》，赞美春雨及时而降，滋润万物。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -1224,7 +1224,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月下飞天镜",
                 "explanation": "出自李白《渡荆门送别》，描写荆门山的奇特景象。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -1242,7 +1242,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "碧玉妆成一树高",
                 "explanation": "出自贺知章《咏柳》，用碧玉比喻柳树的嫩绿。",
-                "poemId": null,
+                "poemId": "sup_106",
                 "knowledgePoints": [
                         "古诗默写",
                         "贺知章",
@@ -1260,7 +1260,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衡阳雁去无留意",
                 "explanation": "出自范仲淹《渔家傲·秋思》，描写边塞与内地的不同景致。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "古诗默写",
                         "范仲淹",
@@ -1278,7 +1278,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写战乱后长安城的荒凉景象。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -1296,7 +1296,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒食东风御柳斜",
                 "explanation": "出自韩翃《寒食》，描写长安城寒食节的景色。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "古诗默写",
                         "韩翃",
@@ -1314,7 +1314,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "化作春泥更护花",
                 "explanation": "出自龚自珍《己亥杂诗》，表达诗人虽离职仍关心国家命运的情怀。",
-                "poemId": null,
+                "poemId": "sup_071",
                 "knowledgePoints": [
                         "古诗默写",
                         "龚自珍",
@@ -1332,7 +1332,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄河入海流",
                 "explanation": "出自王之涣《登鹳雀楼》，描写夕阳西下、黄河奔流入海的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -1350,7 +1350,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "会挽雕弓如满月",
                 "explanation": "出自苏轼《江城子·密州出猎》，表现诗人挽弓杀敌的英雄气概。",
-                "poemId": null,
+                "poemId": "sup_306",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -1368,7 +1368,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烽火连三月",
                 "explanation": "出自杜甫《春望》，描写战争持续、亲人离散的痛苦。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -1386,7 +1386,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "只留清气满乾坤",
                 "explanation": "出自王冕《墨梅》，借梅花的清香表达诗人的高洁志趣。",
-                "poemId": null,
+                "poemId": "sup_082",
                 "knowledgePoints": [
                         "古诗默写",
                         "王冕",
@@ -1404,7 +1404,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "蜡炬成灰泪始干",
                 "explanation": "出自李商隐《无题》，用春蚕和蜡烛比喻爱情的坚贞不渝。",
-                "poemId": null,
+                "poemId": "sup_060",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -1422,7 +1422,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "移舟泊烟渚",
                 "explanation": "出自孟浩然《宿建德江》，描写移船靠岸时的新愁。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -1440,7 +1440,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "弓如霹雳弦惊",
                 "explanation": "出自辛弃疾《破阵子·为陈同甫赋壮词以寄之》，描写战斗的激烈。",
-                "poemId": null,
+                "poemId": "sup_285",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -1458,7 +1458,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "甲光向日金鳞开",
                 "explanation": "出自李贺《雁门太守行》，描写将士们严阵以待的情景。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "古诗默写",
                         "李贺",
@@ -1476,7 +1476,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "桃花流水鳜鱼肥",
                 "explanation": "出自张志和《渔歌子》，描写江南渔家生活。",
-                "poemId": null,
+                "poemId": "sup_218",
                 "knowledgePoints": [
                         "古诗默写",
                         "张志和",
@@ -1494,7 +1494,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衡阳雁去无留意",
                 "explanation": "出自范仲淹《渔家傲·秋思》，描写边塞秋天的萧瑟景象。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "古诗默写",
                         "范仲淹",
@@ -1512,7 +1512,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里长征人未还",
                 "explanation": "出自王昌龄《出塞》，表达边塞战士的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "古诗默写",
                         "王昌龄",
@@ -1530,7 +1530,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "生子当如孙仲谋",
                 "explanation": "出自辛弃疾《南乡子·登京口北固亭有怀》，借孙权讽刺当权者。",
-                "poemId": null,
+                "poemId": "sup_284",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -1548,7 +1548,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自将磨洗认前朝",
                 "explanation": "出自杜牧《赤壁》，借古讽今，评论历史人物。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -1566,7 +1566,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清风半夜鸣蝉",
                 "explanation": "出自辛弃疾《西江月·夜行黄沙道中》，描写夏夜乡村景色。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -1584,7 +1584,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "载不动许多愁",
                 "explanation": "出自李清照《武陵春》，用夸张手法形容愁思之重。",
-                "poemId": null,
+                "poemId": "sup_311",
                 "knowledgePoints": [
                         "古诗默写",
                         "李清照",
@@ -1602,7 +1602,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒雨连江夜入吴",
                 "explanation": "出自王昌龄《芙蓉楼送辛渐》，描写送别时的凄凉景色。",
-                "poemId": null,
+                "poemId": "sup_098",
                 "knowledgePoints": [
                         "古诗默写",
                         "王昌龄",
@@ -1620,7 +1620,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "哪里去辨什么真共假",
                 "explanation": "出自王磐《朝天子·咏喇叭》，讽刺官府扰民。",
-                "poemId": null,
+                "poemId": "sup_388",
                 "knowledgePoints": [
                         "古诗默写",
                         "王磐",
@@ -1638,7 +1638,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜泊秦淮近酒家",
                 "explanation": "出自杜牧《泊秦淮》，描写夜晚秦淮河的朦胧景象。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -1656,7 +1656,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万紫千红总是春",
                 "explanation": "出自朱熹《春日》，赞美春天的美好景色。",
-                "poemId": null,
+                "poemId": "sup_080",
                 "knowledgePoints": [
                         "古诗默写",
                         "朱熹",
@@ -1674,7 +1674,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随风直到夜郎西",
                 "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，表达对友人的关切。",
-                "poemId": null,
+                "poemId": "sup_055",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -1692,7 +1692,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独坐幽篁里",
                 "explanation": "出自王维《竹里馆》，描写诗人隐居山林的悠闲生活。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -1710,7 +1710,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "零落残魂倍黯然",
                 "explanation": "出自柳宗元《别舍弟宗一》，表达兄弟离别的悲伤。",
-                "poemId": null,
+                "poemId": "sup_394",
                 "knowledgePoints": [
                         "古诗默写",
                         "柳宗元",
@@ -1728,7 +1728,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "巴山夜雨涨秋池",
                 "explanation": "出自李商隐《夜雨寄北》，表达对远方亲人的深切思念。",
-                "poemId": null,
+                "poemId": "sup_061",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -1746,7 +1746,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绝胜烟柳满皇都",
                 "explanation": "出自韩愈《早春呈水部张十八员外》，赞美早春景色胜过烟柳满城的晚春。",
-                "poemId": null,
+                "poemId": "sup_221",
                 "knowledgePoints": [
                         "古诗默写",
                         "韩愈",
@@ -1764,7 +1764,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "野渡无人舟自横",
                 "explanation": "出自韦应物《滁州西涧》，描写春雨中西涧的幽静景色。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "古诗默写",
                         "韦应物",
@@ -1782,7 +1782,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "每逢佳节倍思亲",
                 "explanation": "出自王维《九月九日忆山东兄弟》，表达重阳节对亲人的思念。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -1800,7 +1800,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夕贬潮州路八千",
                 "explanation": "出自韩愈《左迁至蓝关示侄孙湘》，表达忠而被贬的悲愤。",
-                "poemId": null,
+                "poemId": "sup_182",
                 "knowledgePoints": [
                         "古诗默写",
                         "韩愈",
@@ -1818,7 +1818,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "尚思为国戍轮台",
                 "explanation": "出自陆游《十一月四日风雨大作》，表现诗人报国杀敌的决心。",
-                "poemId": null,
+                "poemId": "sup_318",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -1836,7 +1836,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "当春乃发生",
                 "explanation": "出自杜甫《春夜喜雨》，赞美春雨知道时节的变化。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -1854,7 +1854,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清泉石上流",
                 "explanation": "出自王维《山居秋暝》，描写秋夜山居的宁静景色。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -1872,7 +1872,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是地上霜",
                 "explanation": "出自李白《静夜思》，描写月光照在床前像霜一样的景象。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -1891,7 +1891,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "枳花明驿墙",
                 "explanation": "出自温庭筠《商山早行》，描写早行时看到的景象。",
-                "poemId": null,
+                "poemId": "sup_299",
                 "knowledgePoints": [
                         "古诗默写",
                         "温庭筠",
@@ -1909,7 +1909,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "干戈寥落四周星",
                 "explanation": "出自文天祥《过零丁洋》，回顾抗元斗争的艰苦历程。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "古诗默写",
                         "文天祥",
@@ -1927,7 +1927,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "少壮不努力；老大徒伤悲",
                 "explanation": "出自汉乐府《长歌行》，告诫人们要珍惜青春时光。",
-                "poemId": null,
+                "poemId": "sup_160",
                 "knowledgePoints": [
                         "古诗默写",
                         "长歌行",
@@ -1945,7 +1945,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "乡书何处达；归雁洛阳边",
                 "explanation": "出自王湾《次北固山下》，用鸿雁传书表达思乡之情。",
-                "poemId": null,
+                "poemId": "sup_314",
                 "knowledgePoints": [
                         "古诗默写",
                         "王湾",
@@ -1981,7 +1981,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "蒹葭杨柳似汀洲",
                 "explanation": "出自许浑《咸阳城东楼》，表达对国家命运的忧虑。",
-                "poemId": null,
+                "poemId": "sup_183",
                 "knowledgePoints": [
                         "古诗默写",
                         "许浑",
@@ -1999,7 +1999,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "老翁逾墙走，老妇出门看",
                 "explanation": "出自杜甫《石壕吏》，描写官差深夜抓人当兵的场景。",
-                "poemId": null,
+                "poemId": "sup_357",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -2017,7 +2017,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "粉骨碎身浑不怕；要留清白在人间",
                 "explanation": "出自于谦《石灰吟》，表达了诗人不怕牺牲、立志保持清白的高尚品格。",
-                "poemId": null,
+                "poemId": "sup_083",
                 "knowledgePoints": [
                         "理解型默写",
                         "于谦",
@@ -2035,7 +2035,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "海日生残夜；江春入旧年",
                 "explanation": "出自王湾《次北固山下》，描绘昼夜更替、季节轮回的景象，蕴含新事物必将取代旧事物的哲理。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "理解默写",
                         "王湾",
@@ -2053,7 +2053,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日惨惨兮云冥冥",
                 "explanation": "出自李白《远别离》，描写离别时阴沉昏暗的天色。",
-                "poemId": null,
+                "poemId": "sup_176",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -2071,7 +2071,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "相见时难别亦难",
                 "explanation": "出自李商隐《无题》，以暮春景象象征爱情受阻。",
-                "poemId": null,
+                "poemId": "sup_060",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -2089,7 +2089,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "差役凶狠，百姓痛苦",
                 "explanation": "出自杜甫《石壕吏》，通过对比表现社会现实的黑暗。",
-                "poemId": null,
+                "poemId": "sup_357",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -2108,7 +2108,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "客舍青青柳色新",
                 "explanation": "出自王维《送元二使安西》，通过描写送别场景表达离别之情。",
-                "poemId": null,
+                "poemId": "sup_107",
                 "knowledgePoints": [
                         "理解型默写",
                         "王维",
@@ -2126,7 +2126,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但愿人长久；千里共婵娟",
                 "explanation": "出自苏轼《水调歌头·明月几时有》，表达对亲人美好祝愿。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "理解默写",
                         "苏轼",
@@ -2144,7 +2144,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "忽闻岸上踏歌声",
                 "explanation": "出自李白《赠汪伦》，描写汪伦来送行的场景。",
-                "poemId": null,
+                "poemId": "sup_008",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -2162,7 +2162,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "欲说还休",
                 "explanation": "出自辛弃疾《丑奴儿·书博山道中壁》，表达报国无门的悲愤。",
-                "poemId": null,
+                "poemId": "sup_067",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -2180,7 +2180,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "娇儿恶卧踏里裂",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写诗人贫困的生活状况。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -2198,7 +2198,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天下谁人不识君",
                 "explanation": "出自高适《别董大》，表达了对友人的鼓励和信心。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "古诗默写",
                         "高适",
@@ -2216,7 +2216,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自缘身在最高层",
                 "explanation": "出自王安石《登飞来峰》，表达了诗人的远大抱负和坚定信念。",
-                "poemId": null,
+                "poemId": "sup_025",
                 "knowledgePoints": [
                         "古诗默写",
                         "王安石",
@@ -2234,7 +2234,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟花三月下扬州",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写阳春三月的扬州美景。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -2252,7 +2252,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "赢得生前身后名",
                 "explanation": "出自辛弃疾《破阵子·为陈同甫赋壮词以寄之》，表达建功立业的理想。",
-                "poemId": null,
+                "poemId": "sup_285",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -2270,7 +2270,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "胡天八月即飞雪",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写边塞八月飞雪的奇景。",
-                "poemId": null,
+                "poemId": "sup_057",
                 "knowledgePoints": [
                         "古诗默写",
                         "岑参",
@@ -2288,7 +2288,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "任尔东西南北风",
                 "explanation": "出自郑燮《竹石》，赞美竹子顽强的生命力和坚韧不拔的精神。",
-                "poemId": null,
+                "poemId": "sup_084",
                 "knowledgePoints": [
                         "古诗默写",
                         "郑燮",
@@ -2306,7 +2306,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "悠然见南山",
                 "explanation": "出自陶渊明《饮酒》，表现诗人归隐后的悠闲生活。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "古诗默写",
                         "陶渊明",
@@ -2324,7 +2324,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白发三千丈",
                 "explanation": "出自李白《秋浦歌》，用夸张手法形容忧愁之深。",
-                "poemId": null,
+                "poemId": "sup_184",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -2342,7 +2342,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "燕然未勒归无计",
                 "explanation": "出自范仲淹《渔家傲·秋思》，表现边塞将士的矛盾心理。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "古诗默写",
                         "范仲淹",
@@ -2360,7 +2360,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千树万树梨花开",
                 "explanation": "出自岑参《白雪歌送武判官归京》，用梨花比喻雪花，意境优美。",
-                "poemId": null,
+                "poemId": "sup_057",
                 "knowledgePoints": [
                         "古诗默写",
                         "岑参",
@@ -2397,7 +2397,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "人生自古谁无死；留取丹心照汗青",
                 "explanation": "出自文天祥《过零丁洋》，表达了诗人以身殉国的决心和崇高的爱国精神。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "理解默写",
                         "文天祥",
@@ -2415,7 +2415,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "初闻涕泪满衣裳",
                 "explanation": "出自杜甫《闻官军收河南河北》，表达诗人听到捷报时的喜悦。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -2433,7 +2433,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "左牵黄，右擎苍",
                 "explanation": "出自苏轼《江城子·密州出猎》，表现诗人打猎时的豪迈气概。",
-                "poemId": null,
+                "poemId": "sup_306",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -2451,7 +2451,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "愁云惨淡万里凝",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写边塞冰天雪地的景象。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "古诗默写",
                         "岑参",
@@ -2469,7 +2469,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "只留清气满乾坤",
                 "explanation": "出自王冕《墨梅》，借梅抒情，表达诗人不向世俗献媚的品格。",
-                "poemId": null,
+                "poemId": "sup_082",
                 "knowledgePoints": [
                         "古诗默写",
                         "王冕",
@@ -2488,7 +2488,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "飞鸟相与还",
                 "explanation": "出自陶渊明《饮酒》，描写傍晚山中的和谐景象。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "古诗默写",
                         "陶渊明",
@@ -2506,7 +2506,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两个黄鹂鸣翠柳",
                 "explanation": "出自杜甫《绝句》，描写春天生机勃勃的景象。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -2524,7 +2524,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "梦回吹角连营",
                 "explanation": "出自辛弃疾《破阵子》，表现诗人渴望杀敌报国的情怀。",
-                "poemId": null,
+                "poemId": "sup_066",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -2542,7 +2542,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "满面尘灰烟火色，两鬓苍苍十指黑",
                 "explanation": "出自白居易《卖炭翁》，描写卖炭翁的艰辛劳动和贫困状况。",
-                "poemId": null,
+                "poemId": "sup_058",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -2560,7 +2560,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不知秋思落谁家",
                 "explanation": "出自王建《十五夜望月》，表达中秋夜的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_294",
                 "knowledgePoints": [
                         "古诗默写",
                         "王建",
@@ -2578,7 +2578,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潮平两岸阔",
                 "explanation": "出自王湾《次北固山下》，描写潮水涨起时江面开阔的景象。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "古诗默写",
                         "王湾",
@@ -2596,7 +2596,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "崔九堂前几度闻",
                 "explanation": "出自杜甫《江南逢李龟年》，追忆往昔与李龟年的交往。",
-                "poemId": null,
+                "poemId": "sup_036",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -2614,7 +2614,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "壮怀激烈",
                 "explanation": "出自岳飞《满江红》，表现诗人的爱国激情和壮志难酬。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "古诗默写",
                         "岳飞",
@@ -2632,7 +2632,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "心忧炭贱愿天寒",
                 "explanation": "出自白居易《卖炭翁》，表现卖炭翁矛盾的心理。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_006",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -2669,7 +2669,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一览众山小",
                 "explanation": "出自杜甫《望岳》，表达了诗人登临泰山的雄心壮志。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -2688,7 +2688,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "野径云俱黑",
                 "explanation": "出自杜甫《春夜喜雨》，描写春雨夜江面的幽暗景象。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -2706,7 +2706,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "影布石上",
                 "explanation": "出自柳宗元《小石潭记》，描写阳光照到潭水，鱼影映在石上。",
-                "poemId": null,
+                "poemId": "sup_154",
                 "knowledgePoints": [
                         "古文默写",
                         "柳宗元",
@@ -2725,7 +2725,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "半匹红纱一丈绫，系向牛头充炭直",
                 "explanation": "出自白居易《卖炭翁》，揭露宫市制度的罪恶。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_006",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -2743,7 +2743,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "老大徒伤悲",
                 "explanation": "出自汉乐府《长歌行》，告诫人们要珍惜少年时光。",
-                "poemId": null,
+                "poemId": "sup_160",
                 "knowledgePoints": [
                         "古诗默写",
                         "长歌行",
@@ -2761,7 +2761,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "燕山月似钩",
                 "explanation": "出自李贺《马诗》，描写边塞夜晚的寒冷景象。",
-                "poemId": null,
+                "poemId": "sup_162",
                 "knowledgePoints": [
                         "古诗默写",
                         "李贺",
@@ -2779,7 +2779,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千朵万朵压枝低",
                 "explanation": "出自杜甫《江畔独步寻花》，描写繁花似锦的景象。",
-                "poemId": null,
+                "poemId": "sup_039",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -2797,7 +2797,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "居庙堂之高则忧其民",
                 "explanation": "出自范仲淹《岳阳楼记》，表达了作者忧国忧民的情怀。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "古文默写",
                         "范仲淹",
@@ -2816,7 +2816,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "为篱下、黄花开遍，秋容如拭",
                 "explanation": "出自秋瑾《满江红》，描写中秋时节的秋景。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "古诗默写",
                         "秋瑾",
@@ -2834,7 +2834,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "快走踏清秋",
                 "explanation": "出自李贺《马诗》，借马渴望被重用表达诗人建功立业的抱负。",
-                "poemId": null,
+                "poemId": "sup_162",
                 "knowledgePoints": [
                         "理解型默写",
                         "李贺",
@@ -2852,7 +2852,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千山鸟飞绝",
                 "explanation": "出自柳宗元《江雪》，描写大雪天山的寂静景象。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "古诗默写",
                         "柳宗元",
@@ -2870,7 +2870,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山岛竦峙",
                 "explanation": "出自曹操《观沧海》，描写海边山岛耸立的景象。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "古诗默写",
                         "曹操",
@@ -2888,7 +2888,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "林壑尤美",
                 "explanation": "出自欧阳修《醉翁亭记》，描写琅琊山的优美景色。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "古文默写",
                         "欧阳修",
@@ -2907,7 +2907,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写战乱后长安城的荒凉景象。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -2925,7 +2925,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "要留清白在人间",
                 "explanation": "出自于谦《石灰吟》，表达了诗人刚正不阿的精神。",
-                "poemId": null,
+                "poemId": "sup_083",
                 "knowledgePoints": [
                         "古诗默写",
                         "于谦",
@@ -2943,7 +2943,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写深夜江边的愁绪。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "古诗默写",
                         "张继",
@@ -2961,7 +2961,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "悠然见南山",
                 "explanation": "出自陶渊明《饮酒》，表现了诗人归隐后的闲适心情。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "古诗默写",
                         "陶渊明",
@@ -2979,7 +2979,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "可爱者甚蕃",
                 "explanation": "出自周敦颐《爱莲说》，说明作者独爱莲花。",
-                "poemId": null,
+                "poemId": "sup_147",
                 "knowledgePoints": [
                         "古文默写",
                         "周敦颐",
@@ -2998,7 +2998,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家书抵万金",
                 "explanation": "出自杜甫《春望》，表达战乱中人们对亲人的思念。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3016,7 +3016,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日久见人心",
                 "explanation": "这是一句谚语，说明时间能检验人心。",
-                "poemId": null,
+                "poemId": "sup_397",
                 "knowledgePoints": [
                         "谚语",
                         "友情",
@@ -3033,7 +3033,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春城无处不飞花",
                 "explanation": "出自韩翃《寒食》，描写长安城寒食节的暮春景色。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "古诗默写",
                         "韩翃",
@@ -3051,7 +3051,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卷我屋上三重茅",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写狂风卷走茅草的景象。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3088,7 +3088,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浑欲不胜簪",
                 "explanation": "出自杜甫《春望》，表达诗人对国家命运的深切忧虑。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3106,7 +3106,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "只留清气满乾坤",
                 "explanation": "出自王冕《墨梅》，赞美梅花的高洁品格。",
-                "poemId": null,
+                "poemId": "sup_082",
                 "knowledgePoints": [
                         "古诗默写",
                         "王冕",
@@ -3125,7 +3125,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "单于夜遁逃",
                 "explanation": "出自卢纶《塞下曲》，描写边塞战斗的场景。",
-                "poemId": null,
+                "poemId": "sup_219",
                 "knowledgePoints": [
                         "古诗默写",
                         "卢纶",
@@ -3143,7 +3143,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "中军置酒饮归客",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写送别宴席的热烈场面。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "古诗默写",
                         "岑参",
@@ -3180,7 +3180,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "老翁逾墙走，老妇出门看",
                 "explanation": "出自杜甫《石壕吏》，描写官差深夜抓人当兵的场景。",
-                "poemId": null,
+                "poemId": "sup_357",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3199,7 +3199,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更有早行人",
                 "explanation": "这是一句谚语，告诫人们不要以为自己是最努力的，还有更努力的人。",
-                "poemId": null,
+                "poemId": "sup_398",
                 "knowledgePoints": [
                         "谚语",
                         "格言",
@@ -3216,7 +3216,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "慈母手中线",
                 "explanation": "出自孟郊《游子吟》，表达母亲对儿子的关爱。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟郊",
@@ -3234,7 +3234,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "化作春泥更护花",
                 "explanation": "出自龚自珍《己亥杂诗》，以落红化作春泥护花比喻奉献精神。",
-                "poemId": null,
+                "poemId": "sup_071",
                 "knowledgePoints": [
                         "古诗默写",
                         "龚自珍",
@@ -3252,7 +3252,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卷我屋上三重茅",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写狂风卷走茅草的景象。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3270,7 +3270,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "差役凶狠，百姓痛苦",
                 "explanation": "出自杜甫《石壕吏》，通过对比表现社会现实的黑暗。",
-                "poemId": null,
+                "poemId": "sup_357",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3290,7 +3290,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "西出阳关无故人",
                 "explanation": "出自王维《送元二使安西》，描写送别友人的情景。",
-                "poemId": null,
+                "poemId": "sup_107",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -3307,7 +3307,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "杨柳青青江水平",
                 "explanation": "出自刘禹锡《竹枝词》，用双关语表达爱情。",
-                "poemId": null,
+                "poemId": "sup_088",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘禹锡",
@@ -3325,7 +3325,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水何澹澹",
                 "explanation": "出自曹操《观沧海》，描写海边山岛耸立的景象。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "古诗默写",
                         "曹操",
@@ -3343,7 +3343,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "大庇天下寒士俱欢颜",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，表现诗人忧国忧民的情怀。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3361,7 +3361,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "娇儿恶卧踏里裂",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写诗人贫困的生活状况。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3380,7 +3380,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "丰年留客足鸡豚",
                 "explanation": "出自陆游《游山西村》，描写农村待客的热情。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -3398,7 +3398,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遥望洞庭山水翠",
                 "explanation": "出自刘禹锡《望洞庭》，用比喻描写洞庭湖的美景。",
-                "poemId": null,
+                "poemId": "sup_033",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘禹锡",
@@ -3416,7 +3416,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闻道龙标过五溪",
                 "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，表达对友人被贬的同情。",
-                "poemId": null,
+                "poemId": "sup_055",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -3434,7 +3434,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何时眼前突兀见此屋",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，表达诗人甘愿为天下寒士受苦的崇高精神。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3452,7 +3452,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "胡天八月即飞雪",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写边塞八月飞雪的奇景。",
-                "poemId": null,
+                "poemId": "sup_057",
                 "knowledgePoints": [
                         "古诗默写",
                         "岑参",
@@ -3471,7 +3471,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白雨跳珠乱入船",
                 "explanation": "出自苏轼《六月二十七日望湖楼醉书》，描写西湖夏日暴雨景象。",
-                "poemId": null,
+                "poemId": "sup_240",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -3489,7 +3489,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风吹又生",
                 "explanation": "出自白居易《赋得古原草送别》，赞美野草顽强的生命力。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -3507,7 +3507,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风正一帆悬",
                 "explanation": "出自王湾《次北固山下》，描写顺风扬帆的景象。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "古诗默写",
                         "王湾",
@@ -3525,7 +3525,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "干戈寥落四周星",
                 "explanation": "出自文天祥《过零丁洋》，回顾抗元斗争的艰苦历程。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "古诗默写",
                         "文天祥",
@@ -3543,7 +3543,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千树万树梨花开",
                 "explanation": "出自岑参《白雪歌送武判官归京》，用梨花比喻雪花，意境优美。",
-                "poemId": null,
+                "poemId": "sup_057",
                 "knowledgePoints": [
                         "古诗默写",
                         "岑参",
@@ -3562,7 +3562,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写边塞壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -3580,7 +3580,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日出江花红胜火",
                 "explanation": "出自白居易《忆江南》，描写江南春天的美景。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -3598,7 +3598,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归雁洛阳边",
                 "explanation": "出自王湾《次北固山下》，用鸿雁传书表达思乡之情。",
-                "poemId": null,
+                "poemId": "sup_314",
                 "knowledgePoints": [
                         "古诗默写",
                         "王湾",
@@ -3616,7 +3616,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "身世浮沉雨打萍",
                 "explanation": "出自文天祥《过零丁洋》，用比喻描写国家和个人命运的悲惨。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "古诗默写",
                         "文天祥",
@@ -3634,7 +3634,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "愁云惨淡万里凝",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写边塞冰天雪地的景象。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "古诗默写",
                         "岑参",
@@ -3653,7 +3653,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莲动下渔舟",
                 "explanation": "出自王维《山居秋暝》，描写秋夜山村的和谐景象。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -3671,7 +3671,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "秋收万颗子",
                 "explanation": "出自李绅《悯农》，描写农民春播秋收的辛勤劳动。",
-                "poemId": null,
+                "poemId": "sup_015",
                 "knowledgePoints": [
                         "古诗默写",
                         "李绅",
@@ -3689,7 +3689,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "断肠人在天涯",
                 "explanation": "出自马致远《天净沙·秋思》，表达游子漂泊的悲凉。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "古诗默写",
                         "马致远",
@@ -3707,7 +3707,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "零丁洋里叹零丁",
                 "explanation": "出自文天祥《过零丁洋》，巧用地点名称表达诗人当时的心境。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "古诗默写",
                         "文天祥",
@@ -3725,7 +3725,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "满面尘灰烟火色，两鬓苍苍十指黑",
                 "explanation": "出自白居易《卖炭翁》，描写卖炭翁的艰辛劳动和贫困状况。",
-                "poemId": null,
+                "poemId": "sup_058",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -3744,7 +3744,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "柳暗花明又一村",
                 "explanation": "出自陆游《游山西村》，比喻在困境中出现转机。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -3762,7 +3762,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "远上寒山石径斜",
                 "explanation": "出自杜牧《山行》，描写山行时看到的景象。",
-                "poemId": null,
+                "poemId": "sup_156",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -3780,7 +3780,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "影入平羌江水流",
                 "explanation": "出自李白《峨眉山月歌》，描写峨眉山月倒映在江中的景象。",
-                "poemId": null,
+                "poemId": "sup_034",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -3799,7 +3799,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "留取丹心照汗青",
                 "explanation": "出自文天祥《过零丁洋》，表达了诗人以身殉国的决心。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "古诗默写",
                         "文天祥",
@@ -3817,7 +3817,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写战乱后长安城的荒凉景象。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3836,7 +3836,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "村庄儿女各当家",
                 "explanation": "出自范成大《四时田园杂兴》，描写农村繁忙的劳动场景。",
-                "poemId": null,
+                "poemId": "sup_077",
                 "knowledgePoints": [
                         "古诗默写",
                         "范成大",
@@ -3854,7 +3854,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里莺啼绿映红",
                 "explanation": "出自杜牧《江南春》，描写江南春天的美丽景色。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -3872,7 +3872,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "崔九堂前几度闻",
                 "explanation": "出自杜甫《江南逢李龟年》，表达对开元盛世的怀念。",
-                "poemId": null,
+                "poemId": "sup_036",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3890,7 +3890,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小桥流水人家",
                 "explanation": "出自马致远《天净沙·秋思》，描写深秋的萧瑟景象。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "古诗默写",
                         "马致远",
@@ -3908,7 +3908,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家书抵万金",
                 "explanation": "出自杜甫《春望》，表达战乱中人们对亲人的思念。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -3927,7 +3927,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "问渠那得清如许",
                 "explanation": "出自朱熹《观书有感》，比喻学习需要不断汲取新知识。",
-                "poemId": null,
+                "poemId": "sup_081",
                 "knowledgePoints": [
                         "古诗默写",
                         "朱熹",
@@ -3945,7 +3945,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "驱车登古原",
                 "explanation": "出自李商隐《登乐游原》，描写傍晚心情不佳时登高散心。",
-                "poemId": null,
+                "poemId": "sup_320",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -3963,7 +3963,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一夜征人尽望乡",
                 "explanation": "出自李益《夜上受降城闻笛》，表达戍边将士的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "古诗默写",
                         "李益",
@@ -3982,7 +3982,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "断肠人在天涯",
                 "explanation": "出自马致远《天净沙·秋思》，表达游子漂泊的悲凉。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "古诗默写",
                         "马致远",
@@ -4000,7 +4000,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "如闻泣幽咽",
                 "explanation": "出自杜甫《石壕吏》，描写战争给人民带来的痛苦。",
-                "poemId": null,
+                "poemId": "sup_357",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -4018,7 +4018,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "桃花潭水深千尺",
                 "explanation": "出自李白《赠汪伦》，用潭水深度比喻友情。",
-                "poemId": null,
+                "poemId": "sup_008",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -4036,7 +4036,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "枳花明驿墙",
                 "explanation": "出自温庭筠《商山早行》，描写早行时看到的景象。",
-                "poemId": null,
+                "poemId": "sup_299",
                 "knowledgePoints": [
                         "古诗默写",
                         "温庭筠",
@@ -4054,7 +4054,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "后不见来者",
                 "explanation": "出自陈子昂《登幽州台歌》，表达生不逢时的悲愤。",
-                "poemId": null,
+                "poemId": "sup_128",
                 "knowledgePoints": [
                         "古诗默写",
                         "陈子昂",
@@ -4072,7 +4072,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "波涛如怒",
                 "explanation": "出自张养浩《山坡羊·潼关怀古》，描写潼关地势险要。",
-                "poemId": null,
+                "poemId": "sup_069",
                 "knowledgePoints": [
                         "古诗默写",
                         "张养浩",
@@ -4090,7 +4090,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归来倚杖自叹息",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写诗人无可奈何的情景。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -4108,7 +4108,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春来江水绿如蓝",
                 "explanation": "出自白居易《忆江南》，描写江南春天的美景。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -4126,7 +4126,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "京口瓜洲一水间",
                 "explanation": "出自王安石《泊船瓜洲》，描写家乡近在咫尺。",
-                "poemId": null,
+                "poemId": "sup_238",
                 "knowledgePoints": [
                         "古诗默写",
                         "王安石",
@@ -4144,7 +4144,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独怆然而涕下",
                 "explanation": "出自陈子昂《登幽州台歌》，表达诗人孤独悲伤的情怀。",
-                "poemId": null,
+                "poemId": "sup_128",
                 "knowledgePoints": [
                         "古诗默写",
                         "陈子昂",
@@ -4162,7 +4162,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "伤心秦汉经行处",
                 "explanation": "出自张养浩《山坡羊·潼关怀古》，感叹历史变迁。",
-                "poemId": null,
+                "poemId": "sup_069",
                 "knowledgePoints": [
                         "古诗默写",
                         "张养浩",
@@ -4180,7 +4180,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "系向牛头充炭直",
                 "explanation": "出自白居易《卖炭翁》，揭露宫市制度的罪恶。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_006",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -4198,7 +4198,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "低头思故乡",
                 "explanation": "出自李白《静夜思》，表达了诗人对故乡的深切思念。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -4216,7 +4216,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黑云翻墨未遮山",
                 "explanation": "出自苏轼《六月二十七日望湖楼醉书》，描写西湖夏日暴雨景象。",
-                "poemId": null,
+                "poemId": "sup_240",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -4234,7 +4234,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "阴阳割昏晓",
                 "explanation": "出自杜甫《望岳》，描写泰山高大巍峨的景象。",
-                "poemId": null,
+                "poemId": "sup_129",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -4252,7 +4252,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "赢，都变做了土",
                 "explanation": "出自张养浩《山坡羊·潼关怀古》，揭示封建社会朝代更替的实质。",
-                "poemId": null,
+                "poemId": "sup_069",
                 "knowledgePoints": [
                         "古诗默写",
                         "张养浩",
@@ -4270,7 +4270,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "甲光向日金鳞开",
                 "explanation": "出自李贺《雁门太守行》，描写敌军压境、将士严阵以待的情景。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "古诗默写",
                         "李贺",
@@ -4288,7 +4288,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "处处闻啼鸟",
                 "explanation": "出自孟浩然《春晓》，描写春天早晨的景象。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -4306,7 +4306,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春江水暖鸭先知",
                 "explanation": "出自苏轼《惠崇春江晚景》，描写江南春天的美景。",
-                "poemId": null,
+                "poemId": "sup_165",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -4324,7 +4324,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自缘身在最高层",
                 "explanation": "出自王安石《登飞来峰》，表达了诗人实现政治抱负的信心。",
-                "poemId": null,
+                "poemId": "sup_025",
                 "knowledgePoints": [
                         "古诗默写",
                         "王安石",
@@ -4342,7 +4342,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "波澜不惊",
                 "explanation": "出自范仲淹《岳阳楼记》，描写春光明媚时的洞庭湖景色。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "古文默写",
                         "范仲淹",
@@ -4361,7 +4361,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "塞上燕脂凝夜紫",
                 "explanation": "出自李贺《雁门太守行》，描写边塞战争的惨烈。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "古诗默写",
                         "李贺",
@@ -4379,7 +4379,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花落知多少",
                 "explanation": "出自孟浩然《春晓》，表达诗人对落花的惋惜。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -4397,7 +4397,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "生当作人杰",
                 "explanation": "出自李清照《夏日绝句》，表达对英雄气概的赞颂。",
-                "poemId": null,
+                "poemId": "sup_244",
                 "knowledgePoints": [
                         "古诗默写",
                         "李清照",
@@ -4415,7 +4415,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "柳暗花明又一村",
                 "explanation": "出自陆游《游山西村》，表达在困境中要充满希望的哲理。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -4433,7 +4433,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山岳潜形",
                 "explanation": "出自范仲淹《岳阳楼记》，描写阴雨天气洞庭湖的萧瑟景象。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "古文默写",
                         "范仲淹",
@@ -4452,7 +4452,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自将磨洗认前朝",
                 "explanation": "出自杜牧《赤壁》，借古讽今，评论历史人物。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -4470,7 +4470,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄河入海流",
                 "explanation": "出自王之涣《登鹳雀楼》，描写夕阳西下、黄河奔流的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -4488,7 +4488,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "五千仞岳上摩天",
                 "explanation": "出自陆游《秋夜将晓出篱门迎凉有感》，描写北方山岳的雄伟。",
-                "poemId": null,
+                "poemId": "sup_076",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -4506,7 +4506,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "丰年留客足鸡豚",
                 "explanation": "出自陆游《游山西村》，描写农村待客的热情。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -4524,7 +4524,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "在乎山水之间也",
                 "explanation": "出自欧阳修《醉翁亭记》，表现了作者寄情山水的豁达情怀。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "古文默写",
                         "欧阳修",
@@ -4543,7 +4543,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "铜雀春深锁二乔",
                 "explanation": "出自杜牧《赤壁》，用假设手法评论赤壁之战。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -4561,7 +4561,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更上一层楼",
                 "explanation": "出自王之涣《登鹳雀楼》，表达了积极向上的精神。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -4579,7 +4579,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "毕竟西湖六月中",
                 "explanation": "出自杨万里《晓出净慈寺送林子方》，描写西湖夏天的美景。",
-                "poemId": null,
+                "poemId": "sup_078",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -4597,7 +4597,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "邀我至田家",
                 "explanation": "出自孟浩然《过故人庄》，描写老朋友邀请诗人到农庄做客。",
-                "poemId": null,
+                "poemId": "sup_386",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -4615,7 +4615,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "得之心而寓之酒也",
                 "explanation": "出自欧阳修《醉翁亭记》，表达作者以山水为乐的情趣。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "古文默写",
                         "欧阳修",
@@ -4634,7 +4634,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜泊秦淮近酒家",
                 "explanation": "出自杜牧《泊秦淮》，描写夜晚秦淮河的朦胧景象。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -4652,7 +4652,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "草长莺飞二月天",
                 "explanation": "出自高鼎《村居》，描写春天农村的美景。",
-                "poemId": null,
+                "poemId": "sup_073",
                 "knowledgePoints": [
                         "古诗默写",
                         "高鼎",
@@ -4670,7 +4670,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "胜日寻芳泗水滨",
                 "explanation": "出自朱熹《春日》，描写春天郊游时看到的美好景色。",
-                "poemId": null,
+                "poemId": "sup_080",
                 "knowledgePoints": [
                         "古诗默写",
                         "朱熹",
@@ -4688,7 +4688,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青山郭外斜",
                 "explanation": "出自孟浩然《过故人庄》，描写农村优美的自然环境。",
-                "poemId": null,
+                "poemId": "sup_386",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -4706,7 +4706,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "可爱者甚蕃",
                 "explanation": "出自周敦颐《爱莲说》，说明作者独爱莲花。",
-                "poemId": null,
+                "poemId": "sup_147",
                 "knowledgePoints": [
                         "古文默写",
                         "周敦颐",
@@ -4725,7 +4725,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二月春风似剪刀",
                 "explanation": "出自贺知章《咏柳》，用巧妙的比喻赞美春天的美好。",
-                "poemId": null,
+                "poemId": "sup_307",
                 "knowledgePoints": [
                         "古诗默写",
                         "贺知章",
@@ -4743,7 +4743,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "毕竟东流去",
                 "explanation": "出自辛弃疾《菩萨蛮·书江西造口壁》，借江水东流表达忧国之情。",
-                "poemId": null,
+                "poemId": "sup_396",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -4761,7 +4761,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "把酒话桑麻",
                 "explanation": "出自孟浩然《过故人庄》，描写主客畅谈农事的欢乐。",
-                "poemId": null,
+                "poemId": "sup_386",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -4779,7 +4779,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "濯清涟而不妖",
                 "explanation": "出自周敦颐《爱莲说》，赞美莲花的高洁品格。",
-                "poemId": null,
+                "poemId": "sup_147",
                 "knowledgePoints": [
                         "古文默写",
                         "周敦颐",
@@ -4798,7 +4798,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "早有蜻蜓立上头",
                 "explanation": "出自杨万里《小池》，描写初夏小池边的景象。",
-                "poemId": null,
+                "poemId": "sup_079",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -4816,7 +4816,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "应怜屐齿印苍苔",
                 "explanation": "出自叶绍翁《游园不值》，描写主人园子的幽静。",
-                "poemId": null,
+                "poemId": "sup_027",
                 "knowledgePoints": [
                         "古诗默写",
                         "叶绍翁",
@@ -4834,7 +4834,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水面初平云脚低",
                 "explanation": "出自白居易《钱塘湖春行》，描写西湖早春的景色。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -4853,7 +4853,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "宜付有司论其刑赏",
                 "explanation": "出自诸葛亮《出师表》，表明要公正赏罚。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "古文默写",
                         "诸葛亮",
@@ -4872,7 +4872,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "泉眼无声惜细流",
                 "explanation": "出自杨万里《小池》，描写小池的静谧景色。",
-                "poemId": null,
+                "poemId": "sup_079",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -4890,7 +4890,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烈火焚烧若等闲",
                 "explanation": "出自于谦《石灰吟》，以石灰自喻表达刚正不阿的精神。",
-                "poemId": null,
+                "poemId": "sup_083",
                 "knowledgePoints": [
                         "古诗默写",
                         "于谦",
@@ -4908,7 +4908,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "谁家新燕啄春泥",
                 "explanation": "出自白居易《钱塘湖春行》，描写春天生机勃勃的景象。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -4946,7 +4946,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遥看瀑布挂前川",
                 "explanation": "出自李白《望庐山瀑布》，描写庐山瀑布的雄伟壮观。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -4964,7 +4964,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "哪里去辨什么真共假",
                 "explanation": "出自王磐《朝天子·咏喇叭》，讽刺官府的扰民行为。",
-                "poemId": null,
+                "poemId": "sup_388",
                 "knowledgePoints": [
                         "古诗默写",
                         "王磐",
@@ -4982,7 +4982,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "甲光向日金鳞开",
                 "explanation": "出自李贺《雁门太守行》，描写敌军压境、将士严阵以待的情景。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "古诗默写",
                         "李贺",
@@ -5000,7 +5000,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "塞下秋来风景异",
                 "explanation": "出自范仲淹《渔家傲·秋思》，点明地点和季节。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "古诗默写",
                         "范仲淹",
@@ -5018,7 +5018,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天门中断楚江开",
                 "explanation": "出自李白《望天门山》，描写天门山的雄伟气势。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5036,7 +5036,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "九州生气恃风雷",
                 "explanation": "出自龚自珍《己亥杂诗》，表达对国家命运的担忧和变革的渴望。",
-                "poemId": null,
+                "poemId": "poem_015",
                 "knowledgePoints": [
                         "古诗默写",
                         "龚自珍",
@@ -5054,7 +5054,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江入大荒流",
                 "explanation": "出自李白《渡荆门送别》，描写船过荆门的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5072,7 +5072,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "锦帽貂裘",
                 "explanation": "出自苏轼《江城子·密州出猎》，描写打猎的装备。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_008",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -5090,7 +5090,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤帆一片日边来",
                 "explanation": "出自李白《望天门山》，描写孤帆从日边驶来的景象。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5108,7 +5108,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "桃花流水鳜鱼肥",
                 "explanation": "出自张志和《渔歌子》，描写江南春天的美景和渔家生活。",
-                "poemId": null,
+                "poemId": "sup_218",
                 "knowledgePoints": [
                         "古诗默写",
                         "张志和",
@@ -5126,7 +5126,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "仍怜故乡水",
                 "explanation": "出自李白《渡荆门送别》，表达诗人对故乡的眷恋。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5144,7 +5144,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "八百里分麾下炙",
                 "explanation": "出自辛弃疾《破阵子》，描写激烈的战斗场面。",
-                "poemId": null,
+                "poemId": "sup_066",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -5162,7 +5162,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潭面无风镜未磨",
                 "explanation": "出自刘禹锡《望洞庭》，描写洞庭湖秋夜的宁静美景。",
-                "poemId": null,
+                "poemId": "sup_033",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘禹锡",
@@ -5180,7 +5180,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青箬笠，绿蓑衣",
                 "explanation": "出自张志和《渔歌子》，描写渔翁在斜风细雨中悠闲垂钓。",
-                "poemId": null,
+                "poemId": "sup_218",
                 "knowledgePoints": [
                         "古诗默写",
                         "张志和",
@@ -5198,7 +5198,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山山唯落晖",
                 "explanation": "出自王绩《野望》，描写秋天傍晚的山野景色。",
-                "poemId": null,
+                "poemId": "sup_389",
                 "knowledgePoints": [
                         "古诗默写",
                         "王绩",
@@ -5216,7 +5216,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "为篱下、黄花开遍",
                 "explanation": "出自秋瑾《满江红》，借用菊花表达高洁的志向。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "古诗默写",
                         "秋瑾",
@@ -5234,7 +5234,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白银盘里一青螺",
                 "explanation": "出自刘禹锡《望洞庭》，用比喻描写洞庭湖的美景。",
-                "poemId": null,
+                "poemId": "sup_033",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘禹锡",
@@ -5252,7 +5252,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遥看瀑布挂前川",
                 "explanation": "出自李白《望庐山瀑布》，描写庐山香炉峰瀑布的壮观景象。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5270,7 +5270,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "徙倚欲何依",
                 "explanation": "出自王绩《野望》，表达诗人孤独彷徨的心情。",
-                "poemId": null,
+                "poemId": "sup_389",
                 "knowledgePoints": [
                         "古诗默写",
                         "王绩",
@@ -5307,7 +5307,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "众鸟高飞尽",
                 "explanation": "出自李白《独坐敬亭山》，描写诗人独坐时的孤寂景象。",
-                "poemId": null,
+                "poemId": "sup_032",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5325,7 +5325,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日照香炉生紫烟",
                 "explanation": "出自李白《望庐山瀑布》，用夸张手法描写瀑布的雄伟。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5343,7 +5343,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "此地空余黄鹤楼",
                 "explanation": "出自崔颢《黄鹤楼》，表达对岁月流逝的感慨。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -5362,7 +5362,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "苦其心志",
                 "explanation": "出自《孟子》，说明成大事者必先经历磨难。",
-                "poemId": null,
+                "poemId": "sup_148",
                 "knowledgePoints": [
                         "古文默写",
                         "孟子",
@@ -5380,7 +5380,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "相看两不厌",
                 "explanation": "出自李白《独坐敬亭山》，表达了诗人对大自然的热爱。",
-                "poemId": null,
+                "poemId": "sup_032",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5398,7 +5398,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "碧水东流至此回",
                 "explanation": "出自李白《望天门山》，描写天门山夹江对峙、长江水折东而流的景象。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5416,7 +5416,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云千载空悠悠",
                 "explanation": "出自崔颢《黄鹤楼》，表达物是人非的感慨。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -5435,7 +5435,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "舍生而取者",
                 "explanation": "出自《孟子》，阐述'舍生取义'的道理。",
-                "poemId": null,
+                "poemId": "sup_149",
                 "knowledgePoints": [
                         "古文默写",
                         "孟子",
@@ -5453,7 +5453,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山青花欲燃",
                 "explanation": "出自杜甫《绝句》，描写春天江边的美景。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -5471,7 +5471,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤帆一片日边来",
                 "explanation": "出自李白《望天门山》，描写一只小船从日边驶来的景象。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5489,7 +5489,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "属国过居延",
                 "explanation": "出自王维《使至塞上》，描写诗人出使边塞的路途。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -5526,7 +5526,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "迟日江山丽",
                 "explanation": "出自杜甫《绝句》，描写春天温暖的阳光和花香。",
-                "poemId": null,
+                "poemId": "sup_353",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -5544,7 +5544,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里江陵一日还",
                 "explanation": "出自李白《早发白帝城》，描写诗人从白帝城返回江陵的轻快心情。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5562,7 +5562,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归雁入胡天",
                 "explanation": "出自王维《使至塞上》，以征蓬、归雁自喻。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -5580,7 +5580,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "陟罚臧否",
                 "explanation": "出自诸葛亮《出师表》，说明赏罚要公平一致。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "古文默写",
                         "诸葛亮",
@@ -5599,7 +5599,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沙暖睡鸳鸯",
                 "explanation": "出自杜甫《绝句》，描写春天燕子衔泥、鸳鸯晒太阳的景象。",
-                "poemId": null,
+                "poemId": "sup_353",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -5617,7 +5617,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两岸猿声啼不住",
                 "explanation": "出自李白《早发白帝城》，描写舟行迅速、猿声不绝于耳的景象。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5635,7 +5635,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写边塞奇特壮美的景象。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -5672,7 +5672,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一行白鹭上青天",
                 "explanation": "出自杜甫《绝句》，描写春天生机勃勃的景象。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -5690,7 +5690,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟花三月下扬州",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写阳春三月的扬州美景。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5709,7 +5709,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云生结海楼",
                 "explanation": "出自李白《渡荆门送别》，描写江面平静时的倒影和云彩。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5727,7 +5727,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写战乱后长安城的荒凉景象。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -5745,7 +5745,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "侧坐莓苔草映身",
                 "explanation": "出自胡令能《小儿垂钓》，描写儿童认真学钓鱼的可爱模样。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "古诗默写",
                         "胡令能",
@@ -5763,7 +5763,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云千载空悠悠",
                 "explanation": "出自崔颢《黄鹤楼》，表达对岁月流逝、物是人非的感慨。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -5781,7 +5781,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云生结海楼",
                 "explanation": "出自李白《渡荆门送别》，描写江面平静时的倒影和云彩。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5800,7 +5800,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家书抵万金",
                 "explanation": "出自杜甫《春望》，表达战乱中人们对亲人的思念。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -5818,7 +5818,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小荷才露尖尖角",
                 "explanation": "出自杨万里《小池》，描写初夏小池边的生机勃勃景象。",
-                "poemId": null,
+                "poemId": "sup_079",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -5836,7 +5836,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "芳草萋萋鹦鹉洲",
                 "explanation": "出自崔颢《黄鹤楼》，描写登楼远眺的美景。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -5854,7 +5854,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江入大荒流",
                 "explanation": "出自李白《渡荆门送别》，描写船过荆门的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -5873,7 +5873,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "大庇天下寒士俱欢颜",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，表现诗人忧国忧民的情怀。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -5892,7 +5892,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "树阴照水爱晴柔",
                 "explanation": "出自杨万里《小池》，描写小池边树荫倒映在水中的柔美景象。",
-                "poemId": null,
+                "poemId": "sup_079",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -5910,7 +5910,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟波江上使人愁",
                 "explanation": "出自崔颢《黄鹤楼》，表达诗人的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -5928,7 +5928,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山山唯落晖",
                 "explanation": "出自王绩《野望》，描写秋天傍晚的山野景色。",
-                "poemId": null,
+                "poemId": "sup_389",
                 "knowledgePoints": [
                         "古诗默写",
                         "王绩",
@@ -5947,7 +5947,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "留取丹心照汗青",
                 "explanation": "出自文天祥《过零丁洋》，表达了诗人以身殉国的决心。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "古诗默写",
                         "文天祥",
@@ -5966,7 +5966,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万条垂下绿丝绦",
                 "explanation": "出自贺知章《咏柳》，用丝绦比喻柳枝，赞美春天的美好。",
-                "poemId": null,
+                "poemId": "sup_106",
                 "knowledgePoints": [
                         "古诗默写",
                         "贺知章",
@@ -5984,7 +5984,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天涯若比邻",
                 "explanation": "出自王勃《送杜少府之任蜀州》，表达了真正的友谊不受距离限制。",
-                "poemId": null,
+                "poemId": "poem_009",
                 "knowledgePoints": [
                         "古诗默写",
                         "王勃",
@@ -6002,7 +6002,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "徙倚欲何依",
                 "explanation": "出自王绩《野望》，表达诗人孤独彷徨的心情。",
-                "poemId": null,
+                "poemId": "sup_389",
                 "knowledgePoints": [
                         "古诗默写",
                         "王绩",
@@ -6021,7 +6021,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "燕然未勒归无计",
                 "explanation": "出自范仲淹《渔家傲》，表现边塞将士的矛盾心理。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "古诗默写",
                         "范仲淹",
@@ -6039,7 +6039,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "接天莲叶无穷碧",
                 "explanation": "出自杨万里《晓出净慈寺送林子方》，描写西湖六月荷花盛开的美景。",
-                "poemId": null,
+                "poemId": "sup_078",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -6057,7 +6057,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "无为在歧路",
                 "explanation": "出自王勃《送杜少府之任蜀州》，劝慰朋友不要在分别时哭泣。",
-                "poemId": null,
+                "poemId": "poem_009",
                 "knowledgePoints": [
                         "古诗默写",
                         "王勃",
@@ -6075,7 +6075,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "此地空余黄鹤楼",
                 "explanation": "出自崔颢《黄鹤楼》，表达对岁月流逝的感慨。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -6094,7 +6094,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "西北望，射天狼",
                 "explanation": "出自苏轼《江城子·密州出猎》，表达诗人杀敌报国的壮志。",
-                "poemId": null,
+                "poemId": "sup_306",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -6112,7 +6112,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风光不与四时同",
                 "explanation": "出自杨万里《晓出净慈寺送林子方》，突出西湖六月景色的独特。",
-                "poemId": null,
+                "poemId": "sup_078",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -6130,7 +6130,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风烟望五津",
                 "explanation": "出自王勃《送杜少府之任蜀州》，描写送别地点和友人要去的地方。",
-                "poemId": null,
+                "poemId": "sup_103",
                 "knowledgePoints": [
                         "古诗默写",
                         "王勃",
@@ -6148,7 +6148,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云千载空悠悠",
                 "explanation": "出自崔颢《黄鹤楼》，表达物是人非的感慨。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -6167,7 +6167,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "赢得生前身后名",
                 "explanation": "出自辛弃疾《破阵子》，表达诗人抗金报国的理想。",
-                "poemId": null,
+                "poemId": "sup_285",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -6185,7 +6185,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "呼作白玉盘",
                 "explanation": "出自李白《古朗月行》，描写儿童时期对月亮的天真认识。",
-                "poemId": null,
+                "poemId": "sup_051",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -6203,7 +6203,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北风吹雁雪纷纷",
                 "explanation": "出自高适《别董大》，描写边塞寒冬送别时的景象。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "古诗默写",
                         "高适",
@@ -6221,7 +6221,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写边塞奇特壮美的景象。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -6240,7 +6240,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "鱼翔浅底",
                 "explanation": "出自毛泽东《沁园春·长沙》，描写秋天湘江的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_046",
                 "knowledgePoints": [
                         "古诗默写",
                         "毛泽东",
@@ -6258,7 +6258,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是地上霜",
                 "explanation": "出自李白《静夜思》，描写月光照在床前像霜一样的景象。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -6276,7 +6276,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天下谁人不识君",
                 "explanation": "出自高适《别董大》，表达对友人的鼓励和信心。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "古诗默写",
                         "高适",
@@ -6294,7 +6294,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水面初平云脚低",
                 "explanation": "出自白居易《钱塘湖春行》，描写西湖早春的景色。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -6313,7 +6313,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "苦其心志",
                 "explanation": "出自《孟子》，说明成大事者必先经历磨难。",
-                "poemId": null,
+                "poemId": "sup_148",
                 "knowledgePoints": [
                         "古文默写",
                         "孟子",
@@ -6332,7 +6332,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "床前明月光",
                 "explanation": "出自李白《静夜思》，描写月光照在床前的景象。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -6350,7 +6350,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里长征人未还",
                 "explanation": "出自王昌龄《出塞》，表达边塞战士的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "古诗默写",
                         "王昌龄",
@@ -6369,7 +6369,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "谁家新燕啄春泥",
                 "explanation": "出自白居易《钱塘湖春行》，描写春天生机勃勃的景象。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -6388,7 +6388,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "舍生而取者",
                 "explanation": "出自《孟子》，阐述'舍生取义'的道理。",
-                "poemId": null,
+                "poemId": "sup_149",
                 "knowledgePoints": [
                         "古文默写",
                         "孟子",
@@ -6407,7 +6407,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "低头思故乡",
                 "explanation": "出自李白《静夜思》，表达诗人对故乡的深切思念。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -6426,7 +6426,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不教胡马度阴山",
                 "explanation": "出自王昌龄《出塞》，表达诗人对抗敌名将的怀念。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "古诗默写",
                         "王昌龄",
@@ -6444,7 +6444,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绿杨阴里白沙堤",
                 "explanation": "出自白居易《钱塘湖春行》，表达诗人对西湖的热爱。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -6462,7 +6462,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "波涛如怒",
                 "explanation": "出自张养浩《山坡羊·潼关怀古》，描写潼关地势险要。",
-                "poemId": null,
+                "poemId": "sup_069",
                 "knowledgePoints": [
                         "古诗默写",
                         "张养浩",
@@ -6481,7 +6481,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写大雪天山的寂静景象。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "古诗默写",
                         "柳宗元",
@@ -6499,7 +6499,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山岛竦峙",
                 "explanation": "出自曹操《观沧海》，描写海边山岛耸立的景象。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "古诗默写",
                         "曹操",
@@ -6517,7 +6517,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "宫阙万间都做了土",
                 "explanation": "出自张养浩《山坡羊·潼关怀古》，感叹历史变迁。",
-                "poemId": null,
+                "poemId": "sup_069",
                 "knowledgePoints": [
                         "古诗默写",
                         "张养浩",
@@ -6535,7 +6535,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤舟蓑笠翁",
                 "explanation": "出自柳宗元《江雪》，描写渔翁独自在雪天垂钓的情景。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "古诗默写",
                         "柳宗元",
@@ -6553,7 +6553,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "每逢佳节倍思亲",
                 "explanation": "出自王维《九月九日忆山东兄弟》，表达重阳节对亲人的思念。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -6572,7 +6572,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随风直到夜郎西",
                 "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，表达对友人的关切。",
-                "poemId": null,
+                "poemId": "sup_055",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -6590,7 +6590,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "赢，都变做了土",
                 "explanation": "出自张养浩《山坡羊·潼关怀古》，揭示封建社会朝代更替的实质。",
-                "poemId": null,
+                "poemId": "sup_069",
                 "knowledgePoints": [
                         "古诗默写",
                         "张养浩",
@@ -6609,7 +6609,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "言师采药去",
                 "explanation": "出自贾岛《寻隐者不遇》，描写诗人寻访隐者的对话。",
-                "poemId": null,
+                "poemId": "sup_021",
                 "knowledgePoints": [
                         "古诗默写",
                         "贾岛",
@@ -6627,7 +6627,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遍插茱萸少一人",
                 "explanation": "出自王维《九月九日忆山东兄弟》，表达诗人想象兄弟们重阳登高的情景。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -6645,7 +6645,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "行舟绿水前",
                 "explanation": "出自王湾《次北固山下》，描写旅途中的景色。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "古诗默写",
                         "王湾",
@@ -6663,7 +6663,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "波澜不惊",
                 "explanation": "出自范仲淹《岳阳楼记》，描写春光明媚时的洞庭湖景色。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "古文默写",
                         "范仲淹",
@@ -6683,7 +6683,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "只在此山中",
                 "explanation": "出自贾岛《寻隐者不遇》，童子回答师父就在这座山里。",
-                "poemId": null,
+                "poemId": "sup_021",
                 "knowledgePoints": [
                         "古诗默写",
                         "贾岛",
@@ -6701,7 +6701,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天气晚来秋",
                 "explanation": "出自王维《山居秋暝》，描写秋夜山居的清新气息。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -6719,7 +6719,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小桥流水人家",
                 "explanation": "出自马致远《天净沙·秋思》，描写深秋的萧瑟景象。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "古诗默写",
                         "马致远",
@@ -6737,7 +6737,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "在乎山水之间也",
                 "explanation": "出自欧阳修《醉翁亭记》，表现了作者寄情山水的豁达情怀。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "古文默写",
                         "欧阳修",
@@ -6757,7 +6757,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花落知多少",
                 "explanation": "出自孟浩然《春晓》，表达诗人对落花的惋惜。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -6776,7 +6776,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清泉石上流",
                 "explanation": "出自王维《山居秋暝》，描写秋夜山居的宁静景色。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -6794,7 +6794,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "影入平羌江水流",
                 "explanation": "出自李白《峨眉山月歌》，描写峨眉山月倒映在江中的景象。",
-                "poemId": null,
+                "poemId": "sup_034",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -6812,7 +6812,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "濯清涟而不妖",
                 "explanation": "出自周敦颐《爱莲说》，赞美莲花的高洁品格。",
-                "poemId": null,
+                "poemId": "sup_147",
                 "knowledgePoints": [
                         "古文默写",
                         "周敦颐",
@@ -6832,7 +6832,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "处处闻啼鸟",
                 "explanation": "出自孟浩然《春晓》，描写春天早晨处处鸟鸣的景象。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -6851,7 +6851,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莲动下渔舟",
                 "explanation": "出自王维《山居秋暝》，描写山村生活的和谐美好。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -6870,7 +6870,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "崔九堂前几度闻",
                 "explanation": "出自杜甫《江南逢李龟年》，表达对开元盛世的怀念。",
-                "poemId": null,
+                "poemId": "sup_036",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -6888,7 +6888,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "陟罚臧否",
                 "explanation": "出自诸葛亮《出师表》，说明赏罚要公平一致。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "古文默写",
                         "诸葛亮",
@@ -6908,7 +6908,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春眠不觉晓",
                 "explanation": "出自孟浩然《春晓》，春夜酣睡不知不觉天已亮。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -6926,7 +6926,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "属国过居延",
                 "explanation": "出自王维《使至塞上》，描写诗人出使边塞的路途。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -6944,7 +6944,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一夜征人尽望乡",
                 "explanation": "出自李益《夜上受降城闻笛》，表达戍边将士的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "古诗默写",
                         "李益",
@@ -6982,7 +6982,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日暮客愁新",
                 "explanation": "出自孟浩然《宿建德江》，描写移船靠岸时的新愁。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -7000,7 +7000,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写边塞奇特壮美的景象。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -7018,7 +7018,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "后不见来者",
                 "explanation": "出自陈子昂《登幽州台歌》，表达生不逢时的悲愤。",
-                "poemId": null,
+                "poemId": "sup_128",
                 "knowledgePoints": [
                         "古诗默写",
                         "陈子昂",
@@ -7056,7 +7056,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江清月近人",
                 "explanation": "出自孟浩然《宿建德江》，描写旷野中江水清澈、月影近人的景象。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -7074,7 +7074,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "杨柳青青江水平",
                 "explanation": "出自刘禹锡《竹枝词》，描写少女听到情人歌声时的心理。",
-                "poemId": null,
+                "poemId": "sup_088",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘禹锡",
@@ -7092,7 +7092,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "阴阳割昏晓",
                 "explanation": "出自杜甫《望岳》，描写泰山高大巍峨的景象。",
-                "poemId": null,
+                "poemId": "sup_129",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -7130,7 +7130,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄河入海流",
                 "explanation": "出自王之涣《登鹳雀楼》，描写夕阳西下、黄河奔流入海的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -7149,7 +7149,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "道是无晴还有晴",
                 "explanation": "出自刘禹锡《竹枝词》，用双关语表达爱情。",
-                "poemId": null,
+                "poemId": "sup_088",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘禹锡",
@@ -7167,7 +7167,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自缘身在最高层",
                 "explanation": "出自王安石《登飞来峰》，表达了诗人实现政治抱负的信心。",
-                "poemId": null,
+                "poemId": "sup_025",
                 "knowledgePoints": [
                         "古诗默写",
                         "王安石",
@@ -7185,7 +7185,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更上一层楼",
                 "explanation": "出自王之涣《登鹳雀楼》，表达了积极向上的精神。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -7204,7 +7204,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "飞入寻常百姓家",
                 "explanation": "出自刘禹锡《乌衣巷》，借燕子迁徙感叹世事变迁。",
-                "poemId": null,
+                "poemId": "sup_089",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘禹锡",
@@ -7222,7 +7222,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "碧玉妆成一树高",
                 "explanation": "出自贺知章《咏柳》，用碧玉比喻柳树的嫩绿。",
-                "poemId": null,
+                "poemId": "sup_106",
                 "knowledgePoints": [
                         "古诗默写",
                         "贺知章",
@@ -7240,7 +7240,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写深夜江边的愁绪。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "古诗默写",
                         "张继",
@@ -7259,7 +7259,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二月春风似剪刀",
                 "explanation": "出自贺知章《咏柳》，用巧妙的比喻赞美春天的美好。",
-                "poemId": null,
+                "poemId": "sup_307",
                 "knowledgePoints": [
                         "古诗默写",
                         "贺知章",
@@ -7278,7 +7278,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜半钟声到客船",
                 "explanation": "出自张继《枫桥夜泊》，描写夜半时分寒山寺的钟声传到客船。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "古诗默写",
                         "张继",
@@ -7296,7 +7296,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一片孤城万仞山",
                 "explanation": "出自王之涣《凉州词》，描写边塞的荒凉和孤城矗立的景象。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -7314,7 +7314,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "弹琴复长啸",
                 "explanation": "出自王维《竹里馆》，描写诗人隐居山林的悠闲生活。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -7332,7 +7332,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风不度玉门关",
                 "explanation": "出自王之涣《凉州词》，表达戍边士兵的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -7350,7 +7350,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "明月来相照",
                 "explanation": "出自王维《竹里馆》，表现诗人隐居山林的清静。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -7368,7 +7368,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "飞在青云端",
                 "explanation": "出自李白《古朗月行》，描写儿童对月亮的天真想象。",
-                "poemId": null,
+                "poemId": "sup_051",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -7387,7 +7387,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天寒红叶稀",
                 "explanation": "出自王维《山中》，描写晚秋山中的景色。",
-                "poemId": null,
+                "poemId": "sup_390",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -7405,7 +7405,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写深夜江边的愁绪。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "古诗默写",
                         "张继",
@@ -7424,7 +7424,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "玄鸟又巢扉",
                 "explanation": "出自王维《山中》，描写早春山中燕子归来的景象。",
-                "poemId": null,
+                "poemId": "sup_390",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -7442,7 +7442,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜半钟声到客船",
                 "explanation": "出自张继《枫桥夜泊》，描写夜半时分寒山寺的钟声传到客船。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "古诗默写",
                         "张继",
@@ -7460,7 +7460,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "君言不得意",
                 "explanation": "出自王维《送别》，描写友人不得意的境况。",
-                "poemId": null,
+                "poemId": "sup_385",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -7478,7 +7478,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒食东风御柳斜",
                 "explanation": "出自韩翃《寒食》，描写长安城寒食节的暮春景色。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "古诗默写",
                         "韩翃",
@@ -7497,7 +7497,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但去莫复问",
                 "explanation": "出自王维《送别》，表现诗人对友人的理解和关心。",
-                "poemId": null,
+                "poemId": "sup_385",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -7515,7 +7515,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻烟散入五侯家",
                 "explanation": "出自韩翃《寒食》，讽刺达官贵人的特权。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "古诗默写",
                         "韩翃",
@@ -7533,7 +7533,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日暮掩柴扉",
                 "explanation": "出自王维《山中送别》，描写送别友人后的孤独。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_011",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -7551,7 +7551,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "举头望明月",
                 "explanation": "出自李白《静夜思》，表达诗人对故乡的深切思念。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -7569,7 +7569,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "王孙归不归",
                 "explanation": "出自王维《山中送别》，表达诗人对友人的思念。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_011",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -7587,7 +7587,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两岸青山相对出",
                 "explanation": "出自李白《望天门山》，描写天门山夹江对峙的雄伟气势。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -7605,7 +7605,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自将磨洗认前朝",
                 "explanation": "出自杜牧《赤壁》，借古讽今，评论历史人物。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -7623,7 +7623,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风拂槛露华浓",
                 "explanation": "出自李白《清平调》，赞美杨贵妃的美貌。",
-                "poemId": null,
+                "poemId": "sup_171",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -7641,7 +7641,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "铜雀春深锁二乔",
                 "explanation": "出自杜牧《赤壁》，用假设手法评论赤壁之战。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -7659,7 +7659,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牧童遥指杏花村",
                 "explanation": "出自杜牧《清明》，描写清明时节的凄清景象和诗人找酒解愁的情景。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -7677,7 +7677,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜泊秦淮近酒家",
                 "explanation": "出自杜牧《泊秦淮》，描写夜晚秦淮河的朦胧景象。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -7695,7 +7695,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路上行人欲断魂",
                 "explanation": "出自杜牧《清明》，描写清明时节的凄清景象和行人的愁苦心情。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -7713,7 +7713,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "隔江犹唱后庭花",
                 "explanation": "出自杜牧《泊秦淮》，讽刺当权者的腐败。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -7731,7 +7731,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟村四五家",
                 "explanation": "出自邵雍《山村咏怀》，描写山村人家的宁静景象。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "古诗默写",
                         "邵雍",
@@ -7750,7 +7750,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "巴山夜雨涨秋池",
                 "explanation": "出自李商隐《夜雨寄北》，表达对远方亲人的深切思念。",
-                "poemId": null,
+                "poemId": "sup_061",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -7768,7 +7768,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "造化钟神秀",
                 "explanation": "出自杜甫《望岳》，描写泰山的神奇秀丽。",
-                "poemId": null,
+                "poemId": "sup_129",
                 "knowledgePoints": [
                         "泰山",
                         "杜甫",
@@ -7786,7 +7786,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写战乱后长安城的荒凉。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "战争",
                         "杜甫",
@@ -7804,7 +7804,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "居庙堂之高则忧其民",
                 "explanation": "出自范仲淹《岳阳楼记》，表达作者的政治理想。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "古文",
                         "范仲淹",
@@ -7823,7 +7823,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "举",
                 "explanation": "出自李白《静夜思》，举头望明月，低头思故乡。",
-                "poemId": null,
+                "poemId": "poem_006",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -7841,7 +7841,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "却话巴山夜雨时",
                 "explanation": "出自李商隐《夜雨寄北》，想象将来团聚时的欢乐。",
-                "poemId": null,
+                "poemId": "sup_061",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -7859,7 +7859,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一览众山小",
                 "explanation": "出自杜甫《望岳》，表达诗人的壮志豪情。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "哲理",
                         "杜甫",
@@ -7877,7 +7877,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恨别鸟惊心",
                 "explanation": "出自杜甫《春望》，表达诗人的悲伤情感。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "战争",
                         "杜甫",
@@ -7895,7 +7895,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "后天下之乐而乐",
                 "explanation": "出自范仲淹《岳阳楼记》，表达作者的家国情怀。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "古文",
                         "范仲淹",
@@ -7914,7 +7914,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天似穹庐",
                 "explanation": "出自北朝民歌《敕勒歌》，描写草原的辽阔壮美。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "古诗默写",
                         "敕勒歌",
@@ -7932,7 +7932,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "东风无力百花残",
                 "explanation": "出自李商隐《无题》，以暮春景象象征爱情受阻。",
-                "poemId": null,
+                "poemId": "sup_060",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -7950,7 +7950,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家书抵万金",
                 "explanation": "出自杜甫《春望》，表达战乱中对亲人的思念。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "战争",
                         "杜甫",
@@ -7987,7 +7987,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "死者长已矣",
                 "explanation": "出自杜甫《石壕吏》，描写战争。",
-                "poemId": null,
+                "poemId": "sup_357",
                 "knowledgePoints": [
                         "战争",
                         "杜甫",
@@ -8005,7 +8005,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "鱼戏莲叶东",
                 "explanation": "出自汉乐府《江南》，描写江南采莲时鱼儿戏水的欢乐景象。",
-                "poemId": null,
+                "poemId": "sup_043",
                 "knowledgePoints": [
                         "古诗默写",
                         "江南",
@@ -8024,7 +8024,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "蜡炬成灰泪始干",
                 "explanation": "出自李商隐《无题》，用比喻表达爱情的坚贞。",
-                "poemId": null,
+                "poemId": "sup_060",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -8042,7 +8042,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浑欲不胜簪",
                 "explanation": "出自杜甫《春望》，表达诗人忧国忧民的情怀。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "战争",
                         "杜甫",
@@ -8079,7 +8079,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "惟有乳下孙",
                 "explanation": "出自杜甫《石壕吏》，描写人家。",
-                "poemId": null,
+                "poemId": "sup_357",
                 "knowledgePoints": [
                         "人家",
                         "杜甫",
@@ -8097,7 +8097,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "笼盖四野",
                 "explanation": "出自北朝民歌《敕勒歌》，描写草原天空辽阔的景象。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "古诗默写",
                         "敕勒歌",
@@ -8115,7 +8115,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜吟应觉月光寒",
                 "explanation": "出自李商隐《无题》，描写离别后的相思之苦。",
-                "poemId": null,
+                "poemId": "sup_060",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -8133,7 +8133,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "齐鲁青未了",
                 "explanation": "出自杜甫《望岳》，描写泰山。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "泰山",
                         "杜甫",
@@ -8151,7 +8151,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二男新战死",
                 "explanation": "出自杜甫《石壕吏》，描写战争。",
-                "poemId": null,
+                "poemId": "sup_357",
                 "knowledgePoints": [
                         "战争",
                         "杜甫",
@@ -8169,7 +8169,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二十三年弃置身",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写贬谪。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "贬谪",
                         "刘禹锡",
@@ -8187,7 +8187,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "曲项向天歌",
                 "explanation": "出自骆宾王《咏鹅》，描写大白鹅弯曲着脖子向天唱歌的形象。",
-                "poemId": null,
+                "poemId": "sup_044",
                 "knowledgePoints": [
                         "古诗默写",
                         "骆宾王",
@@ -8205,7 +8205,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青鸟殷勤为探看",
                 "explanation": "出自李商隐《无题》，用神话传说表达对爱情的期盼。",
-                "poemId": null,
+                "poemId": "sup_060",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -8223,7 +8223,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "决眦入归鸟",
                 "explanation": "出自杜甫《望岳》，描写云鸟。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "云",
                         "杜甫",
@@ -8241,7 +8241,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "如闻泣幽咽",
                 "explanation": "出自杜甫《石壕吏》，描写悲伤。",
-                "poemId": null,
+                "poemId": "sup_357",
                 "knowledgePoints": [
                         "悲伤",
                         "杜甫",
@@ -8259,7 +8259,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "到乡翻似烂柯人",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写思乡。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "思乡",
                         "刘禹锡",
@@ -8277,7 +8277,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白毛浮绿水",
                 "explanation": "出自骆宾王《咏鹅》，描写白鹅在水中游动的优美姿态。",
-                "poemId": null,
+                "poemId": "sup_044",
                 "knowledgePoints": [
                         "古诗默写",
                         "骆宾王",
@@ -8296,7 +8296,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两朝开济老臣心",
                 "explanation": "出自杜甫《蜀相》，概括诸葛亮一生的功绩。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -8314,7 +8314,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闺中只独看",
                 "explanation": "出自杜甫《月夜》，描写月夜。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "月夜",
                         "杜甫",
@@ -8332,7 +8332,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "病树前头万木春",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写哲理。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "哲理",
                         "刘禹锡",
@@ -8350,7 +8350,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万条垂下绿丝绦",
                 "explanation": "出自贺知章《咏柳》，用丝绦比喻柳枝，赞美春天的美好。",
-                "poemId": null,
+                "poemId": "sup_106",
                 "knowledgePoints": [
                         "古诗默写",
                         "贺知章",
@@ -8369,7 +8369,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "隔叶黄鹂空好音",
                 "explanation": "出自杜甫《蜀相》，借景物抒发对诸葛亮的崇敬。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -8387,7 +8387,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "未解忆长安",
                 "explanation": "出自杜甫《月夜》，描写儿女。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "儿女",
                         "杜甫",
@@ -8405,7 +8405,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "暂凭杯酒长精神",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写饮酒。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "饮酒",
                         "刘禹锡",
@@ -8423,7 +8423,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二月春风似剪刀",
                 "explanation": "出自贺知章《咏柳》，用巧妙的比喻赞美春天的美好。",
-                "poemId": null,
+                "poemId": "sup_307",
                 "knowledgePoints": [
                         "古诗默写",
                         "贺知章",
@@ -8442,7 +8442,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长使英雄泪满襟",
                 "explanation": "出自杜甫《蜀相》，表达对诸葛亮壮志未酬的惋惜。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -8460,7 +8460,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清辉玉臂寒",
                 "explanation": "出自杜甫《月夜》，描写妻子。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "妻子",
                         "杜甫",
@@ -8478,7 +8478,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "却疑春色在邻家",
                 "explanation": "出自王驾《雨晴》，描写春色。",
-                "poemId": null,
+                "poemId": "sup_348",
                 "knowledgePoints": [
                         "春色",
                         "王驾",
@@ -8496,7 +8496,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "处处闻啼鸟",
                 "explanation": "出自孟浩然《春晓》，描写春天早晨处处鸟鸣的景象。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -8515,7 +8515,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "锦官城外柏森森",
                 "explanation": "出自杜甫《蜀相》，点明诸葛亮祠堂的位置。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -8533,7 +8533,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "双照泪痕干",
                 "explanation": "出自杜甫《月夜》，描写团聚。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "团聚",
                         "杜甫",
@@ -8551,7 +8551,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "暗里忽惊山鸟啼",
                 "explanation": "出自沈佺期《夜游》，描写夜景。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_036",
                 "knowledgePoints": [
                         "夜景",
                         "沈佺期",
@@ -8586,7 +8586,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "战争徭役",
                 "explanation": "描写抓壮丁的情景。",
-                "poemId": null,
+                "poemId": "sup_357",
                 "knowledgePoints": [
                         "战争",
                         "杜甫",
@@ -8605,7 +8605,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花落知多少",
                 "explanation": "出自孟浩然《春晓》，表达诗人对落花的惋惜。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -8624,7 +8624,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衡阳雁去无留意",
                 "explanation": "出自范仲淹《渔家傲·秋思》，描写边塞秋天的萧瑟景象。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "古诗默写",
                         "范仲淹",
@@ -8642,7 +8642,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闺中只独看",
                 "explanation": "出自杜甫《月夜》，描写月夜。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "月夜",
                         "杜甫",
@@ -8660,7 +8660,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春眠不觉晓",
                 "explanation": "出自孟浩然《春晓》，春夜酣睡不知不觉天已亮。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -8679,7 +8679,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "燕然未勒归无计",
                 "explanation": "出自范仲淹《渔家傲·秋思》，表现边塞将士的矛盾心理。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "古诗默写",
                         "范仲淹",
@@ -8697,7 +8697,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "未解忆长安",
                 "explanation": "出自杜甫《月夜》，描写儿女。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "儿女",
                         "杜甫",
@@ -8715,7 +8715,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "老大徒伤悲",
                 "explanation": "出自汉乐府《长歌行》，告诫人们要珍惜少年时光。",
-                "poemId": null,
+                "poemId": "sup_160",
                 "knowledgePoints": [
                         "古诗默写",
                         "长歌行",
@@ -8734,7 +8734,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "将军白发征夫泪",
                 "explanation": "出自范仲淹《渔家傲·秋思》，表达戍边将士的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "古诗默写",
                         "范仲淹",
@@ -8752,7 +8752,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "那禁长夜砧",
                 "explanation": "出自杜甫《秋笛》，描写捣衣。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_020",
                 "knowledgePoints": [
                         "捣衣",
                         "杜甫",
@@ -8770,7 +8770,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两个",
                 "explanation": "出自杜甫《绝句》，两个黄鹂鸣翠柳，一行白鹭上青天。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -8788,7 +8788,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "丰年留客足鸡豚",
                 "explanation": "出自陆游《游山西村》，描写农村待客的热情。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -8806,7 +8806,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写荒凉。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "荒凉",
                         "杜甫",
@@ -8825,7 +8825,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "上青天",
                 "explanation": "出自杜甫《绝句》，描写白鹭飞上蓝天的景象。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -8843,7 +8843,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "柳暗花明又一村",
                 "explanation": "出自陆游《游山西村》，表达在困境中要充满希望的哲理。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -8878,7 +8878,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "泰山",
                 "explanation": "岱宗是泰山的别称。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "山",
                         "杜甫",
@@ -8914,7 +8914,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "先天下之忧而忧，后天下之乐而乐",
                 "explanation": "范仲淹的名句，表达家国情怀。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "政治",
                         "范仲淹",
@@ -8933,7 +8933,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "三顾频烦天下计",
                 "explanation": "出自杜甫《蜀相》，描写诸葛。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "诸葛",
                         "杜甫",
@@ -8951,7 +8951,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一行白鹭上青天",
                 "explanation": "出自杜甫《绝句》，描写春天生机勃勃的景象。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -8970,7 +8970,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "从今若许闲乘月",
                 "explanation": "出自陆游《游山西村》，表达对农村生活的热爱。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -9005,7 +9005,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "安史之乱",
                 "explanation": "杜甫在安史之乱期间被困长安时所作。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "历史",
                         "杜甫",
@@ -9024,7 +9024,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "宠辱偕忘",
                 "explanation": "出自范仲淹《岳阳楼记》，描写心情。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "心情",
                         "范仲淹",
@@ -9043,7 +9043,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天阴雨湿声啾啾",
                 "explanation": "出自杜甫《兵车行》，描写鬼哭。",
-                "poemId": null,
+                "poemId": "sup_185",
                 "knowledgePoints": [
                         "鬼哭",
                         "杜甫",
@@ -9061,7 +9061,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两个黄鹂鸣翠柳",
                 "explanation": "出自杜甫《绝句》，描写春天生机勃勃的景象。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -9079,7 +9079,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒食东风御柳斜",
                 "explanation": "出自韩翃《寒食》，描写长安城寒食节的暮春景色。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "古诗默写",
                         "韩翃",
@@ -9097,7 +9097,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "今上岳阳楼",
                 "explanation": "出自杜甫《登岳阳楼》，描写登楼。",
-                "poemId": null,
+                "poemId": "sup_186",
                 "knowledgePoints": [
                         "登楼",
                         "杜甫",
@@ -9115,7 +9115,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云归而岩穴暝",
                 "explanation": "出自欧阳修《醉翁亭记》，描写早晚。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "早晚",
                         "欧阳修",
@@ -9134,7 +9134,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "危樯独夜舟",
                 "explanation": "出自杜甫《旅夜书怀》，描写江岸。",
-                "poemId": null,
+                "poemId": "sup_321",
                 "knowledgePoints": [
                         "江岸",
                         "杜甫",
@@ -9152,7 +9152,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写大雪天山的寂静景象。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "古诗默写",
                         "柳宗元",
@@ -9171,7 +9171,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻烟散入五侯家",
                 "explanation": "出自韩翃《寒食》，讽刺达官贵人的特权。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "古诗默写",
                         "韩翃",
@@ -9189,7 +9189,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "乾坤日夜浮",
                 "explanation": "出自杜甫《登岳阳楼》，描写洞庭。",
-                "poemId": null,
+                "poemId": "sup_186",
                 "knowledgePoints": [
                         "洞庭",
                         "杜甫",
@@ -9207,7 +9207,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "在乎山水之间也",
                 "explanation": "出自欧阳修《醉翁亭记》，描写醉翁亭。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "山水",
                         "欧阳修",
@@ -9226,7 +9226,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月涌大江流",
                 "explanation": "出自杜甫《旅夜书怀》，描写大江。",
-                "poemId": null,
+                "poemId": "sup_321",
                 "knowledgePoints": [
                         "大江",
                         "杜甫",
@@ -9244,7 +9244,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤舟蓑笠翁",
                 "explanation": "出自柳宗元《江雪》，描写渔翁独自在雪天垂钓的情景。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "古诗默写",
                         "柳宗元",
@@ -9263,7 +9263,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "虫声新透绿窗纱",
                 "explanation": "出自刘方平《月夜》，通过虫声感知春天气息。",
-                "poemId": null,
+                "poemId": "sup_345",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘方平",
@@ -9281,7 +9281,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "草色遥看近却无",
                 "explanation": "出自韩愈《早春呈水部张十八员外》，描写春草。",
-                "poemId": null,
+                "poemId": "sup_221",
                 "knowledgePoints": [
                         "春草",
                         "韩愈",
@@ -9299,7 +9299,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "后天下之乐而乐",
                 "explanation": "出自范仲淹《岳阳楼记》，描写忧乐。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "忧乐",
                         "范仲淹",
@@ -9319,7 +9319,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天地一沙鸥",
                 "explanation": "出自杜甫《旅夜书怀》，描写沙鸥。",
-                "poemId": null,
+                "poemId": "sup_321",
                 "knowledgePoints": [
                         "沙鸥",
                         "杜甫",
@@ -9337,7 +9337,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄河入海流",
                 "explanation": "出自王之涣《登鹳雀楼》，描写夕阳西下、黄河奔流入海的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -9356,7 +9356,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北斗阑干南斗斜",
                 "explanation": "出自刘方平《月夜》，描写深夜月下的景象。",
-                "poemId": null,
+                "poemId": "sup_345",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘方平",
@@ -9374,7 +9374,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绝胜烟柳满皇都",
                 "explanation": "出自韩愈《早春呈水部张十八员外》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_221",
                 "knowledgePoints": [
                         "春景",
                         "韩愈",
@@ -9392,7 +9392,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "居庙堂之高则忧其民",
                 "explanation": "出自范仲淹《岳阳楼记》，描写忧民。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "忧民",
                         "范仲淹",
@@ -9411,7 +9411,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写国破。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "国破",
                         "杜甫",
@@ -9430,7 +9430,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更上一层楼",
                 "explanation": "出自王之涣《登鹳雀楼》，表达了积极向上的精神。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -9449,7 +9449,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何当共剪西窗烛",
                 "explanation": "出自李商隐《夜雨寄北》，表达对远方亲人的深切思念。",
-                "poemId": null,
+                "poemId": "sup_061",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -9467,7 +9467,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "决眦入归鸟",
                 "explanation": "出自杜甫《望岳》，描写云。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "云",
                         "杜甫",
@@ -9486,7 +9486,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "佳木秀而繁阴",
                 "explanation": "出自欧阳修《醉翁亭记》，描写景色。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "景色",
                         "欧阳修",
@@ -9505,7 +9505,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恨别鸟惊心",
                 "explanation": "出自杜甫《春望》，描写感时。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "感时",
                         "杜甫",
@@ -9524,7 +9524,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白毛浮绿水",
                 "explanation": "出自骆宾王《咏鹅》，描写白鹅在水中游动的优美姿态。",
-                "poemId": null,
+                "poemId": "sup_044",
                 "knowledgePoints": [
                         "古诗默写",
                         "骆宾王",
@@ -9542,7 +9542,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "客行悲故乡",
                 "explanation": "出自温庭筠《商山早行》，描写清晨出发的情景。",
-                "poemId": null,
+                "poemId": "sup_299",
                 "knowledgePoints": [
                         "古诗默写",
                         "温庭筠",
@@ -9560,7 +9560,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浑欲不胜簪",
                 "explanation": "出自杜甫《春望》，描写衰老。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "衰老",
                         "杜甫",
@@ -9579,7 +9579,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "宠辱偕忘",
                 "explanation": "出自范仲淹《岳阳楼记》，描写心情。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "心情",
                         "范仲淹",
@@ -9599,7 +9599,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家书抵万金",
                 "explanation": "出自杜甫《春望》，描写烽火。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "烽火",
                         "杜甫",
@@ -9617,7 +9617,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "侧坐莓苔草映身",
                 "explanation": "出自胡令能《小儿垂钓》，描写儿童认真学钓鱼的可爱模样。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "古诗默写",
                         "胡令能",
@@ -9636,7 +9636,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "人迹板桥霜",
                 "explanation": "出自温庭筠《商山早行》，描写清晨出行的景色。",
-                "poemId": null,
+                "poemId": "sup_299",
                 "knowledgePoints": [
                         "古诗默写",
                         "温庭筠",
@@ -9654,7 +9654,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "老去溪斋日日闲",
                 "explanation": "出自韩愈《题孟庄》，描写竹。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_053",
                 "knowledgePoints": [
                         "竹",
                         "韩愈",
@@ -9672,7 +9672,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "宠辱偕忘",
                 "explanation": "出自范仲淹《岳阳楼记》，描写忘怀。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "忘怀",
                         "范仲淹",
@@ -9692,7 +9692,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浑欲不胜簪",
                 "explanation": "出自杜甫《春望》，描写白头。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "白头",
                         "杜甫",
@@ -9710,7 +9710,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "早有蜻蜓立上头",
                 "explanation": "出自杨万里《小池》，描写初夏小池边的生机勃勃景象。",
-                "poemId": null,
+                "poemId": "sup_079",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -9729,7 +9729,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "枳花明驿墙",
                 "explanation": "出自温庭筠《商山早行》，描写清晨出行的景色。",
-                "poemId": null,
+                "poemId": "sup_299",
                 "knowledgePoints": [
                         "古诗默写",
                         "温庭筠",
@@ -9748,7 +9748,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莫言迁客似沙沉",
                 "explanation": "出自韩愈《浪淘沙》，描写谗言。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_054",
                 "knowledgePoints": [
                         "谗言",
                         "韩愈",
@@ -9766,7 +9766,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "连月不开",
                 "explanation": "出自范仲淹《岳阳楼记》，描写雨天。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "雨天",
                         "范仲淹",
@@ -9785,7 +9785,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "甲光向日金鳞开",
                 "explanation": "出自李贺《雁门太守行》，描写黑云。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "黑云",
                         "李贺",
@@ -9803,7 +9803,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "树阴照水爱晴柔",
                 "explanation": "出自杨万里《小池》，描写小池边树荫倒映在水中的柔美景象。",
-                "poemId": null,
+                "poemId": "sup_079",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -9822,7 +9822,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "凫雁满回塘",
                 "explanation": "出自温庭筠《商山早行》，表达对故乡的思念。",
-                "poemId": null,
+                "poemId": "sup_299",
                 "knowledgePoints": [
                         "古诗默写",
                         "温庭筠",
@@ -9840,7 +9840,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闺中只独看",
                 "explanation": "出自杜甫《月夜》，描写月夜。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "月夜",
                         "杜甫",
@@ -9859,7 +9859,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "波澜不惊",
                 "explanation": "出自范仲淹《岳阳楼记》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "春景",
                         "范仲淹",
@@ -9878,7 +9878,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "塞上燕脂凝夜紫",
                 "explanation": "出自李贺《雁门太守行》，描写角声。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "角声",
                         "李贺",
@@ -9896,7 +9896,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风光不与四时同",
                 "explanation": "出自杨万里《晓出净慈寺送林子方》，突出西湖六月景色的独特。",
-                "poemId": null,
+                "poemId": "sup_078",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -9916,7 +9916,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "忽到庞公栖隐处",
                 "explanation": "出自孟浩然《夜归鹿门歌》，描写诗人归隐的心路历程。",
-                "poemId": null,
+                "poemId": "sup_393",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -9934,7 +9934,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清辉玉臂寒",
                 "explanation": "出自杜甫《月夜》，描写云鬟。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "云鬟",
                         "杜甫",
@@ -9953,7 +9953,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云归而岩穴暝",
                 "explanation": "出自欧阳修《醉翁亭记》，描写林霏。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "林霏",
                         "欧阳修",
@@ -9973,7 +9973,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "提携玉龙为君死",
                 "explanation": "出自李贺《雁门太守行》，描写黄金。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "黄金",
                         "李贺",
@@ -9991,7 +9991,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "映日荷花别样红",
                 "explanation": "出自杨万里《晓出净慈寺送林子方》，描写西湖六月荷花盛开的美景。",
-                "poemId": null,
+                "poemId": "sup_078",
                 "knowledgePoints": [
                         "古诗默写",
                         "杨万里",
@@ -10009,7 +10009,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "海上明月共潮生",
                 "explanation": "出自张若虚《春江花月夜》，描写春江月出的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "古诗默写",
                         "张若虚",
@@ -10027,7 +10027,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "初闻涕泪满衣裳",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写蓟北。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "蓟北",
                         "杜甫",
@@ -10045,7 +10045,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "佳木秀而繁阴",
                 "explanation": "出自欧阳修《醉翁亭记》，描写野芳。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "野芳",
                         "欧阳修",
@@ -10064,7 +10064,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二十三年弃置身",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写凄凉。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "凄凉",
                         "刘禹锡",
@@ -10082,7 +10082,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "拂堤杨柳醉春烟",
                 "explanation": "出自高鼎《村居》，描写春天农村的美景。",
-                "poemId": null,
+                "poemId": "sup_073",
                 "knowledgePoints": [
                         "古诗默写",
                         "高鼎",
@@ -10100,7 +10100,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "皎皎空中孤月轮",
                 "explanation": "出自张若虚《春江花月夜》，描写月夜江面的纯净。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "古诗默写",
                         "张若虚",
@@ -10118,7 +10118,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "漫卷诗书喜欲狂",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写妻子。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "妻子",
                         "杜甫",
@@ -10136,7 +10136,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "鸣声上下",
                 "explanation": "出自欧阳修《醉翁亭记》，描写树林。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "树林",
                         "欧阳修",
@@ -10155,7 +10155,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "到乡翻似烂柯人",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写闻笛。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "闻笛",
                         "刘禹锡",
@@ -10173,7 +10173,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "儿童散学归来早",
                 "explanation": "出自高鼎《村居》，描写儿童放学后放风筝的欢乐场景。",
-                "poemId": null,
+                "poemId": "sup_073",
                 "knowledgePoints": [
                         "古诗默写",
                         "高鼎",
@@ -10191,7 +10191,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江月年年望相似",
                 "explanation": "出自张若虚《春江花月夜》，表达对宇宙永恒的思考。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "古诗默写",
                         "张若虚",
@@ -10209,7 +10209,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青春作伴好还乡",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写还乡。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "还乡",
                         "杜甫",
@@ -10227,7 +10227,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "有亭翼然临于泉上者",
                 "explanation": "出自欧阳修《醉翁亭记》，描写山亭。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "山亭",
                         "欧阳修",
@@ -10246,7 +10246,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "病树前头万木春",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写沉舟。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "沉舟",
                         "刘禹锡",
@@ -10264,7 +10264,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写深夜江边的愁绪。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "古诗默写",
                         "张继",
@@ -10283,7 +10283,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "落月摇情满江树",
                 "explanation": "出自张若虚《春江花月夜》，表达游子思乡之情。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "古诗默写",
                         "张若虚",
@@ -10301,7 +10301,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "便下襄阳向洛阳",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写襄阳。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "襄阳",
                         "杜甫",
@@ -10319,7 +10319,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "在乎山水之间也",
                 "explanation": "出自欧阳修《醉翁亭记》，描写山水。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "山水",
                         "欧阳修",
@@ -10339,7 +10339,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "暂凭杯酒长精神",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写听君。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "听君",
                         "刘禹锡",
@@ -10357,7 +10357,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路上行人欲断魂",
                 "explanation": "出自杜牧《清明》，描写清明时节的凄清景象和行人的愁苦心情。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -10376,7 +10376,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天气晚来秋",
                 "explanation": "出自王维《山居秋暝》，描写秋夜山居的清新气息。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -10395,7 +10395,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "危樯独夜舟",
                 "explanation": "出自杜甫《旅夜书怀》，描写微风。",
-                "poemId": null,
+                "poemId": "sup_321",
                 "knowledgePoints": [
                         "微风",
                         "杜甫",
@@ -10413,7 +10413,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "此先汉所以兴隆也",
                 "explanation": "出自诸葛亮《出师表》，描写兴隆。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "兴隆",
                         "诸葛亮",
@@ -10432,7 +10432,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "铜雀春深锁二乔",
                 "explanation": "出自杜牧《赤壁》，描写周郎。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "周郎",
                         "杜牧",
@@ -10450,7 +10450,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牧童遥指杏花村",
                 "explanation": "出自杜牧《清明》，描写诗人找酒解愁的情景。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -10469,7 +10469,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清泉石上流",
                 "explanation": "出自王维《山居秋暝》，描写秋夜山居的宁静景色。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -10488,7 +10488,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月涌大江流",
                 "explanation": "出自杜甫《旅夜书怀》，描写星垂。",
-                "poemId": null,
+                "poemId": "sup_321",
                 "knowledgePoints": [
                         "星垂",
                         "杜甫",
@@ -10506,7 +10506,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "此后汉所以倾颓也",
                 "explanation": "出自诸葛亮《出师表》，描写倾颓。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "倾颓",
                         "诸葛亮",
@@ -10525,7 +10525,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自将磨洗认前朝",
                 "explanation": "出自杜牧《赤壁》，描写折戟。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "折戟",
                         "杜牧",
@@ -10543,7 +10543,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水村山郭酒旗风",
                 "explanation": "出自杜牧《江南春》，描写江南春天的美丽景色。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -10561,7 +10561,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莲动下渔舟",
                 "explanation": "出自王维《山居秋暝》，描写山村生活的和谐美好。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -10581,7 +10581,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天地一沙鸥",
                 "explanation": "出自杜甫《旅夜书怀》，描写沙鸥。",
-                "poemId": null,
+                "poemId": "sup_321",
                 "knowledgePoints": [
                         "沙鸥",
                         "杜甫",
@@ -10600,7 +10600,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "益州疲弊",
                 "explanation": "出自诸葛亮《出师表》，描写三分。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "三分",
                         "诸葛亮",
@@ -10618,7 +10618,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜泊秦淮近酒家",
                 "explanation": "出自杜牧《泊秦淮》，描写夜泊。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "夜泊",
                         "杜牧",
@@ -10636,7 +10636,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云生处有人家",
                 "explanation": "出自杜牧《山行》，描写山行时看到的景象。",
-                "poemId": null,
+                "poemId": "sup_156",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -10654,7 +10654,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "王孙自可留",
                 "explanation": "出自王维《山居秋暝》，表达诗人对隐居生活的热爱。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -10672,7 +10672,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "危樯独夜舟",
                 "explanation": "出自杜甫《旅夜书怀》，描写危樯。",
-                "poemId": null,
+                "poemId": "sup_321",
                 "knowledgePoints": [
                         "危樯",
                         "杜甫",
@@ -10692,7 +10692,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "奉命于危难之间",
                 "explanation": "出自诸葛亮《出师表》，描写危难。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "危难",
                         "诸葛亮",
@@ -10710,7 +10710,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "木兰当户织",
                 "explanation": "出自无名氏《木兰诗》，描写唧唧。",
-                "poemId": null,
+                "poemId": "sup_127",
                 "knowledgePoints": [
                         "唧唧",
                         "无名氏",
@@ -10728,7 +10728,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "霜叶红于二月花",
                 "explanation": "出自杜牧《山行》，赞美秋天红叶比春天鲜花更美丽。",
-                "poemId": null,
+                "poemId": "sup_156",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -10746,7 +10746,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写边塞奇特壮美的景象。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -10765,7 +10765,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "属国过居延",
                 "explanation": "出自王维《使至塞上》，描写单车。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "单车",
                         "王维",
@@ -10784,7 +10784,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不求闻达于诸侯",
                 "explanation": "出自诸葛亮《出师表》，描写闻达。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "闻达",
                         "诸葛亮",
@@ -10802,7 +10802,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "惟闻女叹息",
                 "explanation": "出自无名氏《木府诗》，描写机杼。",
-                "poemId": null,
+                "poemId": "sup_127",
                 "knowledgePoints": [
                         "机杼",
                         "无名氏",
@@ -10820,7 +10820,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "每逢佳节倍思亲",
                 "explanation": "出自王维《九月九日忆山东兄弟》，表达重阳节对亲人的思念。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -10839,7 +10839,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "属国过居延",
                 "explanation": "出自王维《使至塞上》，描写诗人出使边塞的路途。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -10858,7 +10858,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归雁入胡天",
                 "explanation": "出自王维《使至塞上》，描写征蓬。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "征蓬",
                         "王维",
@@ -10876,7 +10876,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衡阳雁去无留意",
                 "explanation": "出自范仲淹《渔家傲》，描写塞下。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "塞下",
                         "范仲淹",
@@ -10894,7 +10894,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "木兰无长兄",
                 "explanation": "出自无名氏《木兰诗》，描写阿爷。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "阿爷",
                         "无名氏",
@@ -10912,7 +10912,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遍插茱萸少一人",
                 "explanation": "出自王维《九月九日忆山东兄弟》，表达诗人想象兄弟们重阳登高的情景。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -10930,7 +10930,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归雁入胡天",
                 "explanation": "出自王维《使至塞上》，以征蓬、归雁自喻。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -10948,7 +10948,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写孤烟。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "孤烟",
                         "王维",
@@ -10966,7 +10966,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千嶂里",
                 "explanation": "出自范仲淹《渔家傲》，描写边声。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "边声",
                         "范仲淹",
@@ -10984,7 +10984,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "从此替爷征",
                 "explanation": "出自无名氏《木兰诗》，描写市鞍。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "鞍马",
                         "无名氏",
@@ -11002,7 +11002,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "忽闻岸上踏歌声",
                 "explanation": "出自李白《赠汪伦》，描写汪伦来送行的场景。",
-                "poemId": null,
+                "poemId": "sup_008",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11020,7 +11020,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云生结海楼",
                 "explanation": "出自李白《渡荆门送别》，描写江面平静时的倒影和云彩。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11038,7 +11038,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江入大荒流",
                 "explanation": "出自李白《渡荆门送别》，描写山随。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "山",
                         "李白",
@@ -11056,7 +11056,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "燕然未勒归无计",
                 "explanation": "出自范仲淹《渔家傲》，描写浊酒。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "浊酒",
                         "范仲淹",
@@ -11074,7 +11074,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "关山度若飞",
                 "explanation": "出自无名氏《木兰诗》，描写万里。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "万里",
                         "无名氏",
@@ -11092,7 +11092,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟花三月下扬州",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写阳春三月的扬州美景。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11110,7 +11110,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江入大荒流",
                 "explanation": "出自李白《渡荆门送别》，描写船过荆门的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11128,7 +11128,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云生结海楼",
                 "explanation": "出自李白《渡荆门送别》，描写月下。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "月下",
                         "李白",
@@ -11146,7 +11146,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "将军白发征夫泪",
                 "explanation": "出自范仲淹《渔家傲》，描写白发。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "白发",
                         "范仲淹",
@@ -11164,7 +11164,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "徙倚欲何依",
                 "explanation": "出自王绩《野望》，描写东皋。",
-                "poemId": null,
+                "poemId": "sup_389",
                 "knowledgePoints": [
                         "东皋",
                         "王绩",
@@ -11182,7 +11182,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里江陵一日还",
                 "explanation": "出自李白《早发白帝城》，描写诗人从白帝城返回江陵的轻快心情。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11200,7 +11200,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "来从楚国游",
                 "explanation": "出自李白《渡荆门送别》，点明此行的目的地。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11218,7 +11218,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里送行舟",
                 "explanation": "出自李白《渡荆门送别》，描写故乡。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "故乡",
                         "李白",
@@ -11236,7 +11236,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "丰年留客足鸡豚",
                 "explanation": "出自陆游《游山西村》，描写农家。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "农家",
                         "陆游",
@@ -11254,7 +11254,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "渚清沙白鸟飞回",
                 "explanation": "出自杜甫《登高》，描写风急。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "风急",
                         "杜甫",
@@ -11272,7 +11272,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻舟已过万重山",
                 "explanation": "出自李白《早发白帝城》，描写舟行迅速、两岸山景飞逝的景象。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11291,7 +11291,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里送行舟",
                 "explanation": "出自李白《渡荆门送别》，表达诗人对故乡的眷恋。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11309,7 +11309,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北斗阑干南斗斜",
                 "explanation": "出自刘方平《月夜》，描写月色。",
-                "poemId": null,
+                "poemId": "sup_345",
                 "knowledgePoints": [
                         "月色",
                         "刘方平",
@@ -11327,7 +11327,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "柳暗花明又一村",
                 "explanation": "出自陆游《游山西村》，描写山重。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "山重",
                         "陆游",
@@ -11345,7 +11345,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不尽长江滚滚来",
                 "explanation": "出自杜甫《登高》，描写落木。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "落木",
                         "杜甫",
@@ -11363,7 +11363,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是银河落九天",
                 "explanation": "出自李白《望庐山瀑布》，用夸张手法描写瀑布的雄伟壮观。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11382,7 +11382,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日暮客愁新",
                 "explanation": "出自孟浩然《宿建德江》，描写傍晚泊船时的愁绪。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -11400,7 +11400,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "虫声新透绿窗纱",
                 "explanation": "出自刘方平《月夜》，描写春气。",
-                "poemId": null,
+                "poemId": "sup_345",
                 "knowledgePoints": [
                         "春气",
                         "刘方平",
@@ -11418,7 +11418,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衣冠简朴古风存",
                 "explanation": "出自陆游《游山西村》，描写箫鼓。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "箫鼓",
                         "陆游",
@@ -11436,7 +11436,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "百年多病独登台",
                 "explanation": "出自杜甫《登高》，描写悲秋。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "悲秋",
                         "杜甫",
@@ -11454,7 +11454,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "碧水东流至此回",
                 "explanation": "出自李白《望天门山》，描写天门山夹江对峙的雄伟气势。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11472,7 +11472,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江清月近人",
                 "explanation": "出自孟浩然《宿建德江》，描写江边夜晚的清幽景色。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -11490,7 +11490,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "受降城外月如霜",
                 "explanation": "出自李益《夜上受降城闻笛》，描写回乐。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "回乐",
                         "李益",
@@ -11508,7 +11508,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "拄杖无时夜叩门",
                 "explanation": "出自陆游《游山西村》，描写闲乘。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "闲乘",
                         "陆游",
@@ -11526,7 +11526,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潦倒新停浊酒杯",
                 "explanation": "出自杜甫《登高》，描写苦恨。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "苦恨",
                         "杜甫",
@@ -11544,7 +11544,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不及汪伦送我情",
                 "explanation": "出自李白《赠汪伦》，用夸张手法表达对汪伦的感激之情。",
-                "poemId": null,
+                "poemId": "sup_008",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11562,7 +11562,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月照一孤舟",
                 "explanation": "出自王维《晓行巴峡》，描写清晨巴峡的清幽景色。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_031",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -11580,7 +11580,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一夜征人尽望乡",
                 "explanation": "出自李益《夜上受降城闻笛》，描写芦管。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "芦管",
                         "李益",
@@ -11598,7 +11598,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "把酒问青天",
                 "explanation": "出自苏轼《水调歌头》，描写明月。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "明月",
                         "苏轼",
@@ -11616,7 +11616,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写国破。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "国破",
                         "杜甫",
@@ -11634,7 +11634,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "飞在青云端",
                 "explanation": "出自李白《古朗月行》，描写儿童对月亮的天真想象。",
-                "poemId": null,
+                "poemId": "sup_051",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11652,7 +11652,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "每逢佳节倍思亲",
                 "explanation": "出自王维《九月九日忆山东兄弟》，表达重阳节对亲人的思念。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -11671,7 +11671,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闻郎江上唱歌声",
                 "explanation": "出自杜甫《江畔独步寻花》，描写杨柳。",
-                "poemId": null,
+                "poemId": "sup_088",
                 "knowledgePoints": [
                         "杨柳",
                         "杜甫",
@@ -11689,7 +11689,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "今夕是何年",
                 "explanation": "出自苏轼《水调歌头》，描写天上。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "天上",
                         "苏轼",
@@ -11707,7 +11707,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恨别鸟惊心",
                 "explanation": "出自杜甫《春望》，描写感时。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "感时",
                         "杜甫",
@@ -11726,7 +11726,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "手可摘星辰",
                 "explanation": "出自李白《夜宿山寺》，用夸张手法描写楼高。",
-                "poemId": null,
+                "poemId": "sup_114",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11744,7 +11744,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遍插茱萸少一人",
                 "explanation": "出自王维《九月九日忆山东兄弟》，表达诗人想象兄弟们重阳登高的情景。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -11763,7 +11763,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "道是无晴还有晴",
                 "explanation": "出自刘禹锡《竹枝词》，描写日出。",
-                "poemId": null,
+                "poemId": "sup_088",
                 "knowledgePoints": [
                         "日出",
                         "刘禹锡",
@@ -11781,7 +11781,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "又恐琼楼玉宇",
                 "explanation": "出自苏轼《水调歌头》，描写乘风。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "乘风",
                         "苏轼",
@@ -11799,7 +11799,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家书抵万金",
                 "explanation": "出自杜甫《春望》，描写烽火。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "烽火",
                         "杜甫",
@@ -11818,7 +11818,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恐惊天上人",
                 "explanation": "出自李白《夜宿山寺》，用夸张手法描写楼高。",
-                "poemId": null,
+                "poemId": "sup_114",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11836,7 +11836,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浅草才能没马蹄",
                 "explanation": "出自白居易《钱塘湖春行》，描写春天西湖边花草茂盛的景象。",
-                "poemId": null,
+                "poemId": "sup_131",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -11854,7 +11854,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闻郎江上踏歌声",
                 "explanation": "出自刘禹锡《竹枝词》，描写踏歌。",
-                "poemId": null,
+                "poemId": "sup_088",
                 "knowledgePoints": [
                         "踏歌",
                         "刘禹锡",
@@ -11872,7 +11872,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何似在人间",
                 "explanation": "出自苏轼《水调歌头》，描写弄影。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "弄影",
                         "苏轼",
@@ -11890,7 +11890,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浑欲不胜簪",
                 "explanation": "出自杜甫《春望》，描写白头。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "白头",
                         "杜甫",
@@ -11909,7 +11909,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤帆一片日边来",
                 "explanation": "出自李白《望天门山》，描写一只小船从日边驶来的景象。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -11928,7 +11928,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绿杨阴里白沙堤",
                 "explanation": "出自白居易《钱塘湖春行》，表达诗人对西湖的热爱。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -11946,7 +11946,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潮平两岸阔",
                 "explanation": "出自王湾《次北固山下》，描写客路。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "客路",
                         "王湾",
@@ -11982,7 +11982,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二十三年弃置身",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写凄凉。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "凄凉",
                         "刘禹锡",
@@ -12001,7 +12001,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "侧坐莓苔草映身",
                 "explanation": "出自胡令能《小儿垂钓》，描写儿童认真学钓鱼的可爱模样。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "古诗默写",
                         "胡令能",
@@ -12020,7 +12020,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "谁家新燕啄春泥",
                 "explanation": "出自白居易《钱塘湖春行》，描写春天生机勃勃的景象。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -12038,7 +12038,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江春入旧年",
                 "explanation": "出自王湾《次北固山下》，描写海日。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "海日",
                         "王湾",
@@ -12057,7 +12057,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月有阴晴圆缺",
                 "explanation": "出自苏轼《水调歌头》，描写悲欢。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "悲欢",
                         "苏轼",
@@ -12075,7 +12075,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "到乡翻似烂柯人",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写闻笛。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "闻笛",
                         "刘禹锡",
@@ -12094,7 +12094,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "怕得鱼惊不应人",
                 "explanation": "出自胡令能《小儿垂钓》，描写儿童怕惊走鱼儿不敢答话的情景。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "古诗默写",
                         "胡令能",
@@ -12112,7 +12112,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水面初平云脚低",
                 "explanation": "出自白居易《钱塘湖春行》，描写西湖早春的景色。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "白居易",
@@ -12130,7 +12130,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江春入旧年",
                 "explanation": "出自王湾《次北固山下》，描写江春。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "江春",
                         "王湾",
@@ -12149,7 +12149,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里共婵娟",
                 "explanation": "出自苏轼《水调歌头》，描写人长久。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "长久",
                         "苏轼",
@@ -12167,7 +12167,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "病树前头万木春",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写沉舟。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "沉舟",
                         "刘禹锡",
@@ -12186,7 +12186,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "笼盖四野",
                 "explanation": "出自北朝民歌《敕勒歌》，描写草原天空辽阔的景象。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "古诗默写",
                         "敕勒歌",
@@ -12205,7 +12205,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "甲光向日金鳞开",
                 "explanation": "出自李贺《雁门太守行》，描写敌军压境、将士严阵以待的情景。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "古诗默写",
                         "李贺",
@@ -12223,7 +12223,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归雁洛阳边",
                 "explanation": "出自王湾《次北固山下》，描写乡书。",
-                "poemId": null,
+                "poemId": "sup_314",
                 "knowledgePoints": [
                         "乡书",
                         "王湾",
@@ -12260,7 +12260,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "暂凭杯酒长精神",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写听君。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "听君",
                         "刘禹锡",
@@ -12279,7 +12279,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天似穹庐笼盖四野",
                 "explanation": "出自北朝民歌《敕勒歌》，描写草原的辽阔壮美。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "古诗默写",
                         "敕勒歌",
@@ -12297,7 +12297,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "塞上燕脂凝夜紫",
                 "explanation": "出自李贺《雁门太守行》，描写边塞战争的惨烈。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "古诗默写",
                         "李贺",
@@ -12315,7 +12315,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小桥流水人家",
                 "explanation": "出自马致远《天净沙·秋思》，描写枯藤。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "枯藤",
                         "马致远",
@@ -12353,7 +12353,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜泊秦淮近酒家",
                 "explanation": "出自杜牧《泊秦淮》，描写烟笼。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "烟笼",
                         "杜牧",
@@ -12372,7 +12372,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "鱼戏莲叶东，鱼戏莲叶西",
                 "explanation": "出自汉乐府《江南》，描写采莲时鱼儿欢乐戏水的景象。",
-                "poemId": null,
+                "poemId": "sup_043",
                 "knowledgePoints": [
                         "古诗默写",
                         "江南",
@@ -12391,7 +12391,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "提携玉龙为君死",
                 "explanation": "出自李贺《雁门太守行》，表达将士报国的决心。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "古诗默写",
                         "李贺",
@@ -12409,7 +12409,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夕阳西下",
                 "explanation": "出自马致远《天净沙·秋思》，描写古道。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "古道",
                         "马致远",
@@ -12446,7 +12446,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "隔江犹唱后庭花",
                 "explanation": "出自杜牧《泊秦淮》，描写商女。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "商女",
                         "杜牧",
@@ -12464,7 +12464,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风吹草低见牛羊",
                 "explanation": "出自北朝民歌《敕勒歌》，描写草原牛羊成群的景象。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "古诗默写",
                         "敕勒歌",
@@ -12482,7 +12482,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "行舟绿水前",
                 "explanation": "出自王湾《次北固山下》，描写旅途中的景色。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "古诗默写",
                         "王湾",
@@ -12500,7 +12500,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "断肠人在天涯",
                 "explanation": "出自马致远《天净沙·秋思》，描写断肠。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "断肠",
                         "马致远",
@@ -12537,7 +12537,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自将磨洗认前朝",
                 "explanation": "出自杜牧《赤壁》，描写折戟。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "折戟",
                         "杜牧",
@@ -12556,7 +12556,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟村四五家",
                 "explanation": "出自邵雍《山村咏怀》，描写山村人家的宁静景象。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "古诗默写",
                         "邵雍",
@@ -12574,7 +12574,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风正一帆悬",
                 "explanation": "出自王湾《次北固山下》，描写顺风扬帆的景象。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "古诗默写",
                         "王湾",
@@ -12592,7 +12592,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沉醉不知归路",
                 "explanation": "出自李清照《如梦令》，描写溪亭。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_001",
                 "knowledgePoints": [
                         "溪亭",
                         "李清照",
@@ -12629,7 +12629,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "铜雀春深锁二乔",
                 "explanation": "出自杜牧《赤壁》，描写东风。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "东风",
                         "杜牧",
@@ -12648,7 +12648,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "亭台六七座",
                 "explanation": "出自邵雍《山村咏怀》，描写山村亭台错落的景象。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "古诗默写",
                         "邵雍",
@@ -12666,7 +12666,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江春入旧年",
                 "explanation": "出自王湾《次北固山下》，描写春天到来的景象。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "古诗默写",
                         "王湾",
@@ -12684,7 +12684,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "误入藕花深处",
                 "explanation": "出自李清照《如梦令》，描写兴尽。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_001",
                 "knowledgePoints": [
                         "兴尽",
                         "李清照",
@@ -12721,7 +12721,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路上行人欲断魂",
                 "explanation": "出自杜牧《清明》，描写清明。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "清明",
                         "杜牧",
@@ -12739,7 +12739,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "亭台六七座",
                 "explanation": "出自邵雍《山村咏怀》，用数字描写山村景色。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "古诗默写",
                         "邵雍",
@@ -12757,7 +12757,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归雁洛阳边",
                 "explanation": "出自王湾《次北固山下》，用鸿雁传书表达思乡之情。",
-                "poemId": null,
+                "poemId": "sup_314",
                 "knowledgePoints": [
                         "古诗默写",
                         "王湾",
@@ -12775,7 +12775,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "惊起一滩鸥鹭",
                 "explanation": "出自李清照《如梦令》，描写争渡。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_001",
                 "knowledgePoints": [
                         "争渡",
                         "李清照",
@@ -12812,7 +12812,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牧童遥指杏花村",
                 "explanation": "出自杜牧《清明》，描写借问。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "借问",
                         "杜牧",
@@ -12830,7 +12830,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "歌声振林樾",
                 "explanation": "出自袁枚《所见》，描写牧童骑牛放歌的欢乐场景。",
-                "poemId": null,
+                "poemId": "sup_072",
                 "knowledgePoints": [
                         "古诗默写",
                         "袁枚",
@@ -12848,7 +12848,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "属国过居延",
                 "explanation": "出自王维《使至塞上》，描写诗人出使边塞的路途。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -12867,7 +12867,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "蒹葭萋萋",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写蒹葭。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_002",
                 "knowledgePoints": [
                         "蒹葭",
                         "无名氏",
@@ -12904,7 +12904,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水村山郭酒旗风",
                 "explanation": "出自杜牧《江南春》，描写千里。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "千里",
                         "杜牧",
@@ -12922,7 +12922,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牧童骑黄牛",
                 "explanation": "出自袁枚《所见》，描写牧童骑牛放歌的欢乐场景。",
-                "poemId": null,
+                "poemId": "sup_072",
                 "knowledgePoints": [
                         "古诗默写",
                         "袁枚",
@@ -12940,7 +12940,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归雁入胡天",
                 "explanation": "出自王维《使至塞上》，以征蓬、归雁自喻。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -12959,7 +12959,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "蒹葭采采",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写蒹葭萋。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_002",
                 "knowledgePoints": [
                         "萋",
                         "无名氏",
@@ -12996,7 +12996,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "多少楼台烟雨中",
                 "explanation": "出自杜牧《江南春》，描写南朝。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "南朝",
                         "杜牧",
@@ -13014,7 +13014,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "忽然闭口立",
                 "explanation": "出自袁枚《所见》，描写牧童捕蝉时屏息凝神的可爱模样。",
-                "poemId": null,
+                "poemId": "sup_072",
                 "knowledgePoints": [
                         "古诗默写",
                         "袁枚",
@@ -13032,7 +13032,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写边塞奇特壮美的景象。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -13051,7 +13051,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "窈窕淑女",
                 "explanation": "出自无名氏《诗经·关雎》，描写雎鸠。",
-                "poemId": null,
+                "poemId": "sup_122",
                 "knowledgePoints": [
                         "雎鸠",
                         "无名氏",
@@ -13069,7 +13069,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "今天下三分",
                 "explanation": "出自诸葛亮《出师表》，描写先帝。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "先帝",
                         "诸葛亮",
@@ -13088,7 +13088,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻罗小扇扑流萤",
                 "explanation": "出自杜牧《秋夕》，描写银烛。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
                         "银烛",
                         "杜牧",
@@ -13106,7 +13106,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "个个花开淡墨痕",
                 "explanation": "出自王冕《墨梅》，描写墨梅淡雅的姿态。",
-                "poemId": null,
+                "poemId": "sup_082",
                 "knowledgePoints": [
                         "古诗默写",
                         "王冕",
@@ -13124,7 +13124,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清泉石上流",
                 "explanation": "出自王维《山居秋暝》，描写秋夜山居的宁静景色。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -13143,7 +13143,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "参差荇菜",
                 "explanation": "出自无名氏《诗经·关雎》，描写荇菜。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_003",
                 "knowledgePoints": [
                         "荇菜",
                         "无名氏",
@@ -13161,7 +13161,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "此诚危急存亡之秋也",
                 "explanation": "出自诸葛亮《出师表》，描写危急。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "危急",
                         "诸葛亮",
@@ -13180,7 +13180,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卧看牵牛织女星",
                 "explanation": "出自杜牧《秋夕》，描写天阶。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
                         "天阶",
                         "杜牧",
@@ -13198,7 +13198,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "只留清气满乾坤",
                 "explanation": "出自王冕《墨梅》，表达诗人高洁的志向。",
-                "poemId": null,
+                "poemId": "sup_082",
                 "knowledgePoints": [
                         "古诗默写",
                         "王冕",
@@ -13217,7 +13217,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天气晚来秋",
                 "explanation": "出自王维《山居秋暝》，描写秋夜山居的清新气息。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -13236,7 +13236,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寤寐思服",
                 "explanation": "出自无名氏《诗经·关雎》，描写思服。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_003",
                 "knowledgePoints": [
                         "思服",
                         "无名氏",
@@ -13254,7 +13254,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "忠志之士忘身于外者",
                 "explanation": "出自诸葛亮《出师表》，描写侍卫。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "侍卫",
                         "诸葛亮",
@@ -13273,7 +13273,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "秋尽江南草未凋",
                 "explanation": "出自杜牧《寄扬州韩绰判官》，描写青山。",
-                "poemId": null,
+                "poemId": "sup_187",
                 "knowledgePoints": [
                         "青山",
                         "杜牧",
@@ -13291,7 +13291,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烈火焚烧若等闲",
                 "explanation": "出自于谦《石灰吟》，描写石灰烧制的过程。",
-                "poemId": null,
+                "poemId": "sup_083",
                 "knowledgePoints": [
                         "古诗默写",
                         "于谦",
@@ -13309,7 +13309,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莲动下渔舟",
                 "explanation": "出自王维《山居秋暝》，描写山村生活的和谐美好。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -13329,7 +13329,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "溯游从之",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写溯游。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_002",
                 "knowledgePoints": [
                         "溯游",
                         "无名氏",
@@ -13347,7 +13347,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "欲报之于陛下也",
                 "explanation": "出自诸葛亮《出师表》，描写殊遇。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "殊遇",
                         "诸葛亮",
@@ -13366,7 +13366,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "玉人何处教吹箫",
                 "explanation": "出自杜牧《寄扬州韩绰判官》，描写二十四桥。",
-                "poemId": null,
+                "poemId": "sup_187",
                 "knowledgePoints": [
                         "二十四桥",
                         "杜牧",
@@ -13384,7 +13384,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "要留清白在人间",
                 "explanation": "出自于谦《石灰吟》，表达诗人刚正不阿的品格。",
-                "poemId": null,
+                "poemId": "sup_083",
                 "knowledgePoints": [
                         "古诗默写",
                         "于谦",
@@ -13402,7 +13402,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "王孙自可留",
                 "explanation": "出自王维《山居秋暝》，表达诗人对隐居生活的热爱。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -13421,7 +13421,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小桥流水人家",
                 "explanation": "出自马致远《天净沙·秋思》，描写小桥。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "小桥",
                         "马致远",
@@ -13440,7 +13440,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "以光先帝遗德",
                 "explanation": "出自诸葛亮《出师表》，描写圣听。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "圣听",
                         "诸葛亮",
@@ -13459,7 +13459,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "包羞忍耻是男儿",
                 "explanation": "出自杜牧《题乌江亭》，描写胜败。",
-                "poemId": null,
+                "poemId": "sup_175",
                 "knowledgePoints": [
                         "胜败",
                         "杜牧",
@@ -13477,7 +13477,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "立根原在破岩中",
                 "explanation": "出自郑燮《竹石》，描写竹子顽强的生命力。",
-                "poemId": null,
+                "poemId": "sup_084",
                 "knowledgePoints": [
                         "古诗默写",
                         "郑燮",
@@ -13496,7 +13496,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "来从楚国游",
                 "explanation": "出自李白《渡荆门送别》，点明此行的目的地。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -13515,7 +13515,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夕阳西下",
                 "explanation": "出自马致远《天净沙·秋思》，描写夕阳。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "夕阳",
                         "马致远",
@@ -13534,7 +13534,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "引喻失义",
                 "explanation": "出自诸葛亮《出师表》，描写妄自。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "妄自",
                         "诸葛亮",
@@ -13553,7 +13553,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卷土重来未可知",
                 "explanation": "出自杜牧《题乌江亭》，描写江东。",
-                "poemId": null,
+                "poemId": "sup_175",
                 "knowledgePoints": [
                         "江东",
                         "杜牧",
@@ -13571,7 +13571,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "任尔东西南北风",
                 "explanation": "出自郑燮《竹石》，表达诗人坚韧不拔的品格。",
-                "poemId": null,
+                "poemId": "sup_084",
                 "knowledgePoints": [
                         "古诗默写",
                         "郑燮",
@@ -13590,7 +13590,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江入大荒流",
                 "explanation": "出自李白《渡荆门送别》，描写船过荆门的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -13609,7 +13609,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小桥流水人家",
                 "explanation": "出自马致远《天净沙·秋思》，描写流水。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "流水",
                         "马致远",
@@ -13628,7 +13628,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "然后施行",
                 "explanation": "出自诸葛亮《出师表》，描写施行。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "施行",
                         "诸葛亮",
@@ -13647,7 +13647,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "蜀山兀，阿房出",
                 "explanation": "出自杜牧《阿房宫赋》，描写六王。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_133",
                 "knowledgePoints": [
                         "六王",
                         "杜牧",
@@ -13665,7 +13665,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "爆竹声中一岁除",
                 "explanation": "出自王安石《元日》，描写春节热闹的景象。",
-                "poemId": null,
+                "poemId": "sup_237",
                 "knowledgePoints": [
                         "古诗默写",
                         "王安石",
@@ -13683,7 +13683,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长使英雄泪满襟",
                 "explanation": "出自杜甫《蜀相》，描写悲痛。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "悲痛",
                         "杜甫",
@@ -13702,7 +13702,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "此先汉所以兴隆也",
                 "explanation": "出自诸葛亮《出师表》，描写兴隆。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "兴隆",
                         "诸葛亮",
@@ -13722,7 +13722,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水何澹澹",
                 "explanation": "出自曹操《观沧海》，描写东临。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "东临",
                         "曹操",
@@ -13740,7 +13740,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "隔离天日",
                 "explanation": "出自杜牧《阿房宫赋》，描写覆压。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_133",
                 "knowledgePoints": [
                         "覆压",
                         "杜牧",
@@ -13758,7 +13758,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "总把新桃换旧符",
                 "explanation": "出自王安石《元日》，描写春节换符的习俗。",
-                "poemId": null,
+                "poemId": "sup_237",
                 "knowledgePoints": [
                         "古诗默写",
                         "王安石",
@@ -13776,7 +13776,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "锦官城外柏森森",
                 "explanation": "出自杜甫《蜀相》，描写柏树。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "柏树",
                         "杜甫",
@@ -13795,7 +13795,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "此后汉所以倾颓也",
                 "explanation": "出自诸葛亮《出师表》，描写倾颓。",
-                "poemId": null,
+                "poemId": "sup_153",
                 "knowledgePoints": [
                         "倾颓",
                         "诸葛亮",
@@ -13815,7 +13815,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "百草丰茂",
                 "explanation": "出自曹操《观沧海》，描写树木。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "树木",
                         "曹操",
@@ -13833,7 +13833,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "廊腰缦回",
                 "explanation": "出自杜牧《阿房宫赋》，描写五步。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_133",
                 "knowledgePoints": [
                         "五步",
                         "杜牧",
@@ -13851,7 +13851,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "明月别枝惊鹊",
                 "explanation": "出自辛弃疾《西江月·夜行黄沙道中》，描写夏夜优美的景色。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -13869,7 +13869,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "映阶碧草自春色",
                 "explanation": "出自杜甫《蜀相》，描写春色。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "春色",
                         "杜甫",
@@ -13887,7 +13887,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "走求食",
                 "explanation": "出自韩愈《祭十二郎文》，描写幼时。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_136",
                 "knowledgePoints": [
                         "幼时",
                         "韩愈",
@@ -13905,7 +13905,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "洪波涌起",
                 "explanation": "出自曹操《观沧海》，描写秋风。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "秋风",
                         "曹操",
@@ -13924,7 +13924,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "钩心斗角",
                 "explanation": "出自杜牧《阿房宫赋》，描写各抱。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_133",
                 "knowledgePoints": [
                         "各抱",
                         "杜牧",
@@ -13942,7 +13942,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "听取蛙声一片",
                 "explanation": "出自辛弃疾《西江月·夜行黄沙道中》，描写丰收在望的喜悦。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -13960,7 +13960,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "老去溪斋日日闲",
                 "explanation": "出自韩愈《题竹》，描写竹。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_053",
                 "knowledgePoints": [
                         "竹",
                         "韩愈",
@@ -13978,7 +13978,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "吾与汝俱幼",
                 "explanation": "出自韩愈《祭十二郎文》，描写汝遽。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_136",
                 "knowledgePoints": [
                         "汝遽",
                         "韩愈",
@@ -13997,7 +13997,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "若出其中",
                 "explanation": "出自曹操《观沧海》，描写日月。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "日月",
                         "曹操",
@@ -14016,7 +14016,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "复道行空",
                 "explanation": "出自杜牧《阿房宫赋》，描写长桥。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_133",
                 "knowledgePoints": [
                         "长桥",
                         "杜牧",
@@ -14034,7 +14034,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "旧时茅店社林边",
                 "explanation": "出自辛弃疾《西江月·夜行黄沙道中》，描写诗人忽然找到熟悉的地方。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "古诗默写",
                         "辛弃疾",
@@ -14052,7 +14052,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莫言迁客似沙沉",
                 "explanation": "出自韩愈《浪淘沙》，描写迁客。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_054",
                 "knowledgePoints": [
                         "迁客",
                         "韩愈",
@@ -14070,7 +14070,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "是也",
                 "explanation": "出自韩愈《祭十二郎文》，描写教育。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_136",
                 "knowledgePoints": [
                         "教育",
                         "韩愈",
@@ -14088,7 +14088,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "若出其里",
                 "explanation": "出自曹操《观沧海》，描写星汉。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "星汉",
                         "曹操",
@@ -14107,7 +14107,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不知西东",
                 "explanation": "出自杜牧《阿房宫赋》，描写高低。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_133",
                 "knowledgePoints": [
                         "高低",
                         "杜牧",
@@ -14125,7 +14125,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "朱雀桥边野草花",
                 "explanation": "出自刘禹锡《乌衣巷》，描写乌衣巷的荒凉景象。",
-                "poemId": null,
+                "poemId": "sup_089",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘禹锡",
@@ -14143,7 +14143,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "前波未灭后波生",
                 "explanation": "出自韩愈《浪淘沙》，描写流水。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_054",
                 "knowledgePoints": [
                         "流水",
                         "韩愈",
@@ -14161,7 +14161,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "字不识",
                 "explanation": "出自韩愈《祭十二郎文》，描写识字。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_136",
                 "knowledgePoints": [
                         "识字",
                         "韩愈",
@@ -14179,7 +14179,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "犹有竟时",
                 "explanation": "出自曹操《龟虽寿》，描写神龟。",
-                "poemId": null,
+                "poemId": "sup_167",
                 "knowledgePoints": [
                         "神龟",
                         "曹操",
@@ -14197,7 +14197,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "右擎苍",
                 "explanation": "出自苏轼《江城子·密州出猎》，描写少年狂。",
-                "poemId": null,
+                "poemId": "sup_064",
                 "knowledgePoints": [
                         "少年狂",
                         "苏轼",
@@ -14215,7 +14215,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "飞入寻常百姓家",
                 "explanation": "出自刘禹锡《乌衣巷》，借燕子迁徙感叹世事变迁。",
-                "poemId": null,
+                "poemId": "sup_089",
                 "knowledgePoints": [
                         "古诗默写",
                         "刘禹锡",
@@ -14233,7 +14233,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夕贬潮州路八千",
                 "explanation": "出自韩愈《左迁至蓝关示侄孙湘》，描写被贬。",
-                "poemId": null,
+                "poemId": "sup_182",
                 "knowledgePoints": [
                         "被贬",
                         "韩愈",
@@ -14251,7 +14251,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "上是",
                 "explanation": "出自韩愈《祭十二郎文》，描写上是。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_136",
                 "knowledgePoints": [
                         "上是",
                         "韩愈",
@@ -14269,7 +14269,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "终为土灰",
                 "explanation": "出自曹操《龟虽寿》，描写腾蛇。",
-                "poemId": null,
+                "poemId": "sup_167",
                 "knowledgePoints": [
                         "腾蛇",
                         "曹操",
@@ -14287,7 +14287,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千骑卷平冈",
                 "explanation": "出自苏轼《江城子·密州出猎》，描写锦帽。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_008",
                 "knowledgePoints": [
                         "锦帽",
                         "苏轼",
@@ -14305,7 +14305,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "羌笛何须怨杨柳",
                 "explanation": "出自王之涣《凉州词》，表达戍边士兵的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -14324,7 +14324,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "雪拥蓝关马不前",
                 "explanation": "出自韩愈《左迁至蓝关示侄孙湘》，描写雪。",
-                "poemId": null,
+                "poemId": "sup_182",
                 "knowledgePoints": [
                         "雪",
                         "韩愈",
@@ -14342,7 +14342,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烈士暮年，壮心不已",
                 "explanation": "出自曹操《龟虽寿》，描写老骥。",
-                "poemId": null,
+                "poemId": "sup_167",
                 "knowledgePoints": [
                         "老骥",
                         "曹操",
@@ -14361,7 +14361,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "心旷神怡",
                 "explanation": "出自范仲淹《岳阳楼记》，描写心旷。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "心旷",
                         "范仲淹",
@@ -14379,7 +14379,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "亲射虎",
                 "explanation": "出自苏轼《江城子·密州出猎》，描写倾城。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_008",
                 "knowledgePoints": [
                         "倾城",
                         "苏轼",
@@ -14397,7 +14397,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一片孤城万仞山",
                 "explanation": "出自王之涣《凉州词》，描写边塞的荒凉和孤城矗立的景象。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -14416,7 +14416,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "好收吾骨瘴江边",
                 "explanation": "出自韩愈《左迁至蓝关示侄孙湘》，描写收骨。",
-                "poemId": null,
+                "poemId": "sup_182",
                 "knowledgePoints": [
                         "收骨",
                         "韩愈",
@@ -14434,7 +14434,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "非兵之过也",
                 "explanation": "出自曹操《龟虽寿》，描写损兵。",
-                "poemId": null,
+                "poemId": "sup_167",
                 "knowledgePoints": [
                         "损兵",
                         "曹操",
@@ -14452,7 +14452,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "连月不开",
                 "explanation": "出自范仲淹《岳阳楼记》，描写霪雨。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "霪雨",
                         "范仲淹",
@@ -14471,7 +14471,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "会挽雕弓如满月",
                 "explanation": "出自苏轼《江城子·密州出猎》，描写酒酣。",
-                "poemId": null,
+                "poemId": "sup_306",
                 "knowledgePoints": [
                         "酒酣",
                         "苏轼",
@@ -14489,7 +14489,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山回路转不见君",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写送别友人后诗人凝望雪地马蹄印的情景。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "古诗默写",
                         "岑参",
@@ -14507,7 +14507,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "百般红紫斗芳菲",
                 "explanation": "出自韩愈《晚春》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_334",
                 "knowledgePoints": [
                         "春天",
                         "韩愈",
@@ -14525,7 +14525,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "薄暮冥冥",
                 "explanation": "出自范仲淹《岳阳楼记》，描写冥冥。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "冥冥",
                         "范仲淹",
@@ -14544,7 +14544,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风烟望五津",
                 "explanation": "出自王勃《送杜少府之任蜀州》，描写城阙。",
-                "poemId": null,
+                "poemId": "sup_103",
                 "knowledgePoints": [
                         "城阙",
                         "王勃",
@@ -14562,7 +14562,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何日遣冯唐",
                 "explanation": "出自苏轼《江城子·密州出猎》，描写持节。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_008",
                 "knowledgePoints": [
                         "持节",
                         "苏轼",
@@ -14580,7 +14580,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "杨柳轻扬直上重霄九",
                 "explanation": "出自毛泽东《蝶恋花·答李淑一》，表达对革命烈士的崇敬。",
-                "poemId": null,
+                "poemId": "sup_331",
                 "knowledgePoints": [
                         "古诗默写",
                         "毛泽东",
@@ -14598,7 +14598,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "惟解漫天作雪飞",
                 "explanation": "出自韩愈《晚春》，描写柳絮。",
-                "poemId": null,
+                "poemId": "sup_334",
                 "knowledgePoints": [
                         "柳絮",
                         "韩愈",
@@ -14617,7 +14617,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "去国怀乡",
                 "explanation": "出自范仲淹《岳阳楼记》，描写去国。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "去国",
                         "范仲淹",
@@ -14635,7 +14635,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "同是宦游人",
                 "explanation": "出自王勃《送杜少府之任蜀州》，描写离别。",
-                "poemId": null,
+                "poemId": "sup_103",
                 "knowledgePoints": [
                         "离别",
                         "王勃",
@@ -14653,7 +14653,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "射天狼",
                 "explanation": "出自苏轼《江城子·密州出猎》，描写天狼。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_008",
                 "knowledgePoints": [
                         "天狼",
                         "苏轼",
@@ -14671,7 +14671,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "泪飞顿作倾盆雨",
                 "explanation": "出自毛泽东《蝶恋花·答李淑一》，表达听到革命胜利消息的激动。",
-                "poemId": null,
+                "poemId": "sup_331",
                 "knowledgePoints": [
                         "古诗默写",
                         "毛泽东",
@@ -14689,7 +14689,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "红泥小火炉",
                 "explanation": "出自白居易《问刘十九》，描写酒炉。",
-                "poemId": null,
+                "poemId": "sup_324",
                 "knowledgePoints": [
                         "酒",
                         "白居易",
@@ -14707,7 +14707,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "或异二者之为",
                 "explanation": "出自范仲淹《岳阳楼记》，描写古仁人。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "古仁人",
                         "范仲淹",
@@ -14726,7 +14726,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天涯若比邻",
                 "explanation": "出自王勃《送杜少府之任蜀州》，描写海内。",
-                "poemId": null,
+                "poemId": "poem_009",
                 "knowledgePoints": [
                         "海内",
                         "王勃",
@@ -14744,7 +14744,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "把酒问青天",
                 "explanation": "出自苏轼《水调歌头》，描写青天。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "青天",
                         "苏轼",
@@ -14762,7 +14762,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "乌蒙磅礴走泥丸",
                 "explanation": "出自毛泽东《七律·长征》，用夸张手法描写红军长征的壮举。",
-                "poemId": null,
+                "poemId": "sup_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "毛泽东",
@@ -14780,7 +14780,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "能饮一杯无",
                 "explanation": "出自白居易《问刘十九》，描写饮酒。",
-                "poemId": null,
+                "poemId": "sup_324",
                 "knowledgePoints": [
                         "饮酒",
                         "白居易",
@@ -14798,7 +14798,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "居庙堂之高则忧其民",
                 "explanation": "出自范仲淹《岳阳楼记》，描写物喜。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "物喜",
                         "范仲淹",
@@ -14817,7 +14817,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "儿女共沾巾",
                 "explanation": "出自王勃《送杜少府之任蜀州》，描写歧路。",
-                "poemId": null,
+                "poemId": "poem_009",
                 "knowledgePoints": [
                         "歧路",
                         "王勃",
@@ -14835,7 +14835,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "大渡桥横铁索寒",
                 "explanation": "出自毛泽东《七律·长征》，描写红军渡过急流的英勇。",
-                "poemId": null,
+                "poemId": "sup_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "毛泽东",
@@ -14853,7 +14853,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "露似真珠月似弓",
                 "explanation": "出自白居易《暮江吟》，描写秋夜。",
-                "poemId": null,
+                "poemId": "sup_164",
                 "knowledgePoints": [
                         "秋夜",
                         "白居易",
@@ -14871,7 +14871,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日暮掩柴扉",
                 "explanation": "出自王维《送别》，描写山中。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_011",
                 "knowledgePoints": [
                         "山中",
                         "王维",
@@ -14889,7 +14889,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "在乎山水之间也",
                 "explanation": "出自欧阳修《醉翁亭记》，描写醉翁。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "醉翁",
                         "欧阳修",
@@ -14909,7 +14909,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒食东风御柳斜",
                 "explanation": "出自韩翃《寒食》，描写春城。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "春城",
                         "韩翃",
@@ -14927,7 +14927,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万水千山只等闲",
                 "explanation": "出自毛泽东《七律·长征》，表现红军的革命乐观主义精神。",
-                "poemId": null,
+                "poemId": "sup_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "毛泽东",
@@ -14945,7 +14945,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "半江瑟瑟半江红",
                 "explanation": "出自白居易《暮江吟》，描写江水。",
-                "poemId": null,
+                "poemId": "sup_164",
                 "knowledgePoints": [
                         "江水",
                         "白居易",
@@ -14963,7 +14963,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "王孙归不归",
                 "explanation": "出自王维《送别》，描写春草。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_011",
                 "knowledgePoints": [
                         "春草",
                         "王维",
@@ -14981,7 +14981,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "得之心而寓之酒也",
                 "explanation": "出自欧阳修《醉翁亭记》，描写山水乐。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "山水",
                         "欧阳修",
@@ -15000,7 +15000,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻烟散入五侯家",
                 "explanation": "出自韩翃《寒食》，描写日暮。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "日暮",
                         "韩翃",
@@ -15018,7 +15018,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "三军过后尽开颜",
                 "explanation": "出自毛泽东《七律·长征》，表现红军翻越雪山的喜悦。",
-                "poemId": null,
+                "poemId": "sup_003",
                 "knowledgePoints": [
                         "古诗默写",
                         "毛泽东",
@@ -15036,7 +15036,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天光云影共徘徊",
                 "explanation": "出自朱熹《观书有感》，描写方塘。",
-                "poemId": null,
+                "poemId": "sup_081",
                 "knowledgePoints": [
                         "方塘",
                         "朱熹",
@@ -15054,7 +15054,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "问君何所之",
                 "explanation": "出自王维《送别》，描写下马。",
-                "poemId": null,
+                "poemId": "sup_385",
                 "knowledgePoints": [
                         "下马",
                         "王维",
@@ -15072,7 +15072,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "鸣声上下",
                 "explanation": "出自欧阳修《醉翁亭记》，描写树林。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "树林",
                         "欧阳修",
@@ -15092,7 +15092,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日暮客愁新",
                 "explanation": "出自孟浩然《宿建德江》，描写移舟。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "移舟",
                         "孟浩然",
@@ -15110,7 +15110,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随风潜入夜",
                 "explanation": "出自杜甫《春夜喜雨》，描写春雨在夜间悄然润物的特点。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -15128,7 +15128,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "为有源头活水来",
                 "explanation": "出自朱熹《观书有感》，描写源头。",
-                "poemId": null,
+                "poemId": "sup_081",
                 "knowledgePoints": [
                         "源头",
                         "朱熹",
@@ -15146,7 +15146,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归卧南山陲",
                 "explanation": "出自王维《送别》，描写不得意。",
-                "poemId": null,
+                "poemId": "sup_385",
                 "knowledgePoints": [
                         "不得意",
                         "王维",
@@ -15164,7 +15164,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "而不知太守之乐其乐也",
                 "explanation": "出自欧阳修《醉翁亭记》，描写人之乐。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "人之乐",
                         "欧阳修",
@@ -15183,7 +15183,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江清月近人",
                 "explanation": "出自孟浩然《宿建德江》，描写野旷。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "野旷",
                         "孟浩然",
@@ -15201,7 +15201,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江船火独明",
                 "explanation": "出自杜甫《春夜喜雨》，描写春夜雨景的朦胧美感。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -15219,7 +15219,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "无边光景一时新",
                 "explanation": "出自朱熹《春日》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_080",
                 "knowledgePoints": [
                         "春天",
                         "朱熹",
@@ -15237,7 +15237,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云无尽时",
                 "explanation": "出自王维《送别》，描写但去。",
-                "poemId": null,
+                "poemId": "sup_385",
                 "knowledgePoints": [
                         "但去",
                         "王维",
@@ -15255,7 +15255,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "醒能述以文者",
                 "explanation": "出自欧阳修《醉翁亭记》，描写醉能。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "醉能",
                         "欧阳修",
@@ -15274,7 +15274,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是地上霜",
                 "explanation": "出自李白《静夜思》，描写床前。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "床前",
                         "李白",
@@ -15292,7 +15292,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花重锦官城",
                 "explanation": "出自杜甫《春夜喜雨》，想象雨后清晨花朵盛开的景象。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -15310,7 +15310,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万紫千红总是春",
                 "explanation": "出自朱熹《春日》，描写春色。",
-                "poemId": null,
+                "poemId": "sup_080",
                 "knowledgePoints": [
                         "春色",
                         "朱熹",
@@ -15328,7 +15328,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "佳木秀而繁阴",
                 "explanation": "出自欧阳修《醉翁亭记》，描写野芳。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "野芳",
                         "欧阳修",
@@ -15348,7 +15348,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潮平两岸阔",
                 "explanation": "出自王湾《次北固山下》，描写客路。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "客路",
                         "王湾",
@@ -15366,7 +15366,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "低头思故乡",
                 "explanation": "出自李白《静夜思》，描写举头。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "举头",
                         "李白",
@@ -15384,7 +15384,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随风潜入夜",
                 "explanation": "出自杜甫《春夜喜雨》，赞美春雨及时而降。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜甫",
@@ -15402,7 +15402,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "南冠客思侵",
                 "explanation": "出自骆宾王《在狱咏蝉》，描写蝉声。",
-                "poemId": null,
+                "poemId": "sup_174",
                 "knowledgePoints": [
                         "蝉",
                         "骆宾王",
@@ -15420,7 +15420,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江春入旧年",
                 "explanation": "出自王湾《次北固山下》，描写海日。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "海日",
                         "王湾",
@@ -15439,7 +15439,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云归而岩穴暝",
                 "explanation": "出自欧阳修《醉翁亭记》，描写日出。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "日出",
                         "欧阳修",
@@ -15459,7 +15459,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写千山。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "千山",
                         "柳宗元",
@@ -15477,7 +15477,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云千载空悠悠",
                 "explanation": "出自崔颢《黄鹤楼》，表达物是人非的感慨。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -15495,7 +15495,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风多响易沉",
                 "explanation": "出自骆宾王《在狱咏蝉》，描写露重。",
-                "poemId": null,
+                "poemId": "sup_174",
                 "knowledgePoints": [
                         "露",
                         "骆宾王",
@@ -15513,7 +15513,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归雁洛阳边",
                 "explanation": "出自王湾《次北固山下》，描写乡书。",
-                "poemId": null,
+                "poemId": "sup_314",
                 "knowledgePoints": [
                         "乡书",
                         "王湾",
@@ -15532,7 +15532,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "佳木秀而繁阴",
                 "explanation": "出自欧阳修《醉翁亭记》，描写野芳。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "野芳",
                         "欧阳修",
@@ -15552,7 +15552,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独钓寒江雪",
                 "explanation": "出自柳宗元《江雪》，描写孤舟。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "孤舟",
                         "柳宗元",
@@ -15570,7 +15570,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "芳草萋萋鹦鹉洲",
                 "explanation": "出自崔颢《黄鹤楼》，描写黄鹤楼周围的景色。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -15588,7 +15588,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "暮而归",
                 "explanation": "出自欧阳修《醉翁亭记》，描写朝而往。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "朝而",
                         "欧阳修",
@@ -15607,7 +15607,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "受降城外月如霜",
                 "explanation": "出自李益《夜上受降城闻笛》，描写回乐。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "回乐",
                         "李益",
@@ -15626,7 +15626,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但闻人语响",
                 "explanation": "出自王维《鹿柴》，描写空山。",
-                "poemId": null,
+                "poemId": "sup_024",
                 "knowledgePoints": [
                         "空山",
                         "王维",
@@ -15644,7 +15644,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟波江上使人愁",
                 "explanation": "出自崔颢《黄鹤楼》，表达诗人的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -15662,7 +15662,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "皆若空游无所依",
                 "explanation": "出自柳宗元《小石潭记》，描写潭中鱼。",
-                "poemId": null,
+                "poemId": "sup_154",
                 "knowledgePoints": [
                         "潭中",
                         "柳宗元",
@@ -15681,7 +15681,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一夜征人尽望乡",
                 "explanation": "出自李益《夜上受降城闻笛》，描写芦管。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "芦管",
                         "李益",
@@ -15700,7 +15700,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "复照青苔上",
                 "explanation": "出自王维《鹿柴》，描写返景。",
-                "poemId": null,
+                "poemId": "sup_024",
                 "knowledgePoints": [
                         "返景",
                         "王维",
@@ -15718,7 +15718,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "上有黄鹂深树鸣",
                 "explanation": "出自韦应物《滁州西涧》，描写春天西涧的幽静景色。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "古诗默写",
                         "韦应物",
@@ -15736,7 +15736,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "影布石上",
                 "explanation": "出自柳宗元《小石潭记》，描写日光。",
-                "poemId": null,
+                "poemId": "sup_154",
                 "knowledgePoints": [
                         "日光",
                         "柳宗元",
@@ -15755,7 +15755,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天光云影共徘徊",
                 "explanation": "出自朱熹《观书有感》，描写半亩。",
-                "poemId": null,
+                "poemId": "sup_081",
                 "knowledgePoints": [
                         "半亩",
                         "朱熹",
@@ -15773,7 +15773,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "弹琴复长啸",
                 "explanation": "出自王维《竹里馆》，描写独坐。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "独坐",
                         "王维",
@@ -15791,7 +15791,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "野渡无人舟自横",
                 "explanation": "出自韦应物《滁州西涧》，描写渡口无人、船只随意横渡的景象。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "古诗默写",
                         "韦应物",
@@ -15809,7 +15809,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤城遥望玉门关",
                 "explanation": "出自王昌龄《从军行》，描写青海。",
-                "poemId": null,
+                "poemId": "sup_012",
                 "knowledgePoints": [
                         "青海",
                         "王昌龄",
@@ -15827,7 +15827,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "俶尔远逝",
                 "explanation": "出自柳宗元《小石潭记》，描写佁然。",
-                "poemId": null,
+                "poemId": "sup_154",
                 "knowledgePoints": [
                         "佁然",
                         "柳宗元",
@@ -15846,7 +15846,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "为有源头活水来",
                 "explanation": "出自朱熹《观书有感》，描写渠。",
-                "poemId": null,
+                "poemId": "sup_081",
                 "knowledgePoints": [
                         "渠",
                         "朱熹",
@@ -15864,7 +15864,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "明月来相照",
                 "explanation": "出自王维《竹里馆》，描写深林。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "深林",
                         "王维",
@@ -15882,7 +15882,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白雨跳珠乱入船",
                 "explanation": "出自苏轼《六月二十七日望湖楼醉书》，描写夏日阵雨的景象。",
-                "poemId": null,
+                "poemId": "sup_240",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -15901,7 +15901,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不破楼兰终不还",
                 "explanation": "出自王昌龄《从军行》，描写楼兰。",
-                "poemId": null,
+                "poemId": "sup_012",
                 "knowledgePoints": [
                         "楼兰",
                         "王昌龄",
@@ -15919,7 +15919,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "斗折蛇行",
                 "explanation": "出自柳宗元《小石潭记》，描写西南。",
-                "poemId": null,
+                "poemId": "sup_154",
                 "knowledgePoints": [
                         "西南",
                         "柳宗元",
@@ -15937,7 +15937,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沉醉不知归路",
                 "explanation": "出自李清照《如梦令》，描写溪亭。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_001",
                 "knowledgePoints": [
                         "溪亭",
                         "李清照",
@@ -15956,7 +15956,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜静春山空",
                 "explanation": "出自王维《鸟鸣涧》，描写人闲。",
-                "poemId": null,
+                "poemId": "sup_047",
                 "knowledgePoints": [
                         "人闲",
                         "王维",
@@ -15974,7 +15974,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "望湖楼下水如天",
                 "explanation": "出自苏轼《六月二十七日望湖楼醉书》，描写雨过天晴的景象。",
-                "poemId": null,
+                "poemId": "sup_240",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -15992,7 +15992,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不可知其源",
                 "explanation": "出自柳宗元《小石潭记》，描写犬牙。",
-                "poemId": null,
+                "poemId": "sup_154",
                 "knowledgePoints": [
                         "犬牙",
                         "柳宗元",
@@ -16010,7 +16010,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "误入藕花深处",
                 "explanation": "出自李清照《如梦令》，描写兴尽。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_001",
                 "knowledgePoints": [
                         "兴尽",
                         "李清照",
@@ -16029,7 +16029,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "时鸣春涧中",
                 "explanation": "出自王维《鸟鸣涧》，描写月出。",
-                "poemId": null,
+                "poemId": "sup_047",
                 "knowledgePoints": [
                         "月出",
                         "王维",
@@ -16047,7 +16047,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山色空蒙雨亦奇",
                 "explanation": "出自苏轼《饮湖上初晴后雨》，描写西湖晴雨皆美的景色。",
-                "poemId": null,
+                "poemId": "sup_241",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -16065,7 +16065,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "四面竹树环合",
                 "explanation": "出自柳宗元《小石潭记》，描写坐潭。",
-                "poemId": null,
+                "poemId": "sup_154",
                 "knowledgePoints": [
                         "坐潭",
                         "柳宗元",
@@ -16084,7 +16084,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "惊起一滩鸥鹭",
                 "explanation": "出自李清照《如梦令》，描写争渡。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_001",
                 "knowledgePoints": [
                         "争渡",
                         "李清照",
@@ -16103,7 +16103,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "属国过居延",
                 "explanation": "出自王维《使至塞上》，描写单车。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "单车",
                         "王维",
@@ -16121,7 +16121,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "欲把西湖比西子",
                 "explanation": "出自苏轼《饮湖上初晴后雨》，用西施比喻西湖之美。",
-                "poemId": null,
+                "poemId": "sup_241",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -16139,7 +16139,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春日凝妆上翠楼",
                 "explanation": "出自王昌龄《闺怨》，描写闺怨。",
-                "poemId": null,
+                "poemId": "sup_097",
                 "knowledgePoints": [
                         "闺怨",
                         "王昌龄",
@@ -16176,7 +16176,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沉醉不知归路",
                 "explanation": "出自李清照《如梦令》，描写沉醉。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_001",
                 "knowledgePoints": [
                         "沉醉",
                         "李清照",
@@ -16195,7 +16195,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写大漠。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "大漠",
                         "王维",
@@ -16213,7 +16213,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春江水暖鸭先知",
                 "explanation": "出自苏轼《惠崇春江晚景》，描写春天江边的景色。",
-                "poemId": null,
+                "poemId": "sup_165",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -16231,7 +16231,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "悔教夫婿觅封侯",
                 "explanation": "出自王昌龄《闺怨》，描写悔恨。",
-                "poemId": null,
+                "poemId": "sup_097",
                 "knowledgePoints": [
                         "悔恨",
                         "王昌龄",
@@ -16268,7 +16268,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "丰年留客足鸡豚",
                 "explanation": "出自陆游《游山西村》，描写农家。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "农家",
                         "陆游",
@@ -16286,7 +16286,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "来从楚国游",
                 "explanation": "出自李白《渡荆门送别》，描写渡远。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "渡远",
                         "李白",
@@ -16304,7 +16304,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "正是河豚欲上时",
                 "explanation": "出自苏轼《惠崇春江晚景》，描写春天江边的生机勃勃。",
-                "poemId": null,
+                "poemId": "sup_165",
                 "knowledgePoints": [
                         "古诗默写",
                         "苏轼",
@@ -16322,7 +16322,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "且将团扇共徘徊",
                 "explanation": "出自王昌龄《长信秋词》，描写团扇。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_015",
                 "knowledgePoints": [
                         "团扇",
                         "王昌龄",
@@ -16359,7 +16359,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "柳暗花明又一村",
                 "explanation": "出自陆游《游山西村》，描写山重。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "山重",
                         "陆游",
@@ -16377,7 +16377,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江入大荒流",
                 "explanation": "出自李白《渡荆门送别》，描写山随。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "山随",
                         "李白",
@@ -16395,7 +16395,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "五千仞岳上摩天",
                 "explanation": "出自陆游《秋夜将晓出篱门迎凉有感》，描写祖国壮丽河山。",
-                "poemId": null,
+                "poemId": "sup_076",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -16413,7 +16413,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "珠帘不卷夜来霜",
                 "explanation": "出自王昌龄《长信秋词》，描写秋叶。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_015",
                 "knowledgePoints": [
                         "秋叶",
                         "王昌龄",
@@ -16451,7 +16451,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衣冠简朴古风存",
                 "explanation": "出自陆游《游山西村》，描写箫鼓。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "箫鼓",
                         "陆游",
@@ -16469,7 +16469,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里送行舟",
                 "explanation": "出自李白《渡荆门送别》，描写故乡水。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "故乡水",
                         "李白",
@@ -16487,7 +16487,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "南望王师又一年",
                 "explanation": "出自陆游《秋夜将晓出篱门迎凉有感》，表达对南宋收复失地的期盼。",
-                "poemId": null,
+                "poemId": "sup_076",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -16505,7 +16505,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卧听南宫清漏长",
                 "explanation": "出自王昌龄《长信秋词》，描写清漏。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_015",
                 "knowledgePoints": [
                         "清漏",
                         "王昌龄",
@@ -16542,7 +16542,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "拄杖无时夜叩门",
                 "explanation": "出自陆游《游山西村》，描写闲乘月。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "闲乘月",
                         "陆游",
@@ -16560,7 +16560,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "心中自不平",
                 "explanation": "出自陈子昂《感遇》，描写烽火。",
-                "poemId": null,
+                "poemId": "sup_346",
                 "knowledgePoints": [
                         "烽火",
                         "陈子昂",
@@ -16578,7 +16578,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但悲不见九州同",
                 "explanation": "出自陆游《示儿》，表达诗人至死不忘收复失地的爱国情怀。",
-                "poemId": null,
+                "poemId": "sup_075",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -16596,7 +16596,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "梦见君王觉后疑",
                 "explanation": "出自杜牧《宫怨》，描写薄命。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_021",
                 "knowledgePoints": [
                         "薄命",
                         "杜牧",
@@ -16633,7 +16633,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但悲不见九州同",
                 "explanation": "出自陆游《示儿》，描写死去。",
-                "poemId": null,
+                "poemId": "sup_075",
                 "knowledgePoints": [
                         "死去",
                         "陆游",
@@ -16651,7 +16651,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天涯若比邻",
                 "explanation": "出自王勃《送杜少府之任蜀州》，描写海内。",
-                "poemId": null,
+                "poemId": "poem_009",
                 "knowledgePoints": [
                         "海内",
                         "王勃",
@@ -16669,7 +16669,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "死去元知万事空",
                 "explanation": "出自陆游《示儿》，诗人临终仍盼收复失地。",
-                "poemId": null,
+                "poemId": "sup_075",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -16687,7 +16687,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "替人垂泪到天明",
                 "explanation": "出自杜牧《赠别》，描写蜡烛。",
-                "poemId": null,
+                "poemId": "sup_178",
                 "knowledgePoints": [
                         "蜡烛",
                         "杜牧",
@@ -16724,7 +16724,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家祭无忘告乃翁",
                 "explanation": "出自陆游《示儿》，描写王师。",
-                "poemId": null,
+                "poemId": "sup_075",
                 "knowledgePoints": [
                         "王师",
                         "陆游",
@@ -16742,7 +16742,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "儿女共沾巾",
                 "explanation": "出自王勃《送杜少府之任蜀州》，描写歧路。",
-                "poemId": null,
+                "poemId": "poem_009",
                 "knowledgePoints": [
                         "歧路",
                         "王勃",
@@ -16760,7 +16760,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "古人学问无遗力",
                 "explanation": "出自陆游《冬夜读书示子聿》，告诫人们读书要持之以恒。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_066",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -16778,7 +16778,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "豆蔻梢头二月初",
                 "explanation": "出自杜牧《赠别》，描写豆蔻。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_014",
                 "knowledgePoints": [
                         "豆蔻",
                         "杜牧",
@@ -16815,7 +16815,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "五千仞岳上摩天",
                 "explanation": "出自陆游《秋夜将晓出篱门迎凉有感》，描写三万里。",
-                "poemId": null,
+                "poemId": "sup_076",
                 "knowledgePoints": [
                         "三万里",
                         "陆游",
@@ -16833,7 +16833,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风烟望五津",
                 "explanation": "出自王勃《送杜少府之任蜀州》，描写城阙。",
-                "poemId": null,
+                "poemId": "sup_103",
                 "knowledgePoints": [
                         "城阙",
                         "王勃",
@@ -16851,7 +16851,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绝知此事要躬行",
                 "explanation": "出自陆游《冬夜读书示子聿》，强调实践的重要性。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_066",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -16869,7 +16869,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卷上珠帘总不如",
                 "explanation": "出自杜牧《赠别》，描写珠帘。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_014",
                 "knowledgePoints": [
                         "珠帘",
                         "杜牧",
@@ -16887,7 +16887,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "静影沉璧",
                 "explanation": "出自范仲淹《岳阳楼记》，描写浮光。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "浮光",
                         "范仲淹",
@@ -16906,7 +16906,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "南望王师又一年",
                 "explanation": "出自陆游《秋夜将晓出篱门迎凉有感》，描写遗民。",
-                "poemId": null,
+                "poemId": "sup_076",
                 "knowledgePoints": [
                         "遗民",
                         "陆游",
@@ -16924,7 +16924,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "同是宦游人",
                 "explanation": "出自王勃《送杜少府之任蜀州》，描写离别。",
-                "poemId": null,
+                "poemId": "sup_103",
                 "knowledgePoints": [
                         "离别",
                         "王勃",
@@ -16942,7 +16942,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "羌笛何须怨杨柳",
                 "explanation": "出自王之涣《凉州词》，表达戍边士兵的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -16961,7 +16961,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "惟觉尊前笑不成",
                 "explanation": "出自杜牧《赠别》，描写多情。",
-                "poemId": null,
+                "poemId": "sup_178",
                 "knowledgePoints": [
                         "多情",
                         "杜牧",
@@ -16979,7 +16979,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "皓月千里",
                 "explanation": "出自范仲淹《岳阳楼记》，描写长烟。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "长烟",
                         "范仲淹",
@@ -16998,7 +16998,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "后不见来者",
                 "explanation": "出自陈子昂《登幽州台歌》，描写前不见。",
-                "poemId": null,
+                "poemId": "sup_128",
                 "knowledgePoints": [
                         "前不见",
                         "陈子昂",
@@ -17016,7 +17016,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "朔气传金柝",
                 "explanation": "出自《木兰诗》，描写木兰在战场上的艰苦生活。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "古诗默写",
                         "木兰诗",
@@ -17034,7 +17034,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "香罗叠雪轻",
                 "explanation": "出自杜甫《端午日赐衣》，描写端午。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_016",
                 "knowledgePoints": [
                         "端午",
                         "杜甫",
@@ -17052,7 +17052,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "静影沉璧",
                 "explanation": "出自范仲淹《岳阳楼记》，描写静影。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "静影",
                         "范仲淹",
@@ -17072,7 +17072,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水何澹澹",
                 "explanation": "出自曹操《观沧海》，描写东临。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "东临",
                         "曹操",
@@ -17090,7 +17090,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独怆然而涕下",
                 "explanation": "出自陈子昂《登幽州台歌》，描写天地。",
-                "poemId": null,
+                "poemId": "sup_128",
                 "knowledgePoints": [
                         "天地",
                         "陈子昂",
@@ -17108,7 +17108,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "对镜贴花黄",
                 "explanation": "出自《木兰诗》，描写木兰恢复女儿身后打扮的情景。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "古诗默写",
                         "木兰诗",
@@ -17126,7 +17126,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "端午被恩荣",
                 "explanation": "出自杜甫《端午日赐衣》，描写宫衣。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_016",
                 "knowledgePoints": [
                         "宫衣",
                         "杜甫",
@@ -17145,7 +17145,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "心旷神怡",
                 "explanation": "出自范仲淹《岳阳楼记》，描写登斯。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "登斯",
                         "范仲淹",
@@ -17163,7 +17163,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "百草丰茂",
                 "explanation": "出自曹操《观沧海》，描写树木。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "树木",
                         "曹操",
@@ -17182,7 +17182,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "而无车马喧",
                 "explanation": "出自陶渊明《饮酒·其五》，描写结庐。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "结庐",
                         "陶渊明",
@@ -17200,7 +17200,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "报得三春晖",
                 "explanation": "出自孟郊《游子吟》，表达对母亲养育之恩的感激。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟郊",
@@ -17218,7 +17218,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒食东风御柳斜",
                 "explanation": "出自韩翃《寒食》，描写春城。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "春城",
                         "韩翃",
@@ -17237,7 +17237,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "微斯人，吾谁与归",
                 "explanation": "出自范仲淹《岳阳楼记》，描写嗟夫。",
-                "poemId": null,
+                "poemId": "sup_132",
                 "knowledgePoints": [
                         "嗟夫",
                         "范仲淹",
@@ -17256,7 +17256,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "洪波涌起",
                 "explanation": "出自曹操《观沧海》，描写秋风。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "秋风",
                         "曹操",
@@ -17275,7 +17275,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "心远地自偏",
                 "explanation": "出自陶渊明《饮酒·其五》，描写问君。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "问君",
                         "陶渊明",
@@ -17293,7 +17293,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "慈母手中线",
                 "explanation": "出自孟郊《游子吟》，描写母亲为儿子缝制衣服的温馨场景。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟郊",
@@ -17311,7 +17311,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻烟散入五侯家",
                 "explanation": "出自韩翃《寒食》，描写蜡烛。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "蜡烛",
                         "韩翃",
@@ -17330,7 +17330,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "其西南诸峰",
                 "explanation": "出自欧阳修《醉翁亭记》，描写环滁。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "环滁",
                         "欧阳修",
@@ -17349,7 +17349,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "星汉灿烂",
                 "explanation": "出自曹操《观沧海》，描写日月。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "日月",
                         "曹操",
@@ -17367,7 +17367,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "悠然见南山",
                 "explanation": "出自陶渊明《饮酒·其五》，描写采菊。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "采菊",
                         "陶渊明",
@@ -17385,7 +17385,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "意恐迟迟归",
                 "explanation": "出自孟郊《游子吟》，表达母亲对儿子的牵挂。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟郊",
@@ -17403,7 +17403,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日暮客愁新",
                 "explanation": "出自孟浩然《宿建德江》，描写移舟。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "移舟",
                         "孟浩然",
@@ -17422,7 +17422,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "渐闻水声潺潺而泻出于两峰之间者",
                 "explanation": "出自欧阳修《醉翁亭记》，描写山行。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "山行",
                         "欧阳修",
@@ -17441,7 +17441,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "齐鲁青未了",
                 "explanation": "出自杜甫《望岳》，描写岱宗。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "岱宗",
                         "杜甫",
@@ -17460,7 +17460,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "飞鸟相与还",
                 "explanation": "出自陶渊明《饮酒·其五》，描写日夕。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "日夕",
                         "陶渊明",
@@ -17479,7 +17479,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "谁言寸草心",
                 "explanation": "出自孟郊《游子吟》，表达对母亲深沉的爱的感激。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟郊",
@@ -17497,7 +17497,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江清月近人",
                 "explanation": "出自孟浩然《宿建德江》，描写野旷。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "野旷",
                         "孟浩然",
@@ -17516,7 +17516,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "名之者谁",
                 "explanation": "出自欧阳修《醉翁亭记》，描写作亭。",
-                "poemId": null,
+                "poemId": "sup_117",
                 "knowledgePoints": [
                         "作亭",
                         "欧阳修",
@@ -17535,7 +17535,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "阴阳割昏晓",
                 "explanation": "出自杜甫《望岳》，描写造化。",
-                "poemId": null,
+                "poemId": "sup_129",
                 "knowledgePoints": [
                         "造化",
                         "杜甫",
@@ -17553,7 +17553,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "欲辨已忘言",
                 "explanation": "出自陶渊明《饮酒·其五》，描写此中。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "此中",
                         "陶渊明",
@@ -17571,7 +17571,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄河入海流",
                 "explanation": "出自王之涣《登鹳雀楼》，描写夕阳西下、黄河奔流入海的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -17590,7 +17590,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "处处闻啼鸟",
                 "explanation": "出自孟浩然《春晓》，描写春眠。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "春眠",
                         "孟浩然",
@@ -17608,7 +17608,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "封狼居胥",
                 "explanation": "出自辛弃疾《永遇乐·京口北固亭怀古》，描写元嘉。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_004",
                 "knowledgePoints": [
                         "元嘉",
                         "辛弃疾",
@@ -17626,7 +17626,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "决眦入归鸟",
                 "explanation": "出自杜甫《望岳》，描写荡胸。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "荡胸",
                         "杜甫",
@@ -17645,7 +17645,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "鸟鸣山更幽",
                 "explanation": "出自王籍《入若耶溪》，描写蝉噪。",
-                "poemId": null,
+                "poemId": "sup_350",
                 "knowledgePoints": [
                         "蝉噪",
                         "王籍",
@@ -17663,7 +17663,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更上一层楼",
                 "explanation": "出自王之涣《登鹳雀楼》，表达了积极向上的精神。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -17682,7 +17682,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花落知多少",
                 "explanation": "出自孟浩然《春晓》，描写花落。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "花落",
                         "孟浩然",
@@ -17700,7 +17700,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烽火扬州路",
                 "explanation": "出自辛弃疾《永遇乐·京口北固亭怀古》，描写四十三年。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_004",
                 "knowledgePoints": [
                         "四十三年",
                         "辛弃疾",
@@ -17718,7 +17718,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一览众山小",
                 "explanation": "出自杜甫《望岳》，描写会当。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "会当",
                         "杜甫",
@@ -17737,7 +17737,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花木成畦手自栽",
                 "explanation": "出自王安石《书湖阴先生壁》，描写茅檐。",
-                "poemId": null,
+                "poemId": "sup_173",
                 "knowledgePoints": [
                         "茅檐",
                         "王安石",
@@ -17755,7 +17755,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山气日夕佳",
                 "explanation": "出自陶渊明《饮酒》，描写傍晚山间的优美景色。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "古诗默写",
                         "陶渊明",
@@ -17773,7 +17773,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄河入海流",
                 "explanation": "出自王之涣《登鹳雀楼》，描写白日。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "白日",
                         "王之涣",
@@ -17792,7 +17792,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "佛狸祠下",
                 "explanation": "出自辛弃疾《永遇乐·京口北固亭怀古》，描写佛狸。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_004",
                 "knowledgePoints": [
                         "佛狸",
                         "辛弃疾",
@@ -17810,7 +17810,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写国破。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "国破",
                         "杜甫",
@@ -17828,7 +17828,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两山排闼送青来",
                 "explanation": "出自王安石《书湖阴先生壁》，描写一水。",
-                "poemId": null,
+                "poemId": "sup_173",
                 "knowledgePoints": [
                         "一水",
                         "王安石",
@@ -17846,7 +17846,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "悠然见南山",
                 "explanation": "出自陶渊明《饮酒》，表现诗人归隐后的悠闲生活。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "古诗默写",
                         "陶渊明",
@@ -17864,7 +17864,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更上一层楼",
                 "explanation": "出自王之涣《登鹳雀楼》，描写千里。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "千里",
                         "王之涣",
@@ -17882,7 +17882,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "尚能饭否",
                 "explanation": "出自辛弃疾《永遇乐·京口北固亭怀古》，描写廉颇。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_004",
                 "knowledgePoints": [
                         "廉颇",
                         "辛弃疾",
@@ -17900,7 +17900,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恨别鸟惊心",
                 "explanation": "出自杜甫《春望》，描写感时。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "感时",
                         "杜甫",
@@ -17919,7 +17919,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闻说鸡鸣见日升",
                 "explanation": "出自王安石《登飞来峰》，描写飞来峰。",
-                "poemId": null,
+                "poemId": "sup_025",
                 "knowledgePoints": [
                         "飞来峰",
                         "王安石",
@@ -17937,7 +17937,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "开轩面场圃",
                 "explanation": "出自孟浩然《过故人庄》，描写主客畅谈农事的欢乐。",
-                "poemId": null,
+                "poemId": "sup_386",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -17955,7 +17955,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写万径。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "万径",
                         "柳宗元",
@@ -17973,7 +17973,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "英雄无觅孙仲谋处",
                 "explanation": "出自辛弃疾《永遇乐·京口北固亭怀古》，描写千古。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_004",
                 "knowledgePoints": [
                         "千古",
                         "辛弃疾",
@@ -17991,7 +17991,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家书抵万金",
                 "explanation": "出自杜甫《春望》，描写烽火。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "烽火",
                         "杜甫",
@@ -18010,7 +18010,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自缘身在最高层",
                 "explanation": "出自王安石《登飞来峰》，描写不畏。",
-                "poemId": null,
+                "poemId": "sup_025",
                 "knowledgePoints": [
                         "不畏",
                         "王安石",
@@ -18028,7 +18028,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "还来就菊花",
                 "explanation": "出自孟浩然《过故人庄》，表达诗人对田园生活的热爱。",
-                "poemId": null,
+                "poemId": "sup_386",
                 "knowledgePoints": [
                         "古诗默写",
                         "孟浩然",
@@ -18046,7 +18046,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独钓寒江雪",
                 "explanation": "出自柳宗元《江雪》，描写寒江。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "寒江",
                         "柳宗元",
@@ -18064,7 +18064,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风流总被雨打风吹去",
                 "explanation": "出自辛弃疾《永遇乐·京口北固亭怀古》，描写舞榭。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_004",
                 "knowledgePoints": [
                         "舞榭",
                         "辛弃疾",
@@ -18082,7 +18082,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浑欲不胜簪",
                 "explanation": "出自杜甫《春望》，描写白头。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "白头",
                         "杜甫",
@@ -18101,7 +18101,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闻说鸡鸣见日升",
                 "explanation": "出自王安石《登飞来峰》，描写闻说。",
-                "poemId": null,
+                "poemId": "sup_025",
                 "knowledgePoints": [
                         "闻说",
                         "王安石",
@@ -18120,7 +18120,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北风吹雁雪纷纷",
                 "explanation": "出自高适《别董大》，描写送别时的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "古诗默写",
                         "高适",
@@ -18138,7 +18138,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日暮客愁新",
                 "explanation": "出自孟浩然《宿建德江》，描写移舟。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "移舟",
                         "孟浩然",
@@ -18157,7 +18157,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "人道寄奴曾住",
                 "explanation": "出自辛弃疾《永遇乐·京口北固亭怀古》，描写斜阳。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_004",
                 "knowledgePoints": [
                         "斜阳",
                         "辛弃疾",
@@ -18175,7 +18175,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "行舟绿水前",
                 "explanation": "出自王湾《次北固山下》，描写客路。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "客路",
                         "王湾",
@@ -18193,7 +18193,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "钟山只隔数重山",
                 "explanation": "出自王安石《泊船瓜洲》，描写京口。",
-                "poemId": null,
+                "poemId": "sup_238",
                 "knowledgePoints": [
                         "京口",
                         "王安石",
@@ -18211,7 +18211,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天下谁人不识君",
                 "explanation": "出自高适《别董大》，表达对友人的劝慰和鼓励。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "古诗默写",
                         "高适",
@@ -18229,7 +18229,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江清月近人",
                 "explanation": "出自孟浩然《宿建德江》，描写江清。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "江清",
                         "孟浩然",
@@ -18248,7 +18248,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "气吞万里如虎",
                 "explanation": "出自辛弃疾《永遇乐·京口北固亭怀古》，描写金戈。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_004",
                 "knowledgePoints": [
                         "金戈",
                         "辛弃疾",
@@ -18266,7 +18266,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风正一帆悬",
                 "explanation": "出自王湾《次北固山下》，描写潮平。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "潮平",
                         "王湾",
@@ -18284,7 +18284,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "明月何时照我还",
                 "explanation": "出自王安石《泊船瓜洲》，描写春风又。",
-                "poemId": null,
+                "poemId": "sup_238",
                 "knowledgePoints": [
                         "春风又",
                         "王安石",
@@ -18302,7 +18302,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山回路转不见君",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写送别友人后诗人凝望雪地马蹄印的情景。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "古诗默写",
                         "岑参",
@@ -18321,7 +18321,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "处处闻啼鸟",
                 "explanation": "出自孟浩然《春晓》，描写春眠。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "春眠",
                         "孟浩然",
@@ -18340,7 +18340,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "把酒问青天",
                 "explanation": "出自苏轼《水调歌头》，描写明月。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "明月",
                         "苏轼",
@@ -18359,7 +18359,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江春入旧年",
                 "explanation": "出自王湾《次北固山下》，描写海日。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "海日",
                         "王湾",
@@ -18378,7 +18378,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白露为霜",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写蒹葭苍。",
-                "poemId": null,
+                "poemId": "sup_123",
                 "knowledgePoints": [
                         "蒹葭苍",
                         "无名氏",
@@ -18396,7 +18396,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两岸猿声啼不住",
                 "explanation": "出自李白《早发白帝城》，描写舟行迅速、两岸山景飞逝的景象。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -18414,7 +18414,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花落知多少",
                 "explanation": "出自孟浩然《春晓》，描写夜来。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "夜来",
                         "孟浩然",
@@ -18433,7 +18433,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "今夕是何年",
                 "explanation": "出自苏轼《水调歌头》，描写天上。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "天上",
                         "苏轼",
@@ -18452,7 +18452,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归雁洛阳边",
                 "explanation": "出自王湾《次北固山下》，描写乡书。",
-                "poemId": null,
+                "poemId": "sup_314",
                 "knowledgePoints": [
                         "乡书",
                         "王湾",
@@ -18471,7 +18471,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白露未晞",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写蒹葭萋。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_002",
                 "knowledgePoints": [
                         "蒹葭萋",
                         "无名氏",
@@ -18489,7 +18489,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但悲不见九州同",
                 "explanation": "出自陆游《示儿》，表达诗人至死不忘收复失地的爱国情怀。",
-                "poemId": null,
+                "poemId": "sup_075",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -18508,7 +18508,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "涵虚混太清",
                 "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写八月。",
-                "poemId": null,
+                "poemId": "sup_102",
                 "knowledgePoints": [
                         "八月",
                         "孟浩然",
@@ -18526,7 +18526,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月有阴晴圆缺",
                 "explanation": "出自苏轼《水调歌头》，描写悲欢。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "悲欢",
                         "苏轼",
@@ -18545,7 +18545,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小桥流水人家",
                 "explanation": "出自马致远《天净沙·秋思》，描写枯藤。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "枯藤",
                         "马致远",
@@ -18564,7 +18564,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白露未已",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写蒹葭采。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_002",
                 "knowledgePoints": [
                         "蒹葭采",
                         "无名氏",
@@ -18582,7 +18582,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家祭无忘告乃翁",
                 "explanation": "出自陆游《示儿》，诗人临终仍盼收复失地。",
-                "poemId": null,
+                "poemId": "sup_075",
                 "knowledgePoints": [
                         "古诗默写",
                         "陆游",
@@ -18600,7 +18600,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "波撼岳阳城",
                 "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写气蒸。",
-                "poemId": null,
+                "poemId": "sup_102",
                 "knowledgePoints": [
                         "气蒸",
                         "孟浩然",
@@ -18618,7 +18618,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里共婵娟",
                 "explanation": "出自苏轼《水调歌头》，描写人长久。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "长久",
                         "苏轼",
@@ -18637,7 +18637,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夕阳西下",
                 "explanation": "出自马致远《天净沙·秋思》，描写古道。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "古道",
                         "马致远",
@@ -18656,7 +18656,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "在水一方",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写所谓伊。",
-                "poemId": null,
+                "poemId": "sup_123",
                 "knowledgePoints": [
                         "所谓伊",
                         "无名氏",
@@ -18674,7 +18674,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "村庄儿女各当家",
                 "explanation": "出自范成大《四时田园杂兴》，描写农村繁忙的劳动场景。",
-                "poemId": null,
+                "poemId": "sup_077",
                 "knowledgePoints": [
                         "古诗默写",
                         "范成大",
@@ -18693,7 +18693,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "端居耻圣明",
                 "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写欲济。",
-                "poemId": null,
+                "poemId": "sup_102",
                 "knowledgePoints": [
                         "欲济",
                         "孟浩然",
@@ -18711,7 +18711,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "把酒问青天",
                 "explanation": "出自苏轼《水调歌头》，描写把酒。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "把酒",
                         "苏轼",
@@ -18730,7 +18730,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "断肠人在天涯",
                 "explanation": "出自马致远《天净沙·秋思》，描写夕阳。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "夕阳",
                         "马致远",
@@ -18749,7 +18749,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "溯游从之，宛在水中央",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写溯洄。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_002",
                 "knowledgePoints": [
                         "溯洄",
                         "无名氏",
@@ -18767,7 +18767,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "也傍桑阴学种瓜",
                 "explanation": "出自范成大《四时田园杂兴》，描写儿童从小热爱劳动的品质。",
-                "poemId": null,
+                "poemId": "sup_077",
                 "knowledgePoints": [
                         "古诗默写",
                         "范成大",
@@ -18785,7 +18785,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "徒有羡鱼情",
                 "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写垂钓。",
-                "poemId": null,
+                "poemId": "sup_102",
                 "knowledgePoints": [
                         "垂钓",
                         "孟浩然",
@@ -18803,7 +18803,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "又恐琼楼玉宇",
                 "explanation": "出自苏轼《水调歌头》，描写乘风。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "乘风",
                         "苏轼",
@@ -18821,7 +18821,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "枯藤老树昏鸦",
                 "explanation": "出自马致远《天净沙·秋思》，描写天净沙。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "天净沙",
                         "马致远",
@@ -18839,7 +18839,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "溯游从之，宛在水中坻",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写道阻且。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_002",
                 "knowledgePoints": [
                         "道阻且",
                         "无名氏",
@@ -18857,7 +18857,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "童孙未解供耕织",
                 "explanation": "出自范成大《四时田园杂兴》，描写儿童学种瓜的可爱模样。",
-                "poemId": null,
+                "poemId": "sup_077",
                 "knowledgePoints": [
                         "古诗默写",
                         "范成大",
@@ -18875,7 +18875,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沧江急夜流",
                 "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写山暝。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_031",
                 "knowledgePoints": [
                         "山暝",
                         "孟浩然",
@@ -18893,7 +18893,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何似在人间",
                 "explanation": "出自苏轼《水调歌头》，描写弄清影。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "清影",
                         "苏轼",
@@ -18912,7 +18912,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清风半夜鸣蝉",
                 "explanation": "出自辛弃疾《西江月·夜行黄沙道中》，描写明月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "明月",
                         "辛弃疾",
@@ -18930,7 +18930,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "溯游从之，宛在水中沚",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写道阻且右。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_002",
                 "knowledgePoints": [
                         "道阻且右",
                         "无名氏",
@@ -18948,7 +18948,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "昼出耘田夜绩麻",
                 "explanation": "出自范成大《四时田园杂兴》，描写农村繁忙的劳动场景。",
-                "poemId": null,
+                "poemId": "sup_077",
                 "knowledgePoints": [
                         "古诗默写",
                         "范成大",
@@ -18966,7 +18966,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月照一孤舟",
                 "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写月照。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_031",
                 "knowledgePoints": [
                         "月照",
                         "孟浩然",
@@ -19003,7 +19003,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "听取蛙声一片",
                 "explanation": "出自辛弃疾《西江月·夜行黄沙道中》，描写稻花。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "稻花",
                         "辛弃疾",
@@ -19021,7 +19021,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "萧萧班马鸣",
                 "explanation": "出自李白《送友人》，描写挥手自。",
-                "poemId": null,
+                "poemId": "sup_121",
                 "knowledgePoints": [
                         "挥手自",
                         "李白",
@@ -19039,7 +19039,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "无边光景一时新",
                 "explanation": "出自朱熹《春日》，描写春天郊游的愉悦心情。",
-                "poemId": null,
+                "poemId": "sup_080",
                 "knowledgePoints": [
                         "古诗默写",
                         "朱熹",
@@ -19057,7 +19057,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "奔流到海不复回",
                 "explanation": "出自李白《将进酒》，描写黄河。",
-                "poemId": null,
+                "poemId": "sup_116",
                 "knowledgePoints": [
                         "黄河",
                         "李白",
@@ -19075,7 +19075,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何事长向别时圆",
                 "explanation": "出自苏轼《水调歌头》，描写别时。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "别时",
                         "苏轼",
@@ -19093,7 +19093,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两三点雨山前",
                 "explanation": "出自辛弃疾《西江月·夜行黄沙道中》，描写星天外。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "星天外",
                         "辛弃疾",
@@ -19111,7 +19111,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白水绕东城",
                 "explanation": "出自李白《送友人》，描写青山横。",
-                "poemId": null,
+                "poemId": "sup_121",
                 "knowledgePoints": [
                         "青山横",
                         "李白",
@@ -19129,7 +19129,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万紫千红总是春",
                 "explanation": "出自朱熹《春日》，形容春天万紫千红的景色。",
-                "poemId": null,
+                "poemId": "sup_080",
                 "knowledgePoints": [
                         "古诗默写",
                         "朱熹",
@@ -19148,7 +19148,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莫使金樽空对月",
                 "explanation": "出自李白《将进酒》，描写得意。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "得意",
                         "李白",
@@ -19166,7 +19166,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月有阴晴圆缺",
                 "explanation": "出自苏轼《水调歌头》，描写阴晴。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "阴晴",
                         "苏轼",
@@ -19185,7 +19185,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路转溪桥忽见",
                 "explanation": "出自辛弃疾《西江月·夜行黄沙道中》，描写旧时。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "旧时",
                         "辛弃疾",
@@ -19203,7 +19203,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤蓬万里征",
                 "explanation": "出自李白《送友人》，描写此地一。",
-                "poemId": null,
+                "poemId": "sup_121",
                 "knowledgePoints": [
                         "此地一",
                         "李白",
@@ -19221,7 +19221,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "等闲识得东风面",
                 "explanation": "出自朱熹《春日》，形容春天万紫千红的景色。",
-                "poemId": null,
+                "poemId": "sup_080",
                 "knowledgePoints": [
                         "古诗默写",
                         "朱熹",
@@ -19239,7 +19239,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千金散尽还复来",
                 "explanation": "出自李白《将进酒》，描写材必。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "材",
                         "李白",
@@ -19257,7 +19257,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千古风流人物",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写大江。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "大江",
                         "苏轼",
@@ -19294,7 +19294,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "落日故人情",
                 "explanation": "出自李白《送友人》，描写浮云游。",
-                "poemId": null,
+                "poemId": "sup_121",
                 "knowledgePoints": [
                         "浮云游",
                         "李白",
@@ -19312,7 +19312,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "羌笛何须怨杨柳",
                 "explanation": "出自王之涣《凉州词》，表达戍边士兵的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "古诗默写",
                         "王之涣",
@@ -19331,7 +19331,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "会须一饮三百杯",
                 "explanation": "出自李白《将进酒》，描写烹羊。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "烹羊",
                         "李白",
@@ -19349,7 +19349,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "三国周郎赤壁",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写故垒。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "故垒",
                         "苏轼",
@@ -19386,7 +19386,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天涯若比邻",
                 "explanation": "出自王勃《送杜少府之任蜀州》，描写海内存。",
-                "poemId": null,
+                "poemId": "poem_009",
                 "knowledgePoints": [
                         "海内存",
                         "王勃",
@@ -19405,7 +19405,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北风吹雁雪纷纷",
                 "explanation": "出自高适《别董大》，描写送别时的壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "古诗默写",
                         "高适",
@@ -19424,7 +19424,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "将进酒，君莫停",
                 "explanation": "出自李白《将进酒》，描写岑夫。",
-                "poemId": null,
+                "poemId": "sup_116",
                 "knowledgePoints": [
                         "岑夫",
                         "李白",
@@ -19442,7 +19442,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卷起千堆雪",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写乱石。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "乱石",
                         "苏轼",
@@ -19479,7 +19479,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "新种琅玕已放梢",
                 "explanation": "出自陆游《东轩》，描写舍南有。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_145",
                 "knowledgePoints": [
                         "舍南有",
                         "陆游",
@@ -19497,7 +19497,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天下谁人不识君",
                 "explanation": "出自高适《别董大》，表达对友人的劝慰和鼓励。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "古诗默写",
                         "高适",
@@ -19516,7 +19516,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "请君为我侧耳听",
                 "explanation": "出自李白《将进酒》，描写侧耳。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "侧耳",
                         "李白",
@@ -19534,7 +19534,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一时多少豪杰",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写江山。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "江山",
                         "苏轼",
@@ -19571,7 +19571,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独怜幽草涧边生",
                 "explanation": "出自韦应物《滁州西涧》，描写春天西涧的幽静景色。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "古诗默写",
                         "韦应物",
@@ -19589,7 +19589,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但愿长醉不复醒",
                 "explanation": "出自李白《将进酒》，描写钟鼓。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "钟鼓",
                         "李白",
@@ -19607,7 +19607,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小乔初嫁了",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写公瑾。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "公瑾",
                         "苏轼",
@@ -19644,7 +19644,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "野渡无人舟自横",
                 "explanation": "出自韦应物《滁州西涧》，描写渡口无人、船只随意横渡的景象。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "古诗默写",
                         "韦应物",
@@ -19663,7 +19663,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "惟有饮者留其名",
                 "explanation": "出自李白《将进酒》，描写圣贤。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "圣贤",
                         "李白",
@@ -19681,7 +19681,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "樯橹灰飞烟灭",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写羽扇。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "羽扇",
                         "苏轼",
@@ -19718,7 +19718,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写深夜江边的愁绪。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "古诗默写",
                         "张继",
@@ -19737,7 +19737,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "斗酒十千恣欢谑",
                 "explanation": "出自李白《将进酒》，描写陈王。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "陈王",
                         "李白",
@@ -19755,7 +19755,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "早生华发",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写故国。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "故国",
                         "苏轼",
@@ -19792,7 +19792,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜半钟声到客船",
                 "explanation": "出自张继《枫桥夜泊》，描写夜半时分寒山寺的钟声传到客船。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "古诗默写",
                         "张继",
@@ -19811,7 +19811,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "径须沽取对君酌",
                 "explanation": "出自李白《将进酒》，描写沽取。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "沽取",
                         "李白",
@@ -19829,7 +19829,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一尊还酹江月",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写人生。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "人生",
                         "苏轼",
@@ -19866,7 +19866,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路上行人欲断魂",
                 "explanation": "出自杜牧《清明》，描写清明时节的凄清景象和行人的愁苦心情。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -19885,7 +19885,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "呼儿将出换美酒",
                 "explanation": "出自李白《将进酒》，描写换酒。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "换酒",
                         "李白",
@@ -19903,7 +19903,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何事秋风悲画扇",
                 "explanation": "出自纳兰性德《木兰词》，描写初见。",
-                "poemId": null,
+                "poemId": "sup_157",
                 "knowledgePoints": [
                         "初见",
                         "纳兰性德",
@@ -19940,7 +19940,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牧童遥指杏花村",
                 "explanation": "出自杜牧《清明》，描写诗人找酒解愁的情景。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -19959,7 +19959,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "古来圣贤皆寂寞",
                 "explanation": "出自李白《将进酒》，描写万古。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "万古",
                         "李白",
@@ -19977,7 +19977,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "却道故人心易变",
                 "explanation": "出自纳兰性德《木兰词》，描写故人。",
-                "poemId": null,
+                "poemId": "sup_157",
                 "knowledgePoints": [
                         "故人",
                         "纳兰性德",
@@ -20014,7 +20014,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水村山郭酒旗风",
                 "explanation": "出自杜牧《江南春》，描写江南春天的美丽景色。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -20033,7 +20033,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写月落。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "月落",
                         "张继",
@@ -20052,7 +20052,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "泪雨零铃终不怨",
                 "explanation": "出自纳兰性德《木兰词》，描写骊山。",
-                "poemId": null,
+                "poemId": "sup_157",
                 "knowledgePoints": [
                         "骊山",
                         "纳兰性德",
@@ -20089,7 +20089,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "多少楼台烟雨中",
                 "explanation": "出自杜牧《江南春》，描写江南春天烟雨蒙蒙的景象。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -20107,7 +20107,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜半钟声到客船",
                 "explanation": "出自张继《枫桥夜泊》，描写寒山。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "寒山",
                         "张继",
@@ -20126,7 +20126,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "比翼连枝当日愿",
                 "explanation": "出自纳兰性德《木兰词》，描写薄幸。",
-                "poemId": null,
+                "poemId": "sup_157",
                 "knowledgePoints": [
                         "薄幸",
                         "纳兰性德",
@@ -20163,7 +20163,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云生处有人家",
                 "explanation": "出自杜牧《山行》，描写山行时看到的景象。",
-                "poemId": null,
+                "poemId": "sup_156",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -20182,7 +20182,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "每逢佳节倍思亲",
                 "explanation": "出自王维《九月九日忆山东兄弟》，描写异乡。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "异乡",
                         "王维",
@@ -20201,7 +20201,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "梦回吹角连营",
                 "explanation": "出自辛弃疾《破阵子·为陈同甫赋壮词以寄之》，描写醉里。",
-                "poemId": null,
+                "poemId": "sup_066",
                 "knowledgePoints": [
                         "醉里",
                         "辛弃疾",
@@ -20219,7 +20219,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "窈窕淑女",
                 "explanation": "出自无名氏《诗经·关雎》，描写关关雎。",
-                "poemId": null,
+                "poemId": "sup_122",
                 "knowledgePoints": [
                         "关关雎",
                         "无名氏",
@@ -20238,7 +20238,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "霜叶红于二月花",
                 "explanation": "出自杜牧《山行》，赞美秋天红叶比春天鲜花更美丽。",
-                "poemId": null,
+                "poemId": "sup_156",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -20257,7 +20257,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遍插茱萸少一人",
                 "explanation": "出自王维《九月九日忆山东兄弟》，描写插茱。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "茱",
                         "王维",
@@ -20276,7 +20276,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "五十弦翻塞外声",
                 "explanation": "出自辛弃疾《破阵子·为陈同甫赋壮词以寄之》，描写八百里。",
-                "poemId": null,
+                "poemId": "sup_066",
                 "knowledgePoints": [
                         "八百里",
                         "辛弃疾",
@@ -20294,7 +20294,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "窈窕淑女",
                 "explanation": "出自无名氏《诗经·关雎》，描写参差。",
-                "poemId": null,
+                "poemId": "sup_122",
                 "knowledgePoints": [
                         "参差",
                         "无名氏",
@@ -20312,7 +20312,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻罗小扇扑流萤",
                 "explanation": "出自杜牧《秋夕》，描写秋天夜晚宫女扑萤的景象。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -20330,7 +20330,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "客舍青青柳色新",
                 "explanation": "出自王维《送元二使安西》，描写朝雨。",
-                "poemId": null,
+                "poemId": "sup_107",
                 "knowledgePoints": [
                         "朝雨",
                         "王维",
@@ -20348,7 +20348,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "弓如霹雳弦惊",
                 "explanation": "出自辛弃疾《破阵子·为陈同甫赋壮词以寄之》，描写马作。",
-                "poemId": null,
+                "poemId": "sup_285",
                 "knowledgePoints": [
                         "马作",
                         "辛弃疾",
@@ -20366,7 +20366,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寤寐思服",
                 "explanation": "出自无名氏《诗经·关雎》，描写求之不。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_003",
                 "knowledgePoints": [
                         "求之不",
                         "无名氏",
@@ -20385,7 +20385,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卧看牵牛织女星",
                 "explanation": "出自杜牧《秋夕》，描写宫女七夕夜看星星的景象。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -20403,7 +20403,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "西出阳关无故人",
                 "explanation": "出自王维《送元二使安西》，描写尽酒。",
-                "poemId": null,
+                "poemId": "sup_107",
                 "knowledgePoints": [
                         "酒",
                         "王维",
@@ -20421,7 +20421,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "赢得生前身后名",
                 "explanation": "出自辛弃疾《破阵子·为陈同甫赋壮词以寄之》，描写了却。",
-                "poemId": null,
+                "poemId": "sup_285",
                 "knowledgePoints": [
                         "了却",
                         "辛弃疾",
@@ -20439,7 +20439,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "辗转反侧",
                 "explanation": "出自无名氏《诗经·关雎》，描写悠哉。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_003",
                 "knowledgePoints": [
                         "悠哉",
                         "无名氏",
@@ -20457,7 +20457,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜泊秦淮近酒家",
                 "explanation": "出自杜牧《泊秦淮》，描写夜晚秦淮河的朦胧景象。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -20475,7 +20475,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "弹琴复长啸",
                 "explanation": "出自王维《竹里馆》，描写幽篁。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "幽篁",
                         "王维",
@@ -20494,7 +20494,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "赢得生前身后名",
                 "explanation": "出自辛弃疾《破阵子·为陈同甫赋壮词以寄之》，描写白发生。",
-                "poemId": null,
+                "poemId": "sup_285",
                 "knowledgePoints": [
                         "白发生",
                         "辛弃疾",
@@ -20512,7 +20512,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "窈窕淑女",
                 "explanation": "出自无名氏《诗经·关雎》，描写左右采。",
-                "poemId": null,
+                "poemId": "sup_122",
                 "knowledgePoints": [
                         "左右采",
                         "无名氏",
@@ -20530,7 +20530,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "隔江犹唱后庭花",
                 "explanation": "出自杜牧《泊秦淮》，讽刺当权者的腐败。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -20548,7 +20548,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "明月来相照",
                 "explanation": "出自王维《竹里馆》，描写深林。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "深林",
                         "王维",
@@ -20567,7 +20567,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "满城春色宫墙柳",
                 "explanation": "出自陆游《钗头凤》，描写红酥手。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_070",
                 "knowledgePoints": [
                         "红酥手",
                         "陆游",
@@ -20585,7 +20585,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "窈窕淑女",
                 "explanation": "出自无名氏《诗经·关雎》，描写左右芼。",
-                "poemId": null,
+                "poemId": "sup_122",
                 "knowledgePoints": [
                         "左右芼",
                         "无名氏",
@@ -20603,7 +20603,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自将磨洗认前朝",
                 "explanation": "出自杜牧《赤壁》，借古讽今，评论历史人物。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -20621,7 +20621,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是地上霜",
                 "explanation": "出自李白《静夜思》，描写明月光。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "月光",
                         "李白",
@@ -20639,7 +20639,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一怀愁绪",
                 "explanation": "出自陆游《钗头凤》，描写东风。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_070",
                 "knowledgePoints": [
                         "东风",
                         "陆游",
@@ -20657,7 +20657,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟花三月下扬州",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写故人西。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "故人西",
                         "李白",
@@ -20675,7 +20675,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "铜雀春深锁二乔",
                 "explanation": "出自杜牧《赤壁》，用假设手法评论赤壁之战。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "古诗默写",
                         "杜牧",
@@ -20693,7 +20693,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "低头思故乡",
                 "explanation": "出自李白《静夜思》，描写举头。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "举头",
                         "李白",
@@ -20711,7 +20711,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "泪痕红浥鲛绡透",
                 "explanation": "出自陆游《钗头凤》，描写春如旧。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_070",
                 "knowledgePoints": [
                         "春如旧",
                         "陆游",
@@ -20729,7 +20729,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不及汪伦送我情",
                 "explanation": "出自李白《赠汪伦》，描写桃花潭。",
-                "poemId": null,
+                "poemId": "sup_008",
                 "knowledgePoints": [
                         "桃花潭",
                         "李白",
@@ -20747,7 +20747,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "驱车登古原",
                 "explanation": "出自李商隐《登乐游原》，描写傍晚时分诗人心情不好而驾车出游。",
-                "poemId": null,
+                "poemId": "sup_320",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -20765,7 +20765,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "我言秋日胜春朝",
                 "explanation": "出自刘禹锡《秋词》，描写秋悲。",
-                "poemId": null,
+                "poemId": "sup_332",
                 "knowledgePoints": [
                         "秋悲",
                         "刘禹锡",
@@ -20783,7 +20783,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山盟虽在，锦书难托",
                 "explanation": "出自陆游《钗头凤》，描写桃花。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_070",
                 "knowledgePoints": [
                         "桃花",
                         "陆游",
@@ -20801,7 +20801,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "忽闻岸上踏歌声",
                 "explanation": "出自李白《赠汪伦》，描写李白乘。",
-                "poemId": null,
+                "poemId": "sup_008",
                 "knowledgePoints": [
                         "李白乘",
                         "李白",
@@ -20819,7 +20819,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "只是近黄昏",
                 "explanation": "出自李商隐《登乐游原》，表达诗人对美好晚景的留恋和人生迟暮的感慨。",
-                "poemId": null,
+                "poemId": "sup_320",
                 "knowledgePoints": [
                         "古诗默写",
                         "李商隐",
@@ -20837,7 +20837,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "便引诗情到碧霄",
                 "explanation": "出自刘禹锡《秋词》，描写鹤排。",
-                "poemId": null,
+                "poemId": "sup_332",
                 "knowledgePoints": [
                         "鹤",
                         "刘禹锡",
@@ -20855,7 +20855,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "凄凄惨惨戚戚",
                 "explanation": "出自李清照《声声慢》，描写寻寻觅觅。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "寻寻觅觅",
                         "李清照",
@@ -20873,7 +20873,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟花三月下扬州",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写烟花三。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "烟花三",
                         "李白",
@@ -20892,7 +20892,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "润物细无声",
                 "explanation": "出自杜甫《春夜喜雨》，描写春雨悄无声息地滋润万物的景象。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "春雨",
                         "杜甫",
@@ -20910,7 +20910,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻罗小扇扑流萤",
                 "explanation": "出自杜牧《秋夕》，描写秋光。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
                         "秋光",
                         "杜牧",
@@ -20928,7 +20928,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "最难将息",
                 "explanation": "出自李清照《声声慢》，描写乍暖。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "乍暖",
                         "李清照",
@@ -20946,7 +20946,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "杨花漫漫搅天飞",
                 "explanation": "出自贺知章《送别》，描写杨柳青。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_071",
                 "knowledgePoints": [
                         "杨柳青",
                         "贺知章",
@@ -20964,7 +20964,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻舟已过万重山",
                 "explanation": "出自李白《早发白帝城》，描写顺流而下船速极快的情景。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "长江",
                         "李白",
@@ -20982,7 +20982,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卧看牵牛织女星",
                 "explanation": "出自杜牧《秋夕》，描写夜色。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
                         "夜色",
                         "杜牧",
@@ -21000,7 +21000,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "怎敌他晚来风急",
                 "explanation": "出自李清照《声声慢》，描写三杯。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "三杯",
                         "李清照",
@@ -21018,7 +21018,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闻道龙标过五溪",
                 "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，描写闻道龙。",
-                "poemId": null,
+                "poemId": "sup_055",
                 "knowledgePoints": [
                         "闻道龙",
                         "李白",
@@ -21036,7 +21036,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "每逢佳节倍思亲",
                 "explanation": "出自王维《九月九日忆山东兄弟》，表达游子思乡之情。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "思乡",
                         "王维",
@@ -21054,7 +21054,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "霜叶红于二月花",
                 "explanation": "出自杜牧《山行》，描写枫林。",
-                "poemId": null,
+                "poemId": "sup_156",
                 "knowledgePoints": [
                         "枫林",
                         "杜牧",
@@ -21072,7 +21072,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "憔悴损",
                 "explanation": "出自李清照《声声慢》，描写满地。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "满地",
                         "李清照",
@@ -21090,7 +21090,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随风直到夜郎西",
                 "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，描写随风直。",
-                "poemId": null,
+                "poemId": "sup_055",
                 "knowledgePoints": [
                         "随风直",
                         "李白",
@@ -21109,7 +21109,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更上一层楼",
                 "explanation": "出自王之涣《登鹳雀楼》，表达积极向上的精神。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "哲理",
                         "王之涣",
@@ -21128,7 +21128,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云生处有人家",
                 "explanation": "出自杜牧《山行》，描写寒山。",
-                "poemId": null,
+                "poemId": "sup_156",
                 "knowledgePoints": [
                         "寒山",
                         "杜牧",
@@ -21146,7 +21146,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独自怎生得黑",
                 "explanation": "出自李清照《声声慢》，描写守着窗儿。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "守着窗儿",
                         "李清照",
@@ -21181,7 +21181,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不破楼兰终不还",
                 "explanation": "出自王昌龄《从军行》，表达将士誓死杀敌的决心。",
-                "poemId": null,
+                "poemId": "sup_012",
                 "knowledgePoints": [
                         "边塞",
                         "王昌龄",
@@ -21199,7 +21199,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路上行人欲断魂",
                 "explanation": "出自杜牧《清明》，描写清明。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "清明",
                         "杜牧",
@@ -21217,7 +21217,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "到黄昏、点点滴滴",
                 "explanation": "出自李清照《声声慢》，描写梧桐。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "梧桐",
                         "李清照",
@@ -21252,7 +21252,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "羌笛何须怨杨柳",
                 "explanation": "出自王之涣《凉州词》，表达边塞生活的艰苦。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "边塞",
                         "王之涣",
@@ -21270,7 +21270,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牧童遥指杏花村",
                 "explanation": "出自杜牧《清明》，描写酒家。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "酒家",
                         "杜牧",
@@ -21288,7 +21288,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "抬望眼",
                 "explanation": "出自岳飞《满江红》，描写怒发。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "怒发",
                         "岳飞",
@@ -21323,7 +21323,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不教胡马度阴山",
                 "explanation": "出自王昌龄《出塞》，表达诗人渴望良将守边的情怀。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "边塞",
                         "王昌龄",
@@ -21341,7 +21341,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云生结海楼",
                 "explanation": "出自李白《渡荆门送别》，描写月下。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "月下",
                         "李白",
@@ -21360,7 +21360,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "八千里路云和月",
                 "explanation": "出自岳飞《满江红》，描写三十功名。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "三十功名",
                         "岳飞",
@@ -21395,7 +21395,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里长征人未还",
                 "explanation": "出自王昌龄《出塞》，感叹边塞战争的频繁。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "边塞",
                         "王昌龄",
@@ -21413,7 +21413,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江入大荒流",
                 "explanation": "出自李白《渡荆门送别》，描写平野。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "平野",
                         "李白",
@@ -21432,7 +21432,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白了少年头",
                 "explanation": "出自岳飞《满江红》，描写莫等闲。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "莫等闲",
                         "岳飞",
@@ -21467,7 +21467,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "洛阳亲友如相问",
                 "explanation": "出自王昌龄《芙蓉楼送辛渐》，表达诗人高洁的品格。",
-                "poemId": null,
+                "poemId": "sup_312",
                 "knowledgePoints": [
                         "送别",
                         "王昌龄",
@@ -21485,7 +21485,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里送行舟",
                 "explanation": "出自李白《渡荆门送别》，描写故乡水。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "水",
                         "李白",
@@ -21504,7 +21504,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何时灭",
                 "explanation": "出自岳飞《满江红》，描写靖康耻。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "靖康耻",
                         "岳飞",
@@ -21539,7 +21539,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一片冰心在玉壶",
                 "explanation": "出自王昌龄《芙蓉楼送辛渐》，表达诗人高洁的品格。",
-                "poemId": null,
+                "poemId": "sup_312",
                 "knowledgePoints": [
                         "送别",
                         "王昌龄",
@@ -21557,7 +21557,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "来从楚国游",
                 "explanation": "出自李白《渡荆门送别》，描写渡远。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "渡远",
                         "李白",
@@ -21576,7 +21576,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "笑谈渴饮匈奴血",
                 "explanation": "出自岳飞《满江红》，描写壮志。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "壮志",
                         "岳飞",
@@ -21611,7 +21611,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "六朝如梦鸟空啼",
                 "explanation": "出自韦庄《台城》，描写台城春景，感叹六朝繁华如梦。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_074",
                 "knowledgePoints": [
                         "怀古",
                         "韦庄",
@@ -21629,7 +21629,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤蓬万里征",
                 "explanation": "出自李白《送友人》，描写为别。",
-                "poemId": null,
+                "poemId": "sup_121",
                 "knowledgePoints": [
                         "别",
                         "李白",
@@ -21647,7 +21647,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "抬望眼、仰天长啸，壮怀激烈",
                 "explanation": "出自岳飞《满江红》，描写怒发冲冠。",
-                "poemId": null,
+                "poemId": "sup_305",
                 "knowledgePoints": [
                         "怒发冲冠",
                         "岳飞",
@@ -21682,7 +21682,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写诗人夜泊枫桥的愁绪。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "秋夜",
                         "张继",
@@ -21700,7 +21700,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "落日故人情",
                 "explanation": "出自李白《送友人》，描写浮云。",
-                "poemId": null,
+                "poemId": "sup_121",
                 "knowledgePoints": [
                         "浮云",
                         "李白",
@@ -21718,7 +21718,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "空悲切",
                 "explanation": "出自岳飞《满江红》，描写莫等闲。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "莫等闲",
                         "岳飞",
@@ -21753,7 +21753,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春来江水绿如蓝",
                 "explanation": "出自白居易《忆江南》，描写江南春天的美景。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "春天",
                         "白居易",
@@ -21772,7 +21772,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "萧萧班马鸣",
                 "explanation": "出自李白《送友人》，描写挥手。",
-                "poemId": null,
+                "poemId": "sup_121",
                 "knowledgePoints": [
                         "挥手",
                         "李白",
@@ -21790,7 +21790,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "靖康耻",
                 "explanation": "出自岳飞《满江红》，描写靖康耻。",
-                "poemId": null,
+                "poemId": "sup_144",
                 "knowledgePoints": [
                         "靖康耻",
                         "岳飞",
@@ -21825,7 +21825,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一岁一枯荣",
                 "explanation": "出自白居易《草》，描写野草的生命周期。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "草",
                         "白居易",
@@ -21843,7 +21843,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白水绕东城",
                 "explanation": "出自李白《送友人》，描写青山。",
-                "poemId": null,
+                "poemId": "sup_121",
                 "knowledgePoints": [
                         "青山",
                         "李白",
@@ -21861,7 +21861,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "留取丹心照汗青",
                 "explanation": "出自文天祥《过零丁洋》，描写人生。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "人生",
                         "文天祥",
@@ -21879,7 +21879,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山岛竦峙",
                 "explanation": "出自观沧海。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "初一",
                         "观沧海"
@@ -21895,7 +21895,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风吹又生",
                 "explanation": "出自白居易《草》，表达生命的顽强。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "草",
                         "白居易",
@@ -21913,7 +21913,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衡阳雁去无留意",
                 "explanation": "出自范仲淹《渔家傲》，描写秋来。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "秋来",
                         "范仲淹",
@@ -21931,7 +21931,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "干戈寥落四周星",
                 "explanation": "出自文天祥《过零丁洋》，描写辛苦。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "辛苦",
                         "文天祥",
@@ -21949,7 +21949,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "秋风萧瑟",
                 "explanation": "出自观沧海。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "初一",
                         "观沧海"
@@ -21965,7 +21965,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "呼作白玉盘",
                 "explanation": "出自李白《古朗月行》，描写月亮。",
-                "poemId": null,
+                "poemId": "sup_051",
                 "knowledgePoints": [
                         "月亮",
                         "李白",
@@ -21984,7 +21984,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千嶂里，长烟落日孤城闭",
                 "explanation": "出自范仲淹《渔家傲》，描写边声。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "边声",
                         "范仲淹",
@@ -22002,7 +22002,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "身世浮沉雨打萍",
                 "explanation": "出自文天祥《过零丁洋》，描写山河。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "山河",
                         "文天祥",
@@ -22020,7 +22020,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "星汉灿烂",
                 "explanation": "出自观沧海。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "初一",
                         "观沧海"
@@ -22037,7 +22037,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江清月近人",
                 "explanation": "出自孟浩然《宿建德江》，描写秋夜。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "秋天",
                         "孟浩然",
@@ -22056,7 +22056,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "燕然未勒归无计",
                 "explanation": "出自范仲淹《渔家傲》，描写浊酒一杯。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "酒",
                         "范仲淹",
@@ -22074,7 +22074,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "零丁洋里叹零丁",
                 "explanation": "出自文天祥《过零丁洋》，描写惶恐滩。",
-                "poemId": null,
+                "poemId": "sup_070",
                 "knowledgePoints": [
                         "惶恐滩",
                         "文天祥",
@@ -22092,7 +22092,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潮平两岸阔",
                 "explanation": "出自次北固山下。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "初一",
                         "次北固山下"
@@ -22109,7 +22109,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青云动高兴",
                 "explanation": "出自李白《南陵别儿童入京》，描写景象。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_038",
                 "knowledgePoints": [
                         "景色",
                         "李白",
@@ -22127,7 +22127,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "人不寐，将军白发征夫泪",
                 "explanation": "出自范仲淹《渔家傲》，描写羌管。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "羌管",
                         "范仲淹",
@@ -22145,7 +22145,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "蜡炬成灰泪始干",
                 "explanation": "出自李商隐《无题》，描写春蚕。",
-                "poemId": null,
+                "poemId": "sup_060",
                 "knowledgePoints": [
                         "春蚕",
                         "李商隐",
@@ -22163,7 +22163,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江春入旧年",
                 "explanation": "出自次北固山下。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "初一",
                         "次北固山下"
@@ -22180,7 +22180,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风拂槛露华浓",
                 "explanation": "出自李白《清平调》，描写美女。",
-                "poemId": null,
+                "poemId": "sup_171",
                 "knowledgePoints": [
                         "美女",
                         "李白",
@@ -22199,7 +22199,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "丰年留客足鸡豚",
                 "explanation": "出自陆游《游山西村》，描写农家。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "农家",
                         "陆游",
@@ -22218,7 +22218,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "东风无力百花残",
                 "explanation": "出自李商隐《无题》，描写相见。",
-                "poemId": null,
+                "poemId": "sup_060",
                 "knowledgePoints": [
                         "相见",
                         "李商隐",
@@ -22236,7 +22236,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "谁家新燕啄春泥",
                 "explanation": "出自钱塘湖春行。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "初一",
                         "钱塘湖春行"
@@ -22252,7 +22252,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "可怜飞燕倚新妆",
                 "explanation": "出自李白《清平调》，描写美女。",
-                "poemId": null,
+                "poemId": "sup_171",
                 "knowledgePoints": [
                         "美女",
                         "李白",
@@ -22270,7 +22270,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "柳暗花明又一村",
                 "explanation": "出自陆游《游山西村》，描写水复。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "水复",
                         "陆游",
@@ -22289,7 +22289,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜吟应觉月光寒",
                 "explanation": "出自李商隐《无题》，描写晓镜。",
-                "poemId": null,
+                "poemId": "sup_060",
                 "knowledgePoints": [
                         "晓镜",
                         "李商隐",
@@ -22307,7 +22307,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浅草才能没马蹄",
                 "explanation": "出自钱塘湖春行。",
-                "poemId": null,
+                "poemId": "sup_131",
                 "knowledgePoints": [
                         "初一",
                         "钱塘湖春行"
@@ -22323,7 +22323,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云雨巫山枉断肠",
                 "explanation": "出自李白《清平调》，描写花卉。",
-                "poemId": null,
+                "poemId": "sup_171",
                 "knowledgePoints": [
                         "花卉",
                         "李白",
@@ -22341,7 +22341,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衣冠简朴古风存",
                 "explanation": "出自陆游《游山西村》，描写春社。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "春社",
                         "陆游",
@@ -22359,7 +22359,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青鸟殷勤为探看",
                 "explanation": "出自李商隐《无题》，描写蓬山。",
-                "poemId": null,
+                "poemId": "sup_060",
                 "knowledgePoints": [
                         "蓬山",
                         "李商隐",
@@ -22377,7 +22377,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绿杨阴里白沙堤",
                 "explanation": "出自钱塘湖春行。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "初一",
                         "钱塘湖春行"
@@ -22393,7 +22393,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "常得君王带笑看",
                 "explanation": "出自李白《清平调》，描写名花。",
-                "poemId": null,
+                "poemId": "sup_171",
                 "knowledgePoints": [
                         "名花",
                         "李白",
@@ -22411,7 +22411,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "拄杖无时夜叩门",
                 "explanation": "出自陆游《游山西村》，描写闲乘月。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "月",
                         "陆游",
@@ -22429,7 +22429,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衡阳雁去无留意",
                 "explanation": "出自范仲淹《渔家傲·秋思》，描写塞下。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "塞下",
                         "范仲淹",
@@ -22447,7 +22447,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "听取蛙声一片",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -22463,7 +22463,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沈香亭北倚阑干",
                 "explanation": "出自李白《清平调》，描写阑干。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_039",
                 "knowledgePoints": [
                         "阑干",
                         "李白",
@@ -22481,7 +22481,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "尚思为国戍轮台",
                 "explanation": "出自陆游《十一月四日风雨大作》，描写孤村。",
-                "poemId": null,
+                "poemId": "sup_318",
                 "knowledgePoints": [
                         "孤村",
                         "陆游",
@@ -22499,7 +22499,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千嶂里，长烟落日孤城闭",
                 "explanation": "出自范仲淹《渔家傲·秋思》，描写四面边声。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "四面边声",
                         "范仲淹",
@@ -22517,7 +22517,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "听取蛙声一片",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -22533,7 +22533,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "笑而不答心自闲",
                 "explanation": "出自李白《山中问答》，描写山居。",
-                "poemId": null,
+                "poemId": "sup_323",
                 "knowledgePoints": [
                         "山",
                         "李白",
@@ -22551,7 +22551,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "铁马冰河入梦来",
                 "explanation": "出自陆游《十一月四日风雨大作》，描写风吹雨。",
-                "poemId": null,
+                "poemId": "sup_318",
                 "knowledgePoints": [
                         "雨",
                         "陆游",
@@ -22569,7 +22569,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "燕然未勒归无计",
                 "explanation": "出自范仲淹《渔家傲·秋思》，描写浊酒。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "浊酒",
                         "范仲淹",
@@ -22587,7 +22587,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两三点雨山前",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -22603,7 +22603,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "别有天地非人间",
                 "explanation": "出自李白《山中问答》，描写仙境。",
-                "poemId": null,
+                "poemId": "sup_323",
                 "knowledgePoints": [
                         "仙境",
                         "李白",
@@ -22621,7 +22621,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "征蓬出汉塞",
                 "explanation": "出自王维《使至塞上》，描写单车。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "单车",
                         "王维",
@@ -22639,7 +22639,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "人不寐",
                 "explanation": "出自范仲淹《渔家傲·秋思》，描写羌管。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "羌管",
                         "范仲淹",
@@ -22657,7 +22657,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路转溪桥忽见",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -22673,7 +22673,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是地上霜",
                 "explanation": "出自李白《静夜思》，描写月光。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "月光",
                         "李白",
@@ -22692,7 +22692,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写大漠。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "大漠",
                         "王维",
@@ -22711,7 +22711,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小桥流水人家",
                 "explanation": "出自马致远《天净沙·秋思》，描写小桥。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "小桥",
                         "马致远",
@@ -22729,7 +22729,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "古道西风瘦马",
                 "explanation": "出自天净沙·秋思。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "初一",
                         "天净沙·秋思"
@@ -22745,7 +22745,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "低头思故乡",
                 "explanation": "出自李白《静夜思》，描写思乡。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "思乡",
                         "李白",
@@ -22764,7 +22764,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "征蓬出汉塞",
                 "explanation": "出自王维《使至塞上》，描写归雁。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "归雁",
                         "王维",
@@ -22783,7 +22783,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夕阳西下",
                 "explanation": "出自马致远《天净沙·秋思》，描写夕阳西。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "夕阳西",
                         "马致远",
@@ -22801,7 +22801,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "断肠人在天涯",
                 "explanation": "出自天净沙·秋思。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "初一",
                         "天净沙·秋思"
@@ -22818,7 +22818,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里江陵一日还",
                 "explanation": "出自李白《早发白帝城》，描写船速。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "船",
                         "李白",
@@ -22837,7 +22837,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月照花林皆似霰",
                 "explanation": "出自张若虚《春江花月夜》，描写江流。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "江流",
                         "张若虚",
@@ -22855,7 +22855,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "把酒问青天",
                 "explanation": "出自苏轼《水调歌头》，描写把酒问。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "把酒问",
                         "苏轼",
@@ -22874,7 +22874,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "应知故乡事",
                 "explanation": "出自杂诗。",
-                "poemId": null,
+                "poemId": "sup_048",
                 "knowledgePoints": [
                         "初一",
                         "杂诗"
@@ -22890,7 +22890,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻舟已过万重山",
                 "explanation": "出自李白《早发白帝城》，描写船行。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "船",
                         "李白",
@@ -22909,7 +22909,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "汀上白沙看不见",
                 "explanation": "出自张若虚《春江花月夜》，描写流霜。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "流霜",
                         "张若虚",
@@ -22927,7 +22927,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "又恐琼楼玉宇",
                 "explanation": "出自苏轼《水调歌头》，描写恐琼楼。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "恐琼楼",
                         "苏轼",
@@ -22946,7 +22946,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒梅著花未",
                 "explanation": "出自杂诗。",
-                "poemId": null,
+                "poemId": "sup_048",
                 "knowledgePoints": [
                         "初一",
                         "杂诗"
@@ -22962,7 +22962,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遥看瀑布挂前川",
                 "explanation": "出自李白《望庐山瀑布》，描写瀑布。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "瀑布",
                         "李白",
@@ -22981,7 +22981,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "皎皎空中孤月轮",
                 "explanation": "出自张若虚《春江花月夜》，描写江天。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "江天",
                         "张若虚",
@@ -23000,7 +23000,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何似在人间",
                 "explanation": "出自苏轼《水调歌头》，描写何似。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "何似",
                         "苏轼",
@@ -23019,7 +23019,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不闻机杼声",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_127",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23035,7 +23035,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是银河落九天",
                 "explanation": "出自李白《望庐山瀑布》，描写瀑布。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "瀑布",
                         "李白",
@@ -23054,7 +23054,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江月何年初照人",
                 "explanation": "出自张若虚《春江花月夜》，描写江畔。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "江畔",
                         "张若虚",
@@ -23072,7 +23072,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二十三年弃置身",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写巴山。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "巴山",
                         "刘禹锡",
@@ -23091,7 +23091,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "问女何所忆",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23107,7 +23107,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟花三月下扬州",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写送别。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "送别",
                         "李白",
@@ -23126,7 +23126,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江月年年望相似",
                 "explanation": "出自张若虚《春江花月夜》，描写人生。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "人生",
                         "张若虚",
@@ -23145,7 +23145,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "到乡翻似烂柯人",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写怀旧。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "怀旧",
                         "刘禹锡",
@@ -23164,7 +23164,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卷卷有爷名",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23180,7 +23180,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云千载空悠悠",
                 "explanation": "出自崔颢《黄鹤楼》，描写黄鹤楼。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "黄鹤楼",
                         "崔颢",
@@ -23199,7 +23199,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "落月摇情满江树",
                 "explanation": "出自张若虚《春江花月夜》，描写乘月。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "乘月",
                         "张若虚",
@@ -23218,7 +23218,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "病树前头万木春",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写沉舟。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "沉舟",
                         "刘禹锡",
@@ -23237,7 +23237,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "愿为市鞍马",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23253,7 +23253,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "芳草萋萋鹦鹉洲",
                 "explanation": "出自崔颢《黄鹤楼》，描写景色。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "景色",
                         "崔颢",
@@ -23272,7 +23272,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "海上明月共潮生",
                 "explanation": "出自张若虚《春江花月夜》，描写春江潮。",
-                "poemId": null,
+                "poemId": "sup_291",
                 "knowledgePoints": [
                         "潮",
                         "张若虚",
@@ -23291,7 +23291,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "暂凭杯酒长精神",
                 "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，描写听君。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "听君",
                         "刘禹锡",
@@ -23310,7 +23310,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北市买长鞭",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23326,7 +23326,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟波江上使人愁",
                 "explanation": "出自崔颢《黄鹤楼》，描写乡愁。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "乡愁",
                         "崔颢",
@@ -23345,7 +23345,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟花三月下扬州",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写西辞。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "西辞",
                         "李白",
@@ -23364,7 +23364,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潭面无风镜未磨",
                 "explanation": "出自刘禹锡《望洞庭》，描写湖光。",
-                "poemId": null,
+                "poemId": "sup_033",
                 "knowledgePoints": [
                         "湖光",
                         "刘禹锡",
@@ -23382,7 +23382,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不闻爷娘唤女声",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23398,7 +23398,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "唯见长江天际流",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写长江。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "长江",
                         "李白",
@@ -23416,7 +23416,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白银盘里一青螺",
                 "explanation": "出自刘禹锡《望洞庭》，描写遥望。",
-                "poemId": null,
+                "poemId": "sup_033",
                 "knowledgePoints": [
                         "遥望",
                         "刘禹锡",
@@ -23434,7 +23434,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不闻爷娘唤女声",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23450,7 +23450,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "碧水东流至此回",
                 "explanation": "出自李白《望天门山》，描写碧水。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "碧水",
                         "李白",
@@ -23469,7 +23469,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "我言秋日胜春朝",
                 "explanation": "出自刘禹锡《秋词》，描写逢秋。",
-                "poemId": null,
+                "poemId": "sup_332",
                 "knowledgePoints": [
                         "逢秋",
                         "刘禹锡",
@@ -23487,7 +23487,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "关山度若飞",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23503,7 +23503,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤帆一片日边来",
                 "explanation": "出自李白《望天门山》，描写日边。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "日边",
                         "李白",
@@ -23522,7 +23522,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "便引诗情到碧霄",
                 "explanation": "出自刘禹锡《秋词》，描写晴空。",
-                "poemId": null,
+                "poemId": "sup_332",
                 "knowledgePoints": [
                         "晴空",
                         "刘禹锡",
@@ -23540,7 +23540,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒光照铁衣",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23556,7 +23556,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "影入平羌江水流",
                 "explanation": "出自李白《峨眉山月歌》，描写峨眉。",
-                "poemId": null,
+                "poemId": "sup_034",
                 "knowledgePoints": [
                         "峨眉",
                         "李白",
@@ -23574,7 +23574,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自将磨洗认前朝",
                 "explanation": "出自杜牧《赤壁》，描写折戟沉。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "折戟沉",
                         "杜牧",
@@ -23592,7 +23592,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "壮士十年归",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23625,7 +23625,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "井床",
                 "explanation": "床指井床，是井口的围栏。",
-                "poemId": null,
+                "poemId": "poem_006",
                 "knowledgePoints": [
                         "床",
                         "李白",
@@ -23644,7 +23644,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "思君不见下渝州",
                 "explanation": "出自李白《峨眉山月歌》，描写清溪。",
-                "poemId": null,
+                "poemId": "sup_034",
                 "knowledgePoints": [
                         "清溪",
                         "李白",
@@ -23662,7 +23662,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "铜雀春深锁二乔",
                 "explanation": "出自杜牧《赤壁》，描写东风不。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "东风不",
                         "杜牧",
@@ -23680,7 +23680,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "策勋十二转",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23713,7 +23713,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "庐山",
                 "explanation": "诗题即为《望庐山瀑布》。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "地点",
                         "李白",
@@ -23732,7 +23732,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "散入春风满洛城",
                 "explanation": "出自李白《春夜洛城闻笛》，描写玉笛。",
-                "poemId": null,
+                "poemId": "sup_035",
                 "knowledgePoints": [
                         "玉笛",
                         "李白",
@@ -23750,7 +23750,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路上行人欲断魂",
                 "explanation": "出自杜牧《清明》，描写雨纷纷。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "雨纷纷",
                         "杜牧",
@@ -23768,7 +23768,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "送儿还故乡",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23801,7 +23801,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "中举时",
                 "explanation": "出自《登科后》，诗人进士及第后所作。",
-                "poemId": null,
+                "poemId": "sup_166",
                 "knowledgePoints": [
                         "喜悦",
                         "孟郊",
@@ -23820,7 +23820,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何人不起故园情",
                 "explanation": "出自李白《春夜洛城闻笛》，描写折柳。",
-                "poemId": null,
+                "poemId": "sup_035",
                 "knowledgePoints": [
                         "折柳",
                         "李白",
@@ -23838,7 +23838,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牧童遥指杏花村",
                 "explanation": "出自杜牧《清明》，描写借问酒。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "借问酒",
                         "杜牧",
@@ -23856,7 +23856,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "阿姊闻妹来",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23872,7 +23872,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写冬景。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "冬天",
                         "柳宗元",
@@ -23891,7 +23891,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独酌无相亲",
                 "explanation": "出自李白《月下独酌》，描写花间。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_075",
                 "knowledgePoints": [
                         "花间",
                         "李白",
@@ -23909,7 +23909,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水村山郭酒旗风",
                 "explanation": "出自杜牧《江南春》，描写千里莺。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "千里莺",
                         "杜牧",
@@ -23927,7 +23927,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "双兔傍地走，安能辨我是雄雌",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -23943,7 +23943,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独钓寒江雪",
                 "explanation": "出自柳宗元《江雪》，描写渔翁。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "渔翁",
                         "柳宗元",
@@ -23961,7 +23961,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "对影成三人",
                 "explanation": "出自李白《月下独酌》，描写邀月。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_075",
                 "knowledgePoints": [
                         "邀月",
                         "李白",
@@ -23979,7 +23979,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "多少楼台烟雨中",
                 "explanation": "出自杜牧《江南春》，描写四百八。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "四百八",
                         "杜牧",
@@ -23997,7 +23997,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "商女不知亡国恨",
                 "explanation": "出自泊秦淮。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "初一",
                         "泊秦淮"
@@ -24013,7 +24013,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一行白鹭上青天",
                 "explanation": "出自杜甫《绝句》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "春天",
                         "杜甫",
@@ -24032,7 +24032,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "影徒随我身",
                 "explanation": "出自李白《月下独酌》，描写月既。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_075",
                 "knowledgePoints": [
                         "月",
                         "李白",
@@ -24050,7 +24050,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "草色遥看近却无",
                 "explanation": "出自韩愈《早春呈水部张十八员外》，描写天街。",
-                "poemId": null,
+                "poemId": "sup_221",
                 "knowledgePoints": [
                         "天街",
                         "韩愈",
@@ -24068,7 +24068,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山重水复疑无路",
                 "explanation": "出自游山西村。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "初一",
                         "游山西村"
@@ -24084,7 +24084,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "门泊东吴万里船",
                 "explanation": "出自杜甫《绝句》，描写雪山。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "雪山",
                         "杜甫",
@@ -24102,7 +24102,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "行乐须及春",
                 "explanation": "出自李白《月下独酌》，描写月将。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_075",
                 "knowledgePoints": [
                         "月将",
                         "李白",
@@ -24120,7 +24120,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绝胜烟柳满皇都",
                 "explanation": "出自韩愈《早春呈水部张十八员外》，描写最是一年。",
-                "poemId": null,
+                "poemId": "sup_221",
                 "knowledgePoints": [
                         "最是一年",
                         "韩愈",
@@ -24138,7 +24138,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衣冠简朴古风存",
                 "explanation": "出自游山西村。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "初一",
                         "游山西村"
@@ -24155,7 +24155,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沙暖睡鸳鸯",
                 "explanation": "出自杜甫《绝句》，描写春燕。",
-                "poemId": null,
+                "poemId": "sup_353",
                 "knowledgePoints": [
                         "燕子",
                         "杜甫",
@@ -24174,7 +24174,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "高卧沙丘城",
                 "explanation": "出自苏轼《书戴贯货》，描写我来。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_037",
                 "knowledgePoints": [
                         "我来",
                         "苏轼",
@@ -24192,7 +24192,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "雪拥蓝关马不前",
                 "explanation": "出自韩愈《左迁至蓝关示侄孙湘》，描写云横。",
-                "poemId": null,
+                "poemId": "sup_182",
                 "knowledgePoints": [
                         "云横",
                         "韩愈",
@@ -24210,7 +24210,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牙璋辞凤阙",
                 "explanation": "出自从军行。",
-                "poemId": null,
+                "poemId": "sup_346",
                 "knowledgePoints": [
                         "初一",
                         "从军行"
@@ -24226,7 +24226,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "桃花流水鳜鱼肥",
                 "explanation": "出自张志和《渔歌子》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_218",
                 "knowledgePoints": [
                         "春天",
                         "张志和",
@@ -24245,7 +24245,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更值悲秋强遣情",
                 "explanation": "出自苏轼《书戴贯货》，描写遗响。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_150",
                 "knowledgePoints": [
                         "遗响",
                         "苏轼",
@@ -24263,7 +24263,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "好收吾骨瘴江边",
                 "explanation": "出自韩愈《左迁至蓝关示侄孙湘》，描写知汝。",
-                "poemId": null,
+                "poemId": "sup_182",
                 "knowledgePoints": [
                         "知汝",
                         "韩愈",
@@ -24281,7 +24281,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长烟落日孤城闭",
                 "explanation": "出自渔家傲。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "初一",
                         "渔家傲"
@@ -24297,7 +24297,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "斜风细雨不须归",
                 "explanation": "出自张志和《渔歌子》，描写渔翁。",
-                "poemId": null,
+                "poemId": "sup_218",
                 "knowledgePoints": [
                         "渔翁",
                         "张志和",
@@ -24315,7 +24315,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "丰年留客足鸡豚",
                 "explanation": "出自陆游《游山西村》，描写农家腊。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "腊酒",
                         "陆游",
@@ -24334,7 +24334,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天气晚来秋",
                 "explanation": "出自王维《山居秋暝》，描写空山新。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "空山新",
                         "王维",
@@ -24352,7 +24352,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "燕然未勒归无计",
                 "explanation": "出自渔家傲。",
-                "poemId": null,
+                "poemId": "sup_041",
                 "knowledgePoints": [
                         "初一",
                         "渔家傲"
@@ -24368,7 +24368,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春来江水绿如蓝",
                 "explanation": "出自白居易《忆江南》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "春天",
                         "白居易",
@@ -24387,7 +24387,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "柳暗花明又一村",
                 "explanation": "出自陆游《游山西村》，描写山重水。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "山重",
                         "陆游",
@@ -24406,7 +24406,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清泉石上流",
                 "explanation": "出自王维《山居秋暝》，描写明月松。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "明月松",
                         "王维",
@@ -24424,7 +24424,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何妨吟啸且徐行",
                 "explanation": "出自定风波。",
-                "poemId": null,
+                "poemId": "sup_135",
                 "knowledgePoints": [
                         "初一",
                         "定风波"
@@ -24440,7 +24440,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二月初惊见草芽",
                 "explanation": "出自韩愈《春雪》，描写春雪。",
-                "poemId": null,
+                "poemId": "sup_333",
                 "knowledgePoints": [
                         "春雪",
                         "韩愈",
@@ -24458,7 +24458,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤城遥望玉门关",
                 "explanation": "出自王昌龄《从军行》，描写青海。",
-                "poemId": null,
+                "poemId": "sup_012",
                 "knowledgePoints": [
                         "青海",
                         "王昌龄",
@@ -24477,7 +24477,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莲动下渔舟",
                 "explanation": "出自王维《山居秋暝》，描写竹喧归。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "竹喧归",
                         "王维",
@@ -24496,7 +24496,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一蓑烟雨任平生",
                 "explanation": "出自定风波。",
-                "poemId": null,
+                "poemId": "sup_135",
                 "knowledgePoints": [
                         "初一",
                         "定风波"
@@ -24512,7 +24512,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "故穿庭树作飞花",
                 "explanation": "出自韩愈《春雪》，描写飞雪。",
-                "poemId": null,
+                "poemId": "sup_333",
                 "knowledgePoints": [
                         "飞雪",
                         "韩愈",
@@ -24530,7 +24530,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不破楼兰终不还",
                 "explanation": "出自王昌龄《从军行》，描写黄沙。",
-                "poemId": null,
+                "poemId": "sup_012",
                 "knowledgePoints": [
                         "黄沙",
                         "王昌龄",
@@ -24549,7 +24549,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "王孙自可留",
                 "explanation": "出自王维《山居秋暝》，描写随意春。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "随意春",
                         "王维",
@@ -24567,7 +24567,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "也无风雨也无晴",
                 "explanation": "出自定风波。",
-                "poemId": null,
+                "poemId": "sup_135",
                 "knowledgePoints": [
                         "初一",
                         "定风波"
@@ -24583,7 +24583,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "百般红紫斗芳菲",
                 "explanation": "出自韩愈《晚春》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_334",
                 "knowledgePoints": [
                         "春天",
                         "韩愈",
@@ -24601,7 +24601,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "窈窕淑女",
                 "explanation": "出自无名氏《诗经·关雎》，描写窈窕。",
-                "poemId": null,
+                "poemId": "sup_122",
                 "knowledgePoints": [
                         "窈窕",
                         "无名氏",
@@ -24619,7 +24619,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "星如雨",
                 "explanation": "出自青玉案·元夕。",
-                "poemId": null,
+                "poemId": "sup_373",
                 "knowledgePoints": [
                         "初一",
                         "青玉案·元夕"
@@ -24635,7 +24635,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "惟解漫天作雪飞",
                 "explanation": "出自韩愈《晚春》，描写柳絮。",
-                "poemId": null,
+                "poemId": "sup_334",
                 "knowledgePoints": [
                         "柳絮",
                         "韩愈",
@@ -24653,7 +24653,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白露为霜",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写白露为。",
-                "poemId": null,
+                "poemId": "sup_123",
                 "knowledgePoints": [
                         "白露为",
                         "无名氏",
@@ -24671,7 +24671,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "那人却在，灯火阑珊处",
                 "explanation": "出自青玉案·元夕。",
-                "poemId": null,
+                "poemId": "sup_373",
                 "knowledgePoints": [
                         "初一",
                         "青玉案·元夕"
@@ -24687,7 +24687,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山寺桃花始盛开",
                 "explanation": "出自白居易《大林寺桃花》，描写桃花。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_022",
                 "knowledgePoints": [
                         "桃花",
                         "白居易",
@@ -24705,7 +24705,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里长征人未还",
                 "explanation": "出自王昌龄《出塞》，描写秦时。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "秦时",
                         "王昌龄",
@@ -24724,7 +24724,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寤寐思服",
                 "explanation": "出自无名氏《诗经·关雎》，描写寤寐。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_003",
                 "knowledgePoints": [
                         "寤寐",
                         "无名氏",
@@ -24742,7 +24742,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "为赋新词强说愁",
                 "explanation": "出自丑奴儿。",
-                "poemId": null,
+                "poemId": "sup_067",
                 "knowledgePoints": [
                         "初一",
                         "丑奴儿"
@@ -24758,7 +24758,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不知转入此中来",
                 "explanation": "出自白居易《大林寺桃花》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_022",
                 "knowledgePoints": [
                         "春天",
                         "白居易",
@@ -24776,7 +24776,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不教胡马度阴山",
                 "explanation": "出自王昌龄《出塞》，描写龙城。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "龙城",
                         "王昌龄",
@@ -24795,7 +24795,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "溯洄从之，道阻且右",
                 "explanation": "出自无名氏《诗经·蒹葭》，描写在水之。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_002",
                 "knowledgePoints": [
                         "在水之",
                         "无名氏",
@@ -24848,7 +24848,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "战罢沙场月色寒",
                 "explanation": "出自王昌龄《出塞》，描写骝马。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_035",
                 "knowledgePoints": [
                         "骝马",
                         "王昌龄",
@@ -24866,7 +24866,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "窈窕淑女",
                 "explanation": "出自无名氏《诗经》，描写君子好。",
-                "poemId": null,
+                "poemId": "sup_122",
                 "knowledgePoints": [
                         "君子好",
                         "无名氏",
@@ -24884,7 +24884,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山随平野尽",
                 "explanation": "出自渡荆门送别。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "初一",
                         "渡荆门送别"
@@ -24900,7 +24900,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "三十六涤荡",
                 "explanation": "出自孟郊《寓言》，描写风。",
-                "poemId": null,
+                "poemId": "sup_395",
                 "knowledgePoints": [
                         "风",
                         "孟郊",
@@ -24918,7 +24918,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "匣里金刀血未干",
                 "explanation": "出自王昌龄《出塞》，描写城头。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_035",
                 "knowledgePoints": [
                         "城头",
                         "王昌龄",
@@ -24936,7 +24936,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "所谓伊人",
                 "explanation": "出自无名氏《诗经》，描写所谓伊人。",
-                "poemId": null,
+                "poemId": "sup_123",
                 "knowledgePoints": [
                         "所谓伊人",
                         "无名氏",
@@ -24954,7 +24954,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云生结海楼",
                 "explanation": "出自渡荆门送别。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "初一",
                         "渡荆门送别"
@@ -24971,7 +24971,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一日看尽长安花",
                 "explanation": "出自孟郊《登科后》，描写得意。",
-                "poemId": null,
+                "poemId": "sup_166",
                 "knowledgePoints": [
                         "得意",
                         "孟郊",
@@ -24989,7 +24989,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春日凝妆上翠楼",
                 "explanation": "出自王昌龄《闺怨》，描写闺中。",
-                "poemId": null,
+                "poemId": "sup_097",
                 "knowledgePoints": [
                         "闺中",
                         "王昌龄",
@@ -25008,7 +25008,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "胡天八月即飞雪",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写北风卷。",
-                "poemId": null,
+                "poemId": "sup_057",
                 "knowledgePoints": [
                         "北风卷",
                         "岑参",
@@ -25026,7 +25026,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里送行舟",
                 "explanation": "出自渡荆门送别。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "初一",
                         "渡荆门送别"
@@ -25043,7 +25043,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "游子身上衣",
                 "explanation": "出自孟郊《游子吟》，描写母爱。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "母爱",
                         "孟郊",
@@ -25061,7 +25061,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "悔教夫婿觅封侯",
                 "explanation": "出自王昌龄《闺怨》，描写陌头。",
-                "poemId": null,
+                "poemId": "sup_097",
                 "knowledgePoints": [
                         "陌头",
                         "王昌龄",
@@ -25080,7 +25080,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千树万树梨花开",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写忽如一。",
-                "poemId": null,
+                "poemId": "sup_057",
                 "knowledgePoints": [
                         "忽如一",
                         "岑参",
@@ -25098,7 +25098,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "感时花溅泪",
                 "explanation": "出自春望。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "初一",
                         "春望"
@@ -25114,7 +25114,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "游子身上衣",
                 "explanation": "出自孟郊《游子吟》，描写母亲。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "母爱",
                         "孟郊",
@@ -25133,7 +25133,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "且将团扇共徘徊",
                 "explanation": "出自王昌龄《长信秋词》，描写奉帚。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_015",
                 "knowledgePoints": [
                         "奉帚",
                         "王昌龄",
@@ -25152,7 +25152,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "愁云惨淡万里凝",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写瀚海阑。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "瀚海阑",
                         "岑参",
@@ -25170,7 +25170,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家书抵万金",
                 "explanation": "出自春望。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "初一",
                         "春望"
@@ -25187,7 +25187,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "意恐迟迟归",
                 "explanation": "出自孟郊《游子吟》，描写母亲。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "母爱",
                         "孟郊",
@@ -25206,7 +25206,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "珠帘不卷夜来霜",
                 "explanation": "出自王昌龄《长信秋词》，描写金井。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_015",
                 "knowledgePoints": [
                         "金井",
                         "王昌龄",
@@ -25225,7 +25225,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "胡琴琵琶与羌笛",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写中军置。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "中军置",
                         "岑参",
@@ -25244,7 +25244,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浑欲不胜簪",
                 "explanation": "出自春望。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "初一",
                         "春望"
@@ -25261,7 +25261,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "报得三春晖",
                 "explanation": "出自孟郊《游子吟》，描写母爱。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "母爱",
                         "孟郊",
@@ -25280,7 +25280,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卧听南宫清漏长",
                 "explanation": "出自王昌龄《长信秋词》，描写熏笼。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_015",
                 "knowledgePoints": [
                         "熏笼",
                         "王昌龄",
@@ -25299,7 +25299,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风掣红旗冻不翻",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写纷纷暮。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "纷纷暮",
                         "岑参",
@@ -25317,7 +25317,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "造化钟神秀",
                 "explanation": "出自望岳。",
-                "poemId": null,
+                "poemId": "sup_129",
                 "knowledgePoints": [
                         "初一",
                         "望岳"
@@ -25333,7 +25333,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "众鸟高飞尽",
                 "explanation": "出自李白《独坐敬亭山》，描写鸟。",
-                "poemId": null,
+                "poemId": "sup_032",
                 "knowledgePoints": [
                         "鸟",
                         "李白",
@@ -25351,7 +25351,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "梦见君王觉后疑",
                 "explanation": "出自杜牧《宫怨》，描写薄命。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_021",
                 "knowledgePoints": [
                         "薄命",
                         "杜牧",
@@ -25370,7 +25370,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "去时雪满天山路",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写轮台东。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "轮台东",
                         "岑参",
@@ -25388,7 +25388,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一览众山小",
                 "explanation": "出自望岳。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "初一",
                         "望岳"
@@ -25405,7 +25405,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "只有敬亭山",
                 "explanation": "出自李白《独坐敬亭山》，描写山。",
-                "poemId": null,
+                "poemId": "sup_032",
                 "knowledgePoints": [
                         "山",
                         "李白",
@@ -25423,7 +25423,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "新禽解语娇",
                 "explanation": "出自杜牧《宫怨》，描写乍笔。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_021",
                 "knowledgePoints": [
                         "乍笔",
                         "杜牧",
@@ -25441,7 +25441,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "都护铁衣冷难着",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写将军角。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "将军角",
                         "岑参",
@@ -25459,7 +25459,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自使至塞上。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "初一",
                         "使至塞上"
@@ -25476,7 +25476,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风花草香",
                 "explanation": "出自杜甫《绝句》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_353",
                 "knowledgePoints": [
                         "春天",
                         "杜甫",
@@ -25494,7 +25494,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "离合纷纷梦里猜",
                 "explanation": "出自杜牧《宫怨》，描写春风。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_021",
                 "knowledgePoints": [
                         "春风",
                         "杜牧",
@@ -25512,7 +25512,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "狐裘不暖锦衾薄",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写散入珠。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "散入珠",
                         "岑参",
@@ -25530,7 +25530,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "问君何能尔",
                 "explanation": "出自饮酒。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "初一",
                         "饮酒"
@@ -25546,7 +25546,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沙暖睡鸳鸯",
                 "explanation": "出自杜甫《绝句》，描写燕子。",
-                "poemId": null,
+                "poemId": "sup_353",
                 "knowledgePoints": [
                         "燕子",
                         "杜甫",
@@ -25565,7 +25565,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "低价卖珠妾不归",
                 "explanation": "出自杜牧《宫怨》，描写高枝。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_021",
                 "knowledgePoints": [
                         "高枝",
                         "杜牧",
@@ -25583,7 +25583,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "塞上燕脂凝夜紫",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写角声满。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "角声满",
                         "岑参",
@@ -25601,7 +25601,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "悠然见南山",
                 "explanation": "出自饮酒。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "初一",
                         "饮酒"
@@ -25618,7 +25618,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山青花欲燃",
                 "explanation": "出自杜甫《绝句》，描写江景。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "江",
                         "杜甫",
@@ -25637,7 +25637,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "镜里春山翠色新",
                 "explanation": "出自杜牧《宫怨》，描写铅华。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_021",
                 "knowledgePoints": [
                         "铅华",
                         "杜牧",
@@ -25655,7 +25655,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "雪上空留马行处",
                 "explanation": "出自岑参《白雪歌送武判官归京》，描写山回路。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_007",
                 "knowledgePoints": [
                         "山回路",
                         "岑参",
@@ -25673,7 +25673,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "欲辨已忘言",
                 "explanation": "出自饮酒。",
-                "poemId": null,
+                "poemId": "sup_126",
                 "knowledgePoints": [
                         "初一",
                         "饮酒"
@@ -25689,7 +25689,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何日是归年",
                 "explanation": "出自杜甫《绝句》，描写思乡。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "思乡",
                         "杜甫",
@@ -25707,7 +25707,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春满湘编在绣帘",
                 "explanation": "出自杜牧《寄扬州韩绰判官》，描写云光。",
-                "poemId": null,
+                "poemId": "sup_187",
                 "knowledgePoints": [
                         "云光",
                         "杜牧",
@@ -25725,7 +25725,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闺中只独看",
                 "explanation": "出自杜甫《月夜》，描写今夜鄜。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "今夜鄜",
                         "杜甫",
@@ -25743,7 +25743,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天涯若比邻",
                 "explanation": "出自送杜少府之任蜀州。",
-                "poemId": null,
+                "poemId": "poem_009",
                 "knowledgePoints": [
                         "初一",
                         "送杜少府之任蜀州"
@@ -25760,7 +25760,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "百年多病独登台",
                 "explanation": "出自杜甫《登高》，描写秋景。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "秋天",
                         "杜甫",
@@ -25778,7 +25778,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江淹郭去非",
                 "explanation": "出自杜牧《寄扬州韩绰判官》，描写贾傅。",
-                "poemId": null,
+                "poemId": "sup_187",
                 "knowledgePoints": [
                         "贾傅",
                         "杜牧",
@@ -25796,7 +25796,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "未解忆长安",
                 "explanation": "出自杜甫《月夜》，描写遥怜小。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "遥怜小",
                         "杜甫",
@@ -25814,7 +25814,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "草色遥看近却无",
                 "explanation": "出自早春呈水部张十八员外。",
-                "poemId": null,
+                "poemId": "sup_221",
                 "knowledgePoints": [
                         "初一",
                         "早春呈水部张十八员外"
@@ -25831,7 +25831,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不尽长江滚滚来",
                 "explanation": "出自杜甫《登高》，描写落叶。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "落叶",
                         "杜甫",
@@ -25849,7 +25849,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "弹琴复长啸",
                 "explanation": "出自王维《竹里馆》，描写独坐。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "独坐",
                         "王维",
@@ -25868,7 +25868,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清辉玉臂寒",
                 "explanation": "出自杜甫《月夜》，描写香雾云。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "香雾云",
                         "杜甫",
@@ -25886,7 +25886,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绝胜烟柳满皇都",
                 "explanation": "出自早春呈水部张十八员外。",
-                "poemId": null,
+                "poemId": "sup_221",
                 "knowledgePoints": [
                         "初一",
                         "早春呈水部张十八员外"
@@ -25903,7 +25903,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潦倒新停浊酒杯",
                 "explanation": "出自杜甫《登高》，描写苦恨。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "苦恨",
                         "杜甫",
@@ -25921,7 +25921,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "明月来相照",
                 "explanation": "出自王维《竹里馆》，描写深林。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "深林",
                         "王维",
@@ -25940,7 +25940,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "双照泪痕干",
                 "explanation": "出自杜甫《月夜》，描写何时倚。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "何时倚",
                         "杜甫",
@@ -25958,7 +25958,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "病树前头万木春",
                 "explanation": "出自酬乐天初逢席上见赠。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "初一",
                         "酬乐天初逢席上见赠"
@@ -25974,7 +25974,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "渚清沙白鸟飞回",
                 "explanation": "出自杜甫《登高》，描写秋景。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "秋天",
                         "杜甫",
@@ -25992,7 +25992,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天寒红叶稀",
                 "explanation": "出自王维《山中》，描写荆溪。",
-                "poemId": null,
+                "poemId": "sup_390",
                 "knowledgePoints": [
                         "荆溪",
                         "王维",
@@ -26011,7 +26011,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "崔九堂前几度闻",
                 "explanation": "出自杜甫《江南逢李龟年》，描写岐王宅。",
-                "poemId": null,
+                "poemId": "sup_036",
                 "knowledgePoints": [
                         "岐王宅",
                         "杜甫",
@@ -26046,7 +26046,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不尽长江滚滚来",
                 "explanation": "出自杜甫《登高》，描写长江。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "长江",
                         "杜甫",
@@ -26065,7 +26065,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "空翠湿人衣",
                 "explanation": "出自王维《山中》，描写山路。",
-                "poemId": null,
+                "poemId": "sup_390",
                 "knowledgePoints": [
                         "山路",
                         "王维",
@@ -26083,7 +26083,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "落花时节又逢君",
                 "explanation": "出自杜甫《江南逢李龟年》，描写正是江。",
-                "poemId": null,
+                "poemId": "sup_036",
                 "knowledgePoints": [
                         "正是江",
                         "杜甫",
@@ -26119,7 +26119,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "百年多病独登台",
                 "explanation": "出自杜甫《登高》，描写思乡。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "思乡",
                         "杜甫",
@@ -26138,7 +26138,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "杳杳钟声晚",
                 "explanation": "出自刘长卿《送灵澈上人》，描写竹林寺。",
-                "poemId": null,
+                "poemId": "sup_091",
                 "knowledgePoints": [
                         "竹林寺",
                         "刘长卿",
@@ -26156,7 +26156,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随风潜入夜",
                 "explanation": "出自杜甫《春夜喜雨》，描写好雨知。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "好雨知",
                         "杜甫",
@@ -26192,7 +26192,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "当春乃发生",
                 "explanation": "出自杜甫《春夜喜雨》，描写春雨。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "春雨",
                         "杜甫",
@@ -26211,7 +26211,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青山独归远",
                 "explanation": "出自刘长卿《送灵澈上人》，描写荷笠。",
-                "poemId": null,
+                "poemId": "sup_091",
                 "knowledgePoints": [
                         "荷笠",
                         "刘长卿",
@@ -26229,7 +26229,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江船火独明",
                 "explanation": "出自杜甫《春夜喜雨》，描写野径云。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "野径云",
                         "杜甫",
@@ -26265,7 +26265,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江船火独明",
                 "explanation": "出自杜甫《春夜喜雨》，描写夜景。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "夜景",
                         "杜甫",
@@ -26284,7 +26284,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "静听松风寒",
                 "explanation": "出自刘长卿《弹琴》，描写七弦。",
-                "poemId": null,
+                "poemId": "sup_179",
                 "knowledgePoints": [
                         "七弦",
                         "刘长卿",
@@ -26302,7 +26302,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花重锦官城",
                 "explanation": "出自杜甫《春夜喜雨》，描写晓看红。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "晓看红",
                         "杜甫",
@@ -26337,7 +26337,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花重锦官城",
                 "explanation": "出自杜甫《春夜喜雨》，描写花。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "花",
                         "杜甫",
@@ -26356,7 +26356,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "今人多不弹",
                 "explanation": "出自刘长卿《弹琴》，描写古调。",
-                "poemId": null,
+                "poemId": "sup_179",
                 "knowledgePoints": [
                         "古调",
                         "刘长卿",
@@ -26374,7 +26374,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "齐鲁青未了",
                 "explanation": "出自杜甫《望岳》，描写岱宗夫。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "岱宗夫",
                         "杜甫",
@@ -26409,7 +26409,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "润物细无声",
                 "explanation": "出自杜甫《春夜喜雨》，描写春雨。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "春雨",
                         "杜甫",
@@ -26428,7 +26428,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天寒白屋贫",
                 "explanation": "出自刘长卿《逢雪宿芙蓉山主人》，描写日暮。",
-                "poemId": null,
+                "poemId": "sup_090",
                 "knowledgePoints": [
                         "日暮",
                         "刘长卿",
@@ -26446,7 +26446,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "阴阳割昏晓",
                 "explanation": "出自杜甫《望岳》，描写造化钟。",
-                "poemId": null,
+                "poemId": "sup_129",
                 "knowledgePoints": [
                         "造化钟",
                         "杜甫",
@@ -26481,7 +26481,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "野径云俱黑",
                 "explanation": "出自杜甫《春夜喜雨》，描写云。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "云",
                         "杜甫",
@@ -26499,7 +26499,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风雪夜归人",
                 "explanation": "出自刘长卿《逢雪宿芙蓉山主人》，描写柴门。",
-                "poemId": null,
+                "poemId": "sup_090",
                 "knowledgePoints": [
                         "柴门",
                         "刘长卿",
@@ -26517,7 +26517,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "决眦入归鸟",
                 "explanation": "出自杜甫《望岳》，描写荡胸生。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "荡胸生",
                         "杜甫",
@@ -26535,7 +26535,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山岛竦峙",
                 "explanation": "出自观沧海。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "初一",
                         "观沧海"
@@ -26552,7 +26552,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "树阴照水爱晴柔",
                 "explanation": "出自杨万里《小池》，描写小池。",
-                "poemId": null,
+                "poemId": "sup_079",
                 "knowledgePoints": [
                         "小池",
                         "杨万里",
@@ -26571,7 +26571,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沧江急夜流",
                 "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写沧江。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_031",
                 "knowledgePoints": [
                         "沧江",
                         "孟浩然",
@@ -26590,7 +26590,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一览众山小",
                 "explanation": "出自杜甫《望岳》，描写会当凌。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "会当凌",
                         "杜甫",
@@ -26608,7 +26608,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "星汉灿烂",
                 "explanation": "出自观沧海。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "初一",
                         "观沧海"
@@ -26625,7 +26625,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "早有蜻蜓立上头",
                 "explanation": "出自杨万里《小池》，描写蜻蜓。",
-                "poemId": null,
+                "poemId": "sup_079",
                 "knowledgePoints": [
                         "蜻蜓",
                         "杨万里",
@@ -26644,7 +26644,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "维扬忆旧游",
                 "explanation": "出自孟浩然《宿建德江》，描写建德。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "建德",
                         "孟浩然",
@@ -26662,7 +26662,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北斗阑干南斗斜",
                 "explanation": "出自刘方平《月夜》，描写月色半。",
-                "poemId": null,
+                "poemId": "sup_345",
                 "knowledgePoints": [
                         "月色半",
                         "刘方平",
@@ -26680,7 +26680,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潮平两岸阔",
                 "explanation": "出自次北固山下。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "初一",
                         "次北固山下"
@@ -26697,7 +26697,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风光不与四时同",
                 "explanation": "出自杨万里《晓出净慈寺送林子方》，描写西湖。",
-                "poemId": null,
+                "poemId": "sup_078",
                 "knowledgePoints": [
                         "西湖",
                         "杨万里",
@@ -26717,7 +26717,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水清心矣闲",
                 "explanation": "出自孟浩然《万山潭作》，描写垂钓。",
-                "poemId": null,
+                "poemId": "sup_190",
                 "knowledgePoints": [
                         "垂钓",
                         "孟浩然",
@@ -26735,7 +26735,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "虫声新透绿窗纱",
                 "explanation": "出自刘方平《月夜》，描写春气暖。",
-                "poemId": null,
+                "poemId": "sup_345",
                 "knowledgePoints": [
                         "春气暖",
                         "刘方平",
@@ -26753,7 +26753,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江春入旧年",
                 "explanation": "出自次北固山下。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "初一",
                         "次北固山下"
@@ -26770,7 +26770,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "映日荷花别样红",
                 "explanation": "出自杨万里《晓出净慈寺送林子方》，描写荷花。",
-                "poemId": null,
+                "poemId": "sup_078",
                 "knowledgePoints": [
                         "荷花",
                         "杨万里",
@@ -26789,7 +26789,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "松棹时相交",
                 "explanation": "出自孟浩然《万山潭作》，描写岩壁。",
-                "poemId": null,
+                "poemId": "sup_190",
                 "knowledgePoints": [
                         "岩壁",
                         "孟浩然",
@@ -26807,7 +26807,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "受降城外月如霜",
                 "explanation": "出自李益《夜上受降城闻笛》，描写沙似雪。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "沙似雪",
                         "李益",
@@ -26825,7 +26825,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "谁家新燕啄春泥",
                 "explanation": "出自钱塘湖春行。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "初一",
                         "钱塘湖春行"
@@ -26842,7 +26842,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "树头花落未成阴",
                 "explanation": "出自杨万里《宿新市徐公店》，描写春景。",
-                "poemId": null,
+                "poemId": "sup_180",
                 "knowledgePoints": [
                         "春天",
                         "杨万里",
@@ -26860,7 +26860,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水清心矣闲",
                 "explanation": "出自孟浩然《万山潭作》，描写水清。",
-                "poemId": null,
+                "poemId": "sup_190",
                 "knowledgePoints": [
                         "水清",
                         "孟浩然",
@@ -26879,7 +26879,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一夜征人尽望乡",
                 "explanation": "出自李益《夜上受降城闻笛》，描写一夜征。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "一夜征",
                         "李益",
@@ -26897,7 +26897,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浅草才能没马蹄",
                 "explanation": "出自钱塘湖春行。",
-                "poemId": null,
+                "poemId": "sup_131",
                 "knowledgePoints": [
                         "初一",
                         "钱塘湖春行"
@@ -26914,7 +26914,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "飞入菜花无处寻",
                 "explanation": "出自杨万里《宿新市徐公店》，描写儿童。",
-                "poemId": null,
+                "poemId": "sup_180",
                 "knowledgePoints": [
                         "儿童",
                         "杨万里",
@@ -26932,7 +26932,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随意春芳歇",
                 "explanation": "出自王维《山居秋暝》，描写王孙。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "王孙",
                         "王维",
@@ -26950,7 +26950,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "上有黄鹂深树鸣",
                 "explanation": "出自韦应物《滁州西涧》，描写幽草涧。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "幽草涧",
                         "韦应物",
@@ -26968,7 +26968,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绿杨阴里白沙堤",
                 "explanation": "出自钱塘湖春行。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "初一",
                         "钱塘湖春行"
@@ -26985,7 +26985,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "收篙停棹坐船中",
                 "explanation": "出自杨万里《舟过安仁》，描写渔船。",
-                "poemId": null,
+                "poemId": "sup_181",
                 "knowledgePoints": [
                         "渔船",
                         "杨万里",
@@ -27003,7 +27003,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天气晚来秋",
                 "explanation": "出自王维《山居秋暝》，描写空山。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "空山",
                         "王维",
@@ -27022,7 +27022,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "野渡无人舟自横",
                 "explanation": "出自韦应物《滁州西涧》，描写无人舟。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "无人舟",
                         "韦应物",
@@ -27040,7 +27040,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "听取蛙声一片",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -27057,7 +27057,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不是遮头是使风",
                 "explanation": "出自杨万里《舟过安仁》，描写使风。",
-                "poemId": null,
+                "poemId": "sup_181",
                 "knowledgePoints": [
                         "风",
                         "杨万里",
@@ -27075,7 +27075,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清泉石上流",
                 "explanation": "出自王维《山居秋暝》，描写明月。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "明月",
                         "王维",
@@ -27094,7 +27094,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闺中只独看",
                 "explanation": "出自杜甫《月夜》，描写闺中只。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "闺中只",
                         "杜甫",
@@ -27113,7 +27113,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "听取蛙声一片",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -27130,7 +27130,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "相见语依依",
                 "explanation": "出自王维《渭川田家》，描写农夫。",
-                "poemId": null,
+                "poemId": "sup_191",
                 "knowledgePoints": [
                         "农夫",
                         "王维",
@@ -27148,7 +27148,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莲动下渔舟",
                 "explanation": "出自王维《山居秋暝》，描写竹喧。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "竹喧",
                         "王维",
@@ -27168,7 +27168,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "未解忆长安",
                 "explanation": "出自杜甫《月夜》，描写小儿女。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "小儿女",
                         "杜甫",
@@ -27187,7 +27187,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两三点雨山前",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -27204,7 +27204,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "穷巷牛羊归",
                 "explanation": "出自王维《渭川田家》，描写傍晚。",
-                "poemId": null,
+                "poemId": "sup_191",
                 "knowledgePoints": [
                         "傍晚",
                         "王维",
@@ -27222,7 +27222,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "王孙自可留",
                 "explanation": "出自王维《山居秋暝》，描写随意。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "随意",
                         "王维",
@@ -27241,7 +27241,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清辉玉臂寒",
                 "explanation": "出自杜甫《月夜》，描写清辉玉。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "清辉玉",
                         "杜甫",
@@ -27260,7 +27260,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路转溪桥忽见",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -27277,7 +27277,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄河入海流",
                 "explanation": "出自王之涣《登鹳雀楼》，描写黄河。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "黄河",
                         "王之涣",
@@ -27296,7 +27296,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "名成八阵图",
                 "explanation": "出自杜甫《八阵图》，描写功盖。",
-                "poemId": null,
+                "poemId": "sup_037",
                 "knowledgePoints": [
                         "功盖",
                         "杜甫",
@@ -27314,7 +27314,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "崔九堂前几度闻",
                 "explanation": "出自杜甫《江南逢李龟年》，描写崔九堂。",
-                "poemId": null,
+                "poemId": "sup_036",
                 "knowledgePoints": [
                         "崔九堂",
                         "杜甫",
@@ -27333,7 +27333,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "古道西风瘦马",
                 "explanation": "出自天净沙·秋思。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "初一",
                         "天净沙·秋思"
@@ -27350,7 +27350,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更上一层楼",
                 "explanation": "出自王之涣《登鹳雀楼》，描写上楼。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "上楼",
                         "王之涣",
@@ -27369,7 +27369,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遗恨失吞吴",
                 "explanation": "出自杜甫《八阵图》，描写江流。",
-                "poemId": null,
+                "poemId": "sup_037",
                 "knowledgePoints": [
                         "江流",
                         "杜甫",
@@ -27387,7 +27387,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "落花时节又逢君",
                 "explanation": "出自杜甫《江南逢李龟年》，描写落花时。",
-                "poemId": null,
+                "poemId": "sup_036",
                 "knowledgePoints": [
                         "落花时",
                         "杜甫",
@@ -27406,7 +27406,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "断肠人在天涯",
                 "explanation": "出自天净沙·秋思。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "初一",
                         "天净沙·秋思"
@@ -27423,7 +27423,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一片孤城万仞山",
                 "explanation": "出自王之涣《凉州词》，描写凉州。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "凉州",
                         "王之涣",
@@ -27442,7 +27442,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闺中只独看",
                 "explanation": "出自杜甫《月夜》，描写今夜。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "今夜",
                         "杜甫",
@@ -27460,7 +27460,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随风潜入夜",
                 "explanation": "出自杜甫《春夜喜雨》，描写潜入夜。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "潜入夜",
                         "杜甫",
@@ -27479,7 +27479,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不闻机杼声",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_127",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -27496,7 +27496,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风不度玉门关",
                 "explanation": "出自王之涣《凉州词》，描写玉门关。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "玉门关",
                         "王之涣",
@@ -27515,7 +27515,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清辉玉臂寒",
                 "explanation": "出自杜甫《月夜》，描写香雾。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "香雾",
                         "杜甫",
@@ -27533,7 +27533,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江船火独明",
                 "explanation": "出自杜甫《春夜喜雨》，描写江船火。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "江船火",
                         "杜甫",
@@ -27552,7 +27552,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "问女何所忆",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -27569,7 +27569,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里长征人未还",
                 "explanation": "出自王昌龄《出塞》，描写长征。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "长征",
                         "王昌龄",
@@ -27588,7 +27588,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "双照泪痕干",
                 "explanation": "出自杜甫《月夜》，描写虚幌。",
-                "poemId": null,
+                "poemId": "sup_392",
                 "knowledgePoints": [
                         "虚幌",
                         "杜甫",
@@ -27606,7 +27606,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花重锦官城",
                 "explanation": "出自杜甫《春夜喜雨》，描写花重锦。",
-                "poemId": null,
+                "poemId": "sup_013",
                 "knowledgePoints": [
                         "花重锦",
                         "杜甫",
@@ -27625,7 +27625,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "关山度若飞",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -27642,7 +27642,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不教胡马度阴山",
                 "explanation": "出自王昌龄《出塞》，描写阴山。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "阴山",
                         "王昌龄",
@@ -27661,7 +27661,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "初闻涕泪满衣裳",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写剑外。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "剑外",
                         "杜甫",
@@ -27680,7 +27680,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "齐鲁青未了",
                 "explanation": "出自杜甫《望岳》，描写齐鲁青。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "齐鲁青",
                         "杜甫",
@@ -27699,7 +27699,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒光照铁衣",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -27716,7 +27716,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "欲饮琵琶马上催",
                 "explanation": "出自王翰《凉州词》，描写饮酒。",
-                "poemId": null,
+                "poemId": "sup_010",
                 "knowledgePoints": [
                         "饮酒",
                         "王翰",
@@ -27734,7 +27734,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "漫卷诗书喜欲狂",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写妻子。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "妻子",
                         "杜甫",
@@ -27752,7 +27752,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "阴阳割昏晓",
                 "explanation": "出自杜甫《望岳》，描写阴阳割。",
-                "poemId": null,
+                "poemId": "sup_129",
                 "knowledgePoints": [
                         "阴阳割",
                         "杜甫",
@@ -27771,7 +27771,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "壮士十年归",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -27788,7 +27788,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "古来征战几人回",
                 "explanation": "出自王翰《凉州词》，描写征战。",
-                "poemId": null,
+                "poemId": "sup_010",
                 "knowledgePoints": [
                         "征战",
                         "王翰",
@@ -27806,7 +27806,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青春作伴好还乡",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写白日。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "白日",
                         "杜甫",
@@ -27824,7 +27824,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "决眦入归鸟",
                 "explanation": "出自杜甫《望岳》，描写决眦入。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "决眦入",
                         "杜甫",
@@ -27843,7 +27843,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "双兔傍地走，安能辨我是雄雌",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -27860,7 +27860,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "每逢佳节倍思亲",
                 "explanation": "出自王维《九月九日忆山东兄弟》，描写思乡。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "思乡",
                         "王维",
@@ -27879,7 +27879,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "便下襄阳向洛阳",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写巴峡。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "巴峡",
                         "杜甫",
@@ -27897,7 +27897,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一览众山小",
                 "explanation": "出自杜甫《望岳》，描写一览众。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "一览众",
                         "杜甫",
@@ -27916,7 +27916,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "商女不知亡国恨",
                 "explanation": "出自泊秦淮。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "初一",
                         "泊秦淮"
@@ -27933,7 +27933,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遍插茱萸少一人",
                 "explanation": "出自王维《九月九日忆山东兄弟》，描写登高。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "登高",
                         "王维",
@@ -27952,7 +27952,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "危樯独夜舟",
                 "explanation": "出自杜甫《旅夜书怀》，描写细草。",
-                "poemId": null,
+                "poemId": "sup_321",
                 "knowledgePoints": [
                         "细草",
                         "杜甫",
@@ -27970,7 +27970,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山重水复疑无路",
                 "explanation": "出自游山西村。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "初一",
                         "游山西村"
@@ -27987,7 +27987,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但闻人语响",
                 "explanation": "出自王维《鹿柴》，描写空山。",
-                "poemId": null,
+                "poemId": "sup_024",
                 "knowledgePoints": [
                         "空山",
                         "王维",
@@ -28005,7 +28005,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月涌大江流",
                 "explanation": "出自杜甫《旅夜书怀》，描写星垂。",
-                "poemId": null,
+                "poemId": "sup_321",
                 "knowledgePoints": [
                         "星垂",
                         "杜甫",
@@ -28023,7 +28023,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牙璋辞凤阙",
                 "explanation": "出自从军行。",
-                "poemId": null,
+                "poemId": "sup_346",
                 "knowledgePoints": [
                         "初一",
                         "从军行"
@@ -28040,7 +28040,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "复照青苔上",
                 "explanation": "出自王维《鹿柴》，描写深林。",
-                "poemId": null,
+                "poemId": "sup_024",
                 "knowledgePoints": [
                         "深林",
                         "王维",
@@ -28058,7 +28058,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天地一沙鸥",
                 "explanation": "出自杜甫《旅夜书怀》，描写飘飘。",
-                "poemId": null,
+                "poemId": "sup_321",
                 "knowledgePoints": [
                         "飘飘",
                         "杜甫",
@@ -28076,7 +28076,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两鬓苍苍十指黑",
                 "explanation": "出自卖炭翁。",
-                "poemId": null,
+                "poemId": "sup_058",
                 "knowledgePoints": [
                         "初一",
                         "卖炭翁"
@@ -28092,7 +28092,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天寒红叶稀",
                 "explanation": "出自王维《山中》，描写山中。",
-                "poemId": null,
+                "poemId": "sup_390",
                 "knowledgePoints": [
                         "山中",
                         "王维",
@@ -28110,7 +28110,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "齐鲁青未了",
                 "explanation": "出自杜甫《望岳》，描写岱宗。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "岱宗",
                         "杜甫",
@@ -28128,7 +28128,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "宫使驱将惜不得",
                 "explanation": "出自卖炭翁。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_006",
                 "knowledgePoints": [
                         "初一",
                         "卖炭翁"
@@ -28144,7 +28144,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "空翠湿人衣",
                 "explanation": "出自王维《山中》，描写山路。",
-                "poemId": null,
+                "poemId": "sup_390",
                 "knowledgePoints": [
                         "山路",
                         "王维",
@@ -28162,7 +28162,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "阴阳割昏晓",
                 "explanation": "出自杜甫《望岳》，描写造化。",
-                "poemId": null,
+                "poemId": "sup_129",
                 "knowledgePoints": [
                         "造化",
                         "杜甫",
@@ -28180,7 +28180,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "大庇天下寒士俱欢颜",
                 "explanation": "出自茅屋为秋风所破歌。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "初一",
                         "茅屋为秋风所破歌"
@@ -28196,7 +28196,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "杳杳钟声晚",
                 "explanation": "出自刘长卿《送灵澈上人》，描写竹林。",
-                "poemId": null,
+                "poemId": "sup_091",
                 "knowledgePoints": [
                         "竹林",
                         "刘长卿",
@@ -28214,7 +28214,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "决眦入归鸟",
                 "explanation": "出自杜甫《望岳》，描写荡胸。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "荡胸",
                         "杜甫",
@@ -28232,7 +28232,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "吾庐独破受冻死亦足",
                 "explanation": "出自茅屋为秋风所破歌。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "初一",
                         "茅屋为秋风所破歌"
@@ -28248,7 +28248,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青山独归远",
                 "explanation": "出自刘长卿《送灵澈上人》，描写归远。",
-                "poemId": null,
+                "poemId": "sup_091",
                 "knowledgePoints": [
                         "归远",
                         "刘长卿",
@@ -28266,7 +28266,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一览众山小",
                 "explanation": "出自杜甫《望岳》，描写会当。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "会当",
                         "杜甫",
@@ -28284,7 +28284,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "收取关山五十州",
                 "explanation": "出自南园十三首。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_084",
                 "knowledgePoints": [
                         "初一",
                         "南园十三首"
@@ -28300,7 +28300,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "静听松风寒",
                 "explanation": "出自刘长卿《弹琴》，描写琴声。",
-                "poemId": null,
+                "poemId": "sup_179",
                 "knowledgePoints": [
                         "琴声",
                         "刘长卿",
@@ -28318,7 +28318,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写国破。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "国破",
                         "杜甫",
@@ -28336,7 +28336,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "甲光向日金鳞开",
                 "explanation": "出自雁门太守行。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "初一",
                         "雁门太守行"
@@ -28352,7 +28352,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "今人多不弹",
                 "explanation": "出自刘长卿《弹琴》，描写古调。",
-                "poemId": null,
+                "poemId": "sup_179",
                 "knowledgePoints": [
                         "古调",
                         "刘长卿",
@@ -28370,7 +28370,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恨别鸟惊心",
                 "explanation": "出自杜甫《春望》，描写感时。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "感时",
                         "杜甫",
@@ -28388,7 +28388,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "塞上燕脂凝夜紫",
                 "explanation": "出自雁门太守行。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "初一",
                         "雁门太守行"
@@ -28404,7 +28404,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天寒白屋贫",
                 "explanation": "出自刘长卿《逢雪宿芙蓉山主人》，描写日暮。",
-                "poemId": null,
+                "poemId": "sup_090",
                 "knowledgePoints": [
                         "日暮",
                         "刘长卿",
@@ -28422,7 +28422,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家书抵万金",
                 "explanation": "出自杜甫《春望》，描写烽火。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "烽火",
                         "杜甫",
@@ -28440,7 +28440,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "提携玉龙为君死",
                 "explanation": "出自雁门太守行。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "初一",
                         "雁门太守行"
@@ -28456,7 +28456,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风雪夜归人",
                 "explanation": "出自刘长卿《逢雪宿芙蓉山主人》，描写犬吠。",
-                "poemId": null,
+                "poemId": "sup_090",
                 "knowledgePoints": [
                         "犬吠",
                         "刘长卿",
@@ -28474,7 +28474,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浑欲不胜簪",
                 "explanation": "出自杜甫《春望》，描写白头。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "白头",
                         "杜甫",
@@ -28492,7 +28492,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独倚望江楼",
                 "explanation": "出自梦江南。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_085",
                 "knowledgePoints": [
                         "初一",
                         "梦江南"
@@ -28508,7 +28508,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天似穹庐笼盖四野",
                 "explanation": "出自无名氏《敕勒歌》，描写敕勒川。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "敕勒川",
                         "无名氏",
@@ -28526,7 +28526,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "锦官城外柏森森",
                 "explanation": "出自杜甫《蜀相》，描写丞相。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "丞相",
                         "杜甫",
@@ -28545,7 +28545,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "斜晖脉脉水悠悠",
                 "explanation": "出自梦江南。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_085",
                 "knowledgePoints": [
                         "初一",
                         "梦江南"
@@ -28561,7 +28561,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "笼盖四野",
                 "explanation": "出自无名氏《敕勒歌》，描写四野。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "四野",
                         "无名氏",
@@ -28579,7 +28579,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "隔叶黄鹂空好音",
                 "explanation": "出自杜甫《蜀相》，描写映阶。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "映阶",
                         "杜甫",
@@ -28598,7 +28598,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "且将新火试新茶",
                 "explanation": "出自望江南。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_087",
                 "knowledgePoints": [
                         "初一",
                         "望江南"
@@ -28614,7 +28614,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "敕勒川",
                 "explanation": "出自无名氏《敕勒歌》，描写牛羊。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "牛羊",
                         "无名氏",
@@ -28632,7 +28632,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两朝开济老臣心",
                 "explanation": "出自杜甫《蜀相》，描写三顾。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "三顾",
                         "杜甫",
@@ -28651,7 +28651,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衡阳雁去无留意",
                 "explanation": "出自渔家傲。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "初一",
                         "渔家傲"
@@ -28667,7 +28667,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写鸟。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "鸟",
                         "柳宗元",
@@ -28686,7 +28686,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长使英雄泪满襟",
                 "explanation": "出自杜甫《蜀相》，描写出师。",
-                "poemId": null,
+                "poemId": "sup_384",
                 "knowledgePoints": [
                         "出师",
                         "杜甫",
@@ -28705,7 +28705,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长烟落日孤城闭",
                 "explanation": "出自渔家傲。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "初一",
                         "渔家傲"
@@ -28721,7 +28721,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独钓寒江雪",
                 "explanation": "出自柳宗元《江雪》，描写渔翁。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "渔翁",
                         "柳宗元",
@@ -28740,7 +28740,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "渚清沙白鸟飞回",
                 "explanation": "出自杜甫《登高》，描写风急。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "风急",
                         "杜甫",
@@ -28758,7 +28758,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何妨吟啸且徐行",
                 "explanation": "出自定风波。",
-                "poemId": null,
+                "poemId": "sup_135",
                 "knowledgePoints": [
                         "初一",
                         "定风波"
@@ -28775,7 +28775,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "积雪浮云端",
                 "explanation": "出自祖咏《终南望余雪》，描写终南。",
-                "poemId": null,
+                "poemId": "sup_325",
                 "knowledgePoints": [
                         "终南",
                         "祖咏",
@@ -28793,7 +28793,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不尽长江滚滚来",
                 "explanation": "出自杜甫《登高》，描写落木。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "落木",
                         "杜甫",
@@ -28811,7 +28811,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一蓑烟雨任平生",
                 "explanation": "出自定风波。",
-                "poemId": null,
+                "poemId": "sup_135",
                 "knowledgePoints": [
                         "初一",
                         "定风波"
@@ -28828,7 +28828,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城中增暮寒",
                 "explanation": "出自祖咏《终南望余雪》，描写暮寒。",
-                "poemId": null,
+                "poemId": "sup_325",
                 "knowledgePoints": [
                         "暮寒",
                         "祖咏",
@@ -28846,7 +28846,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "百年多病独登台",
                 "explanation": "出自杜甫《登高》，描写悲秋。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "悲秋",
                         "杜甫",
@@ -28864,7 +28864,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "也无风雨也无晴",
                 "explanation": "出自定风波。",
-                "poemId": null,
+                "poemId": "sup_135",
                 "knowledgePoints": [
                         "初一",
                         "定风波"
@@ -28881,7 +28881,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "乡音无改鬓毛衰",
                 "explanation": "出自贺知章《回乡偶书》，描写乡音。",
-                "poemId": null,
+                "poemId": "sup_009",
                 "knowledgePoints": [
                         "乡音",
                         "贺知章",
@@ -28899,7 +28899,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潦倒新停浊酒杯",
                 "explanation": "出自杜甫《登高》，描写苦恨。",
-                "poemId": null,
+                "poemId": "sup_387",
                 "knowledgePoints": [
                         "苦恨",
                         "杜甫",
@@ -28933,7 +28933,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "笑问客从何处来",
                 "explanation": "出自贺知章《回乡偶书》，描写儿童。",
-                "poemId": null,
+                "poemId": "sup_009",
                 "knowledgePoints": [
                         "儿童",
                         "贺知章",
@@ -28951,7 +28951,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "老去溪斋日日闲",
                 "explanation": "出自韩愈《题竹》，描写舍南。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_053",
                 "knowledgePoints": [
                         "舍南",
                         "韩愈",
@@ -28970,7 +28970,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "那人却在，灯火阑珊处",
                 "explanation": "出自青玉案。",
-                "poemId": null,
+                "poemId": "sup_373",
                 "knowledgePoints": [
                         "初一",
                         "青玉案"
@@ -28986,7 +28986,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "近来人事半消磨",
                 "explanation": "出自贺知章《回乡偶书》，描写人事。",
-                "poemId": null,
+                "poemId": "sup_093",
                 "knowledgePoints": [
                         "人事",
                         "贺知章",
@@ -29004,7 +29004,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莫言迁客似沙沉",
                 "explanation": "出自韩愈《浪淘沙》，描写谗言。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_054",
                 "knowledgePoints": [
                         "谗言",
                         "韩愈",
@@ -29023,7 +29023,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "爱上层楼",
                 "explanation": "出自丑奴儿。",
-                "poemId": null,
+                "poemId": "sup_067",
                 "knowledgePoints": [
                         "初一",
                         "丑奴儿"
@@ -29039,7 +29039,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "言师采药去",
                 "explanation": "出自贾岛《寻隐者不遇》，描写松下。",
-                "poemId": null,
+                "poemId": "sup_021",
                 "knowledgePoints": [
                         "松下",
                         "贾岛",
@@ -29058,7 +29058,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "汗滴禾下土",
                 "explanation": "出自李绅《悯农》，描写锄禾。",
-                "poemId": null,
+                "poemId": "sup_015",
                 "knowledgePoints": [
                         "锄禾",
                         "李绅",
@@ -29092,7 +29092,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云深不知处",
                 "explanation": "出自贾岛《寻隐者不遇》，描写云深。",
-                "poemId": null,
+                "poemId": "sup_021",
                 "knowledgePoints": [
                         "云深",
                         "贾岛",
@@ -29110,7 +29110,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "粒粒皆辛苦",
                 "explanation": "出自李绅《悯农》，描写盘中。",
-                "poemId": null,
+                "poemId": "sup_015",
                 "knowledgePoints": [
                         "盘中",
                         "李绅",
@@ -29128,7 +29128,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山随平野尽",
                 "explanation": "出自渡荆门送别。",
-                "poemId": null,
+                "poemId": "sup_120",
                 "knowledgePoints": [
                         "初一",
                         "渡荆门送别"
@@ -29145,7 +29145,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "驱车登古原",
                 "explanation": "出自李商隐《登乐游原》，描写向晚。",
-                "poemId": null,
+                "poemId": "sup_320",
                 "knowledgePoints": [
                         "向晚",
                         "李商隐",
@@ -29164,7 +29164,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "秋收万颗子",
                 "explanation": "出自李绅《悯农》，描写春种。",
-                "poemId": null,
+                "poemId": "sup_015",
                 "knowledgePoints": [
                         "春种",
                         "李绅",
@@ -29183,7 +29183,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "云生结海楼",
                 "explanation": "出自渡荆门送别。",
-                "poemId": null,
+                "poemId": "sup_300",
                 "knowledgePoints": [
                         "初一",
                         "渡荆门送别"
@@ -29200,7 +29200,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "只是近黄昏",
                 "explanation": "出自李商隐《登乐游原》，描写夕阳。",
-                "poemId": null,
+                "poemId": "sup_320",
                 "knowledgePoints": [
                         "夕阳",
                         "李商隐",
@@ -29219,7 +29219,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "农夫犹饿死",
                 "explanation": "出自李绅《悯农》，描写四海。",
-                "poemId": null,
+                "poemId": "sup_015",
                 "knowledgePoints": [
                         "四海",
                         "李绅",
@@ -29254,7 +29254,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天涯共此时",
                 "explanation": "出自张九龄《望月怀远》，描写海上。",
-                "poemId": null,
+                "poemId": "sup_296",
                 "knowledgePoints": [
                         "海上",
                         "张九龄",
@@ -29272,7 +29272,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "曲项向天歌",
                 "explanation": "出自骆宾王《咏鹅》，描写鹅。",
-                "poemId": null,
+                "poemId": "sup_044",
                 "knowledgePoints": [
                         "鹅",
                         "骆宾王",
@@ -29308,7 +29308,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "竟夕起相思",
                 "explanation": "出自张九龄《望月怀远》，描写情人。",
-                "poemId": null,
+                "poemId": "sup_296",
                 "knowledgePoints": [
                         "情人",
                         "张九龄",
@@ -29326,7 +29326,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "红掌拨清波",
                 "explanation": "出自骆宾王《咏鹅》，描写白毛。",
-                "poemId": null,
+                "poemId": "sup_044",
                 "knowledgePoints": [
                         "白毛",
                         "骆宾王",
@@ -29362,7 +29362,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "披衣觉露滋",
                 "explanation": "出自张九龄《望月怀远》，描写灭烛。",
-                "poemId": null,
+                "poemId": "sup_296",
                 "knowledgePoints": [
                         "灭烛",
                         "张九龄",
@@ -29380,7 +29380,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "能开二月花",
                 "explanation": "出自李峤《风》，描写解落。",
-                "poemId": null,
+                "poemId": "sup_105",
                 "knowledgePoints": [
                         "解落",
                         "李峤",
@@ -29416,7 +29416,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "还寝梦佳期",
                 "explanation": "出自张九龄《望月怀远》，描写盈手。",
-                "poemId": null,
+                "poemId": "sup_296",
                 "knowledgePoints": [
                         "盈手",
                         "张九龄",
@@ -29434,7 +29434,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "入竹万竿斜",
                 "explanation": "出自李峤《风》，描写过江。",
-                "poemId": null,
+                "poemId": "sup_105",
                 "knowledgePoints": [
                         "过江",
                         "李峤",
@@ -29470,7 +29470,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江柳共风烟",
                 "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写岭猿。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_031",
                 "knowledgePoints": [
                         "岭猿",
                         "孟浩然",
@@ -29488,7 +29488,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "芳心犹卷怯春寒",
                 "explanation": "出自钱珝《未展芭蕉》，描写冷烛。",
-                "poemId": null,
+                "poemId": "sup_351",
                 "knowledgePoints": [
                         "冷烛",
                         "钱珝",
@@ -29523,7 +29523,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月照一孤舟",
                 "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写风鸣。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_031",
                 "knowledgePoints": [
                         "风鸣",
                         "孟浩然",
@@ -29541,7 +29541,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天生旧物不如新",
                 "explanation": "出自温庭筠《南歌子》，描写深红。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_088",
                 "knowledgePoints": [
                         "深红",
                         "温庭筠",
@@ -29577,7 +29577,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "侧坐莓苔草映身",
                 "explanation": "出自胡令能《小儿垂钓》，描写小儿。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "小儿",
                         "胡令能",
@@ -29596,7 +29596,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "意恐迟迟归",
                 "explanation": "出自孟郊《游子吟》，描写临行。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "临行",
                         "孟郊",
@@ -29614,7 +29614,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山岛竦峙",
                 "explanation": "出自观沧海。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "初一",
                         "观沧海"
@@ -29631,7 +29631,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "怕得鱼惊不应人",
                 "explanation": "出自胡令能《小儿垂钓》，描写招手。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "招手",
                         "胡令能",
@@ -29650,7 +29650,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "报得三春晖",
                 "explanation": "出自孟郊《游子吟》，描写寸草。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "寸草",
                         "孟郊",
@@ -29668,7 +29668,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "星汉灿烂",
                 "explanation": "出自观沧海。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "初一",
                         "观沧海"
@@ -29685,7 +29685,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "手可摘星辰",
                 "explanation": "出自李白《夜宿山寺》，描写危楼。",
-                "poemId": null,
+                "poemId": "sup_114",
                 "knowledgePoints": [
                         "危楼",
                         "李白",
@@ -29704,7 +29704,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一片孤城万仞山",
                 "explanation": "出自王之涣《凉州词》，描写黄河。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "黄河",
                         "王之涣",
@@ -29722,7 +29722,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潮平两岸阔",
                 "explanation": "出自次北固山下。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "初一",
                         "次北固山下"
@@ -29739,7 +29739,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恐惊天上人",
                 "explanation": "出自李白《夜宿山寺》，描写高声。",
-                "poemId": null,
+                "poemId": "sup_114",
                 "knowledgePoints": [
                         "高声",
                         "李白",
@@ -29758,7 +29758,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风不度玉门关",
                 "explanation": "出自王之涣《凉州词》，描写羌笛。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "羌笛",
                         "王之涣",
@@ -29776,7 +29776,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江春入旧年",
                 "explanation": "出自次北固山下。",
-                "poemId": null,
+                "poemId": "sup_054",
                 "knowledgePoints": [
                         "初一",
                         "次北固山下"
@@ -29793,7 +29793,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "至今已觉不新鲜",
                 "explanation": "出自赵翼《论诗》，描写李杜。",
-                "poemId": null,
+                "poemId": "sup_192",
                 "knowledgePoints": [
                         "李杜",
                         "赵翼",
@@ -29811,7 +29811,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里长征人未还",
                 "explanation": "出自王昌龄《出塞》，描写秦时。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "秦时",
                         "王昌龄",
@@ -29830,7 +29830,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "谁家新燕啄春泥",
                 "explanation": "出自钱塘湖春行。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "初一",
                         "钱塘湖春行"
@@ -29847,7 +29847,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "各领风骚数百年",
                 "explanation": "出自赵翼《论诗》，描写才人。",
-                "poemId": null,
+                "poemId": "sup_192",
                 "knowledgePoints": [
                         "才人",
                         "赵翼",
@@ -29865,7 +29865,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不教胡马度阴山",
                 "explanation": "出自王昌龄《出塞》，描写龙城。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "龙城",
                         "王昌龄",
@@ -29884,7 +29884,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浅草才能没马蹄",
                 "explanation": "出自钱塘湖春行。",
-                "poemId": null,
+                "poemId": "sup_131",
                 "knowledgePoints": [
                         "初一",
                         "钱塘湖春行"
@@ -29901,7 +29901,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "铜雀春深锁二乔",
                 "explanation": "出自杜牧《赤壁》，描写赤壁。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "赤壁",
                         "杜牧",
@@ -29920,7 +29920,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "欲饮琵琶马上催",
                 "explanation": "出自王翰《凉州词》，描写葡萄。",
-                "poemId": null,
+                "poemId": "sup_010",
                 "knowledgePoints": [
                         "葡萄",
                         "王翰",
@@ -29938,7 +29938,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绿杨阴里白沙堤",
                 "explanation": "出自钱塘湖春行。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "初一",
                         "钱塘湖春行"
@@ -29955,7 +29955,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自将磨洗认前朝",
                 "explanation": "出自杜牧《赤壁》，描写折戟。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "折戟",
                         "杜牧",
@@ -29974,7 +29974,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "古来征战几人回",
                 "explanation": "出自王翰《凉州词》，描写醉卧。",
-                "poemId": null,
+                "poemId": "sup_010",
                 "knowledgePoints": [
                         "醉卧",
                         "王翰",
@@ -29992,7 +29992,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "听取蛙声一片",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -30009,7 +30009,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "隔江犹唱后庭花",
                 "explanation": "出自杜牧《泊秦淮》，描写商女。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "商女",
                         "杜牧",
@@ -30028,7 +30028,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北风吹雁雪纷纷",
                 "explanation": "出自高适《别董大》，描写千里。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "千里",
                         "高适",
@@ -30047,7 +30047,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "听取蛙声一片",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -30064,7 +30064,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜泊秦淮近酒家",
                 "explanation": "出自杜牧《泊秦淮》，描写寒水。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "寒水",
                         "杜牧",
@@ -30083,7 +30083,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天下谁人不识君",
                 "explanation": "出自高适《别董大》，描写莫愁。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "莫愁",
                         "高适",
@@ -30102,7 +30102,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两三点雨山前",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -30119,7 +30119,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春来江水绿如蓝",
                 "explanation": "出自白居易《忆江南》，描写江花。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "江花",
                         "白居易",
@@ -30138,7 +30138,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "玉盘珍羞直万钱",
                 "explanation": "出自李白《行路难》，描写金樽。",
-                "poemId": null,
+                "poemId": "sup_056",
                 "knowledgePoints": [
                         "金樽",
                         "李白",
@@ -30156,7 +30156,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路转溪桥忽见",
                 "explanation": "出自西江月。",
-                "poemId": null,
+                "poemId": "sup_310",
                 "knowledgePoints": [
                         "初一",
                         "西江月"
@@ -30173,7 +30173,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风景旧曾谙",
                 "explanation": "出自白居易《忆江南》，描写江南。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "江南",
                         "白居易",
@@ -30191,7 +30191,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "拔剑四顾心茫然",
                 "explanation": "出自李白《行路难》，描写停杯。",
-                "poemId": null,
+                "poemId": "sup_056",
                 "knowledgePoints": [
                         "停杯",
                         "李白",
@@ -30209,7 +30209,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "古道西风瘦马",
                 "explanation": "出自天净沙·秋思。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "初一",
                         "天净沙·秋思"
@@ -30226,7 +30226,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山寺月中寻桂子",
                 "explanation": "出自白居易《忆江南》，描写杭州。",
-                "poemId": null,
+                "poemId": "poem_001",
                 "knowledgePoints": [
                         "杭州",
                         "白居易",
@@ -30244,7 +30244,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "将登太行雪满山",
                 "explanation": "出自李白《行路难》，描写欲渡。",
-                "poemId": null,
+                "poemId": "poem_012",
                 "knowledgePoints": [
                         "欲渡",
                         "李白",
@@ -30262,7 +30262,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "断肠人在天涯",
                 "explanation": "出自天净沙·秋思。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "初一",
                         "天净沙·秋思"
@@ -30279,7 +30279,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花木成畦手自栽",
                 "explanation": "出自王安石《书湖阴先生壁》，描写茅檐。",
-                "poemId": null,
+                "poemId": "sup_173",
                 "knowledgePoints": [
                         "茅檐",
                         "王安石",
@@ -30297,7 +30297,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "忽复乘舟梦日边",
                 "explanation": "出自李白《行路难》，描写闲来。",
-                "poemId": null,
+                "poemId": "poem_012",
                 "knowledgePoints": [
                         "闲来",
                         "李白",
@@ -30315,7 +30315,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不闻机杼声",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_127",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -30332,7 +30332,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两山排闼送青来",
                 "explanation": "出自王安石《书湖阴先生壁》，描写绿绕。",
-                "poemId": null,
+                "poemId": "sup_173",
                 "knowledgePoints": [
                         "绿绕",
                         "王安石",
@@ -30350,7 +30350,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "直挂云帆济沧海",
                 "explanation": "出自李白《行路难》，描写长风。",
-                "poemId": null,
+                "poemId": "poem_012",
                 "knowledgePoints": [
                         "长风",
                         "李白",
@@ -30368,7 +30368,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "问女何所忆",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -30385,7 +30385,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风送暖入屠苏",
                 "explanation": "出自王安石《元日》，描写爆竹。",
-                "poemId": null,
+                "poemId": "sup_237",
                 "knowledgePoints": [
                         "爆竹",
                         "王安石",
@@ -30403,7 +30403,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "玉盘珍羞直万钱",
                 "explanation": "出自李白《行路难》，描写玉盘。",
-                "poemId": null,
+                "poemId": "sup_056",
                 "knowledgePoints": [
                         "玉盘",
                         "李白",
@@ -30422,7 +30422,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "关山度若飞",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -30439,7 +30439,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "总把新桃换旧符",
                 "explanation": "出自王安石《元日》，描写曈曈。",
-                "poemId": null,
+                "poemId": "sup_237",
                 "knowledgePoints": [
                         "曈曈",
                         "王安石",
@@ -30458,7 +30458,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "拔剑四顾心茫然",
                 "explanation": "出自李白《行路难》，描写茫然。",
-                "poemId": null,
+                "poemId": "sup_056",
                 "knowledgePoints": [
                         "茫然",
                         "李白",
@@ -30477,7 +30477,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒光照铁衣",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -30494,7 +30494,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "钟山只隔数重山",
                 "explanation": "出自王安石《泊船瓜洲》，描写京口。",
-                "poemId": null,
+                "poemId": "sup_238",
                 "knowledgePoints": [
                         "京口",
                         "王安石",
@@ -30512,7 +30512,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "多歧路",
                 "explanation": "出自李白《行路难》，描写歧路。",
-                "poemId": null,
+                "poemId": "poem_012",
                 "knowledgePoints": [
                         "歧路",
                         "李白",
@@ -30530,7 +30530,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "壮士十年归",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -30547,7 +30547,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "明月何时照我还",
                 "explanation": "出自王安石《泊船瓜洲》，描写绿江南。",
-                "poemId": null,
+                "poemId": "sup_238",
                 "knowledgePoints": [
                         "绿",
                         "王安石",
@@ -30565,7 +30565,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "直挂云帆济沧海",
                 "explanation": "出自李白《行路难》，描写沧海。",
-                "poemId": null,
+                "poemId": "poem_012",
                 "knowledgePoints": [
                         "沧海",
                         "李白",
@@ -30583,7 +30583,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "双兔傍地走，安能辨我是雄雌",
                 "explanation": "出自木兰诗。",
-                "poemId": null,
+                "poemId": "sup_159",
                 "knowledgePoints": [
                         "初一",
                         "木兰诗"
@@ -30600,7 +30600,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "凌寒独自开",
                 "explanation": "出自王安石《梅花》，描写梅。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_090",
                 "knowledgePoints": [
                         "梅",
                         "王安石",
@@ -30618,7 +30618,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "我独不得出",
                 "explanation": "出自李白《行路难》，描写大道。",
-                "poemId": null,
+                "poemId": "poem_012",
                 "knowledgePoints": [
                         "大道",
                         "李白",
@@ -30636,7 +30636,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "商女不知亡国恨",
                 "explanation": "出自泊秦淮。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "初一",
                         "泊秦淮"
@@ -30653,7 +30653,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一行白鹭上青天",
                 "explanation": "出自杜甫《绝句》，描写黄鹂。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "黄鹂",
                         "杜甫",
@@ -30672,7 +30672,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "谁家新燕啄春泥",
                 "explanation": "出自白居易《钱塘湖春行》，描写早莺。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "早莺",
                         "白居易",
@@ -30691,7 +30691,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山重水复疑无路",
                 "explanation": "出自游山西村。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "初一",
                         "游山西村"
@@ -30708,7 +30708,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "门泊东吴万里船",
                 "explanation": "出自杜甫《绝句》，描写西岭。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "西岭",
                         "杜甫",
@@ -30727,7 +30727,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浅草才能没马蹄",
                 "explanation": "出自白居易《钱塘湖春行》，描写乱花。",
-                "poemId": null,
+                "poemId": "sup_131",
                 "knowledgePoints": [
                         "乱花",
                         "白居易",
@@ -30746,7 +30746,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牙璋辞凤阙",
                 "explanation": "出自从军行。",
-                "poemId": null,
+                "poemId": "sup_346",
                 "knowledgePoints": [
                         "初一",
                         "从军行"
@@ -30763,7 +30763,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不及汪伦送我情",
                 "explanation": "出自李白《赠汪伦》，描写潭水。",
-                "poemId": null,
+                "poemId": "sup_008",
                 "knowledgePoints": [
                         "潭水",
                         "李白",
@@ -30782,7 +30782,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绿杨阴里白沙堤",
                 "explanation": "出自白居易《钱塘湖春行》，描写湖东。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "湖东",
                         "白居易",
@@ -30801,7 +30801,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "两鬓苍苍十指黑",
                 "explanation": "出自卖炭翁。",
-                "poemId": null,
+                "poemId": "sup_058",
                 "knowledgePoints": [
                         "初一",
                         "卖炭翁"
@@ -30818,7 +30818,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是银河落九天",
                 "explanation": "出自李白《望庐山瀑布》，描写飞流。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "飞流",
                         "李白",
@@ -30837,7 +30837,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水面初平云脚低",
                 "explanation": "出自白居易《钱塘湖春行》，描写孤山。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "孤山",
                         "白居易",
@@ -30856,7 +30856,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "宫使驱将惜不得",
                 "explanation": "出自卖炭翁。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_006",
                 "knowledgePoints": [
                         "初一",
                         "卖炭翁"
@@ -30873,7 +30873,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遥看瀑布挂前川",
                 "explanation": "出自李白《望庐山瀑布》，描写香炉。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "香炉",
                         "李白",
@@ -30892,7 +30892,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水面初平云脚低",
                 "explanation": "出自白居易《钱塘湖春行》，描写水面。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "水面",
                         "白居易",
@@ -30911,7 +30911,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "大庇天下寒士俱欢颜",
                 "explanation": "出自茅屋为秋风所破歌。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "初一",
                         "茅屋为秋风所破歌"
@@ -30928,7 +30928,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "手可摘星辰",
                 "explanation": "出自李白《夜宿山寺》，描写危楼。",
-                "poemId": null,
+                "poemId": "sup_114",
                 "knowledgePoints": [
                         "危楼",
                         "李白",
@@ -30947,7 +30947,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "甲光向日金鳞开",
                 "explanation": "出自李贺《雁门太守行》，描写黑云。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "黑云",
                         "李贺",
@@ -30966,7 +30966,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "吾庐独破受冻死亦足",
                 "explanation": "出自茅屋为秋风所破歌。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "初一",
                         "茅屋为秋风所破歌"
@@ -30983,7 +30983,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恐惊天上人",
                 "explanation": "出自李白《夜宿山寺》，描写高声语。",
-                "poemId": null,
+                "poemId": "sup_114",
                 "knowledgePoints": [
                         "语",
                         "李白",
@@ -31002,7 +31002,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "塞上燕脂凝夜紫",
                 "explanation": "出自李贺《雁门太守行》，描写角声。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "角声",
                         "李贺",
@@ -31021,7 +31021,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "收取关山五十州",
                 "explanation": "出自南园十三首。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_084",
                 "knowledgePoints": [
                         "初一",
                         "南园十三首"
@@ -31038,7 +31038,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "呼作白玉盘",
                 "explanation": "出自李白《古朗月行》，描写不识。",
-                "poemId": null,
+                "poemId": "sup_051",
                 "knowledgePoints": [
                         "识",
                         "李白",
@@ -31057,7 +31057,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "提携玉龙为君死",
                 "explanation": "出自李贺《雁门太守行》，描写黄金台。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "黄金台",
                         "李贺",
@@ -31076,7 +31076,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "甲光向日金鳞开",
                 "explanation": "出自雁门太守行。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "初一",
                         "雁门太守行"
@@ -31093,7 +31093,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "飞在青云端",
                 "explanation": "出自李白《古朗月行》，描写瑶台。",
-                "poemId": null,
+                "poemId": "sup_051",
                 "knowledgePoints": [
                         "瑶台",
                         "李白",
@@ -31111,7 +31111,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自将磨洗认前朝",
                 "explanation": "出自杜牧《赤壁》，描写磨洗。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "磨洗",
                         "杜牧",
@@ -31130,7 +31130,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "塞上燕脂凝夜紫",
                 "explanation": "出自雁门太守行。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "初一",
                         "雁门太守行"
@@ -31147,7 +31147,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潭面无风镜未磨",
                 "explanation": "出自刘禹锡《望洞庭》，描写湖光。",
-                "poemId": null,
+                "poemId": "sup_033",
                 "knowledgePoints": [
                         "湖光",
                         "刘禹锡",
@@ -31166,7 +31166,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "铜雀春深锁二乔",
                 "explanation": "出自杜牧《赤壁》，描写铜雀。",
-                "poemId": null,
+                "poemId": "sup_273",
                 "knowledgePoints": [
                         "铜雀",
                         "杜牧",
@@ -31185,7 +31185,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "提携玉龙为君死",
                 "explanation": "出自雁门太守行。",
-                "poemId": null,
+                "poemId": "sup_059",
                 "knowledgePoints": [
                         "初一",
                         "雁门太守行"
@@ -31202,7 +31202,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潭面无风镜未磨",
                 "explanation": "出自刘禹锡《望洞庭》，描写潭面。",
-                "poemId": null,
+                "poemId": "sup_033",
                 "knowledgePoints": [
                         "潭面",
                         "刘禹锡",
@@ -31221,7 +31221,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜泊秦淮近酒家",
                 "explanation": "出自杜牧《泊秦淮》，描写夜泊。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "夜泊",
                         "杜牧",
@@ -31240,7 +31240,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独倚望江楼",
                 "explanation": "出自梦江南。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_085",
                 "knowledgePoints": [
                         "初一",
                         "梦江南"
@@ -31257,7 +31257,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白银盘里一青螺",
                 "explanation": "出自刘禹锡《望洞庭》，描写山水。",
-                "poemId": null,
+                "poemId": "sup_033",
                 "knowledgePoints": [
                         "山水",
                         "刘禹锡",
@@ -31276,7 +31276,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "隔江犹唱后庭花",
                 "explanation": "出自杜牧《泊秦淮》，描写隔江。",
-                "poemId": null,
+                "poemId": "sup_017",
                 "knowledgePoints": [
                         "隔江",
                         "杜牧",
@@ -31295,7 +31295,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "斜晖脉脉水悠悠",
                 "explanation": "出自梦江南。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_085",
                 "knowledgePoints": [
                         "初一",
                         "梦江南"
@@ -31312,7 +31312,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浪淘风簸自天涯",
                 "explanation": "出自刘禹锡《浪淘沙》，描写黄河。",
-                "poemId": null,
+                "poemId": "sup_087",
                 "knowledgePoints": [
                         "黄河",
                         "刘禹锡",
@@ -31330,7 +31330,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路上行人欲断魂",
                 "explanation": "出自杜牧《清明》，描写雨纷纷。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "雨纷纷",
                         "杜牧",
@@ -31349,7 +31349,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "且将新火试新茶",
                 "explanation": "出自望江南。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_087",
                 "knowledgePoints": [
                         "初一",
                         "望江南"
@@ -31366,7 +31366,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "同到牵牛织女家",
                 "explanation": "出自刘禹锡《浪淘沙》，描写银河。",
-                "poemId": null,
+                "poemId": "sup_087",
                 "knowledgePoints": [
                         "银河",
                         "刘禹锡",
@@ -31384,7 +31384,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牧童遥指杏花村",
                 "explanation": "出自杜牧《清明》，描写牧童。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "牧童",
                         "杜牧",
@@ -31403,7 +31403,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衡阳雁去无留意",
                 "explanation": "出自渔家傲。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "初一",
                         "渔家傲"
@@ -31420,7 +31420,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "桃花流水鳜鱼肥",
                 "explanation": "出自张志和《渔歌子》，描写白鹭。",
-                "poemId": null,
+                "poemId": "sup_218",
                 "knowledgePoints": [
                         "白鹭",
                         "张志和",
@@ -31439,7 +31439,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水村山郭酒旗风",
                 "explanation": "出自杜牧《江南春》，描写水村。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "水村",
                         "杜牧",
@@ -31457,7 +31457,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长烟落日孤城闭",
                 "explanation": "出自渔家傲。",
-                "poemId": null,
+                "poemId": "sup_062",
                 "knowledgePoints": [
                         "初一",
                         "渔家傲"
@@ -31474,7 +31474,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "斜风细雨不须归",
                 "explanation": "出自张志和《渔歌子》，描写蓑衣。",
-                "poemId": null,
+                "poemId": "sup_218",
                 "knowledgePoints": [
                         "蓑衣",
                         "张志和",
@@ -31493,7 +31493,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "多少楼台烟雨中",
                 "explanation": "出自杜牧《江南春》，描写四百八。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "四百八",
                         "杜牧",
@@ -31511,7 +31511,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何妨吟啸且徐行",
                 "explanation": "出自定风波。",
-                "poemId": null,
+                "poemId": "sup_135",
                 "knowledgePoints": [
                         "初一",
                         "定风波"
@@ -31528,7 +31528,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春来江水绿如蓝",
                 "explanation": "出自白居易《忆江南》，描写日出。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "日出",
                         "白居易",
@@ -31547,7 +31547,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻罗小扇扑流萤",
                 "explanation": "出自杜牧《秋夕》，描写轻罗。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
                         "轻罗",
                         "杜牧",
@@ -31566,7 +31566,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一蓑烟雨任平生",
                 "explanation": "出自定风波。",
-                "poemId": null,
+                "poemId": "sup_135",
                 "knowledgePoints": [
                         "初一",
                         "定风波"
@@ -31583,7 +31583,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "最忆是杭州",
                 "explanation": "出自白居易《忆江南》，描写忆江南。",
-                "poemId": null,
+                "poemId": "poem_001",
                 "knowledgePoints": [
                         "忆",
                         "白居易",
@@ -31601,7 +31601,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卧看牵牛织女星",
                 "explanation": "出自杜牧《秋夕》，描写牵牛。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
                         "牵牛",
                         "杜牧",
@@ -31620,7 +31620,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "也无风雨也无晴",
                 "explanation": "出自定风波。",
-                "poemId": null,
+                "poemId": "sup_135",
                 "knowledgePoints": [
                         "初一",
                         "定风波"
@@ -31637,7 +31637,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春江水暖鸭先知",
                 "explanation": "出自苏轼《惠崇春江晚景》，描写竹外。",
-                "poemId": null,
+                "poemId": "sup_165",
                 "knowledgePoints": [
                         "竹外",
                         "苏轼",
@@ -31656,7 +31656,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "秋尽江南草未凋",
                 "explanation": "出自杜牧《寄扬州韩绰判官》，描写草未凋。",
-                "poemId": null,
+                "poemId": "sup_187",
                 "knowledgePoints": [
                         "草未凋",
                         "杜牧",
@@ -31691,7 +31691,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "正是河豚欲上时",
                 "explanation": "出自苏轼《惠崇春江晚景》，描写蒌蒿。",
-                "poemId": null,
+                "poemId": "sup_165",
                 "knowledgePoints": [
                         "蒌蒿",
                         "苏轼",
@@ -31710,7 +31710,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "玉人何处教吹箫",
                 "explanation": "出自杜牧《寄扬州韩绰判官》，描写玉人。",
-                "poemId": null,
+                "poemId": "sup_187",
                 "knowledgePoints": [
                         "玉人",
                         "杜牧",
@@ -31728,7 +31728,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "那人却在，灯火阑珊处",
                 "explanation": "出自青玉案。",
-                "poemId": null,
+                "poemId": "sup_373",
                 "knowledgePoints": [
                         "初一",
                         "青玉案"
@@ -31745,7 +31745,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "牧童遥指杏花村",
                 "explanation": "出自杜牧《清明》，描写杏花。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "杏花",
                         "杜牧",
@@ -31764,7 +31764,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闻说鸡鸣见日升",
                 "explanation": "出自王安石《登飞来峰》，描写飞来。",
-                "poemId": null,
+                "poemId": "sup_025",
                 "knowledgePoints": [
                         "飞来",
                         "王安石",
@@ -31782,7 +31782,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "爱上层楼",
                 "explanation": "出自丑奴儿。",
-                "poemId": null,
+                "poemId": "sup_067",
                 "knowledgePoints": [
                         "初一",
                         "丑奴儿"
@@ -31799,7 +31799,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "路上行人欲断魂",
                 "explanation": "出自杜牧《清明》，描写雨纷纷。",
-                "poemId": null,
+                "poemId": "sup_001",
                 "knowledgePoints": [
                         "雨",
                         "杜牧",
@@ -31818,7 +31818,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自缘身在最高层",
                 "explanation": "出自王安石《登飞来峰》，描写浮云。",
-                "poemId": null,
+                "poemId": "sup_025",
                 "knowledgePoints": [
                         "浮云",
                         "王安石",
@@ -31853,7 +31853,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "水村山郭酒旗风",
                 "explanation": "出自杜牧《江南春》，描写莺啼。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "莺啼",
                         "杜牧",
@@ -31872,7 +31872,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风送暖入屠苏",
                 "explanation": "出自王安石《元日》，描写爆竹。",
-                "poemId": null,
+                "poemId": "sup_237",
                 "knowledgePoints": [
                         "爆竹",
                         "王安石",
@@ -31890,7 +31890,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "多少楼台烟雨中",
                 "explanation": "出自杜牧《江南春》，描写四百。",
-                "poemId": null,
+                "poemId": "sup_234",
                 "knowledgePoints": [
                         "四百",
                         "杜牧",
@@ -31909,7 +31909,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "总把新桃换旧符",
                 "explanation": "出自王安石《元日》，描写瞳瞳。",
-                "poemId": null,
+                "poemId": "sup_237",
                 "knowledgePoints": [
                         "瞳瞳",
                         "王安石",
@@ -31927,7 +31927,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云生处有人家",
                 "explanation": "出自杜牧《山行》，描写石径。",
-                "poemId": null,
+                "poemId": "sup_156",
                 "knowledgePoints": [
                         "石径",
                         "杜牧",
@@ -31946,7 +31946,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "钟山只隔数重山",
                 "explanation": "出自王安石《泊船瓜洲》，描写京口。",
-                "poemId": null,
+                "poemId": "sup_238",
                 "knowledgePoints": [
                         "京口",
                         "王安石",
@@ -31964,7 +31964,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "霜叶红于二月花",
                 "explanation": "出自杜牧《山行》，描写枫林晚。",
-                "poemId": null,
+                "poemId": "sup_156",
                 "knowledgePoints": [
                         "枫林",
                         "杜牧",
@@ -31983,7 +31983,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "明月何时照我还",
                 "explanation": "出自王安石《泊船瓜洲》，描写绿江南。",
-                "poemId": null,
+                "poemId": "sup_238",
                 "knowledgePoints": [
                         "绿江南",
                         "王安石",
@@ -32001,7 +32001,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻罗小扇扑流萤",
                 "explanation": "出自杜牧《秋夕》，描写秋光。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
                         "秋光",
                         "杜牧",
@@ -32020,7 +32020,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "凌寒独自开",
                 "explanation": "出自王安石《梅花》，描写墙角。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_090",
                 "knowledgePoints": [
                         "墙角",
                         "王安石",
@@ -32038,7 +32038,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卧看牵牛织女星",
                 "explanation": "出自杜牧《秋夕》，描写夜色凉。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
                         "夜色",
                         "杜牧",
@@ -32057,7 +32057,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "为有暗香来",
                 "explanation": "出自王安石《梅花》，描写暗香。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_090",
                 "knowledgePoints": [
                         "暗香",
                         "王安石",
@@ -32075,7 +32075,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "秋尽江南草未凋",
                 "explanation": "出自杜牧《寄扬州韩绰判官》，描写青山。",
-                "poemId": null,
+                "poemId": "sup_187",
                 "knowledgePoints": [
                         "青山",
                         "杜牧",
@@ -32093,7 +32093,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "赚得行人错喜欢",
                 "explanation": "出自杨万里《过松源晨炊漆公店》，描写莫言。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_095",
                 "knowledgePoints": [
                         "莫言",
                         "杨万里",
@@ -32111,7 +32111,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "玉人何处教吹箫",
                 "explanation": "出自杜牧《寄扬州韩绰判官》，描写明月夜。",
-                "poemId": null,
+                "poemId": "sup_187",
                 "knowledgePoints": [
                         "明月",
                         "杜牧",
@@ -32129,7 +32129,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一山放出一山拦",
                 "explanation": "出自杨万里《过松源晨炊漆公店》，描写万山。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_095",
                 "knowledgePoints": [
                         "万山",
                         "杨万里",
@@ -32147,7 +32147,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万条垂下绿丝绦",
                 "explanation": "出自贺知章《咏柳》，描写柳树。",
-                "poemId": null,
+                "poemId": "sup_106",
                 "knowledgePoints": [
                         "柳树",
                         "贺知章",
@@ -32166,7 +32166,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写月落。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "月落",
                         "张继",
@@ -32185,7 +32185,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二月春风似剪刀",
                 "explanation": "出自贺知章《咏柳》，描写春风。",
-                "poemId": null,
+                "poemId": "sup_307",
                 "knowledgePoints": [
                         "春风",
                         "贺知章",
@@ -32204,7 +32204,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜半钟声到客船",
                 "explanation": "出自张继《枫桥夜泊》，描写姑苏。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "姑苏",
                         "张继",
@@ -32223,7 +32223,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风吹又生",
                 "explanation": "出自白居易《草》，描写野火。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "野火",
                         "白居易",
@@ -32242,7 +32242,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒食东风御柳斜",
                 "explanation": "出自韩翃《寒食》，描写春城无处。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "春城无处",
                         "韩翃",
@@ -32261,7 +32261,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一岁一枯荣",
                 "explanation": "出自白居易《草》，描写离离。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "离离",
                         "白居易",
@@ -32280,7 +32280,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻烟散入五侯家",
                 "explanation": "出自韩翃《寒食》，描写日暮汉宫。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "日暮汉宫",
                         "韩翃",
@@ -32299,7 +32299,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "晴翠接荒城",
                 "explanation": "出自白居易《草》，描写远芳。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "远芳",
                         "白居易",
@@ -32317,7 +32317,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "每逢佳节倍思亲",
                 "explanation": "出自王维《九月九日忆山东兄弟》，描写独在。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "独在",
                         "王维",
@@ -32336,7 +32336,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白云千载空悠悠",
                 "explanation": "出自崔颢《黄鹤楼》，描写黄鹤。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "黄鹤",
                         "崔颢",
@@ -32355,7 +32355,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遍插茱萸少一人",
                 "explanation": "出自王维《九月九日忆山东兄弟》，描写遥知。",
-                "poemId": null,
+                "poemId": "sup_205",
                 "knowledgePoints": [
                         "遥知",
                         "王维",
@@ -32374,7 +32374,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "芳草萋萋鹦鹉洲",
                 "explanation": "出自崔颢《黄鹤楼》，描写晴川。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "晴川",
                         "崔颢",
@@ -32393,7 +32393,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "客舍青青柳色新",
                 "explanation": "出自王维《送元二使安西》，描写渭城。",
-                "poemId": null,
+                "poemId": "sup_107",
                 "knowledgePoints": [
                         "渭城",
                         "王维",
@@ -32412,7 +32412,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟波江上使人愁",
                 "explanation": "出自崔颢《黄鹤楼》，描写日暮。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "日暮",
                         "崔颢",
@@ -32431,7 +32431,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "西出阳关无故人",
                 "explanation": "出自王维《送元二使安西》，描写劝君。",
-                "poemId": null,
+                "poemId": "sup_107",
                 "knowledgePoints": [
                         "劝君",
                         "王维",
@@ -32450,7 +32450,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写月落乌啼。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "乌啼",
                         "张继",
@@ -32469,7 +32469,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "弹琴复长啸",
                 "explanation": "出自王维《竹里馆》，描写独坐幽篁。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "独坐幽篁",
                         "王维",
@@ -32488,7 +32488,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写江枫。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "江枫",
                         "张继",
@@ -32507,7 +32507,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "明月来相照",
                 "explanation": "出自王维《竹里馆》，描写深林人。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "深林人",
                         "王维",
@@ -32526,7 +32526,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天似穹庐",
                 "explanation": "出自无名氏《敕勒歌》，描写敕勒川。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "敕勒川",
                         "无名氏",
@@ -32544,7 +32544,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "空山新雨后",
                 "explanation": "出自王维《山居秋暝》，描写山居。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "山居",
                         "王维",
@@ -32562,7 +32562,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "笼盖四野",
                 "explanation": "出自无名氏《敕勒歌》，描写四野。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "四野",
                         "无名氏",
@@ -32581,7 +32581,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "清泉石上流",
                 "explanation": "出自王维《山居秋暝》，描写明月松间。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "明月松间",
                         "王维",
@@ -32600,7 +32600,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻舟已过万重山",
                 "explanation": "出自李白《早发白帝城》，描写猿声。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "猿声",
                         "李白",
@@ -32619,7 +32619,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莲动下渔舟",
                 "explanation": "出自王维《山居秋暝》，描写竹喧。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "竹喧",
                         "王维",
@@ -32639,7 +32639,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里江陵一日还",
                 "explanation": "出自李白《早发白帝城》，描写白帝。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "白帝",
                         "李白",
@@ -32658,7 +32658,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "王孙自可留",
                 "explanation": "出自王维《山居秋暝》，描写随意。",
-                "poemId": null,
+                "poemId": "sup_313",
                 "knowledgePoints": [
                         "随意",
                         "王维",
@@ -32677,7 +32677,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻舟已过万重山",
                 "explanation": "出自李白《早发白帝城》，描写万重。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "万重",
                         "李白",
@@ -32696,7 +32696,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "属国过居延",
                 "explanation": "出自王维《使至塞上》，描写单车欲。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "单车欲",
                         "王维",
@@ -32715,7 +32715,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟花三月下扬州",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写故人。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "故人",
                         "李白",
@@ -32734,7 +32734,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "归雁入胡天",
                 "explanation": "出自王维《使至塞上》，描写征蓬。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "征蓬",
                         "王维",
@@ -32753,7 +32753,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "唯见长江天际流",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写孤帆。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "孤帆",
                         "李白",
@@ -32771,7 +32771,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写大漠孤烟。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "大漠孤烟",
                         "王维",
@@ -32790,7 +32790,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "碧水东流至此回",
                 "explanation": "出自李白《望天门山》，描写天门。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "天门",
                         "李白",
@@ -32809,7 +32809,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千古风流人物",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写大江东。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "大江东",
                         "苏轼",
@@ -32827,7 +32827,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤帆一片日边来",
                 "explanation": "出自李白《望天门山》，描写青山。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "青山",
                         "李白",
@@ -32846,7 +32846,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卷起千堆雪",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写乱石穿空。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "乱石穿空",
                         "苏轼",
@@ -32864,7 +32864,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遥看瀑布挂前川",
                 "explanation": "出自李白《望庐山瀑布》，描写香炉生。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "香炉",
                         "李白",
@@ -32883,7 +32883,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "把酒问青天",
                 "explanation": "出自苏轼《水调歌头》，描写明月几时。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "明月几时",
                         "苏轼",
@@ -32901,7 +32901,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江南好",
                 "explanation": "出自白居易《忆江南》，描写江南。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "江南",
                         "白居易",
@@ -32919,7 +32919,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月有阴晴圆缺",
                 "explanation": "出自苏轼《水调歌头》，描写悲欢。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "悲欢",
                         "苏轼",
@@ -32937,7 +32937,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "吴酒一杯春竹叶",
                 "explanation": "出自白居易《忆江南》，描写吴宫。",
-                "poemId": null,
+                "poemId": "poem_001",
                 "knowledgePoints": [
                         "吴宫",
                         "白居易",
@@ -32955,7 +32955,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里共婵娟",
                 "explanation": "出自苏轼《水调歌头》，描写人长久。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "人长久",
                         "苏轼",
@@ -32991,7 +32991,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "又恐琼楼玉宇",
                 "explanation": "出自苏轼《水调歌头》，描写乘风归去。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "乘风归去",
                         "苏轼",
@@ -33009,7 +33009,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "却道海棠依旧",
                 "explanation": "出自李清照《如梦令》，描写卷帘。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_001",
                 "knowledgePoints": [
                         "卷帘",
                         "李清照",
@@ -33027,7 +33027,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何似在人间",
                 "explanation": "出自苏轼《水调歌头》，描写弄清影。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "弄清影",
                         "苏轼",
@@ -33045,7 +33045,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "应是绿肥红瘦",
                 "explanation": "出自李清照《如梦令》，描写绿肥。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_001",
                 "knowledgePoints": [
                         "绿肥",
                         "李清照",
@@ -33081,7 +33081,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "凄凄惨惨戚戚",
                 "explanation": "出自李清照《声声慢》，描写寻寻。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "寻寻",
                         "李清照",
@@ -33099,7 +33099,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何事长向别时圆",
                 "explanation": "出自苏轼《水调歌头》，描写别时圆。",
-                "poemId": null,
+                "poemId": "sup_065",
                 "knowledgePoints": [
                         "别时圆",
                         "苏轼",
@@ -33117,7 +33117,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "最难将息",
                 "explanation": "出自李清照《声声慢》，描写乍暖。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "乍暖",
                         "李清照",
@@ -33135,7 +33135,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千古风流人物",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写千古风流。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "千古风流",
                         "苏轼",
@@ -33154,7 +33154,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "如今有谁堪摘",
                 "explanation": "出自李清照《声声慢》，描写满地。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "满地",
                         "李清照",
@@ -33172,7 +33172,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "三国周郎赤壁",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写故垒。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "故垒",
                         "苏轼",
@@ -33190,7 +33190,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "梧桐更兼细雨",
                 "explanation": "出自李清照《声声慢》，描写窗儿。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "窗儿",
                         "李清照",
@@ -33208,7 +33208,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "卷起千堆雪",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写卷起。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "卷起",
                         "苏轼",
@@ -33227,7 +33227,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "怎一个愁字了得",
                 "explanation": "出自李清照《声声慢》，描写这次。",
-                "poemId": null,
+                "poemId": "sup_143",
                 "knowledgePoints": [
                         "这次",
                         "李清照",
@@ -33245,7 +33245,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一时多少豪杰",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写如画。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "如画",
                         "苏轼",
@@ -33263,7 +33263,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "侧坐莓苔草映身",
                 "explanation": "出自胡令能《小儿垂钓》，描写蓬头。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "蓬头",
                         "胡令能",
@@ -33282,7 +33282,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "小乔初嫁了",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写公瑾。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "公瑾",
                         "苏轼",
@@ -33300,7 +33300,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "怕得鱼惊不应人",
                 "explanation": "出自胡令能《小儿垂钓》，描写遥招手。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "招手",
                         "胡令能",
@@ -33319,7 +33319,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "樯橹灰飞烟灭",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写羽扇。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "羽扇",
                         "苏轼",
@@ -33337,7 +33337,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟村四五家",
                 "explanation": "出自邵雍《山村咏怀》，描写二三。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "二三",
                         "邵雍",
@@ -33356,7 +33356,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "早生华发",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写故国神游。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "故国神游",
                         "苏轼",
@@ -33374,7 +33374,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "八九十枝花",
                 "explanation": "出自邵雍《山村咏怀》，描写亭台。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "亭台",
                         "邵雍",
@@ -33392,7 +33392,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一尊还酹江月",
                 "explanation": "出自苏轼《念奴娇·赤壁怀古》，描写人生如梦。",
-                "poemId": null,
+                "poemId": "sup_133",
                 "knowledgePoints": [
                         "人生如梦",
                         "苏轼",
@@ -33410,7 +33410,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "来睡采芝翁",
                 "explanation": "出自邵雍《山村咏怀》，描写新亭。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "新亭",
                         "邵雍",
@@ -33428,7 +33428,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "丰年留客足鸡豚",
                 "explanation": "出自陆游《游山西村》，描写农家腊酒。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "农家腊酒",
                         "陆游",
@@ -33447,7 +33447,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "百千万亿",
                 "explanation": "出自邵雍《山村咏怀》，描写十。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "十",
                         "邵雍",
@@ -33465,7 +33465,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "柳暗花明又一村",
                 "explanation": "出自陆游《游山西村》，描写山重水复。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "山重水复",
                         "陆游",
@@ -33484,7 +33484,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "处处闻啼鸟",
                 "explanation": "出自孟浩然《春晓》，描写春眠。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "春眠",
                         "孟浩然",
@@ -33503,7 +33503,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "衣冠简朴古风存",
                 "explanation": "出自陆游《游山西村》，描写春社。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "春社",
                         "陆游",
@@ -33522,7 +33522,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花落知多少",
                 "explanation": "出自孟浩然《春晓》，描写夜来。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "夜来",
                         "孟浩然",
@@ -33541,7 +33541,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "拄杖无时夜叩门",
                 "explanation": "出自陆游《游山西村》，描写闲乘月。",
-                "poemId": null,
+                "poemId": "sup_283",
                 "knowledgePoints": [
                         "闲乘月",
                         "陆游",
@@ -33560,7 +33560,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日暮客愁新",
                 "explanation": "出自孟浩然《宿建德江》，描写移舟。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "移舟",
                         "孟浩然",
@@ -33579,7 +33579,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但悲不见九州同",
                 "explanation": "出自陆游《示儿》，描写死去元知。",
-                "poemId": null,
+                "poemId": "sup_075",
                 "knowledgePoints": [
                         "死去元知",
                         "陆游",
@@ -33597,7 +33597,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江清月近人",
                 "explanation": "出自孟浩然《宿建德江》，描写野旷。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "野旷",
                         "孟浩然",
@@ -33616,7 +33616,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家祭无忘告乃翁",
                 "explanation": "出自陆游《示儿》，描写王师北定。",
-                "poemId": null,
+                "poemId": "sup_075",
                 "knowledgePoints": [
                         "王师北定",
                         "陆游",
@@ -33634,7 +33634,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒食东风御柳斜",
                 "explanation": "出自韩翃《寒食》，描写春城。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "春城",
                         "韩翃",
@@ -33653,7 +33653,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "齐鲁青未了",
                 "explanation": "出自杜甫《望岳》，描写岱宗夫。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "岱宗夫",
                         "杜甫",
@@ -33672,7 +33672,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻烟散入五侯家",
                 "explanation": "出自韩翃《寒食》，描写日暮。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "日暮",
                         "韩翃",
@@ -33691,7 +33691,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "阴阳割昏晓",
                 "explanation": "出自杜甫《望岳》，描写造化钟。",
-                "poemId": null,
+                "poemId": "sup_129",
                 "knowledgePoints": [
                         "造化钟",
                         "杜甫",
@@ -33710,7 +33710,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写千山。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "千山",
                         "柳宗元",
@@ -33729,7 +33729,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "决眦入归鸟",
                 "explanation": "出自杜甫《望岳》，描写荡胸生。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "荡胸生",
                         "杜甫",
@@ -33748,7 +33748,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独钓寒江雪",
                 "explanation": "出自柳宗元《江雪》，描写孤舟。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "孤舟",
                         "柳宗元",
@@ -33767,7 +33767,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一览众山小",
                 "explanation": "出自杜甫《望岳》，描写会当凌。",
-                "poemId": null,
+                "poemId": "poem_013",
                 "knowledgePoints": [
                         "会当凌",
                         "杜甫",
@@ -33786,7 +33786,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但闻人语响",
                 "explanation": "出自王维《鹿柴》，描写空山。",
-                "poemId": null,
+                "poemId": "sup_024",
                 "knowledgePoints": [
                         "空山",
                         "王维",
@@ -33805,7 +33805,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城春草木深",
                 "explanation": "出自杜甫《春望》，描写国破山河。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "国破山河",
                         "杜甫",
@@ -33824,7 +33824,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "复照青苔上",
                 "explanation": "出自王维《鹿柴》，描写返景。",
-                "poemId": null,
+                "poemId": "sup_024",
                 "knowledgePoints": [
                         "返景",
                         "王维",
@@ -33843,7 +33843,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恨别鸟惊心",
                 "explanation": "出自杜甫《春望》，描写感时花。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "感时花",
                         "杜甫",
@@ -33862,7 +33862,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "乡音无改鬓毛衰",
                 "explanation": "出自贺知章《回乡偶书》，描写乡音。",
-                "poemId": null,
+                "poemId": "sup_009",
                 "knowledgePoints": [
                         "乡音",
                         "贺知章",
@@ -33881,7 +33881,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "家书抵万金",
                 "explanation": "出自杜甫《春望》，描写烽火连。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "烽火连",
                         "杜甫",
@@ -33900,7 +33900,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "笑问客从何处来",
                 "explanation": "出自贺知章《回乡偶书》，描写儿童。",
-                "poemId": null,
+                "poemId": "sup_009",
                 "knowledgePoints": [
                         "儿童",
                         "贺知章",
@@ -33919,7 +33919,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浑欲不胜簪",
                 "explanation": "出自杜甫《春望》，描写白头搔。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "白头搔",
                         "杜甫",
@@ -33938,7 +33938,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "近来人事半消磨",
                 "explanation": "出自贺知章《回乡偶书》，描写离别。",
-                "poemId": null,
+                "poemId": "sup_093",
                 "knowledgePoints": [
                         "离别",
                         "贺知章",
@@ -33957,7 +33957,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "八月秋高风怒号",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写茅屋。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "茅屋",
                         "杜甫",
@@ -33975,7 +33975,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江柳共风烟",
                 "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写岭猿。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_031",
                 "knowledgePoints": [
                         "岭猿",
                         "孟浩然",
@@ -33994,7 +33994,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "娇儿恶卧踏里裂",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写布衾。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "布衾",
                         "杜甫",
@@ -34012,7 +34012,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "月照一孤舟",
                 "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写风鸣。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_031",
                 "knowledgePoints": [
                         "风鸣",
                         "孟浩然",
@@ -34031,7 +34031,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "雨脚如麻未断绝",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写床头。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "床头",
                         "杜甫",
@@ -34049,7 +34049,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北风江上寒",
                 "explanation": "出自孟浩然《早寒江上有怀》，描写木落。",
-                "poemId": null,
+                "poemId": "sup_101",
                 "knowledgePoints": [
                         "木落",
                         "孟浩然",
@@ -34067,7 +34067,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "长夜沾湿何由彻",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写自经丧乱。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "自经丧乱",
                         "杜甫",
@@ -34085,7 +34085,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遥隔楚云端",
                 "explanation": "出自孟浩然《早寒江上有怀》，描写我家。",
-                "poemId": null,
+                "poemId": "sup_101",
                 "knowledgePoints": [
                         "我家",
                         "孟浩然",
@@ -34103,7 +34103,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "大庇天下寒士俱欢颜",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写广厦。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "广厦",
                         "杜甫",
@@ -34121,7 +34121,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "平海夕漫漫",
                 "explanation": "出自孟浩然《早寒江上有怀》，描写迷津。",
-                "poemId": null,
+                "poemId": "sup_168",
                 "knowledgePoints": [
                         "迷津",
                         "孟浩然",
@@ -34139,7 +34139,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "吾庐独破受冻死亦足",
                 "explanation": "出自杜甫《茅屋为秋风所破歌》，描写突兀。",
-                "poemId": null,
+                "poemId": "sup_382",
                 "knowledgePoints": [
                         "突兀",
                         "杜甫",
@@ -34157,7 +34157,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沧江急夜流",
                 "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写山暝。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_031",
                 "knowledgePoints": [
                         "山暝",
                         "孟浩然",
@@ -34175,7 +34175,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "初闻涕泪满衣裳",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写剑外。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "剑外",
                         "杜甫",
@@ -34194,7 +34194,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "待月西夜时",
                 "explanation": "出自孟浩然《宿桐庐江寄广陵旧游》，描写鸣笙。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_031",
                 "knowledgePoints": [
                         "鸣笙",
                         "孟浩然",
@@ -34212,7 +34212,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "漫卷诗书喜欲狂",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写妻子。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "妻子",
                         "杜甫",
@@ -34231,7 +34231,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄河入海流",
                 "explanation": "出自王之涣《登鹳雀楼》，描写白日。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "白日",
                         "王之涣",
@@ -34250,7 +34250,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "青春作伴好还乡",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写白日放歌。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "白日放歌",
                         "杜甫",
@@ -34269,7 +34269,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更上一层楼",
                 "explanation": "出自王之涣《登鹳雀楼》，描写千里。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "千里",
                         "王之涣",
@@ -34288,7 +34288,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "便下襄阳向洛阳",
                 "explanation": "出自杜甫《闻官军收河南河北》，描写巴峡。",
-                "poemId": null,
+                "poemId": "sup_383",
                 "knowledgePoints": [
                         "巴峡",
                         "杜甫",
@@ -34307,7 +34307,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一片孤城万仞山",
                 "explanation": "出自王之涣《凉州词》，描写黄河。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "黄河",
                         "王之涣",
@@ -34326,7 +34326,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "今上岳阳楼",
                 "explanation": "出自杜甫《登岳阳楼》，描写昔闻。",
-                "poemId": null,
+                "poemId": "sup_186",
                 "knowledgePoints": [
                         "昔闻",
                         "杜甫",
@@ -34344,7 +34344,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风不度玉门关",
                 "explanation": "出自王之涣《凉州词》，描写羌笛。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "羌笛",
                         "王之涣",
@@ -34363,7 +34363,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "乾坤日夜浮",
                 "explanation": "出自杜甫《登岳阳楼》，描写吴楚。",
-                "poemId": null,
+                "poemId": "sup_186",
                 "knowledgePoints": [
                         "吴楚",
                         "杜甫",
@@ -34381,7 +34381,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里长征人未还",
                 "explanation": "出自王昌龄《出塞》，描写秦时。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "秦时",
                         "王昌龄",
@@ -34400,7 +34400,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但闻人语响",
                 "explanation": "出自王维《鹿柴》，描写空山不。",
-                "poemId": null,
+                "poemId": "sup_024",
                 "knowledgePoints": [
                         "空山不",
                         "王维",
@@ -34418,7 +34418,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不教胡马度阴山",
                 "explanation": "出自王昌龄《出塞》，描写龙城。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "龙城",
                         "王昌龄",
@@ -34437,7 +34437,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "复照青苔上",
                 "explanation": "出自王维《鹿柴》，描写返景。",
-                "poemId": null,
+                "poemId": "sup_024",
                 "knowledgePoints": [
                         "返景",
                         "王维",
@@ -34455,7 +34455,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "欲饮琵琶马上催",
                 "explanation": "出自王翰《凉州词》，描写葡萄。",
-                "poemId": null,
+                "poemId": "sup_010",
                 "knowledgePoints": [
                         "葡萄",
                         "王翰",
@@ -34474,7 +34474,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "弹琴复长啸",
                 "explanation": "出自王维《竹里馆》，描写独坐幽。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "独坐幽",
                         "王维",
@@ -34493,7 +34493,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "古来征战几人回",
                 "explanation": "出自王翰《凉州词》，描写醉卧。",
-                "poemId": null,
+                "poemId": "sup_010",
                 "knowledgePoints": [
                         "醉卧",
                         "王翰",
@@ -34512,7 +34512,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "明月来相照",
                 "explanation": "出自王维《竹里馆》，描写深林人。",
-                "poemId": null,
+                "poemId": "sup_023",
                 "knowledgePoints": [
                         "深林人",
                         "王维",
@@ -34531,7 +34531,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北风吹雁雪纷纷",
                 "explanation": "出自高适《别董大》，描写千里。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "千里",
                         "高适",
@@ -34550,7 +34550,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜静春山空",
                 "explanation": "出自王维《鸟鸣涧》，描写人闲桂。",
-                "poemId": null,
+                "poemId": "sup_047",
                 "knowledgePoints": [
                         "人闲桂",
                         "王维",
@@ -34568,7 +34568,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天下谁人不识君",
                 "explanation": "出自高适《别董大》，描写莫愁。",
-                "poemId": null,
+                "poemId": "sup_213",
                 "knowledgePoints": [
                         "莫愁",
                         "高适",
@@ -34587,7 +34587,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "时鸣春涧中",
                 "explanation": "出自王维《鸟鸣涧》，描写月出惊。",
-                "poemId": null,
+                "poemId": "sup_047",
                 "knowledgePoints": [
                         "月出惊",
                         "王维",
@@ -34605,7 +34605,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遥看瀑布挂前川",
                 "explanation": "出自李白《望庐山瀑布》，描写香炉。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "香炉",
                         "李白",
@@ -34624,7 +34624,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独酌无相亲",
                 "explanation": "出自李白《月下独酌》，描写花间。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_075",
                 "knowledgePoints": [
                         "花间",
                         "李白",
@@ -34643,7 +34643,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是银河落九天",
                 "explanation": "出自李白《望庐山瀑布》，描写飞流。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "飞流",
                         "李白",
@@ -34662,7 +34662,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "对影成三人",
                 "explanation": "出自李白《月下独酌》，描写举杯。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_075",
                 "knowledgePoints": [
                         "举杯",
                         "李白",
@@ -34681,7 +34681,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里江陵一日还",
                 "explanation": "出自李白《早发白帝城》，描写白帝。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "白帝",
                         "李白",
@@ -34700,7 +34700,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "影徒随我身",
                 "explanation": "出自李白《月下独酌》，描写月既。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_075",
                 "knowledgePoints": [
                         "月既",
                         "李白",
@@ -34719,7 +34719,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻舟已过万重山",
                 "explanation": "出自李白《早发白帝城》，描写猿声。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "猿声",
                         "李白",
@@ -34738,7 +34738,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "行乐须及春",
                 "explanation": "出自李白《月下独酌》，描写暂伴。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_075",
                 "knowledgePoints": [
                         "暂伴",
                         "李白",
@@ -34774,7 +34774,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "马致远",
                 "explanation": "《天净沙·秋思》是元代戏曲家马致远的代表作。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "元曲",
                         "马致远",
@@ -34792,7 +34792,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟花三月下扬州",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写故人。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "故人",
                         "李白",
@@ -34811,7 +34811,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "处处闻啼鸟",
                 "explanation": "出自孟浩然《春晓》，描写春眠。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "春眠",
                         "孟浩然",
@@ -34847,7 +34847,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "断肠人在天涯",
                 "explanation": "出自马致远《天净沙·秋思》，表达了游子思乡之情。",
-                "poemId": null,
+                "poemId": "sup_068",
                 "knowledgePoints": [
                         "古诗默写",
                         "马致远",
@@ -34865,7 +34865,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "唯见长江天际流",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写孤帆。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "孤帆",
                         "李白",
@@ -34884,7 +34884,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花落知多少",
                 "explanation": "出自孟浩然《春晓》，描写夜来风。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "夜来风",
                         "孟浩然",
@@ -34920,7 +34920,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "烽火连三月，家书抵万金",
                 "explanation": "这句诗出自杜甫《春望》，李白写的是'两岸猿声啼不住'。",
-                "poemId": null,
+                "poemId": "sup_130",
                 "knowledgePoints": [
                         "诗人鉴别",
                         "李白",
@@ -34938,7 +34938,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "碧水东流至此回",
                 "explanation": "出自李白《望天门山》，描写天门。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "天门",
                         "李白",
@@ -34957,7 +34957,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日暮客愁新",
                 "explanation": "出自孟浩然《宿建德江》，描写移舟泊。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "移舟泊",
                         "孟浩然",
@@ -34993,7 +34993,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "白云千载空悠悠",
                 "explanation": "出自崔颢《黄鹤楼》，与上句'黄鹤一去不复返'相对。",
-                "poemId": null,
+                "poemId": "sup_052",
                 "knowledgePoints": [
                         "古诗默写",
                         "崔颢",
@@ -35010,7 +35010,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤帆一片日边来",
                 "explanation": "出自李白《望天门山》，描写青山。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "青山",
                         "李白",
@@ -35029,7 +35029,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江清月近人",
                 "explanation": "出自孟浩然《宿建德江》，描写野旷天。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "野旷天",
                         "孟浩然",
@@ -35065,7 +35065,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "曹操",
                 "explanation": "《观沧海》是东汉末年曹操的代表作。",
-                "poemId": null,
+                "poemId": "sup_125",
                 "knowledgePoints": [
                         "曹操",
                         "观沧海",
@@ -35083,7 +35083,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "影入平羌江水流",
                 "explanation": "出自李白《峨眉山月歌》，描写峨眉。",
-                "poemId": null,
+                "poemId": "sup_034",
                 "knowledgePoints": [
                         "峨眉",
                         "李白",
@@ -35101,7 +35101,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "涵虚混太清",
                 "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写八月。",
-                "poemId": null,
+                "poemId": "sup_102",
                 "knowledgePoints": [
                         "八月",
                         "孟浩然",
@@ -35119,7 +35119,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "思君不见下渝州",
                 "explanation": "出自李白《峨眉山月歌》，描写清溪。",
-                "poemId": null,
+                "poemId": "sup_034",
                 "knowledgePoints": [
                         "清溪",
                         "李白",
@@ -35137,7 +35137,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "波撼岳阳城",
                 "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写气蒸。",
-                "poemId": null,
+                "poemId": "sup_102",
                 "knowledgePoints": [
                         "气蒸",
                         "孟浩然",
@@ -35156,7 +35156,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江南好",
                 "explanation": "出自白居易《忆江南》，描写江南。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "江南",
                         "白居易",
@@ -35175,7 +35175,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "端居耻圣明",
                 "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写欲济。",
-                "poemId": null,
+                "poemId": "sup_102",
                 "knowledgePoints": [
                         "欲济",
                         "孟浩然",
@@ -35194,7 +35194,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春来江水绿如蓝",
                 "explanation": "出自白居易《忆江南》，描写日出。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "日出",
                         "白居易",
@@ -35213,7 +35213,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "徒有羡鱼情",
                 "explanation": "出自孟浩然《望洞庭湖赠张丞相》，描写坐观。",
-                "poemId": null,
+                "poemId": "sup_102",
                 "knowledgePoints": [
                         "坐观",
                         "孟浩然",
@@ -35232,7 +35232,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "吴酒一杯春竹叶",
                 "explanation": "出自白居易《忆江南》，描写杭州。",
-                "poemId": null,
+                "poemId": "poem_001",
                 "knowledgePoints": [
                         "杭州",
                         "白居易",
@@ -35250,7 +35250,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里长征人未还",
                 "explanation": "出自王昌龄《出塞》，描写秦时。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "秦时",
                         "王昌龄",
@@ -35269,7 +35269,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "半江瑟瑟半江红",
                 "explanation": "出自白居易《暮江吟》，描写残阳。",
-                "poemId": null,
+                "poemId": "sup_164",
                 "knowledgePoints": [
                         "残阳",
                         "白居易",
@@ -35287,7 +35287,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不教胡马度阴山",
                 "explanation": "出自王昌龄《出塞》，描写龙城。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "龙城",
                         "王昌龄",
@@ -35306,7 +35306,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "露似真珠月似弓",
                 "explanation": "出自白居易《暮江吟》，描写九月初三。",
-                "poemId": null,
+                "poemId": "sup_164",
                 "knowledgePoints": [
                         "初三",
                         "白居易",
@@ -35324,7 +35324,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一岁一枯荣",
                 "explanation": "出自白居易《草》，描写离离。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "离离",
                         "白居易",
@@ -35343,7 +35343,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "总是关山旧别情",
                 "explanation": "出自王昌龄《从军行》，描写琵琶起。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_033",
                 "knowledgePoints": [
                         "琵琶起",
                         "王昌龄",
@@ -35361,7 +35361,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风吹又生",
                 "explanation": "出自白居易《草》，描写野火。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "野火",
                         "白居易",
@@ -35380,7 +35380,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "晴翠接荒城",
                 "explanation": "出自白居易《草》，描写远芳。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "远芳",
                         "白居易",
@@ -35399,7 +35399,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤城遥望玉门关",
                 "explanation": "出自王昌龄《从军行》，描写青海长。",
-                "poemId": null,
+                "poemId": "sup_012",
                 "knowledgePoints": [
                         "青海长",
                         "王昌龄",
@@ -35418,7 +35418,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写千山。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "千山",
                         "柳宗元",
@@ -35437,7 +35437,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不破楼兰终不还",
                 "explanation": "出自王昌龄《从军行》，描写黄沙百。",
-                "poemId": null,
+                "poemId": "sup_012",
                 "knowledgePoints": [
                         "黄沙百",
                         "王昌龄",
@@ -35456,7 +35456,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独钓寒江雪",
                 "explanation": "出自柳宗元《江雪》，描写孤舟。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "孤舟",
                         "柳宗元",
@@ -35475,7 +35475,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "侧坐莓苔草映身",
                 "explanation": "出自胡令能《小儿垂钓》，描写蓬头。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "蓬头",
                         "胡令能",
@@ -35494,7 +35494,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万里长征人未还",
                 "explanation": "出自王昌龄《出塞》，描写秦时明。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "秦时明",
                         "王昌龄",
@@ -35513,7 +35513,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "怕得鱼惊不应人",
                 "explanation": "出自胡令能《小儿垂钓》，描写遥招手。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "招手",
                         "胡令能",
@@ -35532,7 +35532,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不教胡马度阴山",
                 "explanation": "出自王昌龄《出塞》，描写但使龙。",
-                "poemId": null,
+                "poemId": "sup_011",
                 "knowledgePoints": [
                         "但使龙",
                         "王昌龄",
@@ -35551,7 +35551,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟村四五家",
                 "explanation": "出自邵雍《山村咏怀》，描写二三。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "二三",
                         "邵雍",
@@ -35570,7 +35570,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "战罢沙场月色寒",
                 "explanation": "出自李白《塞下曲》，描写骝马新。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_035",
                 "knowledgePoints": [
                         "骝马新",
                         "李白",
@@ -35588,7 +35588,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "八九十枝花",
                 "explanation": "出自邵雍《山村咏怀》，描写亭台。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "亭台",
                         "邵雍",
@@ -35607,7 +35607,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "直为斩楼兰",
                 "explanation": "出自李白《塞下曲》，描写愿将腰。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_099",
                 "knowledgePoints": [
                         "愿将腰",
                         "李白",
@@ -35625,7 +35625,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天似穹庐",
                 "explanation": "出自无名氏《敕勒歌》，描写敕勒川。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "敕勒川",
                         "无名氏",
@@ -35644,7 +35644,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "单于夜遁逃",
                 "explanation": "出自卢纶《塞下曲》，描写月黑雁。",
-                "poemId": null,
+                "poemId": "sup_219",
                 "knowledgePoints": [
                         "月黑雁",
                         "卢纶",
@@ -35663,7 +35663,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "笼盖四野",
                 "explanation": "出自无名氏《敕勒歌》，描写四野。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "四野",
                         "无名氏",
@@ -35682,7 +35682,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "大雪满弓刀",
                 "explanation": "出自卢纶《塞下曲》，描写欲将轻。",
-                "poemId": null,
+                "poemId": "sup_219",
                 "knowledgePoints": [
                         "欲将轻",
                         "卢纶",
@@ -35700,7 +35700,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "敕勒川",
                 "explanation": "出自无名氏《敕勒歌》，描写牛羊。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "牛羊",
                         "无名氏",
@@ -35719,7 +35719,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "将军夜引弓",
                 "explanation": "出自卢纶《塞下曲》，描写林暗草。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_034",
                 "knowledgePoints": [
                         "林暗草",
                         "卢纶",
@@ -35737,7 +35737,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "积雪浮云端",
                 "explanation": "出自祖咏《终南望余雪》，描写终南。",
-                "poemId": null,
+                "poemId": "sup_325",
                 "knowledgePoints": [
                         "终南",
                         "祖咏",
@@ -35756,7 +35756,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "没在石棱中",
                 "explanation": "出自卢纶《塞下曲》，描写平明寻。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_034",
                 "knowledgePoints": [
                         "平明寻",
                         "卢纶",
@@ -35774,7 +35774,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "城中增暮寒",
                 "explanation": "出自祖咏《终南望余雪》，描写林表。",
-                "poemId": null,
+                "poemId": "sup_325",
                 "knowledgePoints": [
                         "林表",
                         "祖咏",
@@ -35793,7 +35793,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "羌戎贺劳旋",
                 "explanation": "出自卢纶《塞下曲》，描写野幕敞。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_034",
                 "knowledgePoints": [
                         "野幕敞",
                         "卢纶",
@@ -35811,7 +35811,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "游子身上衣",
                 "explanation": "出自孟郊《游子吟》，描写慈母。",
-                "poemId": null,
+                "poemId": "sup_161",
                 "knowledgePoints": [
                         "慈母",
                         "孟郊",
@@ -35830,7 +35830,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "雷鼓动山川",
                 "explanation": "出自卢纶《塞下曲》，描写醉和。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_034",
                 "knowledgePoints": [
                         "醉和",
                         "卢纶",
@@ -35848,7 +35848,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "呼作白玉盘",
                 "explanation": "出自李白《古朗月行》，描写小时。",
-                "poemId": null,
+                "poemId": "sup_051",
                 "knowledgePoints": [
                         "小时",
                         "李白",
@@ -35867,7 +35867,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "燕尾绣蝥弧",
                 "explanation": "出自卢纶《塞下曲》，描写鹫翎。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_034",
                 "knowledgePoints": [
                         "鹫翎",
                         "卢纶",
@@ -35885,7 +35885,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "桂树何团团",
                 "explanation": "出自李白《古朗月行》，描写仙人。",
-                "poemId": null,
+                "poemId": "sup_051",
                 "knowledgePoints": [
                         "仙人",
                         "李白",
@@ -35903,7 +35903,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千营共一呼",
                 "explanation": "出自卢纶《塞下曲》，描写独立扬。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_034",
                 "knowledgePoints": [
                         "独立扬",
                         "卢纶",
@@ -35921,7 +35921,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "问言与谁餐",
                 "explanation": "出自李白《古朗月行》，描写白兔。",
-                "poemId": null,
+                "poemId": "sup_051",
                 "knowledgePoints": [
                         "白兔",
                         "李白",
@@ -35940,7 +35940,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江枫渔火对愁眠",
                 "explanation": "出自张继《枫桥夜泊》，描写月落乌。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "月落乌",
                         "张继",
@@ -35959,7 +35959,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "惟有饮者留其名",
                 "explanation": "出自李白《将进酒》，描写圣贤。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "圣贤",
                         "李白",
@@ -35977,7 +35977,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "夜半钟声到客船",
                 "explanation": "出自张继《枫桥夜泊》，描写姑苏城。",
-                "poemId": null,
+                "poemId": "sup_016",
                 "knowledgePoints": [
                         "姑苏城",
                         "张继",
@@ -35996,7 +35996,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "奔流到海不复回",
                 "explanation": "出自李白《将进酒》，描写黄河。",
-                "poemId": null,
+                "poemId": "sup_116",
                 "knowledgePoints": [
                         "黄河",
                         "李白",
@@ -36014,7 +36014,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "上有黄鹂深树鸣",
                 "explanation": "出自韦应物《滁州西涧》，描写独怜。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "独怜",
                         "韦应物",
@@ -36032,7 +36032,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "莫使金樽空对月",
                 "explanation": "出自李白《将进酒》，描写得意。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "得意",
                         "李白",
@@ -36050,7 +36050,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "野渡无人舟自横",
                 "explanation": "出自韦应物《滁州西涧》，描写春潮。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "春潮",
                         "韦应物",
@@ -36068,7 +36068,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千金散尽还复来",
                 "explanation": "出自李白《将进酒》，描写天生。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "天生",
                         "李白",
@@ -36086,7 +36086,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "到乡翻似烂柯人",
                 "explanation": "出自刘禹锡《酬乐天》，描写怀旧空。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "怀旧空",
                         "刘禹锡",
@@ -36104,7 +36104,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "会须一饮三百杯",
                 "explanation": "出自李白《将进酒》，描写烹羊。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "烹羊",
                         "李白",
@@ -36122,7 +36122,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "病树前头万木春",
                 "explanation": "出自刘禹锡《酬乐天》，描写沉舟侧。",
-                "poemId": null,
+                "poemId": "sup_189",
                 "knowledgePoints": [
                         "沉舟侧",
                         "刘禹锡",
@@ -36140,7 +36140,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "将进酒，杯莫停",
                 "explanation": "出自李白《将进酒》，描写岑夫子。",
-                "poemId": null,
+                "poemId": "sup_116",
                 "knowledgePoints": [
                         "岑夫",
                         "李白",
@@ -36158,7 +36158,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "虫声新透绿窗纱",
                 "explanation": "出自刘方平《月夜》，描写今夜偏。",
-                "poemId": null,
+                "poemId": "sup_345",
                 "knowledgePoints": [
                         "今夜偏",
                         "刘方平",
@@ -36177,7 +36177,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "请君为我侧耳听",
                 "explanation": "出自李白《将进酒》，描写歌一曲。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_005",
                 "knowledgePoints": [
                         "歌一曲",
                         "李白",
@@ -36195,7 +36195,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北斗阑干南斗斜",
                 "explanation": "出自刘方平《月夜》，描写更深月。",
-                "poemId": null,
+                "poemId": "sup_345",
                 "knowledgePoints": [
                         "更深月",
                         "刘方平",
@@ -36214,7 +36214,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "拂堤杨柳醉春烟",
                 "explanation": "出自高鼎《村居》，描写草长。",
-                "poemId": null,
+                "poemId": "sup_073",
                 "knowledgePoints": [
                         "草长",
                         "高鼎",
@@ -36233,7 +36233,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "受降城外月如霜",
                 "explanation": "出自李益《夜上受降城闻笛》，描写回乐烽。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "回乐烽",
                         "李益",
@@ -36251,7 +36251,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "忙趁东风放纸鸢",
                 "explanation": "出自高鼎《村居》，描写儿童。",
-                "poemId": null,
+                "poemId": "sup_073",
                 "knowledgePoints": [
                         "儿童",
                         "高鼎",
@@ -36269,7 +36269,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一夜征人尽望乡",
                 "explanation": "出自李益《夜上受降城闻笛》，描写不知何。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "不知何",
                         "李益",
@@ -36287,7 +36287,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "树阴照水爱晴柔",
                 "explanation": "出自杨万里《小池》，描写泉眼。",
-                "poemId": null,
+                "poemId": "sup_079",
                 "knowledgePoints": [
                         "泉眼",
                         "杨万里",
@@ -36306,7 +36306,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闻道龙标过五溪",
                 "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，描写杨花落。",
-                "poemId": null,
+                "poemId": "sup_055",
                 "knowledgePoints": [
                         "杨花落",
                         "李白",
@@ -36324,7 +36324,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "早有蜻蜓立上头",
                 "explanation": "出自杨万里《小池》，描写小荷。",
-                "poemId": null,
+                "poemId": "sup_079",
                 "knowledgePoints": [
                         "小荷",
                         "杨万里",
@@ -36343,7 +36343,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随风直到夜郎西",
                 "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，描写我寄愁。",
-                "poemId": null,
+                "poemId": "sup_055",
                 "knowledgePoints": [
                         "我寄愁",
                         "李白",
@@ -36361,7 +36361,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一行白鹭上青天",
                 "explanation": "出自杜甫《绝句》，描写黄鹂。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "黄鹂",
                         "杜甫",
@@ -36380,7 +36380,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "上有黄鹂深树鸣",
                 "explanation": "出自韦应物《滁州西涧》，描写独怜幽。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "独怜幽",
                         "韦应物",
@@ -36399,7 +36399,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "门泊东吴万里船",
                 "explanation": "出自杜甫《绝句》，描写窗含。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "窗含",
                         "杜甫",
@@ -36418,7 +36418,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "野渡无人舟自横",
                 "explanation": "出自韦应物《滁州西涧》，描写春潮带。",
-                "poemId": null,
+                "poemId": "sup_217",
                 "knowledgePoints": [
                         "春潮带",
                         "韦应物",
@@ -36437,7 +36437,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沙暖睡鸳鸯",
                 "explanation": "出自杜甫《绝句》，描写泥融。",
-                "poemId": null,
+                "poemId": "sup_353",
                 "knowledgePoints": [
                         "泥融",
                         "杜甫",
@@ -36456,7 +36456,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "虫声新透绿窗纱",
                 "explanation": "出自刘方平《月夜》，描写今夜偏。",
-                "poemId": null,
+                "poemId": "sup_345",
                 "knowledgePoints": [
                         "今夜偏",
                         "刘方平",
@@ -36475,7 +36475,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风花草香",
                 "explanation": "出自杜甫《绝句》，描写迟日。",
-                "poemId": null,
+                "poemId": "sup_353",
                 "knowledgePoints": [
                         "迟日",
                         "杜甫",
@@ -36494,7 +36494,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "北斗阑干南斗斜",
                 "explanation": "出自刘方平《月夜》，描写更深月。",
-                "poemId": null,
+                "poemId": "sup_345",
                 "knowledgePoints": [
                         "更深月",
                         "刘方平",
@@ -36513,7 +36513,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山青花欲燃",
                 "explanation": "出自杜甫《绝句》，描写江碧。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "江碧",
                         "杜甫",
@@ -36532,7 +36532,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "受降城外月如霜",
                 "explanation": "出自李益《夜上受降城闻笛》，描写回乐烽。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "回乐烽",
                         "李益",
@@ -36551,7 +36551,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何日是归年",
                 "explanation": "出自杜甫《绝句》，描写今春。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "今春",
                         "杜甫",
@@ -36570,7 +36570,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一夜征人尽望乡",
                 "explanation": "出自李益《夜上受降城闻笛》，描写不知何。",
-                "poemId": null,
+                "poemId": "sup_340",
                 "knowledgePoints": [
                         "不知何",
                         "李益",
@@ -36589,7 +36589,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春光懒困倚微风",
                 "explanation": "出自杜甫《江畔独步寻花》，描写黄师塔。",
-                "poemId": null,
+                "poemId": "sup_039",
                 "knowledgePoints": [
                         "黄师塔",
                         "杜甫",
@@ -36607,7 +36607,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "闻道龙标过五溪",
                 "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，描写杨花落。",
-                "poemId": null,
+                "poemId": "sup_055",
                 "knowledgePoints": [
                         "杨花落",
                         "李白",
@@ -36626,7 +36626,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "可爱深红爱浅红",
                 "explanation": "出自杜甫《江畔独步寻花》，描写桃花。",
-                "poemId": null,
+                "poemId": "sup_039",
                 "knowledgePoints": [
                         "桃花",
                         "杜甫",
@@ -36644,7 +36644,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "随风直到夜郎西",
                 "explanation": "出自李白《闻王昌龄左迁龙标遥有此寄》，描写我寄愁。",
-                "poemId": null,
+                "poemId": "sup_055",
                 "knowledgePoints": [
                         "我寄愁",
                         "李白",
@@ -36663,7 +36663,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千朵万朵压枝低",
                 "explanation": "出自杜甫《江畔独步寻花》，描写黄四娘。",
-                "poemId": null,
+                "poemId": "sup_039",
                 "knowledgePoints": [
                         "黄四娘",
                         "杜甫",
@@ -36681,7 +36681,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "寒食东风御柳斜",
                 "explanation": "出自韩翃《寒食》，描写春城无。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "春城无",
                         "韩翃",
@@ -36700,7 +36700,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自在娇莺恰恰啼",
                 "explanation": "出自杜甫《江畔独步寻花》，描写留连。",
-                "poemId": null,
+                "poemId": "sup_039",
                 "knowledgePoints": [
                         "留连",
                         "杜甫",
@@ -36718,7 +36718,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻烟散入五侯家",
                 "explanation": "出自韩翃《寒食》，描写日暮汉。",
-                "poemId": null,
+                "poemId": "sup_302",
                 "knowledgePoints": [
                         "日暮汉",
                         "韩翃",
@@ -36737,7 +36737,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄河入海流",
                 "explanation": "出自王之涣《登鹳雀楼》，描写白日。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "白日",
                         "王之涣",
@@ -36756,7 +36756,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "处处闻啼鸟",
                 "explanation": "出自孟浩然《春晓》，描写春眠不。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "春眠不",
                         "孟浩然",
@@ -36775,7 +36775,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "更上一层楼",
                 "explanation": "出自王之涣《登鹳雀楼》，描写欲穷。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "欲穷",
                         "王之涣",
@@ -36794,7 +36794,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花落知多少",
                 "explanation": "出自孟浩然《春晓》，描写夜来风。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "夜来风",
                         "孟浩然",
@@ -36813,7 +36813,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄河入海流",
                 "explanation": "出自王之涣《登鹳雀楼》，描写黄河。",
-                "poemId": null,
+                "poemId": "sup_046",
                 "knowledgePoints": [
                         "黄河",
                         "王之涣",
@@ -36832,7 +36832,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日暮客愁新",
                 "explanation": "出自孟浩然《宿建德江》，描写移舟泊。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "移舟泊",
                         "孟浩然",
@@ -36851,7 +36851,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写万径。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "万径",
                         "柳宗元",
@@ -36870,7 +36870,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江清月近人",
                 "explanation": "出自孟浩然《宿建德江》，描写野旷天。",
-                "poemId": null,
+                "poemId": "sup_099",
                 "knowledgePoints": [
                         "野旷天",
                         "孟浩然",
@@ -36889,7 +36889,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独钓寒江雪",
                 "explanation": "出自柳宗元《江雪》，描写独钓。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "独钓",
                         "柳宗元",
@@ -36908,7 +36908,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是地上霜",
                 "explanation": "出自李白《静夜思》，描写床前明。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "床前明",
                         "李白",
@@ -36927,7 +36927,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是地上霜",
                 "explanation": "出自李白《静夜思》，描写地上霜。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "地上霜",
                         "李白",
@@ -36946,7 +36946,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "低头思故乡",
                 "explanation": "出自李白《静夜思》，描写举头望。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "举头望",
                         "李白",
@@ -36965,7 +36965,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "低头思故乡",
                 "explanation": "出自李白《静夜思》，描写低头。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "低头",
                         "李白",
@@ -36984,7 +36984,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写千山鸟。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "千山鸟",
                         "柳宗元",
@@ -37003,7 +37003,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "处处闻啼鸟",
                 "explanation": "出自孟浩然《春晓》，描写春眠。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "春眠",
                         "孟浩然",
@@ -37022,7 +37022,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独钓寒江雪",
                 "explanation": "出自柳宗元《江雪》，描写孤舟蓑。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "孤舟蓑",
                         "柳宗元",
@@ -37041,7 +37041,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "花落知多少",
                 "explanation": "出自孟浩然《春晓》，描写夜来。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "夜来",
                         "孟浩然",
@@ -37060,7 +37060,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "但闻人语响",
                 "explanation": "出自王维《鹿柴》，描写空山不。",
-                "poemId": null,
+                "poemId": "sup_024",
                 "knowledgePoints": [
                         "空山不",
                         "王维",
@@ -37079,7 +37079,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "言师采药去",
                 "explanation": "出自贾岛《寻隐者不遇》，描写松下。",
-                "poemId": null,
+                "poemId": "sup_021",
                 "knowledgePoints": [
                         "松下",
                         "贾岛",
@@ -37098,7 +37098,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "复照青苔上",
                 "explanation": "出自王维《鹿柴》，描写返景入。",
-                "poemId": null,
+                "poemId": "sup_024",
                 "knowledgePoints": [
                         "返景入",
                         "王维",
@@ -37117,7 +37117,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万条垂下绿丝绦",
                 "explanation": "出自贺知章《咏柳》，描写碧玉。",
-                "poemId": null,
+                "poemId": "sup_106",
                 "knowledgePoints": [
                         "碧玉",
                         "贺知章",
@@ -37136,7 +37136,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "二月春风似剪刀",
                 "explanation": "出自贺知章《咏柳》，描写不知细叶。",
-                "poemId": null,
+                "poemId": "sup_307",
                 "knowledgePoints": [
                         "不知细叶",
                         "贺知章",
@@ -37155,7 +37155,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "乡音无改鬓毛衰",
                 "explanation": "出自贺知章《回乡偶书》，描写少小离家。",
-                "poemId": null,
+                "poemId": "sup_009",
                 "knowledgePoints": [
                         "少小离家",
                         "贺知章",
@@ -37174,7 +37174,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "笑问客从何处来",
                 "explanation": "出自贺知章《回乡偶书》，描写儿童。",
-                "poemId": null,
+                "poemId": "sup_009",
                 "knowledgePoints": [
                         "儿童",
                         "贺知章",
@@ -37193,7 +37193,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一片孤城万仞山",
                 "explanation": "出自王之涣《凉州词》，描写黄河远上。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "黄河远上",
                         "王之涣",
@@ -37212,7 +37212,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风不度玉门关",
                 "explanation": "出自王之涣《凉州词》，描写羌笛。",
-                "poemId": null,
+                "poemId": "sup_042",
                 "knowledgePoints": [
                         "羌笛",
                         "王之涣",
@@ -37231,7 +37231,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遥看瀑布挂前川",
                 "explanation": "出自李白《望庐山瀑布》，描写日照。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "日照",
                         "李白",
@@ -37250,7 +37250,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "疑是银河落九天",
                 "explanation": "出自李白《望庐山瀑布》，描写飞流。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "飞流",
                         "李白",
@@ -37269,7 +37269,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千里江陵一日还",
                 "explanation": "出自李白《早发白帝城》，描写朝辞。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "朝辞",
                         "李白",
@@ -37288,7 +37288,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "轻舟已过万重山",
                 "explanation": "出自李白《早发白帝城》，描写两岸猿声。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "两岸猿声",
                         "李白",
@@ -37307,7 +37307,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟花三月下扬州",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写故人西辞。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "故人西辞",
                         "李白",
@@ -37326,7 +37326,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不及汪伦送我情",
                 "explanation": "出自李白《赠汪伦》，描写桃花潭水。",
-                "poemId": null,
+                "poemId": "sup_008",
                 "knowledgePoints": [
                         "桃花潭水",
                         "李白",
@@ -37345,7 +37345,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "孤帆一片日边来",
                 "explanation": "出自李白《望天门山》，描写两岸青山。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "两岸青山",
                         "李白",
@@ -37364,7 +37364,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "碧水东流至此回",
                 "explanation": "出自李白《望天门山》，描写天门中断。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "天门中断",
                         "李白",
@@ -37383,7 +37383,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "遥看瀑布挂前川",
                 "explanation": "出自李白《望庐山瀑布》，描写遥看。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "遥看",
                         "李白",
@@ -37402,7 +37402,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "日照香炉生紫烟",
                 "explanation": "出自李白《望庐山瀑布》，描写望庐山。",
-                "poemId": null,
+                "poemId": "sup_014",
                 "knowledgePoints": [
                         "望庐山",
                         "李白",
@@ -37420,7 +37420,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "故人西辞黄鹤楼",
                 "explanation": "出自李白《黄鹤楼送孟浩然之广陵》，描写黄鹤楼送。",
-                "poemId": null,
+                "poemId": "sup_031",
                 "knowledgePoints": [
                         "黄鹤楼送",
                         "李白",
@@ -37438,7 +37438,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "李白乘舟将欲行",
                 "explanation": "出自李白《赠汪伦》，描写赠汪伦。",
-                "poemId": null,
+                "poemId": "sup_008",
                 "knowledgePoints": [
                         "赠汪伦",
                         "李白",
@@ -37456,7 +37456,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天门中断楚江开",
                 "explanation": "出自李白《望天门山》，描写望天门。",
-                "poemId": null,
+                "poemId": "sup_381",
                 "knowledgePoints": [
                         "望天门",
                         "李白",
@@ -37474,7 +37474,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "朝辞白帝彩云间",
                 "explanation": "出自李白《早发白帝城》，描写早发。",
-                "poemId": null,
+                "poemId": "sup_030",
                 "knowledgePoints": [
                         "早发",
                         "李白",
@@ -37492,7 +37492,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一岁一枯荣",
                 "explanation": "出自白居易《赋得古原草送别》，描写离离。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "离离",
                         "白居易",
@@ -37510,7 +37510,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风吹又生",
                 "explanation": "出自白居易《赋得古原草送别》，描写野火。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "野火",
                         "白居易",
@@ -37528,7 +37528,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "晴翠接荒城",
                 "explanation": "出自白居易《赋得古原草送别》，描写远芳。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "远芳",
                         "白居易",
@@ -37546,7 +37546,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "萋萋满别情",
                 "explanation": "出自白居易《赋得古原草送别》，描写送王孙。",
-                "poemId": null,
+                "poemId": "sup_224",
                 "knowledgePoints": [
                         "送王孙",
                         "白居易",
@@ -37564,7 +37564,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山寺桃花始盛开",
                 "explanation": "出自白居易《大林寺桃花》，描写人间四月。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_022",
                 "knowledgePoints": [
                         "人间四月",
                         "白居易",
@@ -37583,7 +37583,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "不知转入此中来",
                 "explanation": "出自白居易《大林寺桃花》，描写长恨。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_022",
                 "knowledgePoints": [
                         "长恨",
                         "白居易",
@@ -37602,7 +37602,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "半江瑟瑟半江红",
                 "explanation": "出自白居易《暮江吟》，描写残阳。",
-                "poemId": null,
+                "poemId": "sup_164",
                 "knowledgePoints": [
                         "残阳",
                         "白居易",
@@ -37621,7 +37621,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "露似真珠月似弓",
                 "explanation": "出自白居易《暮江吟》，描写九月初三。",
-                "poemId": null,
+                "poemId": "sup_164",
                 "knowledgePoints": [
                         "九月初三",
                         "白居易",
@@ -37640,7 +37640,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春来江水绿如蓝",
                 "explanation": "出自白居易《忆江南》，描写日出。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "日出",
                         "白居易",
@@ -37659,7 +37659,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风景旧曾谙",
                 "explanation": "出自白居易《忆江南》，描写江南好。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "江南好",
                         "白居易",
@@ -37678,7 +37678,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "江南好，风景旧曾谙",
                 "explanation": "出自白居易《忆江南》，描写能不忆。",
-                "poemId": null,
+                "poemId": "sup_036",
                 "knowledgePoints": [
                         "能不忆",
                         "白居易",
@@ -37696,7 +37696,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "绿杨阴里白沙堤",
                 "explanation": "出自白居易《钱塘湖春行》，描写最爱湖东。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "最爱湖东",
                         "白居易",
@@ -37714,7 +37714,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "谁家新燕啄春泥",
                 "explanation": "出自白居易《钱塘湖春行》，描写早莺争。",
-                "poemId": null,
+                "poemId": "poem_003",
                 "knowledgePoints": [
                         "早莺争",
                         "白居易",
@@ -37732,7 +37732,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "浅草才能没马蹄",
                 "explanation": "出自白居易《钱塘湖春行》，描写乱花。",
-                "poemId": null,
+                "poemId": "sup_131",
                 "knowledgePoints": [
                         "乱花",
                         "白居易",
@@ -37750,7 +37750,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "满面尘灰烟火色",
                 "explanation": "出自白居易《卖炭翁》，描写卖炭翁。",
-                "poemId": null,
+                "poemId": "sup_058",
                 "knowledgePoints": [
                         "卖炭翁",
                         "白居易",
@@ -37768,7 +37768,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "身上衣裳口中食",
                 "explanation": "出自白居易《卖炭翁》，描写卖炭得。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_006",
                 "knowledgePoints": [
                         "卖炭得",
                         "白居易",
@@ -37786,7 +37786,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "心忧炭贱愿天寒",
                 "explanation": "出自白居易《卖炭翁》，描写可怜身上。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_006",
                 "knowledgePoints": [
                         "可怜身上",
                         "白居易",
@@ -37804,7 +37804,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "晓驾炭车碾冰辙",
                 "explanation": "出自白居易《卖炭翁》，描写夜来。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_006",
                 "knowledgePoints": [
                         "夜来",
                         "白居易",
@@ -37822,7 +37822,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "市南门外泥中歇",
                 "explanation": "出自白居易《卖炭翁》，描写牛困。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_006",
                 "knowledgePoints": [
                         "牛困",
                         "白居易",
@@ -37840,7 +37840,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "黄衣使者白衫儿",
                 "explanation": "出自白居易《卖炭翁》，描写翩翩。",
-                "poemId": null,
+                "poemId": "sup_poetry_new_006",
                 "knowledgePoints": [
                         "翩翩",
                         "白居易",
@@ -37858,7 +37858,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "侧坐莓苔草映身",
                 "explanation": "出自胡令能《小儿垂钓》，描写蓬头。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "蓬头",
                         "胡令能",
@@ -37877,7 +37877,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "怕得鱼惊不应人",
                 "explanation": "出自胡令能《小儿垂钓》，描写路人。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "路人",
                         "胡令能",
@@ -37896,7 +37896,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天似穹庐，笼盖四野",
                 "explanation": "出自无名氏《敕勒歌》，描写敕勒川。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "敕勒川",
                         "无名氏",
@@ -37914,7 +37914,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风吹草低见牛羊",
                 "explanation": "出自无名氏《敕勒歌》，描写天苍苍。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "天苍苍",
                         "无名氏",
@@ -37932,7 +37932,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "歌声振林樾",
                 "explanation": "出自袁枚《所见》，描写牧童。",
-                "poemId": null,
+                "poemId": "sup_072",
                 "knowledgePoints": [
                         "牧童",
                         "袁枚",
@@ -37951,7 +37951,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "忽然闭口立",
                 "explanation": "出自袁枚《所见》，描写意欲。",
-                "poemId": null,
+                "poemId": "sup_072",
                 "knowledgePoints": [
                         "意欲",
                         "袁枚",
@@ -37970,7 +37970,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟村四五家",
                 "explanation": "出自邵雍《山村咏怀》，描写一去。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "一去",
                         "邵雍",
@@ -37989,7 +37989,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "八九十枝花",
                 "explanation": "出自邵雍《山村咏怀》，描写亭台。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "亭台",
                         "邵雍",
@@ -38008,7 +38008,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "手可摘星辰",
                 "explanation": "出自李白《夜宿山寺》，描写危楼。",
-                "poemId": null,
+                "poemId": "sup_114",
                 "knowledgePoints": [
                         "危楼",
                         "李白",
@@ -38027,7 +38027,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恐惊天上人",
                 "explanation": "出自李白《夜宿山寺》，描写不敢。",
-                "poemId": null,
+                "poemId": "sup_114",
                 "knowledgePoints": [
                         "不敢",
                         "李白",
@@ -38046,7 +38046,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天似穹庐，笼盖四野",
                 "explanation": "出自无名氏《敕勒歌》，描写阴山下。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "阴山下",
                         "无名氏",
@@ -38064,7 +38064,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "呼作白玉盘",
                 "explanation": "出自李白《古朗月行》，描写小时不。",
-                "poemId": null,
+                "poemId": "sup_051",
                 "knowledgePoints": [
                         "小时不",
                         "李白",
@@ -38083,7 +38083,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "潭面无风镜未磨",
                 "explanation": "出自刘禹锡《望洞庭》，描写湖光秋。",
-                "poemId": null,
+                "poemId": "sup_033",
                 "knowledgePoints": [
                         "湖光秋",
                         "刘禹锡",
@@ -38102,7 +38102,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "白银盘里一青螺",
                 "explanation": "出自刘禹锡《望洞庭》，描写遥望洞。",
-                "poemId": null,
+                "poemId": "sup_033",
                 "knowledgePoints": [
                         "遥望洞",
                         "刘禹锡",
@@ -38121,7 +38121,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风景旧曾谙",
                 "explanation": "出自白居易《忆江南》，描写江南好。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "江南好",
                         "白居易",
@@ -38140,7 +38140,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春来江水绿如蓝",
                 "explanation": "出自白居易《忆江南》，描写日出江。",
-                "poemId": null,
+                "poemId": "sup_226",
                 "knowledgePoints": [
                         "日出江",
                         "白居易",
@@ -38159,7 +38159,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "桃花流水鳜鱼肥",
                 "explanation": "出自张志和《渔歌子》，描写西塞山。",
-                "poemId": null,
+                "poemId": "sup_218",
                 "knowledgePoints": [
                         "西塞山",
                         "张志和",
@@ -38178,7 +38178,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "斜风细雨不须归",
                 "explanation": "出自张志和《渔歌子》，描写青箬笠。",
-                "poemId": null,
+                "poemId": "sup_218",
                 "knowledgePoints": [
                         "青箬笠",
                         "张志和",
@@ -38197,7 +38197,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "万径人踪灭",
                 "explanation": "出自柳宗元《江雪》，描写千山鸟。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "千山鸟",
                         "柳宗元",
@@ -38216,7 +38216,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "独钓寒江雪",
                 "explanation": "出自柳宗元《江雪》，描写孤舟蓑。",
-                "poemId": null,
+                "poemId": "sup_020",
                 "knowledgePoints": [
                         "孤舟蓑",
                         "柳宗元",
@@ -38235,7 +38235,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "一行白鹭上青天",
                 "explanation": "出自杜甫《绝句》，描写两个黄。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "两个黄",
                         "杜甫",
@@ -38254,7 +38254,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "门泊东吴万里船",
                 "explanation": "出自杜甫《绝句》，描写窗含。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "窗含",
                         "杜甫",
@@ -38273,7 +38273,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "沙暖睡鸳鸯",
                 "explanation": "出自杜甫《绝句》，描写泥融。",
-                "poemId": null,
+                "poemId": "sup_353",
                 "knowledgePoints": [
                         "泥融",
                         "杜甫",
@@ -38326,7 +38326,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春风花草香",
                 "explanation": "出自杜甫《绝句》，描写迟日。",
-                "poemId": null,
+                "poemId": "sup_353",
                 "knowledgePoints": [
                         "迟日",
                         "杜甫",
@@ -38362,7 +38362,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "长河落日圆",
                 "explanation": "出自王维《使至塞上》，描写边塞壮阔景象。",
-                "poemId": null,
+                "poemId": "sup_053",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -38380,7 +38380,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "山青花欲燃",
                 "explanation": "出自杜甫《绝句》，描写江碧。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "江碧",
                         "杜甫",
@@ -38416,7 +38416,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "《山居秋暝》",
                 "explanation": "《山居秋暝》是王维的代表作，描写秋日山居景色。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "王维",
                         "山居秋暝"
@@ -38433,7 +38433,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "何日是归年",
                 "explanation": "出自杜甫《绝句》，描写今春。",
-                "poemId": null,
+                "poemId": "sup_391",
                 "knowledgePoints": [
                         "今春",
                         "杜甫",
@@ -38469,7 +38469,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "空山新雨后",
                 "explanation": "出自王维《山居秋暝》，上句是'空山新雨后'。",
-                "poemId": null,
+                "poemId": "sup_108",
                 "knowledgePoints": [
                         "古诗默写",
                         "王维",
@@ -38486,7 +38486,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "春光懒困倚微风",
                 "explanation": "出自杜甫《江畔独步寻花》，描写黄师塔。",
-                "poemId": null,
+                "poemId": "sup_039",
                 "knowledgePoints": [
                         "黄师塔",
                         "杜甫",
@@ -38522,7 +38522,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "海内存知己，天涯若比邻",
                 "explanation": "出自王勃《送杜少府之任蜀州》，是著名的送别诗。",
-                "poemId": null,
+                "poemId": "poem_009",
                 "knowledgePoints": [
                         "送别",
                         "王勃",
@@ -38540,7 +38540,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "可爱深红爱浅红",
                 "explanation": "出自杜甫《江畔独步寻花》，描写桃花一。",
-                "poemId": null,
+                "poemId": "sup_039",
                 "knowledgePoints": [
                         "桃花一",
                         "杜甫",
@@ -38559,7 +38559,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "千朵万朵压枝低",
                 "explanation": "出自杜甫《江畔独步寻花》，描写黄四娘。",
-                "poemId": null,
+                "poemId": "sup_039",
                 "knowledgePoints": [
                         "黄四娘",
                         "杜甫",
@@ -38578,7 +38578,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "自在娇莺恰恰啼",
                 "explanation": "出自杜甫《江畔独步寻花》，描写留连。",
-                "poemId": null,
+                "poemId": "sup_039",
                 "knowledgePoints": [
                         "留连",
                         "杜甫",
@@ -38597,7 +38597,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "侧坐莓苔草映身",
                 "explanation": "出自胡令能《小儿垂钓》，描写蓬头稚。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "蓬头稚",
                         "胡令能",
@@ -38616,7 +38616,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "怕得鱼惊不应人",
                 "explanation": "出自胡令能《小儿垂钓》，描写路人借。",
-                "poemId": null,
+                "poemId": "sup_019",
                 "knowledgePoints": [
                         "路人借",
                         "胡令能",
@@ -38635,7 +38635,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "天似穹庐，笼盖四野",
                 "explanation": "出自无名氏《敕勒歌》，描写天似穹。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "天似穹",
                         "无名氏",
@@ -38654,7 +38654,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "风吹草低见牛羊",
                 "explanation": "出自无名氏《敕勒歌》，描写风吹草。",
-                "poemId": null,
+                "poemId": "sup_158",
                 "knowledgePoints": [
                         "风吹草",
                         "无名氏",
@@ -38673,7 +38673,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "歌声振林樾",
                 "explanation": "出自袁枚《所见》，描写牧童骑。",
-                "poemId": null,
+                "poemId": "sup_072",
                 "knowledgePoints": [
                         "牧童骑",
                         "袁枚",
@@ -38692,7 +38692,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "忽然闭口立",
                 "explanation": "出自袁枚《所见》，描写意欲捕。",
-                "poemId": null,
+                "poemId": "sup_072",
                 "knowledgePoints": [
                         "意欲捕",
                         "袁枚",
@@ -38711,7 +38711,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "烟村四五家",
                 "explanation": "出自邵雍《山村咏怀》，描写一去二。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "一去二",
                         "邵雍",
@@ -38730,7 +38730,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "八九十枝花",
                 "explanation": "出自邵雍《山村咏怀》，描写亭台六。",
-                "poemId": null,
+                "poemId": "sup_172",
                 "knowledgePoints": [
                         "亭台六",
                         "邵雍",
@@ -38749,7 +38749,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "手可摘星辰",
                 "explanation": "出自李白《夜宿山寺》，描写危楼高。",
-                "poemId": null,
+                "poemId": "sup_114",
                 "knowledgePoints": [
                         "危楼高",
                         "李白",
@@ -38768,7 +38768,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "恐惊天上人",
                 "explanation": "出自李白《夜宿山寺》，描写不敢高。",
-                "poemId": null,
+                "poemId": "sup_114",
                 "knowledgePoints": [
                         "不敢高",
                         "李白",
@@ -38787,7 +38787,7 @@ const QUESTIONS_DATA = [
                 "options": [],
                 "answer": "钟山只隔数重山",
                 "explanation": "出自王安石《泊船瓜洲》，描写京口瓜。",
-                "poemId": null,
+                "poemId": "sup_238",
                 "knowledgePoints": [
                         "京口瓜",
                         "王安石",
@@ -38858,7 +38858,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "汗滴禾下土",
                 "explanation": "出自李绅《悯农》，描述农民劳作的艰辛。",
-                "poemId": null,
+                "poemId": "sup_015",
                 "knowledgePoints": [
                         "古诗默写",
                         "李绅",
@@ -38892,7 +38892,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "春眠不觉晓，处处闻啼鸟",
                 "explanation": "出自孟浩然《春晓》，描写春天的景象。",
-                "poemId": null,
+                "poemId": "sup_045",
                 "knowledgePoints": [
                         "写景",
                         "春天",
@@ -38928,7 +38928,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "李白",
                 "explanation": "《静夜思》是唐代诗人李白的代表作之一。",
-                "poemId": null,
+                "poemId": "poem_006",
                 "knowledgePoints": [
                         "李白",
                         "静夜思"
@@ -38962,7 +38962,7 @@ const QUESTIONS_DATA = [
                 ],
                 "answer": "低头思故乡",
                 "explanation": "出自李白《静夜思》，表达了诗人的思乡之情。",
-                "poemId": null,
+                "poemId": "sup_113",
                 "knowledgePoints": [
                         "古诗默写",
                         "李白",
@@ -38995,7 +38995,7 @@ const QUESTIONS_DATA = [
                                 "correct": false
                         }
                 ],
-                "answer": "王昌龄（完整版）",
+                "answer": "王昌龄",
                 "explanation": "《从军行》出自王昌龄（完整版）之手。",
                 "poemId": "sup_poetry_new_033",
                 "knowledgePoints": [
