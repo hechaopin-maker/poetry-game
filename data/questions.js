@@ -38969,5 +38969,4205 @@ const QUESTIONS_DATA = [
                         "静夜思",
                         "思乡"
                 ]
+        },
+        {
+                "id": "q_mk_new_86484",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《从军行》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王昌龄（完整版）",
+                                "correct": true
+                        },
+                        {
+                                "text": "崔颢",
+                                "correct": false
+                        },
+                        {
+                                "text": "纳兰性德",
+                                "correct": false
+                        },
+                        {
+                                "text": "黄庭坚",
+                                "correct": false
+                        }
+                ],
+                "answer": "王昌龄（完整版）",
+                "explanation": "《从军行》出自王昌龄（完整版）之手。",
+                "poemId": "sup_poetry_new_033",
+                "knowledgePoints": [
+                        "王昌龄（完整版）",
+                        "从军行"
+                ]
+        },
+        {
+                "id": "q_zk_new_68008",
+                "type": "choice",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《渡汉江》的作者是谁？",
+                "options": [
+                        {
+                                "text": "宋之问",
+                                "correct": true
+                        },
+                        {
+                                "text": "王籍",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘方平",
+                                "correct": false
+                        },
+                        {
+                                "text": "陈子昂",
+                                "correct": false
+                        }
+                ],
+                "answer": "宋之问",
+                "explanation": "《渡汉江》出自宋之问之手。",
+                "poemId": "sup_092",
+                "knowledgePoints": [
+                        "宋之问",
+                        "渡汉江"
+                ]
+        },
+        {
+                "id": "q_mk_new_71894",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《将进酒》的作者是谁？",
+                "options": [
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "邵雍",
+                                "correct": false
+                        },
+                        {
+                                "text": "庄子",
+                                "correct": false
+                        },
+                        {
+                                "text": "胡令能",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《将进酒》出自李白之手。",
+                "poemId": "sup_116",
+                "knowledgePoints": [
+                        "李白",
+                        "将进酒"
+                ]
+        },
+        {
+                "id": "q_mk_new_59308",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《近试上张水部》的作者是谁？",
+                "options": [
+                        {
+                                "text": "曹操",
+                                "correct": false
+                        },
+                        {
+                                "text": "王籍",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": false
+                        },
+                        {
+                                "text": "朱庆馀",
+                                "correct": true
+                        }
+                ],
+                "answer": "朱庆馀",
+                "explanation": "《近试上张水部》出自朱庆馀之手。",
+                "poemId": "sup_329",
+                "knowledgePoints": [
+                        "朱庆馀",
+                        "近试上张水部"
+                ]
+        },
+        {
+                "id": "q_chu2_new_20345",
+                "type": "choice",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《江城子·密州出猎（完整版）》的作者是谁？",
+                "options": [
+                        {
+                                "text": "卢纶",
+                                "correct": false
+                        },
+                        {
+                                "text": "骆宾王",
+                                "correct": false
+                        },
+                        {
+                                "text": "南北朝民歌",
+                                "correct": false
+                        },
+                        {
+                                "text": "苏轼",
+                                "correct": true
+                        }
+                ],
+                "answer": "苏轼",
+                "explanation": "《江城子·密州出猎（完整版）》出自苏轼之手。",
+                "poemId": "sup_poetry_new_008",
+                "knowledgePoints": [
+                        "苏轼",
+                        "江城子·密州出猎（完整版）"
+                ]
+        },
+        {
+                "id": "q_mk_new_14763",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《念奴娇·赤壁怀古》的作者是谁？",
+                "options": [
+                        {
+                                "text": "李贺",
+                                "correct": false
+                        },
+                        {
+                                "text": "苏轼",
+                                "correct": true
+                        },
+                        {
+                                "text": "张志和",
+                                "correct": false
+                        },
+                        {
+                                "text": "韦庄",
+                                "correct": false
+                        }
+                ],
+                "answer": "苏轼",
+                "explanation": "《念奴娇·赤壁怀古》出自苏轼之手。",
+                "poemId": "sup_133",
+                "knowledgePoints": [
+                        "苏轼",
+                        "念奴娇·赤壁怀古"
+                ]
+        },
+        {
+                "id": "q_mk_new_31292",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《山中》的作者是谁？",
+                "options": [
+                        {
+                                "text": "韦庄",
+                                "correct": false
+                        },
+                        {
+                                "text": "张若虚",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": true
+                        },
+                        {
+                                "text": "谢灵运",
+                                "correct": false
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《山中》出自王维之手。",
+                "poemId": "sup_390",
+                "knowledgePoints": [
+                        "王维",
+                        "山中"
+                ]
+        },
+        {
+                "id": "q_fbc_new_84205",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《枫桥夜泊》的作者是谁？",
+                "options": [
+                        {
+                                "text": "李清照",
+                                "correct": false
+                        },
+                        {
+                                "text": "张继",
+                                "correct": true
+                        },
+                        {
+                                "text": "韩愈",
+                                "correct": false
+                        },
+                        {
+                                "text": "李白",
+                                "correct": false
+                        }
+                ],
+                "answer": "张继",
+                "explanation": "《枫桥夜泊》出自张继之手。",
+                "poemId": "sup_016",
+                "knowledgePoints": [
+                        "张继",
+                        "枫桥夜泊"
+                ]
+        },
+        {
+                "id": "q_fbc_new_13840",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《泊船瓜洲》的作者是谁？",
+                "options": [
+                        {
+                                "text": "龚自珍",
+                                "correct": false
+                        },
+                        {
+                                "text": "秦观",
+                                "correct": false
+                        },
+                        {
+                                "text": "查慎行",
+                                "correct": false
+                        },
+                        {
+                                "text": "王安石",
+                                "correct": true
+                        }
+                ],
+                "answer": "王安石",
+                "explanation": "《泊船瓜洲》出自王安石之手。",
+                "poemId": "sup_238",
+                "knowledgePoints": [
+                        "王安石",
+                        "泊船瓜洲"
+                ]
+        },
+        {
+                "id": "q_chu1_new_96577",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《碧玉妆成一树高》的作者是谁？",
+                "options": [
+                        {
+                                "text": "崔颢",
+                                "correct": false
+                        },
+                        {
+                                "text": "李贺",
+                                "correct": false
+                        },
+                        {
+                                "text": "钱珝",
+                                "correct": false
+                        },
+                        {
+                                "text": "贺知章",
+                                "correct": true
+                        }
+                ],
+                "answer": "贺知章",
+                "explanation": "《碧玉妆成一树高》出自贺知章之手。",
+                "poemId": "sup_307",
+                "knowledgePoints": [
+                        "贺知章",
+                        "碧玉妆成一树高"
+                ]
+        },
+        {
+                "id": "q_chu1_new_36330",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《夜雨寄北》的作者是谁？",
+                "options": [
+                        {
+                                "text": "刘方平",
+                                "correct": false
+                        },
+                        {
+                                "text": "李商隐",
+                                "correct": true
+                        },
+                        {
+                                "text": "许浑",
+                                "correct": false
+                        },
+                        {
+                                "text": "骆宾王",
+                                "correct": false
+                        }
+                ],
+                "answer": "李商隐",
+                "explanation": "《夜雨寄北》出自李商隐之手。",
+                "poemId": "sup_061",
+                "knowledgePoints": [
+                        "李商隐",
+                        "夜雨寄北"
+                ]
+        },
+        {
+                "id": "q_fbc_new_12942",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《采桑子》的作者是谁？",
+                "options": [
+                        {
+                                "text": "欧阳修",
+                                "correct": true
+                        },
+                        {
+                                "text": "韦庄",
+                                "correct": false
+                        },
+                        {
+                                "text": "郑燮",
+                                "correct": false
+                        },
+                        {
+                                "text": "秦观",
+                                "correct": false
+                        }
+                ],
+                "answer": "欧阳修",
+                "explanation": "《采桑子》出自欧阳修之手。",
+                "poemId": "sup_374",
+                "knowledgePoints": [
+                        "欧阳修",
+                        "采桑子"
+                ]
+        },
+        {
+                "id": "q_chu1_new_40753",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《敕勒歌》的作者是谁？",
+                "options": [
+                        {
+                                "text": "夏完淳",
+                                "correct": false
+                        },
+                        {
+                                "text": "范仲淹",
+                                "correct": false
+                        },
+                        {
+                                "text": "乐府诗",
+                                "correct": true
+                        },
+                        {
+                                "text": "赵嘏",
+                                "correct": false
+                        }
+                ],
+                "answer": "乐府诗",
+                "explanation": "《敕勒歌》出自乐府诗之手。",
+                "poemId": "sup_158",
+                "knowledgePoints": [
+                        "乐府诗",
+                        "敕勒歌"
+                ]
+        },
+        {
+                "id": "q_chu2_new_78731",
+                "type": "choice",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《渡荆门送别》的作者是谁？",
+                "options": [
+                        {
+                                "text": "诸葛亮",
+                                "correct": false
+                        },
+                        {
+                                "text": "《诗经》",
+                                "correct": false
+                        },
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "颜真卿",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《渡荆门送别》出自李白之手。",
+                "poemId": "sup_120",
+                "knowledgePoints": [
+                        "李白",
+                        "渡荆门送别"
+                ]
+        },
+        {
+                "id": "q_mk_new_90223",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《鸟鸣涧》的作者是谁？",
+                "options": [
+                        {
+                                "text": "黄庭坚",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": true
+                        },
+                        {
+                                "text": "李峤",
+                                "correct": false
+                        },
+                        {
+                                "text": "纳兰性德",
+                                "correct": false
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《鸟鸣涧》出自王维之手。",
+                "poemId": "sup_047",
+                "knowledgePoints": [
+                        "王维",
+                        "鸟鸣涧"
+                ]
+        },
+        {
+                "id": "q_chu1_new_65183",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《诗经·关雎》的作者是谁？",
+                "options": [
+                        {
+                                "text": "佚名",
+                                "correct": true
+                        },
+                        {
+                                "text": "龚自珍",
+                                "correct": false
+                        },
+                        {
+                                "text": "诸葛亮",
+                                "correct": false
+                        },
+                        {
+                                "text": "张九龄",
+                                "correct": false
+                        }
+                ],
+                "answer": "佚名",
+                "explanation": "《诗经·关雎》出自佚名之手。",
+                "poemId": "sup_poetry_new_003",
+                "knowledgePoints": [
+                        "佚名",
+                        "诗经·关雎"
+                ]
+        },
+        {
+                "id": "q_zk_new_38333",
+                "type": "choice",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《木兰辞》的作者是谁？",
+                "options": [
+                        {
+                                "text": "鲍照",
+                                "correct": false
+                        },
+                        {
+                                "text": "张九龄",
+                                "correct": false
+                        },
+                        {
+                                "text": "王昌龄",
+                                "correct": false
+                        },
+                        {
+                                "text": "南北朝民歌",
+                                "correct": true
+                        }
+                ],
+                "answer": "南北朝民歌",
+                "explanation": "《木兰辞》出自南北朝民歌之手。",
+                "poemId": "sup_127",
+                "knowledgePoints": [
+                        "南北朝民歌",
+                        "木兰辞"
+                ]
+        },
+        {
+                "id": "q_mk_new_98037",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《别舍弟宗一》的作者是谁？",
+                "options": [
+                        {
+                                "text": "翁卷",
+                                "correct": false
+                        },
+                        {
+                                "text": "庄子",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘禹锡",
+                                "correct": false
+                        },
+                        {
+                                "text": "柳宗元",
+                                "correct": true
+                        }
+                ],
+                "answer": "柳宗元",
+                "explanation": "《别舍弟宗一》出自柳宗元之手。",
+                "poemId": "sup_394",
+                "knowledgePoints": [
+                        "柳宗元",
+                        "别舍弟宗一"
+                ]
+        },
+        {
+                "id": "q_zk_new_34259",
+                "type": "choice",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《踏莎行》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王昌龄（其二）",
+                                "correct": false
+                        },
+                        {
+                                "text": "诸葛亮",
+                                "correct": false
+                        },
+                        {
+                                "text": "秦观",
+                                "correct": true
+                        },
+                        {
+                                "text": "欧阳修",
+                                "correct": false
+                        }
+                ],
+                "answer": "秦观",
+                "explanation": "《踏莎行》出自秦观之手。",
+                "poemId": "sup_372",
+                "knowledgePoints": [
+                        "秦观",
+                        "踏莎行"
+                ]
+        },
+        {
+                "id": "q_fbc_new_31707",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《爱莲说》的作者是谁？",
+                "options": [
+                        {
+                                "text": "卢纶",
+                                "correct": false
+                        },
+                        {
+                                "text": "周敦颐",
+                                "correct": true
+                        },
+                        {
+                                "text": "查慎行",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘方平",
+                                "correct": false
+                        }
+                ],
+                "answer": "周敦颐",
+                "explanation": "《爱莲说》出自周敦颐之手。",
+                "poemId": "sup_147",
+                "knowledgePoints": [
+                        "周敦颐",
+                        "爱莲说"
+                ]
+        },
+        {
+                "id": "q_chu1_new_59271",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《山中送别》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王维",
+                                "correct": true
+                        },
+                        {
+                                "text": "张九龄",
+                                "correct": false
+                        },
+                        {
+                                "text": "寇准",
+                                "correct": false
+                        },
+                        {
+                                "text": "颜真卿",
+                                "correct": false
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《山中送别》出自王维之手。",
+                "poemId": "sup_poetry_new_011",
+                "knowledgePoints": [
+                        "王维",
+                        "山中送别"
+                ]
+        },
+        {
+                "id": "q_fbc_new_83669",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《诉衷情》的作者是谁？",
+                "options": [
+                        {
+                                "text": "钱福",
+                                "correct": false
+                        },
+                        {
+                                "text": "皮日休",
+                                "correct": false
+                        },
+                        {
+                                "text": "高鼎",
+                                "correct": false
+                        },
+                        {
+                                "text": "陆游",
+                                "correct": true
+                        }
+                ],
+                "answer": "陆游",
+                "explanation": "《诉衷情》出自陆游之手。",
+                "poemId": "sup_367",
+                "knowledgePoints": [
+                        "陆游",
+                        "诉衷情"
+                ]
+        },
+        {
+                "id": "q_mk_new_59832",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《渭川田家》的作者是谁？",
+                "options": [
+                        {
+                                "text": "曹植",
+                                "correct": false
+                        },
+                        {
+                                "text": "王湾",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": true
+                        },
+                        {
+                                "text": "刘桢",
+                                "correct": false
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《渭川田家》出自王维之手。",
+                "poemId": "sup_191",
+                "knowledgePoints": [
+                        "王维",
+                        "渭川田家"
+                ]
+        },
+        {
+                "id": "q_fbc_new_57775",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《龟虽寿》的作者是谁？",
+                "options": [
+                        {
+                                "text": "曹操",
+                                "correct": true
+                        },
+                        {
+                                "text": "杨炯",
+                                "correct": false
+                        },
+                        {
+                                "text": "宋之问",
+                                "correct": false
+                        },
+                        {
+                                "text": "王安石",
+                                "correct": false
+                        }
+                ],
+                "answer": "曹操",
+                "explanation": "《龟虽寿》出自曹操之手。",
+                "poemId": "sup_167",
+                "knowledgePoints": [
+                        "曹操",
+                        "龟虽寿"
+                ]
+        },
+        {
+                "id": "q_mk_new_51853",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《竹里馆》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王维",
+                                "correct": true
+                        },
+                        {
+                                "text": "袁枚",
+                                "correct": false
+                        },
+                        {
+                                "text": "钱福",
+                                "correct": false
+                        },
+                        {
+                                "text": "荀子",
+                                "correct": false
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《竹里馆》出自王维之手。",
+                "poemId": "sup_023",
+                "knowledgePoints": [
+                        "王维",
+                        "竹里馆"
+                ]
+        },
+        {
+                "id": "q_mk_new_93113",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《终南别业》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王维",
+                                "correct": true
+                        },
+                        {
+                                "text": "纳兰性德",
+                                "correct": false
+                        },
+                        {
+                                "text": "朱庆馀",
+                                "correct": false
+                        },
+                        {
+                                "text": "赵师秀",
+                                "correct": false
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《终南别业》出自王维之手。",
+                "poemId": "sup_110",
+                "knowledgePoints": [
+                        "王维",
+                        "终南别业"
+                ]
+        },
+        {
+                "id": "q_mk_new_24047",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《月夜》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王湾",
+                                "correct": false
+                        },
+                        {
+                                "text": "孟浩然",
+                                "correct": false
+                        },
+                        {
+                                "text": "郑燮",
+                                "correct": false
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": true
+                        }
+                ],
+                "answer": "杜甫",
+                "explanation": "《月夜》出自杜甫之手。",
+                "poemId": "sup_392",
+                "knowledgePoints": [
+                        "杜甫",
+                        "月夜"
+                ]
+        },
+        {
+                "id": "q_mk_new_89408",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《劝学》的作者是谁？",
+                "options": [
+                        {
+                                "text": "颜真卿",
+                                "correct": true
+                        },
+                        {
+                                "text": "王建",
+                                "correct": false
+                        },
+                        {
+                                "text": "夏完淳",
+                                "correct": false
+                        },
+                        {
+                                "text": "王安石",
+                                "correct": false
+                        }
+                ],
+                "answer": "颜真卿",
+                "explanation": "《劝学》出自颜真卿之手。",
+                "poemId": "sup_355",
+                "knowledgePoints": [
+                        "颜真卿",
+                        "劝学"
+                ]
+        },
+        {
+                "id": "q_fbc_new_51039",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《长信秋词》的作者是谁？",
+                "options": [
+                        {
+                                "text": "骆宾王",
+                                "correct": false
+                        },
+                        {
+                                "text": "张九龄",
+                                "correct": false
+                        },
+                        {
+                                "text": "司马相如",
+                                "correct": false
+                        },
+                        {
+                                "text": "王昌龄",
+                                "correct": true
+                        }
+                ],
+                "answer": "王昌龄",
+                "explanation": "《长信秋词》出自王昌龄之手。",
+                "poemId": "sup_poetry_new_015",
+                "knowledgePoints": [
+                        "王昌龄",
+                        "长信秋词"
+                ]
+        },
+        {
+                "id": "q_fbc_new_36563",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《如梦令》的作者是谁？",
+                "options": [
+                        {
+                                "text": "李清照",
+                                "correct": true
+                        },
+                        {
+                                "text": "杜牧",
+                                "correct": false
+                        },
+                        {
+                                "text": "苏轼",
+                                "correct": false
+                        },
+                        {
+                                "text": "孟子",
+                                "correct": false
+                        }
+                ],
+                "answer": "李清照",
+                "explanation": "《如梦令》出自李清照之手。",
+                "poemId": "sup_poetry_new_001",
+                "knowledgePoints": [
+                        "李清照",
+                        "如梦令"
+                ]
+        },
+        {
+                "id": "q_mk_new_65234",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《江南》的作者是谁？",
+                "options": [
+                        {
+                                "text": "柳宗元",
+                                "correct": false
+                        },
+                        {
+                                "text": "秦观",
+                                "correct": false
+                        },
+                        {
+                                "text": "汉乐府",
+                                "correct": true
+                        },
+                        {
+                                "text": "张志和",
+                                "correct": false
+                        }
+                ],
+                "answer": "汉乐府",
+                "explanation": "《江南》出自汉乐府之手。",
+                "poemId": "sup_043",
+                "knowledgePoints": [
+                        "汉乐府",
+                        "江南"
+                ]
+        },
+        {
+                "id": "q_mk_new_99700",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《观刈麦》的作者是谁？",
+                "options": [
+                        {
+                                "text": "白居易",
+                                "correct": true
+                        },
+                        {
+                                "text": "诗经·邶风",
+                                "correct": false
+                        },
+                        {
+                                "text": "王建",
+                                "correct": false
+                        },
+                        {
+                                "text": "王禹偁",
+                                "correct": false
+                        }
+                ],
+                "answer": "白居易",
+                "explanation": "《观刈麦》出自白居易之手。",
+                "poemId": "sup_363",
+                "knowledgePoints": [
+                        "白居易",
+                        "观刈麦"
+                ]
+        },
+        {
+                "id": "q_chu1_new_77143",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《沁园春·雪》的作者是谁？",
+                "options": [
+                        {
+                                "text": "张九龄",
+                                "correct": false
+                        },
+                        {
+                                "text": "罗隐",
+                                "correct": false
+                        },
+                        {
+                                "text": "《古诗十九首》",
+                                "correct": false
+                        },
+                        {
+                                "text": "毛泽东",
+                                "correct": true
+                        }
+                ],
+                "answer": "毛泽东",
+                "explanation": "《沁园春·雪》出自毛泽东之手。",
+                "poemId": "sup_002",
+                "knowledgePoints": [
+                        "毛泽东",
+                        "沁园春·雪"
+                ]
+        },
+        {
+                "id": "q_fbc_new_94008",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《黄鹤楼送孟浩然之广陵》的作者是谁？",
+                "options": [
+                        {
+                                "text": "查慎行",
+                                "correct": false
+                        },
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "张继",
+                                "correct": false
+                        },
+                        {
+                                "text": "胡令能",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《黄鹤楼送孟浩然之广陵》出自李白之手。",
+                "poemId": "sup_031",
+                "knowledgePoints": [
+                        "李白",
+                        "黄鹤楼送孟浩然之广陵"
+                ]
+        },
+        {
+                "id": "q_fbc_new_33213",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《东轩》的作者是谁？",
+                "options": [
+                        {
+                                "text": "刘长卿",
+                                "correct": false
+                        },
+                        {
+                                "text": "王勃",
+                                "correct": false
+                        },
+                        {
+                                "text": "皮日休",
+                                "correct": false
+                        },
+                        {
+                                "text": "陆游",
+                                "correct": true
+                        }
+                ],
+                "answer": "陆游",
+                "explanation": "《东轩》出自陆游之手。",
+                "poemId": "sup_poetry_new_145",
+                "knowledgePoints": [
+                        "陆游",
+                        "东轩"
+                ]
+        },
+        {
+                "id": "q_chu1_new_44123",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《望庐山瀑布》的作者是谁？",
+                "options": [
+                        {
+                                "text": "纳兰性德",
+                                "correct": false
+                        },
+                        {
+                                "text": "张若虚",
+                                "correct": false
+                        },
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "刘桢",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《望庐山瀑布》出自李白之手。",
+                "poemId": "sup_014",
+                "knowledgePoints": [
+                        "李白",
+                        "望庐山瀑布"
+                ]
+        },
+        {
+                "id": "q_mk_new_22982",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《生于忧患死于安乐》的作者是谁？",
+                "options": [
+                        {
+                                "text": "曹植",
+                                "correct": false
+                        },
+                        {
+                                "text": "孟子",
+                                "correct": true
+                        },
+                        {
+                                "text": "龚自珍",
+                                "correct": false
+                        },
+                        {
+                                "text": "范成大",
+                                "correct": false
+                        }
+                ],
+                "answer": "孟子",
+                "explanation": "《生于忧患死于安乐》出自孟子之手。",
+                "poemId": "sup_148",
+                "knowledgePoints": [
+                        "孟子",
+                        "生于忧患死于安乐"
+                ]
+        },
+        {
+                "id": "q_chu1_new_51228",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《邶风·静女》的作者是谁？",
+                "options": [
+                        {
+                                "text": "孟郊",
+                                "correct": false
+                        },
+                        {
+                                "text": "《诗经》",
+                                "correct": true
+                        },
+                        {
+                                "text": "沈佺期",
+                                "correct": false
+                        },
+                        {
+                                "text": "王湾",
+                                "correct": false
+                        }
+                ],
+                "answer": "《诗经》",
+                "explanation": "《邶风·静女》出自《诗经》之手。",
+                "poemId": "sup_137",
+                "knowledgePoints": [
+                        "《诗经》",
+                        "邶风·静女"
+                ]
+        },
+        {
+                "id": "q_mk_new_12142",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《题临安邸》的作者是谁？",
+                "options": [
+                        {
+                                "text": "林升",
+                                "correct": true
+                        },
+                        {
+                                "text": "柳宗元",
+                                "correct": false
+                        },
+                        {
+                                "text": "罗隐",
+                                "correct": false
+                        },
+                        {
+                                "text": "陈子昂",
+                                "correct": false
+                        }
+                ],
+                "answer": "林升",
+                "explanation": "《题临安邸》出自林升之手。",
+                "poemId": "sup_026",
+                "knowledgePoints": [
+                        "林升",
+                        "题临安邸"
+                ]
+        },
+        {
+                "id": "q_mk_new_71785",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《终南望余雪》的作者是谁？",
+                "options": [
+                        {
+                                "text": "钱珝",
+                                "correct": false
+                        },
+                        {
+                                "text": "钱福",
+                                "correct": false
+                        },
+                        {
+                                "text": "张九龄",
+                                "correct": false
+                        },
+                        {
+                                "text": "祖咏",
+                                "correct": true
+                        }
+                ],
+                "answer": "祖咏",
+                "explanation": "《终南望余雪》出自祖咏之手。",
+                "poemId": "sup_325",
+                "knowledgePoints": [
+                        "祖咏",
+                        "终南望余雪"
+                ]
+        },
+        {
+                "id": "q_fbc_new_35471",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《汴河怀古》的作者是谁？",
+                "options": [
+                        {
+                                "text": "于谦",
+                                "correct": false
+                        },
+                        {
+                                "text": "叶绍翁",
+                                "correct": false
+                        },
+                        {
+                                "text": "皮日休",
+                                "correct": true
+                        },
+                        {
+                                "text": "林升",
+                                "correct": false
+                        }
+                ],
+                "answer": "皮日休",
+                "explanation": "《汴河怀古》出自皮日休之手。",
+                "poemId": "sup_298",
+                "knowledgePoints": [
+                        "皮日休",
+                        "汴河怀古"
+                ]
+        },
+        {
+                "id": "q_mk_new_40423",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《古朗月行》的作者是谁？",
+                "options": [
+                        {
+                                "text": "查慎行",
+                                "correct": false
+                        },
+                        {
+                                "text": "孟子",
+                                "correct": false
+                        },
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "张旭",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《古朗月行》出自李白之手。",
+                "poemId": "sup_051",
+                "knowledgePoints": [
+                        "李白",
+                        "古朗月行"
+                ]
+        },
+        {
+                "id": "q_mk_new_37788",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《山中（完整版）》的作者是谁？",
+                "options": [
+                        {
+                                "text": "欧阳修",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": true
+                        },
+                        {
+                                "text": "胡令能",
+                                "correct": false
+                        },
+                        {
+                                "text": "孟郊",
+                                "correct": false
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《山中（完整版）》出自王维之手。",
+                "poemId": "sup_poetry_new_026",
+                "knowledgePoints": [
+                        "王维",
+                        "山中（完整版）"
+                ]
+        },
+        {
+                "id": "q_mk_new_67135",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《村行》的作者是谁？",
+                "options": [
+                        {
+                                "text": "鲍照",
+                                "correct": false
+                        },
+                        {
+                                "text": "王禹偁",
+                                "correct": true
+                        },
+                        {
+                                "text": "诗经·邶风",
+                                "correct": false
+                        },
+                        {
+                                "text": "王湾",
+                                "correct": false
+                        }
+                ],
+                "answer": "王禹偁",
+                "explanation": "《村行》出自王禹偁之手。",
+                "poemId": "sup_344",
+                "knowledgePoints": [
+                        "王禹偁",
+                        "村行"
+                ]
+        },
+        {
+                "id": "q_fbc_new_91539",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《示儿》的作者是谁？",
+                "options": [
+                        {
+                                "text": "陆游",
+                                "correct": true
+                        },
+                        {
+                                "text": "王绩",
+                                "correct": false
+                        },
+                        {
+                                "text": "司马相如",
+                                "correct": false
+                        },
+                        {
+                                "text": "邵雍",
+                                "correct": false
+                        }
+                ],
+                "answer": "陆游",
+                "explanation": "《示儿》出自陆游之手。",
+                "poemId": "sup_075",
+                "knowledgePoints": [
+                        "陆游",
+                        "示儿"
+                ]
+        },
+        {
+                "id": "q_mk_new_63166",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《饮酒·其五》的作者是谁？",
+                "options": [
+                        {
+                                "text": "夏完淳",
+                                "correct": false
+                        },
+                        {
+                                "text": "陶渊明",
+                                "correct": true
+                        },
+                        {
+                                "text": "高鼎",
+                                "correct": false
+                        },
+                        {
+                                "text": "鲍照",
+                                "correct": false
+                        }
+                ],
+                "answer": "陶渊明",
+                "explanation": "《饮酒·其五》出自陶渊明之手。",
+                "poemId": "sup_126",
+                "knowledgePoints": [
+                        "陶渊明",
+                        "饮酒·其五"
+                ]
+        },
+        {
+                "id": "q_mk_new_26671",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《浪淘沙》的作者是谁？",
+                "options": [
+                        {
+                                "text": "刘禹锡",
+                                "correct": true
+                        },
+                        {
+                                "text": "陈子昂",
+                                "correct": false
+                        },
+                        {
+                                "text": "王磐",
+                                "correct": false
+                        },
+                        {
+                                "text": "赵嘏",
+                                "correct": false
+                        }
+                ],
+                "answer": "刘禹锡",
+                "explanation": "《浪淘沙》出自刘禹锡之手。",
+                "poemId": "sup_087",
+                "knowledgePoints": [
+                        "刘禹锡",
+                        "浪淘沙"
+                ]
+        },
+        {
+                "id": "q_mk_new_25832",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《清明》的作者是谁？",
+                "options": [
+                        {
+                                "text": "杜牧",
+                                "correct": true
+                        },
+                        {
+                                "text": "司马相如",
+                                "correct": false
+                        },
+                        {
+                                "text": "李益",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘方平",
+                                "correct": false
+                        }
+                ],
+                "answer": "杜牧",
+                "explanation": "《清明》出自杜牧之手。",
+                "poemId": "sup_001",
+                "knowledgePoints": [
+                        "杜牧",
+                        "清明"
+                ]
+        },
+        {
+                "id": "q_zk_new_19015",
+                "type": "choice",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《晓行巴峡》的作者是谁？",
+                "options": [
+                        {
+                                "text": "毛泽东",
+                                "correct": false
+                        },
+                        {
+                                "text": "王籍",
+                                "correct": false
+                        },
+                        {
+                                "text": "朱熹",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": true
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《晓行巴峡》出自王维之手。",
+                "poemId": "sup_177",
+                "knowledgePoints": [
+                        "王维",
+                        "晓行巴峡"
+                ]
+        },
+        {
+                "id": "q_fbc_new_60818",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《墨梅》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王冕",
+                                "correct": true
+                        },
+                        {
+                                "text": "赵师秀",
+                                "correct": false
+                        },
+                        {
+                                "text": "张志和",
+                                "correct": false
+                        },
+                        {
+                                "text": "骆宾王",
+                                "correct": false
+                        }
+                ],
+                "answer": "王冕",
+                "explanation": "《墨梅》出自王冕之手。",
+                "poemId": "sup_082",
+                "knowledgePoints": [
+                        "王冕",
+                        "墨梅"
+                ]
+        },
+        {
+                "id": "q_chu2_new_99749",
+                "type": "choice",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《闻王昌龄左迁龙标遥有此寄》的作者是谁？",
+                "options": [
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "王磐",
+                                "correct": false
+                        },
+                        {
+                                "text": "张养浩",
+                                "correct": false
+                        },
+                        {
+                                "text": "南北朝民歌",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《闻王昌龄左迁龙标遥有此寄》出自李白之手。",
+                "poemId": "sup_055",
+                "knowledgePoints": [
+                        "李白",
+                        "闻王昌龄左迁龙标遥有此寄"
+                ]
+        },
+        {
+                "id": "q_mk_new_19003",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《浣溪沙》的作者是谁？",
+                "options": [
+                        {
+                                "text": "晏殊",
+                                "correct": true
+                        },
+                        {
+                                "text": "曹植",
+                                "correct": false
+                        },
+                        {
+                                "text": "孟郊",
+                                "correct": false
+                        },
+                        {
+                                "text": "孟浩然",
+                                "correct": false
+                        }
+                ],
+                "answer": "晏殊",
+                "explanation": "《浣溪沙》出自晏殊之手。",
+                "poemId": "sup_063",
+                "knowledgePoints": [
+                        "晏殊",
+                        "浣溪沙"
+                ]
+        },
+        {
+                "id": "q_fbc_new_36122",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《塞下曲（完整版）》的作者是谁？",
+                "options": [
+                        {
+                                "text": "岳飞",
+                                "correct": false
+                        },
+                        {
+                                "text": "毛泽东",
+                                "correct": false
+                        },
+                        {
+                                "text": "卢纶",
+                                "correct": true
+                        },
+                        {
+                                "text": "白居易",
+                                "correct": false
+                        }
+                ],
+                "answer": "卢纶",
+                "explanation": "《塞下曲（完整版）》出自卢纶之手。",
+                "poemId": "sup_poetry_new_034",
+                "knowledgePoints": [
+                        "卢纶",
+                        "塞下曲（完整版）"
+                ]
+        },
+        {
+                "id": "q_chu1_new_95489",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《别董大》的作者是谁？",
+                "options": [
+                        {
+                                "text": "李煜",
+                                "correct": false
+                        },
+                        {
+                                "text": "诸葛亮",
+                                "correct": false
+                        },
+                        {
+                                "text": "鲍照",
+                                "correct": false
+                        },
+                        {
+                                "text": "高适",
+                                "correct": true
+                        }
+                ],
+                "answer": "高适",
+                "explanation": "《别董大》出自高适之手。",
+                "poemId": "sup_213",
+                "knowledgePoints": [
+                        "高适",
+                        "别董大"
+                ]
+        },
+        {
+                "id": "q_chu1_new_80614",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《渔歌子》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王昌龄（其二）",
+                                "correct": false
+                        },
+                        {
+                                "text": "张志和",
+                                "correct": true
+                        },
+                        {
+                                "text": "刘长卿",
+                                "correct": false
+                        },
+                        {
+                                "text": "郑燮",
+                                "correct": false
+                        }
+                ],
+                "answer": "张志和",
+                "explanation": "《渔歌子》出自张志和之手。",
+                "poemId": "sup_218",
+                "knowledgePoints": [
+                        "张志和",
+                        "渔歌子"
+                ]
+        },
+        {
+                "id": "q_chu1_new_80544",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《酬乐天扬州初逢席上见赠》的作者是谁？",
+                "options": [
+                        {
+                                "text": "刘方平",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘禹锡",
+                                "correct": true
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": false
+                        },
+                        {
+                                "text": "庄子",
+                                "correct": false
+                        }
+                ],
+                "answer": "刘禹锡",
+                "explanation": "《酬乐天扬州初逢席上见赠》出自刘禹锡之手。",
+                "poemId": "sup_270",
+                "knowledgePoints": [
+                        "刘禹锡",
+                        "酬乐天扬州初逢席上见赠"
+                ]
+        },
+        {
+                "id": "q_mk_new_89098",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《尚思为国戍轮台》的作者是谁？",
+                "options": [
+                        {
+                                "text": "张养浩",
+                                "correct": false
+                        },
+                        {
+                                "text": "汉乐府",
+                                "correct": false
+                        },
+                        {
+                                "text": "陆游",
+                                "correct": true
+                        },
+                        {
+                                "text": "沈佺期",
+                                "correct": false
+                        }
+                ],
+                "answer": "陆游",
+                "explanation": "《尚思为国戍轮台》出自陆游之手。",
+                "poemId": "sup_318",
+                "knowledgePoints": [
+                        "陆游",
+                        "尚思为国戍轮台"
+                ]
+        },
+        {
+                "id": "q_fbc_new_85109",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《乌衣巷》的作者是谁？",
+                "options": [
+                        {
+                                "text": "陈子昂",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘禹锡",
+                                "correct": true
+                        },
+                        {
+                                "text": "王昌龄（其二）",
+                                "correct": false
+                        },
+                        {
+                                "text": "李绅",
+                                "correct": false
+                        }
+                ],
+                "answer": "刘禹锡",
+                "explanation": "《乌衣巷》出自刘禹锡之手。",
+                "poemId": "sup_089",
+                "knowledgePoints": [
+                        "刘禹锡",
+                        "乌衣巷"
+                ]
+        },
+        {
+                "id": "q_zk_new_83556",
+                "type": "choice",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《钗头凤》的作者是谁？",
+                "options": [
+                        {
+                                "text": "鲍照",
+                                "correct": false
+                        },
+                        {
+                                "text": "陆游",
+                                "correct": true
+                        },
+                        {
+                                "text": "曾几",
+                                "correct": false
+                        },
+                        {
+                                "text": "王禹偁",
+                                "correct": false
+                        }
+                ],
+                "answer": "陆游",
+                "explanation": "《钗头凤》出自陆游之手。",
+                "poemId": "sup_poetry_new_070",
+                "knowledgePoints": [
+                        "陆游",
+                        "钗头凤"
+                ]
+        },
+        {
+                "id": "q_mk_new_59617",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《出塞》的作者是谁？",
+                "options": [
+                        {
+                                "text": "许浑",
+                                "correct": false
+                        },
+                        {
+                                "text": "李清照",
+                                "correct": false
+                        },
+                        {
+                                "text": "王昌龄",
+                                "correct": true
+                        },
+                        {
+                                "text": "王维",
+                                "correct": false
+                        }
+                ],
+                "answer": "王昌龄",
+                "explanation": "《出塞》出自王昌龄之手。",
+                "poemId": "sup_011",
+                "knowledgePoints": [
+                        "王昌龄",
+                        "出塞"
+                ]
+        },
+        {
+                "id": "q_fbc_new_18025",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《青玉案·元夕》的作者是谁？",
+                "options": [
+                        {
+                                "text": "皮日休",
+                                "correct": false
+                        },
+                        {
+                                "text": "王绩",
+                                "correct": false
+                        },
+                        {
+                                "text": "韦应物",
+                                "correct": false
+                        },
+                        {
+                                "text": "辛弃疾",
+                                "correct": true
+                        }
+                ],
+                "answer": "辛弃疾",
+                "explanation": "《青玉案·元夕》出自辛弃疾之手。",
+                "poemId": "sup_373",
+                "knowledgePoints": [
+                        "辛弃疾",
+                        "青玉案·元夕"
+                ]
+        },
+        {
+                "id": "q_chu1_new_16526",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《诗经·蒹葭》的作者是谁？",
+                "options": [
+                        {
+                                "text": "佚名",
+                                "correct": true
+                        },
+                        {
+                                "text": "黄庭坚",
+                                "correct": false
+                        },
+                        {
+                                "text": "李商隐",
+                                "correct": false
+                        },
+                        {
+                                "text": "叶绍翁",
+                                "correct": false
+                        }
+                ],
+                "answer": "佚名",
+                "explanation": "《诗经·蒹葭》出自佚名之手。",
+                "poemId": "sup_poetry_new_002",
+                "knowledgePoints": [
+                        "佚名",
+                        "诗经·蒹葭"
+                ]
+        },
+        {
+                "id": "q_mk_new_24930",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《梦游天姥吟留别》的作者是谁？",
+                "options": [
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "温庭筠",
+                                "correct": false
+                        },
+                        {
+                                "text": "王昌龄",
+                                "correct": false
+                        },
+                        {
+                                "text": "王驾",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《梦游天姥吟留别》出自李白之手。",
+                "poemId": "sup_118",
+                "knowledgePoints": [
+                        "李白",
+                        "梦游天姥吟留别"
+                ]
+        },
+        {
+                "id": "q_zk_new_30073",
+                "type": "choice",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《虞美人·春花秋月何时了》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王昌龄（其二）",
+                                "correct": false
+                        },
+                        {
+                                "text": "李煜",
+                                "correct": true
+                        },
+                        {
+                                "text": "汉乐府",
+                                "correct": false
+                        },
+                        {
+                                "text": "陶渊明",
+                                "correct": false
+                        }
+                ],
+                "answer": "李煜",
+                "explanation": "《虞美人·春花秋月何时了》出自李煜之手。",
+                "poemId": "sup_145",
+                "knowledgePoints": [
+                        "李煜",
+                        "虞美人·春花秋月何时了"
+                ]
+        },
+        {
+                "id": "q_fbc_new_61008",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《逢雪宿芙蓉山主人》的作者是谁？",
+                "options": [
+                        {
+                                "text": "龚自珍",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘长卿",
+                                "correct": true
+                        },
+                        {
+                                "text": "元稹",
+                                "correct": false
+                        },
+                        {
+                                "text": "范成大",
+                                "correct": false
+                        }
+                ],
+                "answer": "刘长卿",
+                "explanation": "《逢雪宿芙蓉山主人》出自刘长卿之手。",
+                "poemId": "sup_090",
+                "knowledgePoints": [
+                        "刘长卿",
+                        "逢雪宿芙蓉山主人"
+                ]
+        },
+        {
+                "id": "q_chu1_new_63765",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《蜀中九日》的作者是谁？",
+                "options": [
+                        {
+                                "text": "韦庄",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘禹锡",
+                                "correct": false
+                        },
+                        {
+                                "text": "王勃",
+                                "correct": true
+                        },
+                        {
+                                "text": "张旭",
+                                "correct": false
+                        }
+                ],
+                "answer": "王勃",
+                "explanation": "《蜀中九日》出自王勃之手。",
+                "poemId": "sup_335",
+                "knowledgePoints": [
+                        "王勃",
+                        "蜀中九日"
+                ]
+        },
+        {
+                "id": "q_chu1_new_83129",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《雁门太守行》的作者是谁？",
+                "options": [
+                        {
+                                "text": "李贺",
+                                "correct": true
+                        },
+                        {
+                                "text": "朱庆馀",
+                                "correct": false
+                        },
+                        {
+                                "text": "寇准",
+                                "correct": false
+                        },
+                        {
+                                "text": "杜牧",
+                                "correct": false
+                        }
+                ],
+                "answer": "李贺",
+                "explanation": "《雁门太守行》出自李贺之手。",
+                "poemId": "sup_059",
+                "knowledgePoints": [
+                        "李贺",
+                        "雁门太守行"
+                ]
+        },
+        {
+                "id": "q_mk_new_54146",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《使至塞上》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王绩",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": true
+                        },
+                        {
+                                "text": "贾岛",
+                                "correct": false
+                        },
+                        {
+                                "text": "汉乐府",
+                                "correct": false
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《使至塞上》出自王维之手。",
+                "poemId": "sup_053",
+                "knowledgePoints": [
+                        "王维",
+                        "使至塞上"
+                ]
+        },
+        {
+                "id": "q_fbc_new_28260",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《有所思》的作者是谁？",
+                "options": [
+                        {
+                                "text": "郑燮",
+                                "correct": false
+                        },
+                        {
+                                "text": "佚名",
+                                "correct": true
+                        },
+                        {
+                                "text": "寇准",
+                                "correct": false
+                        },
+                        {
+                                "text": "诗经·邶风",
+                                "correct": false
+                        }
+                ],
+                "answer": "佚名",
+                "explanation": "《有所思》出自佚名之手。",
+                "poemId": "sup_378",
+                "knowledgePoints": [
+                        "佚名",
+                        "有所思"
+                ]
+        },
+        {
+                "id": "q_mk_new_30861",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《定风波》的作者是谁？",
+                "options": [
+                        {
+                                "text": "张旭",
+                                "correct": false
+                        },
+                        {
+                                "text": "毛泽东",
+                                "correct": false
+                        },
+                        {
+                                "text": "佚名",
+                                "correct": false
+                        },
+                        {
+                                "text": "苏轼",
+                                "correct": true
+                        }
+                ],
+                "answer": "苏轼",
+                "explanation": "《定风波》出自苏轼之手。",
+                "poemId": "sup_135",
+                "knowledgePoints": [
+                        "苏轼",
+                        "定风波"
+                ]
+        },
+        {
+                "id": "q_mk_new_33897",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《小石潭记》的作者是谁？",
+                "options": [
+                        {
+                                "text": "于谦",
+                                "correct": false
+                        },
+                        {
+                                "text": "王之涣",
+                                "correct": false
+                        },
+                        {
+                                "text": "柳宗元",
+                                "correct": true
+                        },
+                        {
+                                "text": "杨炯",
+                                "correct": false
+                        }
+                ],
+                "answer": "柳宗元",
+                "explanation": "《小石潭记》出自柳宗元之手。",
+                "poemId": "sup_154",
+                "knowledgePoints": [
+                        "柳宗元",
+                        "小石潭记"
+                ]
+        },
+        {
+                "id": "q_mk_new_97652",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《悯农》的作者是谁？",
+                "options": [
+                        {
+                                "text": "高鼎",
+                                "correct": false
+                        },
+                        {
+                                "text": "晏殊",
+                                "correct": false
+                        },
+                        {
+                                "text": "李绅",
+                                "correct": true
+                        },
+                        {
+                                "text": "朱庆馀",
+                                "correct": false
+                        }
+                ],
+                "answer": "李绅",
+                "explanation": "《悯农》出自李绅之手。",
+                "poemId": "sup_015",
+                "knowledgePoints": [
+                        "李绅",
+                        "悯农"
+                ]
+        },
+        {
+                "id": "q_fbc_new_29639",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《归园田居》的作者是谁？",
+                "options": [
+                        {
+                                "text": "辛弃疾",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘禹锡",
+                                "correct": false
+                        },
+                        {
+                                "text": "陶渊明",
+                                "correct": true
+                        },
+                        {
+                                "text": "皮日休",
+                                "correct": false
+                        }
+                ],
+                "answer": "陶渊明",
+                "explanation": "《归园田居》出自陶渊明之手。",
+                "poemId": "sup_140",
+                "knowledgePoints": [
+                        "陶渊明",
+                        "归园田居"
+                ]
+        },
+        {
+                "id": "q_chu1_new_42896",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《诫子书》的作者是谁？",
+                "options": [
+                        {
+                                "text": "李益",
+                                "correct": false
+                        },
+                        {
+                                "text": "诸葛亮",
+                                "correct": true
+                        },
+                        {
+                                "text": "欧阳修",
+                                "correct": false
+                        },
+                        {
+                                "text": "王翰",
+                                "correct": false
+                        }
+                ],
+                "answer": "诸葛亮",
+                "explanation": "《诫子书》出自诸葛亮之手。",
+                "poemId": "sup_343",
+                "knowledgePoints": [
+                        "诸葛亮",
+                        "诫子书"
+                ]
+        },
+        {
+                "id": "q_mk_new_98059",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《卖炭翁》的作者是谁？",
+                "options": [
+                        {
+                                "text": "杜甫",
+                                "correct": false
+                        },
+                        {
+                                "text": "王勃",
+                                "correct": false
+                        },
+                        {
+                                "text": "王禹偁",
+                                "correct": false
+                        },
+                        {
+                                "text": "白居易",
+                                "correct": true
+                        }
+                ],
+                "answer": "白居易",
+                "explanation": "《卖炭翁》出自白居易之手。",
+                "poemId": "sup_058",
+                "knowledgePoints": [
+                        "白居易",
+                        "卖炭翁"
+                ]
+        },
+        {
+                "id": "q_zk_new_86463",
+                "type": "choice",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《大林寺桃花》的作者是谁？",
+                "options": [
+                        {
+                                "text": "白居易",
+                                "correct": true
+                        },
+                        {
+                                "text": "张继",
+                                "correct": false
+                        },
+                        {
+                                "text": "高适",
+                                "correct": false
+                        },
+                        {
+                                "text": "杨万里",
+                                "correct": false
+                        }
+                ],
+                "answer": "白居易",
+                "explanation": "《大林寺桃花》出自白居易之手。",
+                "poemId": "sup_poetry_new_022",
+                "knowledgePoints": [
+                        "白居易",
+                        "大林寺桃花"
+                ]
+        },
+        {
+                "id": "q_mk_new_47762",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《竹石》的作者是谁？",
+                "options": [
+                        {
+                                "text": "郑燮",
+                                "correct": true
+                        },
+                        {
+                                "text": "佚名",
+                                "correct": false
+                        },
+                        {
+                                "text": "李煜",
+                                "correct": false
+                        },
+                        {
+                                "text": "寇准",
+                                "correct": false
+                        }
+                ],
+                "answer": "郑燮",
+                "explanation": "《竹石》出自郑燮之手。",
+                "poemId": "sup_084",
+                "knowledgePoints": [
+                        "郑燮",
+                        "竹石"
+                ]
+        },
+        {
+                "id": "q_chu1_new_44359",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《题孟庄》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王维",
+                                "correct": false
+                        },
+                        {
+                                "text": "王昌龄",
+                                "correct": false
+                        },
+                        {
+                                "text": "秦观",
+                                "correct": false
+                        },
+                        {
+                                "text": "韩愈",
+                                "correct": true
+                        }
+                ],
+                "answer": "韩愈",
+                "explanation": "《题孟庄》出自韩愈之手。",
+                "poemId": "sup_poetry_new_053",
+                "knowledgePoints": [
+                        "韩愈",
+                        "题孟庄"
+                ]
+        },
+        {
+                "id": "q_fbc_new_28008",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《明日歌》的作者是谁？",
+                "options": [
+                        {
+                                "text": "鲍照",
+                                "correct": false
+                        },
+                        {
+                                "text": "王勃",
+                                "correct": false
+                        },
+                        {
+                                "text": "钱福",
+                                "correct": true
+                        },
+                        {
+                                "text": "陈子昂",
+                                "correct": false
+                        }
+                ],
+                "answer": "钱福",
+                "explanation": "《明日歌》出自钱福之手。",
+                "poemId": "sup_356",
+                "knowledgePoints": [
+                        "钱福",
+                        "明日歌"
+                ]
+        },
+        {
+                "id": "q_chu1_new_41250",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《宿新市徐公店》的作者是谁？",
+                "options": [
+                        {
+                                "text": "邵雍",
+                                "correct": false
+                        },
+                        {
+                                "text": "赵翼",
+                                "correct": false
+                        },
+                        {
+                                "text": "查慎行",
+                                "correct": false
+                        },
+                        {
+                                "text": "杨万里",
+                                "correct": true
+                        }
+                ],
+                "answer": "杨万里",
+                "explanation": "《宿新市徐公店》出自杨万里之手。",
+                "poemId": "sup_180",
+                "knowledgePoints": [
+                        "杨万里",
+                        "宿新市徐公店"
+                ]
+        },
+        {
+                "id": "q_chu1_new_89232",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《渔家傲·秋思》的作者是谁？",
+                "options": [
+                        {
+                                "text": "范仲淹",
+                                "correct": true
+                        },
+                        {
+                                "text": "韦庄",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘方平",
+                                "correct": false
+                        },
+                        {
+                                "text": "《诗经》",
+                                "correct": false
+                        }
+                ],
+                "answer": "范仲淹",
+                "explanation": "《渔家傲·秋思》出自范仲淹之手。",
+                "poemId": "sup_041",
+                "knowledgePoints": [
+                        "范仲淹",
+                        "渔家傲·秋思"
+                ]
+        },
+        {
+                "id": "q_mk_new_60792",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《点绛唇》的作者是谁？",
+                "options": [
+                        {
+                                "text": "苏轼",
+                                "correct": false
+                        },
+                        {
+                                "text": "李清照",
+                                "correct": true
+                        },
+                        {
+                                "text": "辛弃疾",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘方平",
+                                "correct": false
+                        }
+                ],
+                "answer": "李清照",
+                "explanation": "《点绛唇》出自李清照之手。",
+                "poemId": "sup_371",
+                "knowledgePoints": [
+                        "李清照",
+                        "点绛唇"
+                ]
+        },
+        {
+                "id": "q_mk_new_37222",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《闺怨》的作者是谁？",
+                "options": [
+                        {
+                                "text": "孟郊",
+                                "correct": false
+                        },
+                        {
+                                "text": "南北朝民歌",
+                                "correct": false
+                        },
+                        {
+                                "text": "李清照",
+                                "correct": false
+                        },
+                        {
+                                "text": "王昌龄",
+                                "correct": true
+                        }
+                ],
+                "answer": "王昌龄",
+                "explanation": "《闺怨》出自王昌龄之手。",
+                "poemId": "sup_097",
+                "knowledgePoints": [
+                        "王昌龄",
+                        "闺怨"
+                ]
+        },
+        {
+                "id": "q_chu1_new_24732",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《清泉石上流》的作者是谁？",
+                "options": [
+                        {
+                                "text": "岳飞",
+                                "correct": false
+                        },
+                        {
+                                "text": "王绩",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": true
+                        },
+                        {
+                                "text": "王建",
+                                "correct": false
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《清泉石上流》出自王维之手。",
+                "poemId": "sup_313",
+                "knowledgePoints": [
+                        "王维",
+                        "清泉石上流"
+                ]
+        },
+        {
+                "id": "q_chu2_new_11686",
+                "type": "choice",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《入若耶溪》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王绩",
+                                "correct": false
+                        },
+                        {
+                                "text": "岑参",
+                                "correct": false
+                        },
+                        {
+                                "text": "许浑",
+                                "correct": false
+                        },
+                        {
+                                "text": "王籍",
+                                "correct": true
+                        }
+                ],
+                "answer": "王籍",
+                "explanation": "《入若耶溪》出自王籍之手。",
+                "poemId": "sup_350",
+                "knowledgePoints": [
+                        "王籍",
+                        "入若耶溪"
+                ]
+        },
+        {
+                "id": "q_chu2_new_17402",
+                "type": "choice",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《春夜洛城闻笛》的作者是谁？",
+                "options": [
+                        {
+                                "text": "袁枚",
+                                "correct": false
+                        },
+                        {
+                                "text": "朱熹",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘禹锡",
+                                "correct": false
+                        },
+                        {
+                                "text": "李白",
+                                "correct": true
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《春夜洛城闻笛》出自李白之手。",
+                "poemId": "sup_035",
+                "knowledgePoints": [
+                        "李白",
+                        "春夜洛城闻笛"
+                ]
+        },
+        {
+                "id": "q_mk_new_43387",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《登高》的作者是谁？",
+                "options": [
+                        {
+                                "text": "刘长卿",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘桢",
+                                "correct": false
+                        },
+                        {
+                                "text": "龚自珍",
+                                "correct": false
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": true
+                        }
+                ],
+                "answer": "杜甫",
+                "explanation": "《登高》出自杜甫之手。",
+                "poemId": "sup_387",
+                "knowledgePoints": [
+                        "杜甫",
+                        "登高"
+                ]
+        },
+        {
+                "id": "q_chu1_new_63876",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《凤求凰》的作者是谁？",
+                "options": [
+                        {
+                                "text": "诸葛亮",
+                                "correct": false
+                        },
+                        {
+                                "text": "司马相如",
+                                "correct": true
+                        },
+                        {
+                                "text": "叶绍翁",
+                                "correct": false
+                        },
+                        {
+                                "text": "岑参",
+                                "correct": false
+                        }
+                ],
+                "answer": "司马相如",
+                "explanation": "《凤求凰》出自司马相如之手。",
+                "poemId": "sup_376",
+                "knowledgePoints": [
+                        "司马相如",
+                        "凤求凰"
+                ]
+        },
+        {
+                "id": "q_mk_new_39636",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《惠崇春江晚景》的作者是谁？",
+                "options": [
+                        {
+                                "text": "毛泽东",
+                                "correct": false
+                        },
+                        {
+                                "text": "韩愈",
+                                "correct": false
+                        },
+                        {
+                                "text": "苏轼",
+                                "correct": true
+                        },
+                        {
+                                "text": "庄子",
+                                "correct": false
+                        }
+                ],
+                "answer": "苏轼",
+                "explanation": "《惠崇春江晚景》出自苏轼之手。",
+                "poemId": "sup_165",
+                "knowledgePoints": [
+                        "苏轼",
+                        "惠崇春江晚景"
+                ]
+        },
+        {
+                "id": "q_zk_new_70222",
+                "type": "choice",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《登岳阳楼》的作者是谁？",
+                "options": [
+                        {
+                                "text": "韦庄",
+                                "correct": false
+                        },
+                        {
+                                "text": "孟子",
+                                "correct": false
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": true
+                        },
+                        {
+                                "text": "罗隐",
+                                "correct": false
+                        }
+                ],
+                "answer": "杜甫",
+                "explanation": "《登岳阳楼》出自杜甫之手。",
+                "poemId": "sup_186",
+                "knowledgePoints": [
+                        "杜甫",
+                        "登岳阳楼"
+                ]
+        },
+        {
+                "id": "q_zk_new_34235",
+                "type": "choice",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《从军行》的作者是谁？",
+                "options": [
+                        {
+                                "text": "杨炯",
+                                "correct": true
+                        },
+                        {
+                                "text": "叶绍翁",
+                                "correct": false
+                        },
+                        {
+                                "text": "乐府诗",
+                                "correct": false
+                        },
+                        {
+                                "text": "文天祥",
+                                "correct": false
+                        }
+                ],
+                "answer": "杨炯",
+                "explanation": "《从军行》出自杨炯之手。",
+                "poemId": "sup_346",
+                "knowledgePoints": [
+                        "杨炯",
+                        "从军行"
+                ]
+        },
+        {
+                "id": "q_chu1_new_14866",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《入若耶溪》的作者是谁？",
+                "options": [
+                        {
+                                "text": "王维",
+                                "correct": true
+                        },
+                        {
+                                "text": "王冕",
+                                "correct": false
+                        },
+                        {
+                                "text": "龚自珍",
+                                "correct": false
+                        },
+                        {
+                                "text": "杨万里",
+                                "correct": false
+                        }
+                ],
+                "answer": "王维",
+                "explanation": "《入若耶溪》出自王维之手。",
+                "poemId": "sup_170",
+                "knowledgePoints": [
+                        "王维",
+                        "入若耶溪"
+                ]
+        },
+        {
+                "id": "q_chu2_new_61609",
+                "type": "choice",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《野望》的作者是谁？",
+                "options": [
+                        {
+                                "text": "张若虚",
+                                "correct": false
+                        },
+                        {
+                                "text": "王冕",
+                                "correct": false
+                        },
+                        {
+                                "text": "王昌龄（完整版）",
+                                "correct": false
+                        },
+                        {
+                                "text": "王绩",
+                                "correct": true
+                        }
+                ],
+                "answer": "王绩",
+                "explanation": "《野望》出自王绩之手。",
+                "poemId": "sup_389",
+                "knowledgePoints": [
+                        "王绩",
+                        "野望"
+                ]
+        },
+        {
+                "id": "q_chu1_new_91693",
+                "type": "choice",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《木兰诗》的作者是谁？",
+                "options": [
+                        {
+                                "text": "乐府诗",
+                                "correct": true
+                        },
+                        {
+                                "text": "白居易",
+                                "correct": false
+                        },
+                        {
+                                "text": "李煜",
+                                "correct": false
+                        },
+                        {
+                                "text": "元稹",
+                                "correct": false
+                        }
+                ],
+                "answer": "乐府诗",
+                "explanation": "《木兰诗》出自乐府诗之手。",
+                "poemId": "sup_159",
+                "knowledgePoints": [
+                        "乐府诗",
+                        "木兰诗"
+                ]
+        },
+        {
+                "id": "q_mk_new_26915",
+                "type": "choice",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《四时田园杂兴》的作者是谁？",
+                "options": [
+                        {
+                                "text": "范成大",
+                                "correct": true
+                        },
+                        {
+                                "text": "汉乐府",
+                                "correct": false
+                        },
+                        {
+                                "text": "王安石",
+                                "correct": false
+                        },
+                        {
+                                "text": "刘长卿",
+                                "correct": false
+                        }
+                ],
+                "answer": "范成大",
+                "explanation": "《四时田园杂兴》出自范成大之手。",
+                "poemId": "sup_077",
+                "knowledgePoints": [
+                        "范成大",
+                        "四时田园杂兴"
+                ]
+        },
+        {
+                "id": "q_fbc_new_26162",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《赠汪伦》的作者是谁？",
+                "options": [
+                        {
+                                "text": "胡令能",
+                                "correct": false
+                        },
+                        {
+                                "text": "翁卷",
+                                "correct": false
+                        },
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "黄庭坚",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《赠汪伦》出自李白之手。",
+                "poemId": "sup_008",
+                "knowledgePoints": [
+                        "李白",
+                        "赠汪伦"
+                ]
+        },
+        {
+                "id": "q_fbc_new_43549",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《月下飞天镜》的作者是谁？",
+                "options": [
+                        {
+                                "text": "晏殊",
+                                "correct": false
+                        },
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "柳宗元",
+                                "correct": false
+                        },
+                        {
+                                "text": "杨炯",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《月下飞天镜》出自李白之手。",
+                "poemId": "sup_300",
+                "knowledgePoints": [
+                        "李白",
+                        "月下飞天镜"
+                ]
+        },
+        {
+                "id": "q_chu2_new_19254",
+                "type": "choice",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《江南春》的作者是谁？",
+                "options": [
+                        {
+                                "text": "刘方平",
+                                "correct": false
+                        },
+                        {
+                                "text": "杜牧",
+                                "correct": true
+                        },
+                        {
+                                "text": "周敦颐",
+                                "correct": false
+                        },
+                        {
+                                "text": "王冕",
+                                "correct": false
+                        }
+                ],
+                "answer": "杜牧",
+                "explanation": "《江南春》出自杜牧之手。",
+                "poemId": "sup_234",
+                "knowledgePoints": [
+                        "杜牧",
+                        "江南春"
+                ]
+        },
+        {
+                "id": "q_chu2_new_94538",
+                "type": "choice",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《永遇乐·京口北固亭怀古》的作者是谁？",
+                "options": [
+                        {
+                                "text": "荀子",
+                                "correct": false
+                        },
+                        {
+                                "text": "辛弃疾",
+                                "correct": true
+                        },
+                        {
+                                "text": "李煜",
+                                "correct": false
+                        },
+                        {
+                                "text": "陆游",
+                                "correct": false
+                        }
+                ],
+                "answer": "辛弃疾",
+                "explanation": "《永遇乐·京口北固亭怀古》出自辛弃疾之手。",
+                "poemId": "sup_poetry_new_004",
+                "knowledgePoints": [
+                        "辛弃疾",
+                        "永遇乐·京口北固亭怀古"
+                ]
+        },
+        {
+                "id": "q_fbc_new_89456",
+                "type": "choice",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 2,
+                "question": "《饮湖上初晴后雨》的作者是谁？",
+                "options": [
+                        {
+                                "text": "苏轼",
+                                "correct": true
+                        },
+                        {
+                                "text": "祖咏",
+                                "correct": false
+                        },
+                        {
+                                "text": "马致远",
+                                "correct": false
+                        },
+                        {
+                                "text": "皮日休",
+                                "correct": false
+                        }
+                ],
+                "answer": "苏轼",
+                "explanation": "《饮湖上初晴后雨》出自苏轼之手。",
+                "poemId": "sup_241",
+                "knowledgePoints": [
+                        "苏轼",
+                        "饮湖上初晴后雨"
+                ]
+        },
+        {
+                "id": "q_zk_und_26858",
+                "type": "understanding",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《六月二十七日望湖楼醉书》中表达诗人感慨时光流逝的诗句是：__________。",
+                "options": [],
+                "answer": "白雨跳珠乱入船",
+                "explanation": "《六月二十七日望湖楼醉书》中的这句诗表达了诗人对时光的感慨。",
+                "poemId": "sup_240",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "苏轼",
+                        "六月二十七日望湖楼醉书",
+                        "时光"
+                ]
+        },
+        {
+                "id": "q_fbc_und_60204",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《天净沙·秋思》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "枯藤老树昏鸦；小桥流水人家",
+                "explanation": "《天净沙·秋思》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_068",
+                "knowledgePoints": [
+                        "思乡",
+                        "马致远",
+                        "天净沙·秋思",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_fbc_und_20428",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《朝天子·咏喇叭》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "官船来往乱如麻；全仗你抬声价",
+                "explanation": "《朝天子·咏喇叭》的颈联是第3和第4句。",
+                "poemId": "sup_388",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "王磐",
+                        "朝天子·咏喇叭",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_chu1_und_51105",
+                "type": "understanding",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《逍遥游(节选)》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "鲲之大；不知其几千里也",
+                "explanation": "《逍遥游(节选)》的颈联是第3和第4句。",
+                "poemId": "sup_150",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "庄子",
+                        "逍遥游(节选)",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_chu1_und_25501",
+                "type": "understanding",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《万山潭作》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "垂钓坐磐石；水清心亦闲",
+                "explanation": "《万山潭作》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_190",
+                "knowledgePoints": [
+                        "思乡",
+                        "孟浩然",
+                        "万山潭作",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_fbc_und_31395",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《九月九日忆山东兄弟》中描写春天景象的诗句是：__________，__________。",
+                "options": [],
+                "answer": "独在异乡为异客；每逢佳节倍思亲",
+                "explanation": "《九月九日忆山东兄弟》前两句描写了春天的景色。",
+                "poemId": "sup_205",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "王维",
+                        "九月九日忆山东兄弟",
+                        "春天"
+                ]
+        },
+        {
+                "id": "q_chu2_und_28120",
+                "type": "understanding",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《风》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "解落三秋叶；能开二月花",
+                "explanation": "《风》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_105",
+                "knowledgePoints": [
+                        "思乡",
+                        "李峤",
+                        "风",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_zk_und_62911",
+                "type": "understanding",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《南乡子·登京口北固亭有怀》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "千古兴亡多少事？；悠悠。",
+                "explanation": "《南乡子·登京口北固亭有怀》的颈联是第3和第4句。",
+                "poemId": "sup_284",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "辛弃疾",
+                        "南乡子·登京口北固亭有怀",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_fbc_und_40873",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《岳阳楼记》中描写春天景象的诗句是：__________，__________。",
+                "options": [],
+                "answer": "庆历四年春；滕子京谪守巴陵郡",
+                "explanation": "《岳阳楼记》前两句描写了春天的景色。",
+                "poemId": "sup_132",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "范仲淹",
+                        "岳阳楼记",
+                        "春天"
+                ]
+        },
+        {
+                "id": "q_fbc_und_78276",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《未展芭蕉》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "冷烛无烟绿蜡干；芳心犹卷怯春寒",
+                "explanation": "《未展芭蕉》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_351",
+                "knowledgePoints": [
+                        "思乡",
+                        "钱珝",
+                        "未展芭蕉",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_chu2_und_86431",
+                "type": "understanding",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《登乐游原》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "向晚意不适；驱车登古原",
+                "explanation": "《登乐游原》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_320",
+                "knowledgePoints": [
+                        "思乡",
+                        "李商隐",
+                        "登乐游原",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_fbc_und_86557",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《满庭芳》这首诗的颔联（上半首第二联）是：__________，__________。",
+                "options": [],
+                "answer": "天连衰草；画角声断谯门",
+                "explanation": "《满庭芳》的颔联是第2和第3句。",
+                "poemId": "sup_368",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "秦观",
+                        "满庭芳",
+                        "颔联"
+                ]
+        },
+        {
+                "id": "q_zk_und_89941",
+                "type": "understanding",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《江雪》这首诗的颔联（上半首第二联）是：__________，__________。",
+                "options": [],
+                "answer": "万径人踪灭；孤舟蓑笠翁",
+                "explanation": "《江雪》的颔联是第2和第3句。",
+                "poemId": "sup_020",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "柳宗元",
+                        "江雪",
+                        "颔联"
+                ]
+        },
+        {
+                "id": "q_fbc_und_44132",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《乡村四月》这首诗的颔联（上半首第二联）是：__________，__________。",
+                "options": [],
+                "answer": "子规声里雨如烟；乡村四月闲人少",
+                "explanation": "《乡村四月》的颔联是第2和第3句。",
+                "poemId": "sup_028",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "翁卷",
+                        "乡村四月",
+                        "颔联"
+                ]
+        },
+        {
+                "id": "q_fbc_und_70036",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《夜上受降城闻笛》中表达诗人感慨时光流逝的诗句是：__________。",
+                "options": [],
+                "answer": "受降城外月如霜",
+                "explanation": "《夜上受降城闻笛》中的这句诗表达了诗人对时光的感慨。",
+                "poemId": "sup_340",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "李益",
+                        "夜上受降城闻笛",
+                        "时光"
+                ]
+        },
+        {
+                "id": "q_fbc_und_29734",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《在狱咏蝉》这首诗的颔联（上半首第二联）是：__________，__________。",
+                "options": [],
+                "answer": "南冠客思深；不堪玄鬓影",
+                "explanation": "《在狱咏蝉》的颔联是第2和第3句。",
+                "poemId": "sup_174",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "骆宾王",
+                        "在狱咏蝉",
+                        "颔联"
+                ]
+        },
+        {
+                "id": "q_zk_und_43101",
+                "type": "understanding",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《独坐敬亭山》这首诗的颔联（上半首第二联）是：__________，__________。",
+                "options": [],
+                "answer": "孤云独去闲；相看两不厌",
+                "explanation": "《独坐敬亭山》的颔联是第2和第3句。",
+                "poemId": "sup_032",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "李白",
+                        "独坐敬亭山",
+                        "颔联"
+                ]
+        },
+        {
+                "id": "q_mk_und_72292",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《观猎》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "风劲角弓鸣；将军猎渭城",
+                "explanation": "《观猎》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_337",
+                "knowledgePoints": [
+                        "思乡",
+                        "王维",
+                        "观猎",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_mk_und_51629",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《马诗》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "何当金络脑；快走踏清秋",
+                "explanation": "《马诗》的颈联是第3和第4句。",
+                "poemId": "sup_162",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "李贺",
+                        "马诗",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_fbc_und_81583",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《七律·长征》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "五岭逶迤腾细浪；乌蒙磅礴走泥丸",
+                "explanation": "《七律·长征》的颈联是第3和第4句。",
+                "poemId": "sup_003",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "毛泽东",
+                        "七律·长征",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_chu1_und_88424",
+                "type": "understanding",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《舟过安仁》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "一叶渔船两小童；收篙停棹坐船中",
+                "explanation": "《舟过安仁》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_181",
+                "knowledgePoints": [
+                        "思乡",
+                        "杨万里",
+                        "舟过安仁",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_fbc_und_74855",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《清平调（完整版）》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "云想衣裳花想容；春风拂槛露华浓",
+                "explanation": "《清平调（完整版）》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_poetry_new_039",
+                "knowledgePoints": [
+                        "思乡",
+                        "李白",
+                        "清平调（完整版）",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_zk_und_49908",
+                "type": "understanding",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《春雪》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "白雪却嫌春色晚；故穿庭树作飞花",
+                "explanation": "《春雪》的颈联是第3和第4句。",
+                "poemId": "sup_333",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "韩愈",
+                        "春雪",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_chu1_und_22057",
+                "type": "understanding",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《南歌子》中表达诗人感慨时光流逝的诗句是：__________。",
+                "options": [],
+                "answer": "天生旧物不如新",
+                "explanation": "《南歌子》中的这句诗表达了诗人对时光的感慨。",
+                "poemId": "sup_poetry_new_088",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "温庭筠",
+                        "南歌子",
+                        "时光"
+                ]
+        },
+        {
+                "id": "q_mk_und_63265",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《三十功名尘与土》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "抬望眼仰天长啸；壮怀激烈",
+                "explanation": "《三十功名尘与土》的颈联是第3和第4句。",
+                "poemId": "sup_305",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "岳飞",
+                        "三十功名尘与土",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_chu2_und_19175",
+                "type": "understanding",
+                "grade": "chu2",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《赠从弟》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "风声一何盛；松枝一何劲",
+                "explanation": "《赠从弟》的颈联是第3和第4句。",
+                "poemId": "sup_327",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "刘桢",
+                        "赠从弟",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_chu1_und_49720",
+                "type": "understanding",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《村居》中表达诗人感慨时光流逝的诗句是：__________。",
+                "options": [],
+                "answer": "拂堤杨柳醉春烟",
+                "explanation": "《村居》中的这句诗表达了诗人对时光的感慨。",
+                "poemId": "sup_073",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "高鼎",
+                        "村居",
+                        "时光"
+                ]
+        },
+        {
+                "id": "q_zk_und_65230",
+                "type": "understanding",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《秋夕》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "轻罗小扇扑流萤；？",
+                "explanation": "《秋夕》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_poetry_new_131",
+                "knowledgePoints": [
+                        "思乡",
+                        "杜牧",
+                        "秋夕",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_mk_und_43143",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《远别离》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "远别离；古有皇英之二妃",
+                "explanation": "《远别离》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_176",
+                "knowledgePoints": [
+                        "思乡",
+                        "李白",
+                        "远别离",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_chu1_und_13973",
+                "type": "understanding",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《凉州词》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "羌笛何须怨杨柳；春风不度玉门关",
+                "explanation": "《凉州词》的颈联是第3和第4句。",
+                "poemId": "sup_042",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "王之涣",
+                        "凉州词",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_fbc_und_23524",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《南陵别儿童入京》这首诗的颔联（上半首第二联）是：__________，__________。",
+                "options": [],
+                "answer": "黄鸡啄黍秋正肥；呼童烹鸡酌白酒",
+                "explanation": "《南陵别儿童入京》的颔联是第2和第3句。",
+                "poemId": "sup_poetry_new_038",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "李白",
+                        "南陵别儿童入京",
+                        "颔联"
+                ]
+        },
+        {
+                "id": "q_mk_und_95478",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《竹枝词》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "杨柳青青江水平；闻郎江上唱歌声",
+                "explanation": "《竹枝词》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_088",
+                "knowledgePoints": [
+                        "思乡",
+                        "刘禹锡",
+                        "竹枝词",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_mk_und_79604",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《泊秦淮》中表达诗人感慨时光流逝的诗句是：__________。",
+                "options": [],
+                "answer": "夜泊秦淮近酒家",
+                "explanation": "《泊秦淮》中的这句诗表达了诗人对时光的感慨。",
+                "poemId": "sup_017",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "杜牧",
+                        "泊秦淮",
+                        "时光"
+                ]
+        },
+        {
+                "id": "q_zk_und_12461",
+                "type": "understanding",
+                "grade": "zk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《望江南》中表达诗人感慨时光流逝的诗句是：__________。",
+                "options": [],
+                "answer": "且将新火试新茶",
+                "explanation": "《望江南》中的这句诗表达了诗人对时光的感慨。",
+                "poemId": "sup_poetry_new_087",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "苏轼",
+                        "望江南",
+                        "时光"
+                ]
+        },
+        {
+                "id": "q_fbc_und_52119",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《江上渔者》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "君看一叶舟，；出没风波里。",
+                "explanation": "《江上渔者》的颈联是第3和第4句。",
+                "poemId": "sup_236",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "范仲淹",
+                        "江上渔者",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_chu1_und_64888",
+                "type": "understanding",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《十五从军征》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "十五从军征；八十始得归",
+                "explanation": "《十五从军征》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_359",
+                "knowledgePoints": [
+                        "思乡",
+                        "佚名",
+                        "十五从军征",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_mk_und_20437",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《马说》中描写春天景象的诗句是：__________，__________。",
+                "options": [],
+                "answer": "世有伯乐；然后有千里马",
+                "explanation": "《马说》前两句描写了春天的景色。",
+                "poemId": "sup_155",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "韩愈",
+                        "马说",
+                        "春天"
+                ]
+        },
+        {
+                "id": "q_fbc_und_90681",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《观沧海》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "水何澹澹；山岛竦峙",
+                "explanation": "《观沧海》的颈联是第3和第4句。",
+                "poemId": "sup_125",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "曹操",
+                        "观沧海",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_chu1_und_21006",
+                "type": "understanding",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《蝶恋花·答李淑一》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "问讯吴刚何所有；吴刚捧出桂花酒",
+                "explanation": "《蝶恋花·答李淑一》的颈联是第3和第4句。",
+                "poemId": "sup_331",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "毛泽东",
+                        "蝶恋花·答李淑一",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_mk_und_57710",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《寒雨连江夜入吴》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "寒雨连江夜入吴；平明送客楚山孤",
+                "explanation": "《寒雨连江夜入吴》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_312",
+                "knowledgePoints": [
+                        "思乡",
+                        "王昌龄",
+                        "寒雨连江夜入吴",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_fbc_und_80075",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《七律·人民解放军占领南京》中描写春天景象的诗句是：__________，__________。",
+                "options": [],
+                "answer": "钟山风雨起苍黄百万雄师过大江；虎踞龙盘今胜昔天翻地覆慨而慷",
+                "explanation": "《七律·人民解放军占领南京》前两句描写了春天的景色。",
+                "poemId": "sup_007",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "毛泽东",
+                        "七律·人民解放军占领南京",
+                        "春天"
+                ]
+        },
+        {
+                "id": "q_mk_und_42207",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《赠别》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "蜡烛有心还惜别；替人垂泪到天明",
+                "explanation": "《赠别》的颈联是第3和第4句。",
+                "poemId": "sup_178",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "杜牧",
+                        "赠别",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_mk_und_80994",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《浪淘沙》中表达诗人感慨时光流逝的诗句是：__________。",
+                "options": [],
+                "answer": "莫言迁客似沙沉",
+                "explanation": "《浪淘沙》中的这句诗表达了诗人对时光的感慨。",
+                "poemId": "sup_poetry_new_054",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "韩愈",
+                        "浪淘沙",
+                        "时光"
+                ]
+        },
+        {
+                "id": "q_chu1_und_98528",
+                "type": "understanding",
+                "grade": "chu1",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《暮江吟》的颈联是：__________，__________。",
+                "options": [],
+                "answer": "可怜九月初三夜；露似真珠月似弓",
+                "explanation": "《暮江吟》的颈联是第3和第4句。",
+                "poemId": "sup_164",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "白居易",
+                        "暮江吟",
+                        "颈联"
+                ]
+        },
+        {
+                "id": "q_fbc_und_33614",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《终南山》这首诗的颔联（上半首第二联）是：__________，__________。",
+                "options": [],
+                "answer": "连山到海隅；白云回望合",
+                "explanation": "《终南山》的颔联是第2和第3句。",
+                "poemId": "sup_109",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "王维",
+                        "终南山",
+                        "颔联"
+                ]
+        },
+        {
+                "id": "q_fbc_und_15684",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《赠花卿》这首诗的颔联（上半首第二联）是：__________，__________。",
+                "options": [],
+                "answer": "半入江风半入云；此曲只应天上有",
+                "explanation": "《赠花卿》的颔联是第2和第3句。",
+                "poemId": "sup_038",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "杜甫",
+                        "赠花卿",
+                        "颔联"
+                ]
+        },
+        {
+                "id": "q_fbc_und_21561",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《金谷园》中最能体现诗人思乡之情的句子是：__________，__________。",
+                "options": [],
+                "answer": "繁华事散逐香尘；流水无情草自春",
+                "explanation": "《金谷园》通过这两句诗表达了诗人的思乡之情。",
+                "poemId": "sup_339",
+                "knowledgePoints": [
+                        "思乡",
+                        "杜牧",
+                        "金谷园",
+                        "情感"
+                ]
+        },
+        {
+                "id": "q_fbc_und_59060",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《小升初密考真题》中描写春天景象的诗句是：__________，__________。",
+                "options": [],
+                "answer": "路遥知马力；日久见人心",
+                "explanation": "《小升初密考真题》前两句描写了春天的景色。",
+                "poemId": "sup_397",
+                "knowledgePoints": [
+                        "理解型默写",
+                        "佚名",
+                        "小升初密考真题",
+                        "春天"
+                ]
+        },
+        {
+                "id": "q_mk_und_16788",
+                "type": "understanding",
+                "grade": "mk",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《登快阁》这首诗的颔联（上半首第二联）是：__________，__________。",
+                "options": [],
+                "answer": "快阁东西倚晚晴；落木千山天远大",
+                "explanation": "《登快阁》的颔联是第2和第3句。",
+                "poemId": "sup_366",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "黄庭坚",
+                        "登快阁",
+                        "颔联"
+                ]
+        },
+        {
+                "id": "q_fbc_und_64744",
+                "type": "understanding",
+                "grade": "fbc",
+                "source": "悟净补充题库",
+                "difficulty": 3,
+                "question": "《赋得古原草送别》这首诗的颔联（上半首第二联）是：__________，__________。",
+                "options": [],
+                "answer": "一岁一枯荣；野火烧不尽",
+                "explanation": "《赋得古原草送别》的颔联是第2和第3句。",
+                "poemId": "sup_224",
+                "knowledgePoints": [
+                        "诗歌结构",
+                        "白居易",
+                        "赋得古原草送别",
+                        "颔联"
+                ]
         }
 ];
