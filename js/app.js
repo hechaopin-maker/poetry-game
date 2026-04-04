@@ -16,6 +16,16 @@ let gameState = {
     dataLoaded: false
 };
 
+// ==================== 飞花令数据初始化 ====================
+// feihua_expanded.js (14万+诗句) 覆盖 feihua_full.js (2.6万首诗)
+// 优先使用更大的 expanded 数据集
+if (typeof FEIHUA_EXPANDED_DATA !== 'undefined' && FEIHUA_EXPANDED_DATA.keywords) {
+    // 直接覆盖 keywords 对象（而非重新赋值 const 变量）
+    FEIHUA_FULL_DATA.keywords = FEIHUA_EXPANDED_DATA.keywords;
+    FEIHUA_FULL_DATA.totalPoems = FEIHUA_EXPANDED_DATA.totalPoems || 143172;
+    console.log('飞花令数据: 已升级至 feihua_expanded.js (' + Object.keys(FEIHUA_EXPANDED_DATA.keywords).length + '个关键字)');
+}
+
 // ==================== 简繁转换 ====================
 // 常用繁体字到简体字的映射
 const TRAD_TO_SIMP = {
