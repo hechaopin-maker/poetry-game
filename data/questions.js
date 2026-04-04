@@ -42271,24 +42271,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_zk_und_26858",
-                "type": "understanding",
-                "grade": "zk",
-                "source": "悟净补充题库",
-                "difficulty": 3,
-                "question": "《六月二十七日望湖楼醉书》中表达诗人感慨时光流逝的诗句是：__________。",
-                "options": [],
-                "answer": "白雨跳珠乱入船",
-                "explanation": "《六月二十七日望湖楼醉书》中的这句诗表达了诗人对时光的感慨。",
-                "poemId": "sup_240",
-                "knowledgePoints": [
-                        "理解型默写",
-                        "苏轼",
-                        "六月二十七日望湖楼醉书",
-                        "时光"
-                ]
-        },
-        {
                 "id": "q_fbc_und_60204",
                 "type": "understanding",
                 "grade": "fbc",
@@ -42325,24 +42307,6 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_chu1_und_51105",
-                "type": "understanding",
-                "grade": "chu1",
-                "source": "悟净补充题库",
-                "difficulty": 3,
-                "question": "《逍遥游(节选)》的颈联是：__________，__________。",
-                "options": [],
-                "answer": "鲲之大；不知其几千里也",
-                "explanation": "《逍遥游(节选)》的颈联是第3和第4句。",
-                "poemId": "sup_150",
-                "knowledgePoints": [
-                        "诗歌结构",
-                        "庄子",
-                        "逍遥游(节选)",
-                        "颈联"
-                ]
-        },
-        {
                 "id": "q_chu1_und_25501",
                 "type": "understanding",
                 "grade": "chu1",
@@ -42358,24 +42322,6 @@ const QUESTIONS_DATA = [
                         "孟浩然",
                         "万山潭作",
                         "情感"
-                ]
-        },
-        {
-                "id": "q_fbc_und_31395",
-                "type": "understanding",
-                "grade": "fbc",
-                "source": "悟净补充题库",
-                "difficulty": 3,
-                "question": "《九月九日忆山东兄弟》中描写春天景象的诗句是：__________，__________。",
-                "options": [],
-                "answer": "独在异乡为异客；每逢佳节倍思亲",
-                "explanation": "《九月九日忆山东兄弟》前两句描写了春天的景色。",
-                "poemId": "sup_205",
-                "knowledgePoints": [
-                        "理解型默写",
-                        "王维",
-                        "九月九日忆山东兄弟",
-                        "春天"
                 ]
         },
         {
@@ -42404,7 +42350,7 @@ const QUESTIONS_DATA = [
                 "difficulty": 3,
                 "question": "《南乡子·登京口北固亭有怀》的颈联是：__________，__________。",
                 "options": [],
-                "answer": "千古兴亡多少事？；悠悠。",
+                "answer": "不尽长江滚滚流",
                 "explanation": "《南乡子·登京口北固亭有怀》的颈联是第3和第4句。",
                 "poemId": "sup_284",
                 "knowledgePoints": [
@@ -42708,9 +42654,9 @@ const QUESTIONS_DATA = [
                 "grade": "mk",
                 "source": "悟净补充题库",
                 "difficulty": 3,
-                "question": "《三十功名尘与土》的颈联是：__________，__________。",
+                "question": "《满江红·写怀》的作者是谁？",
                 "options": [],
-                "answer": "抬望眼仰天长啸；壮怀激烈",
+                "answer": "岳飞",
                 "explanation": "《三十功名尘与土》的颈联是第3和第4句。",
                 "poemId": "sup_305",
                 "knowledgePoints": [
@@ -42764,7 +42710,7 @@ const QUESTIONS_DATA = [
                 "difficulty": 3,
                 "question": "《秋夕》中最能体现诗人思乡之情的句子是：__________，__________。",
                 "options": [],
-                "answer": "轻罗小扇扑流萤；？",
+                "answer": "银烛秋光冷画屏，轻罗小扇扑流萤",
                 "explanation": "《秋夕》通过这两句诗表达了诗人的思乡之情。",
                 "poemId": "sup_poetry_new_131",
                 "knowledgePoints": [
@@ -42890,7 +42836,7 @@ const QUESTIONS_DATA = [
                 "difficulty": 3,
                 "question": "《江上渔者》的颈联是：__________，__________。",
                 "options": [],
-                "answer": "君看一叶舟，；出没风波里。",
+                "answer": "君看一叶舟，出没风波里",
                 "explanation": "《江上渔者》的颈联是第3和第4句。",
                 "poemId": "sup_236",
                 "knowledgePoints": [
@@ -42980,7 +42926,7 @@ const QUESTIONS_DATA = [
                 "difficulty": 3,
                 "question": "《寒雨连江夜入吴》中最能体现诗人思乡之情的句子是：__________，__________。",
                 "options": [],
-                "answer": "寒雨连江夜入吴；平明送客楚山孤",
+                "answer": "洛阳亲友如相问",
                 "explanation": "《寒雨连江夜入吴》通过这两句诗表达了诗人的思乡之情。",
                 "poemId": "sup_312",
                 "knowledgePoints": [
@@ -43122,9 +43068,9 @@ const QUESTIONS_DATA = [
                 "grade": "fbc",
                 "source": "悟净补充题库",
                 "difficulty": 3,
-                "question": "《小升初密考真题》中描写春天景象的诗句是：__________，__________。",
+                "question": "《满江红》的作者是谁？",
                 "options": [],
-                "answer": "路遥知马力；日久见人心",
+                "answer": "岳飞",
                 "explanation": "《小升初密考真题》前两句描写了春天的景色。",
                 "poemId": "sup_397",
                 "knowledgePoints": [
