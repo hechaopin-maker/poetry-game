@@ -570,6 +570,25 @@
             border-radius: 12px;
         }
         
+        .login-skip-btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 0.95em;
+            border-radius: 12px;
+            margin-top: 10px;
+            background: transparent;
+            color: #888;
+            border: 1px solid #ddd;
+            box-shadow: none;
+        }
+        
+        .login-skip-btn:hover {
+            background: #f5f5f5;
+            color: #666;
+            transform: none;
+            box-shadow: none;
+        }
+        
         .menu-item {
             padding: 12px 25px;
             display: flex;
@@ -1151,6 +1170,7 @@
             <div class="login-subtitle">请输入你的昵称开始游戏</div>
             <input type="text" id="loginUsername" class="login-input" placeholder="昵称" maxlength="20">
             <button class="btn btn-primary login-btn" onclick="submitLogin()">开始挑战</button>
+            <button class="btn btn-secondary login-skip-btn" onclick="skipLogin()">跳过</button>
         </div>
     </div>
     

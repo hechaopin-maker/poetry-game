@@ -251,6 +251,37 @@ function submitLogin() {
     }
 }
 
+// 跳过登录（游客模式）
+function skipLogin() {
+    const username = '诗词游客';
+    gameState.currentUser = {
+        name: username,
+        xp: 0,
+        level: 1,
+        correctCount: 0,
+        totalCount: 0,
+        masteredPoems: [],
+        wrongQuestions: [],
+        achievements: [],
+        dailyBest: null,
+        lastDailyDate: null,
+        questionMastery: {}
+    };
+    saveUser();
+    updateUserDisplay();
+    showToast('游客模式已开始，尽情探索诗词世界吧！');
+    
+    // 关闭登录框
+    const modal = document.getElementById('loginModal');
+    modal.classList.remove('show');
+    
+    // 登录后继续启动游戏
+    if (pendingLoginMode) {
+        continueStartGame(pendingLoginMode);
+        pendingLoginMode = null;
+    }
+}
+
 // 登录后继续启动游戏
 function continueStartGame(mode) {
     if (mode === 'challenge') {
