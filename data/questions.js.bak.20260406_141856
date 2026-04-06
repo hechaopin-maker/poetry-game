@@ -1,763 +1,37 @@
 const QUESTIONS_DATA = [
-
         {
                 "id": "q_mk_001",
                 "type": "choice",
                 "grade": "mk",
-                "source": "全国小升初真题·菁优网",
+                "source": "2024年北京人大附中密考真题",
                 "difficulty": 2,
-                "question": "以下哪句诗不适合用来描写繁花似锦、春光烂漫的景象？",
+                "question": "以下哪句诗表达的是思乡之情？",
                 "options": [
-                        {"text": "A．天街小雨润如酥，草色遥看近却无。", "correct": true},
-                        {"text": "B．千里莺啼绿映红，水村山郭酒旗风。", "correct": false},
-                        {"text": "C．春色满园关不住，一枝红杏出墙来。", "correct": false},
-                        {"text": "D．等闲识得东风面，万紫千红总是春。", "correct": false},
+                        {
+                                "text": "举头望明月，低头思故乡",
+                                "correct": true
+                        },
+                        {
+                                "text": "春眠不觉晓，处处闻啼鸟",
+                                "correct": false
+                        },
+                        {
+                                "text": "白日依山尽，黄河入海流",
+                                "correct": false
+                        },
+                        {
+                                "text": "两个黄鹂鸣翠柳，一行白鹭上青天",
+                                "correct": false
+                        }
                 ],
-                "answer": "A．天街小雨润如酥，草色遥看近却无。",
-                "explanation": "A项出自唐代诗人韩愈的《早春呈水部张十八员外·其一》，意思是京城大道上空丝雨纷纷，它像酥油般细密而滋润，远望草色依稀连成一片，近看时却显得稀疏零星。不适合用来描写繁花似锦、春光烂漫。B、C、D都是描写春天繁花似锦、春光烂漫的。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_002",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句按节日顺序排列正确的一项是（　　）\n①今夜月明人尽望，不知秋思落谁家？\n②遥知兄弟登高处，遍插茱萸少一人。\n③清明时节雨纷纷，路上行人欲断魂。\n④去年元夜时，花市灯如昼。",
-                "options": [
-                        {"text": "A．④③②①", "correct": false},
-                        {"text": "B．③④①②", "correct": false},
-                        {"text": "C．④①②③", "correct": false},
-                        {"text": "D．④③①②", "correct": true},
+                "answer": "举头望明月，低头思故乡",
+                "explanation": "此句出自李白《静夜思》，诗人借月亮表达对故乡的思念。",
+                "poemId": "poem_006",
+                "knowledgePoints": [
+                        "思乡",
+                        "月亮",
+                        "李白"
                 ],
-                "answer": "D．④③①②",
-                "explanation": "①出自王建的《十五夜望月寄杜郎中》，描写的是中秋节。②出自王维的《九月九日忆山东兄弟》，描写的是重阳节。③出自杜牧的《清明》，描写的是清明节。④出自欧阳修的《生查子·元夕》，描写的是元宵节。按时间正确顺序为：④③①②。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_003",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句不是描写中国传统节日的是（　　）",
-                "options": [
-                        {"text": "A．待到重阳日，还来就菊花。", "correct": false},
-                        {"text": "B．七夕今宵看碧霄，牵牛织女渡河桥。", "correct": false},
-                        {"text": "C．常恐秋节至，焜黄华叶衰。", "correct": true},
-                        {"text": "D．春城无处不飞花，寒食东风御柳斜。", "correct": false},
-                ],
-                "answer": "C．常恐秋节至，焜黄华叶衰。",
-                "explanation": "A项\"待到重阳日，还来就菊花\"出自孟浩然的《过故人庄》，描写的是重阳节。B项\"七夕今宵看碧霄，牵牛织女渡河桥\"出自林杰的《乞巧》，描写的是乞巧节。C项\"常恐秋节至，焜黄华叶衰\"出自乐府诗《长歌行》，描写的是秋天万物凋零的景象，不是描写传统节日的。D项\"春城无处不飞花，寒食东风御柳斜\"出自韩翃的《寒食》，描写的是寒食节。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_004",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下面的诗句没有运用托物言志手法的一项是（　　）",
-                "options": [
-                        {"text": "A．千磨万击还坚劲，任尔东西南北风。", "correct": false},
-                        {"text": "B．不要人夸好颜色，只留清气满乾坤。", "correct": false},
-                        {"text": "C．荷尽已无擎雨盖，菊残犹有傲霜枝。", "correct": false},
-                        {"text": "D．天街小雨润如酥，草色遥看近却无。", "correct": true},
-                ],
-                "answer": "D．天街小雨润如酥，草色遥看近却无。",
-                "explanation": "A项\"千磨万击还坚劲，任尔东西南北风\"出自《竹石》，是一首托物言志的诗，托岩竹的坚韧顽强，言自己刚正不阿、正直不屈、铁骨铮铮的骨气。B项\"不要人夸好颜色，只留清气满乾坤\"出自《墨梅》，借梅自喻，表明了自己的人生态度和高尚情操。C项\"荷尽已无擎雨盖，菊残犹有傲霜枝\"出自《赠刘景文》，是一首托物言志的诗歌，用\"傲霜枝\"比喻坚贞不屈的人。D项\"天街小雨润如酥，草色遥看近却无\"出自《早春呈水部张十八员外》，诗人运用简朴的文字描绘出了早春的独特景色，并没有用到托物言志的修辞手法。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_005",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "根据下面诗的内容，按时间顺序排列正确的一项是（　　）\n①清明时节雨纷纷   ②可怜九月初三夜\n③二月春风似剪刀   ④小荷才露尖尖角\n⑤遥知兄弟登高处   ⑥天津桥下冰初结",
-                "options": [
-                        {"text": "A．①④③⑤②⑥", "correct": false},
-                        {"text": "B．③①④⑤②⑥", "correct": false},
-                        {"text": "C．①③④②⑤⑥", "correct": false},
-                        {"text": "D．③①④②⑤⑥", "correct": true},
-                ],
-                "answer": "D．③①④②⑤⑥",
-                "explanation": "按照时间的顺序，先是二月春风似剪刀；然后是清明时节雨纷纷；接着是小荷才露尖尖角；再是可怜九月初三夜；然后是遥知兄弟登高处；最后是天津桥下冰初结。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_006",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "（《泊船瓜洲》）诗中\"一水\"指的是（　　）",
-                "options": [
-                        {"text": "A．珠江", "correct": false},
-                        {"text": "B．大运河", "correct": false},
-                        {"text": "C．黄河", "correct": false},
-                        {"text": "D．长江", "correct": true},
-                ],
-                "answer": "D．长江",
-                "explanation": "《泊船瓜洲》一诗中，一水指的是：一条河，即长江。原文：京口瓜洲一水间，钟山只隔数重山。春风又绿江南岸，明月何时照我还？",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_007",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "诗歌中常常托物言志，如在《竹石》《石灰吟》中，诗人们看起来写的是物，实际上是在抒发他们做人的一种志向，这种志向是（　　）",
-                "options": [
-                        {"text": "A．为了大义视死如归。", "correct": false},
-                        {"text": "B．做一个高尚正直的人。", "correct": true},
-                        {"text": "C．做一个勇于献身的人。", "correct": false},
-                        {"text": "D．渴望建功立业。", "correct": false},
-                ],
-                "answer": "B．做一个高尚正直的人。",
-                "explanation": "《竹石》这首诗借物喻人，作者通过咏颂立根破岩中的劲竹，含蓄地表达了自己绝不随波逐流的高尚的思想情操。《石灰吟》这是一首托物言志诗，作者以石灰作比喻，抒发自己坚强不屈，洁身自好的品质和不同流合污情。这两首诗看起来写的是物，实际上是在抒发他们做人的一种志向，这种志向是做一个高尚正直的人。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_008",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句中与我国传统节日无关的一项是（　　）",
-                "options": [
-                        {"text": "A．千门万户曈曈日，总把新桃换旧符。", "correct": false},
-                        {"text": "B．但愿人长久，千里共婵娟。", "correct": false},
-                        {"text": "C．遥知兄弟登高处，遍插茱萸少一人。", "correct": false},
-                        {"text": "D．露从今夜白，月是故乡明。", "correct": true},
-                ],
-                "answer": "D．露从今夜白，月是故乡明。",
-                "explanation": "A项出自宋朝王安石的《元日》，写的是春节。B项出自宋朝苏轼的《水调歌头》，写的是中秋节。C项出自唐朝王维的《九月九日忆山东兄弟》，写的是重阳节。D项出自唐朝杜甫的《月夜忆舍弟》，意思是白露节气的今晚，月亮还是故乡的最明亮。与我国传统节日无关。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_009",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列不能用来赞美老师的诗句是（　　）",
-                "options": [
-                        {"text": "A．落红不是无情物，化作春泥更护花。", "correct": false},
-                        {"text": "B．随风潜入夜，润物细无声", "correct": false},
-                        {"text": "C．春蚕到死丝方尽，蜡炬成灰泪始干。", "correct": false},
-                        {"text": "D．了却君王天下事，赢得生前身后名。", "correct": true},
-                ],
-                "answer": "D．了却君王天下事，赢得生前身后名。",
-                "explanation": "A、B、C都是用来赞美老师的；D项出自辛弃疾的《破阵子·为陈同甫赋壮词以寄之》，此句的意思是作者这一生要为抗金复国建立功业，表现了作者奋发有为的积极思想，并不是用来赞美老师的诗句。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_010",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "对下列诗句所运用的修辞手法判断错误的一项是（　　）",
-                "options": [
-                        {"text": "A．水是眼波横，山是眉峰聚。（对偶）", "correct": false},
-                        {"text": "B．欲问行人去那边？眉眼盈盈处。（设问）", "correct": false},
-                        {"text": "C．随风潜入夜，润物细无声。（夸张）", "correct": true},
-                        {"text": "D．谁道人生无再少？（反问）", "correct": false},
-                ],
-                "answer": "C．随风潜入夜，润物细无声。（夸张）",
-                "explanation": "A项正确，\"水\"对应\"山\"，\"眼波横\"对应\"眉峰聚\"。B项正确，有问有答，是设问句。C项有误，从\"潜入\"可知运用了拟人的修辞，不是夸张。D项正确，从\"谁道\"可知是反问句。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_011",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗词句与\"春色满园关不住，一枝红杏出墙来\"所描写的季节不同的是（　　）",
-                "options": [
-                        {"text": "A．日出江花红胜火，春来江水绿如蓝。", "correct": false},
-                        {"text": "B．接天莲叶无穷碧，映日荷花别样红。", "correct": true},
-                        {"text": "C．竹外桃花三两枝，春江水暖鸭先知。", "correct": false},
-                        {"text": "D．故人西辞黄鹤楼，烟花三月下扬州。", "correct": false},
-                ],
-                "answer": "B．接天莲叶无穷碧，映日荷花别样红。",
-                "explanation": "A、C、D都是描写春天的。B项\"接天莲叶无穷碧，映日荷花别样红\"出自宋代杨万里的《晓出净慈寺送林子方》，结合诗句中的\"莲叶\"可知是描写夏天的。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_012",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列不属于赞美教师的诗句是（　　）",
-                "options": [
-                        {"text": "A．笔落惊风雨，诗成泣鬼神。", "correct": true},
-                        {"text": "B．令公桃李满天下，何用堂前更种花。", "correct": false},
-                        {"text": "C．落红不是无情物，化作春泥更护花。", "correct": false},
-                        {"text": "D．新竹高于旧竹枝，全凭老干为扶持。", "correct": false},
-                ],
-                "answer": "A．笔落惊风雨，诗成泣鬼神。",
-                "explanation": "B、C、D都是赞美教师的诗句。A选项出自杜甫的《寄李十二白二十韵》，\"笔落惊风雨，诗成泣鬼神\"是对李白诗歌的高度概括，不是赞美教师的诗句。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_013",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列各句中所引古诗文名句不符合语境的一项是（　　）",
-                "options": [
-                        {"text": "A．贾爷爷真可谓\"老骥伏枥，志在千里\"，七十岁了还不想着颐养天年，而是去山区兴办企业，带动当地人民脱贫致富。", "correct": false},
-                        {"text": "B．\"忽如一夜春风来，千树万树梨花开。\"自从富春江两岸实施了\"亮灯工程\"，火树银花的夜景总是给游客带来惊喜。", "correct": true},
-                        {"text": "C．\"长风破浪会有时，直挂云帆济沧海。\"祝愿远行求学的你，克服成长路上的困难，学业进步，早日实现心中的梦想。", "correct": false},
-                        {"text": "D．在中秋佳节这个特殊日子，归国探亲的旅法华侨用杜甫的诗句\"露从今夜白，月是故乡明\"来表达心情，是最恰当不过了。", "correct": false},
-                ],
-                "answer": "B．\"忽如一夜春风来，千树万树梨花开。\"自从富春江两岸实施了\"亮灯工程\"，火树银花的夜景总是给游客带来惊喜。",
-                "explanation": "A、C、D符合语境。B项\"忽如一夜春风来，千树万树梨花开\"出自岑参《白雪歌送武判官归京》，意思是忽然间宛如一夜春风吹来，好像是千树万树梨花盛开。此句指的是雪景，并不是指的火树银花的夜景，故不符合语境。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_014",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句节奏划分错误的一项是（　　）",
-                "options": [
-                        {"text": "A．中庭/地白/树栖鸦", "correct": false},
-                        {"text": "B．冷露/无声/湿桂花", "correct": false},
-                        {"text": "C．今夜/月明人尽/望", "correct": true},
-                        {"text": "D．不知/秋思/落谁家", "correct": false},
-                ],
-                "answer": "C．今夜/月明人尽/望",
-                "explanation": "A、B、D划分正确；C项\"今夜月明人尽望\"翻译：今夜，明月当空，人们都在赏月。故朗读节奏应为\"今夜/月明/人尽/望\"。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_015",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句中没有使用修辞手法的一项是（　　）",
-                "options": [
-                        {"text": "A．迢迢牵牛星，皎皎河汉女。", "correct": false},
-                        {"text": "B．终日不成章，泣涕零如雨。", "correct": false},
-                        {"text": "C．河汉清且浅，相去复几许？", "correct": false},
-                        {"text": "D．今夜月明人尽望，不知秋思落谁家。", "correct": true},
-                ],
-                "answer": "D．今夜月明人尽望，不知秋思落谁家。",
-                "explanation": "A项字数相等、结构相同、意义对称，运用了对偶的修辞；B项把\"织女的眼泪\"比作\"雨\"，运用了比喻的手法；C项将\"河\"比作银河，运用了比喻的修辞；D项没有使用修辞。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_016",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句与注释不一致的一项是（　　）",
-                "options": [
-                        {"text": "A．食物寒冷，东风把御园柳枝吹斜。（寒食东风御柳斜）", "correct": true},
-                        {"text": "B．他们只能含情凝视而不能用话语交谈。（脉脉不得语）", "correct": false},
-                        {"text": "C．秋露无声无息打湿了院中桂花。（冷露无声湿桂花）", "correct": false},
-                        {"text": "D．不知道这秋思之情落在了谁家？（不知秋思落谁家）", "correct": false},
-                ],
-                "answer": "A．食物寒冷，东风把御园柳枝吹斜。（寒食东风御柳斜）",
-                "explanation": "A项诗句与注释不一致，诗句翻译：寒食节东风吹拂着皇家花园的柳枝。B、C、D诗句与注释一致。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_017",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "（《马诗》《石灰吟》《竹石》）这三首诗在表达志向的方法上的共同特点是（　　）",
-                "options": [
-                        {"text": "A．直抒胸臆", "correct": false},
-                        {"text": "B．托物言志", "correct": true},
-                        {"text": "C．借景抒情", "correct": false},
-                        {"text": "D．情景交融", "correct": false},
-                ],
-                "answer": "B．托物言志",
-                "explanation": "《马诗》通过咏马、赞马或慨叹马的命运，来表现志士的奇才异质、远大抱负以及不遇于时的感慨与愤懑，运用了托物言志的写作手法。《石灰吟》是一首托物言志诗，诗人托物言志，通过赞美石灰，表达了自己以天下为己任，为了社稷苍生不惜\"粉身碎骨\"的坚强意志和决心。《竹石》这首诗运用了托物言志的写法，赞美竹子的坚定顽强精神中表达了作者不怕任何打击的顽强的精神。这三首古诗有一个共同点，即看起来描写的是物，实际上是在赞颂人的一种精神。因此这三首诗在表达志向的方法上的共同特点都是托物言志。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_018",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句的朗读节奏划分不正确的一项是（　　）",
-                "options": [
-                        {"text": "A．千磨/万击/还坚劲", "correct": false},
-                        {"text": "B．大漠沙/如雪", "correct": true},
-                        {"text": "C．何当/金络脑", "correct": false},
-                        {"text": "D．要留/清白/在/人间", "correct": false},
-                ],
-                "answer": "B．大漠沙/如雪",
-                "explanation": "A、C、D正确。B项有误，句意：平沙万里，在月光下象铺上一层白皑皑的霜雪。应划为：大漠/沙如雪。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_019",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "根据诗意，给加点的字词选择正确的解释。粉骨碎身浑不怕。（　　）",
-                "options": [
-                        {"text": "A．浑身", "correct": false},
-                        {"text": "B．全", "correct": true},
-                        {"text": "C．浑浊", "correct": false},
-                        {"text": "D．简直", "correct": false},
-                ],
-                "answer": "B．全",
-                "explanation": "\"粉骨碎身浑不怕\"出自明代诗人于谦的《石灰吟》，诗句的意思是：即使粉身碎骨也毫不惧怕。浑：全。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_020",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "（《早春呈水部张十八员外》）下列对古诗的赏析不正确的一项是（　　）",
-                "options": [
-                        {"text": "A．本诗的前两句通过写\"小雨\"和\"草色\"，描绘出了早春的独特美景。", "correct": false},
-                        {"text": "B．本诗的后两句将早春与暮春的景色进行对比，抒发了自己对暮春的喜爱与赞美之情。", "correct": true},
-                        {"text": "C．这首诗风格清新自然，语言接近口语，朗读时语调要轻快，要读出诗人的愉悦之情。", "correct": false},
-                        {"text": "D．从题目中可以看出这首诗是诗人写给好友张籍的，诗中极言早春景色之美，目的是希望触发张籍的游兴。", "correct": false},
-                ],
-                "answer": "B．本诗的后两句将早春与暮春的景色进行对比，抒发了自己对暮春的喜爱与赞美之情。",
-                "explanation": "A、C、D表述正确。B项表述错误。\"最是一年春好处，绝胜烟柳满皇都\"的意思是一年之中最美的就是这早春的景色，远胜过绿柳满城的春末。写春景的诗，在唐诗中，多取明媚的晚春，这首诗却取早春咏叹，认为早春比晚春景色优胜，别出心裁。表达了作者对早春的热爱和赞美之情。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_021",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句朗读节奏划分错误的一项是（　　）",
-                "options": [
-                        {"text": "A．今我/来思，雨雪/霏霏。", "correct": false},
-                        {"text": "B．渭城/朝雨/浥轻/尘。", "correct": true},
-                        {"text": "C．客舍/青青柳色/新。", "correct": false},
-                        {"text": "D．西出/阳关/无故人。", "correct": false},
-                ],
-                "answer": "B．渭城/朝雨/浥轻/尘。",
-                "explanation": "A、C、D朗读节奏划分正确；B项朗读节奏划分错误，出自王维的《送元二使安西》，翻译：清晨的微雨湿润了渭城地面的灰尘。朗读节奏应该是：渭城/朝雨/浥/轻尘。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_022",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "给诗句中加点的字词选择正确的解释。今夜月明人尽望（　　）",
-                "options": [
-                        {"text": "A．看，往远处看", "correct": true},
-                        {"text": "B．问候", "correct": false},
-                        {"text": "C．希望", "correct": false},
-                        {"text": "D．盼望", "correct": false},
-                ],
-                "answer": "A．看，往远处看",
-                "explanation": "\"今夜月明人尽望\"出自唐代诗人王建创作的《十五夜望月》，意思是：今夜，明月当空，人们都在赏月。\"望\"的意思是看，往远处看。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_023",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "对下列诗句中加点词语的理解错误的一项是（　　）",
-                "options": [
-                        {"text": "A．今我来思，雨雪霏霏。（雨雪：指下着雨夹雪）", "correct": true},
-                        {"text": "B．行道迟迟，载渴载饥。（迟迟：迟缓的样子）", "correct": false},
-                        {"text": "C．好雨知时节，当春乃发生。（发生：使植物萌发、生长）", "correct": false},
-                        {"text": "D．渭城朝雨浥轻尘，客舍青青柳色新。（浥：湿润，沾湿）", "correct": false},
-                ],
-                "answer": "A．今我来思，雨雪霏霏。（雨雪：指下着雨夹雪）",
-                "explanation": "A项有误，今我来思，雨雪霏霏。翻译：如今回来路途中，大雪纷纷满天飞。雨雪：大雪。B、C、D正确。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_024",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下面的诗句中表达了建功立业的志向的是（　　）",
-                "options": [
-                        {"text": "A．何当金络脑，快走踏清秋", "correct": true},
-                        {"text": "B．粉骨碎身浑不怕，要留清白在人间", "correct": false},
-                        {"text": "C．千磨万击还坚劲，任尔东西南北风", "correct": false},
-                        {"text": "D．不要人夸好颜色，只留清气满乾坤", "correct": false},
-                ],
-                "answer": "A．何当金络脑，快走踏清秋",
-                "explanation": "A项正确。出自唐代诗人李贺的《马诗》，意思是何时才能受到皇帝赏识，给我的骏马套上镶金的笼头，冲锋陷阵飞驰在那深秋的战场。表达了诗人渴望建功立业的志向。B项有误，出自明代诗人于谦的《石灰吟》，表达了诗人坚守高尚气节的决心。C项有误，出自清代诗人郑燮的《竹石》，体现了诗人刚正不阿的性格。D项有误，出自元代诗人王冕的《墨梅》，表达了诗人淡泊名利的高尚节操。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_025",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句中，没有托物言志的是 （　　）",
-                "options": [
-                        {"text": "A．我自横刀向天笑，去留肝胆两昆仑", "correct": true},
-                        {"text": "B．大雪压青松，青松挺且直", "correct": false},
-                        {"text": "C．不要人夸好颜色，只留清气满乾坤", "correct": false},
-                        {"text": "D．墙角数枝梅，凌寒独自开", "correct": false},
-                ],
-                "answer": "A．我自横刀向天笑，去留肝胆两昆仑",
-                "explanation": "A项出自谭嗣同的《狱中题壁》，意思是我横刀而出，仰天大笑，因为去者和留者肝胆相照、光明磊落，有如昆仑山一样的雄伟气魄。这是一首表达作者全部所有的绝命诗，不是托物言志的诗句。B项出自当代诗人陈毅的《青松》，这句托物言志。C项出自王冕的《墨梅》，是托物言志的诗句。D项出自宋代诗人王安石的《梅花》，是托物言志的诗句。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_026",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "《采薇（节选）》没有表达了诗人（　　）",
-                "options": [
-                        {"text": "A．对从军路上又渴又饥的厌烦。", "correct": true},
-                        {"text": "B．对征战兵卒的同情。", "correct": false},
-                        {"text": "C．对战争的厌恶。", "correct": false},
-                        {"text": "D．对和平的渴望。", "correct": false},
-                ],
-                "answer": "A．对从军路上又渴又饥的厌烦。",
-                "explanation": "《采薇（节选）》表达了作者对征战兵卒的同情，对战争的厌恶和对和平的渴望，没有表达诗人对从军路上又渴又饥的厌烦。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_027",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列古诗名与朝代、作者对应正确的一项是（　　）",
-                "options": [
-                        {"text": "A．《江上渔者》﹣唐﹣范仲淹", "correct": false},
-                        {"text": "B．《泊船瓜洲》﹣唐﹣王安石", "correct": false},
-                        {"text": "C．《春夜喜雨》﹣唐﹣杜甫", "correct": true},
-                        {"text": "D．《闻官军收河南河北》﹣唐﹣韩愈", "correct": false},
-                ],
-                "answer": "C．《春夜喜雨》﹣唐﹣杜甫",
-                "explanation": "A项《江上渔者》是宋代诗人范仲淹的作品，错误。B项《泊船瓜洲》是北宋文学家王安石创作的一首七言绝句，错误。C项《春夜喜雨》是唐代诗人杜甫创作的一首诗，正确。D项《闻官军收河南河北》是唐代诗人杜甫创作的一首诗，错误。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_028",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "给诗句中加点的字词选择正确的解释。纤纤擢素手（　　）",
-                "options": [
-                        {"text": "A．白皙的", "correct": true},
-                        {"text": "B．本来的", "correct": false},
-                        {"text": "C．向来", "correct": false},
-                        {"text": "D．朴素", "correct": false},
-                ],
-                "answer": "A．白皙的",
-                "explanation": "出自佚名的《迢迢牵牛星》，翻译：（织女）伸出细长而白皙的手。素：白皙的。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_029",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "中庭地白树栖鸦，冷露无声湿桂花。\n下面赏析不正确的是（　　）",
-                "options": [
-                        {"text": "A．这两句诗描写的是赏月的环境。", "correct": false},
-                        {"text": "B．诗句中没有\"月\"字，却暗含着月色，\"地白\"二字给人以澄静空明之感。", "correct": false},
-                        {"text": "C．\"冷露无声湿桂花\"写出了中秋之夜的繁华热闹场景。", "correct": true},
-                        {"text": "D．这两句诗表达了诗人孤独思乡之情。", "correct": false},
-                ],
-                "answer": "C．\"冷露无声湿桂花\"写出了中秋之夜的繁华热闹场景。",
-                "explanation": "A、B正确。C项有误，\"冷露无声湿桂花\"，秋露无声无息打湿了院中桂花，这句诗让人联想到冷气袭人，桂花怡人的情景，而不是中秋之夜的繁华热闹。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_030",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "春城无处不飞花，寒食东风御柳斜。\n对这两句诗的理解，不正确的一项是（　　）",
-                "options": [
-                        {"text": "A．\"无处不\"以双重否定构成肯定，形成强调的语气，表达效果更强烈。", "correct": false},
-                        {"text": "B．处处\"飞花\"，不但写出春天的万紫千红，而且确切地表现出寒食的早春景象。", "correct": true},
-                        {"text": "C．因唐时有寒食日折柳插门的风俗，所以特别写到柳树。", "correct": false},
-                        {"text": "D．\"寒食\"即清明节，是我国的传统节日。", "correct": false},
-                ],
-                "answer": "B．处处\"飞花\"，不但写出春天的万紫千红，而且确切地表现出寒食的早春景象。",
-                "explanation": "A、C正确。B项有误，\"飞花\"描绘的是花瓣飘落的景象，而非万紫千红；且侧重于暮春景象，而非早春。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_031",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列关于\"大漠沙如雪，燕山月似钩\"这两句诗的理解，正确的一项是（　　）",
-                "options": [
-                        {"text": "A．这两句诗写出了马真实的生活环境。", "correct": false},
-                        {"text": "B．这两句诗描绘出一幅苍茫辽阔的边疆的画面。", "correct": true},
-                        {"text": "C．这两句诗描写了边塞秋天的萧瑟景象。", "correct": false},
-                        {"text": "D．这两句诗表达了诗人对家乡的思念之情。", "correct": false},
-                ],
-                "answer": "B．这两句诗描绘出一幅苍茫辽阔的边疆的画面。",
-                "explanation": "出自唐代李贺的《马诗》。意思：平沙万里，在月光下像铺上一层白皑皑的霜雪。连绵的燕山山岭上，一轮明月当空。这两句诗描绘出一幅苍茫辽阔的边疆的画面。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_032",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下面不属于送别诗（词）的是（　　）",
-                "options": [
-                        {"text": "A．《卜算子·送鲍浩然之浙东》", "correct": false},
-                        {"text": "B．《芙蓉楼送辛渐》", "correct": false},
-                        {"text": "C．《泊船瓜洲》", "correct": true},
-                        {"text": "D．《送元二使安西》", "correct": false},
-                ],
-                "answer": "C．《泊船瓜洲》",
-                "explanation": "A项《卜算子·送鲍浩然之浙东》是一首送别之作，表述正确。B项《芙蓉楼送辛渐》是唐朝诗人王昌龄的一首送别诗，表述正确。C项《泊船瓜洲》是一首著名的抒情小诗，抒发了诗人眺望江南、思念家乡的深切感情，从字面上看，是流露着对故乡的怀念之情，大有急欲飞舟渡江回家和亲人团聚的愿望。故这首诗不是送别诗。D项《送元二使安西》是唐代诗人王维送朋友去西北边疆时作的诗，这首诗所描写的是一种最有普遍性的离别。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_033",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句中加点字注释有误的一组是（　　）。",
-                "options": [
-                        {"text": "A．春归何处？寂寞无行路。（寂寞：清静，寂静；行路：指春天的行踪）", "correct": false},
-                        {"text": "B．若有人知春去处，唤取归来同住。（若：如果。唤取：唤来。）", "correct": false},
-                        {"text": "C．春无踪迹谁知？除非问取黄鹂。（问取：呼唤，询问。取，获取。）", "correct": true},
-                        {"text": "D．百啭无人能解，因风飞过蔷薇。（啭：鸟宛转的鸣叫。因，凭借。）", "correct": false},
-                ],
-                "answer": "C．春无踪迹谁知？除非问取黄鹂。（问取：呼唤，询问。取，获取。）",
-                "explanation": "A、B、D正确；C项错误，谁也不知道春天的踪迹，要想知道，只有问一问黄鹂。取，语气助词。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_034",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句与其它三句不是一类的是一项（　　）",
-                "options": [
-                        {"text": "A．遥知兄弟登高处，遍插茱萸少一人。", "correct": false},
-                        {"text": "B．今夜月明人尽望，不知秋思落谁家。", "correct": false},
-                        {"text": "C．何当共剪西窗烛，却话巴山夜雨时。", "correct": false},
-                        {"text": "D．浮云游子意，落日故人情。", "correct": true},
-                ],
-                "answer": "D．浮云游子意，落日故人情。",
-                "explanation": "A项\"遥知兄弟登高处，遍插茱萸少一人\"出自唐代王维的《九月九日忆山东兄弟》，表达了诗人对家乡亲人的思念之情。B项\"今夜月明人尽望，不知秋思落谁家\"出自唐代诗人王建的《十五夜望月寄杜郎中》，表达了诗人对家乡亲人的思念之情。C项\"何当共剪西窗烛，却话巴山夜雨时\"出自晚唐诗人李商隐的《夜雨寄北》，表达了诗人对家乡亲人的思念之情。D项\"浮云游子意，落日故人情\"出自唐朝诗人李白的《送友人》，表达了诗人送别友人时的依依不舍之情。选项D表达的思想感情与其它选项不同。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_035",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句中加点字注释有误的一组是（　　）",
-                "options": [
-                        {"text": "A．京口瓜洲一水间（\"一水\"指长江；间：隔开；）", "correct": false},
-                        {"text": "B．钟山只隔数重山（钟山：今南京市紫金山；数重山：几座山。）", "correct": false},
-                        {"text": "C．春风又绿江南岸（绿：绿色；江：长江。）", "correct": true},
-                        {"text": "D．明月何时照我还？（何时：什么时候；还：回到家乡。）", "correct": false},
-                ],
-                "answer": "C．春风又绿江南岸（绿：绿色；江：长江。）",
-                "explanation": "A项\"京口瓜洲一水间\"这句诗的意思是：京口和瓜洲之间只隔着一条长江。注释正确。B项\"钟山只隔数重山\"这句诗的意思是：钟山就隐没在几座山峦的后面。注释正确。C项\"春风又绿江南岸\"这句诗的意思是：和煦的春风又吹绿了大江南岸。绿：吹绿；江：长江。注释有误。D项\"明月何时照我还\"这句诗的意思是：明月什么时候才能照着我返回自己的家乡呢？注释正确。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_036",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句中加点字注释有误的一组是（　　）",
-                "options": [
-                        {"text": "A．好雨知（明白）时节，当春乃（于是，就）发生（原来没有的事出现了）。", "correct": true},
-                        {"text": "B．随风潜（暗暗地，悄悄地）入夜，润物（使植物受到雨水的滋养）细无声。", "correct": false},
-                        {"text": "C．野径（田野间的小路）云俱黑，江船火独（独自）明。", "correct": false},
-                        {"text": "D．晓（天刚亮的时候）看红湿处，花重（沉重）锦官城。", "correct": false},
-                ],
-                "answer": "A．好雨知（明白）时节，当春乃（于是，就）发生（原来没有的事出现了）。",
-                "explanation": "A项有误，\"好雨知时节，当春乃发生\"的意思是：好雨似乎会挑选时辰，降临在万物萌生之春。发生：萌发生长。B、C、D正确。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_037",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句与其它三句不是一类的是一项（　　）",
-                "options": [
-                        {"text": "A．白日放歌须纵酒，青春作伴好还乡。", "correct": false},
-                        {"text": "B．正是江南好风景，落花时节又逢君。", "correct": false},
-                        {"text": "C．孤帆远影碧空尽，唯见长江天际流。", "correct": true},
-                        {"text": "D．会当凌绝顶，一览众山小。", "correct": false},
-                ],
-                "answer": "C．孤帆远影碧空尽，唯见长江天际流。",
-                "explanation": "A、B是抒发感情的诗句；C项\"孤帆远影碧空尽，唯见长江天际流\"出自李白的《送孟浩然之广陵》，翻译：友人的孤船帆影渐渐地远去，消失在碧空的尽头，只看见一线长江，向邈远的天际奔流。描写的是友情。D项\"会当凌绝顶，一览众山小\"表达了诗人的壮志豪情。C与其它三句不是一类。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_038",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列句子表述有误的一项是（　　）",
-                "options": [
-                        {"text": "A．《采薇（节选）》选自《诗经•小雅》。《诗经》是我国第一部诗歌总集，又称\"诗三百\"。", "correct": false},
-                        {"text": "B．《采薇（节选）》是一首写被遣戍边的兵士从出征到回家的诗歌，抒写当年出征和此日生还这两种特定时刻的景物和情怀，言浅意深，情景交融。", "correct": false},
-                        {"text": "C．杜甫，唐代现实主义诗人，字子美，自称少陵野老，被尊称为\"诗圣\"，与李白齐名，世称\"李杜\"。他的诗被称为\"诗史\"。", "correct": true},
-                        {"text": "D．李白，唐代浪漫主义诗人，字太白，号青莲居士，被称为\"诗仙\"。《静夜思》是其代表作之一。", "correct": false},
-                ],
-                "answer": "C．杜甫，唐代现实主义诗人，字子美，自称少陵野老，被尊称为\"诗圣\"，与李白齐名，世称\"李杜\"。他的诗被称为\"诗史\"。",
-                "explanation": "A、B正确；C项错误，杜甫被尊称为\"诗圣\"（\"诗佛\"是王维）。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_039",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句与其它三句不是一类的是一项（　　）",
-                "options": [
-                        {"text": "A．春色满园关不住，一枝红杏出墙来。", "correct": false},
-                        {"text": "B．等闲识得东风面，万紫千红总是春。", "correct": false},
-                        {"text": "C．最是一年春好处，绝胜烟柳满皇都。", "correct": false},
-                        {"text": "D．遥知不是雪，为有暗香来。", "correct": true},
-                ],
-                "answer": "D．遥知不是雪，为有暗香来。",
-                "explanation": "A、B、C都是描写春天的诗句。D项\"遥知不是雪，为有暗香来\"出自王安石的《梅》，翻译：为什么远望就知道洁白的梅花不是雪呢？因为梅花隐隐传来阵阵的香气。描写的是冬天。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
-                "poetryType": false
-        },
-        {
-                "id": "q_mk_040",
-                "type": "choice",
-                "grade": "mk",
-                "source": "全国小升初真题·菁优网",
-                "difficulty": 2,
-                "question": "下列诗句中加点字注释有误的一组是（　　）",
-                "options": [
-                        {"text": "A．昔我往矣（昔：从前，指出征时。往：指当初去从军。）", "correct": false},
-                        {"text": "B．杨柳依依（依依：形容柳丝轻柔、随风摇曳的样子。）", "correct": false},
-                        {"text": "C．雨雪霏霏（雨雪：指下雨和雪。霏霏：雪花纷落的样子。）", "correct": true},
-                        {"text": "D．行道迟迟，载渴载饥（迟迟：迟缓的样子。载：又。）", "correct": false},
-                ],
-                "answer": "C．雨雪霏霏（雨雪：指下雨和雪。霏霏：雪花纷落的样子。）",
-                "explanation": "A、B、D正确。C选项有误，\"雨雪\"指下雪。\"雨\"动词下的意思。",
-                "poemId": null,
-                "knowledgePoints": ["古诗词理解"],
                 "poetryType": false
         },
         {
@@ -832,7 +106,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_002_v2",
+                "id": "q_mk_002",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2024年河北衡水小升初真题",
@@ -938,7 +212,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_003_v2",
+                "id": "q_mk_003",
                 "type": "choice",
                 "grade": "mk",
                 "source": "2023·淮阴区小升初真题",
@@ -1028,7 +302,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_004_v2",
+                "id": "q_mk_004",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·化州市小升初真题",
@@ -1118,7 +392,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_005_v2",
+                "id": "q_mk_005",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·化州市小升初真题",
@@ -1191,7 +465,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_006_v2",
+                "id": "q_mk_006",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·化州市小升初真题",
@@ -1247,7 +521,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_007_v2",
+                "id": "q_mk_007",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·顺德区小升初真题",
@@ -1303,7 +577,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_008_v2",
+                "id": "q_mk_008",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·费县小升初真题",
@@ -1395,7 +669,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_009_v2",
+                "id": "q_mk_009",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·费县小升初真题",
@@ -1487,7 +761,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_010_v2",
+                "id": "q_mk_010",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·港南区小升初真题",
@@ -1543,7 +817,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_011_v2",
+                "id": "q_mk_011",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·港南区小升初真题",
@@ -1633,7 +907,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_012_v2",
+                "id": "q_mk_012",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·徐水区小升初真题",
@@ -1688,7 +962,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_013_v2",
+                "id": "q_mk_013",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·徐水区小升初真题",
@@ -1760,7 +1034,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_014_v2",
+                "id": "q_mk_014",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·峄城区小升初真题",
@@ -1832,7 +1106,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_015_v2",
+                "id": "q_mk_015",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·峄城区小升初真题",
@@ -1904,7 +1178,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_016_v2",
+                "id": "q_mk_016",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·峄城区小升初真题",
@@ -1958,7 +1232,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_017_v2",
+                "id": "q_mk_017",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·黄骅市小升初真题",
@@ -2048,7 +1322,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_018_v2",
+                "id": "q_mk_018",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·黄骅市小升初真题",
@@ -2120,7 +1394,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_019_v2",
+                "id": "q_mk_019",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·黄骅市小升初真题",
@@ -2174,7 +1448,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_020_v2",
+                "id": "q_mk_020",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·日照小升初真题",
@@ -2228,7 +1502,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_021_v2",
+                "id": "q_mk_021",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·日照小升初真题",
@@ -2445,7 +1719,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_024_v2",
+                "id": "q_mk_024",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·新乐市小升初真题",
@@ -2499,7 +1773,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_025_v2",
+                "id": "q_mk_025",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·沂南县小升初真题",
@@ -2571,7 +1845,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_026_v2",
+                "id": "q_mk_026",
                 "poetryType": false,
                 "type": "fill",
                 "grade": "mk",
@@ -2579,7 +1853,7 @@ const QUESTIONS_DATA = [
                 "difficulty": 3,
                 "question": "苟日新，__________，__________。（《礼记》）",
                 "options": [],
-                "answer": "日日新，又日新",
+                "answer": "日日新；又日新",
                 "explanation": "出自《礼记·大学》，强调人要天天创新，不断进步。",
                 "poemId": null,
                 "knowledgePoints": [
@@ -2716,7 +1990,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_028_v2",
+                "id": "q_mk_028",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·鱼台县小升初真题",
@@ -2806,7 +2080,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_029_v2",
+                "id": "q_mk_029",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·莒县小升初真题",
@@ -2880,7 +2154,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_030_v2",
+                "id": "q_mk_030",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·莒县小升初真题",
@@ -2953,7 +2227,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_031_v2",
+                "id": "q_mk_031",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·金乡县小升初真题",
@@ -3044,7 +2318,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_032_v2",
+                "id": "q_mk_032",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·金乡县小升初真题",
@@ -3117,7 +2391,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_033_v2",
+                "id": "q_mk_033",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·金乡县小升初真题",
@@ -3262,7 +2536,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_035_v2",
+                "id": "q_mk_035",
                 "type": "fill",
                 "grade": "mk",
                 "source": "2023·椒江区小升初真题",
@@ -3333,7 +2607,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_036_v2",
+                "id": "q_mk_036",
                 "type": "fill",
                 "grade": "mk",
                 "source": "小升初语文古诗词默写经典200题",
@@ -3404,7 +2678,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_037_v2",
+                "id": "q_mk_037",
                 "type": "fill",
                 "grade": "mk",
                 "source": "小升初语文古诗词默写经典200题",
@@ -3476,7 +2750,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_038_v2",
+                "id": "q_mk_038",
                 "type": "fill",
                 "grade": "mk",
                 "source": "小升初语文古诗词默写经典200题",
@@ -3530,7 +2804,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_039_v2",
+                "id": "q_mk_039",
                 "type": "fill",
                 "grade": "mk",
                 "source": "小升初语文古诗词默写经典200题",
@@ -3602,7 +2876,7 @@ const QUESTIONS_DATA = [
                 ]
         },
         {
-                "id": "q_mk_040_v2",
+                "id": "q_mk_040",
                 "type": "fill",
                 "grade": "mk",
                 "source": "小升初语文古诗词默写经典200题",
@@ -13387,7 +12661,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "子曰：学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦____乎？",
+                "question": "子曰：学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
                 "options": [],
                 "answer": "不亦君子乎",
                 "explanation": "出自论语。",
@@ -13440,7 +12714,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "子曰：吾十有五而志于学，三十而立，四十而不惑，五十而知天命，____，七十而从心所欲，不逾矩。",
+                "question": "子曰：吾十有五而志于学，三十而立，四十而不惑，五十而知天命，六十而耳顺，七十而从心所欲，不逾矩。",
                 "options": [],
                 "answer": "六十而耳顺，七十而从心所欲，不逾矩",
                 "explanation": "出自论语。",
@@ -13475,7 +12749,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "子曰：____，可以为师矣。",
+                "question": "子曰：温故而知新，可以为师矣。",
                 "options": [],
                 "answer": "温故而知新",
                 "explanation": "出自论语。",
@@ -13564,7 +12838,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "子曰：知之者不如好之者，____。",
+                "question": "子曰：知之者不如好之者，好之者不如乐之者。",
                 "options": [],
                 "answer": "好之者不如乐之者",
                 "explanation": "出自论语。",
@@ -13617,7 +12891,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "子曰：三人行，必有我师焉；____。",
+                "question": "子曰：三人行，必有我师焉；择其善者而从之，其不善者而改之。",
                 "options": [],
                 "answer": "择其善者而从之，其不善者而改之",
                 "explanation": "出自论语。",
@@ -13670,7 +12944,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "子曰：见贤思齐焉，____。",
+                "question": "子曰：见贤思齐焉，见不贤而内自省也。",
                 "options": [],
                 "answer": "见不贤而内自省也",
                 "explanation": "出自论语。",
@@ -13741,7 +13015,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "子曰：贤哉，回也！一箪食，一瓢饮，在陋巷，人不堪其忧，____。",
+                "question": "子曰：贤哉，回也！一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。",
                 "options": [],
                 "answer": "回也不改其乐",
                 "explanation": "出自论语。",
@@ -13794,7 +13068,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "子曰：饭疏食，饮水，曲肱而枕之，乐亦在其中矣。不义而富且贵，____。",
+                "question": "子曰：饭疏食，饮水，曲肱而枕之，乐亦在其中矣。不义而富且贵，于我如浮云。",
                 "options": [],
                 "answer": "于我如浮云",
                 "explanation": "出自论语。",
@@ -13847,7 +13121,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "曾子曰：吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？____？",
+                "question": "曾子曰：吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？",
                 "options": [],
                 "answer": "传不习乎",
                 "explanation": "出自论语。",
@@ -16068,7 +15342,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "子曰：三人行，必有我师焉；____。",
+                "question": "子曰：三人行，必有我师焉。",
                 "options": [],
                 "answer": "择其善者而从之，其不善者而改之",
                 "explanation": "出自论语。",
@@ -16085,7 +15359,7 @@ const QUESTIONS_DATA = [
                 "grade": "chu1",
                 "source": "古诗词真题精选",
                 "difficulty": 2,
-                "question": "曾子曰：吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？____？",
+                "question": "曾子曰：吾日三省吾身。",
                 "options": [],
                 "answer": "传不习乎",
                 "explanation": "出自论语。",
@@ -23746,7 +23020,7 @@ const QUESTIONS_DATA = [
     // 新增小升初真题（共40道，2026-04-06导入）
 
         {
-                "id": "q_mk_001_v2",
+                "id": "q_mk_001",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -23781,7 +23055,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_002_v3",
+                "id": "q_mk_002",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -23816,7 +23090,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_003_v3",
+                "id": "q_mk_003",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -23851,7 +23125,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_004_v3",
+                "id": "q_mk_004",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -23886,7 +23160,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_005_v3",
+                "id": "q_mk_005",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -23921,7 +23195,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_006_v3",
+                "id": "q_mk_006",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -23956,7 +23230,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_007_v3",
+                "id": "q_mk_007",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -23991,7 +23265,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_008_v3",
+                "id": "q_mk_008",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24026,7 +23300,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_009_v3",
+                "id": "q_mk_009",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24061,7 +23335,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_010_v3",
+                "id": "q_mk_010",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24096,7 +23370,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_011_v3",
+                "id": "q_mk_011",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24131,7 +23405,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_012_v3",
+                "id": "q_mk_012",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24166,7 +23440,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_013_v3",
+                "id": "q_mk_013",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24201,7 +23475,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_014_v3",
+                "id": "q_mk_014",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24236,7 +23510,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_015_v3",
+                "id": "q_mk_015",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24271,7 +23545,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_016_v3",
+                "id": "q_mk_016",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24306,7 +23580,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_017_v3",
+                "id": "q_mk_017",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24341,7 +23615,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_018_v3",
+                "id": "q_mk_018",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24376,7 +23650,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_019_v3",
+                "id": "q_mk_019",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24411,7 +23685,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_020_v3",
+                "id": "q_mk_020",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24446,7 +23720,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_021_v3",
+                "id": "q_mk_021",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24481,7 +23755,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_022_v2",
+                "id": "q_mk_022",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24516,7 +23790,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_023_v2",
+                "id": "q_mk_023",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24551,7 +23825,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_024_v3",
+                "id": "q_mk_024",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24586,7 +23860,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_025_v3",
+                "id": "q_mk_025",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24621,7 +23895,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_026_v3",
+                "id": "q_mk_026",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24656,7 +23930,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_027_v2",
+                "id": "q_mk_027",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24691,7 +23965,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_028_v3",
+                "id": "q_mk_028",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24726,7 +24000,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_029_v3",
+                "id": "q_mk_029",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24761,7 +24035,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_030_v3",
+                "id": "q_mk_030",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24796,7 +24070,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_031_v3",
+                "id": "q_mk_031",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24831,7 +24105,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_032_v3",
+                "id": "q_mk_032",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24866,7 +24140,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_033_v3",
+                "id": "q_mk_033",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24901,7 +24175,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_034_v2",
+                "id": "q_mk_034",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24936,7 +24210,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_035_v3",
+                "id": "q_mk_035",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -24971,7 +24245,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_036_v3",
+                "id": "q_mk_036",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -25006,7 +24280,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_037_v3",
+                "id": "q_mk_037",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -25041,7 +24315,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_038_v3",
+                "id": "q_mk_038",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -25076,7 +24350,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_039_v3",
+                "id": "q_mk_039",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -25111,7 +24385,7 @@ const QUESTIONS_DATA = [
                 "poetryType": false
         },
         {
-                "id": "q_mk_040_v3",
+                "id": "q_mk_040",
                 "type": "choice",
                 "grade": "mk",
                 "source": "全国小升初真题",
@@ -25144,56 +24418,5 @@ const QUESTIONS_DATA = [
                         "亲情"
                 ],
                 "poetryType": false
-        },
-{"id": "q_chu1_001", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对《天净沙•秋思》这首小令分析不当的一项是（　　）A．\"枯藤老树昏鸦\"渲染了一种暗淡凄凉的气氛，暮鸦归巢，使游子动了思乡之情。\tB．\"小桥流水人家\"描写了诗人记忆中的故乡的幽美、恬静的景象，而今身在异乡，越发感到孤独。\tC．\"古道西风瘦马\"一句描写了伫立于寒风之中诗人孤独、寂寥的形象。\tD．\"断肠人在天涯\"一句直接抒发了诗人的感受，在前几句\"景\"的渲染下，诗人的思乡之情得到了充分的表现。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": true}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "B", "explanation": "\"小桥流水人家\"显示出了一种清新幽静的境界，这里的景不是作者记忆中的故乡的景象而是眼前看到的实景。", "poemId": null, "knowledgePoints": ["天净沙·秋思", "元曲鉴赏", "意象分析"], "poetryType": false},
-{"id": "q_chu1_002", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对李商隐的《夜雨寄北》这首诗的赏析不正确的一项是（　　）A．这首诗像用诗写的回信，通过归期的问询和回答，抒写诗人羁旅他乡对友人思念的深情。\tB．一、二句诗人将自己与友人的深情厚意和异乡的夜雨景色贴切地融合在一起，绵绵雨中，更见两地相思情重。\tC．三、四句写在巴山秋雨之夜，与久别重逢的亲人彻夜畅谈的欢聚场面。\tD．诗中\"期\"字和\"巴山夜雨\"重复出现，造成回环往复、缠绵曲折的意境。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "三、四句虚写在巴山秋雨之夜，想象与久别重逢的亲人彻夜畅谈的欢聚场面。", "poemId": null, "knowledgePoints": ["夜雨寄北", "李商隐", "虚实结合"], "poetryType": false},
-{"id": "q_chu1_003", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "次北固山下【唐】王湾客路青山外，行舟绿水前。潮平两岸阔，风正一帆悬。海日生残夜，江春入旧年。乡书何处达？归雁洛阳边。下列对这首诗理解和欣赏有误的一项是（　　）A．首联先写\"客路\"，后写\"行舟\"，写出了人在他乡、神驰故里的漂泊羁旅之情。\tB．诵读颔联时应该使用上扬的语调，体现诗句平野开阔、大江直流的宏大气势。\tC．颈联妙在作者无意说理，却通过拟人手法在描写景物和节令之中，蕴含着一种自然的理趣。\tD．尾联紧承颈联，抒发了诗人即将回到家乡的喜悦、激动的心情。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "尾联意为身在旅途，家信何传？托付北归大雁捎到家乡，表达了羁旅漂泊思乡之情，而非\"即将回到家乡的喜悦\"。", "poemId": null, "knowledgePoints": ["次北固山下", "王湾", "思乡之情"], "poetryType": false},
-{"id": "q_chu1_004", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对\"我寄愁心与明月，随君直到夜郎西\"理解不准确的一项是（　　）A．作者将\"愁心\"形象地寄给\"明月\"，随朋友直到僻远之地。\tB．朋友被贬僻远之地，诗人用夜郎之名，使人联想古夜郎国，以见其边远。\tC．诗人同情友人的不幸遭遇，把\"愁心与明月\"一起寄给身处夜郎的友人。\tD．这是一种艺术想象，最能体现诗人内心同情的深切和真挚。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "这句诗表现的是\"我\"把忧愁的心思寄托给明月，而非把\"愁心与明月\"一起寄给友人。", "poemId": null, "knowledgePoints": ["闻王昌龄左迁龙标遥有此寄", "李白", "借月抒情"], "poetryType": false},
-{"id": "q_chu1_005", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列对诗歌理解不正确的一项是（　　）峨眉山月歌唐•李白峨眉山月半轮秋，影入平羌江水流。夜发清溪向三峡，思君不见下渝州。A．\"峨眉山平羌江清溪三峡渝州\"，是诗人依次经过的地点。\tB．\"峨眉山月半轮秋，影入平羌江水流\"两句，写诗人在舟中所见的夜景。\tC．\"夜发清溪向三峡，思君不见下渝州\"，写诗人夜间乘船出发。\tD．诗中无处不渗透着诗人江行体验和思念之情，这也更能衬托出诗人即将回到故乡时的复杂情感。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "此诗抒发的是思乡之情，而非\"即将回到故乡时的复杂情感\"。", "poemId": null, "knowledgePoints": ["峨眉山月歌", "李白", "江行体验"], "poetryType": false},
-{"id": "q_chu1_006", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列表述有误的一项是（　　）A．《观沧海》是曹操写的一首乐府诗。作者采用借景抒情的手法，观海望天，气势恢宏，表达了自己吞吐日月、包蕴万物的宽广胸怀和统一中原的伟大抱负。\tB．《闻王昌龄左迁龙标遥有此寄》一开头便选取两种富有地方特征的事物，描绘出南国的暮春景象，烘托出一种哀伤的气氛。\tC．《次北固山下》这首诗虽然通篇写景，但是怀乡之情却贯串始终。\tD．\"枯藤老树昏鸦，小桥流水人家\"中的六种景物都是秋天所特有的，美丽的秋景衬托着\"古道西风瘦马。夕阳西下\"的描写，更加突出了秋天风和日丽的景色和作者急欲归家的欢快的心情。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "\"小桥流水人家\"以乐景衬哀情，反衬羁旅之苦、思乡之情，\"风和日丽、欢快心情\"错误。", "poemId": null, "knowledgePoints": ["古代诗歌四首", "情景关系", "以乐景衬哀情"], "poetryType": false},
-{"id": "q_chu1_007", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下面对《次北固山下》的赏析，不恰当的一项是（　　）次北固山下王湾客路青山外，行舟绿水前。潮平两岸阔，风正一帆悬。海日生残夜，江春入旧年。乡书何处达？归雁洛阳边。A．首联点题，写诗人舟行水上，暗含旅途奔波之意。\tB．颔联写诗人在岸上所见景色，此刻诗人视野开阔，心潮澎湃。\tC．颈联透露出诗人是在岁暮连夜行舟的，此联表现了在江上行舟即将天亮时的情景。\tD．尾联诗人借归雁传递家书，抒发了浓浓的故园之思。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": true}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "B", "explanation": "颔联写景的观察立足点在船上，并非\"在岸上所见景色\"。", "poemId": null, "knowledgePoints": ["次北固山下", "王湾", "诗句鉴赏"], "poetryType": false},
-{"id": "q_chu1_008", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对杜甫的《江南逢李龟年》一诗分析有误的一项是（　　）A．诗的前两句中，\"寻常见\"\"几度闻\"，既写出李、杜交往之密、友谊之深，又从一个侧面表现\"开元盛世\"的繁华。\tB．诗的最后一句中，\"落花时节\"比喻诗人和李龟年潦倒凄凉的处境和唐王朝国运的衰落。\tC．诗的前两句叙事，后两句直抒胸臆，全诗运用映衬对照的手法来凸现主题。\tD．全诗既流露出对\"开元盛世\"的留恋，又流露出\"风景依旧，人事全非\"的感慨。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "后两句用双关手法隐晦表达颠沛流离之感，并非\"直抒胸臆\"。", "poemId": null, "knowledgePoints": ["江南逢李龟年", "杜甫", "双关手法"], "poetryType": false},
-{"id": "q_chu1_009", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列对《天净沙•秋思》的赏析，不恰当的一项是（　　）天净沙•秋思马致远枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，断肠人在天涯。A．首句\"枯\"\"老\"二字用得巧妙，既写出\"藤\"\"树\"的特点，又为\"断肠人\"所处环境增添悲凉的色彩。\tB．前三句写了九种景物，有静有动，极具画面感。开头一句\"枯藤老树昏鸦\"是诗眼，揭示了主题。\tC．本首小令作者精心选择独具秋天特色的意象，这些意象共同创设出衰败、荒凉、缺乏生气的氛围。\tD．本首小令除最后一句外，全是\"景\"语，景中有情，情中有景，景色与情思完美融合。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": true}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "B", "explanation": "\"枯藤老树昏鸦\"是诗眼，但不揭示主题，揭示主题的是\"断肠人在天涯\"。", "poemId": null, "knowledgePoints": ["天净沙·秋思", "马致远", "诗眼"], "poetryType": false},
-{"id": "q_chu1_010", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "阅读《次北固山下》回答问题：客路青山外，行舟绿水前。潮平两岸阔，风正一帆悬。海日生残夜，江春入旧年。乡书何处达？归雁洛阳边。作者：王湾对诗歌理解不正确的一项是（　　）A．首联写\"客路\"\"行舟\"，与尾联\"乡书\"\"归雁\"遥相呼应。\tB．颔联采用了衬托的手法，描绘了潮水浩瀚、轻风和顺的传神景象。\tC．尾联诗人感叹家书无处通达，借大雁北飞表达诗人的思乡之情。\tD．诗人触景生情，借波澜壮阔的景色表达壮志未酬的情怀。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "本诗集中表达了飘泊羁旅的思乡之情，而非\"壮志未酬的情怀\"。", "poemId": null, "knowledgePoints": ["次北固山下", "王湾", "思乡之情"], "poetryType": false},
-{"id": "q_chu1_011", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "七年级某班正在开展\"交友之道\"的主题班会，老师要求同学们把收集的有关交友的诗词名句等展示出来，下列选项中，最不适合的是（　　）A．君子之交淡如水，小人之交甘如醴。——庄子\tB．海内存知己，天涯若比邻。——王勃\tC．人生贵相知，何用金与钱。——李白\tD．独在异乡为异客，每逢佳节倍思亲。——王维", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "\"独在异乡为异客\"抒发思乡之情，与\"交友之道\"无关。", "poemId": null, "knowledgePoints": ["诗词名句", "友情主题", "文学常识"], "poetryType": false},
-{"id": "q_chu1_012", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列对《观沧海》赏析有误的一项是（　　）A．这是一首写景抒情诗。诗人勾画了大海吞吐日月、包蕴万千的壮丽景象，表现了开阔的胸襟，抒发了统一中国建功立业的抱负。\tB．这首诗借景抒情，将眼前的海上景色和自己的雄心壮志融合在一起，开阔的意境和雄浑的气势是诗人宽广胸怀和豪迈气魄的表现，诗里洋溢着作者饱满的激情，意思又很含蓄。\tC．最后一句卒章显志，点明了全诗的主旨。\tD．这是一首四言乐府诗，既总写了沧海全景，又进行了分写。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "最后一句是乐曲终了，与正文内容无直接联系，并非\"卒章显志\"。", "poemId": null, "knowledgePoints": ["观沧海", "曹操", "乐府诗"], "poetryType": false},
-{"id": "q_chu1_013", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对《天净沙•秋思》这首曲子的赏析不正确的一项是（　　）A．此曲的前三句选取了富有特征的九种事物组成了一幅深秋的景色图。\tB．第二句描写诗人所见异乡的幽美、恬静的景象，越发使人感到孤独。\tC．从整个构图来看，前四句写景，末一句写人。景物是背景，人是主体，写景是为了烘托人。\tD．从此曲的题目来看，作者所要表达的是对秋的伤感，而并无思乡之情。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "题目通过写秋天景物表现游子的思乡之情，并非\"并无思乡之情\"。", "poemId": null, "knowledgePoints": ["天净沙·秋思", "马致远", "元曲赏析"], "poetryType": false},
-{"id": "q_chu1_014", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列说法不正确的一项是（　　）A．曹操，字孟德，东汉末年政治家、军事家、诗人，代表作有《龟虽寿》《短歌行》等。\tB．李白，字太白，号青莲居士，唐代诗人，被后人誉为\"诗仙\"，代表作有《望庐山瀑布》《行路难》等。其诗歌多俊逸清新，富有浪漫主义精神。\tC．王昌龄，字少伯，唐代山水田园诗人的代表，被后人誉为\"七绝圣手\"，代表作有《从军行》《出塞》等。\tD．马致远，号东篱，元代戏曲作家、散曲家，有\"曲状元\"之称。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "王昌龄是唐代边塞诗人代表，不是山水田园诗人。", "poemId": null, "knowledgePoints": ["文学常识", "诗人分类", "边塞诗人"], "poetryType": false},
-{"id": "q_chu1_015", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列说法错误的一项是（　　）A．《观沧海》这首诗通过写作者在远征途中登上碣石山俯瞰大海所看见的壮观景象，展现了诗人宽广的胸襟。\tB．《闻王昌龄左迁龙标遥有此寄》是唐代伟大诗人李白为好友王昌龄贬官而作的抒发关怀、寄以慰藉的名作。\tC．《次北固山下》的颈联既写景又点明了时令，给人以乐观、积极向上的艺术鼓舞力量。\tD．《天净沙•秋思》中\"天净沙\"是其词牌名，\"秋思\"是题目，作者马致远，与关汉卿、王实甫，白朴并称为\"元曲四大家\"。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "\"天净沙\"是曲牌名，\"元曲四大家\"不包括王实甫，应为郑光祖。", "poemId": null, "knowledgePoints": ["文学常识", "元曲四大家", "曲牌名"], "poetryType": false},
-{"id": "q_chu1_016", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对《次北固山下》一诗语句的解说不恰当的一项是（　　）A．首联的\"客路\"与尾联的\"乡书\"\"归雁\"遥相照应，全篇笼罩着一层淡淡的乡思愁绪。\tB．\"风正一帆悬\"的\"正\"兼指\"顺\"\"和\"，只有既是顺风，又是和风，帆才能够\"悬\"。\tC．五、六两句不仅写景逼真，叙事真切，而且表现出具有普遍意义的生活真理：时光易逝，人生苦短，给人一种消极之感。\tD．这首五律虽然以第三联驰誉当时，传诵后世，但并不是只有两个佳句而已，从整体看，也是相当和谐，相当优美的。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "颈联海日江春新事物取代旧事物，给人乐观、积极的力量，而非\"消极之感\"。", "poemId": null, "knowledgePoints": ["次北固山下", "王湾", "颈联哲理"], "poetryType": false},
-{"id": "q_chu1_017", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对《次北固山下》这首诗的赏析，不恰当的一项是（　　）A．诗以对偶句开头，既显工丽，又觉跳脱。先写\"客路\"而后写\"行舟\"，那种人在江南、神驰故里的漂泊羁旅之情已流露于字里行间。\tB．第二联的\"风正一帆悬\"写得尤为精彩。本诗正是通过这一小景，呈现了平野开阔、大江泛舟、波平浪静等大景。\tC．第三联写得妙绝。当残夜还未消退之时，一轮红日已从海上升起；旧年尚未逝去，江上已显露春意。两句表达了诗人内心的无比喜悦之情，令人想象到诗人已陶醉于江南的美景中。\tD．尾联写诗人正放舟于绿水之上，正向着青山之外的客路进发，看到北归的大雁正掠过晴空，想托雁儿捎信给在洛阳的家人，诉说自己内心深深的乡愁。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "第三联暗含时光流逝的感慨，触景生情，而非\"陶醉于美景\"。", "poemId": null, "knowledgePoints": ["次北固山下", "王湾", "诗歌赏析"], "poetryType": false},
-{"id": "q_chu1_018", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "选出对古诗赏析有误的一项（　　）闻王昌龄左迁龙标遥有此寄李白杨花落尽子规啼，闻道龙标过五溪。我寄愁心与明月，随君直到夜郎西。A．题目中的\"左迁\"指降职，李白听说好友王昌龄被贬为龙标尉，于是写下了这首诗。\tB．首句写\"杨花落尽\"和\"子规啼\"，融情于景，渲染了悲凉、感伤的气氛。\tC．第二句中的\"过五溪\"三字看似平淡，其实是写出了龙标的荒远和李白对友人的同情。\tD．后两句运用了夸张的修辞手法，表达了诗人的忧愁、无奈及对友人的关切之情。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "后两句采用拟人手法，并非\"夸张\"。", "poemId": null, "knowledgePoints": ["闻王昌龄左迁龙标遥有此寄", "李白", "拟人手法"], "poetryType": false},
-{"id": "q_chu1_019", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "古代诗歌中，\"月\"是常见的意象，下面与\"月\"有关的诗句中，写到传统节日的一项是（　　）A．举杯邀明月，对影成三人。\tB．明月松间照，清泉石上流。\tC．明月几时有？把酒问青天。\tD．小时不识月，呼作白玉盘。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "《水调歌头·明月几时有》写的是中秋节。", "poemId": null, "knowledgePoints": ["月意象", "传统节日", "中秋节"], "poetryType": false},
-{"id": "q_chu1_020", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列对诗句的理解，不正确的一项是（　　）A．\"安得广厦千万间，大庇天下寒士俱欢颜\"（《茅屋为秋风所破歌》），写诗人盼望眼前出现千万间广厦来庇护天下寒士，表达了忧国忧民之情。\tB．\"沉舟侧畔千帆过，病树前头万木春\"（《酬乐天扬州初逢席上见赠》）。诗人以\"沉舟\"和\"病树\"自比，虽流露出惆怅之情，但依然乐观进取。\tC．\"何当共剪西窗烛，却话巴山夜雨时\"（《夜雨寄北》），写诗人出行在外，思归而不得归，只能独自剪烛西窗，在巴山的夜雨中思念家乡。\tD．\"会挽雕弓如满月，西北望，射天狼\"（《江城子•密州出猎》），勾勒出挽弓劲射的英雄形象，表达了词人希望为国御敌立功的壮志。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "由眼前孤独憧憬未来团聚，以乐反衬，而非\"独自剪烛西窗思念家乡\"。", "poemId": null, "knowledgePoints": ["夜雨寄北", "李商隐", "诗句理解"], "poetryType": false},
-{"id": "q_chu1_021", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对下面两首古诗理解和分析不恰当的一项是（　　）酬乐天扬州初逢席上见赠（刘禹锡）巴山楚水凄凉地，二十三年弃置身。怀旧空吟闻笛赋，到乡翻似烂柯人。沉舟侧畔千帆过，病树前头万木春。今日听君歌一曲，暂凭杯酒长精神。十一月四日风雨大作（其二）（陆游）僵卧孤村不自哀，尚思为国戍轮台。夜阑卧听风吹雨，铁马冰河入梦来。A．《酬乐天扬州初逢席上见赠》颔联写诗人回到了久别的家乡，虽人事全非，心里却有欣慰之情。\tB．《十一月四日风雨大作》（其二）作者晚年仍想着从军奔赴边疆，跨战马，抗击敌人进犯。\tC．两首诗均用字考究，《酬乐天扬州初逢席上见赠》中\"沉舟\"\"病树\"是比喻久遭贬谪的诗人自己；《十一月四日风雨大作》（其二）中\"僵卧\"道出了诗人老迈的境况。\tD．两首诗表达的情感有所不同，《酬乐天扬州初逢席上见赠》既是对朋友关怀的感谢，也是和友人共勉，表现了诗人坚定的意志和乐观的精神，也给友人以鼓舞：《十一月四日风雨大作》（其二）表达了诗人的爱国热情，希望用实际行动来报效国家的思想感情。", "options": [{"text": "A", "correct": true}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "A", "explanation": "颔联人事全非，心中怅惘之情，而非\"欣慰之情\"。", "poemId": null, "knowledgePoints": ["酬乐天扬州初逢席上见赠", "十一月四日风雨大作", "对比赏析"], "poetryType": false},
-{"id": "q_chu1_022", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列对《闻王昌龄左迁龙标遥有此寄》的理解和分析，不正确的一项是（　　）A．诗歌首句写景，次句叙事，后两句抒情。\tB．首句写景兼点时令，突出了杨花的美丽和子规啼叫的悦耳，使人赏心悦目。\tC．诗中将无知无情的明月当成善解人意的人，寄托了诗人对友人的怀念和同情。\tD．诗歌想象奇特，体现了李白诗的浪漫主义风格。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": true}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "B", "explanation": "杨花含飘零之感，子规有离别之恨，并非\"美丽悦耳\"。", "poemId": null, "knowledgePoints": ["闻王昌龄左迁龙标遥有此寄", "李白", "意象分析"], "poetryType": false},
-{"id": "q_chu1_023", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "选出对李商隐的《夜雨寄北》赏析有误的一项（　　）夜雨寄北君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。A．这首七绝情思委婉，清新流畅。诗人以眼前之景预测未来，遥想他日相聚，情致曲折，深刻的思念之情贯注其中。\tB．第一句一问一答，跌宕有致，极富表现力，其羁旅之愁与不得归之苦，已跃然纸上。\tC．\"何当\"为想象希望之词。对坐西窗，共剪烛花，想象美丽，写得逼真，表达出诗人深挚的思念之情。\tD．尾句\"巴山夜雨\"四字重出，表现作者看重这异乡奇景，要将它描述给亲友听。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "\"巴山夜雨\"虚写未来团聚，衬托眼下孤寂，并非\"看重异乡奇景\"。", "poemId": null, "knowledgePoints": ["夜雨寄北", "李商隐", "诗歌赏析"], "poetryType": false},
-{"id": "q_chu1_024", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下面这首诗理解不正确的一项是（　　）夜雨寄北君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。A．\"君问归期未有期\"所含情感是无法尽快与妻子（友人）相见的无奈。\tB．\"巴山夜雨涨秋池\"是说自己处境的孤寂凄冷。\tC．\"何当共剪西窗烛\"是指对与妻子（友人）促膝长读的深切期盼。\tD．诗中最后两句是实写自己的经历。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "最后两句是诗人想象的团聚情景，是虚写而非实写。", "poemId": null, "knowledgePoints": ["夜雨寄北", "李商隐", "虚实结合"], "poetryType": false},
-{"id": "q_chu1_025", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "品读古典诗词，感受节日文化，将下列诗句按传统节日先后顺序排列，正确的一项是（　　）①清明时节雨纷纷，路上行人欲断魂。②遥知兄弟登高处，遍插茱萸少一人。③千门万户瞳瞳日，总把新桃换旧符。④樱桃桑葚与菖蒲，更买雄黄酒一壶。⑤去年元夜时，花市灯如昼。A．③⑤①②④\tB．③⑤①④②\tC．⑤③①②④\tD．⑤③①④②", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": true}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "B", "explanation": "顺序：春节→元宵节→清明节→端午节→重阳节，即③⑤①④②。", "poemId": null, "knowledgePoints": ["传统节日", "诗句排序", "文化常识"], "poetryType": false},
-{"id": "q_chu1_026", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列说法不正确的一项是（　　）A．《次北固山下》借潮平岸阔之景抒发了作者热爱家乡之情。\tB．《观沧海》中诗人以沧海自比，表现了开阔的胸襟，抒发了统一中原，建功立业的宏伟抱负。\tC．《天净沙•秋思》的前三句写了九种事物，极力渲染了秋天悲凉的气氛。\tD．《闻王昌龄左迁龙标遥有此寄》抒发了诗人对远行的友人的关心、思念和同情之情。", "options": [{"text": "A", "correct": true}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "A", "explanation": "《次北固山下》抒发思念家乡之情，而非\"热爱家乡之情\"。", "poemId": null, "knowledgePoints": ["文学常识", "古代诗歌四首", "情感分析"], "poetryType": false},
-{"id": "q_chu1_027", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "赏析这首元曲山坡羊•潼关怀古峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌躇。伤心秦汉经行处，宫阙万间都做了土。兴，百姓苦；亡，百姓苦。对《山坡羊•潼关怀古》赏析有误的一项是（　　）A．这是一首元散曲，\"山坡羊\"是曲牌名，\"潼关怀古\"是题目，作者是元代散曲家张养浩。\tB．\"聚\"和\"怒\"写出了山河的动态与灵性，将山的雄伟与水的奔腾之势勾勒出来，有力地烘托了作者吊古伤今的悲愤伤感之情。\tC．\"兴，百姓苦；亡，百姓苦\"一句道出了全文主旨，揭示了统治者压迫人民的本质。\tD．诗人只是为\"宫阙万间都做了土\"而伤心。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "诗人不仅为\"宫阙万间做了土\"而伤心，更为百姓在战争中的遭遇而伤心。", "poemId": null, "knowledgePoints": ["山坡羊·潼关怀古", "张养浩", "元曲赏析"], "poetryType": false},
-{"id": "q_chu1_028", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对下面这首诗的赏析，不恰当的一项是（　　）次北固山下王湾客路青山外，行舟绿水前。潮平两岸阔，风正一帆悬。海日生残夜，江春入旧年。乡书何处达？归雁洛阳边。A．这是一首触景生情的写景诗，在春夏之交，作者泊舟北固山下，眼望长江两岸的风景，抒发思乡的愁绪，全诗层层相因，浑然一体。\tB．开头两句点明题意，\"客路\"与\"行舟\"暗含着诗人旅居在外、神驰故里的漂泊情思，与尾联的\"乡书\"\"归雁\"遥相呼应。\tC．颔联写船上所见景色，其中\"平\"\"阔\"\"正\"\"悬\"四字炼得好，写出春潮涌涨、江水浩荡的壮观景象，为下联描写作了铺垫。\tD．颈联从炼意着眼，把\"日\"与\"春\"作为新生的美好事物的象征，用拟人化语言赋予它们人的意志和情感，蕴含一种自然的理趣。", "options": [{"text": "A", "correct": true}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "A", "explanation": "应为\"冬末春初\"，而非\"春夏之交\"。", "poemId": null, "knowledgePoints": ["次北固山下", "王湾", "诗歌赏析"], "poetryType": false},
-{"id": "q_chu1_029", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "阅读诗歌，完成下题。十一月四日风雨大作（其二）僵卧孤村不自哀，尚思为国戍轮台。夜阑卧听风吹雨，铁马冰河入梦来。下面赏析有误的一项是（　　）A．全诗由述志和记梦两部分组成，两者之间是因果关系。\tB．诗中\"尚\"字表现诗人强烈的至死不渝的爱国之情，报国之志。\tC．诗的后两句都是写梦境，与前两句写实相互映衬。\tD．全诗气势豪壮，感情真挚，具有强烈的感染力。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "后一句是梦境，前一句是现实，\"风吹雨\"一语双关。", "poemId": null, "knowledgePoints": ["十一月四日风雨大作", "陆游", "一语双关"], "poetryType": false},
-{"id": "q_chu1_030", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列诗句中不是对偶的一项是（　　）A．举头望明月，低头思故乡。\tB．岐王宅里寻常见，崔九堂前几度闻。\tC．潮平两岸阔，风正一帆悬。\tD．乡书何处达？归雁洛阳边。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "一问一答，结构不同，未使用对偶修辞手法。", "poemId": null, "knowledgePoints": ["对偶修辞", "诗句判断", "文学常识"], "poetryType": false},
-{"id": "q_chu1_031", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "学完本课《古代诗歌四首》，小强把诗句按季节进行了归类。下列诗句所描写的景物，在季节上不同于其他三项的一项是（　　）A．客路青山外\tB．杨花落尽子规啼\tC．夜来风雨声，花落知多少\tD．枯藤老树昏鸦", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "ABC描写春季，D描写秋季。", "poemId": null, "knowledgePoints": ["季节判断", "诗歌意象", "古代诗歌四首"], "poetryType": false},
-{"id": "q_chu1_032", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "班级开展\"寻觅春天的踪迹\"综合实践活动，请你参与。【春天的古诗】同学们搜集了许多咏春的古诗词，下列不属于描写春天景色的诗句是（　　）A．忽如一夜春风来，千树万树梨花开。\tB．沾衣欲湿杏花雨，吹面不寒杨柳风。\tC．天街小雨润如酥，草色遥看近却无。\tD．两个黄鹂鸣翠柳，一行白鹭上青天。", "options": [{"text": "A", "correct": true}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "A", "explanation": "\"忽如一夜春风来\"写冬季景色，将雪比作梨花。", "poemId": null, "knowledgePoints": ["春天诗句", "季节判断", "咏春诗词"], "poetryType": false},
-{"id": "q_chu1_033", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列诗句不能表现珍惜时间勤奋刻苦读书的一项是（　　）A．少壮不努力，老大徒伤悲。\tB．一生大笑能几回，斗酒相逢须醉倒。\tC．莫等闲，白了少年头，空悲切。\tD．黑发不知勤学早，白首方悔读书迟。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": true}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "B", "explanation": "\"斗酒相逢须醉倒\"写老友欢聚，与珍惜时间无关。", "poemId": null, "knowledgePoints": ["珍惜时间", "勤奋读书", "诗句理解"], "poetryType": false},
-{"id": "q_chu1_034", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列古诗词中不是咏雪的一项是（　　）A．忽如一夜春风来，千树万树梨花开。\tB．白雪却嫌春色晚，故穿庭树作飞花。\tC．燕山雪花大如席，片片吹落轩辕台。\tD．遥知不是雪，为有暗香来。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "\"遥知不是雪，为有暗香来\"写的是梅花，不是雪。", "poemId": null, "knowledgePoints": ["咏雪诗词", "梅花", "意象判断"], "poetryType": false},
-{"id": "q_chu1_035", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列诗句的朗读节奏，划分不正确的一项是（　　）A．我寄愁心/与明月，随君直到/夜郎西\tB．潮平/两岸阔，风正/一帆悬\tC．夕阳/西下，断肠人在/天涯\tD．杨花落尽/子规啼，闻道龙标/过五溪", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "\"断肠人在天涯\"应为：断肠人/在天涯，而非断肠人在/天涯。", "poemId": null, "knowledgePoints": ["朗读节奏", "文言文断句", "诗句节奏"], "poetryType": false},
-{"id": "q_chu1_036", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列诗词与《次北固山下》情感一致的一项是（　　）A．《滁州西润》\tB．《泊秦淮》\tC．《闻王昌龄左迁龙标遥有此寄》\tD．《天净沙•秋思》", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "《天净沙·秋思》与《次北固山下》都表达游子思乡之情。", "poemId": null, "knowledgePoints": ["次北固山下", "天净沙·秋思", "思乡之情对比"], "poetryType": false},
-{"id": "q_chu1_037", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "\"海日生残夜，江春入旧年\"历来被人称道，下列对这两句诗赏析不正确的一项是（　　）A．在描写景物、时令之中，蕴含着一种时序交替的自然理趣。\tB．把\"日\"和\"春\"作为新生事物的象征，给人以积极向上的力量。\tC．\"生\"与\"入\"用了比喻的手法，生动形象，富有情趣。\tD．两句诗对仗工整，明人胡应麟称它\"形容景物，妙绝千古\"。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "\"生\"与\"入\"用了拟人手法，而非\"比喻\"。", "poemId": null, "knowledgePoints": ["次北固山下", "王湾", "修辞手法"], "poetryType": false},
-{"id": "q_chu1_038", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列文学常识的表述正确的一项是（　　）A．《观沧海》古体诗，选自《曹操集》。作者曹操，字孟德，一名吉利，小字阿瞒。西汉末年杰出的政治家、军事家、文学家，三国中曹魏政权的奠基人。\tB．《闻王昌龄左迁龙标遥有此寄》七言绝句，选自《李白集校注》。作者李白，字太白，号青莲居士，是唐代伟大的现实主义诗人，被后人誉为\"诗仙\"。\tC．《次北固山下》五言律诗，选自《全唐诗》卷一百一十五。作者王湾，洛阳人，唐代诗人。\tD．《天净沙•秋思》散曲，选自《全元散曲》。作者马致远，字东篱，号千里。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "曹操是东汉末年人，不是西汉末年。", "poemId": null, "knowledgePoints": ["文学常识", "曹操", "朝代判断"], "poetryType": false},
-{"id": "q_chu1_039", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "阅读回答问题。闻王昌龄左迁龙标遥有此寄（李白）杨花落尽子规啼，闻道龙标过五溪。我寄愁心与明月，随君直到夜郎西。下列对诗歌赏析有误的一项是（　　）A．题目中的\"左迁\"指降职，李白听说好友王昌龄被贬写了这首诗。\tB．首句写\"杨花落尽\"和\"子规啼\"点明时令，描绘的是暮春季节的景物。\tC．\"闻道龙标过五溪\"中的\"闻\"字是\"道听途说\"的意思，可见诗人对友人漠不关心。\tD．后两句将明月当成善解人意的知心人，寄托了诗人对友人的担忧。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "\"闻\"是\"听闻\"的意思，体现诗人对友人的关切，而非\"漠不关心\"。", "poemId": null, "knowledgePoints": ["闻王昌龄左迁龙标遥有此寄", "李白", "词语理解"], "poetryType": false},
-{"id": "q_chu1_040", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列对《次北固山下》解说错误的一项是（　　）A．律诗有严格的格律要求，颔联和颈联必须对仗。而这首五言律诗除中间两联外，第一联也是对仗的。\tB．诗人首联先写\"客路\"而后写\"行舟\"，其人在江南、神驰故里的漂泊羁旅之情，已流露于字里行间。\tC．颔联的\"潮平两岸阔\"，写出了春潮涌涨、江水浩渺的情景，放眼望去，江面似乎与岸平了。\tD．颈联把\"日\"与\"春\"作为流逝的时光的象征，提到主语的位置加以强调，并且用\"生\"字和\"入\"字使之拟人化。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "颈联把\"日\"和\"春\"作为新生美好事物的象征，而非\"时光流逝的象征\"。", "poemId": null, "knowledgePoints": ["次北固山下", "王湾", "颈联理解"], "poetryType": false},
-{"id": "q_chu1_041", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对下面几句诗的韵脚判断正确的一项是（　　）僵卧孤村不自哀，尚思为国戍轮台。夜阑卧听风吹雨，铁马冰河入梦来。A．台、来\tB．哀、雨\tC．哀、台、来\tD．哀、台", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "偶句末字押韵，二、四句末字为台、来，首句入韵，韵脚为哀，即哀、台、来。", "poemId": null, "knowledgePoints": ["韵脚", "行军九日思长安故园", "文化常识"], "poetryType": false},
-{"id": "q_chu1_042", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "《十一月四日风雨大作》中以梦述志，表现老诗人报效祖国忠心不衰之情的诗句是（　　）A．僵卧孤村不自哀\tB．尚思为国戍轮台\tC．夜阑卧听风吹雨\tD．铁马冰河入梦来", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "\"铁马冰河入梦来\"是梦境，表现报效祖国忠心不衰之情。", "poemId": null, "knowledgePoints": ["十一月四日风雨大作", "陆游", "诗句理解"], "poetryType": false},
-{"id": "q_chu1_043", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "古诗《行军九日思长安故园》中，下列字词解释不正确的一项是（　　）A．行军：行营、军营。\tB．九日：九天。\tC．强：勉强。\tD．傍：靠近、接近。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": true}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "B", "explanation": "九日：指九月九日重阳节，不是\"九天\"。", "poemId": null, "knowledgePoints": ["行军九日思长安故园", "岑参", "词语解释"], "poetryType": false},
-{"id": "q_chu1_044", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "\"菊花\"是古诗词中经常出现的一种意象，在不同的语境中寄托了不同的情怀。以下诗句中的\"菊\"和《行军九日思长安故园》中的\"菊\"表达的思想感情最接近的一项是（　　）A．荷尽已无擎雨盖，菊残犹有傲霜枝。\tB．待到重阳日，还来就菊花。\tC．故乡篱下菊，今日几花开。\tD．采菊东篱下，悠然现南山。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "\"故乡篱下菊，今日几花开\"表达思乡之情，与《行军九日思长安故园》中的\"菊\"最接近。", "poemId": null, "knowledgePoints": ["行军九日思长安故园", "菊花意象", "思乡之情"], "poetryType": false},
-{"id": "q_chu1_045", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "\"遥怜故园菊，应傍战场开。\"诗人通过这句诗表达的情感有（　　）①对战火中的故园菊花的怜惜之情。②思乡之情。③对国事的忧虑。④对早日平定战乱的渴望。A．①②③\tB．①③④\tC．①②④\tD．①②③④", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "诗人对饱经战争忧患的人民的同情，对早日平定安史之乱的渴望。", "poemId": null, "knowledgePoints": ["行军九日思长安故园", "岑参", "情感分析"], "poetryType": false},
-{"id": "q_chu1_046", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对《十五夜望月》王建这首诗中语句的解说，不正确的一项是（　　）中庭地白树栖鸦，冷露无声湿桂花。今夜月明人尽望，不知秋思落谁家？A．第一句中的\"地白\"，是在描写庭院中的地面在皎洁月光照耀下，好像铺上了一层霜雪。\tB．第二句\"冷\"字既是描写了秋夜露珠的清冷，同时也表现了作者独在异乡孤寂怅然的心境。\tC．第三句中的\"人尽望\"写明月当空，庭院中明如白昼，各种景物、人都可以清楚清楚地看到。\tD．第四句的意思是，在这八月十五之夜，不知那深深的秋思落在谁那里，表达了诗人的怀乡之情。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "\"人尽望\"意为人们都在望着明月，而非\"各种景物都可以清楚看到\"。", "poemId": null, "knowledgePoints": ["十五夜望月", "王建", "诗句理解"], "poetryType": false},
-{"id": "q_chu1_047", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列对两首诗的内容与情感的理解，不正确的一项是（　　）A．《送杜少府之任蜀州》首联描写友人即将离京赴任蜀州，诗人遥望蜀地，视线却为风烟所遮，心头萌生淡淡的伤感。\tB．《峨眉山月歌》描写了诗人乘船顺江而下所见之景，\"峨眉山月\"与诗人千里相随，触发了诗人对友人的思念之情。\tC．《峨眉山月歌》后两句叙写诗人江上行船的旅程，表现了诗人离友人越远就越加思念的情感。\tD．《送杜少府之任蜀州》和《峨眉山月歌》皆为离别而作，两首诗均充满了离愁别绪和难以释怀的悲戚之情。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "两首诗并非\"充满了离愁别绪和难以释怀的悲戚之情\"。", "poemId": null, "knowledgePoints": ["送杜少府之任蜀州", "峨眉山月歌", "离别诗对比"], "poetryType": false},
-{"id": "q_chu1_048", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列对《夜雨寄北》这首诗理解分析不正确的一项是（　　）A．这首诗通过对归期问询的回答，抒发了诗人对亲友的深情。\tB．\"君问归期未有期\"所含情感是无法尽快与亲友相见的无奈。\tC．第二句写想象景象，在想象的夜雨景象中，表现出诗人愁思的绵绵深重。\tD．诗中\"期\"字和\"巴山夜雨\"重复出现，造成回环往复、缠绵曲折的意境。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "第二句是实写眼前的秋雨景象，并非\"想象景象\"。", "poemId": null, "knowledgePoints": ["夜雨寄北", "李商隐", "实写虚写"], "poetryType": false},
-{"id": "q_chu1_049", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "下列对《秋词》这首诗的赏析，错误的一项是（　　）A．诗的前两句，先弃\"逢秋悲寂寞\"的常情，后立\"秋日胜春朝\"的新见，气势不凡。\tB．诗的后两句，描绘了一幅鹤飞冲天的画面，在生机勃勃的景象中倾诉诗人的情怀。\tC．本诗是咏秋之作，所写景虽明丽畅快，但仍未摆脱\"悲秋\"的情调。\tD．细读此诗，约略能感觉到诗中隐含诗人因支持变法屡遭贬谪、愈挫愈奋的豪壮情怀。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": true}, {"text": "D", "correct": false}], "answer": "C", "explanation": "《秋词》气势雄浑，意境壮丽，是一种高扬精神和开阔胸襟，并未\"摆脱悲秋情调\"。", "poemId": null, "knowledgePoints": ["秋词", "刘禹锡", "诗歌赏析"], "poetryType": false},
-{"id": "q_chu1_050", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对谭嗣同的《潼关》理解不正确的一项是（　　）A．此诗首句写潼关雄踞山腰，下临黄河，形势十分险要。\tB．次句写作者行经此地，马蹄声声，被秋风吹散，点明时间和旅程。\tC．三、四句写黄河浩浩荡荡以及潼关境域内的山峦起伏。\tD．全诗清新秀丽，写景与言情巧妙结合，含蓄又生动。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": false}, {"text": "C", "correct": false}, {"text": "D", "correct": true}], "answer": "D", "explanation": "全诗豪迈奔放，\"全诗清新秀丽\"错误。", "poemId": null, "knowledgePoints": ["潼关", "谭嗣同", "诗歌风格"], "poetryType": false},
-{"id": "q_chu1_051", "type": "choice", "grade": "chu1", "source": "七年级语文同步练习·菁优网", "difficulty": 2, "question": "对《天净沙•秋思》这首小令分析不当的一项是（　　）A．\"枯藤老树昏鸦\"渲染了一种暗淡凄凉的气氛，暮鸦归巢，使游子动了思乡之情。\tB．\"小桥流水人家\"描写了诗人记忆中的故乡的幽美、恬静的景象，而今身在异乡，越发感到孤独。\tC．\"古道西风瘦马\"一句描写了伫立于寒风之中诗人孤独、寂寥的形象。\tD．\"断肠人在天涯\"一句直接抒发了诗人的感受，在前几句\"景\"的渲染下，诗人的思乡之情得到了充分的表现。", "options": [{"text": "A", "correct": false}, {"text": "B", "correct": true}, {"text": "C", "correct": false}, {"text": "D", "correct": false}], "answer": "B", "explanation": "\"小桥流水人家\"是诗人见到的眼前实景，不是记忆中故乡的景象。", "poemId": null, "knowledgePoints": ["天净沙·秋思", "马致远", "意象分析"], "poetryType": false}
+        }
 ];
