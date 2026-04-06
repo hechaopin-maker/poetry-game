@@ -260,12 +260,14 @@
             border: 2px solid var(--secondary);
             border-radius: 12px;
             padding: 15px 20px;
+            min-height: 44px;
             font-size: 1.1em;
             cursor: pointer;
             transition: all 0.2s;
             display: flex;
             align-items: center;
             gap: 12px;
+            box-sizing: border-box;
         }
         
         .option:hover:not(.disabled) {
@@ -386,12 +388,14 @@
             color: #fff;
             border: none;
             padding: 12px 30px;
+            min-height: 44px;
             font-size: 1.1em;
             font-family: inherit;
             border-radius: 25px;
             cursor: pointer;
             transition: all 0.3s;
             box-shadow: 0 4px 15px var(--shadow);
+            box-sizing: border-box;
         }
         
         .btn:hover {
@@ -731,7 +735,8 @@
             }
             
             .option {
-                padding: 12px 15px;
+                padding: 14px 16px;
+                min-height: 44px;
                 font-size: 0.95em;
             }
             
@@ -811,7 +816,8 @@
             }
             
             .option {
-                padding: 10px 12px;
+                padding: 14px 16px;
+                min-height: 44px;
                 font-size: 0.9em;
                 margin-bottom: 8px;
             }
@@ -891,7 +897,8 @@
             }
             
             .btn {
-                padding: 10px 20px;
+                padding: 14px 24px;
+                min-height: 44px;
                 font-size: 0.95em;
             }
             
