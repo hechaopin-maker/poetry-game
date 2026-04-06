@@ -23016,5 +23016,1407 @@ const QUESTIONS_DATA = [
                         "苏轼",
                         "饮湖上初晴后雨"
                 ]
+        },
+    // 新增小升初真题（共40道，2026-04-06导入）
+
+        {
+                "id": "q_mk_001",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "古诗《回乡偶书》中「少小离家老大回」的下一句是什么？",
+                "options": [
+                        {
+                                "text": "乡音无改鬓毛衰",
+                                "correct": true
+                        },
+                        {
+                                "text": "笑问客从何处来",
+                                "correct": false
+                        },
+                        {
+                                "text": "近乡情更怯",
+                                "correct": false
+                        },
+                        {
+                                "text": "羁鸟恋旧林",
+                                "correct": false
+                        }
+                ],
+                "answer": "乡音无改鬓毛衰",
+                "explanation": "此句出自贺知章《回乡偶书》，意思是年轻时离开家乡，年老时才回来，乡音虽未改变但鬓发已斑白。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "贺知章",
+                        "思乡",
+                        "古诗名句"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_002",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "《望庐山瀑布》这首诗的作者是谁？",
+                "options": [
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": false
+                        },
+                        {
+                                "text": "白居易",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《望庐山瀑布》是唐代诗人李白的作品，描写了庐山瀑布的壮丽景色。",
+                "poemId": "poem_001",
+                "knowledgePoints": [
+                        "李白",
+                        "庐山瀑布",
+                        "唐诗"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_003",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列哪句诗运用了「拟人」的修辞手法？",
+                "options": [
+                        {
+                                "text": "不知细叶谁裁出，二月春风似剪刀",
+                                "correct": false
+                        },
+                        {
+                                "text": "飞流直下三千尺，疑是银河落九天",
+                                "correct": false
+                        },
+                        {
+                                "text": "桃花潭水深千尺，不及汪伦送我情",
+                                "correct": false
+                        },
+                        {
+                                "text": "两个黄鹂鸣翠柳，一行白鹭上青天",
+                                "correct": true
+                        }
+                ],
+                "answer": "两个黄鹂鸣翠柳，一行白鹭上青天",
+                "explanation": "此句出自杜甫《绝句》，将黄鹂和翠柳人格化，用「鸣」字赋予黄鹂人的动作，是拟人修辞。",
+                "poemId": "poem_002",
+                "knowledgePoints": [
+                        "修辞手法",
+                        "拟人",
+                        "杜甫"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_004",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "《九月九日忆山东兄弟》中的「山东」指的是现在的哪个省？",
+                "options": [
+                        {
+                                "text": "山西省",
+                                "correct": false
+                        },
+                        {
+                                "text": "山东省",
+                                "correct": true
+                        },
+                        {
+                                "text": "河南省",
+                                "correct": false
+                        },
+                        {
+                                "text": "河北省",
+                                "correct": false
+                        }
+                ],
+                "answer": "山东省",
+                "explanation": "王维是唐代山西永济人，诗中的「山东」指华山以东的地区，即现在的山东省，而非今天的山西省。",
+                "poemId": "poem_007",
+                "knowledgePoints": [
+                        "王维",
+                        "重阳节",
+                        "地理常识"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_005",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "下列诗句中描写「春节」的是哪一句？",
+                "options": [
+                        {
+                                "text": "清明时节雨纷纷",
+                                "correct": false
+                        },
+                        {
+                                "text": "爆竹声中一岁除",
+                                "correct": true
+                        },
+                        {
+                                "text": "海上生明月",
+                                "correct": false
+                        },
+                        {
+                                "text": "每逢佳节倍思亲",
+                                "correct": false
+                        }
+                ],
+                "answer": "爆竹声中一岁除",
+                "explanation": "此句出自王安石《元日》，描写了春节燃放爆竹、辞旧迎新的景象。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "春节",
+                        "王安石",
+                        "传统节日"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_006",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "《游子吟》中「谁言寸草心」的下一句是什么？",
+                "options": [
+                        {
+                                "text": "报得三春晖",
+                                "correct": true
+                        },
+                        {
+                                "text": "风吹草地见牛羊",
+                                "correct": false
+                        },
+                        {
+                                "text": "疑是地上霜",
+                                "correct": false
+                        },
+                        {
+                                "text": "低头思故乡",
+                                "correct": false
+                        }
+                ],
+                "answer": "报得三春晖",
+                "explanation": "此句出自孟郊《游子吟》，意思是谁说子女如小草般的孝心，能报答得了像春晖般的母爱。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "孟郊",
+                        "母爱",
+                        "亲情"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_007",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "下列哪首诗表达了「思念故乡」的感情？",
+                "options": [
+                        {
+                                "text": "《咏鹅》",
+                                "correct": false
+                        },
+                        {
+                                "text": "《春晓》",
+                                "correct": false
+                        },
+                        {
+                                "text": "《静夜思》",
+                                "correct": true
+                        },
+                        {
+                                "text": "《登鹳雀楼》",
+                                "correct": false
+                        }
+                ],
+                "answer": "《静夜思》",
+                "explanation": "李白的《静夜思》通过「举头望明月，低头思故乡」表达了诗人对故乡的深切思念。",
+                "poemId": "poem_006",
+                "knowledgePoints": [
+                        "李白",
+                        "思乡",
+                        "月亮"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_008",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "《敕勒歌》是一首描写什么的诗歌？",
+                "options": [
+                        {
+                                "text": "江南水乡",
+                                "correct": false
+                        },
+                        {
+                                "text": "塞北草原",
+                                "correct": true
+                        },
+                        {
+                                "text": "城市风景",
+                                "correct": false
+                        },
+                        {
+                                "text": "田园生活",
+                                "correct": false
+                        }
+                ],
+                "answer": "塞北草原",
+                "explanation": "《敕勒歌》是南北朝时期的乐府诗，描写了塞北草原苍茫辽阔的景象。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "草原",
+                        "民歌",
+                        "塞北"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_009",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列诗句中使用了「对偶」修辞手法的是哪一句？",
+                "options": [
+                        {
+                                "text": "白日依山尽",
+                                "correct": true
+                        },
+                        {
+                                "text": "床前明月光",
+                                "correct": false
+                        },
+                        {
+                                "text": "春眠不觉晓",
+                                "correct": false
+                        },
+                        {
+                                "text": "锄禾日当午",
+                                "correct": false
+                        }
+                ],
+                "answer": "白日依山尽",
+                "explanation": "此句出自王之涣《登鹳雀楼》，与下句「黄河入海流」形成对偶。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "修辞手法",
+                        "对偶",
+                        "王之涣"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_010",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "《江雪》这首诗的作者是？",
+                "options": [
+                        {
+                                "text": "李白",
+                                "correct": false
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": false
+                        },
+                        {
+                                "text": "柳宗元",
+                                "correct": true
+                        }
+                ],
+                "answer": "柳宗元",
+                "explanation": "《江雪》是唐代诗人柳宗元的作品。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "柳宗元",
+                        "唐诗",
+                        "写景"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_011",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "下列诗句中描写「秋天」的是哪一句？",
+                "options": [
+                        {
+                                "text": "停车坐爱枫林晚，霜叶红于二月花",
+                                "correct": true
+                        },
+                        {
+                                "text": "小荷才露尖尖角，早有蜻蜓立上头",
+                                "correct": false
+                        },
+                        {
+                                "text": "墙角数枝梅，凌寒独自开",
+                                "correct": false
+                        },
+                        {
+                                "text": "清明时节雨纷纷",
+                                "correct": false
+                        }
+                ],
+                "answer": "停车坐爱枫林晚，霜叶红于二月花",
+                "explanation": "此句出自杜牧《山行》，描写的是秋天的枫叶美景。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "秋天",
+                        "枫叶",
+                        "杜牧"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_012",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "《望天门山》中「天门中断楚江开」的下一句是什么？",
+                "options": [
+                        {
+                                "text": "碧水东流至此回",
+                                "correct": true
+                        },
+                        {
+                                "text": "唯见长江天际流",
+                                "correct": false
+                        },
+                        {
+                                "text": "千里江陵一日还",
+                                "correct": false
+                        },
+                        {
+                                "text": "烟波江上使人愁",
+                                "correct": false
+                        }
+                ],
+                "answer": "碧水东流至此回",
+                "explanation": "此句出自李白《望天门山》。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "李白",
+                        "长江",
+                        "天门山"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_013",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列哪句诗不是出自唐代诗人之手？",
+                "options": [
+                        {
+                                "text": "春眠不觉晓，处处闻啼鸟",
+                                "correct": false
+                        },
+                        {
+                                "text": "床前明月光，疑是地上霜",
+                                "correct": false
+                        },
+                        {
+                                "text": "明月几时有？把酒问青天",
+                                "correct": true
+                        },
+                        {
+                                "text": "白日依山尽，黄河入海流",
+                                "correct": false
+                        }
+                ],
+                "answer": "明月几时有？把酒问青天",
+                "explanation": "此句出自宋代苏轼的《水调歌头》，作者是宋代词人。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "苏轼",
+                        "宋代",
+                        "词"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_014",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "《枫桥夜泊》描写的是哪个季节的景色？",
+                "options": [
+                        {
+                                "text": "春季",
+                                "correct": false
+                        },
+                        {
+                                "text": "夏季",
+                                "correct": false
+                        },
+                        {
+                                "text": "秋季",
+                                "correct": true
+                        },
+                        {
+                                "text": "冬季",
+                                "correct": false
+                        }
+                ],
+                "answer": "秋季",
+                "explanation": "此诗出自张继《枫桥夜泊》，从「月落乌啼霜满天」可知描写的是深秋时节的夜景。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "张继",
+                        "秋天",
+                        "夜晚"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_015",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列诗句中，哪句使用了「夸张」的修辞手法？",
+                "options": [
+                        {
+                                "text": "不知细叶谁裁出，二月春风似剪刀",
+                                "correct": false
+                        },
+                        {
+                                "text": "飞流直下三千尺，疑是银河落九天",
+                                "correct": true
+                        },
+                        {
+                                "text": "桃花潭水深千尺，不及汪伦送我情",
+                                "correct": false
+                        },
+                        {
+                                "text": "明月松间照，清泉石上流",
+                                "correct": false
+                        }
+                ],
+                "answer": "飞流直下三千尺，疑是银河落九天",
+                "explanation": "此句出自李白《望庐山瀑布》，用「三千尺」夸张地描写瀑布的落差。",
+                "poemId": "poem_001",
+                "knowledgePoints": [
+                        "修辞手法",
+                        "夸张",
+                        "李白"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_016",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "《游子吟》这首诗赞美的是谁？",
+                "options": [
+                        {
+                                "text": "父亲",
+                                "correct": false
+                        },
+                        {
+                                "text": "母亲",
+                                "correct": true
+                        },
+                        {
+                                "text": "老师",
+                                "correct": false
+                        },
+                        {
+                                "text": "朋友",
+                                "correct": false
+                        }
+                ],
+                "answer": "母亲",
+                "explanation": "《游子吟》是孟郊的歌颂母爱的名篇。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "孟郊",
+                        "母爱",
+                        "亲情"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_017",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列哪首诗是王昌龄写的？",
+                "options": [
+                        {
+                                "text": "《登鹳雀楼》",
+                                "correct": false
+                        },
+                        {
+                                "text": "《出塞》",
+                                "correct": true
+                        },
+                        {
+                                "text": "《望庐山瀑布》",
+                                "correct": false
+                        },
+                        {
+                                "text": "《黄鹤楼送孟浩然之广陵》",
+                                "correct": false
+                        }
+                ],
+                "answer": "《出塞》",
+                "explanation": "《出塞》是王昌龄的代表作，是著名的边塞诗。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "王昌龄",
+                        "边塞诗",
+                        "爱国"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_018",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "《题西林壁》这首诗告诉我们的道理是？",
+                "options": [
+                        {
+                                "text": "做事要持之以恒",
+                                "correct": false
+                        },
+                        {
+                                "text": "要多角度看问题",
+                                "correct": true
+                        },
+                        {
+                                "text": "读书要破万卷书",
+                                "correct": false
+                        },
+                        {
+                                "text": "做人要诚实守信",
+                                "correct": false
+                        }
+                ],
+                "answer": "要多角度看问题",
+                "explanation": "此诗出自苏轼，「横看成岭侧成峰，远近高低各不同」说明从不同角度看问题会得到不同结果。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "苏轼",
+                        "哲理",
+                        "多角度看问题"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_019",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列诗句中描写「战争」主题的是哪一句？",
+                "options": [
+                        {
+                                "text": "秦时明月汉时关，万里长征人未还",
+                                "correct": true
+                        },
+                        {
+                                "text": "春眠不觉晓，处处闻啼鸟",
+                                "correct": false
+                        },
+                        {
+                                "text": "明月松间照，清泉石上流",
+                                "correct": false
+                        },
+                        {
+                                "text": "锄禾日当午，汗滴禾下土",
+                                "correct": false
+                        }
+                ],
+                "answer": "秦时明月汉时关，万里长征人未还",
+                "explanation": "此句出自王昌龄《出塞》，描写边塞战争和戍边将士的思乡之情。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "边塞诗",
+                        "战争",
+                        "王昌龄"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_020",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "《绝句》(两个黄鹂鸣翠柳)的作者是谁？",
+                "options": [
+                        {
+                                "text": "李白",
+                                "correct": false
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": true
+                        },
+                        {
+                                "text": "王维",
+                                "correct": false
+                        },
+                        {
+                                "text": "白居易",
+                                "correct": false
+                        }
+                ],
+                "answer": "杜甫",
+                "explanation": "《绝句》「两个黄鹂鸣翠柳，一行白鹭上青天」是杜甫在成都草堂时所作的写景诗。",
+                "poemId": "poem_002",
+                "knowledgePoints": [
+                        "杜甫",
+                        "写景诗",
+                        "春天"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_021",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "下列哪句诗表达的是「友情」？",
+                "options": [
+                        {
+                                "text": "桃花潭水深千尺，不及汪伦送我情",
+                                "correct": true
+                        },
+                        {
+                                "text": "独在异乡为异客，每逢佳节倍思亲",
+                                "correct": false
+                        },
+                        {
+                                "text": "床前明月光，疑是地上霜",
+                                "correct": false
+                        },
+                        {
+                                "text": "白日依山尽，黄河入海流",
+                                "correct": false
+                        }
+                ],
+                "answer": "桃花潭水深千尺，不及汪伦送我情",
+                "explanation": "此句出自李白《赠汪伦》，表达了诗人与汪伦之间深厚的友谊。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "李白",
+                        "友情",
+                        "送别"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_022",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "《望庐山瀑布》这首诗描写的是哪里的风景？",
+                "options": [
+                        {
+                                "text": "黄山",
+                                "correct": false
+                        },
+                        {
+                                "text": "泰山",
+                                "correct": false
+                        },
+                        {
+                                "text": "庐山",
+                                "correct": true
+                        },
+                        {
+                                "text": "华山",
+                                "correct": false
+                        }
+                ],
+                "answer": "庐山",
+                "explanation": "《望庐山瀑布》是李白游览庐山时所作，描写了庐山瀑布的壮观景象。",
+                "poemId": "poem_001",
+                "knowledgePoints": [
+                        "李白",
+                        "庐山",
+                        "瀑布"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_023",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列诗人中，谁被称为「诗圣」？",
+                "options": [
+                        {
+                                "text": "李白",
+                                "correct": false
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": true
+                        },
+                        {
+                                "text": "白居易",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": false
+                        }
+                ],
+                "answer": "杜甫",
+                "explanation": "杜甫被称为「诗圣」，他的诗被称为「诗史」。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "杜甫",
+                        "诗圣",
+                        "唐代诗人"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_024",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "《江雪》诗中「千山鸟飞绝」的下一句是什么？",
+                "options": [
+                        {
+                                "text": "万径人踪灭",
+                                "correct": true
+                        },
+                        {
+                                "text": "独钓寒江雪",
+                                "correct": false
+                        },
+                        {
+                                "text": "雪上空留马行处",
+                                "correct": false
+                        },
+                        {
+                                "text": "风吹草低见牛羊",
+                                "correct": false
+                        }
+                ],
+                "answer": "万径人踪灭",
+                "explanation": "此句出自柳宗元《江雪》，描写了一幅大雪纷飞、鸟无人迹的寒冷景象。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "柳宗元",
+                        "冬天",
+                        "写景"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_025",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "下列哪首诗描写的是「儿童生活」？",
+                "options": [
+                        {
+                                "text": "《静夜思》",
+                                "correct": false
+                        },
+                        {
+                                "text": "《小儿垂钓》",
+                                "correct": true
+                        },
+                        {
+                                "text": "《登鹳雀楼》",
+                                "correct": false
+                        },
+                        {
+                                "text": "《相思》",
+                                "correct": false
+                        }
+                ],
+                "answer": "《小儿垂钓》",
+                "explanation": "《小儿垂钓》是胡令能的诗，描写了一个儿童在水边钓鱼的可爱场景。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "儿童",
+                        "钓鱼",
+                        "田园生活"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_026",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "《黄鹤楼送孟浩然之广陵》是一首什么类型的诗？",
+                "options": [
+                        {
+                                "text": "思乡诗",
+                                "correct": false
+                        },
+                        {
+                                "text": "送别诗",
+                                "correct": true
+                        },
+                        {
+                                "text": "边塞诗",
+                                "correct": false
+                        },
+                        {
+                                "text": "山水诗",
+                                "correct": false
+                        }
+                ],
+                "answer": "送别诗",
+                "explanation": "此诗是李白送别好友孟浩然去扬州时所作，是著名的送别诗。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "送别诗",
+                        "李白",
+                        "孟浩然"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_027",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列诗句中，哪句诗的作者是王维？",
+                "options": [
+                        {
+                                "text": "海上生明月，天涯共此时",
+                                "correct": false
+                        },
+                        {
+                                "text": "海内存知己，天涯若比邻",
+                                "correct": false
+                        },
+                        {
+                                "text": "明月松间照，清泉石上流",
+                                "correct": true
+                        },
+                        {
+                                "text": "野火烧不尽，春风吹又生",
+                                "correct": false
+                        }
+                ],
+                "answer": "明月松间照，清泉石上流",
+                "explanation": "此句出自王维《山居秋暝》，描写了秋夜山村的宁静美景。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "王维",
+                        "秋天",
+                        "山水诗"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_028",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "《山行》这首诗描写的是哪个季节？",
+                "options": [
+                        {
+                                "text": "春季",
+                                "correct": false
+                        },
+                        {
+                                "text": "夏季",
+                                "correct": false
+                        },
+                        {
+                                "text": "秋季",
+                                "correct": true
+                        },
+                        {
+                                "text": "冬季",
+                                "correct": false
+                        }
+                ],
+                "answer": "秋季",
+                "explanation": "此诗出自杜牧《山行》，描写的是深秋时节枫林红叶的美景。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "杜牧",
+                        "秋天",
+                        "枫叶"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_029",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列哪句诗表达了「爱国」情怀？",
+                "options": [
+                        {
+                                "text": "烽火连三月，家书抵万金",
+                                "correct": true
+                        },
+                        {
+                                "text": "夕阳无限好，只是近黄昏",
+                                "correct": false
+                        },
+                        {
+                                "text": "争渡，争渡，惊起一滩鸥鹭",
+                                "correct": false
+                        },
+                        {
+                                "text": "明月别枝惊鹊，清风半夜鸣蝉",
+                                "correct": false
+                        }
+                ],
+                "answer": "烽火连三月，家书抵万金",
+                "explanation": "此句出自杜甫《春望》，描写了战争年代人们对亲人和家乡的思念。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "杜甫",
+                        "爱国",
+                        "战争"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_030",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "《赠汪伦》这首诗的作者是谁？",
+                "options": [
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": false
+                        },
+                        {
+                                "text": "王维",
+                                "correct": false
+                        },
+                        {
+                                "text": "白居易",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "《赠汪伦》是李白的名作，表达了对好友汪伦的感激和友情。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "李白",
+                        "友情",
+                        "送别"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_031",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列哪首诗是关于「端午」节的？",
+                "options": [
+                        {
+                                "text": "清明时节雨纷纷",
+                                "correct": false
+                        },
+                        {
+                                "text": "爆竹声中一岁除",
+                                "correct": false
+                        },
+                        {
+                                "text": "屈氏已沉死，楚人衰不容",
+                                "correct": true
+                        },
+                        {
+                                "text": "海上生明月",
+                                "correct": false
+                        }
+                ],
+                "answer": "屈氏已沉死，楚人衰不容",
+                "explanation": "此句与屈原有关，端午节就是为了纪念爱国诗人屈原。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "端午节",
+                        "屈原",
+                        "传统节日"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_032",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "《出塞》这首诗的作者是？",
+                "options": [
+                        {
+                                "text": "王昌龄",
+                                "correct": true
+                        },
+                        {
+                                "text": "李白",
+                                "correct": false
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": false
+                        },
+                        {
+                                "text": "王之涣",
+                                "correct": false
+                        }
+                ],
+                "answer": "王昌龄",
+                "explanation": "《出塞》是王昌龄的代表作，是著名的边塞诗。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "王昌龄",
+                        "边塞诗",
+                        "爱国"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_033",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "下列诗句中使用了「比喻」修辞手法的是哪一句？",
+                "options": [
+                        {
+                                "text": "不知细叶谁裁出，二月春风似剪刀",
+                                "correct": true
+                        },
+                        {
+                                "text": "秦时明月汉时关",
+                                "correct": false
+                        },
+                        {
+                                "text": "青春做伴好还乡",
+                                "correct": false
+                        },
+                        {
+                                "text": "月落乌啼霜满天",
+                                "correct": false
+                        }
+                ],
+                "answer": "不知细叶谁裁出，二月春风似剪刀",
+                "explanation": "此句出自贺知章《咏柳》，将春风比作剪刀，是典型的比喻修辞。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "修辞手法",
+                        "比喻",
+                        "贺知章"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_034",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "《凉州词》「黄河远上白云间」的下一句是什么？",
+                "options": [
+                        {
+                                "text": "春风不度玉门关",
+                                "correct": false
+                        },
+                        {
+                                "text": "羌笛何须怨杨柳",
+                                "correct": false
+                        },
+                        {
+                                "text": "一片孤城万仞山",
+                                "correct": true
+                        },
+                        {
+                                "text": "桃花潭水深千尺",
+                                "correct": false
+                        }
+                ],
+                "answer": "一片孤城万仞山",
+                "explanation": "此句出自王之涣《凉州词》，描写了边塞的荒凉和壮阔。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "王之涣",
+                        "边塞诗",
+                        "黄河"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_035",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "下列哪首诗是关于「重阳节」的？",
+                "options": [
+                        {
+                                "text": "《静夜思》",
+                                "correct": false
+                        },
+                        {
+                                "text": "《九月九日忆山东兄弟》",
+                                "correct": true
+                        },
+                        {
+                                "text": "《清明》",
+                                "correct": false
+                        },
+                        {
+                                "text": "《春晓》",
+                                "correct": false
+                        }
+                ],
+                "answer": "《九月九日忆山东兄弟》",
+                "explanation": "此诗是王维在重阳节时所作，表达了对家乡亲人的思念。",
+                "poemId": "poem_007",
+                "knowledgePoints": [
+                        "重阳节",
+                        "王维",
+                        "思乡"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_036",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 2,
+                "question": "《枫桥夜泊》诗中「月落乌啼霜满天」的下一句是什么？",
+                "options": [
+                        {
+                                "text": "霜叶红于二月花",
+                                "correct": false
+                        },
+                        {
+                                "text": "独钓寒江雪",
+                                "correct": false
+                        },
+                        {
+                                "text": "江枫渔火对愁眠",
+                                "correct": true
+                        },
+                        {
+                                "text": "疑是地上霜",
+                                "correct": false
+                        }
+                ],
+                "answer": "江枫渔火对愁眠",
+                "explanation": "此句出自张继《枫桥夜泊》，描写了诗人夜泊枫桥时的愁绪。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "张继",
+                        "秋天",
+                        "夜晚"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_037",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "下列诗人中，谁被称为「诗仙」？",
+                "options": [
+                        {
+                                "text": "杜甫",
+                                "correct": false
+                        },
+                        {
+                                "text": "白居易",
+                                "correct": false
+                        },
+                        {
+                                "text": "李白",
+                                "correct": true
+                        },
+                        {
+                                "text": "王维",
+                                "correct": false
+                        }
+                ],
+                "answer": "李白",
+                "explanation": "李白被称为「诗仙」，他的诗风格豪放，想象力丰富。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "李白",
+                        "诗仙",
+                        "唐代诗人"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_038",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "《长歌行》「少壮不努力」的下一句是什么？",
+                "options": [
+                        {
+                                "text": "老大徒伤悲",
+                                "correct": true
+                        },
+                        {
+                                "text": "老大徒伤风",
+                                "correct": false
+                        },
+                        {
+                                "text": "老大徒伤别",
+                                "correct": false
+                        },
+                        {
+                                "text": "老大徒伤离",
+                                "correct": false
+                        }
+                ],
+                "answer": "老大徒伤悲",
+                "explanation": "此句出自汉乐府《长歌行》，意思是年轻时不努力，老了只能悲伤后悔。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "汉乐府",
+                        "珍惜时间",
+                        "励志"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_039",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "下列哪首诗表达了「珍惜时间」的主题？",
+                "options": [
+                        {
+                                "text": "《咏鹅》",
+                                "correct": false
+                        },
+                        {
+                                "text": "《春晓》",
+                                "correct": false
+                        },
+                        {
+                                "text": "《长歌行》",
+                                "correct": true
+                        },
+                        {
+                                "text": "《相思》",
+                                "correct": false
+                        }
+                ],
+                "answer": "《长歌行》",
+                "explanation": "《长歌行》通过「少壮不努力，老大徒伤悲」告诫人们要珍惜青春时光。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "珍惜时间",
+                        "励志",
+                        "汉乐府"
+                ],
+                "poetryType": false
+        },
+        {
+                "id": "q_mk_040",
+                "type": "choice",
+                "grade": "mk",
+                "source": "全国小升初真题",
+                "difficulty": 1,
+                "question": "《游子吟》这首诗的作者是？",
+                "options": [
+                        {
+                                "text": "李白",
+                                "correct": false
+                        },
+                        {
+                                "text": "杜甫",
+                                "correct": false
+                        },
+                        {
+                                "text": "孟郊",
+                                "correct": true
+                        },
+                        {
+                                "text": "王维",
+                                "correct": false
+                        }
+                ],
+                "answer": "孟郊",
+                "explanation": "《游子吟》是唐代诗人孟郊的名作，歌颂了伟大的母爱。",
+                "poemId": null,
+                "knowledgePoints": [
+                        "孟郊",
+                        "母爱",
+                        "亲情"
+                ],
+                "poetryType": false
         }
 ];
