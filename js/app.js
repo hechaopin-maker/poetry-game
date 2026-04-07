@@ -1209,7 +1209,7 @@ function showFeihuaInput() {
         <input type="text" id="feihuaInput" 
                style="width:100%;padding:15px 20px;font-size:1.2em;border:2px solid var(--primary);border-radius:10px;background:var(--bg-secondary);color:var(--text);"
                placeholder="输入诗句，如：春眠不觉晓" 
-               onkeypress="if(event.key==='Enter')submitFeihuaAnswerByInput()"
+               
                autocomplete="off">
         <button id="feihuaSubmitBtn" class="btn" style="margin-top:15px;padding:12px 30px;font-size:1.1em;width:100%;" onclick="submitFeihuaAnswerByInput()">
             提交答案
@@ -1226,7 +1226,16 @@ function showFeihuaInput() {
     // 自动聚焦输入框
     setTimeout(() => {
         const input = document.getElementById('feihuaInput');
-        if (input) input.focus();
+        if (input) {
+            input.focus();
+            // 绑定Enter键提交（修复onkeypress在部分浏览器不触发的问题）
+            input.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    submitFeihuaAnswerByInput();
+                }
+            });
+        }
     }, 100);
 }
 
