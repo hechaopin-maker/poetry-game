@@ -1419,175 +1419,6 @@ function skipFeihuaAndShowAnswer() {
     }, 5000);
 }
 
-function submitFeihuaAnswerByInput() {
-    if (!feihuaState.isPlaying) return;
-    
-    const input = document.getElementById('feihuaInput');
-    if (!input) return;
-    
-    const userAnswer = input.value.trim();
-    if (!userAnswer) {
-        showToast('请输入诗句');
-        return;
-    }
-    
-    // 检查输入是否包含关键字
-    if (!userAnswer.includes(feihuaState.keyword)) {
-        showToast(`答案中必须包含"${feihuaState.keyword}"字！`);
-        input.value = '';
-        return;
-    }
-    
-    // 检查是否是已答过的诗句
-    if (feihuaState.answered.includes(userAnswer)) {
-        showToast('这句诗已经答过了！');
-        input.value = '';
-        return;
-    }
-    
-    // 检查是否在诗词库中（模糊匹配：用户输入只要包含正确诗句的一部分且含有关键字即算正确）
-    const keyword = feihuaState.keyword;
-    
-    // 辅助函数：清理诗句中的标点符号
-    const cleanText = (text) => text.replace(/[，。！？、；：""''（）]/g, '');
-    
-    // 辅助函数：在整个诗词库中搜索匹配项
-    const searchAllPoems = (input) => {
-        const cleanInput = cleanText(input);
-        // 如果输入太短，不进行搜索
-        if (cleanInput.length < 4) return null;
-        
-        // 使用新的飞花令加载器搜索
-        if (window.getFeihuaPoems) {
-            // 遍历所有字符查找匹配
-            for (const char in window.FEIHUA_DATA) {
-                const poems = window.FEIHUA_DATA[char];
-                for (const p of poems) {
-                    const poem = typeof p === 'string' ? JSON.parse(p) : p;
-                    const cleanEntry = cleanText(poem.text);
-                    // 完全匹配
-                    if (cleanEntry === cleanInput) return poem;
-                    // 输入包含诗句或诗句包含输入
-                    if (cleanEntry.includes(cleanInput) || cleanInput.includes(cleanEntry)) return poem;
-                }
-            }
-        } else {
-            // 兼容旧的FEIHUA_FULL_DATA
-            for (const char in FEIHUA_FULL_DATA.keywords) {
-                const entries = FEIHUA_FULL_DATA.keywords[char].l;
-                for (const entry of entries) {
-                    const cleanEntry = cleanText(entry.t);
-                    // 完全匹配
-                    if (cleanEntry === cleanInput) return entry;
-                    // 输入包含诗句或诗句包含输入
-                    if (cleanEntry.includes(cleanInput) || cleanInput.includes(cleanEntry)) return entry;
-                }
-            }
-        }
-        return null;
-    };
-    
-    // 首先检查是否含有关键字
-    const containsKeyword = cleanText(userAnswer).includes(keyword);
-    
-    // 然后检查是否在诗词库中
-    let isCorrect = false;
-    let matchedEntry = null;
-    
-    if (containsKeyword) {
-        // 先检查当前关键字下的诗句
-        matchedEntry = feihuaState.poems.find(p => {
-            const poemText = p.poem;
-            const cleanAnswer = cleanText(userAnswer);
-            const cleanPoem = cleanText(poemText);
-            return userAnswer === poemText || cleanPoem.includes(cleanAnswer) || cleanAnswer.includes(cleanPoem);
-        });
-        
-        // 如果当前关键字下没找到，搜索整个数据库
-        if (!matchedEntry) {
-            matchedEntry = searchAllPoems(userAnswer);
-        }
-        
-        isCorrect = !!matchedEntry;
-    }
-    
-    // 记录已答过的诗句（使用原句）- 兼容新旧数据格式
-    const matchedPoem = matchedEntry ? { 
-        poem: matchedEntry.text || matchedEntry.t || '', 
-        author: matchedEntry.author || matchedEntry.a || '佚名', 
-        title: matchedEntry.title || matchedEntry.ti || '无题' 
-    } : null;
-    
-    if (isCorrect && matchedPoem) {
-        feihuaState.answered.push(matchedPoem.poem);
-    } else if (isCorrect) {
-        feihuaState.answered.push(userAnswer);
-    } else {
-        feihuaState.answered.push(userAnswer); // 也记录错误答案用于显示
-    }
-    
-    // 显示历史
-    const history = document.getElementById('feihuaHistory');
-    const span = document.createElement('span');
-    span.className = isCorrect ? 'feihua-poem correct' : 'feihua-poem wrong';
-    span.textContent = userAnswer + (isCorrect ? '' : ' ✗');
-    history.appendChild(span);
-    
-    // 更新计数
-    if (isCorrect) {
-        feihuaState.currentIndex++;
-        feihuaState.correctCount++;
-        document.getElementById('feihuaCount').textContent = feihuaState.currentIndex + '/10';
-        
-        // 加分
-        feihuaState.score += 10;
-        document.getElementById('feihuaScore').textContent = feihuaState.score;
-        
-        // 检查是否完成10句
-        if (feihuaState.currentIndex >= 10) {
-            clearInterval(feihuaState.timer);
-            endFeihua();
-            return;
-        }
-        
-        showToast('正确！+10分');
-        
-        // 清除之前可能存在的学习提示（清除输入框区域的提示，不清除历史区域）
-        const inputArea = document.getElementById('feihuaPrompt');
-        const hintElements = inputArea.querySelectorAll('div[style*="margin:15px"], div[style*="margin: 15px"]');
-        hintElements.forEach(el => el.remove());
-        
-        // 切换到新关键字（从答对的诗句中提取）
-        const poemForKeyword = matchedPoem ? matchedPoem.poem : userAnswer;
-        switchToNewKeyword(poemForKeyword);
-        
-        // 重置计时器并显示下一题
-        feihuaState.timeLeft = 500;
-        document.getElementById('feihuaTimer').textContent = '500';
-        document.getElementById('feihuaTimer').style.color = '';
-        showFeihuaInput();
-    } else {
-        // 答错了，显示参考答案供学习
-        const samplePoem = feihuaState.poems[Math.floor(Math.random() * feihuaState.poems.length)];
-        const hint = document.createElement('div');
-        hint.style.cssText = 'margin:15px 0;padding:15px;background:rgba(46,204,113,0.2);border-radius:10px;text-align:center;';
-        hint.innerHTML = `<div style="color:#2ecc71;font-weight:bold;margin-bottom:10px;">📖 参考答案学习</div>
-            <div style="font-size:1.3em;color:var(--text);margin-bottom:8px;">"${samplePoem.poem}"</div>
-            <div style="color:#888;font-size:0.9em;">—— ${samplePoem.author}《${samplePoem.title}》</div>`;
-        const promptEl = document.getElementById('feihuaPrompt');
-        promptEl.appendChild(hint);
-        input.value = '';
-        
-        // 3秒后自动清除提示继续答题
-        setTimeout(() => {
-            if (hint.parentNode) hint.remove();
-        }, 5000);
-    }
-}
-
-// 显示完成10句后的成功画面
-function showFeihuaSuccess() {
-    // 计算奖励分数
     const completionBonus = 100; // 完成10句奖励
     feihuaState.score += completionBonus;
     
@@ -2429,11 +2260,19 @@ function searchPoems() {
         return;
     }
     
-    const matches = POEMS_DATA.filter(p => 
-        p.title.toLowerCase().includes(query) ||
-        p.author.toLowerCase().includes(query) ||
-        p.content.some(c => c.toLowerCase().includes(query))
-    );
+    // 转换查询为简体（支持繁体输入）
+    const querySimplified = toSimplified(query);
+    
+    const matches = POEMS_DATA.filter(p => {
+        // 将诗词数据转换为简体进行搜索
+        const titleSimplified = toSimplified(p.title || '').toLowerCase();
+        const authorSimplified = toSimplified(p.author || '').toLowerCase();
+        const contentSimplified = (p.content || []).map(c => toSimplified(c).toLowerCase());
+        
+        return titleSimplified.includes(querySimplified) ||
+               authorSimplified.includes(querySimplified) ||
+               contentSimplified.some(c => c.includes(querySimplified));
+    });
     
     if (matches.length === 0) {
         results.innerHTML = `
@@ -2448,11 +2287,11 @@ function searchPoems() {
     results.innerHTML = matches.map(p => `
         <div class="question-box" style="margin-bottom:15px;">
             <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
-                <strong style="font-size:1.2em;">${p.title}</strong>
-                <span style="color:#666;">${p.dynasty}·${p.author}</span>
+                <strong style="font-size:1.2em;">${toSimplified(p.title || '')}</strong>
+                <span style="color:#666;">${toSimplified(p.dynasty || '')}·${toSimplified(p.author || '')}</span>
             </div>
-            <div style="color:#666;margin-bottom:10px;">${p.fullText}</div>
-            <div style="font-size:0.9em;color:#888;"><strong>释义：</strong>${p.interpretation}</div>
+            <div style="color:#666;margin-bottom:10px;">${toSimplified(p.fullText || (Array.isArray(p.content) ? p.content.join('，') : ''))}</div>
+            <div style="font-size:0.9em;color:#888;"><strong>释义：</strong>${toSimplified(p.interpretation || '')}</div>
         </div>
     `).join('');
 }
