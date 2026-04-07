@@ -35,6 +35,8 @@
             background: linear-gradient(135deg, var(--bg) 0%, var(--bg-dark) 100%);
             min-height: 100vh;
             color: var(--text);
+            padding-top: env(safe-area-inset-top);
+            padding-bottom: env(safe-area-inset-bottom);
         }
         
         /* 顶部导航 */
@@ -78,7 +80,7 @@
             padding: 5px 12px;
             border-radius: 20px;
             font-weight: 600;
-            font-size: 0.9em;
+            font-size: 1em;
         }
         
         .level-badge {
@@ -87,7 +89,7 @@
             padding: 5px 12px;
             border-radius: 20px;
             font-weight: 600;
-            font-size: 0.9em;
+            font-size: 1em;
         }
         
         /* 主容器 */
@@ -139,7 +141,7 @@
         }
         
         .module-desc {
-            font-size: 0.85em;
+            font-size: 1em;
             color: var(--text-light);
         }
         
@@ -162,7 +164,7 @@
             align-items: center;
             gap: 4px;
             color: var(--text-light);
-            font-size: 0.8em;
+            font-size: 1em;
             cursor: pointer;
             padding: 5px 15px;
             border-radius: 10px;
@@ -237,7 +239,7 @@
             color: var(--primary-dark);
             padding: 4px 12px;
             border-radius: 20px;
-            font-size: 0.8em;
+            font-size: 1em;
             margin-bottom: 15px;
         }
         
@@ -387,9 +389,9 @@
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
             color: #fff;
             border: none;
-            padding: 12px 30px;
+            padding: 14px 30px;
             min-height: 44px;
-            font-size: 1.1em;
+            font-size: 1em;
             font-family: inherit;
             border-radius: 25px;
             cursor: pointer;
@@ -461,7 +463,7 @@
         }
         
         .stat-label {
-            font-size: 0.85em;
+            font-size: 1em;
             color: var(--text-light);
         }
         
@@ -569,15 +571,17 @@
         
         .login-btn {
             width: 100%;
-            padding: 14px;
+            padding: 16px;
+            min-height: 44px;
             font-size: 1.1em;
             border-radius: 12px;
         }
         
         .login-skip-btn {
             width: 100%;
-            padding: 10px;
-            font-size: 0.95em;
+            padding: 14px;
+            min-height: 44px;
+            font-size: 1em;
             border-radius: 12px;
             margin-top: 10px;
             background: transparent;
@@ -691,7 +695,7 @@
             color: #fff;
             padding: 12px 25px;
             border-radius: 25px;
-            font-size: 0.95em;
+            font-size: 1em;
             z-index: 500;
             opacity: 0;
             transition: opacity 0.3s;
@@ -737,7 +741,7 @@
             .option {
                 padding: 14px 16px;
                 min-height: 44px;
-                font-size: 0.95em;
+                font-size: 1em;
             }
             
             /* 九宫格调整 */
@@ -785,7 +789,7 @@
             }
             
             .progress-item {
-                font-size: 0.85em;
+                font-size: 1em;
                 padding: 4px 8px;
             }
             
@@ -799,11 +803,11 @@
             }
             
             .module-title {
-                font-size: 0.95em;
+                font-size: 1em;
             }
             
             .module-desc {
-                font-size: 0.8em;
+                font-size: 1em;
             }
             
             .question-box {
@@ -818,14 +822,14 @@
             .option {
                 padding: 14px 16px;
                 min-height: 44px;
-                font-size: 0.9em;
+                font-size: 1em;
                 margin-bottom: 8px;
             }
             
             .option-letter {
                 width: 24px;
                 height: 24px;
-                font-size: 0.85em;
+                font-size: 1em;
             }
             
             .result-stats {
@@ -872,7 +876,7 @@
             }
             
             .feihua-poem {
-                font-size: 0.85em;
+                font-size: 1em;
                 padding: 6px 12px;
             }
             
@@ -899,7 +903,7 @@
             .btn {
                 padding: 14px 24px;
                 min-height: 44px;
-                font-size: 0.95em;
+                font-size: 1em;
             }
             
             /* 登录模态框手机适配 */

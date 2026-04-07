@@ -488,8 +488,7 @@ function showQuestion() {
                     inputsHTML += `<input type="text" class="fill-input" id="fillAnswerInput${i}" 
                                    placeholder="${placeholder}" 
                                    autocomplete="off"
-                                   style="margin-bottom:10px"
-                                   onkeypress="if(event.key==='Enter')submitFillAnswer()">`;
+                                   style="margin-bottom:10px">`;
                 }
                 inputBox.innerHTML = inputsHTML + `<button class="btn" onclick="submitFillAnswer()">提交答案</button>` + 
                     `<div style="text-align:center;margin-top:15px;">
@@ -502,8 +501,7 @@ function showQuestion() {
                 inputBox.innerHTML = `
                     <input type="text" class="fill-input" id="fillAnswerInput0" 
                            placeholder="请输入答案..." 
-                           autocomplete="off"
-                           onkeypress="if(event.key==='Enter')submitFillAnswer()">
+                           autocomplete="off">
                     <button class="btn" onclick="submitFillAnswer()">提交答案</button>
                     <div style="text-align:center;margin-top:15px;">
                         <a href="javascript:void(0)" onclick="skipAndShowAnswer()" style="color:#666;font-size:14px;text-decoration:underline;">不会做？点此查看答案（记为错题）</a>
@@ -513,6 +511,18 @@ function showQuestion() {
             }
             
             container.appendChild(inputBox);
+            // 使用addEventListener绑定keydown事件（修复onkeypress在部分浏览器不触发的问题）
+            for (let i = 0; i < blankCount; i++) {
+                const input = document.getElementById('fillAnswerInput' + i);
+                if (input) {
+                    input.addEventListener('keydown', function(e) {
+                        if (e.key === 'Enter') {
+                            e.preventDefault();
+                            submitFillAnswer();
+                        }
+                    });
+                }
+            }
             // 自动聚焦第一个输入框
             setTimeout(() => {
                 const input = document.getElementById('fillAnswerInput0');
