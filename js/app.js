@@ -1003,8 +1003,116 @@ let feihuaState = {
     completedKeywords: [], // 已完成的关键字列表（30轮内不重复）
     totalRounds: 0,       // 累计进行的轮数（用于计算30轮限制）
     roundKeyword: null,    // 当前轮的关键字（用于记录到已完成列表）
-    combo: 0              // 连击数
+    combo: 0,             // 连击数
+    isLearningMode: false  // 学习模式标志
 };
+
+// 切换飞花令学习/挑战模式
+function toggleFeihuaMode() {
+    feihuaState.isLearningMode = !feihuaState.isLearningMode;
+    const modeBtn = document.getElementById('feihuaModeToggle');
+    const challengeArea = document.getElementById('feihuaChallengeArea');
+    const learningArea = document.getElementById('feihuaLearningArea');
+    const progress = document.getElementById('feihuaProgress');
+    
+    if (feihuaState.isLearningMode) {
+        // 切换到学习模式
+        modeBtn.textContent = '🎮 切换到挑战模式';
+        challengeArea.style.display = 'none';
+        learningArea.style.display = 'block';
+        progress.style.display = 'none';
+        
+        // 停止正在进行的挑战
+        if (feihuaState.timer) {
+            clearInterval(feihuaState.timer);
+            feihuaState.timer = null;
+        }
+        feihuaState.isPlaying = false;
+        
+        // 开始学习模式
+        startFeihuaLearning();
+    } else {
+        // 切换到挑战模式
+        modeBtn.textContent = '📚 切换到学习模式';
+        challengeArea.style.display = 'block';
+        learningArea.style.display = 'none';
+        progress.style.display = 'flex';
+        
+        // 重置状态
+        document.getElementById('feihuaHistory').innerHTML = '';
+        document.getElementById('feihuaPrompt').textContent = '点击下方按钮，说出第一句诗';
+    }
+}
+
+// 开始学习模式
+function startFeihuaLearning() {
+    // 选择一个关键字
+    const pool = getFeihuaKeywordPool();
+    if (pool.length === 0) {
+        document.getElementById('feihuaLearningPoems').innerHTML = '<div style="color:#888;text-align:center;padding:20px;">诗句数据加载中...</div>';
+        return;
+    }
+    
+    const keyword = pool[Math.floor(Math.random() * Math.min(pool.length, 200))]; // 从前200个常用字中选
+    feihuaState.keyword = keyword;
+    
+    // 获取该关键字的所有诗句
+    let poems = [];
+    if (window.FEIHUA_DATA && window.FEIHUA_DATA[keyword]) {
+        poems = Array.from(window.FEIHUA_DATA[keyword]).map(item => ({
+            poem: item.t,
+            author: item.a || '佚名',
+            title: item.ti || '未知'
+        }));
+    } else if (typeof FEIHUA_FULL_DATA !== 'undefined' && FEIHUA_FULL_DATA.keywords && FEIHUA_FULL_DATA.keywords[keyword]) {
+        poems = FEIHUA_FULL_DATA.keywords[keyword].l.map(item => ({
+            poem: item.t,
+            author: item.a || '佚名',
+            title: item.ti || '未知'
+        }));
+    }
+    
+    // 显示关键字
+    document.getElementById('feihuaLearningKeyword').textContent = keyword;
+    
+    // 显示诗句列表（最多显示20句）
+    const poemsContainer = document.getElementById('feihuaLearningPoems');
+    if (poems.length === 0) {
+        poemsContainer.innerHTML = '<div style="color:#888;text-align:center;padding:20px;">暂未收录该字的诗句</div>';
+        return;
+    }
+    
+    // 打乱顺序并限制数量
+    poems.sort(() => Math.random() - 0.5);
+    const displayPoems = poems.slice(0, 20);
+    
+    // 生成HTML
+    let html = '<div style="background:var(--card);border-radius:12px;padding:15px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">';
+    displayPoems.forEach((p, i) => {
+        const keywordPos = p.poem.indexOf(keyword) + 1;
+        html += `
+            <div style="padding:12px 0;border-bottom:${i < displayPoems.length - 1 ? '1px solid #eee' : 'none'};display:flex;align-items:flex-start;gap:10px;">
+                <div style="flex:1;">
+                    <div style="font-size:1.1em;color:var(--text);margin-bottom:5px;line-height:1.5;">"${p.poem}"</div>
+                    <div style="color:#666;font-size:0.85em;">—— ${p.author}《${p.title}》</div>
+                    <div style="color:#999;font-size:0.75em;margin-top:3px;">「${keyword}」在第${keywordPos}个字</div>
+                </div>
+            </div>
+        `;
+    });
+    html += '</div>';
+    
+    if (poems.length > 20) {
+        html += `<div style="text-align:center;color:#888;font-size:0.85em;padding:10px;">（共${poems.length}句，显示前20句）</div>`;
+    }
+    
+    poemsContainer.innerHTML = html;
+}
+
+// 学习模式：下一个关键字
+function nextLearningKeyword() {
+    startFeihuaLearning();
+}
 
 // 获取飞花令关键字池（按诗句数量降序排列，多的在前=简单）
 function getFeihuaKeywordPool() {
@@ -1428,6 +1536,8 @@ function skipFeihuaAndShowAnswer() {
     }, 5000);
 }
 
+// 飞花令挑战成功
+function showFeihuaSuccess() {
     const completionBonus = 100; // 完成10句奖励
     feihuaState.score += completionBonus;
     

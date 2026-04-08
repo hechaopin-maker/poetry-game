@@ -14,25 +14,25 @@
         }
         
         :root {
-            --primary: #3d5c5c;
-            --primary-light: #4a6b6b;
-            --primary-dark: #2c3e50;
-            --secondary: #f5f3ee;
-            --accent: #8b7355;
-            --bg: #f5f3ee;
-            --bg-dark: #e8e6e1;
-            --text: #3a3a3a;
-            --text-light: #666666;
-            --gold: #8b7355;
-            --gold-dark: #6b5a47;
-            --success: #5a7a5a;
-            --error: #8b4c4c;
-            --shadow: rgba(0, 0, 0, 0.1);
+            --primary: #8B4513;
+            --primary-light: #A0522D;
+            --primary-dark: #654321;
+            --secondary: #DEB887;
+            --accent: #CD853F;
+            --bg: #FDF5E6;
+            --bg-dark: #FAF0E6;
+            --text: #3E2723;
+            --text-light: #5D4037;
+            --gold: #FFD700;
+            --gold-dark: #DAA520;
+            --success: #4CAF50;
+            --error: #E53935;
+            --shadow: rgba(139, 69, 19, 0.2);
         }
         
         body {
             font-family: 'Noto Serif SC', serif;
-            background: var(--bg);
+            background: linear-gradient(135deg, var(--bg) 0%, var(--bg-dark) 100%);
             min-height: 100vh;
             color: var(--text);
             padding-top: env(safe-area-inset-top);
@@ -41,7 +41,7 @@
         
         /* 顶部导航 */
         .header {
-            background: var(--primary);
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
             padding: 15px 20px;
             display: flex;
             justify-content: space-between;
@@ -199,7 +199,7 @@
         .game-header {
             text-align: center;
             padding: 20px;
-            background: var(--primary);
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
             color: #fff;
             border-radius: 16px;
             margin-bottom: 20px;
@@ -284,12 +284,12 @@
         
         .option.correct {
             border-color: var(--success);
-            background: #e8e6e1;
+            background: #E8F5E9;
         }
         
         .option.wrong {
             border-color: var(--error);
-            background: #f5f3ee;
+            background: #FFEBEE;
         }
         
         .option.disabled {
@@ -368,7 +368,7 @@
         }
         
         #nextQuestionBtn {
-            background: var(--success);
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
             font-size: 1.1em;
             padding: 12px 40px;
             animation: pulse 1.5s infinite;
@@ -620,7 +620,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: var(--gold);
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
             color: var(--primary-dark);
             padding: 30px 50px;
             border-radius: 20px;
@@ -1010,12 +1010,12 @@
         }
 
         .feihua-poem.correct {
-            background: #e8e6e1;
+            background: #E8F5E9;
             color: var(--success);
         }
 
         .feihua-poem.wrong {
-            background: #f5f3ee;
+            background: #FFEBEE;
             color: var(--error);
         }
 
@@ -1137,7 +1137,7 @@
         .answer-display {
             font-size: 1.3em;
             padding: 15px;
-            background: #e8e6e1;
+            background: #E8F5E9;
             border-radius: 10px;
             text-align: center;
             color: var(--success);
@@ -1371,7 +1371,7 @@
         <div class="page" id="feihuaPage">
             <div class="game-header">
                 <div class="game-title">🌸 飞花令</div>
-                <div class="game-progress" id="feihuaProgress">
+                <div class="game-progress">
                     <div class="progress-item">
                         <span>⏱️</span>
                         <span id="feihuaTimer">500</span>秒
@@ -1384,9 +1384,6 @@
                         <span>🔥</span>
                         <span id="feihuaCount">0/3</span>
                     </div>
-                </div>
-                <div style="text-align:center;margin:10px 0;">
-                    <button class="btn btn-small" id="feihuaModeToggle" onclick="toggleFeihuaMode()" style="font-size:0.85em;padding:6px 12px;">📚 切换到学习模式</button>
                 </div>
             </div>
             
@@ -1404,16 +1401,7 @@
                     <!-- 答题历史 -->
                 </div>
                 
-                <!-- 学习模式内容 -->
-                <div id="feihuaLearningArea" style="display:none;text-align:center;">
-                    <div id="feihuaLearningKeyword" style="font-size:2.5em;font-weight:700;color:var(--primary);margin:15px 0;"></div>
-                    <div id="feihuaLearningPoems" style="max-height:400px;overflow-y:auto;text-align:left;padding:10px;"></div>
-                    <div style="text-align:center;margin-top:15px;">
-                        <button class="btn" onclick="nextLearningKeyword()">下一个关键字 👉</button>
-                    </div>
-                </div>
-                
-                <div style="text-align:center;" id="feihuaChallengeArea">
+                <div style="text-align:center;">
                     <button class="btn" id="feihuaStartBtn" onclick="startFeihuaGame()">开始挑战</button>
                 </div>
             </div>
