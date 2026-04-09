@@ -1264,7 +1264,7 @@ async function startFeihua() {
     document.getElementById('feihuaKeyword').textContent = feihuaState.keyword;
     document.getElementById('feihuaTimer').textContent = '500';
     document.getElementById('feihuaScore').textContent = '0';
-    document.getElementById('feihuaCount').textContent = '0/10';
+    document.getElementById('feihuaCount').textContent = '0/3';
     document.getElementById('feihuaHistory').innerHTML = '';
     
     // 清空提示区
@@ -1452,7 +1452,7 @@ function submitFeihuaAnswerByInput() {
         const comboBonus = Math.min(feihuaState.combo - 1, 5) * 2; // 最多+10分
         feihuaState.score += baseScore + comboBonus;
         
-        document.getElementById('feihuaCount').textContent = feihuaState.currentIndex + '/10';
+        document.getElementById('feihuaCount').textContent = feihuaState.currentIndex + '/3';
         document.getElementById('feihuaScore').textContent = feihuaState.score;
         
         // 显示正确提示（带来源信息）
@@ -1461,8 +1461,8 @@ function submitFeihuaAnswerByInput() {
         // 显示诗句来源
         showPoemSource(poemData);
         
-        // 检查是否完成10句
-        if (feihuaState.currentIndex >= 10) {
+        // 检查是否完成3句
+        if (feihuaState.currentIndex >= 3) {
             clearInterval(feihuaState.timer);
             feihuaState.isPlaying = false;
             showFeihuaSuccess();
@@ -1561,7 +1561,7 @@ function skipFeihuaAndShowAnswer() {
 
 // 飞花令挑战成功
 function showFeihuaSuccess() {
-    const completionBonus = 100; // 完成10句奖励
+    const completionBonus = 100; // 完成3句奖励
     feihuaState.score += completionBonus;
     
     // 保存成绩
@@ -1660,14 +1660,14 @@ function startNextFeihuaRound() {
     document.getElementById('feihuaTimer').textContent = '500';
     document.getElementById('feihuaTimer').style.color = '';
     document.getElementById('feihuaScore').textContent = feihuaState.score; // 保留总分
-    document.getElementById('feihuaCount').textContent = '0/10';
+    document.getElementById('feihuaCount').textContent = '0/3';
     document.getElementById('feihuaHistory').innerHTML = '';
     
     // 显示输入框
     showFeihuaInput();
 }
 
-// 时间到（未完成10句）
+// 时间到（未完成3句）
 function endFeihuaRound() {
     clearInterval(feihuaState.timer);
     feihuaState.isPlaying = false;
