@@ -1386,14 +1386,17 @@ function submitFeihuaAnswerByInput() {
     }
     
     // 3. 在诗词库中查找匹配（使用相同的规范化方式）
+    // 优先返回较短的诗句（短诗句通常是更著名、更常用的）
     const normalizedForMatch = userAnswer.replace(/[\s，。！？、；：""''（）]/g, '');
-    const matchedPoemData = feihuaState.poems.find(p => {
-        const poemText = p.text || p.poem || '';
-        const cleanPoem = poemText.replace(/[\s，。！？、；：""''（）]/g, '');
-        // 精确匹配：清理后完全相同
-        return cleanPoem === normalizedForMatch;
+    const sortedPoemData = [...feihuaState.poems].sort((a, b) => {
+        const aText = a.text || a.poem || '';
+        const bText = b.text || b.poem || '';
+        return aText.length - bText.length;
     });
-    // 统一字段名：matchedPoemData 用 text，crossMatchedPoem 用 poem，需要统一
+    const matchedPoemData = sortedPoemData.find(p => {
+        const poemText = (p.text || p.poem || '').replace(/[，。！？、；：""''（）]/g, '');
+        return poemText === normalizedForMatch;
+    });
     const matchedPoem = matchedPoemData ? {
         poem: matchedPoemData.text || matchedPoemData.poem || '',
         author: matchedPoemData.author || '佚名',
@@ -1496,10 +1499,16 @@ function showPoemSource(poemData, isError = false) {
     const sourceDiv = document.createElement('div');
     sourceDiv.className = 'poem-source-box';
     sourceDiv.style.cssText = `margin:15px 0;padding:15px;background:${bgColor};border-radius:10px;border-left:4px solid ${borderColor};`;
+    // 截断超长诗句，避免卡片过宽（超过20字截断）
+    const poemText = poemData.poem || '';
+    const displayText = poemText.length > 20 ? poemText.slice(0, 20) + '…' : poemText;
+    const authorName = poemData.author || '佚名';
+    const poemTitle = poemData.title || '无题';
+
     sourceDiv.innerHTML = `
         <div style="color:${borderColor};font-weight:bold;margin-bottom:10px;">${label}</div>
-        <div style="font-size:1.2em;color:var(--text);margin-bottom:8px;line-height:1.6;">"${poemData.poem}"</div>
-        <div style="color:#666;font-size:0.9em;">—— ${poemData.author}《${poemData.title}》</div>
+        <div style="font-size:1.2em;color:var(--text);margin-bottom:8px;line-height:1.6;">"${displayText}"</div>
+        <div style="color:#666;font-size:0.9em;">—— ${authorName}《${poemTitle}》</div>
     `;
     
     promptEl.appendChild(sourceDiv);
