@@ -688,7 +688,7 @@
         /* Toast提示 */
         .toast {
             position: fixed;
-            bottom: 80px;
+            top: 100px;
             left: 50%;
             transform: translateX(-50%);
             background: var(--text);
@@ -699,6 +699,9 @@
             z-index: 500;
             opacity: 0;
             transition: opacity 0.3s;
+            pointer-events: none;
+            max-width: 80%;
+            text-align: center;
         }
         
         .toast.show {
@@ -1108,6 +1111,33 @@
             transform: none;
         }
 
+        /* 飞花令输入框样式 */
+        #feihuaInput {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            border: 2px solid var(--primary);
+            border-radius: 10px;
+            background: var(--bg-secondary);
+            color: var(--text);
+            outline: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            pointer-events: auto;
+            touch-action: manipulation;
+        }
+        
+        #feihuaInput:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.2);
+        }
+        
+        #feihuaSubmitBtn {
+            pointer-events: auto;
+            touch-action: manipulation;
+        }
+
         /* 选中诗句展示 */
         .selected-poem {
             display: flex;
@@ -1342,12 +1372,16 @@
         </div>
         
         <!-- 排行榜页 -->
-        <div class="page" id="rankingPage">
+        <div class="page" id="rankingPage" data-testid="ranking-page">
             <div class="game-header">
                 <div class="game-title">排行榜</div>
             </div>
-            <div id="rankingList">
-                <!-- 动态生成 -->
+            <div id="rankingList" data-testid="ranking-list">
+                <div class="empty-state">
+                    <div class="empty-icon">🏆</div>
+                    <p>排行榜功能开发中...</p>
+                    <p style="font-size:0.9em;margin-top:10px;">敬请期待！</p>
+                </div>
             </div>
             <div style="text-align:center;margin-top:20px;">
                 <button class="btn btn-secondary" onclick="goHome()">返回主页</button>

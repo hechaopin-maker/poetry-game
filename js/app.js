@@ -982,6 +982,7 @@ function showToast(message) {
     toast.textContent = message;
     toast.classList.add('show');
     
+    // 2秒后自动消失
     setTimeout(() => {
         toast.classList.remove('show');
     }, 2000);
@@ -1317,9 +1318,10 @@ function showFeihuaInput() {
         <input type="text" id="feihuaInput" 
                style="width:100%;padding:15px 20px;font-size:1.2em;border:2px solid var(--primary);border-radius:10px;background:var(--bg-secondary);color:var(--text);"
                placeholder="输入诗句，如：春眠不觉晓" 
-               
-               autocomplete="off">
-        <button id="feihuaSubmitBtn" class="btn" style="margin-top:15px;padding:12px 30px;font-size:1.1em;width:100%;" onclick="submitFeihuaAnswerByInput()">
+               data-testid="feihua-input"
+               autocomplete="off"
+               inputmode="text">
+        <button id="feihuaSubmitBtn" class="btn" style="margin-top:15px;padding:12px 30px;font-size:1.1em;width:100%;" onclick="submitFeihuaAnswerByInput()" data-testid="feihua-submit-btn">
             提交答案
         </button>
         <div style="text-align:center;margin-top:12px;">
