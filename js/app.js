@@ -1485,11 +1485,16 @@ function submitFeihuaAnswerByInput() {
 // 显示诗句来源信息
 function showPoemSource(poemData, isError = false) {
     const promptEl = document.getElementById('feihuaPrompt');
+    // 清理旧的来源提示，避免堆积
+    const oldSource = promptEl.querySelector('.poem-source-box');
+    if (oldSource) oldSource.remove();
+
     const bgColor = isError ? 'rgba(231,76,60,0.15)' : 'rgba(46,204,113,0.15)';
     const borderColor = isError ? '#e74c3c' : '#2ecc71';
     const label = isError ? '📖 这句诗是这样的（学习一下）' : '✓ 诗句出处';
     
     const sourceDiv = document.createElement('div');
+    sourceDiv.className = 'poem-source-box';
     sourceDiv.style.cssText = `margin:15px 0;padding:15px;background:${bgColor};border-radius:10px;border-left:4px solid ${borderColor};`;
     sourceDiv.innerHTML = `
         <div style="color:${borderColor};font-weight:bold;margin-bottom:10px;">${label}</div>
