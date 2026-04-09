@@ -1387,11 +1387,18 @@ function submitFeihuaAnswerByInput() {
     
     // 3. 在诗词库中查找匹配（使用相同的规范化方式）
     const normalizedForMatch = userAnswer.replace(/[\s，。！？、；：""''（）]/g, '');
-    const matchedPoem = feihuaState.poems.find(p => {
-        const cleanPoem = p.poem.replace(/[\s，。！？、；：""''（）]/g, '');
+    const matchedPoemData = feihuaState.poems.find(p => {
+        const poemText = p.text || p.poem || '';
+        const cleanPoem = poemText.replace(/[\s，。！？、；：""''（）]/g, '');
         // 精确匹配：清理后完全相同
         return cleanPoem === normalizedForMatch;
     });
+    // 统一字段名：matchedPoemData 用 text，crossMatchedPoem 用 poem，需要统一
+    const matchedPoem = matchedPoemData ? {
+        poem: matchedPoemData.text || matchedPoemData.poem || '',
+        author: matchedPoemData.author || '佚名',
+        title: matchedPoemData.title || '无题'
+    } : null;
     
     // 同时检查是否在其他关键字的诗句中（跨库验证）
     let crossMatchedPoem = null;

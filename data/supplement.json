@@ -10390,5 +10390,31 @@
     ],
     "keySentence": "更值悲秋强遣情",
     "isClassic": false
+  },
+  {
+    "id": "sup_poetry_new_151",
+    "title": "断句",
+    "author": "苏麟",
+    "dynasty": "宋",
+    "content": [
+      "近水楼台先得月"
+    ],
+    "fullText": "近水楼台先得月",
+    "interpretation": "靠近水边的楼台先得到月光。比喻由于接近某些人或事物而抢先得到某种利益。",
+    "source": "《全宋诗》",
+    "difficulty": 2,
+    "grades": [
+      "mk",
+      "fbc",
+      "chu1",
+      "chu2",
+      "zk"
+    ],
+    "knowledgePoints": [
+      "写景",
+      "哲理"
+    ],
+    "keySentence": "近水楼台先得月",
+    "isClassic": true
   }
 ]
