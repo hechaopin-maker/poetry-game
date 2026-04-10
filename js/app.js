@@ -1845,14 +1845,39 @@ function startMatch() {
 }
 
 function generateMatchQuestions(count) {
-    // 使用全诗词库POEMS_DATA生成题目（无限题目）
+    // 仅从闯关题库关联的诗词中出题（适合中小学生）
     const questions = [];
     
     // 干扰字库（已转换为简体）
     const 干扰字 = '春夏秋冬日月山水风云花鸟虫鱼天地人东南西北中上下左右前后高低大小多少有无来去生死黑白赤橙黄绿青蓝紫金银铜铁玉石木竹松柏梅兰菊荷莲桂梧桐杨柳桃杏梨枣核桃樱桃草莓葡萄西瓜黄瓜萝卜白菜茄子番茄土豆牛肉羊肉猪肉鸡肉鸭肉鹅肉鱼肉虾蟹贝壳虫蚂蚁蜜蜂蝴蝶蜻蜓蜘蛛乌鸦喜鹊鹦鹉鸽子燕子大雁麻雀老鹰熊猫老虎狮子大象猴子兔子狐狸狼头鹰乌龟蛇青蛙蟾蜍虾米'.split('');
     
-    // 从全诗词库随机选取诗句
-    const shuffledPoems = [...POEMS_DATA].sort(() => Math.random() - 0.5);
+    // 从闯关题库关联的诗词中选取（只选题库用到的诗词，适合中小学）
+    const validPoemIds = new Set();
+    if (typeof QUESTIONS_DATA !== 'undefined') {
+        QUESTIONS_DATA.forEach(q => {
+            if (!q.deleted && q.poemId) validPoemIds.add(q.poemId);
+        });
+    }
+    
+    // 过滤：只保留题库关联的诗词，且有内容
+    let pool = POEMS_DATA.filter(p =>
+        validPoemIds.has(p.id) &&
+        p.content && Array.isArray(p.content) &&
+        p.content.some(l => l && l.length >= 5 && l.length <= 12)
+    );
+    
+    // 如果题库关联诗词太少（少于count），补充难度<=3的诗词
+    if (pool.length < count) {
+        const extra = POEMS_DATA.filter(p =>
+            !validPoemIds.has(p.id) &&
+            (!p.difficulty || p.difficulty <= 3) &&
+            p.content && Array.isArray(p.content) &&
+            p.content.some(l => l && l.length >= 5 && l.length <= 12)
+        );
+        pool = [...pool, ...extra];
+    }
+    
+    const shuffledPoems = pool.sort(() => Math.random() - 0.5);
     
     for (let i = 0; i < Math.min(count, shuffledPoems.length); i++) {
         const poem = shuffledPoems[i];
