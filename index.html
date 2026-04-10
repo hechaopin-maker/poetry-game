@@ -414,6 +414,23 @@
             color: var(--primary-dark);
         }
         
+        /* 答案/提示按钮 */
+        .hint-btn {
+            background: var(--secondary);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: .9rem;
+            color: var(--primary-dark);
+            margin: 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .hint-btn:hover {
+            background: var(--primary);
+            color: #fff;
+        }
+        
         /* 结果页面 */
         .result-box {
             background: #fff;
@@ -1486,6 +1503,9 @@
             <div class="question-box">
                 <span class="question-type" id="matchType">九宫格</span>
                 <div class="question-text" id="matchQuestion">从下方9个字中选出正确的一句诗</div>
+                <div style="text-align:center;margin-top:10px;">
+                    <button class="hint-btn" onclick="showMatchAnswer()" style="background:#9c27b0;color:#fff;">📖 答案</button>
+                </div>
                 
                 <!-- 九宫格选项 -->
                 <div id="jiugonggeGrid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0;">

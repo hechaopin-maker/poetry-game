@@ -1903,6 +1903,14 @@ function generateMatchQuestions(count) {
             answer: answer,
             poem: toSimplified(poem.title || '无题'),
             author: toSimplified(poem.author || '佚名'),
+            dynasty: toSimplified(poem.dynasty || ''),
+            fullText: toSimplified(poem.fullText || poem.content?.join('，') || ''),
+            interpretation: toSimplified(poem.interpretation || ''),
+            content: poem.content ? poem.content.map(l => toSimplified(l)) : [],
+            keySentence: toSimplified(poem.keySentence || ''),
+            knowledgePoints: poem.knowledgePoints || [],
+            difficulty: poem.difficulty || 0,
+            grades: poem.grades || [],
             explanation: `${toSimplified(poem.dynasty || '')}·${toSimplified(poem.author || '佚名')}《${toSimplified(poem.title || '无题')}》`,
             gameType: 'dianzichengshi'
         };
@@ -2205,6 +2213,92 @@ function handleMatchWrong() {
         matchState.currentIndex++;
         showMatchQuestion();
     }, 2000);
+}
+
+function showMatchAnswer() {
+    const q = matchState.currentQuestion;
+    if (!q) return;
+    
+    // 清除选中状态
+    matchState.selectedChars.forEach(c => {
+        c.element.classList.remove('selected');
+    });
+    
+    // 构建答案HTML
+    let answerHtml = '<div style="text-align:left;max-width:500px;margin:0 auto;">';
+    
+    // 诗词标题
+    answerHtml += '<div style="text-align:center;margin-bottom:20px;">';
+    answerHtml += '<div style="font-size:1.4em;font-weight:bold;color:var(--primary-dark);">' + q.poem + '</div>';
+    answerHtml += '<div style="color:#666;margin-top:5px;">' + q.dynasty + ' · ' + q.author + '</div>';
+    answerHtml += '</div>';
+    
+    // 诗词全文
+    if (q.fullText) {
+        answerHtml += '<div style="background:#f9f9f9;border-radius:12px;padding:15px;margin-bottom:15px;text-align:center;">';
+        answerHtml += '<div style="font-size:1.1em;line-height:1.8;color:#333;">' + q.fullText.replace(/,/g, '，').replace(/\./g, '。') + '</div>';
+        answerHtml += '</div>';
+    }
+    
+    // 译文/解析
+    if (q.interpretation) {
+        answerHtml += '<div style="background:#e8f4e8;border-radius:12px;padding:15px;margin-bottom:15px;">';
+        answerHtml += '<div style="font-weight:bold;color:#2e7d32;margin-bottom:8px;">📖 译文</div>';
+        answerHtml += '<div style="color:#555;line-height:1.6;">' + q.interpretation + '</div>';
+        answerHtml += '</div>';
+    }
+    
+    // 关键词句
+    if (q.keySentence) {
+        answerHtml += '<div style="background:#fff3e0;border-radius:12px;padding:15px;margin-bottom:15px;">';
+        answerHtml += '<div style="font-weight:bold;color:#e65100;margin-bottom:8px;">⭐ 关键词句</div>';
+        answerHtml += '<div style="color:#333;">' + q.keySentence + '</div>';
+        answerHtml += '</div>';
+    }
+    
+    // 知识要点
+    if (q.knowledgePoints && q.knowledgePoints.length > 0) {
+        answerHtml += '<div style="margin-bottom:15px;">';
+        answerHtml += '<div style="font-weight:bold;color:#666;margin-bottom:8px;">📚 知识要点</div>';
+        answerHtml += '<div style="display:flex;flex-wrap:wrap;gap:6px;">';
+        q.knowledgePoints.forEach(kp => {
+            answerHtml += '<span style="background:#e3f2fd;color:#1565c0;padding:4px 10px;border-radius:15px;font-size:0.85em;">' + kp + '</span>';
+        });
+        answerHtml += '</div></div>';
+    }
+    
+    // 正确答案
+    answerHtml += '<div style="background:var(--success);color:#fff;border-radius:12px;padding:15px;margin-bottom:15px;text-align:center;">';
+    answerHtml += '<div style="font-weight:bold;margin-bottom:5px;">✓ 正确答案是</div>';
+    answerHtml += '<div style="font-size:1.3em;font-weight:bold;letter-spacing:3px;">' + q.answer + '</div>';
+    answerHtml += '</div>';
+    
+    // 返回按钮
+    answerHtml += '<div style="text-align:center;margin-top:20px;">';
+    answerHtml += '<button class="btn" onclick="continueMatchAnswer()">继续答题</button>';
+    answerHtml += '</div>';
+    
+    answerHtml += '</div>';
+    
+    // 显示答案
+    const result = document.getElementById('matchResult');
+    result.style.display = 'block';
+    result.innerHTML = answerHtml;
+    
+    // 隐藏九宫格/点字区域
+    document.getElementById('jiugonggeGrid').style.display = 'none';
+    document.getElementById('dianziGrid').style.display = 'none';
+    document.getElementById('selectedCharsDisplay').style.display = 'none';
+}
+
+function continueMatchAnswer() {
+    // 隐藏答案，返回游戏
+    document.getElementById('matchResult').style.display = 'none';
+    document.getElementById('jiugonggeGrid').style.display = '';
+    document.getElementById('dianziGrid').style.display = '';
+    if (matchState.currentQuestion && matchState.currentQuestion.gameType === 'shiergongge') {
+        document.getElementById('selectedCharsDisplay').style.display = '';
+    }
 }
 
 function endMatch() {
