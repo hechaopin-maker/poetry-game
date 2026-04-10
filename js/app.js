@@ -536,6 +536,12 @@ function showQuestion() {
             const option = createOptionElement(opt, idx, letters[idx]);
             container.appendChild(option);
         });
+        // 添加"跳过看答案"链接
+        const skipLink = document.createElement('div');
+        skipLink.style.textAlign = 'center';
+        skipLink.style.marginTop = '15px';
+        skipLink.innerHTML = '<a href="javascript:void(0)" onclick="skipChoiceAndShowAnswer()" style="color:#666;font-size:14px;text-decoration:underline;">不会做？点此查看答案（记为错题）</a>';
+        container.appendChild(skipLink);
     }
     
     // 隐藏解析
@@ -690,6 +696,51 @@ function skipAndShowAnswer() {
     // 确保onclick正确绑定
     nextBtn.onclick = nextQuestion;
     
+    // 如果当前用户在诗词闯关或每日挑战，更新用户数据
+    if (gameState.currentUser) {
+        gameState.currentUser.totalCount++;
+        gameState.currentUser.wrongCount = (gameState.currentUser.wrongCount || 0) + 1;
+        saveUser();
+        updateUserDisplay();
+    }
+}
+
+// 跳过选择题并显示答案（记为错题）
+function skipChoiceAndShowAnswer() {
+    const q = gameState.questions[gameState.currentQuestion];
+
+    // 禁用所有选项
+    document.querySelectorAll('.option').forEach(opt => {
+        opt.classList.add('disabled');
+        opt.onclick = null;
+    });
+
+    // 显示正确答案（绿色高亮）
+    document.querySelectorAll('.option').forEach(opt => {
+        const idx = parseInt(opt.dataset.index);
+        if (q.options[idx].correct) {
+            opt.classList.add('correct');
+        }
+    });
+
+    // 重置连击
+    gameState.combo = 0;
+    document.getElementById('combo').textContent = '0连击';
+
+    // 记录为错题
+    gameState.wrongCount++;
+    recordWrongQuestion(q);
+
+    // 显示解析（增强版）
+    document.getElementById('explanationText').innerHTML = getEnhancedExplanation(q);
+    document.getElementById('explanation').classList.add('show');
+    updateShowPoemButton(q);
+
+    // 显示"下一题"按钮
+    const nextBtn = document.getElementById('nextQuestionBtn');
+    nextBtn.style.display = 'inline-block';
+    nextBtn.onclick = nextQuestion;
+
     // 如果当前用户在诗词闯关或每日挑战，更新用户数据
     if (gameState.currentUser) {
         gameState.currentUser.totalCount++;
