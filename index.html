@@ -928,7 +928,7 @@
         /* 手机横屏 (≤850px landscape) */
         @media (max-height: 500px) and (orientation: landscape) {
             .game-modules {
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(2, 1fr);
             }
             
             .question-box {
@@ -954,7 +954,7 @@
         /* iPad 横屏 (768px - 1024px) */
         @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
             .game-modules {
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(2, 1fr);
             }
             
             .question-box {
@@ -1221,11 +1221,6 @@
         <!-- 首页 -->
         <div class="page active" id="homePage">
             <div class="game-modules">
-                <div class="module-card" onclick="startGame('challenge')">
-                    <div class="module-icon">📚</div>
-                    <div class="module-title">诗词闯关</div>
-                    <div class="module-desc">按年级选择关卡</div>
-                </div>
                 <div class="module-card" onclick="startGame('feihua')">
                     <div class="module-icon">🌸</div>
                     <div class="module-title">飞花令</div>
@@ -1236,20 +1231,25 @@
                     <div class="module-title">诗词消消乐</div>
                     <div class="module-desc">消除游戏学诗词</div>
                 </div>
+                <div class="module-card" onclick="startGame('challenge')">
+                    <div class="module-icon">📚</div>
+                    <div class="module-title">诗词闯关</div>
+                    <div class="module-desc">按年级选择关卡</div>
+                </div>
                 <div class="module-card" onclick="startGame('daily')">
                     <div class="module-icon">📅</div>
                     <div class="module-title">每日挑战</div>
                     <div class="module-desc">每天10题挑战</div>
                 </div>
-                <div class="module-card" onclick="showDict()">
-                    <div class="module-icon">📖</div>
-                    <div class="module-title">诗词词典</div>
-                    <div class="module-desc">查询诗词释义</div>
-                </div>
                 <div class="module-card" onclick="showWrongNotes()">
                     <div class="module-icon">📝</div>
                     <div class="module-title">错题本</div>
                     <div class="module-desc">巩固薄弱知识点</div>
+                </div>
+                <div class="module-card" onclick="showDict()">
+                    <div class="module-icon">📖</div>
+                    <div class="module-title">诗词词典</div>
+                    <div class="module-desc">查询诗词释义</div>
                 </div>
             </div>
         </div>
