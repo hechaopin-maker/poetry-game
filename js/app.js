@@ -1313,7 +1313,7 @@ async function startFeihua() {
     // 显示页面
     showPage('feihuaPage');
     document.getElementById('feihuaKeyword').textContent = feihuaState.keyword;
-    document.getElementById('feihuaTimer').textContent = '500';
+    document.getElementById('feihuaTimer').textContent = '200';
     document.getElementById('feihuaScore').textContent = '0';
     document.getElementById('feihuaCount').textContent = '0/2';
     document.getElementById('feihuaHistory').innerHTML = '';
@@ -1328,7 +1328,7 @@ async function startFeihua() {
 
 function startFeihuaGame() {
     feihuaState.isPlaying = true;
-    feihuaState.timeLeft = 500;
+    feihuaState.timeLeft = 200;
     feihuaState.currentIndex = 0;
     feihuaState.correctCount = 0;
     feihuaState.answered = [];
@@ -1679,6 +1679,9 @@ function showFeihuaSuccess() {
     
     document.getElementById('feihuaStartBtn').style.display = 'none';
     showToast(`🎉 挑战成功！+${completionBonus}完成奖励！`);
+    
+    // 1.5秒后自动进入下一轮
+    setTimeout(() => startNextFeihuaRound(), 1500);
 }
 
 // 开始下一轮飞花令
@@ -1708,7 +1711,7 @@ function startNextFeihuaRound() {
     
     // 更新显示
     document.getElementById('feihuaKeyword').textContent = feihuaState.keyword;
-    document.getElementById('feihuaTimer').textContent = '500';
+    document.getElementById('feihuaTimer').textContent = '200';
     document.getElementById('feihuaTimer').style.color = '';
     document.getElementById('feihuaScore').textContent = feihuaState.score; // 保留总分
     document.getElementById('feihuaCount').textContent = '0/2';
