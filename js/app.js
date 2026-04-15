@@ -1328,7 +1328,7 @@ async function startFeihua() {
 
 function startFeihuaGame() {
     feihuaState.isPlaying = true;
-    feihuaState.timeLeft = 200;
+    feihuaState.timeLeft = 50;
     feihuaState.currentIndex = 0;
     feihuaState.correctCount = 0;
     feihuaState.answered = [];
@@ -1711,7 +1711,7 @@ function startNextFeihuaRound() {
     
     // 更新显示
     document.getElementById('feihuaKeyword').textContent = feihuaState.keyword;
-    document.getElementById('feihuaTimer').textContent = '200';
+    document.getElementById('feihuaTimer').textContent = '50';
     document.getElementById('feihuaTimer').style.color = '';
     document.getElementById('feihuaScore').textContent = feihuaState.score; // 保留总分
     document.getElementById('feihuaCount').textContent = '0/2';
