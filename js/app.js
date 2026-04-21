@@ -129,13 +129,13 @@ function toSimplified(str) {
 // ==================== 年级关卡配置 ====================
 const GRADE_LEVELS = {
     mk: {
-        icon: '📚',
+        icon: '书',
         name: '小升初密考',
         description: '小升初密考真题精选',
         questions: 10
     },
     fbc: {
-        icon: '📖',
+        icon: '文',
         name: '分班测',
         description: '初一新生分班测真题',
         questions: 10
@@ -888,7 +888,7 @@ function recordQuestionCorrect(q) {
         user.questionMastery[q.id].masteredAt = Date.now();
         // 从错题本中移除（如果之前有错）
         user.wrongQuestions = user.wrongQuestions.filter(w => w.id !== q.id);
-        showToast('🎉 已掌握此知识点，2个月后再复习！');
+        showToast('贺 已掌握此知识点，2个月后再复习！');
     }
     
     saveUser();
@@ -952,7 +952,7 @@ function endGame() {
 function showResult() {
     const passed = gameState.score >= 80;
     
-    document.getElementById('resultIcon').textContent = passed ? '🎉' : '💪';
+    document.getElementById('resultIcon').textContent = passed ? '贺' : '劲';
     document.getElementById('resultTitle').textContent = passed ? '挑战成功！' : '再接再厉！';
     document.getElementById('resultScore').textContent = gameState.score + '分';
     document.getElementById('statCorrect').textContent = gameState.correctCount;
@@ -1022,7 +1022,7 @@ function updateTimerDisplay() {
 
 // 显示连击特效
 function showComboEffect() {
-    const effects = ['🔥', '⭐', '🎯', '💫', '🌟'];
+    const effects = ['焰', '星', '中', '闪', '耀'];
     const effect = effects[Math.floor(Math.random() * effects.length)];
     showToast(`${effect} ${gameState.combo}连击！`);
 }
@@ -1085,7 +1085,7 @@ function toggleFeihuaMode() {
         startFeihuaLearning();
     } else {
         // 切换到挑战模式
-        modeBtn.textContent = '📚 切换到学习模式';
+        modeBtn.textContent = '书 切换到学习模式';
         challengeArea.style.display = 'block';
         learningArea.style.display = 'none';
         progress.style.display = 'flex';
@@ -1507,7 +1507,7 @@ function submitFeihuaAnswerByInput() {
         document.getElementById('feihuaScore').textContent = feihuaState.score;
         
         // 显示正确提示（带来源信息）
-        showToast(`✓ 正确！+${baseScore + comboBonus}分${comboBonus > 0 ? ' (连击+' + comboBonus + ')' : ''}`);
+        showToast(`正 正确！+${baseScore + comboBonus}分${comboBonus > 0 ? ' (连击+' + comboBonus + ')' : ''}`);
         
         // 显示诗句来源
         showPoemSource(poemData);
@@ -1545,7 +1545,7 @@ function showPoemSource(poemData, isError = false) {
 
     const bgColor = isError ? 'rgba(231,76,60,0.15)' : 'rgba(46,204,113,0.15)';
     const borderColor = isError ? '#e74c3c' : '#2ecc71';
-    const label = isError ? '📖 这句诗是这样的（学习一下）' : '✓ 诗句出处';
+    const label = isError ? '文 这句诗是这样的（学习一下）' : '正 诗句出处';
     
     const sourceDiv = document.createElement('div');
     sourceDiv.className = 'poem-source-box';
@@ -1590,7 +1590,7 @@ function skipFeihuaAndShowAnswer() {
     const hint = document.createElement('div');
     hint.style.cssText = 'margin:15px 0;padding:15px;background:rgba(52,152,219,0.15);border-radius:10px;border-left:4px solid #3498db;';
     hint.innerHTML = `
-        <div style="color:#3498db;font-weight:bold;margin-bottom:10px;">📖 学习一下这句诗</div>
+        <div style="color:#3498db;font-weight:bold;margin-bottom:10px;">文 学习一下这句诗</div>
         <div style="font-size:1.3em;color:var(--text);margin-bottom:10px;line-height:1.6;">"${samplePoem.poem}"</div>
         <div style="color:#666;font-size:0.95em;margin-bottom:5px;">—— ${samplePoem.author}《${samplePoem.title}》</div>
         <div style="color:#888;font-size:0.85em;">关键字：「<strong>${feihuaState.keyword}</strong>」在这句诗的第${samplePoem.poem.indexOf(feihuaState.keyword) + 1}个字位置</div>
@@ -1631,7 +1631,7 @@ function showFeihuaSuccess() {
     if (unsaidPoems.length > 0) {
         learningContent = `
             <div style="margin-top:20px;padding-top:20px;border-top:1px dashed #ddd;">
-                <div style="color:#e67e22;font-weight:bold;margin-bottom:12px;">📚 这些诗句你也应该掌握：</div>
+                <div style="color:#e67e22;font-weight:bold;margin-bottom:12px;">书 这些诗句你也应该掌握：</div>
                 <div style="max-height:200px;overflow-y:auto;">
                     ${unsaidPoems.map(p => `
                         <div style="margin-bottom:10px;padding:8px;background:rgba(230,126,34,0.1);border-radius:6px;">
@@ -1646,7 +1646,7 @@ function showFeihuaSuccess() {
     
     document.getElementById('feihuaPrompt').innerHTML = `
         <div style="text-align:center;padding:20px;">
-            <div style="font-size:2.5em;margin-bottom:10px;">🎉</div>
+            <div style="font-size:2.5em;margin-bottom:10px;">贺</div>
             <div style="color:#27ae60;font-size:1.5em;font-weight:bold;">挑战成功！</div>
             <div style="color:#888;margin-top:5px;">关键字「${feihuaState.keyword}」</div>
         </div>
@@ -1678,7 +1678,7 @@ function showFeihuaSuccess() {
     `;
     
     document.getElementById('feihuaStartBtn').style.display = 'none';
-    showToast(`🎉 挑战成功！+${completionBonus}完成奖励！`);
+    showToast(`贺 挑战成功！+${completionBonus}完成奖励！`);
     
     // 1.5秒后自动进入下一轮
     setTimeout(() => startNextFeihuaRound(), 1500);
@@ -1742,7 +1742,7 @@ function endFeihuaRound() {
     if (unsaidPoems.length > 0) {
         learningContent = `
             <div style="margin-top:20px;padding-top:20px;border-top:1px dashed #ddd;">
-                <div style="color:#e67e22;font-weight:bold;margin-bottom:12px;">📚 这些诗句没答出来，学习一下吧：</div>
+                <div style="color:#e67e22;font-weight:bold;margin-bottom:12px;">书 这些诗句没答出来，学习一下吧：</div>
                 <div style="max-height:180px;overflow-y:auto;">
                     ${unsaidPoems.map(p => `
                         <div style="margin-bottom:10px;padding:8px;background:rgba(230,126,34,0.1);border-radius:6px;">
@@ -1811,7 +1811,7 @@ function endFeihua() {
     if (unsaidPoems.length > 0) {
         learningContent = `
             <div style="margin-top:20px;padding-top:20px;border-top:1px dashed #ddd;">
-                <div style="color:#e67e22;font-weight:bold;margin-bottom:12px;">📚 这些诗句也值得掌握：</div>
+                <div style="color:#e67e22;font-weight:bold;margin-bottom:12px;">书 这些诗句也值得掌握：</div>
                 <div style="max-height:200px;overflow-y:auto;">
                     ${unsaidPoems.map(p => `
                         <div style="margin-bottom:10px;padding:8px;background:rgba(230,126,34,0.1);border-radius:6px;">
@@ -1826,7 +1826,7 @@ function endFeihua() {
     
     document.getElementById('feihuaPrompt').innerHTML = `
         <div style="text-align:center;padding:15px;">
-            <div style="font-size:2em;margin-bottom:5px;">🎉</div>
+            <div style="font-size:2em;margin-bottom:5px;">贺</div>
             <div style="color:#27ae60;font-size:1.3em;font-weight:bold;">完成！</div>
         </div>
         <div style="background:rgba(39,174,96,0.15);border-radius:10px;padding:15px;margin-top:10px;">
@@ -2222,7 +2222,7 @@ function handleMatchCorrect() {
     const result = document.getElementById('matchResult');
     result.style.display = 'block';
     result.innerHTML = `
-        <div style="color:var(--success);font-size:1.2em;">✓ 正确！+${points}分</div>
+        <div style="color:var(--success);font-size:1.2em;">正 正确！+${points}分</div>
         <div style="margin-top:5px;color:#666;">${matchState.currentQuestion.poem || ''} - ${matchState.currentQuestion.author || ''}</div>
     `;
     
@@ -2297,7 +2297,7 @@ function showMatchAnswer() {
     // 译文/解析
     if (q.interpretation) {
         answerHtml += '<div style="background:#e8f4e8;border-radius:12px;padding:15px;margin-bottom:15px;">';
-        answerHtml += '<div style="font-weight:bold;color:#2e7d32;margin-bottom:8px;">📖 译文</div>';
+        answerHtml += '<div style="font-weight:bold;color:#2e7d32;margin-bottom:8px;">文 译文</div>';
         answerHtml += '<div style="color:#555;line-height:1.6;">' + q.interpretation + '</div>';
         answerHtml += '</div>';
     }
@@ -2305,7 +2305,7 @@ function showMatchAnswer() {
     // 关键词句
     if (q.keySentence) {
         answerHtml += '<div style="background:#fff3e0;border-radius:12px;padding:15px;margin-bottom:15px;">';
-        answerHtml += '<div style="font-weight:bold;color:#e65100;margin-bottom:8px;">⭐ 关键词句</div>';
+        answerHtml += '<div style="font-weight:bold;color:#e65100;margin-bottom:8px;">星 关键词句</div>';
         answerHtml += '<div style="color:#333;">' + q.keySentence + '</div>';
         answerHtml += '</div>';
     }
@@ -2313,7 +2313,7 @@ function showMatchAnswer() {
     // 知识要点
     if (q.knowledgePoints && q.knowledgePoints.length > 0) {
         answerHtml += '<div style="margin-bottom:15px;">';
-        answerHtml += '<div style="font-weight:bold;color:#666;margin-bottom:8px;">📚 知识要点</div>';
+        answerHtml += '<div style="font-weight:bold;color:#666;margin-bottom:8px;">书 知识要点</div>';
         answerHtml += '<div style="display:flex;flex-wrap:wrap;gap:6px;">';
         q.knowledgePoints.forEach(kp => {
             answerHtml += '<span style="background:#e3f2fd;color:#1565c0;padding:4px 10px;border-radius:15px;font-size:0.85em;">' + kp + '</span>';
@@ -2323,7 +2323,7 @@ function showMatchAnswer() {
     
     // 正确答案
     answerHtml += '<div style="background:var(--success);color:#fff;border-radius:12px;padding:15px;margin-bottom:15px;text-align:center;">';
-    answerHtml += '<div style="font-weight:bold;margin-bottom:5px;">✓ 正确答案是</div>';
+    answerHtml += '<div style="font-weight:bold;margin-bottom:5px;">正 正确答案是</div>';
     answerHtml += '<div style="font-size:1.3em;font-weight:bold;letter-spacing:3px;">' + q.answer + '</div>';
     answerHtml += '</div>';
     
@@ -2366,7 +2366,7 @@ function endMatch() {
     const result = document.getElementById('matchResult');
     result.style.display = 'block';
     result.innerHTML = `
-        <div style="color:var(--success);font-size:1.5em;">🎉 通关！</div>
+        <div style="color:var(--success);font-size:1.5em;">贺 通关！</div>
         <div style="margin-top:10px;">得分：<strong>${matchState.score}</strong> 分</div>
         <div style="margin-top:10px;">
             <button class="btn" onclick="startMatch()">再玩一次</button>
@@ -2534,9 +2534,9 @@ function showPoemModal(poem) {
     
     const poemHTML = `
         <div style="position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.6);z-index:1000;display:flex;align-items:center;justify-content:center;">
-            <div style="background:#FDF5E6;border-radius:16px;padding:30px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;font-family:'Noto Serif SC',serif;">
+            <div style="background:var(--paper);border-radius:4px;padding:30px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;font-family:'Noto Serif SC',serif;border:1px solid var(--ink-light);">
                 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
-                    <h3 style="margin:0;color:#8B4513;">📖 诗词原文</h3>
+                    <h3 style="margin:0;color:var(--gold-dark);">文 诗词原文</h3>
                     <button onclick="closePoemModal()" style="background:none;border:none;font-size:1.5em;cursor:pointer;">✕</button>
                 </div>
                 <div style="text-align:center;margin-bottom:15px;">
@@ -2545,7 +2545,7 @@ function showPoemModal(poem) {
                 <div style="background:#fff;padding:20px;border-radius:10px;text-align:center;line-height:2.2;font-size:1.15em;color:#222;margin-bottom:15px;">
                     ${formattedText}
                 </div>
-                ${interpretation ? `<div style="margin-top:15px;padding:15px;background:#fff;border-radius:8px;"><strong style="color:#8B4513;">【诗词释义】</strong><p style="color:#555;margin:10px 0 0 0;line-height:1.8;">${interpretation}</p></div>` : ''}
+                ${interpretation ? `<div style="margin-top:15px;padding:15px;background:#fff;border-radius:8px;"><strong style="color:var(--gold-dark);">【诗词释义】</strong><p style="color:#555;margin:10px 0 0 0;line-height:1.8;">${interpretation}</p></div>` : ''}
                 <div style="text-align:center;margin-top:20px;">
                     <button class="btn btn-primary" onclick="closePoemModal()">返回解析</button>
                 </div>
@@ -2568,7 +2568,7 @@ function searchPoems() {
     if (!query) {
         results.innerHTML = `
             <div class="empty-state">
-                <div class="empty-icon">📖</div>
+                <div class="empty-icon">文</div>
                 <p>输入关键词搜索诗词</p>
             </div>
         `;
@@ -2639,7 +2639,7 @@ function showWrongNotes() {
     if (wrongs.length === 0) {
         list.innerHTML = `
             <div class="empty-state">
-                <div class="empty-icon">🎉</div>
+                <div class="empty-icon">贺</div>
                 <p>暂无错题记录，太棒了！</p>
             </div>
         `;
@@ -2679,7 +2679,7 @@ function showRanking() {
     const list = document.getElementById('rankingList');
     list.innerHTML = `
         <div class="empty-state">
-            <div class="empty-icon">🏆</div>
+            <div class="empty-icon">榜</div>
             <p>排行榜功能开发中...</p>
         </div>
     `;
@@ -2695,11 +2695,11 @@ function showAchievements() {
     const userAchs = gameState.currentUser?.achievements || [];
     
     const allAchievements = [
-        { id: 'first_correct', name: '初露锋芒', desc: '答对第一题', icon: '🌱' },
-        { id: 'combo_5', name: '五连绝世', desc: '达成5连击', icon: '🔥' },
-        { id: 'combo_10', name: '十全十美', desc: '达成10连击', icon: '⭐' },
-        { id: 'perfect', name: '满分通关', desc: '一次通关获得100分', icon: '💯' },
-        { id: 'poem_10', name: '诗词达人', desc: '掌握10首诗词', icon: '📚' }
+        { id: 'first_correct', name: '初露锋芒', desc: '答对第一题', icon: '芽' },
+        { id: 'combo_5', name: '五连绝世', desc: '达成5连击', icon: '焰' },
+        { id: 'combo_10', name: '十全十美', desc: '达成10连击', icon: '星' },
+        { id: 'perfect', name: '满分通关', desc: '一次通关获得100分', icon: '百' },
+        { id: 'poem_10', name: '诗词达人', desc: '掌握10首诗词', icon: '书' }
     ];
     
     list.innerHTML = allAchievements.map(a => {

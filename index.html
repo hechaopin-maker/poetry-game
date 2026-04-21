@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>古诗词大挑战</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Ma+Shan+Zheng&family=Zhi+Mang+Xing&display=swap" rel="stylesheet" crossorigin>
     <style>
         * {
             margin: 0;
@@ -14,25 +14,32 @@
         }
         
         :root {
-            --primary: #3d5c5c;
-            --primary-light: #4a6b6b;
-            --primary-dark: #2c3e50;
-            --secondary: #f5f3ee;
-            --accent: #8b7355;
-            --bg: #f5f3ee;
-            --bg-dark: #e8e6e1;
-            --text: #3a3a3a;
-            --text-light: #666666;
-            --gold: #8b7355;
-            --gold-dark: #6b5a47;
-            --success: #5a7a5a;
-            --error: #8b4c4c;
-            --shadow: rgba(0, 0, 0, 0.1);
+            --primary: #2c2c2c;
+            --primary-light: #4a4a4a;
+            --primary-dark: #1a1a1a;
+            --secondary: #ede8df;
+            --accent: #a08060;
+            --bg: #f4efe6;
+            --bg-dark: #e8e3da;
+            --text: #2b2b2b;
+            --text-light: #8a8a8a;
+            --gold: #c23a30;
+            --gold-dark: #a02820;
+            --success: #4a6b5a;
+            --error: #8b3a3a;
+            --shadow: rgba(0, 0, 0, 0.08);
+            --ink-light: #d5d0c8;
+            --ink-mid: #a0a0a0;
+            --paper: #faf8f3;
         }
         
         body {
             font-family: 'Noto Serif SC', serif;
-            background: var(--bg);
+            background:
+                radial-gradient(ellipse 80% 50% at 20% 40%, rgba(160,140,120,0.04) 0%, transparent 50%),
+                radial-gradient(ellipse 60% 40% at 80% 60%, rgba(140,130,110,0.03) 0%, transparent 50%),
+                radial-gradient(ellipse 100% 30% at 50% 0%, rgba(180,170,150,0.03) 0%, transparent 40%),
+                var(--bg);
             min-height: 100vh;
             color: var(--text);
             padding-top: env(safe-area-inset-top);
@@ -41,55 +48,62 @@
         
         /* 顶部导航 */
         .header {
-            background: var(--primary);
+            background: var(--paper);
             padding: 15px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 4px 15px var(--shadow);
+            border-bottom: 1px solid var(--ink-light);
             position: sticky;
             top: 0;
             z-index: 100;
         }
-        
+
         .logo {
-            font-size: 1.8em;
-            font-weight: 700;
-            color: #fff;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
+            font-size: 1.6em;
+            font-weight: 400;
+            color: var(--primary-dark);
             display: flex;
             align-items: center;
             gap: 10px;
+            letter-spacing: 2px;
         }
-        
+
         .logo::before {
-            content: "📜";
-            font-size: 1.2em;
+            content: "";
+            width: 2px;
+            height: 1.2em;
+            background: var(--gold);
+            display: inline-block;
         }
         
         .user-info {
             display: flex;
             align-items: center;
             gap: 15px;
-            color: #fff;
+            color: var(--text);
         }
-        
+
         .xp-badge {
-            background: var(--gold);
-            color: var(--primary-dark);
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-weight: 600;
-            font-size: 1em;
+            background: transparent;
+            color: var(--text);
+            padding: 4px 10px;
+            border: 1px solid var(--ink-light);
+            font-size: 0.9em;
+            font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
         }
-        
+
         .level-badge {
-            background: var(--secondary);
-            color: var(--primary-dark);
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-weight: 600;
-            font-size: 1em;
+            background: var(--gold);
+            color: #fff;
+            padding: 4px 10px;
+            font-size: 0.9em;
+            font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
+        }
+
+        .xp-badge, .level-badge {
+            border-radius: 2px;
         }
         
         /* 主容器 */
@@ -108,40 +122,44 @@
         }
         
         .module-card {
-            background: #fff;
-            border-radius: 16px;
+            background: var(--paper);
+            border-radius: 4px;
             padding: 25px 20px;
             text-align: center;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px var(--shadow);
-            border: 2px solid transparent;
+            box-shadow: 0 2px 8px var(--shadow);
+            border: 1px solid var(--ink-light);
         }
-        
+
         .module-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px var(--shadow);
-            border-color: var(--accent);
+            border-color: var(--ink-mid);
+            box-shadow: 0 4px 12px var(--shadow);
         }
-        
+
         .module-card:active {
-            transform: translateY(-2px);
+            transform: scale(0.98);
         }
-        
+
         .module-icon {
-            font-size: 3em;
+            font-family: 'Zhi Mang Xing', 'Ma Shan Zheng', serif;
+            font-size: 2.4em;
             margin-bottom: 10px;
-        }
-        
-        .module-title {
-            font-size: 1.3em;
-            font-weight: 600;
             color: var(--primary);
-            margin-bottom: 8px;
+            opacity: 0.85;
         }
-        
+
+        .module-title {
+            font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
+            font-size: 1.4em;
+            font-weight: 400;
+            color: var(--primary-dark);
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+        }
+
         .module-desc {
-            font-size: 1em;
+            font-size: 0.9em;
             color: var(--text-light);
         }
         
@@ -151,13 +169,13 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background: #fff;
+            background: var(--paper);
             display: flex;
             justify-content: space-around;
             padding: 10px 0;
-            box-shadow: 0 -4px 15px var(--shadow);
+            border-top: 1px solid var(--ink-light);
         }
-        
+
         .nav-item {
             display: flex;
             flex-direction: column;
@@ -167,15 +185,15 @@
             font-size: 1em;
             cursor: pointer;
             padding: 5px 15px;
-            border-radius: 10px;
             transition: all 0.2s;
+            border-bottom: 2px solid transparent;
         }
-        
+
         .nav-item:hover, .nav-item.active {
-            color: var(--primary);
-            background: var(--bg);
+            color: var(--primary-dark);
+            border-bottom-color: var(--gold);
         }
-        
+
         .nav-item .icon {
             font-size: 1.5em;
         }
@@ -199,68 +217,76 @@
         .game-header {
             text-align: center;
             padding: 20px;
-            background: var(--primary);
-            color: #fff;
-            border-radius: 16px;
+            background: var(--paper);
+            color: var(--text);
+            border-radius: 4px;
             margin-bottom: 20px;
+            border: 1px solid var(--ink-light);
+            border-bottom: 2px solid var(--ink-light);
         }
-        
+
         .game-title {
-            font-size: 1.5em;
-            font-weight: 700;
+            font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
+            font-size: 1.6em;
+            font-weight: 400;
             margin-bottom: 10px;
+            letter-spacing: 3px;
+            color: var(--primary-dark);
         }
-        
+
         .game-progress {
             display: flex;
             justify-content: center;
             gap: 20px;
             font-size: 1em;
+            color: var(--text-light);
         }
-        
+
         .progress-item {
             display: flex;
             align-items: center;
             gap: 5px;
         }
-        
+
         /* 题目区域 */
         .question-box {
-            background: #fff;
-            border-radius: 16px;
+            background: var(--paper);
+            border-radius: 4px;
             padding: 25px;
             margin-bottom: 20px;
-            box-shadow: 0 4px 15px var(--shadow);
+            box-shadow: 0 2px 8px var(--shadow);
+            border: 1px solid var(--ink-light);
         }
-        
+
         .question-type {
             display: inline-block;
             background: var(--secondary);
             color: var(--primary-dark);
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 1em;
+            padding: 3px 10px;
+            border-radius: 2px;
+            font-size: 0.9em;
             margin-bottom: 15px;
+            border: 1px solid var(--ink-light);
         }
-        
+
         .question-text {
             font-size: 1.2em;
             line-height: 1.8;
             color: var(--text);
             margin-bottom: 20px;
         }
-        
+
         /* 选项 */
         .options {
             display: flex;
             flex-direction: column;
             gap: 12px;
         }
-        
+
         .option {
             background: var(--bg);
-            border: 2px solid var(--secondary);
-            border-radius: 12px;
+            border: 1px solid var(--ink-light);
+            border-radius: 4px;
             padding: 15px 20px;
             min-height: 44px;
             font-size: 1.1em;
@@ -271,27 +297,27 @@
             gap: 12px;
             box-sizing: border-box;
         }
-        
+
         .option:hover:not(.disabled) {
-            border-color: var(--accent);
-            background: #fff;
+            border-color: var(--ink-mid);
+            background: linear-gradient(90deg, var(--bg) 0%, var(--paper) 100%);
         }
-        
+
         .option.selected {
             border-color: var(--primary);
-            background: #fff;
+            background: var(--paper);
         }
-        
+
         .option.correct {
             border-color: var(--success);
-            background: #e8e6e1;
+            background: #f0ede8;
         }
-        
+
         .option.wrong {
             border-color: var(--error);
-            background: #f5f3ee;
+            background: #f5f0ec;
         }
-        
+
         .option.disabled {
             cursor: not-allowed;
             opacity: 0.7;
@@ -304,122 +330,119 @@
             gap: 15px;
             padding: 20px;
         }
-        
+
         .fill-input {
             width: 100%;
             padding: 15px 20px;
             font-size: 1.2em;
-            border: 2px solid var(--secondary);
-            border-radius: 12px;
+            border: 1px solid var(--ink-light);
+            border-radius: 4px;
             background: var(--bg);
             color: var(--text);
             font-family: inherit;
             transition: all 0.2s;
         }
-        
+
         .fill-input:focus {
             outline: none;
-            border-color: var(--accent);
-            background: #fff;
-            box-shadow: 0 0 0 3px rgba(205, 133, 63, 0.2);
+            border-color: var(--ink-mid);
+            background: var(--paper);
+            box-shadow: 0 0 0 2px rgba(0,0,0,0.05);
         }
-        
+
         .fill-input:disabled {
             background: #eee;
             cursor: not-allowed;
         }
-        
+
         .option-letter {
             width: 30px;
             height: 30px;
-            border-radius: 50%;
+            border-radius: 2px;
             background: var(--secondary);
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 600;
             flex-shrink: 0;
+            border: 1px solid var(--ink-light);
         }
-        
+
         /* 答案解析 */
         .explanation {
-            background: #FFF8E1;
-            border-left: 4px solid var(--gold-dark);
+            background: var(--paper);
+            border-left: 3px solid var(--gold);
             padding: 15px 20px;
-            border-radius: 0 12px 12px 0;
+            border-radius: 0 4px 4px 0;
             margin-top: 15px;
             display: none;
         }
-        
+
         .explanation.show {
             display: block;
             animation: slideIn 0.3s ease;
         }
-        
+
         @keyframes slideIn {
             from { opacity: 0; transform: translateX(-10px); }
             to { opacity: 1; transform: translateX(0); }
         }
-        
+
         .explanation-title {
             font-weight: 600;
             color: var(--gold-dark);
             margin-bottom: 8px;
         }
-        
+
         #nextQuestionBtn {
             background: var(--success);
             font-size: 1.1em;
             padding: 12px 40px;
-            animation: pulse 1.5s infinite;
         }
-        
+
         #nextQuestionBtn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+            background: #3d5c4a;
         }
-        
-        @keyframes pulse {
-            0%, 100% { box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4); }
-            50% { box-shadow: 0 4px 25px rgba(76, 175, 80, 0.7); }
-        }
-        
+
         /* 按钮 */
         .btn {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            background: var(--primary);
             color: #fff;
-            border: none;
+            border: 1px solid var(--primary-dark);
             padding: 14px 30px;
             min-height: 44px;
             font-size: 1em;
             font-family: inherit;
-            border-radius: 25px;
+            border-radius: 4px;
             cursor: pointer;
             transition: all 0.3s;
-            box-shadow: 0 4px 15px var(--shadow);
             box-sizing: border-box;
         }
-        
+
         .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px var(--shadow);
+            background: var(--primary-dark);
         }
-        
+
         .btn:active {
-            transform: translateY(0);
+            transform: scale(0.98);
         }
-        
+
         .btn-secondary {
             background: var(--secondary);
             color: var(--primary-dark);
+            border: 1px solid var(--ink-light);
+        }
+
+        .btn-secondary:hover {
+            background: var(--bg-dark);
         }
         
         /* 答案/提示按钮 */
         .hint-btn {
             background: var(--secondary);
-            border: none;
+            border: 1px solid var(--ink-light);
             padding: 8px 16px;
-            border-radius: 20px;
+            border-radius: 2px;
             font-size: .9rem;
             color: var(--primary-dark);
             margin: 4px;
@@ -427,38 +450,45 @@
             transition: all 0.3s;
         }
         .hint-btn:hover {
-            background: var(--primary);
+            background: var(--primary-dark);
             color: #fff;
+            border-color: var(--primary-dark);
         }
         
         /* 结果页面 */
         .result-box {
-            background: #fff;
-            border-radius: 16px;
+            background: var(--paper);
+            border-radius: 4px;
             padding: 30px;
             text-align: center;
-            box-shadow: 0 4px 15px var(--shadow);
+            box-shadow: 0 2px 8px var(--shadow);
+            border: 1px solid var(--ink-light);
         }
-        
+
         .result-icon {
-            font-size: 4em;
-            margin-bottom: 15px;
-        }
-        
-        .result-title {
-            font-size: 1.8em;
-            font-weight: 700;
-            color: var(--primary);
-            margin-bottom: 10px;
-        }
-        
-        .result-score {
+            font-family: 'Zhi Mang Xing', serif;
             font-size: 3em;
-            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .result-title {
+            font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
+            font-size: 1.8em;
+            font-weight: 400;
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+            letter-spacing: 3px;
+        }
+
+        .result-score {
+            font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
+            font-size: 2.6em;
+            font-weight: 400;
             color: var(--gold-dark);
             margin: 20px 0;
         }
-        
+
         .result-stats {
             display: flex;
             justify-content: center;
@@ -466,7 +496,8 @@
             margin: 20px 0;
             padding: 20px;
             background: var(--bg);
-            border-radius: 12px;
+            border-radius: 4px;
+            border: 1px solid var(--ink-light);
         }
         
         .stat-item {
@@ -489,24 +520,25 @@
             position: absolute;
             top: 60px;
             right: 20px;
-            background: #fff;
-            border-radius: 12px;
+            background: var(--paper);
+            border-radius: 4px;
             box-shadow: 0 4px 20px var(--shadow);
             overflow: hidden;
             display: none;
             z-index: 200;
+            border: 1px solid var(--ink-light);
         }
-        
+
         .user-menu.show {
             display: block;
             animation: slideDown 0.2s ease;
         }
-        
+
         @keyframes slideDown {
             from { opacity: 0; transform: translateY(-10px); }
             to { opacity: 1; transform: translateY(0); }
         }
-        
+
         /* 登录模态框 */
         .login-modal {
             display: none;
@@ -517,103 +549,110 @@
             height: 100%;
             z-index: 1000;
         }
-        
+
         .login-modal.show {
             display: flex;
             align-items: center;
             justify-content: center;
         }
-        
+
         .login-backdrop {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.5);
             z-index: 1;
         }
-        
+
         .login-content {
             position: relative;
-            background: #fff;
-            border-radius: 20px;
+            background: var(--paper);
+            border-radius: 4px;
             padding: 40px 30px;
             text-align: center;
             max-width: 320px;
             width: 90%;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
             animation: modalPop 0.3s ease;
             z-index: 2;
+            border: 1px solid var(--ink-light);
         }
-        
+
         @keyframes modalPop {
             from { opacity: 0; transform: scale(0.8); }
             to { opacity: 1; transform: scale(1); }
         }
-        
+
         .login-icon {
-            font-size: 4em;
+            font-family: 'Zhi Mang Xing', serif;
+            font-size: 3em;
             margin-bottom: 15px;
+            color: var(--primary);
         }
-        
+
         .login-title {
-            font-size: 1.3em;
-            font-weight: bold;
-            color: #333;
+            font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
+            font-size: 1.5em;
+            font-weight: 400;
+            color: var(--primary-dark);
             margin-bottom: 10px;
+            letter-spacing: 2px;
         }
-        
+
         .login-subtitle {
             font-size: 1em;
-            color: #666;
+            color: var(--text-light);
             margin-bottom: 25px;
         }
-        
+
         .login-input {
             width: 100%;
             padding: 14px 16px;
-            border: 2px solid #e0e0e0;
-            border-radius: 12px;
+            border: 1px solid var(--ink-light);
+            border-radius: 4px;
             font-size: 1em;
             margin-bottom: 15px;
             box-sizing: border-box;
-            transition: border-color 0.3s;
+            transition: all 0.3s;
+            background: var(--bg);
+            color: var(--text);
         }
-        
+
         .login-input:focus {
             outline: none;
-            border-color: var(--accent);
+            border-color: var(--ink-mid);
         }
-        
+
         .login-btn {
             width: 100%;
             padding: 16px;
             min-height: 44px;
             font-size: 1.1em;
-            border-radius: 12px;
+            border-radius: 4px;
         }
-        
+
         .login-skip-btn {
             width: 100%;
             padding: 14px;
             min-height: 44px;
             font-size: 1em;
-            border-radius: 12px;
+            border-radius: 4px;
             margin-top: 10px;
             background: transparent;
-            color: #888;
-            border: 1px solid #ddd;
+            color: var(--text-light);
+            border: 1px solid var(--ink-light);
             box-shadow: none;
         }
-        
+
         .login-skip-btn:hover {
-            background: #f5f5f5;
-            color: #666;
+            background: var(--bg);
+            color: var(--text);
             transform: none;
             box-shadow: none;
         }
-        
+
         .menu-item {
             padding: 12px 25px;
             display: flex;
@@ -622,11 +661,11 @@
             cursor: pointer;
             transition: background 0.2s;
         }
-        
+
         .menu-item:hover {
             background: var(--bg);
         }
-        
+
         .menu-item.danger {
             color: var(--error);
         }
@@ -637,37 +676,42 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: var(--gold);
+            background: var(--paper);
             color: var(--primary-dark);
             padding: 30px 50px;
-            border-radius: 20px;
+            border-radius: 4px;
             text-align: center;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
             z-index: 1000;
             display: none;
+            border: 1px solid var(--ink-light);
         }
-        
+
         .achievement-badge.show {
             display: block;
             animation: popIn 0.5s ease;
         }
-        
+
         @keyframes popIn {
             0% { transform: translate(-50%, -50%) scale(0); }
             70% { transform: translate(-50%, -50%) scale(1.1); }
             100% { transform: translate(-50%, -50%) scale(1); }
         }
-        
+
         .achievement-icon {
-            font-size: 3em;
+            font-family: 'Zhi Mang Xing', serif;
+            font-size: 2.5em;
             margin-bottom: 10px;
+            color: var(--gold);
         }
-        
+
         .achievement-title {
+            font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
             font-size: 1.5em;
-            font-weight: 700;
+            font-weight: 400;
+            letter-spacing: 2px;
         }
-        
+
         /* 加载动画 */
         .loading {
             display: flex;
@@ -675,43 +719,45 @@
             align-items: center;
             min-height: 200px;
         }
-        
+
         .spinner {
-            width: 50px;
-            height: 50px;
-            border: 4px solid var(--secondary);
+            width: 40px;
+            height: 40px;
+            border: 2px solid var(--ink-light);
             border-top-color: var(--primary);
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
-        
+
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
-        
+
         /* 空状态 */
         .empty-state {
             text-align: center;
             padding: 40px;
             color: var(--text-light);
         }
-        
+
         .empty-icon {
-            font-size: 4em;
+            font-family: 'Zhi Mang Xing', serif;
+            font-size: 3em;
             margin-bottom: 15px;
-            opacity: 0.5;
+            opacity: 0.4;
+            color: var(--primary);
         }
-        
+
         /* Toast提示 */
         .toast {
             position: fixed;
             top: 100px;
             left: 50%;
             transform: translateX(-50%);
-            background: var(--text);
+            background: var(--primary-dark);
             color: #fff;
             padding: 12px 25px;
-            border-radius: 25px;
+            border-radius: 4px;
             font-size: 1em;
             z-index: 500;
             opacity: 0;
@@ -721,8 +767,9 @@
             max-height: 200px;
             overflow-y: auto;
             text-align: center;
+            border: 1px solid var(--ink-light);
         }
-        
+
         .toast.show {
             opacity: 1;
         }
@@ -735,186 +782,183 @@
                 grid-template-columns: repeat(2, 1fr);
                 gap: 12px;
             }
-            
+
             .game-header {
                 padding: 12px 15px;
             }
-            
+
             .game-title {
                 font-size: 1.2em;
             }
-            
+
             .module-card {
                 padding: 15px;
             }
-            
+
             .module-icon {
                 font-size: 2em;
             }
-            
+
             .module-title {
-                font-size: 1em;
+                font-size: 1.1em;
             }
-            
+
             .question-box {
                 padding: 15px;
             }
-            
+
             .option {
                 padding: 14px 16px;
                 min-height: 44px;
                 font-size: 1em;
             }
-            
+
             /* 九宫格调整 */
             .jiugong-char {
                 font-size: 1.5em;
             }
-            
+
             /* 点字成诗调整 */
             .dianzi-char {
                 width: 40px;
                 height: 40px;
                 font-size: 1.3em;
             }
-            
+
             .selected-char {
                 width: 35px;
                 height: 35px;
                 font-size: 1.1em;
             }
         }
-        
+
         /* 手机竖屏 (≤600px) */
         @media (max-width: 600px) {
             .game-modules {
                 grid-template-columns: 1fr;
                 gap: 10px;
             }
-            
+
             .logo {
-                font-size: 1.3em;
+                font-size: 1.2em;
             }
-            
+
             .game-header {
                 padding: 10px 12px;
                 flex-wrap: wrap;
                 gap: 8px;
             }
-            
+
             .game-title {
                 font-size: 1.1em;
             }
-            
+
             .game-progress {
                 gap: 10px;
             }
-            
+
             .progress-item {
                 font-size: 1em;
                 padding: 4px 8px;
             }
-            
+
             .module-card {
                 padding: 12px;
-                border-radius: 12px;
             }
-            
+
             .module-icon {
                 font-size: 1.8em;
             }
-            
+
             .module-title {
                 font-size: 1em;
             }
-            
+
             .module-desc {
-                font-size: 1em;
+                font-size: 0.9em;
             }
-            
+
             .question-box {
                 padding: 12px;
                 margin: 10px;
             }
-            
+
             .question-text {
                 font-size: 1em;
             }
-            
+
             .option {
                 padding: 14px 16px;
                 min-height: 44px;
                 font-size: 1em;
                 margin-bottom: 8px;
             }
-            
+
             .option-letter {
                 width: 24px;
                 height: 24px;
                 font-size: 1em;
             }
-            
+
             .result-stats {
                 flex-direction: column;
                 gap: 10px;
             }
-            
+
             /* 九宫格调整 */
             #jiugonggeGrid {
                 gap: 6px;
             }
-            
+
             .jiugong-char {
                 font-size: 1.3em;
-                border-radius: 8px;
             }
-            
+
             /* 点字成诗调整 */
             #dianziGrid {
                 gap: 5px;
             }
-            
+
             .dianzi-char {
                 width: 36px;
                 height: 36px;
                 font-size: 1.2em;
-                border-radius: 8px;
             }
-            
+
             .selected-char {
                 width: 32px;
                 height: 32px;
                 font-size: 1em;
             }
-            
+
             .selected-poem {
                 min-height: 40px;
                 padding: 8px;
             }
-            
+
             /* 飞花令调整 */
             #feihuaKeyword {
                 font-size: 2.5em;
             }
-            
+
             .feihua-poem {
                 font-size: 1em;
                 padding: 6px 12px;
             }
-            
+
             /* 用户菜单调整 */
             .user-menu {
                 right: 5px;
                 top: 50px;
                 min-width: 160px;
             }
-            
+
             /* 成就弹窗调整 */
             .achievement-badge {
                 width: 90%;
                 max-width: 300px;
             }
-            
+
             /* Toast调整 */
             .toast {
                 top: auto;
@@ -925,25 +969,24 @@
                 max-height: 150px;
                 overflow-y: auto;
             }
-            
+
             .btn {
                 padding: 14px 24px;
                 min-height: 44px;
                 font-size: 1em;
             }
-            
+
             /* 登录模态框手机适配 */
             .login-content {
                 padding: 30px 20px;
-                border-radius: 16px;
             }
-            
+
             .login-icon {
-                font-size: 3em;
+                font-size: 2.5em;
             }
-            
+
             .login-title {
-                font-size: 1.1em;
+                font-size: 1.2em;
             }
         }
         
@@ -952,33 +995,33 @@
             .game-modules {
                 grid-template-columns: repeat(2, 1fr);
             }
-            
+
             .question-box {
                 margin: 5px;
                 padding: 10px;
             }
-            
+
             .question-text {
                 font-size: 1em;
             }
-            
+
             .options-container {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 gap: 8px;
             }
-            
+
             .option {
                 margin-bottom: 0;
             }
         }
-        
+
         /* iPad 横屏 (768px - 1024px) */
         @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
             .game-modules {
                 grid-template-columns: repeat(2, 1fr);
             }
-            
+
             .question-box {
                 max-width: 700px;
                 margin: 0 auto;
@@ -1029,20 +1072,51 @@
         .feihua-poem {
             padding: 8px 15px;
             background: var(--bg);
-            border-radius: 20px;
+            border-radius: 4px;
             margin: 5px;
             display: inline-block;
             font-size: 1em;
+            border: 1px solid var(--ink-light);
         }
 
         .feihua-poem.correct {
-            background: #e8e6e1;
+            background: #f0ede8;
             color: var(--success);
+            border-color: var(--success);
         }
 
         .feihua-poem.wrong {
-            background: #f5f3ee;
+            background: #f5f0ec;
             color: var(--error);
+            border-color: var(--error);
+        }
+
+        /* 印章 */
+        .seal {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: var(--gold);
+            color: #fff;
+            font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
+            font-size: 1.2em;
+            transform: rotate(-5deg);
+            border-radius: 4px;
+            box-shadow: 0 2px 6px rgba(194, 58, 48, 0.3);
+        }
+
+        .seal-sm {
+            width: 40px;
+            height: 40px;
+            font-size: 0.9em;
+        }
+
+        .seal-lg {
+            width: 80px;
+            height: 80px;
+            font-size: 1.6em;
         }
 
         /* 九宫格样式 */
@@ -1053,9 +1127,9 @@
             justify-content: center;
             font-size: 1.8em;
             font-weight: 600;
-            background: #fff;
-            border: 2px solid var(--secondary);
-            border-radius: 12px;
+            background: var(--paper);
+            border: 1px solid var(--ink-light);
+            border-radius: 4px;
             cursor: pointer;
             transition: all 0.2s;
             user-select: none;
@@ -1063,25 +1137,25 @@
 
         .jiugong-char:hover {
             background: var(--bg);
-            transform: scale(1.05);
+            border-color: var(--ink-mid);
         }
 
         .jiugong-char.selected {
             background: var(--primary);
             color: #fff;
-            border-color: var(--primary);
+            border-color: var(--primary-dark);
         }
 
         .jiugong-char.correct {
             background: var(--success);
             color: #fff;
-            border-color: var(--success);
+            border-color: #3d5c4a;
         }
 
         .jiugong-char.wrong {
             background: var(--error);
             color: #fff;
-            border-color: var(--error);
+            border-color: #7a2a2a;
         }
 
         .jiugong-char.disabled {
@@ -1098,34 +1172,34 @@
             justify-content: center;
             font-size: 1.5em;
             font-weight: 600;
-            background: #fff;
-            border: 2px solid var(--secondary);
-            border-radius: 10px;
+            background: var(--paper);
+            border: 1px solid var(--ink-light);
+            border-radius: 4px;
             cursor: pointer;
             transition: all 0.2s;
         }
 
         .dianzi-char:hover {
             background: var(--bg);
-            transform: scale(1.1);
+            border-color: var(--ink-mid);
         }
 
         .dianzi-char.selected {
             background: var(--primary);
             color: #fff;
-            border-color: var(--primary);
+            border-color: var(--primary-dark);
         }
 
         .dianzi-char.correct {
             background: var(--success);
             color: #fff;
-            border-color: var(--success);
+            border-color: #3d5c4a;
         }
 
         .dianzi-char.wrong {
             background: var(--error);
             color: #fff;
-            border-color: var(--error);
+            border-color: #7a2a2a;
         }
 
         .dianzi-char.disabled {
@@ -1139,9 +1213,9 @@
             width: 100%;
             padding: 15px 20px;
             font-size: 1.2em;
-            border: 2px solid var(--primary);
-            border-radius: 10px;
-            background: var(--bg-secondary);
+            border: 1px solid var(--ink-light);
+            border-radius: 4px;
+            background: var(--bg);
             color: var(--text);
             outline: none;
             -webkit-appearance: none;
@@ -1149,13 +1223,14 @@
             appearance: none;
             pointer-events: auto;
             touch-action: manipulation;
+            font-family: inherit;
         }
-        
+
         #feihuaInput:focus {
-            border-color: var(--accent);
-            box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.2);
+            border-color: var(--ink-mid);
+            box-shadow: 0 0 0 2px rgba(0,0,0,0.05);
         }
-        
+
         #feihuaSubmitBtn {
             pointer-events: auto;
             touch-action: manipulation;
@@ -1171,7 +1246,8 @@
             min-height: 50px;
             padding: 10px;
             background: var(--bg);
-            border-radius: 10px;
+            border-radius: 4px;
+            border: 1px solid var(--ink-light);
         }
 
         .selected-char {
@@ -1184,17 +1260,18 @@
             font-weight: 600;
             background: var(--primary);
             color: #fff;
-            border-radius: 8px;
+            border-radius: 4px;
         }
 
         .answer-display {
             font-size: 1.3em;
             padding: 15px;
-            background: #e8e6e1;
-            border-radius: 10px;
+            background: var(--bg);
+            border-radius: 4px;
             text-align: center;
             color: var(--success);
             margin: 10px 0;
+            border: 1px solid var(--ink-light);
         }
     </style>
 </head>
@@ -1205,23 +1282,23 @@
         <div class="user-info" id="userInfo">
             <span class="xp-badge" id="xpBadge">XP: 0</span>
             <span class="level-badge" id="levelBadge">Lv.1</span>
-            <div class="user-avatar" id="userAvatar" style="cursor:pointer;">👤</div>
+            <div class="user-avatar" id="userAvatar" style="cursor:pointer;">吾</div>
         </div>
     </header>
-    
+
     <!-- 用户菜单 -->
     <div class="user-menu" id="userMenu">
         <div class="menu-item" onclick="showRanking()" style="opacity:0.5;">
-            <span>🏆</span> 排行榜 <span style="font-size:0.8em;color:#999;">(开发中)</span>
+            <span>榜</span> 排行榜 <span style="font-size:0.8em;color:#999;">(开发中)</span>
         </div>
         <div class="menu-item" onclick="showAchievements()">
-            <span>🎖️</span> 成就
+            <span>勋</span> 成就
         </div>
         <div class="menu-item" onclick="switchUser()">
-            <span>🔄</span> 切换用户
+            <span>换</span> 切换用户
         </div>
         <div class="menu-item danger" onclick="deleteUser()">
-            <span>🗑️</span> 删除用户
+            <span>删</span> 删除用户
         </div>
     </div>
     
@@ -1229,7 +1306,7 @@
     <div class="login-modal" id="loginModal">
         <div class="login-backdrop"></div>
         <div class="login-content">
-            <div class="login-icon">📜</div>
+            <div class="login-icon">诗</div>
             <div class="login-title">欢迎来到古诗词大挑战</div>
             <div class="login-subtitle">请输入你的昵称开始游戏</div>
             <input type="text" id="loginUsername" class="login-input" placeholder="昵称" maxlength="20">
@@ -1244,32 +1321,32 @@
         <div class="page active" id="homePage">
             <div class="game-modules">
                 <div class="module-card" onclick="startGame('feihua')">
-                    <div class="module-icon">🌸</div>
+                    <div class="module-icon">花</div>
                     <div class="module-title">飞花令</div>
                     <div class="module-desc">限时诗词接龙</div>
                 </div>
                 <div class="module-card" onclick="startGame('match')">
-                    <div class="module-icon">🎯</div>
+                    <div class="module-icon">连</div>
                     <div class="module-title">诗词消消乐</div>
                     <div class="module-desc">消除游戏学诗词</div>
                 </div>
                 <div class="module-card" onclick="startGame('challenge')">
-                    <div class="module-icon">📚</div>
+                    <div class="module-icon">闯</div>
                     <div class="module-title">诗词闯关</div>
                     <div class="module-desc">按年级选择关卡</div>
                 </div>
                 <div class="module-card" onclick="startGame('daily')">
-                    <div class="module-icon">📅</div>
+                    <div class="module-icon">日</div>
                     <div class="module-title">每日挑战</div>
                     <div class="module-desc">每天10题挑战</div>
                 </div>
                 <div class="module-card" onclick="showWrongNotes()">
-                    <div class="module-icon">📝</div>
+                    <div class="module-icon">错</div>
                     <div class="module-title">错题本</div>
                     <div class="module-desc">巩固薄弱知识点</div>
                 </div>
                 <div class="module-card" onclick="showDict()">
-                    <div class="module-icon">📖</div>
+                    <div class="module-icon">典</div>
                     <div class="module-title">诗词词典</div>
                     <div class="module-desc">查询诗词释义</div>
                 </div>
@@ -1295,15 +1372,15 @@
                 <div class="game-title" id="gameTitle">诗词闯关</div>
                 <div class="game-progress">
                     <div class="progress-item">
-                        <span>⏱️</span>
+                        <span>时</span>
                         <span id="timer">00:00</span>
                     </div>
                     <div class="progress-item">
-                        <span>💯</span>
+                        <span>分</span>
                         <span id="score">0</span>
                     </div>
                     <div class="progress-item">
-                        <span>🔥</span>
+                        <span>击</span>
                         <span id="combo">0连击</span>
                     </div>
                 </div>
@@ -1318,11 +1395,11 @@
                 </div>
                 
                 <div class="explanation" id="explanation">
-                    <div class="explanation-title">📖 答案解析</div>
+                    <div class="explanation-title">答案解析</div>
                     <div id="explanationText"></div>
                     <div style="text-align:center;margin-top:15px;">
-                        <button class="btn btn-secondary" id="showPoemBtn" onclick="showPoemByQuestion()" style="display:none;margin-right:10px;">📖 看原诗</button>
-                        <button class="btn btn-primary" id="nextQuestionBtn" onclick="nextQuestion()" style="display:none;">下一题 →</button>
+                        <button class="btn btn-secondary" id="showPoemBtn" onclick="showPoemByQuestion()" style="display:none;margin-right:10px;">看原诗</button>
+                        <button class="btn btn-primary" id="nextQuestionBtn" onclick="nextQuestion()" style="display:none;">下一题</button>
                     </div>
                 </div>
             </div>
@@ -1335,8 +1412,8 @@
         <!-- 结果页面 -->
         <div class="page" id="resultPage">
             <div class="result-box">
-                <div class="result-icon" id="resultIcon">🎉</div>
-                <div class="result-title" id="resultTitle">挑战完成！</div>
+                <div class="result-icon" id="resultIcon">成</div>
+                <div class="result-title" id="resultTitle">挑战完成</div>
                 <div class="result-score" id="resultScore">0分</div>
                 
                 <div class="result-stats">
@@ -1372,7 +1449,7 @@
             </div>
             <div id="dictResults" class="dict-list">
                 <div class="empty-state">
-                    <div class="empty-icon">📖</div>
+                    <div class="empty-icon">无</div>
                     <p>输入关键词搜索诗词</p>
                 </div>
             </div>
@@ -1401,7 +1478,7 @@
             </div>
             <div id="rankingList" data-testid="ranking-list">
                 <div class="empty-state">
-                    <div class="empty-icon">🏆</div>
+                    <div class="empty-icon">榜</div>
                     <p>排行榜功能开发中...</p>
                     <p style="font-size:0.9em;margin-top:10px;">敬请期待！</p>
                 </div>
@@ -1427,23 +1504,23 @@
         <!-- 飞花令页 -->
         <div class="page" id="feihuaPage">
             <div class="game-header">
-                <div class="game-title">🌸 飞花令</div>
+                <div class="game-title">飞花令</div>
                 <div class="game-progress" id="feihuaProgress">
                     <div class="progress-item">
-                        <span>⏱️</span>
+                        <span>时</span>
                         <span id="feihuaTimer">500</span>秒
                     </div>
                     <div class="progress-item">
-                        <span>💯</span>
+                        <span>分</span>
                         <span id="feihuaScore">0</span>分
                     </div>
                     <div class="progress-item">
-                        <span>🔥</span>
+                        <span>句</span>
                         <span id="feihuaCount">0/3</span>
                     </div>
                 </div>
                 <div style="text-align:center;margin:10px 0;">
-                    <button class="btn btn-small" id="feihuaModeToggle" onclick="toggleFeihuaMode()" style="font-size:0.85em;padding:6px 12px;">📚 切换到学习模式</button>
+                    <button class="btn btn-small" id="feihuaModeToggle" onclick="toggleFeihuaMode()" style="font-size:0.85em;padding:6px 12px;">切换到学习模式</button>
                 </div>
             </div>
             
@@ -1483,18 +1560,18 @@
         <!-- 诗词消消乐页 -->
         <div class="page" id="matchPage">
             <div class="game-header">
-                <div class="game-title">🎯 诗词消消乐</div>
+                <div class="game-title">诗词消消乐</div>
                 <div class="game-progress">
                     <div class="progress-item">
-                        <span>💯</span>
+                        <span>分</span>
                         <span id="matchScore">0</span>分
                     </div>
                     <div class="progress-item">
-                        <span>🔥</span>
+                        <span>连</span>
                         <span id="matchCombo">0</span>连击
                     </div>
                     <div class="progress-item">
-                        <span>⭐</span>
+                        <span>关</span>
                         <span id="matchLevel">1</span>关
                     </div>
                 </div>
@@ -1504,7 +1581,7 @@
                 <span class="question-type" id="matchType">九宫格</span>
                 <div class="question-text" id="matchQuestion">从下方9个字中选出正确的一句诗</div>
                 <div style="text-align:center;margin-top:10px;">
-                    <button class="hint-btn" onclick="showMatchAnswer()" style="background:#9c27b0;color:#fff;">📖 答案</button>
+                    <button class="hint-btn" onclick="showMatchAnswer()" style="background:var(--primary-dark);color:#fff;border-color:var(--primary-dark);">答案</button>
                 </div>
                 
                 <!-- 九宫格选项 -->
@@ -1539,7 +1616,7 @@
     
     <!-- 成就弹窗 -->
     <div class="achievement-badge" id="achievementBadge">
-        <div class="achievement-icon">🎖️</div>
+        <div class="achievement-icon">勋</div>
         <div class="achievement-title">成就解锁！</div>
         <div id="achievementName"></div>
     </div>

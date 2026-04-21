@@ -1,2 +1,34 @@
-data/poems_game.js
+# Dependencies
+node_modules/
+源码/node_modules/
+
+# Build scripts (only needed for dev)
+源码/data/build_feihua.js
+源码/data/rebuild_feihua.js
+源码/data/regenerate_feihua.js
+源码/data/convert_poetry.js
+源码/data/split_poetry.js
+源码/data/合并题库.js
+源码/data/采集真题2026-03-28.js
+源码/data/generate_questions.py
+
+# Backups
+源码/backup/
+源码/data/*.bak.*
+源码/data/*.broken.*
+备份/
+
+# Generated test files
+源码/verify_fixes_final.js
+源码/test_ios_compat.js
+源码/chengyu_test.js
+
+# IDE
 .DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
