@@ -1294,6 +1294,13 @@
         <div class="menu-item" onclick="showAchievements()">
             <span>勋</span> 成就
         </div>
+        <div class="menu-item" onclick="exportUserData()">
+            <span>出</span> 导出数据
+        </div>
+        <div class="menu-item" onclick="document.getElementById('importFileInput').click()">
+            <span>入</span> 导入数据
+        </div>
+        <input type="file" id="importFileInput" accept=".json" style="display:none;" onchange="handleImportFile(this)">
         <div class="menu-item" onclick="switchUser()">
             <span>换</span> 切换用户
         </div>
@@ -1320,32 +1327,32 @@
         <!-- 首页 -->
         <div class="page active" id="homePage">
             <div class="game-modules">
-                <div class="module-card" onclick="startGame('feihua')">
+                <div class="module-card">
                     <div class="module-icon">花</div>
                     <div class="module-title">飞花令</div>
                     <div class="module-desc">限时诗词接龙</div>
                 </div>
-                <div class="module-card" onclick="startGame('match')">
+                <div class="module-card">
                     <div class="module-icon">连</div>
                     <div class="module-title">诗词消消乐</div>
                     <div class="module-desc">消除游戏学诗词</div>
                 </div>
-                <div class="module-card" onclick="startGame('challenge')">
+                <div class="module-card">
                     <div class="module-icon">闯</div>
                     <div class="module-title">诗词闯关</div>
                     <div class="module-desc">按年级选择关卡</div>
                 </div>
-                <div class="module-card" onclick="startGame('daily')">
+                <div class="module-card">
                     <div class="module-icon">日</div>
                     <div class="module-title">每日挑战</div>
                     <div class="module-desc">每天10题挑战</div>
                 </div>
-                <div class="module-card" onclick="showWrongNotes()">
+                <div class="module-card">
                     <div class="module-icon">错</div>
                     <div class="module-title">错题本</div>
                     <div class="module-desc">巩固薄弱知识点</div>
                 </div>
-                <div class="module-card" onclick="showDict()">
+                <div class="module-card">
                     <div class="module-icon">典</div>
                     <div class="module-title">诗词词典</div>
                     <div class="module-desc">查询诗词释义</div>
@@ -1624,14 +1631,58 @@
     <!-- Toast提示 -->
     <div class="toast" id="toast"></div>
     
+    <!-- 加载状态提示 -->
+    <div id="loadingMsg" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--paper);padding:30px 40px;border-radius:4px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,0.2);border:1px solid var(--ink-light);z-index:10000;">
+        <div style="font-family:'Ma Shan Zheng',serif;font-size:2em;margin-bottom:15px;color:var(--gold);">文</div>
+        <div id="loadingText" style="font-size:1.1em;margin-bottom:10px;">正在加载诗词数据...</div>
+        <div style="width:200px;height:6px;background:#eee;border-radius:3px;margin:15px auto;overflow:hidden;">
+            <div id="loadingBar" style="width:0%;height:100%;background:var(--gold-dark);transition:width 0.3s;"></div>
+        </div>
+    </div>
+
+    <div id="loadErrorMsg" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--paper);padding:30px 40px;border-radius:4px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,0.2);border:1px solid var(--ink-light);z-index:10000;">
+        <div style="font-family:'Ma Shan Zheng',serif;font-size:2em;margin-bottom:15px;color:var(--gold);">载</div>
+        <div style="font-size:1.1em;margin-bottom:10px;">数据加载失败</div>
+        <div style="color:var(--text-light);margin-bottom:20px;">请检查网络连接后刷新页面重试</div>
+        <button class="btn" onclick="location.reload()">刷新页面</button>
+    </div>
+
     <!-- 数据脚本 -->
-    <script src="data/poems_loader.js?v=202603311459"></script>
-    <script src="data/questions.js?v=202603311459"></script>
-    <script src="data/feihua_loader.js?v=202603311459"></script>
-    <script src="data/feihua_full.js?v=202603311459"></script>
-    <script src="data/feihua_expanded.js?v=202604042230"></script>
-    
-    <!-- 游戏脚本 -->
-    <script src="js/app.js?v=202603311459"></script>
+    <script>
+        window.__dataLoadErrors = [];
+        function onScriptError(e) {
+            window.__dataLoadErrors.push(e.target.src);
+            console.error('脚本加载失败:', e.target.src);
+            document.getElementById('loadErrorMsg').style.display = 'block';
+        }
+    </script>
+    <script src="data/questions.js?v=202603311459" onerror="onScriptError(event)"></script>
+    <script src="data/feihua_full.js?v=202603311459" onerror="onScriptError(event)"></script>
+
+    <!-- 核心模块 -->
+    <script src="js/constants.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/db.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/utils.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="data/poems_loader.js?v=202603311459" onerror="onScriptError(event)"></script>
+    <script src="data/feihua_loader.js?v=202603311459" onerror="onScriptError(event)"></script>
+    <script src="js/state.js?v=20260428" onerror="onScriptError(event)"></script>
+
+    <!-- 基础模块 -->
+    <script src="js/ui.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/user.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/navigation.js?v=20260428" onerror="onScriptError(event)"></script>
+
+    <!-- 功能模块 -->
+    <script src="js/game-core.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/dict.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/wrong-notes.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/ranking.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/achievements.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/feihua.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/match.js?v=20260428" onerror="onScriptError(event)"></script>
+    <script src="js/menu.js?v=20260428" onerror="onScriptError(event)"></script>
+
+    <!-- 入口文件 -->
+    <script src="js/app.js?v=20260428" onerror="onScriptError(event)"></script>
 </body>
 </html>
