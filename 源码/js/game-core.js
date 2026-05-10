@@ -241,14 +241,14 @@ function submitFillAnswer() {
     let correctParts = 0;
     
     for (let i = 0; i < blankCount; i++) {
-        const userAns = userAnswers[i].replace(/[，。！？、；：""''（）]/g, '').trim();
-        const correctAns = (answerParts[i] || '').replace(/[，。！？、；：""''（）]/g, '').trim();
-        
-        if (userAns === correctAns || correctAns.includes(userAns) || userAns.includes(correctAns)) {
+        const userAns = normalizeAnswer(userAnswers[i]);
+        const correctAns = normalizeAnswer(answerParts[i] || '');
+
+        if (userAns === correctAns) {
             correctParts++;
         }
     }
-    
+
     allCorrect = (correctParts === blankCount);
     
     // 禁用所有输入框
@@ -282,9 +282,9 @@ function submitFillAnswer() {
         for (let i = 0; i < blankCount; i++) {
             const input = document.getElementById('fillAnswerInput' + i);
             if (input) {
-                const userAns = userAnswers[i].replace(/[，。！？、；：""''（）]/g, '').trim();
-                const correctAns = (answerParts[i] || '').replace(/[，。！？、；：""''（）]/g, '').trim();
-                if (userAns === correctAns || correctAns.includes(userAns) || userAns.includes(correctAns)) {
+                const userAns = normalizeAnswer(userAnswers[i]);
+                const correctAns = normalizeAnswer(answerParts[i] || '');
+                if (userAns === correctAns) {
                     input.style.borderColor = 'var(--success)';
                     input.style.background = '#E8F5E9';
                 } else {

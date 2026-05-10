@@ -84,14 +84,14 @@ function generateMatchQuestions(count) {
         if (poem.content && Array.isArray(poem.content)) {
             const lines = poem.content.filter(l => l && l.length >= 5 && l.length <= 12);
             if (lines.length > 0) {
-                answerLine = toSimplified(lines[Math.floor(Math.random() * lines.length)]);
+                answerLine = lines[Math.floor(Math.random() * lines.length)];
             }
         }
         
         if (!answerLine) continue;
-        
-        // 清理答案字符并转换为简体
-        const answer = toSimplified(answerLine.replace(/[，。！？""''【】（）可件条和与及等、：；,\.!?]/g, ''));
+
+        // 清理答案字符并转换为简体（统一使用 normalizeAnswer）
+        const answer = normalizeAnswer(answerLine);
         if (answer.length < 4 || answer.length > 15) continue;
         
         // 转换为消消乐格式
@@ -224,7 +224,8 @@ function selectJiugongChar(element, char) {
     if (element.classList.contains('selected')) {
         matchState.selectedChars.push({ char, element });
     } else {
-        matchState.selectedChars = matchState.selectedChars.filter(c => c.char !== char);
+        const idx = matchState.selectedChars.findIndex(c => c.element === element);
+        if (idx !== -1) matchState.selectedChars.splice(idx, 1);
     }
     
     // 更新显示
@@ -321,9 +322,9 @@ function clearDianziSelection() {
 }
 
 function submitDianziAnswer() {
-    const answer = matchState.selectedChars.map(c => c.char).join('');
-    const correct = matchState.currentQuestion.answer;
-    
+    const answer = normalizeAnswer(matchState.selectedChars.map(c => c.char).join(''));
+    const correct = normalizeAnswer(matchState.currentQuestion.answer);
+
     if (answer === correct) {
         handleMatchCorrect();
     } else {
@@ -332,9 +333,9 @@ function submitDianziAnswer() {
 }
 
 function checkMatchAnswer() {
-    const answer = matchState.selectedChars.map(c => c.char).join('');
-    const correct = matchState.currentQuestion.answer;
-    
+    const answer = normalizeAnswer(matchState.selectedChars.map(c => c.char).join(''));
+    const correct = normalizeAnswer(matchState.currentQuestion.answer);
+
     if (answer === correct) {
         handleMatchCorrect();
     } else {

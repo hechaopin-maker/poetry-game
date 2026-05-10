@@ -19,7 +19,7 @@ function buildFeihuaTextIndex() {
         if (!poems) continue;
         for (const p of poems) {
             const poem = JSON.parse(p);
-            const clean = poem.text.replace(/[，。！？、；：""''（）\s]/g, '');
+            const clean = normalizeAnswer(poem.text);
             if (clean && !FEIHUA_TEXT_INDEX[clean]) {
                 FEIHUA_TEXT_INDEX[clean] = poem;
                 count++;
@@ -71,7 +71,7 @@ async function loadFeihuaData() {
 
         for (const line of lines) {
             if (!line || line.length < MIN_LINE_LENGTH || line.length > MAX_LINE_LENGTH) continue;
-            const cleanLine = line.replace(/[，。！？、；：""''【】《》]/g, '').trim();
+            const cleanLine = normalizeAnswer(line);
             if (cleanLine.length < MIN_LINE_LENGTH) continue;
 
             const uniqueChars = [...new Set(cleanLine.split(''))];
@@ -204,7 +204,7 @@ function validateFeihuaAnswer(answer, char) {
         return { valid: false, error: '数据加载中，请稍候...' };
     }
 
-    const cleanAnswer = answer.replace(/[，。！？、；：""''【】《》\s]/g, '').trim();
+    const cleanAnswer = normalizeAnswer(answer);
 
     // O(1) 哈希索引查找
     if (FEIHUA_TEXT_INDEX[cleanAnswer]) {

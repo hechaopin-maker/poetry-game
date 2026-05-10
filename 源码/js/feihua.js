@@ -379,10 +379,7 @@ function submitFeihuaAnswerByInput() {
         return;
     }
     
-    // 清理函数：去除标点符号
-    const cleanText = (text) => text.replace(/[，。！？、；：""''（）\s]/g, '').toLowerCase();
-    
-    const cleanAnswer = cleanText(userAnswer);
+    const cleanAnswer = normalizeAnswer(userAnswer).toLowerCase();
     
     // 1. 检查是否包含关键字
     if (!cleanAnswer.includes(feihuaState.keyword)) {
@@ -392,9 +389,9 @@ function submitFeihuaAnswerByInput() {
     }
     
     // 2. 检查是否已答过（精确匹配，去除所有空格和标点后比较）
-    const normalizedAnswer = userAnswer.replace(/[\s，。！？、；：""''（）]/g, '');
-    const alreadyAnswered = feihuaState.answered.some(a => 
-        a.replace(/[\s，。！？、；：""''（）]/g, '') === normalizedAnswer
+    const normalizedAnswer = normalizeAnswer(userAnswer);
+    const alreadyAnswered = feihuaState.answered.some(a =>
+        normalizeAnswer(a) === normalizedAnswer
     );
     if (alreadyAnswered) {
         showToast('这句诗已经说过了！');
@@ -404,7 +401,7 @@ function submitFeihuaAnswerByInput() {
     
     // 3. 在诗词库中查找匹配（使用相同的规范化方式）
     // 优先返回较短的诗句（短诗句通常是更著名、更常用的）
-    const normalizedForMatch = userAnswer.replace(/[\s，。！？、；：""''（）]/g, '');
+    const normalizedForMatch = normalizeAnswer(userAnswer);
     const sortedPoemData = [...feihuaState.poems].sort((a, b) => {
         const aText = a.text || a.poem || '';
         const bText = b.text || b.poem || '';
@@ -417,7 +414,7 @@ function submitFeihuaAnswerByInput() {
             .map(s => s.trim())
             .filter(s => s.length > 0);
         return lines.some(line => {
-            const cleanLine = line.replace(/[\s，。！？、；：""''（）]/g, '');
+            const cleanLine = normalizeAnswer(line);
             return cleanLine === normalizedForMatch;
         });
     });
@@ -437,7 +434,7 @@ function submitFeihuaAnswerByInput() {
                 const entryLines = entry.t.split(/[，。！？、；：""''（）]/)
                     .map(s => s.trim())
                     .filter(s => s.length > 0);
-                if (entryLines.some(line => line.replace(/[\s，。！？、；：""''（）]/g, '') === normalizedForMatch)) {
+                if (entryLines.some(line => normalizeAnswer(line) === normalizedForMatch)) {
                     crossMatchedPoem = {
                         poem: entry.t,
                         author: entry.a || '佚名',

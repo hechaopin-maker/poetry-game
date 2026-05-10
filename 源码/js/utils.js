@@ -54,6 +54,17 @@ function cleanPunctuation(str) {
 }
 
 /**
+ * 答案规范化：繁简转换 + 标点清理
+ * 所有答案验证的统一入口
+ * @param {string} str - 输入字符串
+ * @returns {string} 规范化后的字符串
+ */
+function normalizeAnswer(str) {
+    if (!str || typeof str !== 'string') return '';
+    return toSimplified(str).replace(PUNCTUATION_RE, '');
+}
+
+/**
  * HTML 转义
  * @param {string} str - 输入字符串
  * @returns {string} 转义后的字符串
