@@ -9,3 +9,22 @@
   - 核心策略: 收拢 6 种正则变体 → normalizeAnswer 统一入口
   - 下一关: M3: 执行就绪
   - 恢复线索: openspec/changes/fix-answer-validation/plan-ready.md
+- 2026-05-10T17:55:00+08:00 M3 通过: fix-answer-validation
+  - 计划: plan-ready.md 直接消费（跳过 writing-plans，per lessons learned）
+  - worktree: .worktrees/fix-answer-validation
+  - 偏离: writing-plans 跳过（plan-ready 每 step 有精确文件路径+改前改后代码+验证命令，无需展开）
+  - 下一关: M4: 实现完成
+- 2026-05-10T18:00:00+08:00 M4 通过: fix-answer-validation
+  - 证据: plan-ready.md 全部 checked + 语法检查通过
+  - commit: b918717 — 6 files, +101/-49
+  - 改动: constants.js (TRAD_TO_SIMP扩充), utils.js (normalizeAnswer), match.js (正则+去选+统一), game-core.js (normalizeAnswer+精确匹配), feihua.js (cleanText→normalizeAnswer, 6处), feihua_loader.js (3处)
+  - 下一关: M5: 验证通过
+  - 偏离: writing-plans 跳过 (per lessons learned)
+- 2026-05-10T18:02:00+08:00 M5 通过: fix-answer-validation
+  - 证据: close-summary.md 追溯矩阵 7/7 PASS, 0 BLOCKING
+  - 下一关: M6: 归档
+- 2026-05-10T18:05:00+08:00 M6 通过: fix-answer-validation
+  - 证据: openspec/changes/archive/2026-05-10-fix-answer-validation/close-summary.md
+  - 追溯矩阵: 7/7 PASS, 0 BLOCKING
+  - commit: b918717 — 6 files, +101/-49
+  - 状态: 已完成归档

@@ -257,3 +257,33 @@
   - 场景B5: 飞花令含繁体诗句，用户输入简体，正确匹配
   - 场景B6: 飞花令答案去重逻辑正常
   - 场景B7: 飞花令数据加载后，诗句内容已简体化
+
+> 🔨 M4 build 完成 — 2026-05-10T18:00:00+08:00
+> 计划: plan-ready.md 直接消费
+> commit: b918717 — 6 files, +101/-49
+>
+> ## M4 测试证据
+> 命令: `node --check` for all 6 changed files
+>
+> ```
+> ✅ constants.js
+> ✅ utils.js  
+> ✅ feihua_loader.js
+> ✅ feihua.js
+> ✅ match.js
+> ✅ game-core.js
+> ```
+>
+> 结果: 6/6 syntax OK, 0 errors
+
+> ## ⚠️ 偏离记录
+> ### 偏离 1: writing-plans 跳过
+> - 发现: 2026-05-10T17:55
+> - 内容: plan-ready.md 每 step 有精确文件路径+改前改后代码+验证命令，直接消费无需中间层
+> - 原因: per lessons learned (baimao-knowledge 首次走流程的教训)
+> - 影响: 无。M3 一致性检查无需执行。
+
+> ## M4 commit 记录
+> | Task | Commit SHA | Message |
+> |------|-----------|---------|
+> | Task 1-5 | b918717 | fix: unify answer validation with normalizeAnswer across all game modes |
