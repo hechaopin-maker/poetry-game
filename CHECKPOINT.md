@@ -1,0 +1,11 @@
+- 2026-05-10T17:45:00+08:00 M1 通过: fix-answer-validation
+  - 证据: openspec/changes/fix-answer-validation/proposal.md
+  - 定位: 4个bug (B1:正则误删汉字4089行, B2:重复字去选, B3:缺繁简转换, B4:includes过松)
+  - 下一关: M2: 规格锁定
+  - 恢复线索: openspec/changes/fix-answer-validation/plan-ready.md
+- 2026-05-10T17:50:00+08:00 M2 通过: fix-answer-validation
+  - 证据: openspec/changes/fix-answer-validation/plan-ready.md
+  - 范围扩大: 7 bugs + 4 架构问题，5 文件，6 tasks，15 steps
+  - 核心策略: 收拢 6 种正则变体 → normalizeAnswer 统一入口
+  - 下一关: M3: 执行就绪
+  - 恢复线索: openspec/changes/fix-answer-validation/plan-ready.md
