@@ -56,6 +56,15 @@ function cleanPunctuation(str) {
     return str.replace(PUNCTUATION_RE, '');
 }
 
+function normalizeAnswer(str) {
+    return cleanPunctuation(str).trim().toLowerCase();
+}
+
+function escapeHtml(str) {
+    if (!str || typeof str !== 'string') return '';
+    return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
 /**
  * HTML 转义
  * @param {string} str - 输入字符串
