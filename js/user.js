@@ -81,6 +81,7 @@ function checkStorageQuota() {
         for (let i = 0; i < localStorage.length; i++) {
             const key = localStorage.key(i);
             const value = localStorage.getItem(key);
+			if (value === null) continue;
             used += (key.length + value.length) * 2; // UTF-16 编码
         }
         return maxSize - used;

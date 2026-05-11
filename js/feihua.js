@@ -355,7 +355,6 @@ function showFeihuaInput() {
         if (input) {
             input.focus();
             // 绑定Enter键提交（修复onkeypress在部分浏览器不触发的问题）
-            // 使用 { once: true } 防止重复绑定
             input.addEventListener('keydown', function(e) {
                 if (e.key === 'Enter') {
                     e.preventDefault();
@@ -591,6 +590,7 @@ function showFeihuaSuccess() {
     
     // 保存成绩
     gameState.currentUser.xp += feihuaState.score;
+    feihuaState.score = 0; // reset cumulative score after XP awarded
     gameState.currentUser.totalCount += feihuaState.currentIndex;
     gameState.currentUser.correctCount += feihuaState.correctCount;
     saveUser();
@@ -655,6 +655,7 @@ function showFeihuaSuccess() {
     showToast(`贺 挑战成功！+${completionBonus}完成奖励！`);
     
     // 1.5秒后自动进入下一轮
+    feihuaState.isPlaying = false; // prevent race condition
     setTimeout(() => startNextFeihuaRound(), 1500);
 }
 
@@ -706,6 +707,7 @@ function endFeihuaRound() {
     
     // 保存成绩
     gameState.currentUser.xp += feihuaState.score;
+    feihuaState.score = 0; // reset cumulative score after XP awarded
     gameState.currentUser.totalCount += feihuaState.currentIndex;
     gameState.currentUser.correctCount += feihuaState.correctCount;
     saveUser();
@@ -771,6 +773,7 @@ function endFeihua() {
 
     // 保存成绩
     gameState.currentUser.xp += feihuaState.score;
+    feihuaState.score = 0; // reset cumulative score after XP awarded
     gameState.currentUser.totalCount += feihuaState.currentIndex;
     gameState.currentUser.correctCount += feihuaState.correctCount;
 

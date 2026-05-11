@@ -146,18 +146,20 @@ function generateMatchQuestions(count) {
         // 根据模式调整字符数量
         const 目标字数 = 游戏模式 === 'shiergongge' ? 12 : 9;
         
+        // 去除答案中重复的字符，保留唯一字符
+        let uniqueAnswerChars = [...new Set(chars)];
+        chars = [...uniqueAnswerChars];
+
+        // 如果答案唯一字符超过目标字数，截断为前N个（罕见：古诗句通常≤7字）
+        if (chars.length > 目标字数) {
+        	chars = chars.slice(0, 目标字数);
+        }
+
         // 添加干扰字直到达到目标字数
         while (chars.length < 目标字数) {
-            const 随机字 = 干扰字[Math.floor(Math.random() * 干扰字.length)];
-            if (!chars.includes(随机字)) chars.push(随机字);
+        	const 随机字 = 干扰字[Math.floor(Math.random() * 干扰字.length)];
+        	if (!chars.includes(随机字)) chars.push(随机字);
         }
-        
-        // 如果超过目标字数，随机截断
-        if (chars.length > 目标字数) {
-            chars = chars.sort(() => Math.random() - 0.5).slice(0, 目标字数);
-        }
-        
-        // 打乱字符
         chars.sort(() => Math.random() - 0.5);
         gameQ.chars = chars;
         gameQ.gameType = 游戏模式;

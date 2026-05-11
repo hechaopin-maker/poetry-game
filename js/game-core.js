@@ -241,10 +241,10 @@ function submitFillAnswer() {
     let correctParts = 0;
     
     for (let i = 0; i < blankCount; i++) {
-        const userAns = userAnswers[i].replace(/[，。！？、；：""''（）]/g, '').trim();
-        const correctAns = (answerParts[i] || '').replace(/[，。！？、；：""''（）]/g, '').trim();
+        const userAns = normalizeAnswer(userAnswers[i]);
+        const correctAns = normalizeAnswer(answerParts[i] || '');
         
-        if (userAns === correctAns || correctAns.includes(userAns) || userAns.includes(correctAns)) {
+        if (userAns === correctAns && userAns.length > 0) {
             correctParts++;
         }
     }
@@ -282,9 +282,9 @@ function submitFillAnswer() {
         for (let i = 0; i < blankCount; i++) {
             const input = document.getElementById('fillAnswerInput' + i);
             if (input) {
-                const userAns = userAnswers[i].replace(/[，。！？、；：""''（）]/g, '').trim();
-                const correctAns = (answerParts[i] || '').replace(/[，。！？、；：""''（）]/g, '').trim();
-                if (userAns === correctAns || correctAns.includes(userAns) || userAns.includes(correctAns)) {
+                const userAns = normalizeAnswer(userAnswers[i]);
+                const correctAns = normalizeAnswer(answerParts[i] || '');
+                if (userAns === correctAns && userAns.length > 0) {
                     input.style.borderColor = 'var(--success)';
                     input.style.background = '#E8F5E9';
                 } else {
@@ -360,7 +360,6 @@ function skipAndShowAnswer() {
     
     // 如果当前用户在诗词闯关或每日挑战，更新用户数据
     if (gameState.currentUser) {
-        gameState.currentUser.totalCount++;
         gameState.currentUser.wrongCount = (gameState.currentUser.wrongCount || 0) + 1;
         saveUser();
         updateUserDisplay();
@@ -379,7 +378,7 @@ function skipChoiceAndShowAnswer() {
 
     // 显示正确答案（绿色高亮）
     document.querySelectorAll('.option').forEach(opt => {
-        const idx = parseInt(opt.dataset.index);
+        const idx = parseInt(opt.dataset.index, 10);
         if (q.options[idx].correct) {
             opt.classList.add('correct');
         }
@@ -405,7 +404,6 @@ function skipChoiceAndShowAnswer() {
 
     // 如果当前用户在诗词闯关或每日挑战，更新用户数据
     if (gameState.currentUser) {
-        gameState.currentUser.totalCount++;
         gameState.currentUser.wrongCount = (gameState.currentUser.wrongCount || 0) + 1;
         saveUser();
         updateUserDisplay();
@@ -468,7 +466,7 @@ function selectOption(element, isCorrect) {
         
         // 显示正确答案
         document.querySelectorAll('.option').forEach(opt => {
-            const idx = parseInt(opt.dataset.index);
+            const idx = parseInt(opt.dataset.index, 10);
             if (q.options[idx].correct) {
                 opt.classList.add('correct');
             }
@@ -616,7 +614,7 @@ function endGame() {
 
 // 显示结果页面
 function showResult() {
-    const passed = gameState.score >= 80;
+    const passed = gameState.score >= PASS_SCORE;
     
     document.getElementById('resultIcon').textContent = passed ? '贺' : '劲';
     document.getElementById('resultTitle').textContent = passed ? '挑战成功！' : '再接再厉！';
