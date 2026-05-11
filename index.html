@@ -1239,7 +1239,7 @@
 .feihua-keyword-hint { color: var(--text-light); margin-top: 5px; }
 .feihua-prompt-box { text-align: center; font-size: 1.2em; padding: 20px; background: var(--bg); border-radius: 12px; margin-bottom: 20px; }
 .feihua-history-box { max-height: 150px; overflow-y: auto; margin-bottom: 15px; }
-.feihua-learning-area { display: none; text-align: center; }
+.feihua-learning-area { text-align: center; }
 .feihua-learning-keyword { font-size: 2.5em; font-weight: 700; color: var(--primary); margin: 15px 0; }
 .feihua-learning-poems { max-height: 400px; overflow-y: auto; text-align: left; padding: 10px; }
 .feihua-challenge-area { text-align: center; }
@@ -1247,19 +1247,29 @@
 .btn-small-toggle { font-size: 0.85em; padding: 6px 12px; }
 /* Grid display handled by ID selectors in base styles */
 .jiugongge-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 20px 0; }
-.selected-chars-display { display: none; min-height: 50px; padding: 15px; background: #f0f0f0; border-radius: 8px; margin: 15px 0; text-align: center; }
+.selected-chars-display { min-height: 50px; padding: 15px; background: #f0f0f0; border-radius: 8px; margin: 15px 0; text-align: center; }
 .selected-chars-text { font-size: 1.3em; font-weight: bold; color: #333; letter-spacing: 5px; }
 .selected-chars-actions { margin-top: 10px; }
 .dianzi-grid { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 20px 0; }
-.match-result { text-align: center; padding: 15px; display: none; }
+.match-result { text-align: center; padding: 15px; }
 .match-answer-btn-row { text-align: center; margin-top: 10px; }
 .hint-btn-answer { background: var(--primary-dark); color: #fff; border-color: var(--primary-dark); }
-.loading-overlay { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: var(--paper); padding: 30px 40px; border-radius: 4px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.2); border: 1px solid var(--ink-light); z-index: 10000; }
+.loading-overlay { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: var(--paper); padding: 30px 40px; border-radius: 4px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.2); border: 1px solid var(--ink-light); z-index: 10000; }
 .loading-icon { font-family: 'Ma Shan Zheng', serif; font-size: 2em; margin-bottom: 15px; color: var(--gold); }
 .loading-text { font-size: 1.1em; margin-bottom: 10px; }
 .loading-bar-track { width: 200px; height: 6px; background: #eee; border-radius: 3px; margin: 15px auto; overflow: hidden; }
 .loading-bar-fill { width: 0%; height: 100%; background: var(--gold-dark); transition: width 0.3s; }
-.hidden { display: none; }
+.hidden { display: none !important; }
+#nextQuestionBtn, #showPoemBtn { display: inline-block; }
+#feihuaStartBtn { display: inline-block; }
+#feihuaChallengeArea { display: block; }
+#feihuaProgress { display: flex; }
+#jiugonggeGrid { display: grid; }
+#dianziGrid { display: flex; }
+#selectedCharsDisplay { display: block; }
+#matchResult { display: block; }
+#loadingMsg { display: block; }
+#loadErrorMsg { display: block; }
 
 </style>
 </head>
@@ -1393,8 +1403,8 @@
                     <div class="explanation-title">答案解析</div>
                     <div id="explanationText"></div>
                     <div class="centered-btn-row">
-                        <button class="btn btn-secondary" id="showPoemBtn" onclick="showPoemByQuestion()" style="display:none;margin-right:10px;">看原诗</button>
-                        <button class="btn btn-primary" id="nextQuestionBtn" onclick="nextQuestion()" style="display:none;">下一题</button>
+                        <button class="btn btn-secondary hidden" id="showPoemBtn" onclick="showPoemByQuestion()" style="margin-right:10px;">看原诗</button>
+                        <button class="btn btn-primary hidden" id="nextQuestionBtn" onclick="nextQuestion()">下一题</button>
                     </div>
                 </div>
             </div>
@@ -1533,7 +1543,7 @@
                 </div>
                 
                 <!-- 学习模式内容 -->
-                <div id="feihuaLearningArea" class="feihua-learning-area">
+                <div id="feihuaLearningArea" class="feihua-learning-area hidden">
                     <div id="feihuaLearningKeyword" class="feihua-learning-keyword"></div>
                     <div id="feihuaLearningPoems" class="feihua-learning-poems"></div>
                     <div class="centered-btn-row">
@@ -1584,7 +1594,7 @@
                 </div>
                 
                 <!-- 选中字符显示区（用于十二宫格） -->
-                <div id="selectedCharsDisplay" class="selected-chars-display">
+                <div id="selectedCharsDisplay" class="selected-chars-display hidden">
                     <div id="selectedCharsText" class="selected-chars-text"></div>
                     <div class="selected-chars-actions">
                         <button class="btn" id="confirmSelectionBtn" onclick="confirmSelection()" style="margin-right:10px;">确认答案</button>
@@ -1597,7 +1607,7 @@
                     <!-- 动态生成 -->
                 </div>
                 
-                <div id="matchResult" class="match-result">
+                <div id="matchResult" class="match-result hidden">
                     <!-- 结果显示 -->
                 </div>
             </div>
@@ -1619,7 +1629,7 @@
     <div class="toast" id="toast"></div>
     
     <!-- 加载状态提示 -->
-    <div id="loadingMsg" class="loading-overlay">
+    <div id="loadingMsg" class="loading-overlay hidden">
         <div class="loading-icon">文</div>
         <div id="loadingText" class="loading-text">正在加载诗词数据...</div>
         <div class="loading-bar-track">
@@ -1640,7 +1650,7 @@
         function onScriptError(e) {
             window.__dataLoadErrors.push(e.target.src);
             console.error('脚本加载失败:', e.target.src);
-            document.getElementById('loadErrorMsg').style.display = 'block';
+            document.getElementById('loadErrorMsg').classList.remove('hidden');
         }
     </script>
     <script src="data/questions.js?v=202603311459" onerror="onScriptError(event)"></script>

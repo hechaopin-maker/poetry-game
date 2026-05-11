@@ -98,7 +98,7 @@ function startDailyChallenge() {
 
 // 下一题（点击按钮跳转）
 function nextQuestion() {
-    document.getElementById('nextQuestionBtn').style.display = 'none';
+    document.getElementById('nextQuestionBtn').classList.add('hidden');
     gameState.currentQuestion++;
     showQuestion();
 }
@@ -112,7 +112,7 @@ function showQuestion() {
     
     // 隐藏"下一题"按钮
     const nextBtn = document.getElementById('nextQuestionBtn');
-    if (nextBtn) nextBtn.style.display = 'none';
+    if (nextBtn) nextBtn.classList.add('hidden');
     
     const q = gameState.questions[gameState.currentQuestion];
     
@@ -314,7 +314,7 @@ function submitFillAnswer() {
     } else {
         // 答错了：显示"下一题"按钮，让学生点击后进入下一题
         const nextBtn = document.getElementById('nextQuestionBtn');
-        nextBtn.style.display = 'inline-block';
+        nextBtn.classList.remove('hidden');
         // 确保onclick正确绑定
         nextBtn.onclick = nextQuestion;
     }
@@ -354,7 +354,7 @@ function skipAndShowAnswer() {
     
     // 显示"下一题"按钮
     const nextBtn = document.getElementById('nextQuestionBtn');
-    nextBtn.style.display = 'inline-block';
+    nextBtn.classList.remove('hidden');
     // 确保onclick正确绑定
     nextBtn.onclick = nextQuestion;
     
@@ -399,7 +399,7 @@ function skipChoiceAndShowAnswer() {
 
     // 显示"下一题"按钮
     const nextBtn = document.getElementById('nextQuestionBtn');
-    nextBtn.style.display = 'inline-block';
+    nextBtn.classList.remove('hidden');
     nextBtn.onclick = nextQuestion;
 
     // 如果当前用户在诗词闯关或每日挑战，更新用户数据
@@ -491,7 +491,7 @@ function selectOption(element, isCorrect) {
     } else {
         // 答错了：显示"下一题"按钮，让学生点击后进入下一题
         const nextBtn = document.getElementById('nextQuestionBtn');
-        nextBtn.style.display = 'inline-block';
+        nextBtn.classList.remove('hidden');
         // 确保onclick正确绑定
         nextBtn.onclick = nextQuestion;
     }

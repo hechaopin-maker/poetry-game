@@ -193,7 +193,7 @@ function showMatchQuestion() {
     document.getElementById('matchScore').textContent = matchState.score;
     document.getElementById('matchCombo').textContent = matchState.combo + '连击';
     document.getElementById('matchLevel').textContent = matchState.level;
-    document.getElementById('matchResult').style.display = 'none';
+    document.getElementById('matchResult').classList.add('hidden');
     
     if (q.gameType === 'jiugongge') {
         showJiugongGe(q);
@@ -212,10 +212,10 @@ function showJiugongGe(q) {
     const dianzi = document.getElementById('dianziGrid');
     const selectedDisplay = document.getElementById('selectedCharsDisplay');
     
-    grid.style.display = 'grid';
+    grid.classList.remove('hidden');
     grid.style.gridTemplateColumns = 'repeat(3, 1fr)'; // 重置为3列九宫格
-    dianzi.style.display = 'none';
-    selectedDisplay.style.display = 'none'; // 九宫格不需要显示选中区
+    dianzi.classList.add('hidden');
+    selectedDisplay.classList.add('hidden'); // 九宫格不需要显示选中区
     matchState.selectedChars = [];
     matchState.currentQuestion = q; // 设置当前题目，包含answer字段
     
@@ -235,10 +235,10 @@ function showShiergongGe(q) {
     const dianzi = document.getElementById('dianziGrid');
     const selectedDisplay = document.getElementById('selectedCharsDisplay');
     
-    grid.style.display = 'grid';
+    grid.classList.remove('hidden');
     grid.style.gridTemplateColumns = 'repeat(4, 1fr)'; // 4列十二宫格
-    dianzi.style.display = 'none';
-    selectedDisplay.style.display = 'block'; // 显示选中区
+    dianzi.classList.add('hidden');
+    selectedDisplay.classList.remove('hidden'); // 显示选中区
     
     // 重置选中状态
     matchState.selectedChars = [];
@@ -313,9 +313,9 @@ function showDianZiChengShi(q) {
     const dianzi = document.getElementById('dianziGrid');
     const selectedDisplay = document.getElementById('selectedCharsDisplay');
     
-    grid.style.display = 'none';
-    dianzi.style.display = 'flex';
-    selectedDisplay.style.display = 'none'; // 隐藏选中区
+    grid.classList.add('hidden');
+    dianzi.classList.remove('hidden');
+    selectedDisplay.classList.add('hidden'); // 隐藏选中区
     matchState.selectedChars = [];
     
     // 打乱汉字
@@ -401,7 +401,7 @@ function handleMatchCorrect() {
     document.getElementById('matchCombo').textContent = matchState.combo + '连击';
     
     const result = document.getElementById('matchResult');
-    result.style.display = 'block';
+    result.classList.remove('hidden');
     result.innerHTML = `
         <div style="color:var(--success);font-size:1.2em;">正 正确！+${points}分</div>
         <div style="margin-top:5px;color:#666;">${matchState.currentQuestion.poem || ''} - ${matchState.currentQuestion.author || ''}</div>
@@ -434,7 +434,7 @@ function handleMatchWrong() {
     document.getElementById('matchCombo').textContent = '0连击';
     
     const result = document.getElementById('matchResult');
-    result.style.display = 'block';
+    result.classList.remove('hidden');
     result.innerHTML = `
         <div style="color:var(--error);font-size:1.2em;">✗ 错误！正确答案是：${matchState.currentQuestion.answer}</div>
         <div style="margin-top:5px;color:#666;">${matchState.currentQuestion.poem || ''} - ${matchState.currentQuestion.author || ''}</div>
@@ -518,22 +518,22 @@ function showMatchAnswer() {
     
     // 显示答案
     const result = document.getElementById('matchResult');
-    result.style.display = 'block';
+    result.classList.remove('hidden');
     result.innerHTML = answerHtml;
     
     // 隐藏九宫格/点字区域
-    document.getElementById('jiugonggeGrid').style.display = 'none';
-    document.getElementById('dianziGrid').style.display = 'none';
-    document.getElementById('selectedCharsDisplay').style.display = 'none';
+    document.getElementById('jiugonggeGrid').classList.add('hidden');
+    document.getElementById('dianziGrid').classList.add('hidden');
+    document.getElementById('selectedCharsDisplay').classList.add('hidden');
 }
 
 function continueMatchAnswer() {
     // 隐藏答案，返回游戏
-    document.getElementById('matchResult').style.display = 'none';
-    document.getElementById('jiugonggeGrid').style.display = '';
-    document.getElementById('dianziGrid').style.display = '';
+    document.getElementById('matchResult').classList.add('hidden');
+    document.getElementById('jiugonggeGrid').classList.remove('hidden');
+    document.getElementById('dianziGrid').classList.remove('hidden');
     if (matchState.currentQuestion && matchState.currentQuestion.gameType === 'shiergongge') {
-        document.getElementById('selectedCharsDisplay').style.display = '';
+        document.getElementById('selectedCharsDisplay').classList.remove('hidden');
     }
 }
 
@@ -551,7 +551,7 @@ function endMatch() {
     updateUserDisplay();
     
     const result = document.getElementById('matchResult');
-    result.style.display = 'block';
+    result.classList.remove('hidden');
     result.innerHTML = `
         <div style="color:var(--success);font-size:1.5em;">贺 通关！</div>
         <div style="margin-top:10px;">得分：<strong>${matchState.score}</strong> 分</div>

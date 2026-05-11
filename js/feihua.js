@@ -29,9 +29,9 @@ function toggleFeihuaMode() {
     if (feihuaState.isLearningMode) {
         // 切换到学习模式
         modeBtn.textContent = '🎮 切换到挑战模式';
-        challengeArea.style.display = 'none';
-        learningArea.style.display = 'block';
-        progress.style.display = 'none';
+        challengeArea.classList.add('hidden');
+        learningArea.classList.remove('hidden');
+        progress.classList.add('hidden');
         
         // 停止正在进行的挑战
         if (feihuaState.timer) {
@@ -45,9 +45,9 @@ function toggleFeihuaMode() {
     } else {
         // 切换到挑战模式
         modeBtn.textContent = '书 切换到学习模式';
-        challengeArea.style.display = 'block';
-        learningArea.style.display = 'none';
-        progress.style.display = 'flex';
+        challengeArea.classList.remove('hidden');
+        learningArea.classList.add('hidden');
+        progress.classList.remove('hidden');
         
         // 重置状态
         document.getElementById('feihuaHistory').innerHTML = '';
@@ -287,7 +287,7 @@ async function startFeihua() {
     document.getElementById('feihuaPrompt').innerHTML = '';
     // 重置开始按钮
     const btn = document.getElementById('feihuaStartBtn');
-    btn.style.display = 'inline-block';
+    btn.classList.remove('hidden');
     btn.textContent = '开始挑战';
 }
 
@@ -298,7 +298,7 @@ function startFeihuaGame() {
     feihuaState.correctCount = 0;
     feihuaState.answered = [];
     feihuaState.combo = 0;
-    document.getElementById('feihuaStartBtn').style.display = 'none';
+    document.getElementById('feihuaStartBtn').classList.add('hidden');
     
     // 显示输入框
     showFeihuaInput();
@@ -651,7 +651,7 @@ function showFeihuaSuccess() {
         </div>
     `;
     
-    document.getElementById('feihuaStartBtn').style.display = 'none';
+    document.getElementById('feihuaStartBtn').classList.add('hidden');
     showToast(`贺 挑战成功！+${completionBonus}完成奖励！`);
     
     // 1.5秒后自动进入下一轮
@@ -763,7 +763,7 @@ function endFeihuaRound() {
         </div>
     `;
     
-    document.getElementById('feihuaStartBtn').style.display = 'none';
+    document.getElementById('feihuaStartBtn').classList.add('hidden');
 }
 
 // 结束飞花令（保留，用于"再玩一次"）
@@ -835,7 +835,7 @@ function endFeihua() {
         </div>
     `;
     
-    document.getElementById('feihuaStartBtn').style.display = 'inline-block';
+    document.getElementById('feihuaStartBtn').classList.remove('hidden');
     document.getElementById('feihuaStartBtn').textContent = '再玩一次';
     
     showToast(`飞花令完成！+${feihuaState.score} XP`);

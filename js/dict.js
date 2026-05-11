@@ -395,7 +395,7 @@ function updateShowPoemButton(q) {
     const btn = document.getElementById('showPoemBtn');
     if (!btn || !q) return;
     const hasTitle = q.question && q.question.includes('《') && q.question.includes('》');
-    btn.style.display = hasTitle ? 'inline-block' : 'none';
+    btn.classList.toggle('hidden', !hasTitle);
 }
 
 // 显示原诗功能：从题目中提取诗题并展示完整诗词

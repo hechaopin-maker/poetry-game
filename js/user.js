@@ -23,7 +23,7 @@ async function initUser() {
     const loadingBar = document.getElementById('loadingBar');
 
     function setLoading(visible, text, progress) {
-        if (loadingMsg) loadingMsg.style.display = visible ? 'block' : 'none';
+        if (loadingMsg) loadingMsg.classList.toggle('hidden', !visible);
         if (loadingText && text) loadingText.textContent = text;
         if (loadingBar && progress !== undefined) loadingBar.style.width = progress + '%';
     }
