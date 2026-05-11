@@ -1331,6 +1331,56 @@
 .dict-enhanced-section { margin-bottom: 15px; }
 .dict-enhanced-label { color: #666; }
 .dict-enhanced-label-sm { color: #555; }
+/* shared stat/ranking cards */
+.stat-card { margin-bottom: 20px; padding: 15px; background: var(--paper); border-radius: 10px; border: 1px solid var(--ink-light); }
+.stat-card-white { background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: none; }
+.stat-grid { display: flex; justify-content: space-around; text-align: center; flex-wrap: wrap; gap: 10px; }
+.stat-value { font-size: 1.5em; font-weight: bold; color: var(--gold-dark); }
+.stat-value-lg { font-size: 2em; }
+.stat-value-score { font-size: 1.3em; font-weight: bold; color: var(--gold-dark); }
+.stat-label { font-size: 0.85em; color: #888; }
+.stat-label-sm { font-size: 0.8em; color: #888; }
+.section-title { font-weight: bold; color: var(--gold-dark); margin-bottom: 12px; font-size: 1.1em; }
+.section-title-row { font-weight: bold; color: var(--gold-dark); margin-bottom: 10px; padding-bottom: 8px; border-bottom: 2px solid var(--gold-light); display: flex; justify-content: space-between; align-items: center; }
+.section-count { font-size: 0.85em; color: #888; }
+.tab-row { display: flex; gap: 10px; margin-bottom: 20px; }
+.tab-btn { flex: 1; }
+.empty-hint { font-size: 0.9em; margin-top: 10px; color: #888; }
+/* ranking.js */
+.rank-list-item { display: flex; align-items: center; padding: 12px; margin-bottom: 8px; background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.rank-badge { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 12px; font-weight: bold; }
+.rank-info { flex: 1; }
+.rank-mode { font-weight: bold; color: #333; }
+.rank-meta { font-size: 0.8em; color: #888; }
+/* achievements.js */
+.ach-category-group { margin-bottom: 20px; }
+.ach-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+.ach-card { padding: 15px; text-align: center; border-radius: 10px; }
+.ach-card-icon { width: 50px; height: 50px; font-size: 1.5em; margin: 0 auto; }
+.ach-card-title { font-size: 0.95em; margin: 8px 0 4px; }
+.ach-card-desc { font-size: 0.8em; color: #888; }
+.ach-card-status { margin-top: 8px; }
+.ach-status-unlocked { color: #4CAF50; font-size: 0.8em; }
+.ach-status-locked { color: #999; font-size: 0.8em; }
+.ach-progress-card { margin-bottom: 20px; padding: 15px; background: var(--paper); border-radius: 10px; border: 1px solid var(--ink-light); text-align: center; }
+.ach-progress-title { font-size: 1.3em; font-weight: bold; color: var(--gold-dark); margin-bottom: 8px; }
+.ach-progress-count { font-size: 2em; font-weight: bold; color: var(--gold-dark); }
+.ach-progress-bar-bg { margin-top: 10px; height: 8px; background: #eee; border-radius: 4px; overflow: hidden; }
+.ach-progress-bar-fill { height: 100%; background: var(--gold-dark); transition: width 0.5s; }
+.ach-progress-text { font-size: 0.85em; color: #888; margin-top: 5px; }
+/* wrong-notes.js */
+.wn-weakness-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.wn-weakness-tag { font-size: 0.85em; padding: 6px 12px; }
+.wn-weakness-count { color: #e74c3c; font-weight: bold; }
+.wn-hint { font-size: 0.8em; color: #888; margin-top: 10px; }
+.wn-review-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+.wn-review-count { font-weight: bold; color: #333; }
+.wn-kp-tag { display: inline-block; background: var(--gold-light); color: var(--gold-dark); padding: 2px 8px; border-radius: 12px; font-size: 0.75em; margin-right: 4px; }
+.wn-note-card { margin-bottom: 20px; padding: 15px; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.wn-q-text { font-size: 1em; margin-bottom: 15px; color: #333; }
+.wn-answer-section { margin-top: 12px; padding-top: 12px; border-top: 1px dashed #eee; }
+.wn-answer-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+.wn-answer-meta { color: #888; font-size: 0.85em; }
 .hint-btn-answer { background: var(--primary-dark); color: #fff; border-color: var(--primary-dark); }
 .loading-overlay { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: var(--paper); padding: 30px 40px; border-radius: 4px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.2); border: 1px solid var(--ink-light); z-index: 10000; }
 .loading-icon { font-family: 'Ma Shan Zheng', serif; font-size: 2em; margin-bottom: 15px; color: var(--gold); }

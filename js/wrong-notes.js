@@ -140,22 +140,21 @@ function showWrongNotes() {
     let html = '';
     if (stats.length > 0) {
         html += `
-            <div style="margin-bottom:20px;padding:15px;background:#fff;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
-                <div style="font-weight:bold;color:var(--gold-dark);margin-bottom:12px;">薄弱知识点</div>
-                <div style="display:flex;flex-wrap:wrap;gap:8px;">
+            <div class="stat-card-white">
+                <div class="section-title">薄弱知识点</div>
+                <div class="wn-weakness-tags">
         `;
         stats.slice(0, 8).forEach(s => {
             html += `
-                <button class="btn btn-secondary" onclick="startWeakPointTraining('${s.name}')"
-                    style="font-size:0.85em;padding:6px 12px;"
+                <button class="btn btn-secondary wn-weakness-tag" onclick="startWeakPointTraining('${s.name}')"
                     title="${s.count} 道错题 · 点击开始专项训练">
-                    ${s.name} <span style="color:#e74c3c;font-weight:bold;">${s.count}</span>
+                    ${s.name} <span class="wn-weakness-count">${s.count}</span>
                 </button>
             `;
         });
         html += `
                 </div>
-                <div style="font-size:0.8em;color:#888;margin-top:10px;">
+                <div class="wn-hint">
                     点击知识点标签开始专项训练
                 </div>
             </div>
@@ -164,8 +163,8 @@ function showWrongNotes() {
 
     // 错题列表
     html += `
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px;">
-            <div style="font-weight:bold;color:#333;">共 ${wrongs.length} 道错题</div>
+        <div class="wn-review-header">
+            <div class="wn-review-count">共 ${wrongs.length} 道错题</div>
             <button class="btn btn-secondary" onclick="startWrongReview()" style="font-size:0.85em;">
                 随机复习
             </button>
@@ -182,16 +181,16 @@ function showWrongNotes() {
         };
         const enhancedExplanation = getEnhancedExplanation(q);
         const kps = (w.knowledgePoints || []).map(kp =>
-            `<span style="display:inline-block;background:var(--gold-light);color:var(--gold-dark);padding:2px 8px;border-radius:12px;font-size:0.75em;margin-right:4px;">${kp}</span>`
+            `<span class="wn-kp-tag">${kp}</span>`
         ).join('');
 
         return `
-        <div class="question-box" style="margin-bottom:20px;padding:15px;background:#fff;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
-            <div class="question-text" style="font-size:1em;margin-bottom:15px;color:#333;">${w.question || '（题目已丢失）'}</div>
+        <div class="question-box wn-note-card">
+            <div class="question-text wn-q-text">${w.question || '（题目已丢失）'}</div>
             ${enhancedExplanation}
-            <div style="margin-top:12px;padding-top:12px;border-top:1px dashed #eee;">
-                <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
-                    <div style="color:#888;font-size:0.85em;">
+            <div class="wn-answer-section">
+                <div class="wn-answer-row">
+                    <div class="wn-answer-meta">
                         错误日期：${new Date(w.date).toLocaleDateString('zh-CN')} &nbsp; ${kps}
                     </div>
                     <button class="btn btn-secondary" onclick="markWrongAsMastered('${w.id}')" style="font-size:0.8em;padding:4px 10px;">

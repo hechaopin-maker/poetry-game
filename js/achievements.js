@@ -39,26 +39,26 @@ function showAchievements() {
         if (!items || items.length === 0) return;
 
         const unlockedCount = items.filter(a => userAchs.includes(a.id)).length;
-        html += `<div style="margin-bottom:20px;">`;
-        html += `<div style="font-weight:bold;color:var(--gold-dark);margin-bottom:10px;padding-bottom:8px;border-bottom:2px solid var(--gold-light);display:flex;justify-content:space-between;align-items:center;">`;
+        html += `<div class="ach-category-group">`;
+        html += `<div class="section-title-row">`;
         html += `<span>${cat}</span>`;
-        html += `<span style="font-size:0.85em;color:#888;">${unlockedCount}/${items.length}</span>`;
+        html += `<span class="section-count">${unlockedCount}/${items.length}</span>`;
         html += `</div>`;
-        html += `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;">`;
+        html += `<div class="ach-grid">`;
 
         html += items.map(a => {
             const unlocked = userAchs.includes(a.id);
             const opacity = unlocked ? 1 : 0.5;
             const bg = unlocked ? 'background:#fff;' : 'background:#f8f8f8;';
             const border = unlocked ? 'border-color:var(--gold-light);' : 'border-color:#eee;';
-            const status = unlocked ? '<span style="color:#4CAF50;font-size:0.8em;">已解锁</span>' : '<span style="color:#999;font-size:0.8em;">未解锁</span>';
+            const status = unlocked ? '<span class="ach-status-unlocked">已解锁</span>' : '<span class="ach-status-locked">未解锁</span>';
 
             return `
-                <div class="module-card" style="${bg}${border}border-width:2px;border-style:solid;padding:15px;text-align:center;opacity:${opacity};">
-                    <div class="module-icon" style="width:50px;height:50px;font-size:1.5em;">${a.icon}</div>
-                    <div class="module-title" style="font-size:0.95em;margin:8px 0 4px;">${a.name}</div>
-                    <div class="module-desc" style="font-size:0.8em;color:#888;">${a.desc}</div>
-                    <div style="margin-top:8px;">${status}</div>
+                <div class="module-card ach-card" style="${bg}${border}border-width:2px;border-style:solid;opacity:${opacity};">
+                    <div class="module-icon ach-card-icon">${a.icon}</div>
+                    <div class="module-title ach-card-title">${a.name}</div>
+                    <div class="module-desc ach-card-desc">${a.desc}</div>
+                    <div class="ach-card-status">${status}</div>
                 </div>
             `;
         }).join('');
@@ -72,13 +72,13 @@ function showAchievements() {
     const percent = Math.round((totalUnlocked / totalAll) * 100);
 
     html = `
-        <div style="margin-bottom:20px;padding:15px;background:var(--paper);border-radius:10px;border:1px solid var(--ink-light);text-align:center;">
-            <div style="font-size:1.3em;font-weight:bold;color:var(--gold-dark);margin-bottom:8px;">成就进度</div>
-            <div style="font-size:2em;font-weight:bold;color:var(--gold-dark);">${totalUnlocked}/${totalAll}</div>
-            <div style="margin-top:10px;height:8px;background:#eee;border-radius:4px;overflow:hidden;">
-                <div style="width:${percent}%;height:100%;background:var(--gold-dark);transition:width 0.5s;"></div>
+        <div class="ach-progress-card">
+            <div class="ach-progress-title">成就进度</div>
+            <div class="ach-progress-count">${totalUnlocked}/${totalAll}</div>
+            <div class="ach-progress-bar-bg">
+                <div class="ach-progress-bar-fill" style="width:${percent}%;"></div>
             </div>
-            <div style="font-size:0.85em;color:#888;margin-top:5px;">已完成 ${percent}%</div>
+            <div class="ach-progress-text">已完成 ${percent}%</div>
         </div>
     ` + html;
 
