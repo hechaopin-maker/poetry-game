@@ -110,10 +110,15 @@ function showQuestion() {
         return;
     }
     
-    // 隐藏"下一题"按钮
+    // 隐藏"下一题"按钮 + 清理填充题状态类
     const nextBtn = document.getElementById('nextQuestionBtn');
     if (nextBtn) nextBtn.classList.add('hidden');
-    
+    document.querySelectorAll('.fill-input').forEach(el => {
+        el.classList.remove('correct-state', 'wrong-state');
+        el.disabled = false;
+        el.value = '';
+    });
+
     const q = gameState.questions[gameState.currentQuestion];
     
     // 更新进度
@@ -262,8 +267,7 @@ function submitFillAnswer() {
         for (let i = 0; i < blankCount; i++) {
             const input = document.getElementById('fillAnswerInput' + i);
             if (input) {
-                input.style.borderColor = 'var(--success)';
-                input.style.background = '#E8F5E9';
+                input.classList.add('correct-state');
             }
         }
         gameState.combo++;
@@ -285,13 +289,10 @@ function submitFillAnswer() {
                 const userAns = normalizeAnswer(userAnswers[i]);
                 const correctAns = normalizeAnswer(answerParts[i] || '');
                 if (userAns === correctAns && userAns.length > 0) {
-                    input.style.borderColor = 'var(--success)';
-                    input.style.background = '#E8F5E9';
+                    input.classList.add('correct-state');
                 } else {
-                    input.style.borderColor = 'var(--error)';
-                    input.style.background = '#FFEBEE';
+                    input.classList.add('wrong-state');
                     input.value = '正确答案：' + answerParts[i];
-                    input.style.color = 'var(--error)';
                 }
             }
         }
@@ -332,9 +333,7 @@ function skipAndShowAnswer() {
         const input = document.getElementById('fillAnswerInput' + i);
         if (input) {
             input.value = answerParts[i] || '';
-            input.style.borderColor = 'var(--error)';
-            input.style.background = '#FFEBEE';
-            input.style.color = 'var(--error)';
+            input.classList.add('wrong-state');
             input.disabled = true;
         }
     }
