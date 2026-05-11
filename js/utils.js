@@ -58,13 +58,6 @@ function cleanPunctuation(str) {
  * @param {string} str - 输入字符串
  * @returns {string} 转义后的字符串
  */
-function escapeHtml(str) {
-    if (!str || typeof str !== 'string') return '';
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
-}
-
 /**
  * 防抖函数
  * @param {Function} func - 目标函数

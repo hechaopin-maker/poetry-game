@@ -309,7 +309,7 @@ function startFeihuaGame() {
         document.getElementById('feihuaTimer').textContent = feihuaState.timeLeft;
         
         // 时间少于60秒时变红提醒
-        if (feihuaState.timeLeft <= 60) {
+        if (feihuaState.timeLeft <= 10) {
             document.getElementById('feihuaTimer').style.color = '#e74c3c';
         } else {
             document.getElementById('feihuaTimer').style.color = '';

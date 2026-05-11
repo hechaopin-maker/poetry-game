@@ -1273,7 +1273,14 @@
             margin: 10px 0;
             border: 1px solid var(--ink-light);
         }
-    </style>
+    
+    @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+            animation-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+        }
+    }
+</style>
 </head>
 <body>
     <!-- 顶部导航 -->
@@ -1369,7 +1376,7 @@
                 <!-- 动态生成 -->
             </div>
             <div style="text-align:center;margin-top:20px;">
-                <button class="btn btn-secondary" onclick="goHome()">返回主页</button>
+                <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
         
@@ -1440,7 +1447,7 @@
                 
                 <div style="display:flex;gap:15px;justify-content:center;flex-wrap:wrap;">
                     <button class="btn" onclick="restartGame()">再试一次</button>
-                    <button class="btn btn-secondary" onclick="goHome()">返回主页</button>
+                    <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
                 </div>
             </div>
         </div>
@@ -1461,7 +1468,7 @@
                 </div>
             </div>
             <div style="text-align:center;margin-top:20px;">
-                <button class="btn btn-secondary" onclick="goHome()">返回主页</button>
+                <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
         
@@ -1474,7 +1481,7 @@
                 <!-- 动态生成 -->
             </div>
             <div style="text-align:center;margin-top:20px;">
-                <button class="btn btn-secondary" onclick="goHome()">返回主页</button>
+                <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
         
@@ -1491,7 +1498,7 @@
                 </div>
             </div>
             <div style="text-align:center;margin-top:20px;">
-                <button class="btn btn-secondary" onclick="goHome()">返回主页</button>
+                <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
         
@@ -1504,7 +1511,7 @@
                 <!-- 动态生成 -->
             </div>
             <div style="text-align:center;margin-top:20px;">
-                <button class="btn btn-secondary" onclick="goHome()">返回主页</button>
+                <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
         
@@ -1560,7 +1567,7 @@
             </div>
             
             <div style="text-align:center;margin-top:20px;">
-                <button class="btn btn-secondary" onclick="goHome()">返回主页</button>
+                <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
         
@@ -1616,7 +1623,7 @@
             </div>
             
             <div style="text-align:center;margin-top:20px;">
-                <button class="btn btn-secondary" onclick="goHome()">返回主页</button>
+                <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
     </main>
