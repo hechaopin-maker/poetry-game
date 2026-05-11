@@ -60,7 +60,7 @@ function startFeihuaLearning() {
     // 选择一个关键字
     const pool = getFeihuaKeywordPool();
     if (pool.length === 0) {
-        document.getElementById('feihuaLearningPoems').innerHTML = '<div style="color:#888;text-align:center;padding:20px;">诗句数据加载中...</div>';
+        document.getElementById('feihuaLearningPoems').innerHTML = '<div class="feihua-poem-loading">诗句数据加载中...</div>';
         return;
     }
     
@@ -89,7 +89,7 @@ function startFeihuaLearning() {
     // 显示诗句列表（最多显示20句）
     const poemsContainer = document.getElementById('feihuaLearningPoems');
     if (poems.length === 0) {
-        poemsContainer.innerHTML = '<div style="color:#888;text-align:center;padding:20px;">暂未收录该字的诗句</div>';
+        poemsContainer.innerHTML = '<div class="feihua-poem-loading">暂未收录该字的诗句</div>';
         return;
     }
     
@@ -98,23 +98,23 @@ function startFeihuaLearning() {
     const displayPoems = poems.slice(0, 20);
     
     // 生成HTML
-    let html = '<div style="background:var(--card);border-radius:12px;padding:15px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">';
+    let html = '<div class="feihua-poem-card">';
     displayPoems.forEach((p, i) => {
         const keywordPos = p.poem.indexOf(keyword) + 1;
         html += `
-            <div style="padding:12px 0;border-bottom:${i < displayPoems.length - 1 ? '1px solid #eee' : 'none'};display:flex;align-items:flex-start;gap:10px;">
-                <div style="flex:1;">
-                    <div style="font-size:1.1em;color:var(--text);margin-bottom:5px;line-height:1.5;">"${p.poem}"</div>
-                    <div style="color:#666;font-size:0.85em;">—— ${p.author}《${p.title}》</div>
-                    <div style="color:#999;font-size:0.75em;margin-top:3px;">「${keyword}」在第${keywordPos}个字</div>
+            <div class="feihua-poem-row" style="border-bottom:${i < displayPoems.length - 1 ? '1px solid #eee' : 'none'}">
+                <div class="feihua-poem-row-content">
+                    <div class="feihua-poem-row-text">"${p.poem}"</div>
+                    <div class="feihua-poem-row-author">—— ${p.author}《${p.title}》</div>
+                    <div class="feihua-poem-row-keyword">「${keyword}」在第${keywordPos}个字</div>
                 </div>
             </div>
         `;
     });
     html += '</div>';
-    
+
     if (poems.length > 20) {
-        html += `<div style="text-align:center;color:#888;font-size:0.85em;padding:10px;">（共${poems.length}句，显示前20句）</div>`;
+        html += `<div class="feihua-poem-card-footer">（共${poems.length}句，显示前20句）</div>`;
     }
     
     poemsContainer.innerHTML = html;
@@ -310,9 +310,9 @@ function startFeihuaGame() {
         
         // 时间少于60秒时变红提醒
         if (feihuaState.timeLeft <= 10) {
-            document.getElementById('feihuaTimer').style.color = '#e74c3c';
+            document.getElementById('feihuaTimer').classList.add('timer-warning');
         } else {
-            document.getElementById('feihuaTimer').style.color = '';
+            document.getElementById('feihuaTimer').classList.remove('timer-warning');
         }
         
         if (feihuaState.timeLeft <= 0) {
@@ -328,20 +328,20 @@ function showFeihuaInput() {
     promptEl.innerHTML = '';  // 先清空
     
     promptEl.innerHTML = `
-        <div style="text-align:center;margin-bottom:15px;color:#666;font-size:0.95em;">
-            请说出含"<strong style="color:var(--primary);font-size:1.2em;">${feihuaState.keyword}</strong>"字的完整诗句
+        <div class="feihua-input-hint">
+            请说出含"<strong class="poem-source-keyword">${feihuaState.keyword}</strong>"字的完整诗句
         </div>
-        <input type="text" id="feihuaInput" 
-               style="width:100%;padding:15px 20px;font-size:1.2em;border:2px solid var(--primary);border-radius:10px;background:var(--bg-secondary);color:var(--text);"
-               placeholder="输入诗句，如：春眠不觉晓" 
+        <input type="text" id="feihuaInput"
+               class="feihua-input-field"
+               placeholder="输入诗句，如：春眠不觉晓"
                data-testid="feihua-input"
                autocomplete="off"
                inputmode="text">
-        <button id="feihuaSubmitBtn" class="btn" style="margin-top:15px;padding:12px 30px;font-size:1.1em;width:100%;" onclick="submitFeihuaAnswerByInput()" data-testid="feihua-submit-btn">
+        <button id="feihuaSubmitBtn" class="btn feihua-submit-btn" onclick="submitFeihuaAnswerByInput()" data-testid="feihua-submit-btn">
             提交答案
         </button>
-        <div style="text-align:center;margin-top:12px;">
-            <a href="javascript:void(0)" onclick="skipFeihuaAndShowAnswer()" style="color:#888;font-size:14px;text-decoration:underline;">想不起来？查看答案学习一下</a>
+        <div class="feihua-skip-link-area">
+            <a href="javascript:void(0)" onclick="skipFeihuaAndShowAnswer()" class="feihua-skip-link">想不起来？查看答案学习一下</a>
         </div>
     `;
     
@@ -508,13 +508,10 @@ function showPoemSource(poemData, isError = false) {
     const oldSource = promptEl.querySelector('.poem-source-box');
     if (oldSource) oldSource.remove();
 
-    const bgColor = isError ? 'rgba(231,76,60,0.15)' : 'rgba(46,204,113,0.15)';
-    const borderColor = isError ? '#e74c3c' : '#2ecc71';
     const label = isError ? '文 这句诗是这样的（学习一下）' : '正 诗句出处';
-    
+
     const sourceDiv = document.createElement('div');
-    sourceDiv.className = 'poem-source-box';
-    sourceDiv.style.cssText = `margin:15px 0;padding:15px;background:${bgColor};border-radius:10px;border-left:4px solid ${borderColor};`;
+    sourceDiv.className = isError ? 'poem-source-box wrong-source' : 'poem-source-box correct-source';
     // 截断超长诗句，避免卡片过宽（超过20字截断）
     const poemText = poemData.poem || '';
     const displayText = poemText.length > 20 ? poemText.slice(0, 20) + '…' : poemText;
@@ -522,9 +519,9 @@ function showPoemSource(poemData, isError = false) {
     const poemTitle = poemData.title || '无题';
 
     sourceDiv.innerHTML = `
-        <div style="color:${borderColor};font-weight:bold;margin-bottom:10px;">${label}</div>
-        <div style="font-size:1.2em;color:var(--text);margin-bottom:8px;line-height:1.6;">"${displayText}"</div>
-        <div style="color:#666;font-size:0.9em;">—— ${authorName}《${poemTitle}》</div>
+        <div class="poem-source-label" style="color:${isError ? '#e74c3c' : '#2ecc71'}">${label}</div>
+        <div class="poem-source-text">"${displayText}"</div>
+        <div class="poem-source-attribution">—— ${authorName}《${poemTitle}》</div>
     `;
     
     promptEl.appendChild(sourceDiv);
@@ -560,13 +557,12 @@ function skipFeihuaAndShowAnswer() {
     const displayText = poemText.length > 20 ? poemText.slice(0, 20) + '…' : poemText;
 
     const hint = document.createElement('div');
-    hint.className = 'poem-skip-hint';
-    hint.style.cssText = 'margin:15px 0;padding:15px;background:rgba(52,152,219,0.15);border-radius:10px;border-left:4px solid #3498db;overflow:hidden;';
+    hint.className = 'poem-source-box skip-source';
     hint.innerHTML = `
-        <div style="color:#3498db;font-weight:bold;margin-bottom:10px;">文 学习一下这句诗</div>
-        <div style="font-size:1.3em;color:var(--text);margin-bottom:10px;line-height:1.6;word-break:break-all;">"${displayText}"</div>
-        <div style="color:#666;font-size:0.95em;margin-bottom:5px;">—— ${samplePoem.author}《${samplePoem.title}》</div>
-        <div style="color:#888;font-size:0.85em;">关键字：「<strong>${feihuaState.keyword}</strong>」在这句诗的第${poemText.indexOf(feihuaState.keyword) + 1}个字位置</div>
+        <div class="poem-source-label" style="color:#3498db">文 学习一下这句诗</div>
+        <div class="poem-source-text" style="word-break:break-all">"${displayText}"</div>
+        <div class="poem-source-hint-attribution">—— ${samplePoem.author}《${samplePoem.title}》</div>
+        <div class="poem-source-hint-keyword">关键字：「<strong>${feihuaState.keyword}</strong>」在这句诗的第${poemText.indexOf(feihuaState.keyword) + 1}个字位置</div>
     `;
     promptEl.appendChild(hint);
     
@@ -604,48 +600,48 @@ function showFeihuaSuccess() {
     let learningContent = '';
     if (unsaidPoems.length > 0) {
         learningContent = `
-            <div style="margin-top:20px;padding-top:20px;border-top:1px dashed #ddd;">
-                <div style="color:#e67e22;font-weight:bold;margin-bottom:12px;">书 这些诗句你也应该掌握：</div>
-                <div style="max-height:200px;overflow-y:auto;">
+            <div class="feihua-learning-section">
+                <div class="feihua-learning-title">书 这些诗句你也应该掌握：</div>
+                <div class="feihua-learning-list">
                     ${unsaidPoems.map(p => `
-                        <div style="margin-bottom:10px;padding:8px;background:rgba(230,126,34,0.1);border-radius:6px;">
-                            <div style="color:var(--text);">"${p.poem}"</div>
-                            <div style="color:#888;font-size:0.85em;">—— ${p.author}《${p.title}》</div>
+                        <div class="feihua-learning-item">
+                            <div class="feihua-learning-item-text">"${p.poem}"</div>
+                            <div class="feihua-learning-item-attribution">—— ${p.author}《${p.title}》</div>
                         </div>
                     `).join('')}
                 </div>
             </div>
         `;
     }
-    
+
     document.getElementById('feihuaPrompt').innerHTML = `
-        <div style="text-align:center;padding:20px;">
-            <div style="font-size:2.5em;margin-bottom:10px;">贺</div>
-            <div style="color:#27ae60;font-size:1.5em;font-weight:bold;">挑战成功！</div>
-            <div style="color:#888;margin-top:5px;">关键字「${feihuaState.keyword}」</div>
+        <div class="feihua-result-container">
+            <div class="feihua-result-icon">贺</div>
+            <div class="feihua-result-title">挑战成功！</div>
+            <div class="feihua-result-subtitle">关键字「${feihuaState.keyword}」</div>
         </div>
-        <div style="background:rgba(39,174,96,0.15);border-radius:10px;padding:15px;margin-top:15px;">
-            <div style="display:flex;justify-content:space-around;text-align:center;">
+        <div class="feihua-result-stats">
+            <div class="feihua-stat-grid">
                 <div>
-                    <div style="font-size:1.8em;color:#27ae60;font-weight:bold;">${feihuaState.correctCount}</div>
-                    <div style="color:#888;font-size:0.85em;">说出诗句</div>
+                    <div class="feihua-stat-value feihua-stat-value-success">${feihuaState.correctCount}</div>
+                    <div class="feihua-stat-label">说出诗句</div>
                 </div>
                 <div>
-                    <div style="font-size:1.8em;color:#e67e22;font-weight:bold;">${unsaidPoems.length}</div>
-                    <div style="color:#888;font-size:0.85em;">待学习</div>
+                    <div class="feihua-stat-value feihua-stat-value-warning">${unsaidPoems.length}</div>
+                    <div class="feihua-stat-label">待学习</div>
                 </div>
                 <div>
-                    <div style="font-size:1.8em;color:#3498db;font-weight:bold;">${feihuaState.score}</div>
-                    <div style="color:#888;font-size:0.85em;">总得分</div>
+                    <div class="feihua-stat-value feihua-stat-value-info">${feihuaState.score}</div>
+                    <div class="feihua-stat-label">总得分</div>
                 </div>
             </div>
         </div>
-        <div style="text-align:center;color:#888;font-size:0.9em;margin-top:10px;">
+        <div class="feihua-result-footer">
             完成奖励：+${completionBonus}分
         </div>
         ${learningContent}
-        <div style="text-align:center;margin-top:20px;">
-            <button class="btn" style="padding:15px 40px;font-size:1.1em;background:var(--primary);" onclick="startNextFeihuaRound()">
+        <div class="feihua-result-actions">
+            <button class="btn feihua-btn-primary" onclick="startNextFeihuaRound()">
                 下一轮 →
             </button>
         </div>
@@ -687,7 +683,7 @@ function startNextFeihuaRound() {
     // 更新显示
     document.getElementById('feihuaKeyword').textContent = feihuaState.keyword;
     document.getElementById('feihuaTimer').textContent = '50';
-    document.getElementById('feihuaTimer').style.color = '';
+    document.getElementById('feihuaTimer').classList.remove('timer-warning');
     document.getElementById('feihuaScore').textContent = feihuaState.score; // 保留总分
     document.getElementById('feihuaCount').textContent = '0/2';
     document.getElementById('feihuaHistory').innerHTML = '';
@@ -717,13 +713,13 @@ function endFeihuaRound() {
     let learningContent = '';
     if (unsaidPoems.length > 0) {
         learningContent = `
-            <div style="margin-top:20px;padding-top:20px;border-top:1px dashed #ddd;">
-                <div style="color:#e67e22;font-weight:bold;margin-bottom:12px;">书 这些诗句没答出来，学习一下吧：</div>
-                <div style="max-height:180px;overflow-y:auto;">
+            <div class="feihua-learning-section">
+                <div class="feihua-learning-title">书 这些诗句没答出来，学习一下吧：</div>
+                <div class="feihua-learning-list">
                     ${unsaidPoems.map(p => `
-                        <div style="margin-bottom:10px;padding:8px;background:rgba(230,126,34,0.1);border-radius:6px;">
-                            <div style="color:var(--text);">"${p.poem}"</div>
-                            <div style="color:#888;font-size:0.85em;">—— ${p.author}《${p.title}》</div>
+                        <div class="feihua-learning-item">
+                            <div class="feihua-learning-item-text">"${p.poem}"</div>
+                            <div class="feihua-learning-item-attribution">—— ${p.author}《${p.title}》</div>
                         </div>
                     `).join('')}
                 </div>
@@ -732,32 +728,32 @@ function endFeihuaRound() {
     }
     
     document.getElementById('feihuaPrompt').innerHTML = `
-        <div style="text-align:center;padding:15px;">
-            <div style="font-size:2em;margin-bottom:5px;">⏰</div>
-            <div style="color:var(--error);font-size:1.3em;font-weight:bold;">时间到！</div>
+        <div class="feihua-result-container">
+            <div class="feihua-result-icon">⏰</div>
+            <div class="feihua-result-title-error">时间到！</div>
         </div>
-        <div style="background:rgba(149,165,166,0.2);border-radius:10px;padding:15px;margin-top:10px;">
-            <div style="display:flex;justify-content:space-around;text-align:center;">
+        <div class="feihua-result-stats-timeout">
+            <div class="feihua-stat-grid">
                 <div>
-                    <div style="font-size:1.5em;color:#27ae60;font-weight:bold;">${feihuaState.correctCount}/2</div>
-                    <div style="color:#888;font-size:0.85em;">完成进度</div>
+                    <div class="feihua-stat-value feihua-stat-value-success feihua-stat-value-sm">${feihuaState.correctCount}/2</div>
+                    <div class="feihua-stat-label">完成进度</div>
                 </div>
                 <div>
-                    <div style="font-size:1.5em;color:#e67e22;font-weight:bold;">${unsaidPoems.length}</div>
-                    <div style="color:#888;font-size:0.85em;">待学习</div>
+                    <div class="feihua-stat-value feihua-stat-value-warning feihua-stat-value-sm">${unsaidPoems.length}</div>
+                    <div class="feihua-stat-label">待学习</div>
                 </div>
                 <div>
-                    <div style="font-size:1.5em;color:#3498db;font-weight:bold;">${feihuaState.score}</div>
-                    <div style="color:#888;font-size:0.85em;">获得分数</div>
+                    <div class="feihua-stat-value feihua-stat-value-info feihua-stat-value-sm">${feihuaState.score}</div>
+                    <div class="feihua-stat-label">获得分数</div>
                 </div>
             </div>
         </div>
         ${learningContent}
-        <div style="text-align:center;margin-top:20px;">
-            <button class="btn" style="padding:12px 30px;margin-right:10px;" onclick="startFeihua()">
+        <div class="feihua-result-actions">
+            <button class="btn feihua-btn-restart" onclick="startFeihua()">
                 重新开始
             </button>
-            <button class="btn" style="padding:12px 30px;background:var(--primary);" onclick="startNextFeihuaRound()">
+            <button class="btn feihua-btn-next" onclick="startNextFeihuaRound()">
                 下一轮 →
             </button>
         </div>
@@ -792,13 +788,13 @@ function endFeihua() {
     let learningContent = '';
     if (unsaidPoems.length > 0) {
         learningContent = `
-            <div style="margin-top:20px;padding-top:20px;border-top:1px dashed #ddd;">
-                <div style="color:#e67e22;font-weight:bold;margin-bottom:12px;">书 这些诗句也值得掌握：</div>
-                <div style="max-height:200px;overflow-y:auto;">
+            <div class="feihua-learning-section">
+                <div class="feihua-learning-title">书 这些诗句也值得掌握：</div>
+                <div class="feihua-learning-list">
                     ${unsaidPoems.map(p => `
-                        <div style="margin-bottom:10px;padding:8px;background:rgba(230,126,34,0.1);border-radius:6px;">
-                            <div style="color:var(--text);">"${p.poem}"</div>
-                            <div style="color:#888;font-size:0.85em;">—— ${p.author}《${p.title}》</div>
+                        <div class="feihua-learning-item">
+                            <div class="feihua-learning-item-text">"${p.poem}"</div>
+                            <div class="feihua-learning-item-attribution">—— ${p.author}《${p.title}》</div>
                         </div>
                     `).join('')}
                 </div>
@@ -807,29 +803,29 @@ function endFeihua() {
     }
     
     document.getElementById('feihuaPrompt').innerHTML = `
-        <div style="text-align:center;padding:15px;">
-            <div style="font-size:2em;margin-bottom:5px;">贺</div>
-            <div style="color:#27ae60;font-size:1.3em;font-weight:bold;">完成！</div>
+        <div class="feihua-result-container">
+            <div class="feihua-result-icon">贺</div>
+            <div class="feihua-result-title">完成！</div>
         </div>
-        <div style="background:rgba(39,174,96,0.15);border-radius:10px;padding:15px;margin-top:10px;">
-            <div style="display:flex;justify-content:space-around;text-align:center;">
+        <div class="feihua-result-stats">
+            <div class="feihua-stat-grid">
                 <div>
-                    <div style="font-size:1.5em;color:#27ae60;font-weight:bold;">${feihuaState.correctCount}</div>
-                    <div style="color:#888;font-size:0.85em;">完成句数</div>
+                    <div class="feihua-stat-value feihua-stat-value-success feihua-stat-value-sm">${feihuaState.correctCount}</div>
+                    <div class="feihua-stat-label">完成句数</div>
                 </div>
                 <div>
-                    <div style="font-size:1.5em;color:#e67e22;font-weight:bold;">${unsaidPoems.length}</div>
-                    <div style="color:#888;font-size:0.85em;">待学习</div>
+                    <div class="feihua-stat-value feihua-stat-value-warning feihua-stat-value-sm">${unsaidPoems.length}</div>
+                    <div class="feihua-stat-label">待学习</div>
                 </div>
                 <div>
-                    <div style="font-size:1.5em;color:#3498db;font-weight:bold;">${feihuaState.score}</div>
-                    <div style="color:#888;font-size:0.85em;">总得分</div>
+                    <div class="feihua-stat-value feihua-stat-value-info feihua-stat-value-sm">${feihuaState.score}</div>
+                    <div class="feihua-stat-label">总得分</div>
                 </div>
             </div>
         </div>
         ${learningContent}
-        <div style="text-align:center;margin-top:20px;">
-            <button class="btn" style="padding:15px 40px;background:var(--primary);" onclick="startNextFeihuaRound()">
+        <div class="feihua-result-actions">
+            <button class="btn feihua-btn-primary" onclick="startNextFeihuaRound()">
                 下一轮 →
             </button>
         </div>

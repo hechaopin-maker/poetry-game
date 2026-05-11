@@ -1274,6 +1274,69 @@
 .fill-input.correct-state { border-color: var(--success) !important; background: #E8F5E9 !important; }
 .fill-input.wrong-state { border-color: var(--error) !important; background: #FFEBEE !important; color: var(--error) !important; }
 
+/* ===== P2 Step 5: JS Template-Literal Inline Styles → CSS Classes ===== */
+/* feihua.js — shared patterns */
+.poem-source-box { margin: 15px 0; padding: 15px; border-radius: 10px; border-left: 4px solid; }
+.poem-source-box.correct-source { background: rgba(46,204,113,0.15); border-left-color: #2ecc71; }
+.poem-source-box.wrong-source { background: rgba(231,76,60,0.15); border-left-color: #e74c3c; }
+.poem-source-box.skip-source { background: rgba(52,152,219,0.15); border-left-color: #3498db; }
+.poem-source-label { font-weight: bold; margin-bottom: 10px; }
+.poem-source-text { font-size: 1.2em; color: var(--text); margin-bottom: 8px; line-height: 1.6; }
+.poem-source-attribution { color: #666; font-size: 0.9em; }
+.poem-source-hint-attribution { color: #666; font-size: 0.95em; margin-bottom: 5px; }
+.poem-source-hint-keyword { color: #888; font-size: 0.85em; }
+.poem-source-keyword { color: var(--primary); font-size: 1.2em; font-weight: bold; }
+
+/* feihua.js — learning section (3× repeated) */
+.feihua-learning-section { margin-top: 20px; padding-top: 20px; border-top: 1px dashed #ddd; }
+.feihua-learning-title { color: #e67e22; font-weight: bold; margin-bottom: 12px; }
+.feihua-learning-list { max-height: 200px; overflow-y: auto; }
+.feihua-learning-item { margin-bottom: 10px; padding: 8px; background: rgba(230,126,34,0.1); border-radius: 6px; }
+.feihua-learning-item-text { color: var(--text); }
+.feihua-learning-item-attribution { color: #888; font-size: 0.85em; }
+
+/* feihua.js — stat grid (3× repeated) */
+.feihua-stat-grid { display: flex; justify-content: space-around; text-align: center; }
+.feihua-stat-value { font-size: 1.8em; font-weight: bold; }
+.feihua-stat-value-success { color: #27ae60; }
+.feihua-stat-value-warning { color: #e67e22; }
+.feihua-stat-value-info { color: #3498db; }
+.feihua-stat-value-sm { font-size: 1.5em; }
+.feihua-stat-label { color: #888; font-size: 0.85em; }
+
+/* feihua.js — result screens */
+.feihua-result-container { text-align: center; padding: 20px; }
+.feihua-result-icon { font-size: 2.5em; margin-bottom: 10px; }
+.feihua-result-title { color: #27ae60; font-size: 1.5em; font-weight: bold; }
+.feihua-result-title-error { color: var(--error); font-size: 1.3em; font-weight: bold; }
+.feihua-result-subtitle { color: #888; margin-top: 5px; }
+.feihua-result-stats { background: rgba(39,174,96,0.15); border-radius: 10px; padding: 15px; margin-top: 15px; }
+.feihua-result-stats-timeout { background: rgba(149,165,166,0.2); border-radius: 10px; padding: 15px; margin-top: 10px; }
+.feihua-result-footer { text-align: center; color: #888; font-size: 0.9em; margin-top: 10px; }
+.feihua-result-actions { text-align: center; margin-top: 20px; }
+.feihua-btn-primary { padding: 15px 40px; font-size: 1.1em; background: var(--primary); }
+.feihua-btn-restart { padding: 12px 30px; margin-right: 10px; }
+.feihua-btn-next { padding: 12px 30px; background: var(--primary); }
+
+/* feihua.js — input area */
+.feihua-input-area { margin-bottom: 15px; }
+.feihua-input-hint { text-align: center; margin-bottom: 15px; color: #666; font-size: 0.95em; }
+.feihua-input-field { width: 100%; padding: 15px 20px; font-size: 1.2em; border: 2px solid var(--primary); border-radius: 10px; background: var(--bg-dark); color: var(--text); }
+.feihua-submit-btn { margin-top: 15px; padding: 12px 30px; font-size: 1.1em; width: 100%; }
+.feihua-skip-link-area { text-align: center; margin-top: 12px; }
+.feihua-skip-link { color: #888; font-size: 14px; text-decoration: underline; cursor: pointer; }
+.timer-warning { color: #e74c3c; }
+
+/* feihua.js — learning poem card */
+.feihua-poem-card { background: var(--card); border-radius: 12px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.feihua-poem-row { padding: 12px 0; display: flex; align-items: flex-start; gap: 10px; }
+.feihua-poem-row-content { flex: 1; }
+.feihua-poem-row-text { font-size: 1.1em; color: var(--text); margin-bottom: 5px; line-height: 1.5; }
+.feihua-poem-row-author { color: #666; font-size: 0.85em; }
+.feihua-poem-row-keyword { color: #999; font-size: 0.75em; margin-top: 3px; }
+.feihua-poem-card-footer { text-align: center; color: #888; font-size: 0.85em; padding: 10px; }
+.feihua-poem-loading { color: #888; text-align: center; padding: 20px; }
+
 </style>
 </head>
 <body>
