@@ -137,7 +137,7 @@
             box-shadow: 0 4px 12px var(--shadow);
         }
 
-        .module-card:active {
+        .module-card:active, .btn:active, .option:active {
             transform: scale(0.98);
         }
 
@@ -161,29 +161,6 @@
         .module-desc {
             font-size: 0.9em;
             color: var(--text-light);
-        }
-        
-        /* 底部导航 */
-                .nav-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 4px;
-            color: var(--text-light);
-            font-size: 1em;
-            cursor: pointer;
-            padding: 5px 15px;
-            transition: all 0.2s;
-            border-bottom: 2px solid transparent;
-        }
-
-        .nav-item:hover, .nav-item.active {
-            color: var(--primary-dark);
-            border-bottom-color: var(--gold);
-        }
-
-        .nav-item .icon {
-            font-size: 1.5em;
         }
         
         /* 隐藏页面 */
@@ -423,9 +400,6 @@
             background: var(--primary-dark);
         }
 
-        .btn:active {
-            transform: scale(0.98);
-        }
 
         .btn-secondary {
             background: var(--secondary);
@@ -465,7 +439,7 @@
             border: 1px solid var(--ink-light);
         }
 
-        .result-icon {
+        .result-icon, .login-icon {
             font-family: 'Zhi Mang Xing', serif;
             font-size: 3em;
             margin-bottom: 15px;
@@ -585,12 +559,6 @@
             to { opacity: 1; transform: scale(1); }
         }
 
-        .login-icon {
-            font-family: 'Zhi Mang Xing', serif;
-            font-size: 3em;
-            margin-bottom: 15px;
-            color: var(--primary);
-        }
 
         .login-title {
             font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
@@ -1047,16 +1015,12 @@
                 box-shadow: 0 2px 8px var(--shadow);
             }
             
-            .option:active {
+            .option:active, .module-card:active {
                 transform: scale(0.98);
             }
-            
+
             .module-card:hover {
                 transform: none;
-            }
-            
-            .module-card:active {
-                transform: scale(0.98);
             }
             
             .jiugong-char:hover {
@@ -1135,24 +1099,24 @@
             user-select: none;
         }
 
-        .jiugong-char:hover {
+        .jiugong-char:hover, .dianzi-char:hover {
             background: var(--bg);
             border-color: var(--ink-mid);
         }
 
-        .jiugong-char.selected {
+        .jiugong-char.selected, .dianzi-char.selected {
             background: var(--primary);
             color: #fff;
             border-color: var(--primary-dark);
         }
 
-        .jiugong-char.correct {
+        .jiugong-char.correct, .dianzi-char.correct {
             background: var(--success);
             color: #fff;
             border-color: #3d5c4a;
         }
 
-        .jiugong-char.wrong {
+        .jiugong-char.wrong, .dianzi-char.wrong {
             background: var(--error);
             color: #fff;
             border-color: #7a2a2a;
@@ -1177,29 +1141,6 @@
             border-radius: 4px;
             cursor: pointer;
             transition: all 0.2s;
-        }
-
-        .dianzi-char:hover {
-            background: var(--bg);
-            border-color: var(--ink-mid);
-        }
-
-        .dianzi-char.selected {
-            background: var(--primary);
-            color: #fff;
-            border-color: var(--primary-dark);
-        }
-
-        .dianzi-char.correct {
-            background: var(--success);
-            color: #fff;
-            border-color: #3d5c4a;
-        }
-
-        .dianzi-char.wrong {
-            background: var(--error);
-            color: #fff;
-            border-color: #7a2a2a;
         }
 
         .dianzi-char.disabled {
