@@ -1,4 +1,5 @@
 // ==================== 用户系统 ====================
+function getEl(id) { const el = document.getElementById(id); if (!el) console.warn('Element not found:', id); return el; }
 
 // 检查关键数据是否加载完成
 function checkDataReady() {

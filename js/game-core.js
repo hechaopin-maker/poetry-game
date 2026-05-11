@@ -616,12 +616,15 @@ function endGame() {
 function showResult() {
     const passed = gameState.score >= PASS_SCORE;
     
-    document.getElementById('resultIcon').textContent = passed ? '贺' : '劲';
-    document.getElementById('resultTitle').textContent = passed ? '挑战成功！' : '再接再厉！';
-    document.getElementById('resultScore').textContent = gameState.score + '分';
-    document.getElementById('statCorrect').textContent = gameState.correctCount;
-    document.getElementById('statWrong').textContent = gameState.wrongCount;
-    document.getElementById('statMaxCombo').textContent = gameState.maxCombo;
+	const ri = getEl('resultIcon');
+	const rt = getEl('resultTitle');
+	const rs = getEl('resultScore');
+	if (ri) ri.textContent = passed ? '贺' : '劲';
+	if (rt) rt.textContent = passed ? '挑战成功！' : '再接再厉！';
+	if (rs) rs.textContent = gameState.score + '分';
+	const sc = getEl('statCorrect'); if (sc) sc.textContent = gameState.correctCount;
+	const sw = getEl('statWrong'); if (sw) sw.textContent = gameState.wrongCount;
+	const sm = getEl('statMaxCombo'); if (sm) sm.textContent = gameState.maxCombo;
     
     // 检查新成就
     checkAchievements();

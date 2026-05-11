@@ -25,7 +25,10 @@ async function loadPoemsData() {
     const startTime = Date.now();
 
     // 尝试从 IndexedDB 缓存读取
-    const cached = typeof cacheGet === 'function' ? await cacheGet('poems_data') : undefined;
+    let cached;
+    if (typeof cacheGet === 'function') {
+        try { cached = await cacheGet('poems_data'); } catch (e) { console.warn('缓存读取失败:', e.message); }
+    }
     if (cached && Array.isArray(cached) && cached.length > 0) {
         window.POEMS_DATA = cached;
         POEMS_LOADED = true;
@@ -35,19 +38,32 @@ async function loadPoemsData() {
     }
 
     try {
-        for (const file of POEM_DATA_FILES) {
+        // 并行加载所有文件，单文件超时30秒
+        const FETCH_TIMEOUT = 30000;
+        const fetchWithTimeout = async (file) => {
+            const controller = new AbortController();
+            const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT);
             try {
-                const response = await fetch(`data/${file}`);
+                const response = await fetch(`data/${file}`, { signal: controller.signal });
+                clearTimeout(timer);
                 if (response.ok) {
                     const poems = await response.json();
-                    window.POEMS_DATA.push(...poems);
                     console.log(`加载 ${file}: ${poems.length} 首`);
+                    return poems;
                 } else {
                     console.warn(`加载 ${file} 失败: ${response.status}`);
+                    return [];
                 }
             } catch (e) {
+                clearTimeout(timer);
                 console.warn(`加载 ${file} 出错: ${e.message}`);
+                return [];
             }
+        };
+
+        const results = await Promise.all(POEM_DATA_FILES.map(fetchWithTimeout));
+        for (const poems of results) {
+            if (poems.length > 0) window.POEMS_DATA.push(...poems);
         }
 
         POEMS_LOADED = true;

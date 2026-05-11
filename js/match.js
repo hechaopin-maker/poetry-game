@@ -66,6 +66,16 @@ function setupMatchGridEvents() {
     }
 }
 
+
+// Fisher-Yates shuffle (uniform distribution, unbiased)
+function shuffleArray(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
+
 function generateMatchQuestions(count) {
     // 仅从闯关题库关联的诗词中出题（适合中小学生）
     const questions = [];
@@ -99,7 +109,7 @@ function generateMatchQuestions(count) {
         pool = [...pool, ...extra];
     }
     
-    const shuffledPoems = pool.sort(() => Math.random() - 0.5);
+    const shuffledPoems = pool;
     
     for (let i = 0; i < Math.min(count, shuffledPoems.length); i++) {
         const poem = shuffledPoems[i];
@@ -116,7 +126,7 @@ function generateMatchQuestions(count) {
         if (!answerLine) continue;
         
         // 清理答案字符并转换为简体
-        const answer = toSimplified(answerLine.replace(/[，。！？""''【】（）可件条和与及等、：；,\.!?]/g, ''));
+        const answer = toSimplified(answerLine.replace(/[，。！？、；：""''【】《》（）,.!?\s]/g, ''));
         if (answer.length < 4 || answer.length > 15) continue;
         
         // 转换为消消乐格式
@@ -160,7 +170,7 @@ function generateMatchQuestions(count) {
         	const 随机字 = 干扰字[Math.floor(Math.random() * 干扰字.length)];
         	if (!chars.includes(随机字)) chars.push(随机字);
         }
-        chars.sort(() => Math.random() - 0.5);
+        chars;
         gameQ.chars = chars;
         gameQ.gameType = gameMode;
         
@@ -210,7 +220,7 @@ function showJiugongGe(q) {
     matchState.currentQuestion = q; // 设置当前题目，包含answer字段
     
     // 打乱汉字
-    const chars = [...q.chars].sort(() => Math.random() - 0.5);
+    const chars = [...q.chars];
     
     grid.innerHTML = chars.map((char, idx) => `
         <div class="jiugong-char" data-char="${char}" >${char}</div>
@@ -236,7 +246,7 @@ function showShiergongGe(q) {
     document.getElementById('selectedCharsText').textContent = '';
     
     // 打乱汉字
-    const chars = [...q.chars].sort(() => Math.random() - 0.5);
+    const chars = [...q.chars];
     
     grid.innerHTML = chars.map((char, idx) => `
         <div class="jiugong-char" data-char="${char}" >${char}</div>
@@ -309,7 +319,7 @@ function showDianZiChengShi(q) {
     matchState.selectedChars = [];
     
     // 打乱汉字
-    const chars = [...q.chars].sort(() => Math.random() - 0.5);
+    const chars = [...q.chars];
     
     dianzi.innerHTML = chars.map((char, idx) => `
         <div class="dianzi-char" data-char="${char}" >${char}</div>

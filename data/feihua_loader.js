@@ -121,7 +121,10 @@ let FEIHUA_EXPANDED_PROMISE = null;
 
 async function loadFeihuaExpandedData() {
     if (FEIHUA_EXPANDED_LOADED) return true;
-    if (typeof FEIHUA_FULL_DATA === 'undefined') return false;
+    if (typeof FEIHUA_FULL_DATA === 'undefined') {
+        console.warn('FEIHUA_FULL_DATA 未定义，无法加载扩展飞花令数据');
+        return false;
+    }
     if (FEIHUA_EXPANDED_LOADING && FEIHUA_EXPANDED_PROMISE) return FEIHUA_EXPANDED_PROMISE;
 
     // 先检查 IndexedDB 缓存
@@ -162,7 +165,16 @@ async function loadFeihuaExpandedData() {
                         resolve(false);
                     }
                 };
-                script.onerror = () => reject(new Error('飞花令扩展数据加载失败'));
+                script.onerror = () => {
+                    clearTimeout(loadTimer);
+                    reject(new Error('飞花令扩展数据加载失败'));
+                };
+                const loadTimer = setTimeout(() => {
+                    script.onload = null;
+                    script.onerror = null;
+                    if (script.parentNode) script.parentNode.removeChild(script);
+                    reject(new Error('飞花令扩展数据加载超时(30s)'));
+                }, 30000);
                 document.head.appendChild(script);
             });
             return result;
@@ -214,10 +226,16 @@ function validateFeihuaAnswer(answer, char) {
     // 备选：遍历当前关键字的数据（兼容模式）
     const poems = FEIHUA_DATA[char];
     if (poems) {
+        // 预解析：Set 中存储 JSON 字符串，遍历时解析（已通过哈希索引覆盖大多数case）
         for (const p of poems) {
-            const poem = JSON.parse(p);
-            if (poem.text === cleanAnswer || poem.text.includes(cleanAnswer) || cleanAnswer.includes(poem.text)) {
-                return { valid: true, poem: poem };
+            try {
+                const poem = JSON.parse(p);
+                if (poem.text === cleanAnswer || poem.text.includes(cleanAnswer) || cleanAnswer.includes(poem.text)) {
+                    return { valid: true, poem: poem };
+                }
+            } catch (e) {
+                // 跳过损坏的诗句数据
+                continue;
             }
         }
     }
