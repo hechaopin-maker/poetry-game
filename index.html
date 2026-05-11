@@ -1285,6 +1285,52 @@
 .match-answer-footer { text-align: center; margin-top: 20px; }
 .dianzi-submit-btn { margin-top: 15px; }
 .dianzi-clear-btn { margin-top: 10px; }
+/* dict.js — modals (shared: showDictPoemDetail + showPoemModal) */
+.dict-modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 1000; display: flex; align-items: center; justify-content: center; }
+.dict-modal-body { background: var(--paper); border-radius: 4px; padding: 30px; max-width: 560px; width: 90%; max-height: 85vh; overflow-y: auto; font-family: 'Noto Serif SC',serif; border: 1px solid var(--ink-light); }
+.dict-modal-body-sm { max-width: 500px; max-height: 80vh; }
+.dict-modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.dict-modal-title { margin: 0; color: var(--gold-dark); }
+.dict-modal-close { background: none; border: none; font-size: 1.5em; cursor: pointer; }
+.dict-modal-info { text-align: center; margin-bottom: 15px; }
+.dict-modal-poem-title { font-size: 1.3em; font-weight: bold; color: #333; }
+.dict-modal-poem-title-sm { font-size: 1.4em; }
+.dict-modal-poem-content { background: #fff; padding: 20px; border-radius: 10px; text-align: center; line-height: 2.2; font-size: 1.15em; color: #222; margin-bottom: 15px; }
+.dict-modal-classic-badge { margin-top: 4px; }
+.dict-modal-interp-box { margin-bottom: 15px; padding: 15px; background: #fff; border-radius: 8px; }
+.dict-modal-interp-title { color: var(--gold-dark); }
+.dict-modal-interp-text { color: #555; margin: 10px 0 0 0; line-height: 1.8; }
+.dict-modal-footer { text-align: center; margin-top: 20px; }
+/* dict.js — same-author section */
+.dict-same-author { margin-top: 20px; padding-top: 20px; border-top: 1px dashed #ddd; }
+.dict-same-author-title { font-weight: bold; color: var(--gold-dark); margin-bottom: 10px; }
+.dict-same-author-list { display: flex; flex-direction: column; gap: 8px; }
+.dict-same-author-item { cursor: pointer; color: #555; padding: 8px; background: #f8f8f8; border-radius: 6px; }
+.dict-same-author-item:hover { background: #eee; }
+/* dict.js — author index */
+.dict-header-nav { display: flex; gap: 10px; margin-bottom: 15px; }
+.dict-nav-btn { flex: 1; }
+.dict-dynasty-group { margin-bottom: 20px; }
+.dict-dynasty-title { font-weight: bold; color: var(--gold-dark); margin-bottom: 10px; padding-bottom: 6px; border-bottom: 2px solid var(--gold-light); cursor: pointer; }
+.dict-dynasty-authors { display: flex; flex-wrap: wrap; gap: 8px; }
+.dict-author-count { color: #888; }
+/* dict.js — search results */
+.dict-result-summary { margin-bottom: 12px; color: #888; font-size: 0.9em; }
+.dict-result-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.dict-classic-star { color: var(--gold-dark); margin-left: 4px; }
+.dict-result-item { margin-bottom: 15px; cursor: pointer; }
+.dict-result-title { font-size: 1.15em; }
+.dict-result-meta { color: #666; font-size: 0.9em; }
+.dict-result-preview { color: #555; font-size: 0.95em; line-height: 1.6; }
+.dict-pagination { display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 20px; }
+.dict-pagination-btn { padding: 6px 14px; }
+.dict-author-btn { font-size: 0.85em; padding: 5px 10px; }
+.dict-source { margin-bottom: 15px; color: #888; font-size: 0.9em; }
+/* dict.js — enhanced explanation (in wrong-notes) */
+.dict-enhanced-poem { color: #333; font-size: 1.1em; line-height: 1.8; padding: 10px; background: #f8f8f8; border-radius: 8px; }
+.dict-enhanced-section { margin-bottom: 15px; }
+.dict-enhanced-label { color: #666; }
+.dict-enhanced-label-sm { color: #555; }
 .hint-btn-answer { background: var(--primary-dark); color: #fff; border-color: var(--primary-dark); }
 .loading-overlay { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: var(--paper); padding: 30px 40px; border-radius: 4px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.2); border: 1px solid var(--ink-light); z-index: 10000; }
 .loading-icon { font-family: 'Ma Shan Zheng', serif; font-size: 2em; margin-bottom: 15px; color: var(--gold); }

@@ -34,10 +34,9 @@ function renderDictHeader() {
 
     const header = document.createElement('div');
     header.className = 'dict-header-nav';
-    header.style.cssText = 'display:flex;gap:10px;margin-bottom:15px;';
     header.innerHTML = `
-        <button class="btn ${dictCurrentMode === 'search' ? 'btn-primary' : 'btn-secondary'}" onclick="switchDictMode('search')" style="flex:1;">搜索</button>
-        <button class="btn ${dictCurrentMode === 'author-index' ? 'btn-primary' : 'btn-secondary'}" onclick="switchDictMode('author-index')" style="flex:1;">诗人索引</button>
+        <button class="btn dict-nav-btn ${dictCurrentMode === 'search' ? 'btn-primary' : 'btn-secondary'}" onclick="switchDictMode('search')">搜索</button>
+        <button class="btn dict-nav-btn ${dictCurrentMode === 'author-index' ? 'btn-primary' : 'btn-secondary'}" onclick="switchDictMode('author-index')">诗人索引</button>
     `;
     container.insertBefore(header, container.children[2]);
 }
@@ -82,17 +81,14 @@ function renderAuthorIndex() {
     sortedDynasties.forEach(dynasty => {
         const authors = Array.from(byDynasty[dynasty].values()).sort((a, b) => b.count - a.count);
         html += `
-            <div style="margin-bottom:20px;">
-                <div style="font-weight:bold;color:var(--gold-dark);margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--gold-light);"
-                    onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none';"
-                    style="cursor:pointer;"
-                >
+            <div class="dict-dynasty-group">
+                <div class="dict-dynasty-title" onclick="this.nextElementSibling.classList.toggle('hidden')">
                     ${dynasty} (${authors.length} 位诗人)
                 </div>
-                <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                <div class="dict-dynasty-authors">
                     ${authors.map(a => `
-                        <button class="btn btn-secondary" onclick="searchPoemsByAuthor('${a.name}')" style="font-size:0.85em;padding:5px 10px;">
-                            ${a.name} <span style="color:#888;">${a.count}</span>
+                        <button class="btn btn-secondary dict-author-btn" onclick="searchPoemsByAuthor('${a.name}')">
+                            ${a.name} <span class="dict-author-count">${a.count}</span>
                         </button>
                     `).join('')}
                 </div>
@@ -169,7 +165,7 @@ function renderDictResults() {
     const pageItems = dictCurrentResults.slice(start, start + DICT_PAGE_SIZE);
 
     let html = `
-        <div style="margin-bottom:12px;color:#888;font-size:0.9em;">
+        <div class="dict-result-summary">
             找到 ${total} 首诗词 · 第 ${dictCurrentPage}/${totalPages} 页
         </div>
     `;
@@ -179,26 +175,26 @@ function renderDictResults() {
         const author = toSimplified(p.author || '');
         const dynasty = toSimplified(p.dynasty || '');
         const fullText = toSimplified(p.fullText || (Array.isArray(p.content) ? p.content.join('，') : ''));
-        const isClassic = p.isClassic ? '<span style="color:var(--gold-dark);margin-left:4px;">★</span>' : '';
+        const isClassic = p.isClassic ? '<span class="dict-classic-star">★</span>' : '';
         const preview = fullText.length > 40 ? fullText.substring(0, 40) + '...' : fullText;
 
         return `
-            <div class="question-box" style="margin-bottom:15px;cursor:pointer;" onclick="showDictPoemDetail('${p.id}')">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
-                    <strong style="font-size:1.15em;">${title}${isClassic}</strong>
-                    <span style="color:#666;font-size:0.9em;">${dynasty}·${author}</span>
+            <div class="question-box dict-result-item" onclick="showDictPoemDetail('${p.id}')">
+                <div class="dict-result-header">
+                    <strong class="dict-result-title">${title}${isClassic}</strong>
+                    <span class="dict-result-meta">${dynasty}·${author}</span>
                 </div>
-                <div style="color:#555;font-size:0.95em;line-height:1.6;">${preview}</div>
+                <div class="dict-result-preview">${preview}</div>
             </div>
         `;
     }).join('');
 
     // 分页控件
     if (totalPages > 1) {
-        html += `<div style="display:flex;justify-content:center;align-items:center;gap:10px;margin-top:20px;">`;
-        html += `<button class="btn btn-secondary" ${dictCurrentPage <= 1 ? 'disabled' : ''} onclick="dictGoPage(${dictCurrentPage - 1})" style="padding:6px 14px;">上一页</button>`;
-        html += `<span style="color:#666;font-size:0.9em;">${dictCurrentPage} / ${totalPages}</span>`;
-        html += `<button class="btn btn-secondary" ${dictCurrentPage >= totalPages ? 'disabled' : ''} onclick="dictGoPage(${dictCurrentPage + 1})" style="padding:6px 14px;">下一页</button>`;
+        html += `<div class="dict-pagination">`;
+        html += `<button class="btn btn-secondary dict-pagination-btn" ${dictCurrentPage <= 1 ? 'disabled' : ''} onclick="dictGoPage(${dictCurrentPage - 1})">上一页</button>`;
+        html += `<span class="dict-result-meta">${dictCurrentPage} / ${totalPages}</span>`;
+        html += `<button class="btn btn-secondary dict-pagination-btn" ${dictCurrentPage >= totalPages ? 'disabled' : ''} onclick="dictGoPage(${dictCurrentPage + 1})">下一页</button>`;
         html += `</div>`;
     }
 
@@ -222,7 +218,7 @@ function showDictPoemDetail(poemId) {
     const author = toSimplified(poem.author || '');
     const title = toSimplified(poem.title || '');
     const source = toSimplified(poem.source || '');
-    const isClassic = poem.isClassic ? '<span style="color:var(--gold-dark);">★ 经典名句</span>' : '';
+    const isClassic = poem.isClassic ? '<span class="dict-classic-star">★ 经典名句</span>' : '';
 
     // 查找同作者的其他诗词
     const sameAuthor = POEMS_DATA.filter(p =>
@@ -230,12 +226,11 @@ function showDictPoemDetail(poemId) {
     ).slice(0, 5);
 
     const sameAuthorHTML = sameAuthor.length > 0 ? `
-        <div style="margin-top:20px;padding-top:20px;border-top:1px dashed #ddd;">
-            <div style="font-weight:bold;color:var(--gold-dark);margin-bottom:10px;">同作者其他诗词</div>
-            <div style="display:flex;flex-direction:column;gap:8px;">
+        <div class="dict-same-author">
+            <div class="dict-same-author-title">同作者其他诗词</div>
+            <div class="dict-same-author-list">
                 ${sameAuthor.map(p => `
-                    <div style="cursor:pointer;color:#555;padding:8px;background:#f8f8f8;border-radius:6px;" onclick="showDictPoemDetail('${p.id}')"
-                        onmouseover="this.style.background='#eee'" onmouseout="this.style.background='#f8f8f8'">
+                    <div class="dict-same-author-item" onclick="showDictPoemDetail('${p.id}')">
                         ${toSimplified(p.title || '')}
                     </div>
                 `).join('')}
@@ -244,30 +239,28 @@ function showDictPoemDetail(poemId) {
     ` : '';
 
     const modalHTML = `
-        <div style="position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.6);z-index:1000;display:flex;align-items:center;justify-content:center;"
-            onclick="if(event.target===this)closeDictDetailModal()">
-            <div style="background:var(--paper);border-radius:4px;padding:30px;max-width:560px;width:90%;max-height:85vh;overflow-y:auto;font-family:'Noto Serif SC',serif;border:1px solid var(--ink-light);"
-                onclick="event.stopPropagation()">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
-                    <h3 style="margin:0;color:var(--gold-dark);">诗词详情</h3>
-                    <button onclick="closeDictDetailModal()" style="background:none;border:none;font-size:1.5em;cursor:pointer;">✕</button>
+        <div class="dict-modal-overlay" onclick="if(event.target===this)closeDictDetailModal()">
+            <div class="dict-modal-body" onclick="event.stopPropagation()">
+                <div class="dict-modal-header">
+                    <h3 class="dict-modal-title">诗词详情</h3>
+                    <button class="dict-modal-close" onclick="closeDictDetailModal()">✕</button>
                 </div>
-                <div style="text-align:center;margin-bottom:15px;">
-                    <div style="font-size:1.3em;font-weight:bold;color:#333;">${dynasty}·${author}《${title}》</div>
-                    ${isClassic ? `<div style="margin-top:4px;">${isClassic}</div>` : ''}
+                <div class="dict-modal-info">
+                    <div class="dict-modal-poem-title">${dynasty}·${author}《${title}》</div>
+                    ${isClassic ? `<div class="dict-modal-classic-badge">${isClassic}</div>` : ''}
                 </div>
-                <div style="background:#fff;padding:20px;border-radius:10px;text-align:center;line-height:2.2;font-size:1.15em;color:#222;margin-bottom:15px;">
+                <div class="dict-modal-poem-content">
                     ${fullText.split(/[，。！？；]/).filter(l => l.trim()).join('<br>')}
                 </div>
                 ${interpretation ? `
-                <div style="margin-bottom:15px;padding:15px;background:#fff;border-radius:8px;">
-                    <strong style="color:var(--gold-dark);">【释义】</strong>
-                    <p style="color:#555;margin:10px 0 0 0;line-height:1.8;">${interpretation}</p>
+                <div class="dict-modal-interp-box">
+                    <strong class="dict-modal-interp-title">【释义】</strong>
+                    <p class="dict-modal-interp-text">${interpretation}</p>
                 </div>
                 ` : ''}
-                ${source ? `<div style="margin-bottom:15px;color:#888;font-size:0.9em;"><strong>出处：</strong>${source}</div>` : ''}
+                ${source ? `<div class="dict-source"><strong>出处：</strong>${source}</div>` : ''}
                 ${sameAuthorHTML}
-                <div style="text-align:center;margin-top:20px;">
+                <div class="dict-modal-footer">
                     <button class="btn btn-primary" onclick="closeDictDetailModal()">关闭</button>
                 </div>
             </div>
@@ -355,20 +348,20 @@ function getEnhancedExplanation(q) {
             const pTitle = toSimplified(poem.title || '');
 
             enhancedHTML = `
-                <div style="margin-bottom:15px;">
+                <div class="dict-enhanced-section">
                     <strong>【诗词原文】</strong><br>
-                    <div style="color:#333;font-size:1.1em;line-height:1.8;padding:10px;background:#f8f8f8;border-radius:8px;">
+                    <div class="dict-enhanced-poem">
                         ${escapeHtml(fullText)}
                     </div>
                 </div>
-                <div style="margin-bottom:10px;">
+                <div class="dict-enhanced-section">
                     <strong>【诗词信息】</strong><br>
-                    <span style="color:#666;">${dynasty}·${pAuthor}《${pTitle}》</span>
+                    <span class="dict-enhanced-label">${dynasty}·${pAuthor}《${pTitle}》</span>
                 </div>
                 ${interpretation ? `
-                <div style="margin-bottom:10px;">
+                <div class="dict-enhanced-section">
                     <strong>【诗词释义】</strong><br>
-                    <span style="color:#555;">${escapeHtml(interpretation)}</span>
+                    <span class="dict-enhanced-label-sm">${escapeHtml(interpretation)}</span>
                 </div>
                 ` : ''}
             `;
@@ -429,22 +422,20 @@ function showPoemModal(poem) {
     const formattedText = lines.join('<br>');
 
     const poemHTML = `
-        <div style="position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.6);z-index:1000;display:flex;align-items:center;justify-content:center;"
-            onclick="if(event.target===this)closePoemModal()">
-            <div style="background:var(--paper);border-radius:4px;padding:30px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;font-family:'Noto Serif SC',serif;border:1px solid var(--ink-light);"
-                onclick="event.stopPropagation()">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
-                    <h3 style="margin:0;color:var(--gold-dark);">文 诗词原文</h3>
-                    <button onclick="closePoemModal()" style="background:none;border:none;font-size:1.5em;cursor:pointer;">✕</button>
+        <div class="dict-modal-overlay" onclick="if(event.target===this)closePoemModal()">
+            <div class="dict-modal-body dict-modal-body-sm" onclick="event.stopPropagation()">
+                <div class="dict-modal-header">
+                    <h3 class="dict-modal-title">文 诗词原文</h3>
+                    <button class="dict-modal-close" onclick="closePoemModal()">✕</button>
                 </div>
-                <div style="text-align:center;margin-bottom:15px;">
-                    <span style="font-size:1.4em;font-weight:bold;color:#333;">${dynasty}·${author}《${pTitle}》</span>
+                <div class="dict-modal-info">
+                    <span class="dict-modal-poem-title dict-modal-poem-title-sm">${dynasty}·${author}《${pTitle}》</span>
                 </div>
-                <div style="background:#fff;padding:20px;border-radius:10px;text-align:center;line-height:2.2;font-size:1.15em;color:#222;margin-bottom:15px;">
+                <div class="dict-modal-poem-content">
                     ${formattedText}
                 </div>
-                ${interpretation ? `<div style="margin-top:15px;padding:15px;background:#fff;border-radius:8px;"><strong style="color:var(--gold-dark);">【诗词释义】</strong><p style="color:#555;margin:10px 0 0 0;line-height:1.8;">${interpretation}</p></div>` : ''}
-                <div style="text-align:center;margin-top:20px;">
+                ${interpretation ? `<div class="dict-modal-interp-box"><strong class="dict-modal-interp-title">【诗词释义】</strong><p class="dict-modal-interp-text">${interpretation}</p></div>` : ''}
+                <div class="dict-modal-footer">
                     <button class="btn btn-primary" onclick="closePoemModal()">返回解析</button>
                 </div>
             </div>
