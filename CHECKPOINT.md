@@ -28,3 +28,48 @@
   - 追溯矩阵: 7/7 PASS, 0 BLOCKING
   - commit: b918717 — 6 files, +101/-49
   - 状态: 已完成归档
+
+- 2026-05-11T09:15:00+08:00 M1 通过: deep-audit-verification
+  - 证据: openspec/changes/deep-audit-verification/spec.md
+  - 审计范围: 16 JS模块 + 全6种游戏模式 + UI/UX + 数据安全 + 无障碍 + 边界case
+  - 下一关: M2: 规格锁定（并行Agent全量审计）
+  - 恢复线索: openspec/changes/deep-audit-verification/spec.md
+
+- 2026-05-11T10:30:00+08:00 M2 通过: deep-audit-verification
+  - 证据: openspec/changes/deep-audit-verification/plan-ready.md
+  - 4 Agent 全量审计: Agent1(游戏逻辑21发现) + Agent2(HTML/CSS/UI 30发现) + Agent3(JS代码33发现) + Agent4(数据质量26发现)
+  - 总发现: 10 P0 + 21 P1 + 34 P2 + 5 P3 = 70 个问题
+  - P0 亮点: feihua.js 3处重复属性致数据丢失, match.js/wrong-notes.js XSS, game-core填充过松匹配, totalCount/XP双倍计数, Enter键{once:true}失效, 九宫格截断无解, 竞态条件
+  - 涉及文件: 13 个 (data/feihua.js, js/match.js, js/wrong-notes.js, js/game-core.js, js/feihua.js, js/user.js, js/utils.js, js/navigation.js, index.html, data/feihua_loader.js, data/poems_loader.js, data/questions.js, data/tang_001.json 等)
+  - 修复分6 Phase: A(数据) → B(安全) → C(逻辑) → D(P1) → E(P2) → F(验证)
+  - 下一关: M3: 执行就绪
+  - 恢复线索: openspec/changes/deep-audit-verification/plan-ready.md
+
+- 2026-05-11T10:35:00+08:00 M3 通过: deep-audit-verification
+  - 证据: plan-ready.md 消费 + worktree 创建 (.worktrees/deep-audit-verification)
+  - branch: deep-audit-verification (基于 main@1f4ab65)
+  - 下一关: M4: 实现完成
+  - 恢复线索: openspec/changes/deep-audit-verification/plan-ready.md
+
+- 2026-05-11T10:55:00+08:00 M4 通过: deep-audit-verification
+  - 证据: 4 commits, 8 files, +79/-76
+  - Phase A: ad41b92 — data/feihua.js 合并3对重复属性
+  - Phase B: c16e78b — match.js/wrong-notes.js XSS修复 (onclick→事件委托)
+  - Phase C: e5ee066 — 8个P0逻辑bug (game-core过松匹配/totalCount双倍, feihua XP双倍/Enter键/竞态, user quota崩溃, match九宫格截断)
+  - Phase D: 76ffa23 — P1改进 (a11y, timer 60→10, dead code, 中文变量名→英文, null guard)
+  - 下一关: M5: 验证通过
+  - 恢复线索: openspec/changes/deep-audit-verification/plan-ready.md
+
+- 2026-05-11T11:00:00+08:00 M5 通过: deep-audit-verification
+  - 证据: 36/36 E2E PASS, 0 FAIL, 100% pass rate
+  - 测试覆盖: 全部6游戏模式 + 正确/错误/跳过 + 飞花令全流程 + UI审美
+  - 下一关: M6: 归档
+  - 恢复线索: openspec/changes/deep-audit-verification/close-summary.md
+
+- 2026-05-11T11:05:00+08:00 M6 通过: deep-audit-verification
+  - 证据: openspec/changes/archive/2026-05-11-deep-audit-verification/close-summary.md
+  - 追溯矩阵: 17/17 PASS, 0 BLOCKING
+  - commits: ad41b92 + c16e78b + e5ee066 + 76ffa23 — 8 files, +79/-76
+  - E2E: 36/36 PASS, 100% pass rate
+  - 已部署: main → GitHub → Cloudflare Pages (https://poetry-game.pages.dev)
+  - 状态: 已完成归档
