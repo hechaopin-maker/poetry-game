@@ -539,27 +539,35 @@ function showPoemSource(poemData, isError = false) {
 // 飞花令跳过显示答案（学习模式）
 function skipFeihuaAndShowAnswer() {
     if (!feihuaState.isPlaying) return;
-    
-    // 从当前关键字的未答过的诗句中选一句显示
+
     const unansweredPoems = feihuaState.poems.filter(p => !feihuaState.answered.includes(p.poem));
-    
+
     if (unansweredPoems.length === 0) {
-        // 所有诗句都说过了
         showToast('太棒了！这个字的诗句都说完了！');
         return;
     }
-    
+
     const samplePoem = unansweredPoems[Math.floor(Math.random() * unansweredPoems.length)];
-    
-    // 显示完整学习信息
+
     const promptEl = document.getElementById('feihuaPrompt');
+    // 清理旧的反馈提示，避免堆积
+    const oldSource = promptEl.querySelector('.poem-source-box');
+    if (oldSource) oldSource.remove();
+    const oldHint = promptEl.querySelector('.poem-skip-hint');
+    if (oldHint) oldHint.remove();
+
+    // 截断超长诗句（超过20字截断）
+    const poemText = samplePoem.poem || '';
+    const displayText = poemText.length > 20 ? poemText.slice(0, 20) + '…' : poemText;
+
     const hint = document.createElement('div');
-    hint.style.cssText = 'margin:15px 0;padding:15px;background:rgba(52,152,219,0.15);border-radius:10px;border-left:4px solid #3498db;';
+    hint.className = 'poem-skip-hint';
+    hint.style.cssText = 'margin:15px 0;padding:15px;background:rgba(52,152,219,0.15);border-radius:10px;border-left:4px solid #3498db;overflow:hidden;';
     hint.innerHTML = `
         <div style="color:#3498db;font-weight:bold;margin-bottom:10px;">文 学习一下这句诗</div>
-        <div style="font-size:1.3em;color:var(--text);margin-bottom:10px;line-height:1.6;">"${samplePoem.poem}"</div>
+        <div style="font-size:1.3em;color:var(--text);margin-bottom:10px;line-height:1.6;word-break:break-all;">"${displayText}"</div>
         <div style="color:#666;font-size:0.95em;margin-bottom:5px;">—— ${samplePoem.author}《${samplePoem.title}》</div>
-        <div style="color:#888;font-size:0.85em;">关键字：「<strong>${feihuaState.keyword}</strong>」在这句诗的第${samplePoem.poem.indexOf(feihuaState.keyword) + 1}个字位置</div>
+        <div style="color:#888;font-size:0.85em;">关键字：「<strong>${feihuaState.keyword}</strong>」在这句诗的第${poemText.indexOf(feihuaState.keyword) + 1}个字位置</div>
     `;
     promptEl.appendChild(hint);
     
