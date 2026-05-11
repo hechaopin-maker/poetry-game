@@ -38,7 +38,32 @@ function startMatch() {
     matchState.questions = generateMatchQuestions(10);
     
     showPage('matchPage');
+    setupMatchGridEvents();
     showMatchQuestion();
+}
+
+
+function setupMatchGridEvents() {
+    const jiugongGrid = document.getElementById('jiugonggeGrid');
+    const dianziGrid = document.getElementById('dianziGrid');
+    if (jiugongGrid && !jiugongGrid._eventsSetup) {
+        jiugongGrid.addEventListener('click', function(e) {
+            const el = e.target.closest('.jiugong-char');
+            if (!el || el.classList.contains('disabled')) return;
+            const char = el.dataset.char;
+            if (char) selectJiugongChar(el, char);
+        });
+        jiugongGrid._eventsSetup = true;
+    }
+    if (dianziGrid && !dianziGrid._eventsSetup) {
+        dianziGrid.addEventListener('click', function(e) {
+            const el = e.target.closest('.dianzi-char');
+            if (!el || el.classList.contains('disabled')) return;
+            const char = el.dataset.char;
+            if (char) selectDianziChar(el, char);
+        });
+        dianziGrid._eventsSetup = true;
+    }
 }
 
 function generateMatchQuestions(count) {
@@ -186,7 +211,7 @@ function showJiugongGe(q) {
     const chars = [...q.chars].sort(() => Math.random() - 0.5);
     
     grid.innerHTML = chars.map((char, idx) => `
-        <div class="jiugong-char" data-char="${char}" onclick="selectJiugongChar(this, '${char}')">${char}</div>
+        <div class="jiugong-char" data-char="${char}" >${char}</div>
     `).join('');
 }
 
@@ -212,7 +237,7 @@ function showShiergongGe(q) {
     const chars = [...q.chars].sort(() => Math.random() - 0.5);
     
     grid.innerHTML = chars.map((char, idx) => `
-        <div class="jiugong-char" data-char="${char}" onclick="selectJiugongChar(this, '${char}')">${char}</div>
+        <div class="jiugong-char" data-char="${char}" >${char}</div>
     `).join('');
 }
 
@@ -285,7 +310,7 @@ function showDianZiChengShi(q) {
     const chars = [...q.chars].sort(() => Math.random() - 0.5);
     
     dianzi.innerHTML = chars.map((char, idx) => `
-        <div class="dianzi-char" data-char="${char}" onclick="selectDianziChar(this, '${char}')">${char}</div>
+        <div class="dianzi-char" data-char="${char}" >${char}</div>
     `).join('') + `
         <div class="selected-poem" id="selectedPoem"></div>
         <button class="btn" style="margin-top:15px;" onclick="submitDianziAnswer()">确认</button>
