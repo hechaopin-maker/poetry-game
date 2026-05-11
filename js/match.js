@@ -325,8 +325,8 @@ function showDianZiChengShi(q) {
         <div class="dianzi-char" data-char="${char}" >${char}</div>
     `).join('') + `
         <div class="selected-poem" id="selectedPoem"></div>
-        <button class="btn" style="margin-top:15px;" onclick="submitDianziAnswer()">确认</button>
-        <button class="btn btn-secondary" style="margin-top:10px;" onclick="clearDianziSelection()">清空</button>
+        <button class="btn dianzi-submit-btn" onclick="submitDianziAnswer()">确认</button>
+        <button class="btn btn-secondary dianzi-clear-btn" onclick="clearDianziSelection()">清空</button>
     `;
 }
 
@@ -403,8 +403,8 @@ function handleMatchCorrect() {
     const result = document.getElementById('matchResult');
     result.classList.remove('hidden');
     result.innerHTML = `
-        <div style="color:var(--success);font-size:1.2em;">正 正确！+${points}分</div>
-        <div style="margin-top:5px;color:#666;">${matchState.currentQuestion.poem || ''} - ${matchState.currentQuestion.author || ''}</div>
+        <div class="match-feedback-correct">正 正确！+${points}分</div>
+        <div class="match-feedback-sub">${matchState.currentQuestion.poem || ''} - ${matchState.currentQuestion.author || ''}</div>
     `;
     
     setTimeout(() => {
@@ -436,8 +436,8 @@ function handleMatchWrong() {
     const result = document.getElementById('matchResult');
     result.classList.remove('hidden');
     result.innerHTML = `
-        <div style="color:var(--error);font-size:1.2em;">✗ 错误！正确答案是：${matchState.currentQuestion.answer}</div>
-        <div style="margin-top:5px;color:#666;">${matchState.currentQuestion.poem || ''} - ${matchState.currentQuestion.author || ''}</div>
+        <div class="match-feedback-wrong">✗ 错误！正确答案是：${matchState.currentQuestion.answer}</div>
+        <div class="match-feedback-sub">${matchState.currentQuestion.poem || ''} - ${matchState.currentQuestion.author || ''}</div>
     `;
     
     // 记录错题
@@ -461,59 +461,59 @@ function showMatchAnswer() {
     });
     
     // 构建答案HTML
-    let answerHtml = '<div style="text-align:left;max-width:500px;margin:0 auto;">';
-    
+    let answerHtml = '<div class="match-answer-container">';
+
     // 诗词标题
-    answerHtml += '<div style="text-align:center;margin-bottom:20px;">';
-    answerHtml += '<div style="font-size:1.4em;font-weight:bold;color:var(--primary-dark);">' + q.poem + '</div>';
-    answerHtml += '<div style="color:#666;margin-top:5px;">' + q.dynasty + ' · ' + q.author + '</div>';
+    answerHtml += '<div class="match-answer-header">';
+    answerHtml += '<div class="match-answer-title">' + q.poem + '</div>';
+    answerHtml += '<div class="match-answer-author">' + q.dynasty + ' · ' + q.author + '</div>';
     answerHtml += '</div>';
-    
+
     // 诗词全文
     if (q.fullText) {
-        answerHtml += '<div style="background:#f9f9f9;border-radius:12px;padding:15px;margin-bottom:15px;text-align:center;">';
-        answerHtml += '<div style="font-size:1.1em;line-height:1.8;color:#333;">' + q.fullText.replace(/,/g, '，').replace(/\./g, '。') + '</div>';
+        answerHtml += '<div class="match-answer-section match-answer-section-light">';
+        answerHtml += '<div class="match-answer-text">' + q.fullText.replace(/,/g, '，').replace(/\./g, '。') + '</div>';
         answerHtml += '</div>';
     }
-    
+
     // 译文/解析
     if (q.interpretation) {
-        answerHtml += '<div style="background:#e8f4e8;border-radius:12px;padding:15px;margin-bottom:15px;">';
-        answerHtml += '<div style="font-weight:bold;color:#2e7d32;margin-bottom:8px;">文 译文</div>';
-        answerHtml += '<div style="color:#555;line-height:1.6;">' + q.interpretation + '</div>';
+        answerHtml += '<div class="match-answer-section match-answer-section-green">';
+        answerHtml += '<div class="match-answer-section-title match-answer-section-title-green">文 译文</div>';
+        answerHtml += '<div class="match-answer-interp-text">' + q.interpretation + '</div>';
         answerHtml += '</div>';
     }
-    
+
     // 关键词句
     if (q.keySentence) {
-        answerHtml += '<div style="background:#fff3e0;border-radius:12px;padding:15px;margin-bottom:15px;">';
-        answerHtml += '<div style="font-weight:bold;color:#e65100;margin-bottom:8px;">星 关键词句</div>';
-        answerHtml += '<div style="color:#333;">' + q.keySentence + '</div>';
+        answerHtml += '<div class="match-answer-section match-answer-section-orange">';
+        answerHtml += '<div class="match-answer-section-title match-answer-section-title-orange">星 关键词句</div>';
+        answerHtml += '<div class="match-answer-key-text">' + q.keySentence + '</div>';
         answerHtml += '</div>';
     }
-    
+
     // 知识要点
     if (q.knowledgePoints && q.knowledgePoints.length > 0) {
-        answerHtml += '<div style="margin-bottom:15px;">';
-        answerHtml += '<div style="font-weight:bold;color:#666;margin-bottom:8px;">书 知识要点</div>';
-        answerHtml += '<div style="display:flex;flex-wrap:wrap;gap:6px;">';
+        answerHtml += '<div class="match-answer-knowledge-wrap">';
+        answerHtml += '<div class="match-answer-section-title match-answer-section-title-gray">书 知识要点</div>';
+        answerHtml += '<div class="match-answer-tags">';
         q.knowledgePoints.forEach(kp => {
-            answerHtml += '<span style="background:#e3f2fd;color:#1565c0;padding:4px 10px;border-radius:15px;font-size:0.85em;">' + kp + '</span>';
+            answerHtml += '<span class="match-answer-tag">' + kp + '</span>';
         });
         answerHtml += '</div></div>';
     }
-    
+
     // 正确答案
-    answerHtml += '<div style="background:var(--success);color:#fff;border-radius:12px;padding:15px;margin-bottom:15px;text-align:center;">';
-    answerHtml += '<div style="font-weight:bold;margin-bottom:5px;">正 正确答案是</div>';
-    answerHtml += '<div style="font-size:1.3em;font-weight:bold;letter-spacing:3px;">' + q.answer + '</div>';
+    answerHtml += '<div class="match-answer-section match-answer-section-success">';
+    answerHtml += '<div class="match-answer-correct-label">正 正确答案是</div>';
+    answerHtml += '<div class="match-answer-correct-text">' + q.answer + '</div>';
     answerHtml += '</div>';
-    
+
     // 返回按钮
-    answerHtml += '<div style="text-align:center;margin-top:20px;">';
+    answerHtml += '<div class="match-answer-footer">';
     answerHtml += '<button class="btn" onclick="continueMatchAnswer()">继续答题</button>';
     answerHtml += '</div>';
-    
+
     answerHtml += '</div>';
     
     // 显示答案
@@ -553,9 +553,9 @@ function endMatch() {
     const result = document.getElementById('matchResult');
     result.classList.remove('hidden');
     result.innerHTML = `
-        <div style="color:var(--success);font-size:1.5em;">贺 通关！</div>
-        <div style="margin-top:10px;">得分：<strong>${matchState.score}</strong> 分</div>
-        <div style="margin-top:10px;">
+        <div class="match-complete-title">贺 通关！</div>
+        <div class="match-complete-info">得分：<strong>${matchState.score}</strong> 分</div>
+        <div class="match-complete-actions">
             <button class="btn" onclick="startMatch()">再玩一次</button>
             <button class="btn btn-secondary" onclick="goHome()">返回主页</button>
         </div>

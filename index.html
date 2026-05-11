@@ -1251,8 +1251,40 @@
 .selected-chars-text { font-size: 1.3em; font-weight: bold; color: #333; letter-spacing: 5px; }
 .selected-chars-actions { margin-top: 10px; }
 .dianzi-grid { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 20px 0; }
+/* match.js — result feedback */
 .match-result { text-align: center; padding: 15px; }
+.match-feedback-correct { color: var(--success); font-size: 1.2em; }
+.match-feedback-wrong { color: var(--error); font-size: 1.2em; }
+.match-feedback-sub { margin-top: 5px; color: #666; }
+.match-complete-title { color: var(--success); font-size: 1.5em; }
+.match-complete-info { margin-top: 10px; }
+.match-complete-actions { margin-top: 10px; }
 .match-answer-btn-row { text-align: center; margin-top: 10px; }
+/* match.js — showMatchAnswer detail view */
+.match-answer-container { text-align: left; max-width: 500px; margin: 0 auto; }
+.match-answer-header { text-align: center; margin-bottom: 20px; }
+.match-answer-title { font-size: 1.4em; font-weight: bold; color: var(--primary-dark); }
+.match-answer-author { color: #666; margin-top: 5px; }
+.match-answer-section { border-radius: 12px; padding: 15px; margin-bottom: 15px; }
+.match-answer-section-light { background: #f9f9f9; text-align: center; }
+.match-answer-section-green { background: #e8f4e8; }
+.match-answer-section-orange { background: #fff3e0; }
+.match-answer-section-success { background: var(--success); color: #fff; text-align: center; }
+.match-answer-text { font-size: 1.1em; line-height: 1.8; color: #333; }
+.match-answer-interp-text { color: #555; line-height: 1.6; }
+.match-answer-section-title { font-weight: bold; margin-bottom: 8px; }
+.match-answer-section-title-green { color: #2e7d32; }
+.match-answer-section-title-orange { color: #e65100; }
+.match-answer-section-title-gray { color: #666; }
+.match-answer-key-text { color: #333; }
+.match-answer-knowledge-wrap { margin-bottom: 15px; }
+.match-answer-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.match-answer-tag { background: #e3f2fd; color: #1565c0; padding: 4px 10px; border-radius: 15px; font-size: 0.85em; }
+.match-answer-correct-label { font-weight: bold; margin-bottom: 5px; }
+.match-answer-correct-text { font-size: 1.3em; font-weight: bold; letter-spacing: 3px; }
+.match-answer-footer { text-align: center; margin-top: 20px; }
+.dianzi-submit-btn { margin-top: 15px; }
+.dianzi-clear-btn { margin-top: 10px; }
 .hint-btn-answer { background: var(--primary-dark); color: #fff; border-color: var(--primary-dark); }
 .loading-overlay { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: var(--paper); padding: 30px 40px; border-radius: 4px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.2); border: 1px solid var(--ink-light); z-index: 10000; }
 .loading-icon { font-family: 'Ma Shan Zheng', serif; font-size: 2em; margin-bottom: 15px; color: var(--gold); }
