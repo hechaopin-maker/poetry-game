@@ -1224,7 +1224,42 @@
 
 /* Dictionary and user component placeholders */
 .dict-list { list-style: none; padding: 0; }
-.user-avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--ink-light); }
+.user-avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--ink-light); cursor: pointer; }
+
+/* ===== P2 Inline Style Replacements ===== */
+.section-footer { text-align: center; margin-top: 20px; }
+.menu-item-disabled { opacity: 0.5; }
+.dev-tag { font-size: 0.8em; color: #999; }
+.search-input { width: 100%; padding: 12px 15px; border: 2px solid var(--secondary); border-radius: 25px; font-size: 1em; font-family: inherit; }
+.empty-state-hint { font-size: 0.9em; margin-top: 10px; }
+.result-button-row { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+.centered-btn-row { text-align: center; margin-top: 15px; }
+.feihua-keyword-section { text-align: center; margin-bottom: 20px; }
+.feihua-keyword-text { font-size: 3em; font-weight: 700; color: var(--primary); }
+.feihua-keyword-hint { color: var(--text-light); margin-top: 5px; }
+.feihua-prompt-box { text-align: center; font-size: 1.2em; padding: 20px; background: var(--bg); border-radius: 12px; margin-bottom: 20px; }
+.feihua-history-box { max-height: 150px; overflow-y: auto; margin-bottom: 15px; }
+.feihua-learning-area { display: none; text-align: center; }
+.feihua-learning-keyword { font-size: 2.5em; font-weight: 700; color: var(--primary); margin: 15px 0; }
+.feihua-learning-poems { max-height: 400px; overflow-y: auto; text-align: left; padding: 10px; }
+.feihua-challenge-area { text-align: center; }
+.feihua-mode-toggle-row { text-align: center; margin: 10px 0; }
+.btn-small-toggle { font-size: 0.85em; padding: 6px 12px; }
+/* Grid display handled by ID selectors in base styles */
+.jiugongge-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 20px 0; }
+.selected-chars-display { display: none; min-height: 50px; padding: 15px; background: #f0f0f0; border-radius: 8px; margin: 15px 0; text-align: center; }
+.selected-chars-text { font-size: 1.3em; font-weight: bold; color: #333; letter-spacing: 5px; }
+.selected-chars-actions { margin-top: 10px; }
+.dianzi-grid { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 20px 0; }
+.match-result { text-align: center; padding: 15px; display: none; }
+.match-answer-btn-row { text-align: center; margin-top: 10px; }
+.hint-btn-answer { background: var(--primary-dark); color: #fff; border-color: var(--primary-dark); }
+.loading-overlay { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); background: var(--paper); padding: 30px 40px; border-radius: 4px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.2); border: 1px solid var(--ink-light); z-index: 10000; }
+.loading-icon { font-family: 'Ma Shan Zheng', serif; font-size: 2em; margin-bottom: 15px; color: var(--gold); }
+.loading-text { font-size: 1.1em; margin-bottom: 10px; }
+.loading-bar-track { width: 200px; height: 6px; background: #eee; border-radius: 3px; margin: 15px auto; overflow: hidden; }
+.loading-bar-fill { width: 0%; height: 100%; background: var(--gold-dark); transition: width 0.3s; }
+.hidden { display: none; }
 
 </style>
 </head>
@@ -1235,14 +1270,14 @@
         <div class="user-info" id="userInfo">
             <span class="xp-badge" id="xpBadge">XP: 0</span>
             <span class="level-badge" id="levelBadge">Lv.1</span>
-            <div class="user-avatar" id="userAvatar" style="cursor:pointer;">吾</div>
+            <div class="user-avatar" id="userAvatar">吾</div>
         </div>
     </header>
 
     <!-- 用户菜单 -->
     <div class="user-menu" id="userMenu">
-        <div class="menu-item" onclick="showRanking()" style="opacity:0.5;">
-            <span>榜</span> 排行榜 <span style="font-size:0.8em;color:#999;">(开发中)</span>
+        <div class="menu-item menu-item-disabled" onclick="showRanking()">
+            <span>榜</span> 排行榜 <span class="dev-tag">(开发中)</span>
         </div>
         <div class="menu-item" onclick="showAchievements()">
             <span>勋</span> 成就
@@ -1321,7 +1356,7 @@
             <div class="level-grid" id="levelGrid">
                 <!-- 动态生成 -->
             </div>
-            <div style="text-align:center;margin-top:20px;">
+            <div class="section-footer">
                 <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
@@ -1357,14 +1392,14 @@
                 <div class="explanation" id="explanation">
                     <div class="explanation-title">答案解析</div>
                     <div id="explanationText"></div>
-                    <div style="text-align:center;margin-top:15px;">
+                    <div class="centered-btn-row">
                         <button class="btn btn-secondary" id="showPoemBtn" onclick="showPoemByQuestion()" style="display:none;margin-right:10px;">看原诗</button>
                         <button class="btn btn-primary" id="nextQuestionBtn" onclick="nextQuestion()" style="display:none;">下一题</button>
                     </div>
                 </div>
             </div>
             
-            <div style="text-align:center;margin-top:20px;">
+            <div class="section-footer">
                 <button class="btn btn-secondary" onclick="exitGame()">退出</button>
             </div>
         </div>
@@ -1391,7 +1426,7 @@
                     </div>
                 </div>
                 
-                <div style="display:flex;gap:15px;justify-content:center;flex-wrap:wrap;">
+                <div class="result-button-row">
                     <button class="btn" onclick="restartGame()">再试一次</button>
                     <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
                 </div>
@@ -1404,8 +1439,7 @@
                 <div class="game-title">诗词词典</div>
             </div>
             <div style="margin-bottom:20px;">
-                <input type="text" id="dictSearch" placeholder="搜索诗词、诗人..." 
-                       style="width:100%;padding:12px 15px;border:2px solid var(--secondary);border-radius:25px;font-size:1em;font-family:inherit;">
+                <input type="text" id="dictSearch" class="search-input" placeholder="搜索诗词、诗人...">
             </div>
             <div id="dictResults" class="dict-list">
                 <div class="empty-state">
@@ -1413,7 +1447,7 @@
                     <p>输入关键词搜索诗词</p>
                 </div>
             </div>
-            <div style="text-align:center;margin-top:20px;">
+            <div class="section-footer">
                 <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
@@ -1426,7 +1460,7 @@
             <div id="wrongList">
                 <!-- 动态生成 -->
             </div>
-            <div style="text-align:center;margin-top:20px;">
+            <div class="section-footer">
                 <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
@@ -1440,10 +1474,10 @@
                 <div class="empty-state">
                     <div class="empty-icon">榜</div>
                     <p>排行榜功能开发中...</p>
-                    <p style="font-size:0.9em;margin-top:10px;">敬请期待！</p>
+                    <p class="empty-state-hint">敬请期待！</p>
                 </div>
             </div>
-            <div style="text-align:center;margin-top:20px;">
+            <div class="section-footer">
                 <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
@@ -1456,7 +1490,7 @@
             <div id="achievementList">
                 <!-- 动态生成 -->
             </div>
-            <div style="text-align:center;margin-top:20px;">
+            <div class="section-footer">
                 <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
@@ -1479,40 +1513,40 @@
                         <span id="feihuaCount">0/3</span>
                     </div>
                 </div>
-                <div style="text-align:center;margin:10px 0;">
-                    <button class="btn btn-small" id="feihuaModeToggle" onclick="toggleFeihuaMode()" style="font-size:0.85em;padding:6px 12px;">切换到学习模式</button>
+                <div class="feihua-mode-toggle-row">
+                    <button class="btn btn-small btn-small-toggle" id="feihuaModeToggle" onclick="toggleFeihuaMode()">切换到学习模式</button>
                 </div>
             </div>
             
             <div class="question-box">
-                <div style="text-align:center;margin-bottom:20px;">
-                    <div style="font-size:3em;font-weight:700;color:var(--primary);" id="feihuaKeyword">春</div>
-                    <div style="color:var(--text-light);margin-top:5px;">请说出含此字的诗句</div>
+                <div class="feihua-keyword-section">
+                    <div class="feihua-keyword-text" id="feihuaKeyword">春</div>
+                    <div class="feihua-keyword-hint">请说出含此字的诗句</div>
                 </div>
                 
-                <div id="feihuaPrompt" style="text-align:center;font-size:1.2em;padding:20px;background:var(--bg);border-radius:12px;margin-bottom:20px;">
+                <div id="feihuaPrompt" class="feihua-prompt-box">
                     点击下方按钮，说出第一句诗
                 </div>
                 
-                <div id="feihuaHistory" style="max-height:150px;overflow-y:auto;margin-bottom:15px;">
+                <div id="feihuaHistory" class="feihua-history-box">
                     <!-- 答题历史 -->
                 </div>
                 
                 <!-- 学习模式内容 -->
-                <div id="feihuaLearningArea" style="display:none;text-align:center;">
-                    <div id="feihuaLearningKeyword" style="font-size:2.5em;font-weight:700;color:var(--primary);margin:15px 0;"></div>
-                    <div id="feihuaLearningPoems" style="max-height:400px;overflow-y:auto;text-align:left;padding:10px;"></div>
-                    <div style="text-align:center;margin-top:15px;">
+                <div id="feihuaLearningArea" class="feihua-learning-area">
+                    <div id="feihuaLearningKeyword" class="feihua-learning-keyword"></div>
+                    <div id="feihuaLearningPoems" class="feihua-learning-poems"></div>
+                    <div class="centered-btn-row">
                         <button class="btn" onclick="nextLearningKeyword()">下一个关键字 👉</button>
                     </div>
                 </div>
                 
-                <div style="text-align:center;" id="feihuaChallengeArea">
+                <div class="feihua-challenge-area" id="feihuaChallengeArea">
                     <button class="btn" id="feihuaStartBtn" onclick="startFeihuaGame()">开始挑战</button>
                 </div>
             </div>
             
-            <div style="text-align:center;margin-top:20px;">
+            <div class="section-footer">
                 <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
@@ -1540,35 +1574,35 @@
             <div class="question-box">
                 <span class="question-type" id="matchType">九宫格</span>
                 <div class="question-text" id="matchQuestion">从下方9个字中选出正确的一句诗</div>
-                <div style="text-align:center;margin-top:10px;">
-                    <button class="hint-btn" onclick="showMatchAnswer()" style="background:var(--primary-dark);color:#fff;border-color:var(--primary-dark);">答案</button>
+                <div class="match-answer-btn-row">
+                    <button class="hint-btn hint-btn-answer" onclick="showMatchAnswer()">答案</button>
                 </div>
                 
                 <!-- 九宫格选项 -->
-                <div id="jiugonggeGrid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0;">
+                <div id="jiugonggeGrid" class="jiugongge-grid">
                     <!-- 动态生成 -->
                 </div>
                 
                 <!-- 选中字符显示区（用于十二宫格） -->
-                <div id="selectedCharsDisplay" style="display:none;min-height:50px;padding:15px;background:#f0f0f0;border-radius:8px;margin:15px 0;text-align:center;">
-                    <div id="selectedCharsText" style="font-size:1.3em;font-weight:bold;color:#333;letter-spacing:5px;"></div>
-                    <div style="margin-top:10px;">
+                <div id="selectedCharsDisplay" class="selected-chars-display">
+                    <div id="selectedCharsText" class="selected-chars-text"></div>
+                    <div class="selected-chars-actions">
                         <button class="btn" id="confirmSelectionBtn" onclick="confirmSelection()" style="margin-right:10px;">确认答案</button>
                         <button class="btn btn-secondary" onclick="clearSelection()">清空</button>
                     </div>
                 </div>
                 
                 <!-- 点字成诗选项 -->
-                <div id="dianziGrid" style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:20px 0;">
+                <div id="dianziGrid" class="dianzi-grid">
                     <!-- 动态生成 -->
                 </div>
                 
-                <div id="matchResult" style="text-align:center;padding:15px;display:none;">
+                <div id="matchResult" class="match-result">
                     <!-- 结果显示 -->
                 </div>
             </div>
             
-            <div style="text-align:center;margin-top:20px;">
+            <div class="section-footer">
                 <button class="btn btn-secondary" onclick="goHome()" aria-label="返回首页">返回主页</button>
             </div>
         </div>
@@ -1585,17 +1619,17 @@
     <div class="toast" id="toast"></div>
     
     <!-- 加载状态提示 -->
-    <div id="loadingMsg" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--paper);padding:30px 40px;border-radius:4px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,0.2);border:1px solid var(--ink-light);z-index:10000;">
-        <div style="font-family:'Ma Shan Zheng',serif;font-size:2em;margin-bottom:15px;color:var(--gold);">文</div>
-        <div id="loadingText" style="font-size:1.1em;margin-bottom:10px;">正在加载诗词数据...</div>
-        <div style="width:200px;height:6px;background:#eee;border-radius:3px;margin:15px auto;overflow:hidden;">
-            <div id="loadingBar" style="width:0%;height:100%;background:var(--gold-dark);transition:width 0.3s;"></div>
+    <div id="loadingMsg" class="loading-overlay">
+        <div class="loading-icon">文</div>
+        <div id="loadingText" class="loading-text">正在加载诗词数据...</div>
+        <div class="loading-bar-track">
+            <div id="loadingBar" class="loading-bar-fill"></div>
         </div>
     </div>
 
-    <div id="loadErrorMsg" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--paper);padding:30px 40px;border-radius:4px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,0.2);border:1px solid var(--ink-light);z-index:10000;">
-        <div style="font-family:'Ma Shan Zheng',serif;font-size:2em;margin-bottom:15px;color:var(--gold);">载</div>
-        <div style="font-size:1.1em;margin-bottom:10px;">数据加载失败</div>
+    <div id="loadErrorMsg" class="loading-overlay hidden">
+        <div class="loading-icon">载</div>
+        <div class="loading-text">数据加载失败</div>
         <div style="color:var(--text-light);margin-bottom:20px;">请检查网络连接后刷新页面重试</div>
         <button class="btn" onclick="location.reload()">刷新页面</button>
     </div>
