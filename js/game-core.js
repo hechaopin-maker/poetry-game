@@ -152,26 +152,25 @@ function showQuestion() {
                 let inputsHTML = '';
                 for (let i = 0; i < blankCount; i++) {
                     const placeholder = `请输入第${i + 1}个答案`;
-                    inputsHTML += `<input type="text" class="fill-input" id="fillAnswerInput${i}" 
-                                   placeholder="${placeholder}" 
-                                   autocomplete="off"
-                                   style="margin-bottom:10px">`;
+                    inputsHTML += `<input type="text" class="fill-input" id="fillAnswerInput${i}"
+                                   placeholder="${placeholder}"
+                                   autocomplete="off">`;
                 }
-                inputBox.innerHTML = inputsHTML + `<button class="btn" onclick="submitFillAnswer()">提交答案</button>` + 
-                    `<div style="text-align:center;margin-top:15px;">
-                        <a href="javascript:void(0)" onclick="skipAndShowAnswer()" style="color:#666;font-size:14px;text-decoration:underline;">不会做？点此查看答案（记为错题）</a>
+                inputBox.innerHTML = inputsHTML + `<button class="btn" onclick="submitFillAnswer()">提交答案</button>` +
+                    `<div class="skip-link-area">
+                        <a href="javascript:void(0)" class="skip-link" onclick="skipAndShowAnswer()">不会做？点此查看答案（记为错题）</a>
                     </div>`;
                 // 保存空白数量到gameState
                 gameState.currentBlankCount = blankCount;
             } else {
                 // 单个空：创建单个输入框
                 inputBox.innerHTML = `
-                    <input type="text" class="fill-input" id="fillAnswerInput0" 
-                           placeholder="请输入答案..." 
+                    <input type="text" class="fill-input" id="fillAnswerInput0"
+                           placeholder="请输入答案..."
                            autocomplete="off">
                     <button class="btn" onclick="submitFillAnswer()">提交答案</button>
-                    <div style="text-align:center;margin-top:15px;">
-                        <a href="javascript:void(0)" onclick="skipAndShowAnswer()" style="color:#666;font-size:14px;text-decoration:underline;">不会做？点此查看答案（记为错题）</a>
+                    <div class="skip-link-area">
+                        <a href="javascript:void(0)" class="skip-link" onclick="skipAndShowAnswer()">不会做？点此查看答案（记为错题）</a>
                     </div>
                 `;
                 gameState.currentBlankCount = 1;
@@ -205,9 +204,8 @@ function showQuestion() {
         });
         // 添加"跳过看答案"链接
         const skipLink = document.createElement('div');
-        skipLink.style.textAlign = 'center';
-        skipLink.style.marginTop = '15px';
-        skipLink.innerHTML = '<a href="javascript:void(0)" onclick="skipChoiceAndShowAnswer()" style="color:#666;font-size:14px;text-decoration:underline;">不会做？点此查看答案（记为错题）</a>';
+        skipLink.className = 'skip-link-area';
+        skipLink.innerHTML = '<a href="javascript:void(0)" class="skip-link" onclick="skipChoiceAndShowAnswer()">不会做？点此查看答案（记为错题）</a>';
         container.appendChild(skipLink);
     }
     
