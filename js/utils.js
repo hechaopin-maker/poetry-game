@@ -5,12 +5,15 @@
  * @param {string} str - 输入字符串
  * @returns {string} 简体字符串
  */
+const _tradCache = new Map();
 function toSimplified(str) {
     if (!str || typeof str !== 'string') return str;
+    if (_tradCache.has(str)) return _tradCache.get(str);
     let result = '';
     for (const char of str) {
         result += TRAD_TO_SIMP[char] || char;
     }
+    _tradCache.set(str, result);
     return result;
 }
 
