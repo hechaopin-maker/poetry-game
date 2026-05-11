@@ -1198,7 +1198,8 @@ function getPoemsByCharacter(key) {
             { poem: "月黑雁飞高，单于夜遁逃", author: "卢纶", title: "塞下曲" },
             { poem: "长风万里送秋雁，对此可以酣高楼", author: "李白", title: "宣州谢朓楼饯别校书叔云" },
             { poem: "鸿雁几时到，江湖秋水多", author: "杜甫", title: "天末怀李白" },
-            { poem: "塞下秋来风景异，衡阳雁去无留意", author: "范仲淹", title: "渔家傲·秋思" }
+            { poem: "塞下秋来风景异，衡阳雁去无留意", author: "范仲淹", title: "渔家傲·秋思" },
+            { poem: "雁过也，正伤心，却是旧时相识", author: "李清照", title: "声声慢" }
         ]
     },
     lu: {
@@ -1280,19 +1281,6 @@ function getPoemsByCharacter(key) {
         poems: [
             { poem: "小荷才露尖尖角，早有蜻蜓立上头", author: "杨万里", title: "小池" },
             { poem: "穿花蛱蝶深深见，点水蜻蜓款款飞", author: "杜甫", title: "曲江二首" }
-        ]
-    },
-    // ========== 物品器具类 ==========
-    jiu: {
-        character: "酒",
-        level: "medium",
-        poems: [
-            { poem: "劝君更尽一杯酒，西出阳关无故人", author: "王维", title: "送元二使安西" },
-            { poem: "葡萄美酒夜光杯，欲饮琵琶马上催", author: "王翰", title: "凉州词" },
-            { poem: "借问酒家何处有，牧童遥指杏花村", author: "杜牧", title: "清明" },
-            { poem: "金樽清酒斗十千，玉盘珍羞直万钱", author: "李白", title: "行路难" },
-            { poem: "花间一壶酒，独酌无相亲", author: "李白", title: "月下独酌" },
-            { poem: "白日放歌须纵酒，青春作伴好还乡", author: "杜甫", title: "闻官军收河南河北" }
         ]
     },
     cha: {
@@ -1701,14 +1689,6 @@ if (typeof module !== 'undefined' && module.exports) {
         poems: [
             { poem: "大漠孤烟直，长河落日圆", author: "王维", title: "使至塞上" },
             { poem: "沙上并禽池上暝，云破月来花弄影", author: "张先", title: "天仙子" }
-        ]
-    },
-    yan2: {
-        character: "雁",
-        level: "medium",
-        poems: [
-            { poem: "千里黄云白日曛，北风吹雁雪纷纷", author: "高适", title: "别董大" },
-            { poem: "雁过也，正伤心，却是旧时相识", author: "李清照", title: "声声慢" }
         ]
     },
     xue2: {
@@ -2174,13 +2154,6 @@ if (typeof module !== 'undefined' && module.exports) {
         level: "medium",
         poems: [
             { poem: "东方半明大星没，犹带昭阳日影来", author: "韩愈", title: "东方半明》" }
-        ]
-    },
-    er: {
-        character: "儿",
-        level: "easy",
-        poems: [
-            { poem: "儿berman", author: "杜甫", title: "茅屋为秋风所破歌" }
         ]
     },
     dou: {
