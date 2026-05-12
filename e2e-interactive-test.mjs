@@ -565,7 +565,7 @@ await page.waitForTimeout(500);
 result('T7.1 User menu visible', await page.locator('#userMenu').isVisible().catch(() => false));
 
 // Navigate to achievements
-const achMenuItem = page.locator('#userMenu button:has-text("成就"), #userMenu div:has-text("成就")').first();
+const achMenuItem = page.locator('#userMenu .menu-item:has-text("成就")').first();
 if (await achMenuItem.isVisible().catch(() => false)) {
   await achMenuItem.click();
   await page.waitForTimeout(800);
@@ -589,7 +589,7 @@ await goHome();
 await page.click('#userAvatar');
 await page.waitForTimeout(400);
 
-const rankMenuItem = page.locator('#userMenu button:has-text("排行"), #userMenu div:has-text("排行")').first();
+const rankMenuItem = page.locator('#userMenu .menu-item:has-text("排行榜")').first();
 if (await rankMenuItem.isVisible().catch(() => false)) {
   await rankMenuItem.click();
   await page.waitForTimeout(800);
