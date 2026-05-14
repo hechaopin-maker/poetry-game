@@ -1,0 +1,26 @@
+{
+  "name": "古诗词大挑战",
+  "short_name": "古诗词",
+  "description": "古诗词答题游戏 — 选择题、填空题、飞花令、九宫格、诗词配对、成语接龙",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4efe6",
+  "theme_color": "#2c2c2c",
+  "categories": ["education", "games"],
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

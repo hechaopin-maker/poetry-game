@@ -150,17 +150,22 @@ function generateMatchQuestions(count) {
         // 生成字符数组（用于九宫格/点字成诗）
         let chars = answer.split('');
         
-        // Random game mode: dianzichengshi, jiugongge, or shiergongge
-        const gameMode = ['dianzichengshi', 'jiugongge', 'shiergongge'][Math.floor(Math.random() * 3)];
-        
-        // 根据模式调整字符数量
-        const targetCount = gameMode === 'shiergongge' ? 12 : 9;
         
         // 去除答案中重复的字符，保留唯一字符
         let uniqueAnswerChars = [...new Set(chars)];
         chars = [...uniqueAnswerChars];
 
-        // 如果答案唯一字符超过targetCount，截断为前N个（罕见：古诗句通常≤7字）
+        // 根据答案唯一字符数选择游戏模式，确保所有答案字都在格内
+        let gameMode, targetCount;
+        if (uniqueAnswerChars.length > 9) {
+            gameMode = 'shiergongge';
+            targetCount = 12;
+        } else {
+            gameMode = ['dianzichengshi', 'jiugongge', 'shiergongge'][Math.floor(Math.random() * 3)];
+            targetCount = gameMode === 'shiergongge' ? 12 : 9;
+        }
+
+        // 如果答案唯一字符超过12个（极罕见），截断前12个
         if (chars.length > targetCount) {
         	chars = chars.slice(0, targetCount);
         }

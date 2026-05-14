@@ -112,6 +112,17 @@ function showWrongNotes() {
 
     const list = document.getElementById('wrongList');
 
+    // Event delegation for weakness tags (XSS-safe: uses data attributes)
+    if (!list._wnDelegated) {
+        list.addEventListener('click', function(e) {
+            const btn = e.target.closest('.wn-weakness-tag');
+            if (btn && btn.dataset.wnName) {
+                startWeakPointTraining(btn.dataset.wnName);
+            }
+        });
+        list._wnDelegated = true;
+    }
+
     // 清理无效的错题数据
     const originalCount = gameState.currentUser.wrongQuestions.length;
     gameState.currentUser.wrongQuestions = gameState.currentUser.wrongQuestions.filter(w =>
@@ -146,7 +157,7 @@ function showWrongNotes() {
         `;
         stats.slice(0, 8).forEach(s => {
             html += `
-                <button class="btn btn-secondary wn-weakness-tag" onclick="startWeakPointTraining('${s.name}')"
+                <button class="btn btn-secondary wn-weakness-tag" data-wn-name="${s.name.replace(/"/g, '&quot;')}"
                     title="${s.count} 道错题 · 点击开始专项训练">
                     ${s.name} <span class="wn-weakness-count">${s.count}</span>
                 </button>

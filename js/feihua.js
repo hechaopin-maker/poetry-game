@@ -360,7 +360,7 @@ function showFeihuaInput() {
                     e.preventDefault();
                     submitFeihuaAnswerByInput();
                 }
-            }, { once: true });
+            });
         }
     }, 100);
 }

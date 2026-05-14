@@ -2,8 +2,17 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>古诗词大挑战</title>
+
+    <!-- PWA / iOS -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#2c2c2c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="古诗词">
+    <link rel="apple-touch-icon" href="/icons/apple-icon.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Ma+Shan+Zheng&family=Zhi+Mang+Xing&display=swap" rel="stylesheet" crossorigin>
     <style>
@@ -1884,5 +1893,31 @@
 
     <!-- 入口文件 -->
     <script src="js/app.js?v=20260428" onerror="onScriptError(event)"></script>
+
+    <!-- PWA: Service Worker + 离线检测 -->
+    <script>
+    (function() {
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(function() {});
+            });
+        }
+
+        var banner = document.createElement('div');
+        banner.id = 'offline-banner';
+        banner.style.cssText = 'display:none;position:fixed;top:0;left:0;right:0;z-index:9999;'
+            + 'background:#2c2c2c;color:#faf8f3;text-align:center;padding:10px 16px;'
+            + 'font-size:0.85em;font-family:\'Noto Serif SC\',serif;transition:transform 0.3s ease;';
+        banner.textContent = '当前离线 — 已缓存内容仍可使用';
+        document.body.insertBefore(banner, document.body.firstChild);
+
+        function updateBanner() {
+            banner.style.display = navigator.onLine ? 'none' : 'block';
+        }
+        window.addEventListener('online', updateBanner);
+        window.addEventListener('offline', updateBanner);
+        updateBanner();
+    })();
+    </script>
 </body>
 </html>
